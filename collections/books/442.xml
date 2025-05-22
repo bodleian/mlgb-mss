@@ -1,0 +1,72 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_442">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>University Library</repository>
+                  <idno type="shelfmark">MS. Ii.3.9</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">442</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Augustinus, etc.</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="12XX">s. xiii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="org_53">Biddlesden,
+                        Buckinghamshire. Cistercian abbey of St Mary the Virgin. </orgName><p>'Liber
+                        S. Marie de Bettilesden'</p><p>'Liber ssancte Marie de D[a&gt;e]rblesei. .
+                        .'</p><p>'Hic liber est magistri Iohan . . .'</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Given to CUL by Walter Crome in
+                     1444.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

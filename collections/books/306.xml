@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_306">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">MS. Additional 9830, flyleaf</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">306</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Alexander de Hales</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>?</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="org_27">Babwell (Bury St Edmunds),
+                        Suffolk. Franciscan convent. </orgName><p>'Pars primi libri de Hales et pars
+                        secundi De communitate fratrum minorum sancti Eadmundi. Iste xii quaterni et
+                        4or folia de questionibus super librum primum sent' et 3m librum sunt
+                        fratres Reyn' de yxuigg''.</p><p>The ex libris, preceded by the title quoted
+                        above, and in a hand of s. xiii/xiv, is on a slip of parchment pasted to a
+                        modern binding leaf. Presumably the slip was in the previous binding of Add.
+                        9830, Petrus de Alvernia on the Meteora of Aristotle, s.
+                     xiv.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Thomas Martin' on slip of parchment pasted
+                     below the ex libris inscription. Given by William Marsden in 1838.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_955">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Rome, Italy</settlement>
+                  <repository>Biblioteca Apostolica Vaticana</repository>
+                  <idno type="shelfmark">MS. Ottoboni lat. 612</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">955</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Aegidius Romanus, etc.</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="13XX">s. xiv</origDate>
+                  </origin>
+                  <provenance type="#b"><orgName role="fmo" key="org_96">Cambridge, Cambridgeshire.
+                        Convent of Austin friars. </orgName><p>Flyleaves, fols. i--iv, are from a
+                        48-line Digest, Bk XII, as MS lat. 323.</p><p>The familiar mark: 'FR'
+                        against the table of contents, fol. vv.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Marcello Cervini (1501--1555), cardinal, his
+                     no. 948. </provenance>
+                  <provenance type="MLGB3_laterOwners">Gugliemo Sirleto (1514--1585), cardinal and
+                     scholar, his no. 377.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

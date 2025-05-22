@@ -1,0 +1,93 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_354">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Aberystwyth, Wales</settlement>
+                  <repository>National Library of Wales</repository>
+                  <idno type="shelfmark">MS. 7006 D</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">354</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Dares Phrygius, etc. ('Black Book of Basing')</title>
+                     <note type="MLGB3_generalNotes">partly in Welsh</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="13XX/14XX">s. xiv--xv</origDate>
+                  </origin>
+                  <provenance type="#c"><orgName role="fmo" key="org_33">Basingwerk, Flintshire.
+                        Savigniac and then Cistercian abbey of St Mary the Virgin.
+                        </orgName><p>Compiled or transcribed for the use of the monastery by Guttyn
+                        Owain.</p><p>'Note on p. 308 by Peter Roberts, dated 1809, to the effect
+                        that William Maurice of Cefa y braich (on whom, see ODNB) described the MS
+                        as the Book of Basing, i.e. it had belonged to Basingwerk abbey. Above this
+                        is another note by Robert Vaughan of Hengwrt, referring to errors in
+                        pedigrees in the MS, dated 1630. Now, NLW MS 13074 D contains extracts from
+                        the book in the hand of Robert Vaughan, with the following heading: 'O lyfr
+                        manachlog dinas Basing a scrivenassai Guttun Owain herwydd y dywedir, y
+                        tynnwyd sydd yn canlyn at llyfr membrwn sydd eiddo Mr. Robert Davies o
+                        Wisane yn syr Flint 1629', i.e. 'from the book of the monastery of
+                        Basingwerk which Guttyn Owen had written, as it is said, has been drawn what
+                        follows, and the parchment book is the property of Mr. Robert Davies of
+                        Gwysaney in Flintshire, 1629'. The tradition then goes back to 1629 when it
+                        was accepted by Robert Vaughan. . . . A large part of the MS is certainly in
+                        the hand of Guttyn Owen, and as he addressed poems to the abbot of
+                        Basingwerk, this is some support of the tradition. Further, a 16th-cent.
+                        hand . . . has translated a passage relating to Basing on p. 261 and noted a
+                        ref. to Holywell. . . . All this would seem to show that the tradition is a
+                        pretty sound one.' (From a letter of Dr R. Flower, 9 November
+                     1940.)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Robert Davies of Gwysaney, 1629.</provenance>
+                  <provenance type="MLGB3_laterOwners">T. T. Griffiths of Wrexham in
+                     1846.</provenance>
+                  <provenance type="MLGB3_laterOwners"> </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

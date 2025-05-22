@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_766">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">MS. Harley 4968</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">766</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Cilium oculi sacerdotis, etc.</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX">s. xv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="org_86">Bury St Edmunds, Suffolk.
+                        Benedictine abbey of St Edmund, King and Martyr. </orgName><p>'De
+                        procuratione I. de tymworth abbatis' (fol. 1*v, followed by table of
+                        contents in the same hand).</p><p>'Liber monachorum sancti Edmundi de
+                        empcione I. Tymworth abbatis. O.28' (fol. 2*r).</p><p>'Liber monachorum
+                        sancti Edmundi. O.28' (fol. 1r, at top). [The latter two inscriptions are in
+                        the same hand.]</p><p>John de Timworth was abbot of Bury St Edmunds from
+                        1379 to 1389.</p><p>Binding leaf of s. xii.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Sir Clement Heigham (b. in or before 1500, d.
+                     1571), judge and speaker of the House of Commons (as also Harley 5334, 5388 and
+                     5442, from Bury). Inscribed 'Clement Heigham' on fol. 1r.</provenance>
+                  <provenance type="MLGB3_laterOwners">Acquired by Harley 5 November 1723, from
+                     estate of John Battely (d. 1708), archdeacon of Sudbury and canon of Canterbury
+                     (son of an apothecary of Bury).</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

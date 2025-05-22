@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_566">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>St John's College</repository>
+                  <idno type="shelfmark">MS. A.2.1</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">566</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Liber Theodoli, etc.</title>
+                     <msItem>
+                        <title>(i) Liber Theodoli, with commentary by Odo Picard, printed [London:
+                           Richard Pynson, ?1503].</title>
+                     </msItem>
+                     <msItem>
+                        <title>(ii) Libellus sophistarum ad usum Oxoniensium, printed [London]:
+                           Richard Pynson, [c. 1498--1500].</title>
+                     </msItem>
+                     <msItem>
+                        <title>(iii) Libellus sophistarum ad usum Cantabrigiensium (ed. Iohannes
+                           Wolffer), printed [London]: Richard Pynson, 1497.</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>London, A.D. 1497, etc.</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="org_85">Burton-upon-Trent,
+                        Staffordshire. Benedictine abbey of St Mary the Virgin and St Modwenna.
+                        </orgName><p>The name of William Edys is on each tract. The fullest
+                        inscription is on top of part 1: 'Constat Dompno Wyllelmo Edys monacho de
+                        Burton super Trent, si quis alienauerit anathema dei
+                     optinebat'.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Thomas Baker (1656--1740).</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

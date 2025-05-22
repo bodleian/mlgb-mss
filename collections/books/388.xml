@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_388">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">MS. Sloane 4031</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">388</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>J. Lydgate (in English)</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX">s. xv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="org_36">Battle, Sussex. Benedictine
+                        abbey of St Martin. </orgName><p>'Liber S. Martini de Bello ex provisione
+                        domini Iohannis Nuton abbatis' (obliterated inscription af fin., fol. 189v,
+                        said to have read thus). Nuton was abbot 1463--1490.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Liber Willelmi Saunder' (fol. 2r, s.
+                     xvi).</provenance>
+                  <provenance type="MLGB3_laterOwners">'Wm Saunders owt this boke wch wase the lady
+                     Elizabeth Carewes of Eddyngton' (fol. 1v, s. xvi).</provenance>
+                  <provenance type="MLGB3_laterOwners">Other names written on the same page:
+                     Lewkenor, Lawarre, etc.</provenance>
+                  <provenance type="MLGB3_laterOwners">'Thomas lord dacres', 'Dam Anne
+                     dacres'.</provenance>
+                  <provenance type="MLGB3_laterOwners">'N. Hern 1687' (fol. 4v).</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

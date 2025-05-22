@@ -1,0 +1,90 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_186">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Bodley 163</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">186</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Beda etc.</title>
+                     <msItem>
+                        <author>Bede</author>
+                        <title>Historia ecclesiastica gentis Anglorum</title>
+                     </msItem>
+                     <msItem>
+                        <author>&amp;AElig;thelwulf</author>
+                        <title>Carmen de abbatibus cellae suae Historia Brittonum </title>
+                     </msItem>
+                     <msItem>
+                        <author>Ps. Methodius of Olympus</author>
+                        <title>De initio et fine saeculi</title>
+                     </msItem>
+                     <msItem>
+                        <title>Booklist (BP2)</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="10XX">s. xi</origDate>
+                  </origin>
+                  <provenance type="#ic"><orgName role="fmo" key="org_2">Peterborough,
+                        Northamptonshire. Benedictine abbey of St Peter, St Paul, and St Andrew.
+                        </orgName><p>The manuscript contains a booklist of the early 12th cent. that
+                        has been assigned to Peterborough (BP2).</p><p>Inscription in the name of
+                        Humphrey Natures, monk of Peterborough abbey, hostiller in 1533--5,
+                        afterwards pensioner of the house (Greatrex, Obedientiary Accounts, 40,
+                        42).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">John Barnston (1562/3--1645), clergyman, from
+                     whom received by Bodley in 1605.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

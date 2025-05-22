@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_612">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>Pembroke College</repository>
+                  <idno type="shelfmark">MS. 7</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">612</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Glosa super Psalterium</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="12XX">s. xiii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="org_86">Bury St Edmunds, Suffolk.
+                        Benedictine abbey of St Edmund, King and Martyr. </orgName><p>'Liber
+                        monachorum S. Edmundi in quo continentur. . .' . B.231. (on
+                        flyleaf).</p><p>There are notes by Robert Grosseteste at fol. 1v recording
+                        an exchange of books: 'Memoriale magistri Roberti Grossetes' pro Exameron
+                        Basilii'. The text of this present book which Grosseteste offered in the
+                        exchange consists of reportationes from Paris lectures on the Gloss (see A.
+                        Gransden, A History of the Abbey of Bury St Edmunds, 1257--1301 (2015), 273,
+                        citing B. Smalley in Cambridge Historical Journal 6 (1938),
+                     103--4).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">William Smart (d. 1599), portreeve of
+                     Ipswich, by whom given to Pembroke.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

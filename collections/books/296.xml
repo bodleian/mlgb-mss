@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_296">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>San Marino (CA, USA)</settlement>
+                  <repository>Huntington Library</repository>
+                  <idno type="shelfmark">MS. EL 7 H.8</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">296</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>J. de Deo, etc.</title>
+                     <note type="MLGB3_generalNotes">Images from
+                        http://www.digital-scriptorium.org</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="1368">A.D. 1368</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="org_23">Ashridge, Buckinghamshire.
+                        House of Bonshommes of St Mary the Virgin (and of the Holy Blood).
+                        </orgName><p>'Simon de Wederore de Trenge frater domus de Assherugge . . .
+                        hunc librum scripsit et contulit deo et ecclesie siue domui predicte . . .
+                        ob memoriam Philippi de Wederore patris sui et Petronille matris sue . . .
+                        ac ipsius eiusdem fratris Simonis . . . tercio kalendas Iulii . . . a.d.
+                        millesimo CCCo lxviijuo reseruato tardes supradicto fratri Simoni quoad
+                        uixerit de licencia sui superioris usufructu dicti libri' and
+                     anathema.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Richard Combes (d. 1595), nephew of Thomas
+                     Waterhouse, the last rector.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sir Richard Combes, descendant of Richard
+                     Combes, gave this book to John Egerton, 2nd earl of Bridgewater
+                     (1622--1686).</provenance>
+                  <provenance type="MLGB3_laterOwners">Earl of Ellesmere, Bridgewater
+                     House.</provenance>
+                  <provenance type="MLGB3_laterOwners">L : CC : B : 2/15</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

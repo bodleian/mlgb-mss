@@ -1,0 +1,140 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_10">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>Corpus Christi College</repository>
+                  <idno type="shelfmark">MS. 421</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Homilies (in English)</title>
+                     <note type="MLGB3_generalNotes">Corpus Christi Coll. 419 and 421 are companion
+                        vols., partly in the same hand. </note>
+                     <msItem>
+                        <locus>(fol. 2r)</locus>
+                        <title>Prayer following Homily of the Feast of an Apostle; inc.: "Uton nu
+                           biddan ealle eadmodlice [uel an] Þysne ..."</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 3r--25r)</locus>
+                        <title>Ælfric OSB, Catholic Homilies, 1st series, Pentecost</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 25r--36r)</locus>
+                        <title>Ælfric OSB, Catholic Homilies, 2nd series, Apostle</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 36r--54r)</locus>
+                        <title>Ælfric OSB, Catholic Homilies, 2nd series, Martyrs</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 54r--76r)</locus>
+                        <title>Ælfric OSB, Catholic Homilies, 2nd series, Confessor</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 76r--98r)</locus>
+                        <title>Ælfric OSB, Catholic Homilies, 2nd series, Virgins</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 99r--150r)</locus>
+                        <title>Ælfric OSB, Sermo ad populum in octavis Pentecosten dicendus </title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 150r--159r)</locus>
+                        <title>Sermon on Larspel and scriftboc</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 159r--170r)</locus>
+                        <title>Sermon Ammonitio amici</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 170r--208r)</locus>
+                        <title>Homily for Tuesday in Rogationtide</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 209r--221r)</locus>
+                        <title>Sermon on Larspel</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 221r--226r)</locus>
+                        <title>Wulfstan, Luke on the last days</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 227r--254r)</locus>
+                        <title>Ælfric OSB, Catholic Homilies, 1st series, In Letania maiore</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 254r--287r)</locus>
+                        <title>Ælfric OSB, Catholic Homilies, 1st series, Feria III de Dominica
+                           oratione</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 187r--324r)</locus>
+                        <title>Ælfric OSB, Catholic Homilies, 1st series, Feria IIII de fide
+                           catholica</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 324r--354r)</locus>
+                        <title>Ælfric OSB, Catholic Homilies, 1st series, Ascension</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="10XX">s. xi</origDate>
+                  </origin>
+                  <provenance type="#s"><orgName role="fmo" key="org_1">Exeter, Devon. Cathedral
+                        church of St Peter. </orgName><p>Part of MS. 421 in an Exeter type of
+                        script.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Matthew Parker(1504--1575), archbishop of
+                     Canterbury.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

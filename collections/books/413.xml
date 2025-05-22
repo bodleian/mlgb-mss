@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_413">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Auct. D. inf. 2.6</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">413</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Lucas glo.</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="120X/121X">s. xiii in.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="org_46">Beeleigh, Essex.
+                        Premonstratensian abbey of St Mary the Virgin and St Nicholas.
+                        </orgName><p>'ecclesie sancte Marie et sancti Nicholai De Meldone' (on
+                        flyleaf at end, fol. 120, s. xiii).</p><p>Beeleigh was called Maldon until
+                        the thirteenth cent. 'De Meldone' in the inscription is erased and not quite
+                        legible, but there can be no doubt about the reading since 'de Meldon'' is
+                        scribbled twice below. The inscription is more probably a 'probatio penne'
+                        than a formal ex libris.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Jacobus Riddings vicarius de Penkrich iure
+                     habet hunc codicem' (s. xvi/xvii).</provenance>
+                  <provenance type="MLGB3_laterOwners">The numeral 21 inside a box on fol. v is a
+                     17th-cent. Bodleian number.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

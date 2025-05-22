@@ -1,0 +1,82 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_150">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>Corpus Christi College</repository>
+                  <idno type="shelfmark">MS. 134</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">150</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Berengaudus</title>
+                     <msItem>
+                        <title>Berengaudus, Expositio super septem uisiones libri
+                           Apocalypsis</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="11XX">s. xii</origDate>
+                  </origin>
+                  <provenance type="#bs"><orgName role="fmo" key="org_2">Peterborough,
+                        Northamptonshire. Benedictine abbey of St Peter, St Paul, and St Andrew.
+                        </orgName><p>Flyleaves from a 15th-cent. account roll with references to
+                        Alwalton manor and Warmington rectory, properties of Peterborough abbey, and
+                        to 'Burghbrygg' and 'Burghwerk'.</p><p>The main hand has a general
+                        resemblance to hands in BL MSS Cotton Tiberius C.i and Herley 3667. Numerous
+                        corrections in a hand which may be slightly less formal work of the same
+                        scribe but is certainly the work of the same scribe as Society of
+                        Antiquaries 60 (the Black Book of the abbey), fols. 6--71; cf. also Bodl. MS
+                        Laud Misc. 636, fols. 88v onwards. (Opinion of T. A. M. Bishop.)</p><p>All
+                        this being the case, very probably the copy of Berengaudus visible in the
+                        list of refectory reading at the abbey.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

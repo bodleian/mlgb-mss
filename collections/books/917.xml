@@ -1,0 +1,101 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_917">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Rome, Italy</settlement>
+                  <repository>Biblioteca Apostolica Vaticana</repository>
+                  <idno type="shelfmark">MS. Ottoboni lat. 208 fols. 87--324</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">917</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>T. Aquinas</title>
+                     <msItem>
+                        <author>Thomas Aquinas</author>
+                        <title>De ueritate</title>
+                     </msItem>
+                     <msItem>
+                        <author>Thomas Aquinas</author>
+                        <title>De potentia</title>
+                     </msItem>
+                     <msItem>
+                        <author>Thomas Aquinas</author>
+                        <title>Scriptum super libros Sententiarum</title>
+                     </msItem>
+                     <msItem>
+                        <author>Thomas Bradwardine</author>
+                        <title>De causa Dei contra Pelagium</title>
+                     </msItem>
+                     <msItem>
+                        <title>Bound with:</title>
+                     </msItem>
+                     <msItem>
+                        <author>Thomas Aquinas</author>
+                        <title>Quaestiones quodlibetales</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="128X/129X">s. xiii ex</origDate>
+                  </origin>
+                  <provenance type="#m"><orgName role="fmo" key="org_95">Cambridge, Cambridgeshire.
+                        Dominican convent. </orgName><p>Notes signed by John Crafford (friar of the
+                        Cambridge convent in 1411 and 1412; BRUC 165) on fols. 135, 136, 184 (same
+                        hand as Vat. lat. 7095 and Ottob. lat. 187) and one by him on fol. 184r
+                        beginning 'Nota bene passum quia yngham. . .' (?John de Yngham, Clare Hall
+                        fellow 1402; BRUC 326).</p><p>'rokell' is against a note on fol. 135r and
+                        'Rokell' is in margins of fols. 149r, 259r (?John Rokyll, prior-provincial
+                        before 1427; BRUO 2210--11).</p><p>'Caucio \fratris/ Iohannis fe.r.y
+                        exposita cist' de [. . .]' (fol. 334v).</p><p>Bound with a 15th-cent. copy
+                        of Aquinas's Quodlibeta, in an English hand.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Marcello Cervini (1501--1555), cardinal, his
+                     no. 51.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

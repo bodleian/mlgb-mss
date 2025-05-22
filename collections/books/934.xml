@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_934">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Rome, Italy</settlement>
+                  <repository>Biblioteca Apostolica Vaticana</repository>
+                  <idno type="shelfmark">MS. Ottoboni lat. 182</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">934</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>H. de Hannibaldis</title>
+                     <msItem>
+                        <author>Hannibaldus de Hannibaldis</author>
+                        <title>Super IV libros Sententiarum</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="128X/129X">s. xiii ex</origDate>
+                  </origin>
+                  <provenance type="#ei"><orgName role="fmo" key="org_96">Cambridge, Cambridgeshire.
+                        Convent of Austin friars. </orgName><p>'conuentus cantabrig'' (fol. 272v, s.
+                        xv).</p><p>'Iste liber est tayller' quousque vic' de luton Magister
+                        Benedictus [. . .]' (fol. 271v, s. xiv). [John Taylor was prior of the
+                        Cambridge Austins in 1350 (Roth, 1. 253); for Benedict de Massingham, vicar
+                        of Luton in 1366, see BRUC 395.]</p><p>'Iohannes dominici scripsit hoc opus'
+                        (fol. 271v, s. xiv).</p><p>'pro xxx sol. sterlingorum et hoc parisius' (fol.
+                        1r, foot, s. xiv).</p><p>Pressmark 'I N' at end. An Italian hand, but early
+                        in England.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Gugliemo Sirleto (1514--1585), cardinal and
+                     scholar, his no. 325.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

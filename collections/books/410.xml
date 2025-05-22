@@ -1,0 +1,75 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_410">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>Mr N. J. Barker</repository>
+                  <idno type="shelfmark"/>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">410</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Albertus de Eyb</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>Paris, A.D. 1477</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="org_45">Bedford, Bedfordshire.
+                        Franciscan convent. </orgName><p>'Liber Fratris Iohannis Greene. Emptus
+                        Oxon''</p><p>In same hand as inscription in Bodl. Arch. G.e.5. Contemporary
+                        stamped binding, perhaps by same binder as Arch. G.e.5. Pastedown in front
+                        from court roll, s. xv: mentions Colcham, Benfeld,
+                     Cokemersch'.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">St Alban's School.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sold Sotheby's, 18 November 1974, lot
+                     193.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

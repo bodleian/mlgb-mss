@@ -1,0 +1,92 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_327">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>USA</settlement>
+                  <repository>private collection</repository>
+                  <idno type="shelfmark"/>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">327</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Mirror of Life of Christ (in English)</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="140X/141X">s. xv in.</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="org_30">Barking, Essex. Abbey of St
+                        Mary the Virgin and St Ethelburga, of Benedictine nuns. </orgName><p>'Iste
+                        liber constat domine Sibille de Felton', Abbatisse de Berkyng' (fol. 4v, at
+                        end of table of chapters); 'Mistris Agnes Gowldewell' me possidet ex dono
+                        Margarete Scroope quondam monache monasterii de Berckynge' (fol. 175v, s.
+                        xv/xvi).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Medieval binding, faded pink leather over
+                     bevelled boards.</provenance>
+                  <provenance type="MLGB3_laterOwners">'Mystris Gowldewell me possidet teste
+                     streete' (fol. 170v, s. xvi in.)</provenance>
+                  <provenance type="MLGB3_laterOwners">On first pastedown are: 'John Campe owe this
+                     booke'; 'Reinold Clarke is the trewe owner of this Booke' (s.
+                     xvi).</provenance>
+                  <provenance type="MLGB3_laterOwners">'Henry Elmy' and date 1620 (fol.
+                     84v).</provenance>
+                  <provenance type="MLGB3_laterOwners">'Bought of Roger Pott of Colechester
+                     Bookseller the 29th of Aprill 1628. Payde for it xis vid' (second
+                     pastedown).</provenance>
+                  <provenance type="MLGB3_laterOwners">Belonged in 1944 to Mr Frank Brown,
+                     historian, then to Messrs Maggs, London.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sold at Sothebys 19 July 1949, lot 276, to Mr
+                     William Foyle (1885--1963) of Beeleigh Abbey, Maldon (Essex), passed by
+                     inheritance to daughter Christina Foyle (1911--1999).</provenance>
+                  <provenance type="MLGB3_laterOwners">Sold, Foyle Sale at Christie's, 11 July 2000,
+                     lot 72, to Sam Fogg.</provenance>
+                  <provenance type="MLGB3_laterOwners">Now in an American collection.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

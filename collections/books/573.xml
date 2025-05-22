@@ -1,0 +1,76 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_573">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>All Souls College</repository>
+                  <idno type="shelfmark">MS. i.12.15</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">573</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>J. Wallensis</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>Lyon, A.D. 1511</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="org_85">Burton-upon-Trent,
+                        Staffordshire. Benedictine abbey of St Mary the Virgin and St Modwenna.
+                        </orgName><p>'Edys Wyll'm' (first pastedown); 'Ex emptione dompni Wyllelmy
+                        Edys monachi dum esset cellararius, anno partus virginei .17. supra mille
+                        quingentos' (on title-page).</p><p>William Edys was later dean of Burton
+                        college from 1541 until the dissolution. His inscription also in BL Cotton
+                        Cleopatra A.ii and the other printed books at All Souls.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">David Pole (d. 1568), bishop of Peterborough
+                     ('Liber collegii omnium sanctorum Oxon. ex dono reuerend. d. Dauidis Pole
+                     episcopi Petriburgens' huius coll. socii').</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

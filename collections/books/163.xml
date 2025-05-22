@@ -1,0 +1,101 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_163">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">MS. Add. 39758</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">163</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Chronicon etc.</title>
+                     <msItem>
+                        <title>Hugh Candidus, Chronicle (to 1177)</title>
+                     </msItem>
+                     <msItem>
+                        <title>Robert Swaffham, Chronicle (to 1246)</title>
+                     </msItem>
+                     <msItem>
+                        <title>Walter of Whittelsey, Chronicle (to 1321)</title>
+                     </msItem>
+                     <msItem>
+                        <title>Abridgment of the Gesta Herewardi</title>
+                     </msItem>
+                     <msItem>
+                        <title>Papal and royal charters of Peterborough abbey</title>
+                     </msItem>
+                     <msItem>
+                        <title>Charters, including Magna Carta (1215, 1225) and Carta de
+                           Foresta</title>
+                     </msItem>
+                     <msItem>
+                        <author>John of Burgundy</author>
+                        <title>Tractatus de morbo epidemiae</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="130X/131X">s. xiv in</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="org_2">Peterborough,
+                        Northamptonshire. Benedictine abbey of St Peter, St Paul, and St Andrew.
+                        </orgName><p>The chronicle was written by Walter of Whittlesey, monk of the
+                        house. Also inscribed 'Iste liber fuit quondam fratris Walteri de Wytelese',
+                        'Walterus de Wytillesey' (fol. 1r, s. xiv).</p><p>Inscribed by the
+                        Peterborough monk Roger Bird: 'Liber fratris Rogeri Bird ex dono domini
+                        Roberti Kirkton abbatis a.d. m ccccc xx testibus fratre Francisco Lecestre
+                        et Willelmo Browene' (fol. 229r). Robert Kirkton was abbot, c.
+                        1496--1528.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Lord Fitzwilliam in 1682.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sold Sotheby's 30 April 1918, lot
+                     255.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

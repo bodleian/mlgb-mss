@@ -1,0 +1,88 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_457">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">MS. Add. 37787</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">457</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Preces; poems (in English)</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="138X/139X">s. xiv ex</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="org_59">Bordesley, Worcestershire.
+                        Cistercian abbey of St Mary the Virgin. </orgName><p>'Iste liber constat
+                        Iohanni Norpewode monacho . qui ipsum habuerit. vel qui in eo legerit habeat
+                        eum karitatiue specialiter recommendatum in missa sua priuata
+                        commemoracione. vel saltem oret pro anima eius . Et quicumque hunc librum ab
+                        eo alienauerit absque eius licencia: malediccionem dei incurrat . fiat fiat.
+                        Amen.' (fol. 183r).</p><p>Inscription, with illuminated border, recording
+                        the first owner's noviciate: 'Anno domini Milesimo CCC. octogesimo sexto. In
+                        die sancti Augustini Anglorum apostoli [26 May]. Intrauit domum probacionis
+                        beate Marie de Bordesley frater Johannes Norþewode, quem in uia religionis
+                        assumpte deuotissime custodiat trinitas sancta nunc et in perpetuum. amen.'
+                        (fol. 182v).</p><p> Original binding of oak boards covered with red
+                        vellum.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Iste lyber pertinet ad me mi lady Peyto.
+                     Amen yt est yta fyat amen so be heyte... by the, gefte of d[ame?] Goodyth Peyto
+                     thy booke Goody Thokmarton' (fol. 2r, s. xvi early).</provenance>
+                  <provenance type="MLGB3_laterOwners">Goditha, daughter of Sir Thomas Throckmorton,
+                     was wife of Edward Peto (d. 1487) and mother of Cardinal William
+                     Peto.</provenance>
+                  <provenance type="MLGB3_laterOwners">T. S. Walker.</provenance>
+                  <provenance type="MLGB3_laterOwners">Lord Amherst of Hackney, no. 23. Sold
+                     Sothebys 25 March 1909, lot 643.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
