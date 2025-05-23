@@ -64,7 +64,7 @@ declare variable $allinstances :=
     (: Log instances with key attributes not in the authority file :)
     for $key in distinct-values($allinstances/key)
         return if (not(some $entryid in $authorityentries/@xml:id/data() satisfies $entryid eq $key)) then
-            bod:logging('warn', 'Key attribute not found in authority file: will create broken link', ($key, $allinstances[@k = $key]/name))
+            bod:logging('warn', 'Key attribute not found in authority file: will create broken link', ($key, $allinstances[key = $key]/name, distinct-values($allinstances[key = $key]/file), distinct-values($allinstances[key = $key]/manuscript/@path)))
         else
             ()
 }

@@ -157,9 +157,17 @@ declare function bod:decoTypeLookup($decotype as xs:string) as xs:string
                 let $oldshelfmarks := $ms//tei:msIdentifier/tei:altIdentifier[@type='former']/tei:idno[not(@subtype)]
                 let $subfolders := string-join(tokenize(substring-after(base-uri($ms), 'collections/books/'), '/')[position() lt last()], '/')
                 let $htmlfilename := concat($msid, '.html')
-                let $htmldoc := doc(concat('html/', $subfolders, '/', $htmlfilename))
+                let $htmldoc := doc(concat('html/books/', $subfolders, '/', $htmlfilename))
                 let $deconotes := $ms//tei:sourceDesc//tei:decoDesc/tei:decoNote[not(@type='none')]
                 let $decotypes := $deconotes/@type
+                let $repository := normalize-space($ms//tei:msDesc/tei:msIdentifier/tei:repository[1]/text())
+                let $title := concat(
+                                    $mainshelfmark, 
+                                    ' (', 
+                                    $repository,
+                                        ')'
+                                )
+
                 let $latestoriginyear := max(for $dateattr in $ms//tei:origin//tei:origDate[not(@type = ('additions', 'addition'))]/(@when|@notBefore|@notAfter|@from|@to) return functx:get-matches($dateattr, $bod:yearregex)[1])
                 (:
                     Guide to Solr field naming conventions:
@@ -175,7 +183,7 @@ declare function bod:decoTypeLookup($decotype as xs:string) as xs:string
                     <field name="type">manuscript</field>
                     <field name="pk">{ $msid }</field>
                     <field name="id">{ $msid }</field>
-                    { bod:one2one($mainshelfmark, 'title', 'error') }
+                    { bod:string2one($title, 'title') }
                     { bod:one2one($ms//tei:titleStmt/tei:title[@type='collection'], 'ms_collection_s') }
                     { bod:one2one($ms//tei:msDesc/tei:msIdentifier/tei:institution, 'institution_sm') }
                     { bod:many2one($ms//tei:msDesc/tei:msIdentifier/tei:repository, 'ms_repository_s') }
@@ -233,6 +241,6 @@ declare function bod:decoTypeLookup($decotype as xs:string) as xs:string
                 </doc>
 
             else
-                bod:logging('warn', 'Cannot process book without @xml:id for root TEI element', base-uri($ms))
+                bod:logging('warn', 'Cannot process book without @xml:id for root TEI element', (fn:substring-after(base-uri($ms), "-mss")))
 }
 </add>
