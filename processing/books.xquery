@@ -180,7 +180,7 @@ declare function bod:decoTypeLookup($decotype as xs:string) as xs:string
                         *ni = not indexed (except _tni fields which are copied to the fulltext index)
                 :)
                 return <doc>
-                    <field name="type">manuscript</field>
+                    <field name="type">book</field>
                     <field name="pk">{ $msid }</field>
                     <field name="id">{ $msid }</field>
                     { bod:string2one($title, 'title') }

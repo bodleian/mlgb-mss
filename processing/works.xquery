@@ -13,10 +13,10 @@ declare variable $authorsinworksauthority := true();
    their authors (not necessary if the works authority has authors in it) :)
 declare variable $personauthority := doc("../../medieval-mss/persons.xml")/tei:TEI/tei:text/tei:body/tei:listPerson/tei:person[@xml:id];
 
-(: Get a list of person keys in all the manuscript records, to check a link from work to person won't be broken :)
+(: Get a list of person keys in all the collection records, to check a link from work to person won't be broken :)
 declare variable $personkeys := distinct-values(collection('../collections?select=*.xml;recurse=yes')//tei:msDesc//(tei:persName|tei:author|tei:editor)/@key/data());
 
-(: Find instances in manuscript description files, building in-memory data 
+(: Find instances in collection files, building in-memory data 
    structure, to avoid having to search across all files for each authority file entry :)
 declare variable $allinstances :=
     for $instance in collection('../collections?select=*.xml;recurse=yes')//tei:title
@@ -82,7 +82,7 @@ declare variable $allinstances :=
         let $subjects := (for $ref in $work/tei:term[@ref]/tokenize(@ref, '\s*#')[string-length() gt 0] return normalize-space($worksdoc/tei:TEI/tei:teiHeader/tei:encodingDesc/tei:classDecl/tei:taxonomy/tei:category[@xml:id = $ref][1]/tei:catDesc[1]/string()))[string-length(.) gt 0]
         let $lang := $work/tei:textLang
         
-        (: Get info in all the instances in the manuscript description files :)
+        (: Get info in all the instances in the collection description files :)
         let $instances := $allinstances[key = $id]
 
         (: Output a Solr doc element :)
@@ -213,11 +213,11 @@ declare variable $allinstances :=
                     <field name="shelfmarks">{ $shelfmark }</field>
                 }
                 {
-                (: Links to manuscripts containing the work :)
+                (: Links to books containing the work :)
                 for $link in distinct-values($instances/link/text())
                     order by tokenize($link, '\|')[2]
                     return
-                    <field name="link_manuscripts_smni">{ $link }</field>
+                    <field name="link_books_smni">{ $link }</field>
                 }
             </doc>
         else

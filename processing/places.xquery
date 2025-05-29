@@ -7,7 +7,7 @@ declare option saxon:output "indent=yes";
 (: Read authority file :)
 declare variable $authorityentries := doc("../../medieval-mss/places.xml")/tei:TEI/tei:text/tei:body//(tei:listPlace/tei:place|tei:listOrg/tei:org)[@xml:id];
 
-(: Find instances in manuscript description files, building in-memory data structure, to avoid having to search across all files for each authority file entry :)
+(: Find instances in collection description files, building in-memory data structure, to avoid having to search across all files for each authority file entry :)
 declare variable $allinstances :=
     for $instance in collection('../collections?select=*.xml;recurse=yes')//tei:msDesc//(tei:placeName|tei:country|tei:settlement|tei:region|tei:orgName)[not(ancestor::tei:msIdentifier)]
         let $roottei := $instance/ancestor::tei:TEI
@@ -74,7 +74,7 @@ declare variable $allinstances :=
         let $notes := for $n in ($placeororg/tei:note[not(@type="links")], $placeororg/ancestor::tei:listPlace/tei:head/tei:note, $placeororg/ancestor::tei:listOrg/tei:head/tei:note) return bod:italicizeTitles($n)
         let $geolocs := $placeororg/tei:location/tei:geo[matches(text(), '^\s*\-?[\d\.]+\s*,\s*\-?[\d\.]+\s*$')]
         
-        (: Get info in all the instances in the manuscript description files :)
+        (: Get info in all the instances in the book description files :)
         let $instances := $allinstances[key = $id]
         let $roles := distinct-values(for $role in distinct-values($instances/role/text()) return bod:personRoleLookup($role))
         
@@ -173,11 +173,11 @@ declare variable $allinstances :=
                     <field name="shelfmarks">{ $shelfmark }</field>
                 }
                 {
-                (: Links to manuscripts containing mentions of the place or organization :)
+                (: Links to books containing mentions of the place or organization :)
                 for $link in distinct-values($instances/link/text())
                     order by tokenize($link, '\|')[2]
                     return
-                    <field name="link_manuscripts_smni">{ $link }</field>
+                    <field name="link_books_smni">{ $link }</field>
                 }
                 {
                 (: Filter on which external authorities, if any, this person has been identified in :)

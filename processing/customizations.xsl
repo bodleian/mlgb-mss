@@ -100,7 +100,7 @@
 
 
     <!-- Display links to abbreviations and conventions pages, and the most recent change 
-         at the bottom of manuscript pages (just before Zotero links, if any) -->
+         at the bottom of book pages (just before Zotero links, if any) -->
 
     <xsl:template name="Footer">
         <div class="abbreviations">
@@ -178,7 +178,7 @@
                 <xsl:when test="string-length(/TEI/@xml:id/string()) eq 0">
 
                     <!-- Cannot do anything if there is no @xml:id on the root TEI element -->
-                    <xsl:copy-of select="bod:logging('warn', 'Cannot process manuscript without @xml:id for root TEI element', /TEI, base-uri())"/>
+                    <xsl:copy-of select="bod:logging('warn', 'Cannot process XML without @xml:id for root TEI element', /TEI, base-uri())"/>
 
                 </xsl:when>
                 <xsl:otherwise>

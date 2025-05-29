@@ -3,9 +3,9 @@ declare namespace map="http://www.w3.org/2005/xpath-functions/map";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 declare option saxon:output "indent=yes";
 
-declare variable $medievalCatalogues := collection('../collections/medievalCatalogues/?select=*.xml;recurse=no');
+declare variable $booklists := collection('../collections/booklists/?select=*.xml;recurse=no');
 declare variable $allinstances :=
-for $instance in collection('../collections/medievalCatalogues/?select=*.xml;recurse=yes')//tei:TEI[starts-with(@xml:id,'catalogue_')]
+for $instance in collection('../collections/booklists/?select=*.xml;recurse=yes')//tei:TEI[starts-with(@xml:id,'booklist_')]
 let $roottei := $instance/ancestor::tei:TEI
 let $datesoforigin := distinct-values($roottei//tei:origDate/normalize-space())
 let $placesoforigin := distinct-values($roottei//tei:origPlace/normalize-space())
@@ -47,10 +47,10 @@ return
 
 <add>
     {
-        comment {concat(' Indexing started at ', current-dateTime(), ' using files in ', substring-before(substring-after(base-uri($medievalCatalogues[1]), 'file:'), 'collections/medievalCatalogues/'), ' ')}
+        comment {concat(' Indexing started at ', current-dateTime(), ' using files in ', substring-before(substring-after(base-uri($booklists[1]), 'file:'), 'collections/booklists/'), ' ')}
     }
     {
-        let $colids := $medievalCatalogues/tei:TEI/@xml:id/data()
+        let $colids := $booklists/tei:TEI/@xml:id/data()
         
         return
             if (count($colids) ne count(distinct-values($colids))) then
@@ -61,24 +61,22 @@ return
                     else
                         '')
                 return
-                    bod:logging('error', 'There are multiple medieval catalogues with the same xml:id in their root TEI elements', $duplicateids)
+                    bod:logging('error', 'There are multiple booklists with the same xml:id in their root TEI elements', $duplicateids)
             
             else
-                for $catalogue in $medievalCatalogues
+                for $booklist in $booklists
    
-                let $colid := $catalogue/tei:TEI/@xml:id/string()
+                let $colid := $booklist/tei:TEI/@xml:id/string()
                     order by $colid
                 return
                     if (string-length($colid) ne 0) then                        
-                        let $subfolders := string-join(tokenize(substring-after(base-uri($catalogue), 'collections/medievalCatalogues/'), '/')[position() lt last()], '/')
+                        let $subfolders := string-join(tokenize(substring-after(base-uri($booklist), 'collections/booklists/'), '/')[position() lt last()], '/')
                         let $htmlfilename := concat($colid, '.html')
-                        let $htmldoc := doc(concat('html/medievalCatalogues/', $subfolders, '/', $htmlfilename))
+                        let $htmldoc := doc(concat('html/booklists/', $subfolders, '/', $htmlfilename))
                         let $instances := $allinstances[key = $colid]
                        
                         (:
-                    Guide to Solr field naming conventions:
-                        ch_ = charter index field
-                        sl = seal index field
+                    Guide to Solr field naming conventions:                
                         _i = integer field
                         _b = boolean field
                         _s = string field (tokenized)
@@ -89,31 +87,31 @@ return
                         return
                             <doc>
                                 <field
-                                    name="type">catalogue</field>
+                                    name="type">booklist</field>
                                 <field
                                     name="pk">{$colid}</field>
                                 <field
                                     name="id">{$colid}</field>
                                 { bod:string2one($colid, 'title') }
-                                {bod:one2one($catalogue//tei:publicationStmt/tei:idno[@type = 'catalogue'], 'ms_catalogue_s')}
+                                {bod:one2one($booklist//tei:publicationStmt/tei:idno[@type = 'booklist'], 'booklist_s')}
                                 <field
-                                    name="filename_s">{substring-after(base-uri($catalogue), 'collections/medievalCatalogues/')}</field>
+                                    name="filename_s">{substring-after(base-uri($booklist), 'collections/booklists/')}</field>
 
                                 {bod:indexHTML($htmldoc, 'ms_textcontent_tni')}
                                 {bod:displayHTML($htmldoc, 'display')}
 
                                 {
-                                    (: Links to catalogues  :)
+                                    (: Links to booklists  :)
                                     for $link in distinct-values($instances//div[@type="entry"][@corresp]/@corresp)
                                         order by normalize-space(translate(tokenize($link, '\|')[2], ".","")) collation "http://www.w3.org/2013/collation/UCA?numeric=yes;fallback=yes"
                                     return
                                         <field
-                                            name="link_catalogues_smni">{$link}</field>
+                                            name="link_booklists_smni">{$link}</field>
                                         
                                 }                      
                             </doc>
                     
                     else
-                        bod:logging('warn', 'Cannot process medieval catalogue without @xml:id for root TEI element', (fn:substring-after(base-uri($catalogue), "-mss")))
+                        bod:logging('warn', 'Cannot process booklists without @xml:id for root TEI element', (fn:substring-after(base-uri($booklist), "-mss")))
     }
 </add>

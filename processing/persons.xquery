@@ -11,10 +11,10 @@ declare variable $authorityentries := doc("../../medieval-mss/persons.xml")/tei:
 declare variable $worksauthority := doc("../../medieval-mss//works.xml")/tei:TEI/tei:text/tei:body/tei:listBibl/tei:bibl[@xml:id];
 declare variable $authorsinworksauthority := true();
 
-(: Get a list of work keys in all the manuscript records, to check a link from author to work won't be broken :)
+(: Get a list of work keys in all the collection records, to check a link from author to work won't be broken :)
 declare variable $workkeys := distinct-values(collection('../collections?select=*.xml;recurse=yes')//tei:msDesc//tei:title/@key/data());
 
-(: Find instances in manuscript description files, building in-memory data structure, to avoid having to search across all files for each authority file entry :)
+(: Find instances in collection description files, building in-memory data structure, to avoid having to search across all files for each authority file entry :)
 declare variable $allinstances :=
     for $instance in collection('../collections?select=*.xml;recurse=yes')//tei:msDesc//(tei:persName|tei:author|tei:editor)
         let $roottei := $instance/ancestor::tei:TEI
@@ -64,7 +64,7 @@ declare variable $allinstances :=
     (: Log instances with key attributes not in the authority file :)
     for $key in distinct-values($allinstances/key)
         return if (not(some $entryid in $authorityentries/@xml:id/data() satisfies $entryid eq $key)) then
-            bod:logging('warn', 'Key attribute not found in authority file: will create broken link', ($key, $allinstances[key = $key]/name, distinct-values($allinstances[key = $key]/file), distinct-values($allinstances[key = $key]/manuscript/@path)))
+            bod:logging('warn', 'Key attribute not found in authority file: will create broken link', ($key, $allinstances[key = $key]/name, distinct-values($allinstances[key = $key]/file), distinct-values($allinstances[key = $key]/book/@path)))
         else
             ()
 }
@@ -81,7 +81,7 @@ declare variable $allinstances :=
         let $bibrefs := for $bibl in $person/tei:bibl return bod:italicizeTitles($bibl)
         let $notes := for $note in ($person/tei:note[not(@type='links')], $person/ancestor::tei:listPerson/tei:head/tei:note) return bod:italicizeTitles($note)
         
-        (: Get info in all the instances in the manuscript description files :)
+        (: Get info in all the instances in the book description files :)
         let $instances := $allinstances[key = $id]
         let $roles := distinct-values(for $role in distinct-values($instances/role/text()) return bod:personRoleLookup($role))
         let $isauthor := some $role in $instances/role/text() satisfies $role = ('author','aut')
@@ -200,11 +200,11 @@ declare variable $allinstances :=
                     <field name="shelfmarks">{ $shelfmark }</field>
                 }
                 {
-                (: Links to manuscripts containing mentions of the person :)
+                (: Links to books containing mentions of the person :)
                 for $link in distinct-values($instances/link/text())
                     order by tokenize($link, '\|')[2]
                     return
-                    <field name="link_manuscripts_smni">{ $link }</field>
+                    <field name="link_books_smni">{ $link }</field>
                 }
                 {
                 (: Filter on which external authorities, if any, this person has been identified in :)
