@@ -1,0 +1,98 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3130">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Hereford</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. P.vi.3</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3130</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Augustinus, De vera religione, etc.</title>
+                     <msItem>
+                        <locus>(fols. 1r--24v)</locus>
+                        <title>Augustine, De vera religione</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 24v--32v)</locus>
+                        <title>Augustine, De praesentia dei (ep. 187)</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 32v--46r)</locus>
+                        <title>Augustine, De utilitate credendi, preceded by Retract. 1. 13</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 46r--63v)</locus>
+                        <title>Augustine, De gratia Novi testamenti (ep. 140), preceded by Retract.
+                           2. 36</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 63v--72r)</locus>
+                        <title>Quodvultdeus, serm. 10</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 73r--106r)</locus>
+                        <title>Augustine, De sermone domini in monte</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="11XX">s. xii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_247">Hereford, Herefordshire.
+                        Cathedral church of St Ethelbert. </orgName><p>"xviij" on pastedown (cf.
+                        P.viii.5).</p><p>"Liber ecclesie Herefordensis" on flyleaf at
+                        end.</p><p>Pricemark "xx s'" at beginning, "di' marc'" at
+                     end.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Earlier ex-libris of Wigmore, q.
+                     v.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

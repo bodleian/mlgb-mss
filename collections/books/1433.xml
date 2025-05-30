@@ -1,0 +1,143 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1433">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>Trinity College</repository>
+                  <idno type="shelfmark">MS. R. 14. 30</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1433</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Miscellanea medica</title>
+                     <note type="MLGB3_generalNotes">Cambridge, Trinity College, MS 903, together
+                        with BL MSS Egerton 823 and 840A, makes up all but the first three items of
+                        BA1.1599.</note>
+                     <note type="MLGB3_generalNotes">See A. G. Watson, TCBS, vi (1976),
+                        211-17.</note>
+                     <msItem>
+                        <locus>(fols. 1r--6r)</locus>
+                        <title>Text has been scraped off, and a later list of contents in on fol.
+                           2r.</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 6r--143r)</locus>
+                        <title>Text begins abruptly. A collection of remedies in Southern French,
+                           with rubrics in Latin, e.g. (fol. 120r</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 143v--160r)</locus>
+                        <title>Further receipts at first in Latin, on the next page and after in
+                           Southern French; inc. "Ad fistulam uel crancum [sic]. Accipe mel coctum
+                           ..."; ends imperfectly, text on fol. 160v erased.</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fol. 161r)</locus>
+                        <title>A charm-prayer, in later hand.</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fol. 162r)</locus>
+                        <title>blank.</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fol. 163r)</locus>
+                        <title>Miscellaneous receipts in Latin. "Hic incipit pomum ambre et ualet
+                           contra cerebri debilitatem Pomum ambre duplicatum ad reuma ...".</title>
+                     </msItem>
+                     <msItem>
+                        <title>A quire of paper with part of an index (s. xvii, xviii).</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 187r--210v)</locus>
+                        <title>"Trotula de ornatu mulierum Cum auctor uniuersitatis deus ... et hec
+                           de cura sufficiant ... Finito libro reddatur gratia christo.
+                           Amen."</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 211r--220r)</locus>
+                        <title>"Epistola quedam bresedati [sic] philosophi -- Epistola quedam bins
+                           ascari. philosophi. Ascaritanus philosophus scriptsit hanc epistolam ...
+                           lauetur utendum est."</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 221r--228v)</locus>
+                        <title>"Tractatus de secretis mulierum cum aliis -- Reumatizat flegma. ad
+                           nares frequencius ... [a charm on stanch blood] Dominus Ihesus postquam
+                           fuit natus ante fuit unctus quam lauatus unctus et unctus et de lancea
+                           fuit punctus longinus miles punxit dominum et dixit sta sanguis et stet
+                           sanguis de homine isto petro uel giraldo filio talis .n. patris in nomine
+                           patris ...".</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 229r--234v)</locus>
+                        <title>Receipts in Latin, without heading. "Oleum in quo cocta est
+                           primaueris facit cutem extensam"; ends imperfectly.</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 239r--242r)</locus>
+                        <title>Receipts and charms in Latin and Northern French.</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 242v)</locus>
+                        <title>blank.</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="12XX/13XX">s. xiii--xiv</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_122">Canterbury, Kent. Benedictine abbey
+                        of St Augustine (originally of St Peter and St Paul).
+                        </orgName><p>Cambridge, Trinity College, MS 903, together with BL MSS
+                        Egerton 823 and 840A, makes up all but the first three items of BA1.1599:
+                        'Colecciones Iohannis de Lond' cum I.' John of London's hand occurs almost
+                        certainly.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

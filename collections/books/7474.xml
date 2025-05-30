@@ -1,0 +1,82 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7474">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>Peterhouse</repository>
+                  <idno type="shelfmark">MS. 193</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">7474</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Augustinus etc.</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="140X/141X">s. xv in.</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_106">Cambridge, Cambridgeshire.
+                        Peterhouse (Collegium Sancti Petri). </orgName><p>Written for William
+                        Dyngley: on fol. 223v in his hand are notes on the expense of producing the
+                        book.</p><p>One of the books above which is written in the catalogue of
+                        1418, ‘Subscripti libri empti fuerunt ad usum et proficium sociorum collegii
+                        cum pecuniis eiusdem collegii’ (CBMLC 10, 474). Beside this entry itself is
+                        added, ‘Hos sermones emit Magister Ricardus Bomsted; eos tamen rehabebit
+                        collegium post decessum suum prout promisit fideliter’ (CBMLC 10,
+                        474).</p><p>Thomson (Peterhouse, 117), writes that ‘The receipt of 20 s.
+                        from Bumpstede for ‘xx quaternis sermonum beati Augustini’ is recorded in
+                        the College accounts for 1441–2’. However CBMLC 10, 674, records that ‘The
+                        purchase price was 20s. but he gave the college a decorated case instead and
+                        promised that the book would be returned after his death’. The source for
+                        this is not given.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Richard Bumpstede (fl. 1422–1448), fellow of
+                     Peterhouse</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

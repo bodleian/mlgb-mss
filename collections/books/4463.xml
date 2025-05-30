@@ -1,0 +1,75 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4463">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">MS. Sloane 2397</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4463</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Kalendarium, etc. (14 leaves)</title>
+                     <note type="MLGB3_generalNotes">Ad date: in a calculation the year 1419 is
+                        taken as an example.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xv in. (? 1419)</origDate>
+                  </origin>
+                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_456">Ramsey, Huntingdonshire.
+                        Benedictine Abbey of Saint Mary the Virgin and St Benedict.
+                        </orgName><p>Ramsey calendar:</p><p>Apr. 24 Invention of Yvo in
+                        red</p><p>June 10 Translation of Yvo in purple</p><p>June 17 Octave of the
+                        Translation in red</p><p>July 11 Translation of Benedict in
+                        purple</p><p>Oct. 17 'Etheldredi atque et.' in purple</p><p>Nov. 8
+                        Translation of relics, in purple.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8509">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Oriel College</repository>
+                  <idno type="shelfmark">MS. 9</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">8509</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Biblia</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="120X/121X">s. xiii in.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_438">Oxford, Oxfordshire. Oriel
+                        College (Domus beate Marie seu Collegium regale Oxon').
+                        </orgName><p>‘Memorandum quod iste liber est collegii beate Marie de Oryell
+                        Oxonie ad perpetuum usum et profectum sociorum eiusdem ex dono venerabilis
+                        (viri) magistri Thome Hawkyns in artibus magistri, quondam precentoris
+                        ecclesie cathedralis Sarum et prepositi collegii de Oryell antedicti, datus
+                        eidem collegio anno obitus dicti magistri Thome, videlicet anno millesimo
+                        ccccmo septuagesimo octauo, cuius anime propicietur omnipotens et misericors
+                        deus. Amen. Dum fructum queris Hawkyns libri memoreris, / Res ingrata nimis
+                        dare nil pro rebus opimis, / Munera librorum fructus pius usus eorum, /
+                        Commoda multorum dent Hawkyns regna polorum. Amen.’ (The Dean’s Register,
+                        388)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Thomas Hawkyns (d. 1479), fellow of Exeter
+                     and fellow and provost of Oriel</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

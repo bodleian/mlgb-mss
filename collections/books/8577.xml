@@ -1,0 +1,89 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8577">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Edinburgh, Scotland</settlement>
+                  <repository>National Library of Scotland</repository>
+                  <idno type="shelfmark">MS. Cambusk.10</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">8577</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Biblia sacra</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>Lyon, AD 1532</origDate>
+                  </origin>
+                  <provenance type="#bi"><orgName role="fmo" key="mlgbOrg_109">Cambuskenneth,
+                        Stirlingshire. Augustinian abbey of St Mary the Virgin. </orgName><p>Ink
+                        inscription at the head and foot of the title page 'Biblia M Alexandri
+                        Lyon'.</p><p> Gold stamped on to front board: 'R.P. Allex. Abb.
+                        Cambuskennet. MDXXXIII.' Gold stamped on to back board: 'Vice Cancellarii.
+                        R[e]g. Scoto. MDXXXIII.' Alexander Mylne (c. 1470--1548) was appointed abbot
+                        of Cambuskenneth in 1516 </p><p>One of a collection of books looted on 11
+                        May 1544 from the Edinburgh townhouse of Cambuskenneth abbey by Sir William
+                        Norris of Speke, whose inscription is on the title page. </p></provenance>
+                  <provenance type="MLGB3_laterOwners">Alexander Mylne (c. 1470--1548), abbot of
+                     Cambuskenneth.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sir William Norris of Speke (1501--1568),
+                     taken as booty in 1544.</provenance>
+                  <provenance type="MLGB3_laterOwners">'William Keyth 2 Septem 1605.',
+                     scored-through ink inscription on title page, i.e. William Keith, 6th Earl
+                     Marischal (c.1585--1635).</provenance>
+                  <provenance type="MLGB3_laterOwners">'Ex Libris Pat. Gordon', 18th-cent. ink
+                     inscription.</provenance>
+                  <provenance type="MLGB3_laterOwners">Found about 1853 in an old cottage at
+                     Childwall, near Liverpool, on property belonging to the Marquess of Salisbury,
+                     who gifted it to the Liverpool Athenaeum. </provenance>
+                  <provenance type="MLGB3_laterOwners">Purchased from Liverpool Athenaeum by the
+                     National Library of Scotland in 2008.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

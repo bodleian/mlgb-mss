@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3981">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Chicago (IL, USA)</settlement>
+                  <repository>Art Institute</repository>
+                  <idno type="shelfmark">MS. 23. 420</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3981</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Speculum humane salvationis, etc.</title>
+                     <note type="MLGB3_generalNotes">de Ricci, Census, 1. 517.</note>
+                     <note type="MLGB3_generalNotes">2 pages reproduced in Bull. Art. Inst. Chicago
+                        17 (1923), pp. 106--08.</note>
+                     <note type="MLGB3_generalNotes">Contemporary binding.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="138X/139X">s. xiv ex.</origDate>
+                  </origin>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_376">Missenden,
+                        Buckinghamshire. Augustinian (Arrouaisian) priory of St Mary the Virgin.
+                        </orgName><p>The table of years on fols. 105v--110r has local Missenden
+                        entries against it at 1323, 1343, 1355, 1358, 1371 and
+                     1379.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Walter Skory 1628.</provenance>
+                  <provenance type="MLGB3_laterOwners">Obtained from W. M. Voynich
+                     1923.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

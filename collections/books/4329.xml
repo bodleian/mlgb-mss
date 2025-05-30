@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4329">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Douai, France</settlement>
+                  <repository>Bibliothèque municipale</repository>
+                  <idno type="shelfmark">MS. 860</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4329</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Vite s. Thome Cant.</title>
+                     <note type="MLGB3_generalNotes">Cf. Exeter Coll. 32, also from bp. William
+                        Reed.</note>
+                     <note type="MLGB3_generalNotes">See Medieval libraries, p. xv.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="118X/119X">s. xii ex.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_431">Oxford, Oxfordshire.
+                        Exeter College. </orgName><p>'Liber aule Exon. in Oxon. in communi libraria
+                        eiusdem et ad usum communem sociorum ibidem studentium
+                        cathenandus'.</p><note type="MLGB3_medievalCatalogueNotes">List
+                     1374</note></provenance>
+                  <provenance type="MLGB3_laterOwners">Bishop Th. Trillek. Bought from him by Bishop
+                     Wm. Reed of Chichester, who gave the book to the college.</provenance>
+                  <provenance type="MLGB3_laterOwners">'Ex dono R. D. Gulielmi Saint-George eiusdem
+                     collegii sacerdotis. Henry S. George.' A William St George was ordained priest
+                     of Douai in 1614, and is noticed at various dates betweeen 1610 and 1618, see
+                     index to Douai diaries, Catholic Record Society 10, 11.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

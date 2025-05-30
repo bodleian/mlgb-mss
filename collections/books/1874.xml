@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1874">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Taunton</settlement>
+                  <repository>Somerset County Record Office</repository>
+                  <idno type="shelfmark">MS. DD/SAS C/1193/68</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1874</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Horae</title>
+                     <note type="MLGB3_generalNotes">Binding with S. G.'s panels (cf. Hobson,
+                        Bindings in Cambridge Libraries, p. 58).</note>
+                     <note type="MLGB3_generalNotes">Notes of payments s. xvi in. on front
+                        pastedown.</note>
+                     <note type="MLGB3_generalNotes">Alice Brainthwaite, prioress 1461, owned Harley
+                        2254.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX">s. xv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_171">Dartford, Kent. Priory of
+                        St Mary the Virgin and St Margaret, of Dominican nuns. </orgName><p>At end:
+                        "Orate pro anima Sororis Alicie Brainthawyt qui [sic] dedit nobis istum
+                        librum."</p></provenance>
+                  <provenance type="MLGB3_laterOwners">"Purchased at Mr North's sale in the year
+                     1832 -- a relic from the Abbey of Muchelney".</provenance>
+                  <provenance type="MLGB3_laterOwners">Given to the Somerset Archaeological and
+                     Natural History Society by Mrs. Story, The Lynch, Somerton, Taunton, in 1906,
+                     and housed in Taunton Castle Museum, which is the location recorded in MLGB,
+                     with the manuscript number 2. It was deposited in 1983 with Somerset County
+                     Record Office, and that location is recorded in Ker, MMBL, iv.
+                     488-89.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

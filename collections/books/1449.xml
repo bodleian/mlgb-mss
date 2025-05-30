@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1449">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Private</settlement>
+                  <repository>private collection</repository>
+                  <idno type="shelfmark"/>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1449</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Lucas glo.</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="11XX">s. xii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_122">Canterbury, Kent.
+                        Benedictine abbey of St Augustine (originally of St Peter and St Paul).
+                        </orgName><p>'Di III Gra I.'</p><p>'Liber sancti Augustini Cant.' (fol. 2r,
+                        c. 1300).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">H. h. Price 1800.</provenance>
+                  <provenance type="MLGB3_laterOwners">W. H. Bohn.</provenance>
+                  <provenance type="MLGB3_laterOwners">George Dunn (sold 1913, lot
+                     1335).</provenance>
+                  <provenance type="MLGB3_laterOwners">Quaritch cat. 344 (1916) no. 48.</provenance>
+                  <provenance type="MLGB3_laterOwners">Recorded in MLGB2 as Dublin, Chester Beatty
+                     Library, W. 27; sold at Sotheby's, 3 December 1968, lot 7. Recorded in the 1987
+                     Supplement as 'now in a private collection'.</provenance>
+                  <provenance type="MLGB3_laterOwners">It subsequently appeared again at Sotheby's,
+                     being lot 19 in the sale of 7 July 2009, when it sold for £253,250 to a private
+                     bidder.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

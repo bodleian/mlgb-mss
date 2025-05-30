@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3351">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Laud Misc. 722</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3351</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Vita s. Germani; Bestiarium; Miscellanea historica; Fundatio abbatiae de
+                        Kyrkestalle, etc.</title>
+                     <note type="MLGB3_generalNotes">Dodsworth 140, fols. 98--108, was part of Laud
+                        Misc. 722.</note>
+                     <note type="MLGB3_generalNotes">Nothing to show early ownership. Inference from
+                        the "fundacio" (fols. 129r ff.).</note>
+                     <note type="MLGB3_generalNotes">Cf. M.V. Clarke &amp; N. Denholm Young in Bull.
+                        J. Rylands Libr. 15 (Jan. 1931), who treat the internal evidence as
+                        conclusive. Notes in the same hand run through the volume (s. xvi, after
+                        1539).</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX">s. xv</origDate>
+                  </origin>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_286">Kirkstall, Yorkshire.
+                        Cistercian abbey of Saint Mary the Virgin. </orgName><p>Memorandum of A. D.
+                        1511 signed (?) by "Antonius Adyl monachus de Kyrkstall" (fol.
+                     102v).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Thomas Falkingham of Northall, Leeds, 1595 --
+                     and in his possession in 1620, when used by Roger Dodsworth.</provenance>
+                  <provenance type="MLGB3_laterOwners">John Hundleby owned the last item, fols.
+                     193--204.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

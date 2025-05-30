@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3828">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">Addtional MS. 29704, 29705, 44892</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3828</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Missale</title>
+                     <note type="MLGB3_generalNotes">The three British Library MSS. Add. 29704--5
+                        &amp; 44892 have been constructed as one. The Glasgow MS. BD.19.h.9 (now
+                        Euing 26) was part of the same book. Another volume of cuttings has been
+                        found in London, Private Collection, 2.</note>
+                     <note type="MLGB3_generalNotes">Two vols. of borders, initials, etc., now
+                        reconstructed. Cf. E. Millar, Engl. Illum. MSS., 2. 271, and M. Rickert,
+                        "The reconstruction of an English Carmelite missal", Burlingon Magazine 67
+                        (Sept. 1935) 99--113: "made probably for Whitefriars, London"; M. Rickert,
+                        "Reconstruction of an English Carmelite missal", Speculum 16 (1941)
+                        92--108.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="138X/139X">s. xiv ex.</origDate>
+                  </origin>
+                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_340">London. Carmelite convent.
+                        </orgName><p>Fragments of a Carmelite missal.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Sold Evans 5 Aug. etc. 1833 lot 1525*
+                     (Hanrott sale).</provenance>
+                  <provenance type="MLGB3_laterOwners">Evans 18 May etc. 1874 lot 1561 (Titel
+                     sale).</provenance>
+                  <provenance type="MLGB3_laterOwners">Add. 44892 bought from the Hanrott in
+                     1936.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

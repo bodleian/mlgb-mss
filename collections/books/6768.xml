@@ -1,0 +1,88 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6768">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Untraced</settlement>
+                  <repository>Untraced</repository>
+                  <idno type="shelfmark"/>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6768</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Rupertus Tuitiensis, etc</title>
+                     <note type="MLGB3_generalNotes">Two printed books bound together, the second
+                        being Kaspar Sasger, Replica contra periculosa scripta (sl: sn,
+                        1522).</note>
+                     <note type="MLGB3_generalNotes">Contemporary brown stamped leather over wooden
+                        boards (which J. B. Oldham thought to be London work). Two clasps missing.
+                        Pastedowns from a manuscript (England, s. xiii), with a well-drawn grotesque
+                        in the lower margin of the page.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>[Cologne: Fran. Byrckman], 1527, etc.</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_601">Worcester, Worcestershire.
+                        Benedictine cathedral priory of St Mary the Virgin. </orgName><p>'Liber
+                        domini humfridi Weblei monachi Wygor' Scrutinium diuinæ scripturæ ab eodem
+                        authore editum (on back pastedown). Fragments of another book of Webley's
+                        forms the flyleaves of Oxford, Bodleian, printed book 8o M.122 Th
+                        (q.v.).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Codex Thomae Blissei barbitonsoris Regalis
+                     collegii Wigorniensis' (blank paper leaf at front; s. xvi).</provenance>
+                  <provenance type="MLGB3_laterOwners">'Robart Hesketh oweth this bouke' (blank
+                     paper leaf at front; s. xvi).</provenance>
+                  <provenance type="MLGB3_laterOwners">A. Ehrman of Beaulieu, Hampshire and later
+                     London, with this latter location recorded in MLGB. This was updated in the
+                     Supplement to Oxford, Dr D. M. Rogers (at the same time, the previous
+                     suggestion that this was Young 37 or 38 was deleted). David Rogers died in
+                     1995.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

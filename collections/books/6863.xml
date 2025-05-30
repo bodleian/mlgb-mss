@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6863">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>New York (NY, USA)</settlement>
+                  <repository>Public Library</repository>
+                  <idno type="shelfmark">MS. Spencer Collection 19</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6863</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>The dream of the pilgrimage of the soul (in English)</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="140X/141X">s. xv in</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_367">Marrick, Yorkshire. Priory
+                        of St Mary the Virgin and St Andrew, of Benedictine nuns. </orgName><p>'Iste
+                        liber constat monasterio sanctimonialium sancti Andree Apostoli de Merrycke.
+                        Si quis illum alienauerit vendiderit sue furatus fuerit sentenciam maioris
+                        Excommunicationis minime Euadat et Periculum eterne dampnacionis incurrat'
+                        (end flyleaf).</p><p>'Here beginnith the boke cald Grace dieu Giffen unto
+                        the Monestarye of Marrik, by Dame agnes Radcliffe, on whose soul Jhesu have
+                        mercye Amen ... Per me Isabell Lumley' (end flyleaf, c.
+                     1500).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Liber Domini Thome Comorworth militis' (s.
+                     xv).</provenance>
+                  <provenance type="MLGB3_laterOwners">'John Cowpper owe thes buke' (fol.
+                     3).</provenance>
+                  <provenance type="MLGB3_laterOwners">Lord Leconfield. Sold at Sotheby's, 23 April
+                     1928, as lot 76, to G. Wells.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

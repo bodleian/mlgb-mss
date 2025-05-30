@@ -1,0 +1,174 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3085">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Hereford</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. O.vi.7</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3085</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Formula noviciorum, etc.</title>
+                     <msItem>
+                        <locus>(fols. 1r--104r)</locus>
+                        <title>David of Augsburg OFM, De exterioris et interioris hominis
+                           compositione</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 108r--178v)</locus>
+                        <title>Ps.-Bonaventure, Stimulus amoris</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 178v--184r)</locus>
+                        <title>Ps.-Bede, Meditatio de passione domini </title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 184r--190v)</locus>
+                        <title>"O quam uehementi amplexu amplexisti me O bone Iesu ... peruenire
+                           queam. Amen"</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 190v--194v)</locus>
+                        <title>Anselm, Oratio 7</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 195r--208r)</locus>
+                        <title>Isidore of Seville, Synonyma</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fol. 208r--v)</locus>
+                        <title>Marbod of Rennes, carm. 7</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 208v--217v)</locus>
+                        <title>Ps.-Bernard of Clairvaux, Meditationes</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 217v--219r)</locus>
+                        <title>Sermo sancti Bernardi ad religiosos. "Ex quo surgitur ad matutinas
+                           uel ad uigilias ... in quo possit pugnare"</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 219r--220v)</locus>
+                        <title>De vii vitiis capitalibus per Chrysostomum</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 220v--222v)</locus>
+                        <title>Quid est virtus et quot sunt virtutes.</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 222v--227r)</locus>
+                        <title>A confessionary formula.</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 227r--228r)</locus>
+                        <title>Hugh of Saint-Victor, De vii vitiis</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 228r--237r)</locus>
+                        <title>Alcuin, De virtutibus et vitiis</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 237r--262v)</locus>
+                        <title>Ephraem Latinus</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 262v--272r)</locus>
+                        <title>Albuin, De virtutibus et vitiis</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 272r--274v)</locus>
+                        <title>Tractatus ex omeliis beati Gregorii. "Si uolumus timere Deum in
+                           tranquillitate ... pleni sumus peccatis, de quibus nos redemit ipse qui
+                           ..."</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 274v--279r)</locus>
+                        <title>Admonitio sancti Augustini ad populum domini ... ; "Rogo uos fratres
+                           karissimi quociens ad ecclesiam Dei conuenitis ... amat propter pecuniam.
+                           De timore Domini. Principium nostre salutis est timor Domini ...
+                           compunctionis et doloris."</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fol. 281v)</locus>
+                        <title>"Gemma Dei preciosa margarita fulgida"</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 282r--297r)</locus>
+                        <title>ten homilies, ascribed to Caesarius of Arles</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fol. 297r--v)</locus>
+                        <title>Prayers to BMV</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 298r--305r)</locus>
+                        <title>Eusebius Gallicanus, 8 homilies</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fol. 305r--v)</locus>
+                        <title>? Iacopo de Todi, De contemptu mundi</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fol. 305v)</locus>
+                        <title>Ps.-Augustine (Paulinus of Aquileia), Liber exhortationis de
+                           salutaribus documentis</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX">s. xv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_247">Hereford, Herefordshire.
+                        Cathedral church of St Ethelbert. </orgName><p>"liber ecclesie Cathedralis
+                        Herefordensis ex dono Iohannis Bayly."</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

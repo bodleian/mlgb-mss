@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1230">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">MS. Arundel 155</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1230</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Psalterium cum calendario, etc.</title>
+                     <note type="MLGB3_generalNotes">'Si quis invenerit hunc librum restituat dompno
+                        Willelmo Yngram' (ult. flyleaf, recto). See A. Gasquet &amp; E. Bishop, The
+                        Bosworth Psalter, and G. F. Warner, Illum. MSS. (1903), pl. 10. </note>
+                     <note type="MLGB3_generalNotes">Not in the medieval catalogues; noted by James,
+                        Anc. Libr., p. 525. The calendar is after 1042.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xi in. (? 1012 x 1023)</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_4">Canterbury, Kent.
+                        Benedictine cathedral priory of Holy Trinity or Christ Church.
+                        </orgName><p>"Psalterium dompni Iohannis Waltham monachi ecclesie Christi
+                        Cantuariensis Ex dono dompni W. Hadley supprioris"' (fol. 1v, s.
+                        xv--xvi?).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">William Howard 1592 (fol. 2r); "Procter
+                     vendidit Ao 1592" (flyleaf ult., recto).</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

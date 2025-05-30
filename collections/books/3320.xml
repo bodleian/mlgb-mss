@@ -1,0 +1,90 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3320">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>Fitzwilliam Museum</repository>
+                  <idno type="shelfmark">MS. 3--1967 (205)</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3320</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Collectarium cum Kalendario</title>
+                     <note type="MLGB3_generalNotes">Contemporary white leather over boards.</note>
+                     <note type="MLGB3_generalNotes">Liturgical book hand and decoration of
+                        15th-cent. type.</note>
+                     <note type="MLGB3_generalNotes">Dominican Kalendar altered on the continent in
+                        s. xviii.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="1523">1523</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_279">Kings Langley,
+                        Hertfordshire. Dominican convent. </orgName><p>(fol. 6r) "Orate pro anima
+                        Venerabilis patris fratris Roberti mylys sacre theologie magistri ac quondam
+                        prouincialis anglie qui hunc librum fieri fecit Anno Christi Mo CCCCCo
+                        XXiijo".</p><p> </p></provenance>
+                  <provenance type="MLGB3_laterOwners">Transferred from Woodchester in 1947 or 1948.
+                     Given to the convent of Dominicans at St Bartholomew's Smithfield, 12 Sept.
+                     1557, by Thomas Dowman, "Sacerdot' ecclesiæ Lychfyldensis". </provenance>
+                  <provenance type="MLGB3_laterOwners">A later inscr. reads: "Orate pro anima
+                     fratris Vincentii Torre Sacre Theologie magistri Prouincie Angliæ Vicarii
+                     Generalis Ordinis Fratrum Predicatorum, qui hunc librum Dono acceptum ab adm
+                     Reverendo P. Paulo Fordaens Priore Brugensi eiusdem Ordinis, die 3 Junii 1683,
+                     deposuit in Bibliotheca fratrum Predicatorum Anglo. Bornhemiensium Pro Conventu
+                     suo Sancti Batholomei Londinensis die 15a Junii 1683.</provenance>
+                  <provenance type="MLGB3_laterOwners">Robert Miles DD, Prior of Kings Langley, was
+                     at the same time Provincial. He is mentioned as such in 1522 and
+                     1527.</provenance>
+                  <provenance type="MLGB3_laterOwners">Formerly owned by Oxford,
+                     Blackfriars.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4041">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Grimsthorpe</settlement>
+                  <repository>Grimsthorpe Castle</repository>
+                  <idno type="shelfmark"/>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4041</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>W. de Montibus, Numerale; Speculum penitentis; Similitudines;
+                        Commemorationes; note of a miracle</title>
+                     <note type="MLGB3_generalNotes">Deposited with the Lincolnshire Archives
+                        Committee, Exchequer Gate, Lincoln, Ancaster 16/1.</note>
+                     <note type="MLGB3_generalNotes">Medieval binding.</note>
+                     <note type="MLGB3_generalNotes">See Hist. MSS. Comm. 66 (1907), p. 482.</note>
+                     <msItem>
+                        <title>W. de Montibus, Numerale</title>
+                     </msItem>
+                     <msItem>
+                        <title>Speculum penitentis</title>
+                     </msItem>
+                     <msItem>
+                        <title>Similitudines</title>
+                     </msItem>
+                     <msItem>
+                        <title>"Similitudines magistri Stephani Cant. Archiepiscopi"</title>
+                     </msItem>
+                     <msItem>
+                        <title>Commemorationes of the abbey of Newhouse (frgm. of four
+                           leaves)</title>
+                     </msItem>
+                     <msItem>
+                        <title>Note of a miracle at Weedon</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="12XX">s. xiii</origDate>
+                  </origin>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_397">Newsham, Lincolnshire.
+                        Premonstratensian abbey of St Mary the Virgin and St Martial.
+                        </orgName><p>Provenance inferred from contents: Commemartiones of the abbey
+                        of Newhouse (frgm. of four leaves).</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

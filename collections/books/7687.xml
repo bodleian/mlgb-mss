@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7687">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Balliol College</repository>
+                  <idno type="shelfmark">MS. 43</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">7687</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Aquinas</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="128X/129X">s. xiii ex.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_426">Oxford, Oxfordshire.
+                        Balliol College (Domus de Balliolo). </orgName><p>‘At the head of 1v, in the
+                        same hand as a similar entry in MS 42, is Ista secunda pars secunde partis
+                        summe fratris Th. de Aquino . . . et constitit viij libr. paris. id est l
+                        sol. sterlingorum. No doubt, therefore, this volume came with MS 42 from
+                        William Burnell, and on 3 (erased) is the late 14th-cent. College
+                        inventory-mark 29’ liber theologie. A pledge-note, early 15th cent., is on
+                        1: primum supplementum . . . . Some time in the first half of the century it
+                        must have gone astray like MS 42, for on 1 is: Istum librum legavit Magister
+                        Willelmus Duffeld ad usum sociorum collegii | de Baliolo Oxonie et dedit eis
+                        eundem ad instanciam Magistri Willelmi Moreton | quondam socii eiusdem domus
+                        anno regis Henrici sexti xxxj. mo s&lt;cilicet&gt; dedit (Duffield, who was
+                        a fellow of Merton Coll., died 7 March 1453; Emden i. 601). On 2v is a late
+                        15th-cent. Balliol title: 2a 2e Sancti Thome.’ (Mynors, Balliol,
+                     31)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">William Burnell (d. 1304), dean of
+                     WellsWilliam Duffield (d. 1453), fellow of Merton</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

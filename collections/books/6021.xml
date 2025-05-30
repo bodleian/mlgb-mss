@@ -1,0 +1,88 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6021">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Hatton 113, 114</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6021</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>St Wulfstan's Homiliary (in English)</title>
+                     <note type="MLGB3_generalNotes">"Sermones anglici .xxi." (Hatton 114, fol
+                        1r).</note>
+                     <note type="MLGB3_generalNotes">"Sermones anglice xx[?]" on backstrip of
+                        medieval binding of Hatton 113.</note>
+                     <note type="MLGB3_generalNotes">Cf. C. H. Turner, Early Worcester MSS., pp.
+                        lvi, lx--lxii.</note>
+                     <note type="MLGB3_generalNotes">Junius 121 is a companion volume to Hatton 113
+                        and 114.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="10XX">s. xi</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_601">Worcester, Worcestershire.
+                        Benedictine cathedral priory of St Mary the Virgin. </orgName><p>"Liber
+                        ecclesiae Wygorn." in Hatton 113, fol. ii recto, s. xvi.</p><p>Worcester
+                        kalendar.</p><p>Cambridge, UL, Kk.3.18; Clare Coll. 30, CCC 12; 162 pp.
+                        139--160; 178; 198; 391; 557; Glasgow, UL, Hunterian 431; Lawrence, Univ. of
+                        Kansas, Y.103, Y 104; London, BL, Cotton Otho B.x fols. 29, 30; Otho C.i,
+                        part ii; Harley 55; Oxford, Bodl., Hatton 20; 76; 113; 114; 115; 116; Junius
+                        121; Laud Misc. 482; Worcester Cathedral F.174: contain annotations in a
+                        tremulous hand, probably of s. xiii in. (see C. H. Turner, Early Worcester
+                        MSS, p. lvi; N. R. Ker in Leeds Studies in English 7 (1937), p.
+                        28.</p><p> </p><note type="MLGB3_medievalCatalogueNotes">Young 318,
+                        319</note></provenance>
+                  <provenance type="MLGB3_laterOwners">Sir Christopher Hatton, 1675.</provenance>
+                  <provenance type="MLGB3_laterOwners">Christopher, Lord Hatton 1644.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

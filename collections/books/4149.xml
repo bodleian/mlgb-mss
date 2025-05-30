@@ -1,0 +1,74 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4149">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>Lambeth Palace Library</repository>
+                  <idno type="shelfmark">MS. 192 fol. 44 (flyleaf)</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4149</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>(flyleaf)</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate/>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_404">Norwich, Norfolk. Benedictine
+                        cathedral priory of Holy Trinity. </orgName><p>Lambeth Palace 192 fols.
+                        1--44 and 188 fols. 175--179 were formerly bound together (by Bale?).
+                        Sancroft removed five leaves to another volume, but failed to remove with
+                        them the leaf still remaining in MS. 192 bearing the scribble "quod R
+                        [...]", which shows that it is from the same MS. as MS. 188 fol. 175r on
+                        which is written "quod R Gorst" in the same hand.</p><p>A leaf detached from
+                        BL Add. 15759, q. v. </p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

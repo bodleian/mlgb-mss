@@ -1,0 +1,91 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_2819">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Exeter</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. 3511</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">2819</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Sermones I. Ianuensis</title>
+                     <note type="MLGB3_generalNotes">On Westcote, see BRUO, pp. 2021-22, noting that
+                        he died in June 1418 and that his gift must date from 1417/18, not a century
+                        earlier as the transcription above suggests.</note>
+                     <note type="MLGB3_generalNotes">Bernard, Catalogi (1697), no. 2096.</note>
+                     <note type="MLGB3_generalNotes">Medieval binding of white leather over rounded
+                        boards.</note>
+                     <msItem>
+                        <title>1. Sermones dominicales fratris Jacobi ordinis fratruum perdicatorum
+                           archiepiscopi Januensis super euuangelia per circulum anni (incipit:
+                           Humane labilis vite . . .; medieval foliation: fol. I-CCLIX).</title>
+                     </msItem>
+                     <msItem>
+                        <title>2. Sermones festiuales per circulum anni fratris Iacobi (incipit:
+                           Vestigia eius . . .; pagination: pp. I-CCLXXXV).</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="130X/131X">s. xiv in.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_201">Exeter, Devon. Hospital of
+                        St John the Baptist and St John the Evangelist. </orgName><p>'Liber
+                        Hospitalis S. J. Exon' (fol. iiv). Also: 'Istum librum dat et concedit
+                        magister Johannes Westcote Canonicus Ecclesiae Cathedralis Exon' custos
+                        Hospitalis Sancti Johannis Baptiste infram portam orientalem Ciuitatis Exon'
+                        Magistro et Fratribus eiusdem hospit' in plenam et perpetuam elemosinam et
+                        eorum successoribus imperpetuum et eisdem liberauit possessionem dum tamen
+                        eorum consensu et assensu habeat Vusum eiusdem ad terminum vite sue Dat'
+                        Exon' xiiii die mensis Februarii Anno domini Millesimo CCCmo xviimo.'.
+                        However, see note below.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

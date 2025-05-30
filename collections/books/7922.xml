@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7922">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Balliol College</repository>
+                  <idno type="shelfmark">MS. 296</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">7922</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Abaelardus etc.</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="134X/135X">s. xiv med.</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_426">Oxford, Oxfordshire. Balliol College
+                        (Domus de Balliolo). </orgName><p>‘1, a fly-leaf slightly smaller than the
+                        volume, which does not look original, has on the verso the scribbled
+                        17th-cent. name Jacobus Stuartus, and Liber Collegii de Baliolo Oxon. Anno
+                        Domini mdcliiii. This is probably the date, not of acquisition, but of a
+                        return from exile, for the book seems to have been seen at Balliol by
+                        Leland; he reports (iii. 61) arts. 7, 8, and 12 together, and it is not very
+                        likely that the College should have possessed another volume containing
+                        these three opuscula. (It is tempting to conjecture that, like all the other
+                        handsome copies of rare philosophical or theological texts in this library,
+                        it came from William Gray.) It is not recorded in Thomas James’s catalogue
+                        printed in 1600; by 1625–30 when Richard James tried to secure it for Sir
+                        Robert Cotton [...], it was in the hands of Henry Jackson, fellow of Corpus
+                        Christi College, though still recognized as belonging to Balliol. In the
+                        library Donors Book, begun about 1630, it appears among the ‘Libri MSti ex
+                        incerta donacione’, not in its alphabetical place but added at the end in
+                        the same hand, as though newly recovered.’ (Mynors, Balliol,
+                     317)</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

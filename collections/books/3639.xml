@@ -1,0 +1,111 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3639">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Lincoln</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. 68</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3639</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Dieta salutis, etc.</title>
+                     <msItem>
+                        <locus>(fols. 1r--42r)</locus>
+                        <title>set of exempla, ascribed to Robert Holcot OP</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 43r--58v)</locus>
+                        <title>Malachias Hibernicus, Venenum viciorum</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 59r--130v)</locus>
+                        <title>Ps.-Bonaventure (William de Lavicea OFM), Dieta salutis, followed by
+                           a table</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 131v--138v)</locus>
+                        <title>Sermons</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 139r--181v)</locus>
+                        <title>Nicolaus de Hanapis OP, Exempla biblica in materias morales
+                           distributa</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 181v--190r)</locus>
+                        <title>subject-index to Robert Grosseteste, Dicta</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 190r--199v)</locus>
+                        <title>"Tabula incipit Holkoth super librum sapiencie"</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 199v--217r)</locus>
+                        <title>"Incipit tabula super flores Bernardi etc. ..."</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 217v--249r)</locus>
+                        <title>Jean de Saint-Amand, Ariole</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 250r--272v)</locus>
+                        <title>Robert de Basevorn, Forma predicandi</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX">s. xv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_316">Lincoln, Lincolnshire.
+                        Cathedral church of St Mary the Virgin. </orgName><p>"... beate marie
+                        Lincoln' istum librum." (fol. 272v).</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5682">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>Fitzwilliam Museum</repository>
+                  <idno type="shelfmark">MS. McClean 45</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5682</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Psalterium</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xiii--xiv</origDate>
+                  </origin>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_583">Wherwell, Hampshire. Abbey
+                        of Holy Cross, of Benedictine nuns. </orgName><p>Wherwell is mentioned in
+                        added obits and notes. "... fundatrices huius monasterii Wheruelle" on leaf
+                        facing the beginning of Psalms.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">"Thys is Symon Choppares boke off Oddyam ..."
+                     (s. xv).</provenance>
+                  <provenance type="MLGB3_laterOwners">Phillipps 2635.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sale Sotheby's, May 1897, lot 622. Bought by
+                     McClean from Quaritch.</provenance>
+                  <provenance type="MLGB3_laterOwners">Quaritch cat. 176 (1898), no. 48; 211 (1902),
+                     no. 56.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3149">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Hereford</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. P.ix.4</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3149</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Genesis et Exodus glo.</title>
+                     <msItem>
+                        <locus>(fols. 1r--94v)</locus>
+                        <title>Genesis, glo.</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 95r--209v)</locus>
+                        <title>Exodus, glo.</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="120X/121X">s. xiii in.</origDate>
+                  </origin>
+                  <provenance type="#m"><orgName role="fmo" key="mlgbOrg_247">Hereford, Herefordshire.
+                        Cathedral church of St Ethelbert. </orgName><p> </p><p>O.iv.3, O.v.8,
+                        O.viii.11, O.ix.1, P.ii.11, P.ii.13, P.iv.2, P.iv.13, P.v.13, P.ix.4 contain
+                        annotations by one hand of s. xv, perhaps -- see P.ix.4 -- that of John
+                        Castyll, penitentiary 1414--1430.</p><p> </p></provenance>
+                  <provenance type="MLGB3_laterOwners">"Magister Iohannes Castyll" (fol. 1r) --
+                     canon at Hereford 1415--1430.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1013">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Corpus Christi College</repository>
+                  <idno type="shelfmark">MS. 151</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1013</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Haly Abenragel</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="1380">A.D. 1380</origDate>
+                  </origin>
+                  <provenance type="#de"><orgName role="fmo" key="mlgbOrg_106">Cambridge,
+                        Cambridgeshire. Peterhouse (Collegium Sancti Petri). </orgName><p>'Hunc
+                        librum M. Iohannes Holbrok' contulit domui sancti Petri Cantebrigiensis in
+                        festo sancti Valentini anno domini mo cccco xxvjto' (fol. 218v) and 'Precium
+                        xij s' (fol. 1r)</p><p>Written at Oxford in 1380 by the Carmelite friar
+                        Peter de Bekklys.</p><p>Identifiable by secundo folio in the 1418
+                        catalogue.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">John Holbroke (d. by July 1437), master of
+                     Peterhouse, Cambridge. </provenance>
+                  <provenance type="MLGB3_laterOwners">John Leland (c. 1503--1552), poet and
+                     antiquary.</provenance>
+                  <provenance type="MLGB3_laterOwners">John Dee (1527--1609), mathematician,
+                     astrologer, and antiquary.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

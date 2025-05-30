@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7755">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Balliol College</repository>
+                  <idno type="shelfmark">MS. 119</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">7755</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Aegidius Romanus</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="128X/129X">s. xiii ex.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_426">Oxford, Oxfordshire.
+                        Balliol College (Domus de Balliolo). </orgName><p>Many late-13th- and
+                        14th-cent. notes of pledging. ‘While thus pledged, the volume was bequeathed
+                        to Balliol. at the head of 1, over another note now erased, is: Iste liber
+                        legatus erat domui de Balliolo in Oxonia per Magistrum Edmundum de Mepeham
+                        qui quidem liber inveniebatur expositus in cista de Vahghan pro v s. et vj
+                        d. quam pecuniam solvit domus predicta dicte ciste librum extrahendo die
+                        sancte Lucie virginis A.D. moccco tricesimo. on 2 is: Egidius super librum
+                        Elencorum de anima super librum posteriorum per Mepham. There is another
+                        list of contents on 3v [. . .] and the late 14th-cent. College
+                        inventory-mark 99 expositor logice is on 4.’ (Mynors, Balliol,
+                     99)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Edmund Mepham (d. 1333), canon of Llandaff
+                     and Chichester</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

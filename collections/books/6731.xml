@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6731">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Nottingham</settlement>
+                  <repository>Castle Museum</repository>
+                  <idno type="shelfmark">MS. s.n.</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6731</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Meditationes Anselmi, etc.</title>
+                     <note type="MLGB3_generalNotes">See A. Hamilton Thompson, Proceedings of the
+                        Leeds Philosophical Society (Literary and Historical Section), 2 (1929), pp.
+                        129--48.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="128X/129X">s. xiii ex.</origDate>
+                  </origin>
+                  <provenance type="#b"><orgName role="fmo" key="mlgbOrg_396">Newstead, Nottinghamshire.
+                        Augustinian priory of St Mary the Virgin. </orgName><p>Binding leaf (double)
+                        is from a mortuary roll of Robert Cutwolf, prior of Newstead (d. 1455). The
+                        last leaf of the last quire has, among other scribbles, the name of Thomas
+                        Gunthorpe (prior, 1467--1504).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Dr Caton, pro-chancellor, Liverpool
+                     University.</provenance>
+                  <provenance type="MLGB3_laterOwners">Prof. H. A. Ormerod of Newbury, in whose
+                     ownership it is recorded in MLGB. By the time of the Supplement, he was
+                     deceased and the volume 'transferred from Nottingham Public Library to the
+                     Castle Museum, Nottingham'. It is not described in MMBL, 3.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

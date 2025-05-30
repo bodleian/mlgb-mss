@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5819">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Langley Marish</settlement>
+                  <repository>Parish Church</repository>
+                  <idno type="shelfmark">MS. (deposited in London, BL, Loans 11)</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5819</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Evangelia ("The Kederminster Gospels")</title>
+                     <note type="MLGB3_generalNotes">"It is tempting, but dangerous, to identify the
+                        book with the 'unus liber Evangelii noviter ligatus', the only entry by
+                        which it can be represented, in the 1384--1385 register of the valuables of
+                        St George's Chapel, Windsor" (Brit. Mus. Quart. 6 (1932), p. 93). The MS.
+                        was deposited at BL 1932.</note>
+                     <note type="MLGB3_generalNotes"> </note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="10XX">s. xi</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_596">Windsor, Berkshire. Royal
+                        collegiate chapel of St George. </orgName><p>"Liber collegii de Wyndesore"
+                        (fol. 1r), s. xvi?</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Sir John Kederminster -- bequeathed, 1631, to
+                     parish church of Langley Marish.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

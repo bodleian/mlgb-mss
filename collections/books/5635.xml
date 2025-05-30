@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5635">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">Addtional MS. 8167</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5635</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Summa Guidonis; Formularia</title>
+                     <note type="MLGB3_generalNotes">Cf. Neues Archiv 4 (1879), p. 339, and Church
+                        Quarterly Rev. 95 (1923) 335--41.</note>
+                     <note type="MLGB3_generalNotes">Wm de Haseley flourished c. 1266 (Pearce, Monks
+                        of Westminster, p. 56). Thomas Ruston, novice 1435--1436, was 'scolaris
+                        studens Oxonie' 1448--1456 (ibid., p. 145).</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="12XX">s. xiii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_579">Westminster, Middlesex.
+                        Benedictine abbey of St Peter. </orgName><p>'Iste libellus est ecclesie
+                        beati Petri Westmenasterii ex procuracione fratris Willelmi de Hasele,
+                        reservato inde eidem W. quoad vixerit usu fructu de licencia domini abbatis
+                        et conventus' (fol. 2r), s. xiii.</p><p>'T. Ruston' monachus Westm'' (fol.
+                        201r), s. xv.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Jo. Bulkley' (fol. 2r), ? s. xvi or
+                     xvii.</provenance>
+                  <provenance type="MLGB3_laterOwners">John Tophan.</provenance>
+                  <provenance type="MLGB3_laterOwners">Thomas Bryan Richards 1804 (no. 679 in
+                     Topham's sale).</provenance>
+                  <provenance type="MLGB3_laterOwners">Henry Petrie 1826, who gave to British
+                     Library.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

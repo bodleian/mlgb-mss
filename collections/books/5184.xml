@@ -1,0 +1,76 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5184">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Rome, Italy</settlement>
+                  <repository>Biblioteca Apostolica Vaticana</repository>
+                  <idno type="shelfmark">MS. Barberini 2689</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5184</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>English chronicle (in French) (inc.: 'Nus deuons sauer al commencement
+                        Ke le isle de bretaigne ...')</title>
+                     <note type="MLGB3_generalNotes">Cf. Hardy, Materials, 3. 348.</note>
+                     <note type="MLGB3_generalNotes"> </note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="13XX">s. xiv</origDate>
+                  </origin>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_494">Sempringham, Lincolnshire.
+                        Gilbertine priory of St Mary the Virgin. </orgName><p>Nat. Libr. of Scotland
+                        2728 is a copy made for B. H. Bright in 1823. Flyleaf memoranda show the
+                        provenance, e. g. (2728, fol. iv verso) note of the great rain in 1349 and
+                        the damage it did at Sempringham 'et mult des liures de lalmarie peris', and
+                        (2728, fol. vii recto) list of masters to Wm. of Beverley, d. 1396,
+                        succeeded by John of Hanworth.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

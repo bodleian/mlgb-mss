@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7213">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>Pembroke College</repository>
+                  <idno type="shelfmark">MS. 137</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">7213</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Auicenna</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="128X/129X">s. xiii ex.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_105">Cambridge, Cambridgeshire.
+                        Pembroke College (Aula Valence S. Marie). </orgName><p>Mark of Pembroke Hall
+                        chain staple on fol. 391</p><p>‘Anno Domini millesimo quadringentesimo
+                        quadragesimo octauo in crastino Inuencionis Sancte Crucis Ego magister
+                        Iohannes Somerseth ciuis London’ arcium liberalium et artis conseruatiue
+                        uite humane doctor concedo et do istum Canonem Auicenne librarie collegii
+                        siue aule Penbrochie in Cantebrigia ibidem pro perpetuo cathenandum.
+                        Benedicta igitur sit aula illa nobilis qua alumnus educatus sum et eius
+                        fundatrix deuotissima domina Maria [domina er.] de sancto Paulo, que cum
+                        Christo uiuat in eternum Deo gratias’ (fol. 389v)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">John Somerset (d. by 1455), physician to
+                     Henry VI and chancellor of the Exchequer</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

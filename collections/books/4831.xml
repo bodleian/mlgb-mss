@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4831">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Dublin, Ireland</settlement>
+                  <repository>Trinity College</repository>
+                  <idno type="shelfmark">MS. 177</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4831</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Radulfus de Dunstable, Passio S. Albani, etc.</title>
+                     <note type="MLGB3_generalNotes">See M. R. James, La Estoire de Seint Aedward le
+                        Rei, Roxburghe Club (1920) and Illustrations to the life of St Alban (Oxford
+                        1924); and see Anal. Boll. 46, p. 96.</note>
+                     <note type="MLGB3_generalNotes">The MS. contains writing in the hand of Matthew
+                        Paris, see R. Vaughan, 'The Handwriting of Matthew Paris', Trans. Cambr.
+                        Bibl. Soc. 1 (1953), pp. 390--92.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="12XX">s. xiii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_474">St Albans, Hertfordshire.
+                        Benedictine abbey of St Alban. </orgName><p>'hic est liber ecclesie sancti
+                        albani anglorum prothomartiris de armariolo A' (fol. 3r), first leaf of
+                        text, at foot (s. xiv/xv).</p><p> </p><note
+                        type="MLGB3_medievalCatalogueNotes">de armariolo A</note></provenance>
+                  <provenance type="MLGB3_laterOwners">Archbp. Ussher.</provenance>
+                  <provenance type="MLGB3_laterOwners">Presented to the College 1661.</provenance>
+                  <provenance type="MLGB3_laterOwners">JJJ 32.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

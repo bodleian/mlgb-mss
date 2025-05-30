@@ -1,0 +1,91 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6428">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Canterbury</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. Add. 392</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6428</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Biblia</title>
+                     <note type="MLGB3_generalNotes">First noted in the Supplement, at which time it
+                        was untraced.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate/>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_4">Canterbury, Kent.
+                        Benedictine cathedral priory of Holy Trinity or Christ Church.
+                        </orgName><p>At fol. i, two inscriptions: the first being 'Bibblia magistri
+                        Thome Trussell [space] Eccl[es]ie xpi cantuarie' (s. xiv) and the later
+                        'Bibblia dompni Will[el]mi Lighfyld monachi eccl[esi]e x. cant.' (s.
+                        xv/xvi). All but the first four words of the earlier inscription have been
+                        erased but legible under U.V. light.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Magister Thomas Trussel, Middlesex (1331) and
+                     Northamptonshire (1344). </provenance>
+                  <provenance type="MLGB3_laterOwners">For William Litchfield (1513), see Searle, p.
+                     194.</provenance>
+                  <provenance type="MLGB3_laterOwners">'Liber dompni William Cockes clerici' (fol.
+                     i, s.xvi). </provenance>
+                  <provenance type="MLGB3_laterOwners">Henry Munster (s.xix). </provenance>
+                  <provenance type="MLGB3_laterOwners">J. Poyner. </provenance>
+                  <provenance type="MLGB3_laterOwners">Sold at Sotheby's, 12 December 1967, lot 19
+                     to Sanders, Oxford for £850, from whom it was bought by Hon. C. A.
+                     Lennox-Boyd.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sold at Christie's, 9 December 1981, lot 231,
+                     to Heribert Tenschert, Rotthalmünster, from whom it was bought by Martin
+                     Schøyen. It was no. 15 in his collection.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sold at Dreweatts, 10 July 2018, lot 81 (as
+                     'The Canterbury "Trussel" Bible'), to Canterbury Cathedral.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

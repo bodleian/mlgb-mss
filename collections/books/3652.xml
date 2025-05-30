@@ -1,0 +1,134 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3652">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Lincoln</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. 107</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3652</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Vitas patrum</title>
+                     <note type="MLGB3_generalNotes">"prec. xiij s'" (s. xiii ex.).</note>
+                     <msItem>
+                        <title>Vitae sanctorum:</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fols. 7r--19v) Hilarius</author>
+                        <title>Vita s. Honorati</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fols. 19v--24r) Fortunatus</author>
+                        <title>Vita s. Hilarii</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fols. 24r--35r) Guigo</author>
+                        <title>Vita s. Hugonis episcopi Gratianopolitani</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fols. 35r--42r) Pontius</author>
+                        <title>Vita s. Cipriani</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 42r--49r)</locus>
+                        <title>Dinamius, Vita s. Maximi</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fols. 49r--60v) Sulpicius Severus</author>
+                        <title>Vita s. Martini</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 60v--62r)</locus>
+                        <title>Sulpicius Severus, ep. 3. 2</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fols. 62r--63v) Gregory of Tours</author>
+                        <title>Historia Francorum</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fols. 63v--65r) Sulpicius Severus</author>
+                        <title>Dialogi</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 65v--68v)</locus>
+                        <title>Miracles of St Martin</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fols. 68v--81r) John the Deacon</author>
+                        <title>Vita s. Nicholai</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fols. 81r--83r) Cassiodorus</author>
+                        <title>Institutiones</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fols. 83r--112v) Bernard of Clairvaux</author>
+                        <title>Vita s. Malachiae</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fols. 112v--115v) Bernard&amp;nbsp;of Clairvaux</author>
+                        <title>Sermo de transitu Malachiae</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 115v--116v)</locus>
+                        <title>Bernard of Clairvaux, ep. 374</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="11XX">s. xii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_316">Lincoln, Lincolnshire.
+                        Cathedral church of St Mary the Virgin. </orgName><p>"Liber sancte marie
+                        Linc'".</p><note type="MLGB3_medievalCatalogueNotes">Cat.
+                     79</note></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

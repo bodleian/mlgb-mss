@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5815">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Peterborough</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. M.6.6 (pr. bk)</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5815</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Missale Saresburiense</title>
+                     <note type="MLGB3_generalNotes">See Chr. Wordsworth, Tracts. of Clement
+                        Maydeston, HBS 7 (1894), pp. 225--31.</note>
+                     <note type="MLGB3_generalNotes">A vellum inset of 2 leaves contained in MS. the
+                        (Christian) names of 16 persons of whom "Quilibet sotius et conducticius
+                        huius collegii tenetur ... habere memoriam"; 13 of these names agree exactly
+                        with the (Christian and sur)names given from the Winchester College Statutes
+                        by Kirby, Annals, pp. 503--05.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>Paris (Rembolt), 1514</origDate>
+                  </origin>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_595">Winchester, Hampshire.
+                        College of St Mary the Virgin of Winchester. </orgName></provenance>
+                  <provenance type="MLGB3_laterOwners">Borrowed by Gerard Davidson, 8 Nov. 1902. He
+                     was minor canon 1901--06, and later rector of Higham Ferrers and of
+                     Woodford.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

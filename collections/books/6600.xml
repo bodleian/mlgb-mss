@@ -1,0 +1,91 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6600">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>Newham Museum Service</repository>
+                  <idno type="shelfmark">MS. LD PEM AD/AY 1</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6600</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Biblia latina; etc.</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="11XX/12XX">s. xii/xiii</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_566">Waltham, Essex. Augustinian abbey of
+                        Holy Cross. </orgName><p>'Liber ecclesie sancte crucis de Waltham quem qui
+                        fraudulenter alienauerit uel titulum deleuerit anathema sit. Amen' (s. xiii,
+                        fol. 1r).</p><p>s. xiv pressmark: 'XX[ii] al. P.' (fol. ii
+                        verso).</p><p>Contains a contemporary booklist, printed as CBMLC
+                        A38.</p><p>Monastic binding.</p><p>Described by M.R. James, Essex Archaeol.
+                        Soc. Trans., xxi, 40. See also CMBLC 6, pp. 428--429 (headnote to list
+                        A38).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Sir Nicholas Bacon and successors at Redgrave
+                     Hall, Suffolk.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sold by G. Holt Wilson of Redgrave Hall
+                     (Sotheby, 157) 21 July 1910.</provenance>
+                  <provenance type="MLGB3_laterOwners">Quaritch Cat. 303 (1911), no.
+                     892.</provenance>
+                  <provenance type="MLGB3_laterOwners">George Dunn, sold (Sotheby lot 1729) 11 Feb.
+                     1914.</provenance>
+                  <provenance type="MLGB3_laterOwners">Quaritch Cat. Illum. MSS. (1931), no.
+                     7.</provenance>
+                  <provenance type="MLGB3_laterOwners">Bought by E. G. Millar from Quaritch, 1933.
+                     Sold by him at Sotheby's 1962.</provenance>
+                  <provenance type="MLGB3_laterOwners">Mr H. C. Drayton, Plumton Hall, Whepstead,
+                     Bury St Edmunds.</provenance>
+                  <provenance type="MLGB3_laterOwners">Passmore Edwards Museum, London E15
+                     (1973--1995).</provenance>
+                  <provenance type="MLGB3_laterOwners">Newham Museum Service, London.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

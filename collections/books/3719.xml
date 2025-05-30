@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3719">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Leiden, The Netherlands</settlement>
+                  <repository>University Library</repository>
+                  <idno type="shelfmark">MS. Lipsius 41</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3719</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Seneca</title>
+                     <msItem>
+                        <author>Seneca</author>
+                        <title>Declamationes</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="118X/119X">s. xii ex.</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_321">Lincoln, Lincolnshire.
+                        Dominican convent. </orgName><p>(fol. 3v) 'Memorandum quod iste liber est
+                        acomodatus Iohanni de Crosholm Iuniori per fartrem Willelmum de Birtone
+                        Iuniorem ordinis predicatorum in presencia Prioris sui Fratris Willelmi de
+                        Geynesborou pro uoluntate dicti ffratris Willelmi repetendus' (s.
+                        xiii--xiv).</p><p>'Memorandum quod iste liber est acomodatus domino Iohanni
+                        Beneyt monacho de Kyrkested per fratrem Willelmum de birtona Iuniorem in
+                        presencia domini Thome de Hiltingdon et domini Laurencii de Kyrkeby
+                        monachorum dicti monasterii et fratris Iohannis de Hiltingdon ordinis
+                        predicatorum lincolnie in domo magistri Iohannis de Hely argentarii in die
+                        sancti Gregorii Anno domini mcccxxxiiio'.</p><p> </p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

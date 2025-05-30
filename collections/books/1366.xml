@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1366">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Stockholm, Sweden</settlement>
+                  <repository>Kungliga biblioteket</repository>
+                  <idno type="shelfmark">MS. A. 135</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1366</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Evangelia ("Codex aureus")</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. viii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_4">Canterbury, Kent.
+                        Benedictine cathedral priory of Holy Trinity or Christ Church.
+                        </orgName><p>An inscription on fol. II recto In OE (facsimile by Zimmermann,
+                        Vorkarolingische Miniaturen (1916), pl. 284) records the gift of the MS. to
+                        Christ Church, Canterbury, by Ælfred aldorman and Wærburh his wife (s. ix).
+                        The donors had bought it from the Danes ("set hæðnum
+                     herge").</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Jerónimo Zurita (d. 1580); Carthusians of
+                     Aula Dei, Zaragoza; Count-Duke of Olivares, Gaspar de Guzmán (1587--1645) (for
+                     these three see G. Antolin, Catálogo de los códices Latinos de la Real
+                     Biblioteca del Escorial 5, p. 274.</provenance>
+                  <provenance type="MLGB3_laterOwners">Acquired by J. G. Sparwenfeld 8. 1.
+                     1690.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

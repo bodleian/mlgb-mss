@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4028">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">Addtional MS. 35110</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4028</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Vite sanctorum</title>
+                     <note type="MLGB3_generalNotes">An erased inscr. immediately under the
+                        above.</note>
+                     <note type="MLGB3_generalNotes">Medieval binding, much mended. </note>
+                     <note type="MLGB3_generalNotes">Cf. Mynors, Durham Cath. MSS., p. 8.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="118X/119X">s. xii ex.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_390">Newcastle-upon-Tyne,
+                        Northumberland. Convent of Austin friars. </orgName><p>"Hic est liber
+                        fratrum heremitarum ordinis sancti Augustini de Novo Castro. In hoc volumine
+                        continentur hee vite: Vita sancti Augustini episcopi magni doctoris, Vita
+                        sancti Cuthberti episcopi, Vita sancti Columbe abbatis, Vita sancti Osuualdi
+                        regis et martyris, Vita sancti Aidani episcopi, Vita sancti Eduuardi regis"
+                        (fol. 2v, flyleaf); s. xiii.</p><p> </p></provenance>
+                  <provenance type="MLGB3_laterOwners">Sir Henry Savile Provost of Eton or other of
+                     his family -- Savile sale 1861 (lot 59).</provenance>
+                  <provenance type="MLGB3_laterOwners">Phillipps no. 26075. Sold 1897 lot
+                     241.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

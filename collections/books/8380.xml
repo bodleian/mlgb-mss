@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8380">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Merton College</repository>
+                  <idno type="shelfmark">MS. 256B</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">8380</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Nicolaus Treuet; Thomas Waleys</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xiv 1</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_435">Oxford, Oxfordshire.
+                        Merton College. </orgName><p>‘Iste liber quondam Iohannis episcopi Exon’
+                        assignatur alicui pauperi scolari Oxon’ in theologia studenti in eius
+                        memoriam cuius erat, et eo promoto uel decedente aliis sic studentibus
+                        relinquatur in aule Merton’ ad usum huiusmodi extunc perpetuo remansurus’
+                        (fol. vv, hand of John Grandisson)‘Traditur J. Gardener socio dicte aule
+                        illuc deferendus’ (fol. vv, perhaps hand of John Grandisson)‘Lent by the
+                        warden to John Hanham (BRUO 742), fellow in 1427–8, until 1438 (UO52. 60).
+                        Alienated at an uncertain date after that, and repurchased by the College in
+                        1878.’ (Thomson, Merton, 198)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">John Grandisson (1292–1369), bishop of
+                     Exeter</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

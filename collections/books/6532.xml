@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6532">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Lat. th. f. 20</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6532</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Walter Hilton</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX">s. xv</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_537">Syon, Middlesex. Bridgettine abbey
+                        of St Saviour, St Mary the Virgin, and St Bridget. </orgName><p>Identifiable
+                        as M.95 in Betson's catalogue, on the basis of contents and second
+                        folio.</p><p>Medieval binding. Marks of a title-label on the back cover.
+                        There are no tags, surviving labels, or other signs of Syon ownership or
+                        use.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">John Trotter Brockett FSA (sale, Sotheby's,
+                     16 June 1843, lot 689).</provenance>
+                  <provenance type="MLGB3_laterOwners">Canon Greenwell.</provenance>
+                  <provenance type="MLGB3_laterOwners">J. Raine, York, January 1862.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sotheby's, 15--16 March 1907, lot 350. Bought
+                     by Mr Merton from 'H. A. Selden' (i.e. R. B. Haselden of the Huntington
+                     Library), bookseller of Sicilian Ave, London, on 1 July 1913.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

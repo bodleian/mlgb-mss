@@ -1,0 +1,76 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3374">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>Peterhouse</repository>
+                  <idno type="shelfmark">MS. 247</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3374</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Miscellanea medica</title>
+                     <note type="MLGB3_generalNotes">It seems likely that the whole MS (pts i--ix)
+                        is from Lanercost. Pt ix has the inscription 'Liber ffratris Nich. de
+                        Morland ex dono Willelmi de Langedale [s. xiii, xiv] cuius usum proprium
+                        idem Nicholaus concessit cessit (sic) domino Iohanni de Buchcaster [i.e.
+                        Bewcastle]'. Morland and Langdale are in Westmorland. A John of Bewcastle
+                        was prior of Lanercost 1338--54 (Heads of Religious Houses, 2. 403).</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xii, xiii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_292">Lanercost, Cumberland.
+                        Augustinian priory of St Mary Magdalen. </orgName><p>'Liber sancte Marie
+                        Magdalene de Lanrecost si quis inde eum asportauerit anathema sit' at foot
+                        of first leaf of pt iii.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

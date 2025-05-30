@@ -1,0 +1,86 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6481">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Clongowes Wood, Ireland</settlement>
+                  <repository>College</repository>
+                  <idno type="shelfmark"/>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6481</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Ivo Carnotensis, Panormia; formula causarum sive iudiciorum</title>
+                     <note type="MLGB3_generalNotes">The formula is in a slightly later hand than
+                        the rest, occupying fols 130--139. Vol. consists of 140 fols parchment 10"x
+                        6" , in original boards and leather cover. No illumination, but capitals
+                        finely executed in red and green. All information from Fr. A. Gwynn S.J. 35
+                        Lower Leeson St., Dublin C.10 (9 March 1939).</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="11XX/12XX">s. xii/xiii</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_219">Fountains, Yorkshire. Cistercian
+                        abbey of St Mary the Virgin. </orgName><p>'C xi' (fol. 1r, red, same stayle
+                        as capitals in text, s. xiii); 'Thecla .1a. in Antiq' Alm' lib' xxxviij'
+                        (inside cover, facing first pressmark, later hand); 'Liber sancte Marie de
+                        ffontibus' (s. xiii, fol. 4r).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Slingesby family (living near Fountains): Sir
+                     Henry Slingesby 1647 (fol. 4r). Given 1699 to Dr. William Nicholson, archdeacon
+                     (later bp.) of Carlisle by the bp's chaplain Galfrid' Wybergh. Nicholson died
+                     as archbishop of Cashel 1726 and the book passed to the family of Daniel Hearn,
+                     archdeacon of Cashel. Belonged to one Daniel Hearn 1816 whence it came to
+                     Clongowes Jesuit College (founded 1814): date of accession
+                     unrecorded.</provenance>
+                  <provenance type="MLGB3_laterOwners">Contemporary binding of thick wooden boards
+                     covered with a leather jacket. The spine has projections at top and bottom. Two
+                     clasps fastening on to lower cover now missing.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

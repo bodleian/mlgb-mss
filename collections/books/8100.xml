@@ -1,0 +1,103 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8100">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Magdalen College</repository>
+                  <idno type="shelfmark">MS. lat. 147</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">8100</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Higden; historica uaria</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xv 2/4 uel med.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_434">Oxford, Oxfordshire. St
+                        Mary Magdalen College. </orgName><p>Bale, Index, 492‘Memorandum quod Anno
+                        domini 1449uo et anno regni regis henrici vjti. post conquestum 28uo.
+                        quintodecimo die mensis Ianuarij Magister Walterus Honyngton’ nuper vicarius
+                        perpetuus ecclesie Sancti Sepulcri extra Nwgate London’ hunc librum donauit
+                        et per manualem tradicionem liberauit Magistro Iohanni Hornton sub
+                        condicione que sequitur videlicet quod predictus Magister Iohannes quamdiu
+                        vixerit specialiter orabit pro bono statu predicti Magistri Walteri dum
+                        vixerit et pro anima Magistri Radulphi Grenehyrst Et post mortem supradicti
+                        Magistri Walteri specialiter orabit pro anima sua et pro anima predicti
+                        Magistri Radulphi et animabus omnium fidelium defunctorum Et \si/ contingat
+                        predictum Magistrum Iohannem ante supradictum Magistrum Walterum in fatum
+                        decedere predictus Magister Iohannes fideliter iterato liberabit eundem
+                        librum supradicto Magistro Waltero vt inde ordinet et disponat prout sibi
+                        videbitur \melius/ expedire Sinantem supradictus Magister Iohannes Hornton’
+                        in vita vel in morte sua alteri honesto et discreto presbitero verbum dei
+                        predicare volenti et proponenti eundem librum assignabit sibi firmiter
+                        iniugendo quod quamdiu vixerit orabit specialiter pro animabus predictorum
+                        Magistrorum Walteri et Radulphi et sua Et ita iste liber in perpetuum
+                        transiet de vno \presbitero/ ad alium semper predictum onus fideliter
+                        obseruando etc.’ (fol. 148v)‘Memorandum quod xxmo. die me(n)sis Octob’ anno
+                        domini mloCCCCliiijo. Magister Iohannes Hornton’ hunc librum dedit Magistro
+                        Iohanni Hor\n/le et propriis manibus eidem deliberauit sub hac forma quod
+                        predictus Magister Hornle ad terminum vite sue vsum eiusdem libri vt proprii
+                        habeat cum hoc onere videlicet quod in orationibus suis recommenditas habeat
+                        animas Magistri Walteri Honyngton Magistri Radulphi Grenehyrst et Magistri
+                        Iohannis Hornton’ et quod prefatus Magister Iohannis Hornle taliter
+                        prouideat et disponat quod iste liber post suum decessum vel ante detur et
+                        actualiter deliberetur presidenti aule Beate Marie Magdalene et socijs
+                        eiusdem ad cathenandum in eorum libraria ad perpetuum vsum studencium in
+                        eadem cum onere super nominato videlicet Ad orandum pro animabus superius
+                        recitatis Quarum sue magne pietatis visceribus misereatur deus clemens et
+                        propicius Amen Amen’ (fol. 148v)‘&lt;Cu&gt;ius est iste &lt;lib&gt;er et sub
+                        qua condicione vide folio 148.’ (front pastedown, s. xv)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">John Hornton (fl. c. 1454), not otherwise
+                     known (BRUO 967 believes he also gave Magdalen MS lat. 115, but this is
+                     uncertain)John Hornley (d. 1477), president of Magdalen Hall</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

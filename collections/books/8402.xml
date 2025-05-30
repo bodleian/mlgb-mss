@@ -1,0 +1,88 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8402">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Merton College</repository>
+                  <idno type="shelfmark">MS. 281</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">8402</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Commentarii in Aristotelem; Astronomica</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xiv in. et xiv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_435">Oxford, Oxfordshire.
+                        Merton College. </orgName><p>Two separate volumes, both given by William
+                        Reed but not bound together until after s. xvi.‘Coll. Mert. Donavit
+                        venerabilis vir Willielmus Reade Episcopus Cicestrensis olim Socius’ (fol.
+                        i, s. xvii in)Part I: ‘Liber domus scolarium de Merton’ in Oxon’ in communi
+                        libraria eiusdem et ad usum communem sociorum ibidem studencium cathenandus.
+                        Ex dono uenerabilis patris domini Willelmi tercii episcopi Cicestrensis.
+                        Oretis igitur pro eodem et benefactoribus eiusdem ac fidelium animabus a
+                        purgatorio liberandis’ (fol. 1, hand of Walterus Roberti)‘Isti 8. quaterni
+                        sunt magistri [...]’ (fol. 1)‘Liber magistri Willelmi Red ex dono magistri
+                        Nicholai de Sandwich. Oretis igitur pro utroque’ (fol. 149v, hand of William
+                        Reed)Part II:Cautiones, fols. 150v and 151v‘Tradatur iste liber Waltero de
+                        Rutona et mittatur fratri Thoma de Bures apud Schelmeresford sicud [sic
+                        Thomson, Merton, 218] rogauit frater Iohannes Kenelme [1.5-line erasure]’
+                        (fol. 151)‘Pertinet patri Iohanni de Elham preden’’ (fol. 151)‘Liber I.
+                        Gilden pro quo habet textum philosophie’ (fol. 151v)‘Liber domus scolarium
+                        de Merton’ ex legato Magistri Willelmi Reed episcopi Cicestrie ad communem
+                        usum sociorum dicte domus’ (fol. 152)</p><note
+                        type="MLGB3_medievalCatalogueNotes">UO49.14 = UO68.278 (part 1); and
+                        UO68.277 (part 2)</note></provenance>
+                  <provenance type="MLGB3_laterOwners">William Reed (c. 1315–1385), bishop of
+                     Chichester</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

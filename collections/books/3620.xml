@@ -1,0 +1,105 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3620">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Lincoln</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. 19--22 (4 vols)</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3620</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Nicolaus de Lyra (4 vols): 19--21 in Vetus Testamentum, 22 in
+                        Evangelia</title>
+                     <msItem>
+                        <title>MS. 19:</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 1r--255v)</locus>
+                        <title>Nicholas de Lyra, Postilla in Genesim, Exodum, Leviticum, Numeros,
+                           Deuteronomium, Iosue, Iudicum, Ruth, I--II Regum, III--IV Regum, I--II
+                           Paralipomenon, I--II Esdram, Neemiam, Esther, Tobiam, Iudith, Iob</title>
+                     </msItem>
+                     <msItem>
+                        <title>MS. 20: </title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 1r--205v)</locus>
+                        <title>Nicholas de Lyra, Postilla in Psalmos, Proverbia, Ecclesiasten,
+                           Cantica, Sapientiam, Ecclesiasticum, Isaiam</title>
+                     </msItem>
+                     <msItem>
+                        <title>MS. 21:</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 1r--228v)</locus>
+                        <title>Nicholas de Lyra, Postilla in Isaiam, Ieremiam, Lamentationes,
+                           Baruch, Orat. Ierem., Ezechielem, Danielem, Danielem II, XII prophetas, I
+                           Maccabeorum, II Maccabeorum</title>
+                     </msItem>
+                     <msItem>
+                        <title>MS. 22:</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 1r--178v)</locus>
+                        <title>Nicholas de Lyra, Postilla in Matthaeum, Marcum, Lucam,
+                           Iohannem</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="13XX">s. xiv</origDate>
+                  </origin>
+                  <provenance type="#d"><orgName role="fmo" key="mlgbOrg_316">Lincoln, Lincolnshire.
+                        Cathedral church of St Mary the Virgin. </orgName><p>Identifiable in the
+                        1454 catalogue by second folio.</p><note type="MLGB3_medievalCatalogueNotes"
+                        >Cat. 6--9</note></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,82 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6864">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Merton College</repository>
+                  <idno type="shelfmark">MS. 181</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6864</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Beda, etc.</title>
+                     <note type="MLGB3_generalNotes">Fol. 230, a waste binding leaf, is in the hand
+                        of William of Malmesbury. The leaf was discarded when three columns had been
+                        written.</note>
+                     <note type="MLGB3_generalNotes">Cambridge, UL, Ii.3.20, Cambridge, CCC, 330,
+                        Trinity Coll. 1301, Lambeth Palace 224, Bodleian, Arch. Seld. B.16, Auct.
+                        F.3.14, Lincoln Coll., lat. 100, Magdalen Coll., lat. 172, and Oriel Coll.
+                        42 also contain writing in a hand identified as that of William of
+                        Malmesbury; cf. N.R. Ker in EHR, 59 (1944), pp. 371–76.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="110X/111X">s. xii in</origDate>
+                  </origin>
+                  <provenance type="#eb"><orgName role="fmo" key="mlgbOrg_360">Malmesbury, Wiltshire.
+                        Benedictine Abbey of St Mary the Virgin and St Aldhelm.
+                        </orgName><p>'Malmesbur'' on flyleaf pasted to fol. iiv, above which is the
+                        number 'xvj' and below a table of contents (all in one hand, s. xiv
+                        ex.).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">In Oxford in the fifteenth century, when it
+                     was deposited in the Selton chest, 17 July [....]. Given to Merton by John
+                     Gigur, formerly warden, in 1486.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

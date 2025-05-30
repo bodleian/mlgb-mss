@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1761">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>All Souls College</repository>
+                  <idno type="shelfmark">MS. 82</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1761</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Virgilius</title>
+                     <note type="MLGB3_generalNotes">Hereford Cathedral, O.ii.4, All Souls Coll. 82
+                        and Jesus Coll. 26 are inscribed "Liber Magistri Aluredi", s. xii/xiii
+                        (?).</note>
+                     <note type="MLGB3_generalNotes">Stamped Oxford binding s. xv (Gibson stamps 3,
+                        4, 6, 13, 14, 15, 80 and another).</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="11XX">s. xii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_143">Cirencester,
+                        Gloucestershire. Augustinian abbey of St Mary the Virgin.
+                        </orgName><p>"Liber ecclesie sancte Marie de [Cyrence]st[r]'" (fol. iii
+                        recto (erased, but mostly legible by u. v. light)), s. xiii
+                        (?).</p><p>"Liber Magistri Aluredi" (fol. iii verso (s. xii ex. ?); cf.
+                        Jesus Coll. 26 and Hereford Cathedral O.ii.4.</p><p>The traces of the erased
+                        name suggest Cirencester, and this attribution is confirmed by the earlier
+                        inscription (cf. Hereford Cath. MS. O.ii.4).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Given to All Souls Coll. by Henry Penwortham,
+                     s. xv.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

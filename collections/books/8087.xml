@@ -1,0 +1,82 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8087">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Magdalen College</repository>
+                  <idno type="shelfmark">MS. lat. 98</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">8087</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Grosseteste; Wyclif</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="138X/139X">s. xiv ex.</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_434">Oxford, Oxfordshire. St Mary
+                        Magdalen College. </orgName><p>‘Memorandum quod 29. die mensis Marcij Anno
+                        domini 1469. Magister Willielmus Wagge quondam Rector ecclesie sancte marie
+                        Wynton’ legauit hunc librum Magistro Willelmo Ive doctori in theologia ad
+                        terminum vite sue sub hac condicione quod in recepcione eiusdem dicat
+                        exequias et missam de Requie pro anima predicti Willielmum et animabus
+                        omnium fidelium defunctorum Ita quod post ipsius Magistri Willielmi Ive
+                        decessum dictus liber tradatur assignetur et committatur Cuidam honesto viro
+                        et discreto Capellano sub prefata condicione et sic deinceps de viro in
+                        virum quamdiu liber durauerit’(fol. 2r)William Ive was headmaster of
+                        Winchester and an associate of William Waynflete’s. He donated at least two
+                        other MSS to Magdalen and likely gave this as well, though there is no
+                        evidence for its presence in the College before 1600.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Perhaps William Ive (d. 1486), headmaster of
+                     Winchester College, master of Whittington College, London, and chancellor of
+                     Salisbury</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

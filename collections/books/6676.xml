@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6676">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>Lambeth Palace Library</repository>
+                  <idno type="shelfmark">MS. 3285</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6676</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Psalterium cum kalendario</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="140X/141X">s. xv in</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_495">Shaftesbury, Dorset. Abbey
+                        of St Mary the Virgin and St Edward, of Benedictine nuns.
+                        </orgName><p>'Liber iste pertinet Anne Awdeley moniali monasterii Shafton'
+                        ex dono Reuerendi domini domini Edmundi Awdeley Sar' episcopi ac Auunculi
+                        predicte domine'. Edmund Audley, bishop of Salisbury 1502--24.</p><p>The
+                        entries in MLGB2 for Steyning, Sir Arthur Howard / Wellington, J. Hasson,
+                        refer to this one manuscript.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">In possession of Messrs Maggs, August 1940
+                     (cat. 687, no. 167).</provenance>
+                  <provenance type="MLGB3_laterOwners">James Hasson, Kennet Lodge, Theale
+                     (Berks).</provenance>
+                  <provenance type="MLGB3_laterOwners">Sale, Sotheby's, 31 March 1952, lot 1, to
+                     Chevy Garrard (£100).</provenance>
+                  <provenance type="MLGB3_laterOwners">Sale, Sotheby's, 5 June 1961, lot 207, to
+                     Maggs.</provenance>
+                  <provenance type="MLGB3_laterOwners">Hon. Sir Arthur Howard, London
+                     W1.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

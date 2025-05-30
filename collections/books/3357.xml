@@ -1,0 +1,74 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3357">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>University Library</repository>
+                  <idno type="shelfmark">MS. Dd.8.13</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3357</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Rabanus Maurus, De universo, bks. 11--22</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="118X/119X">s. xii ex.</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_287">Kirkstead, Lincolnshire. Cistercian
+                        abbey of Saint Mary the Virgin. </orgName><p>Dd.8.13 and Dd.13.4 are
+                        companion volumes: the second part of Dd.13.4 (q. v.), containing bks.
+                        11--22. Fols. 1--16 have been supplied s. xv ex by the same hand as supply
+                        leaves in Dd.7.16; the scribe imitated the 12th-cent. hand.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">"D. M." in marg, fol. 40r.</provenance>
+                  <provenance type="MLGB3_laterOwners">T. James no. 91.</provenance>
+                  <provenance type="MLGB3_laterOwners">"Rotherham" no. 248.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3727">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Aberystwyth, Wales</settlement>
+                  <repository>National Library of Wales</repository>
+                  <idno type="shelfmark">MS. 17110 E</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3727</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>'Liber Landavensis'</title>
+                     <note type="MLGB3_generalNotes">Historical MSS Commission Report 6, p.
+                        418b.</note>
+                     <note type="MLGB3_generalNotes">W. J. Rees, Liber Landavensis (1840); J. G.
+                        Evans, Text of the book of Llan Dâv (Oxford, 1893), with 6 facs.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="11XX">s. xii</origDate>
+                  </origin>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_326">Llandaff, Glamorganshire.
+                        Cathedral church of St Peter and St Teilo. </orgName></provenance>
+                  <provenance type="MLGB3_laterOwners">Lent by Bishop Field of Llandaff to the
+                     antiquary John Selden, 1619--1627, and not returned.</provenance>
+                  <provenance type="MLGB3_laterOwners">Robert Davies of Llanerch (s. xvii ex.), and
+                     his descendants.</provenance>
+                  <provenance type="MLGB3_laterOwners">Philip Bryan Davies-Cooke of Owston (Yorks.)
+                     and Gwysaney, Mold (Flints.); inherited by his son is Philip Talton
+                     Davies-Cooke.</provenance>
+                  <provenance type="MLGB3_laterOwners">By the 1970s, in its present
+                     location.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

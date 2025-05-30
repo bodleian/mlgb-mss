@@ -1,0 +1,87 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4150">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Brussels, Belgium</settlement>
+                  <repository>Bibliothèque royale de Belgique</repository>
+                  <idno type="shelfmark">MS. IV.328</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4150</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Summa Raymundi cum apparatu</title>
+                     <note type="MLGB3_generalNotes">No. 109 in James's list (Norfolk Archaeol. 19,
+                        p. 104).</note>
+                     <note type="MLGB3_generalNotes">"Precium xvi s'" (fol. 1r erased), and fol.
+                        153v.</note>
+                     <note type="MLGB3_generalNotes">Earlier in France: "Pengnault" (?), and paraph,
+                        fol. 153v, s. xv.</note>
+                     <note type="MLGB3_generalNotes">2o folio "de quibusdam".</note>
+                     <note type="MLGB3_generalNotes">(fol. 343r) "Ista summa est [...] quicumque eam
+                        furatus fuerit uel alienauerit aut celauerit anathema sit".</note>
+                     <note type="MLGB3_generalNotes">Another inscr. on fol. 343r is illegible under
+                        u. v. light except for "de" (2nd word), and probably "Parisiis" at
+                        end.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="12XX/13XX">s. xiii/xiv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_404">Norwich, Norfolk.
+                        Benedictine cathedral priory of Holy Trinity. </orgName><p>"ff. lxxviij" on
+                        verso of flyleaf (fol. iii verso).</p><p>"Liber ecclesie Cathedralis
+                        Norwicensis per Robertum de Jernemuth monachum dicti loci." (top of fol. 1r;
+                        he also gave the Boccaccio which is in Norwich Cathedral, q.v.).</p><p>"J
+                        hempsted monachus norwic'" (fol. iii recto).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Tollemache family (Helmingham MS. 50: sale 6
+                     June 1961 to Maggs Bros.).</provenance>
+                  <provenance type="MLGB3_laterOwners">Formerly Messrs Maggs.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

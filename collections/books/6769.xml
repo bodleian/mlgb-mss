@@ -1,0 +1,82 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6769">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Winchester</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. 20</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6769</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Egesippus</title>
+                     <note type="MLGB3_generalNotes">'hystoria egisppi de excidiorum ierusalem'
+                        (front pastedown; s. xiv).</note>
+                     <note type="MLGB3_generalNotes">2o fo.: 'precipitandos'.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xii2</origDate>
+                  </origin>
+                  <provenance type="#b"><orgName role="fmo" key="mlgbOrg_437">Winchester, Hampshire.
+                        Benedictine cathedral priory of St Peter, St Paul, and St Swithun.
+                        </orgName><p>Original (Winchester) binding, with stamps corresponding to
+                        those on the Winchester Domesday (London, Society of Antiquaries, 154) and
+                        the Cartulary (BL, Add. 15350).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Sir Thomas Phillipps (1792--1972), his 2343
+                     (from Thorpe 1824), sold at Sotheby's, 13 June 1896, lot 609.</provenance>
+                  <provenance type="MLGB3_laterOwners">William Morris (1834--1896), sold at
+                     Sotheby's, 7 December 1898, lot 580.</provenance>
+                  <provenance type="MLGB3_laterOwners">Henry Yates Thompson (1838-1928), his 51,
+                     sold at Sotheby's, 23 March 1920, lot 31, to Quaritch for £740.</provenance>
+                  <provenance type="MLGB3_laterOwners">C. W. Dyson Perrins (1864-1958), given by him
+                     to Winchester Cathedral in 1947 (Ker, MMBL, 4, p. 601).</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

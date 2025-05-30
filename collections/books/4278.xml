@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4278">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Pembroke College</repository>
+                  <idno type="shelfmark">MS. 2</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4278</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Breviarium Bartholomei; J. de Mirfeld; etc.</title>
+                     <note type="MLGB3_generalNotes">Medieval binding with five bosses on each
+                        cover, two nails for clasps in centre of 2nd cover, 2 straps and metal
+                        plates to attach to the nails.</note>
+                     <note type="MLGB3_generalNotes">R. Bartlett was fellow at All Souls 1495; died
+                        1556; he was president of the Royal College of Physicians.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX">s. xv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_425">Oxford, Oxfordshire. All
+                        Souls' College. </orgName><p>Erased inscr. legible by u. v. light: 'Liber
+                        collegii animarum omnium fidelium defunctorum in Oxonia ex dono venerabilis
+                        viri Ricardi Bartlett in medicinis doctor et quondam huius collegii socii'
+                        (s. xvi), at foot of 2nd leaf of the breviarium (fol. 12r). Earlier at
+                        Abingdon, q. v.</p><p>Excluded from MLGB Suppl. (1987) since not sure is All
+                        Souls until 1551.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

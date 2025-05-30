@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6319">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Dublin, Ireland</settlement>
+                  <repository>Trinity College</repository>
+                  <idno type="shelfmark">MS. 207 fols. 22--79</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6319</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>ps. Grosseteste, De lingua; Parisiensis super Apoc. (imperfect at
+                        end)</title>
+                     <note type="MLGB3_generalNotes">Facs. in N.P.S. 1. 147 (12) where the reading
+                        is: 'com[modum ?] librarie, and 'Casgyll''.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="140X/141X">s. xv in.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_608">York, Yorkshire.
+                        Benedictine abbey of Saint Mary the Virgin. </orgName><p>On the front
+                        flyleaf of the 2nd item, in a hand of s. xv: 'Liber monasterii betae Marie
+                        Ebor' ex dono fratris T. Gasgyll' eiusdem monasterii commonachi ad communem
+                        librariam. In quo continentur ...'.</p><p>'In viii. h.'</p><p
+                     > </p></provenance>
+                  <provenance type="MLGB3_laterOwners">Henry Savile of Banke (cat. no.
+                     72).</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

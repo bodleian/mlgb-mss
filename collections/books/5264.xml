@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5264">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>New Haven (CT, USA)</settlement>
+                  <repository>Beinecke Library</repository>
+                  <idno type="shelfmark">MS. Marston 243</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5264</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>R. Rolle, etc.</title>
+                     <note type="MLGB3_generalNotes">Contemporary binding.</note>
+                     <note type="MLGB3_generalNotes"> </note>
+                     <note type="MLGB3_generalNotes">Images courtesy of Beinecke Rare Book and
+                        Manuscript Library, Yale University</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX">s. xv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_511">Southwark, Surrey.
+                        Augustinian priory of St Mary Overy. </orgName><p>'Liber Beate Marie Overey
+                        in Southwerke' (fol. 102v).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Heber sale 2. 2. 1836, lot 1378.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sotheby sale 14. 4. 1899, lot
+                     807.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sold (Sotheby, lot 275) March 1--2, 1921 to
+                     Quaritch (£17) for Sir L. Harmsworth.</provenance>
+                  <provenance type="MLGB3_laterOwners">Maggs cat. 793 (1950), no. 2513.</provenance>
+                  <provenance type="MLGB3_laterOwners">Bought in 1959 from L. Witten by Thomas E
+                     Marston (Yale), no. 243.</provenance>
+                  <provenance type="MLGB3_laterOwners">Obtained by Yale with other MSS. from Mr
+                     Marston in 1962.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

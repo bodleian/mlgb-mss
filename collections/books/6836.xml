@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6836">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Lat. misc. b.18 A34</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6836</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>W. Alvernus etc (1 fo.)</title>
+                     <note type="MLGB3_generalNotes">A single leaf used in binding, with the verso
+                        blank except for the inscription of gift and a list of contents.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="13XX">s. xiv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_420">Oxford, Oxfordshire.
+                        Franciscan convent. </orgName><p>'Istum librum contulit frater Symon
+                        dadynton de custodia oxon' librarie studencium oxon' sicud et quam plures
+                        alios contulit (s. xiv), mostly erased, but legible by UV
+                     light.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Philip Bliss, collection of fragments, formed
+                     c. 1825.</provenance>
+                  <provenance type="MLGB3_laterOwners">Bliss sale, 21 August 1858, either lot 100 or
+                     119, both sold to 'Thompson'.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sir Thomas Phillipps (1792-1872), 18133. At
+                     the sale of 24 April 1911 sold to Quaritch (£38) for Mr E. H. Dring. Given by
+                     his son, E. M. Dring, to the Bodleian in April 1984.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3637">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Lincoln</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. 63</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3637</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Iohannes Andree, In Novella, etc.</title>
+                     <msItem>
+                        <locus>(fols. 1r--141v)</locus>
+                        <title>"Summarii casus decretalium secundum Iohannem in Nouella cum
+                           notabilibus Iohannis de Deo dictorum decretalium"</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 143v--176v)</locus>
+                        <title>"Liber sextus casus"</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 176v--191v)</locus>
+                        <title>"Casus summarii Clementinarum"</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 191v--209r)</locus>
+                        <title>a set of indexes</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fol. 209v)</locus>
+                        <title>kalendar</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX">s. xv</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_316">Lincoln, Lincolnshire. Cathedral
+                        church of St Mary the Virgin. </orgName><p>'Iste liber constat Thome
+                        Salysbury' (fol. 209v). Salisbury was archdeacon of Bedford 1451, d.
+                        1460.</p><p>MSS 3, 29, fols. 201--220, 63, 136, 198 belonged to Canon Thomas
+                        Salysbury.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

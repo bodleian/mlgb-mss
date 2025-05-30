@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6475">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Christ Church</repository>
+                  <idno type="shelfmark">MS. e.8.29 (pr. bk)</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6475</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Breviarium (Cistercian use)</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>Paris, 1520(?)</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_219">Fountains, Yorkshire.
+                        Cistercian abbey of St Mary the Virgin. </orgName><p>Christ Church e.8.29
+                        has the arms of Abbot Marmaduke Huby (Abbot of Fountains, 1494--1526), in
+                        the border at the beginning of the Psalter.</p><p>Printed in Paris, '... per
+                        Jo. Kaebriand alias Huguelin et J. Adam Socios impressum impensis Fr.
+                        Regnault 15[date erased]'.</p><p>The only known surviving copy of its
+                        edition, unrecorded in the literature. M. Carter in BLR 22 (2009) 17--34,
+                        assigned a date of probably c. 1520.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Sold Sotheby July 20, 1927, lot 3 to 'Gibbs',
+                     i.e. bought in.</provenance>
+                  <provenance type="MLGB3_laterOwners">Given to Christ Church by Dr. Oxford in
+                     1940.</provenance>
+                  <provenance type="MLGB3_laterOwners"> </provenance>
+                  <provenance type="MLGB3_laterOwners">Ex inform. R. Gilyard-Beer Esq.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

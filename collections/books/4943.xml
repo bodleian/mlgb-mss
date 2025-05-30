@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4943">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Aberdeen, Scotland</settlement>
+                  <repository>University Library</repository>
+                  <idno type="shelfmark">MS. 216</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4943</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Beda super Apocalypsim, etc.</title>
+                     <note type="MLGB3_generalNotes">The same scribe s. xii wrote the letters 'D.M.'
+                        as a 'nota bene' sign in the margins of Aberdeen UL 216, Bodl. 392, 444
+                        (fols. 1--27), 756, 765, 768, 835; Fell 1, 4; Rawl. C.723; Salisbury Cath.
+                        10, 24, 25, 37, 67, 78, 88, 106, 128, 129, 135, 140, 154, 159, 165.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="10XX/11XX">s. xi/xii</origDate>
+                  </origin>
+                  <provenance type="#m"><orgName role="fmo" key="mlgbOrg_484">Salisbury, Wiltshire.
+                        Cathedral church of St Mary the Virgin; see removed from Sherborne in 1078.
+                        </orgName><p>Resembles other Salisbury MSS. of this date.</p><p>The same
+                        scribe s. xii wrote the letters 'D.M.' as a 'nota bene' sign in the margins
+                        of Aberdeen UL 216, Bodl. 392, 444 (fols. 1--27), 756, 765, 768, 835; Fell
+                        1, 4; Rawl. C.723; Salisbury Cath. 10, 24, 25, 37, 67, 78, 88, 106, 128,
+                        129, 135, 140, 154, 159, 165.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Dr Samuel Guise (LLD at Marischal College 14
+                     Febr. 1809).</provenance>
+                  <provenance type="MLGB3_laterOwners">'Hunc librum in antiquis eius operculis
+                     ligauit Joh. Jackson Londini a. d. 1780'.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

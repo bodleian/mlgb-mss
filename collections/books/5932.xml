@@ -1,0 +1,86 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5932">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>Corpus Christi College</repository>
+                  <idno type="shelfmark">MS. 557</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5932</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Fragments of homily (in English) on the Holy Rood formerly in bindings
+                        of SP.4 and SP. 260</title>
+                     <note type="MLGB3_generalNotes">SP.4 and SP. 260: Tertia pars chronici
+                        Carionis, Basel 1563 and [...].</note>
+                     <msItem>
+                        <locus>(fols. 1r--2v)</locus>
+                        <title>Old English fragments of the Legend of the Cross</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="10XX">s. xi</origDate>
+                  </origin>
+                  <provenance type="#m"><orgName role="fmo" key="mlgbOrg_601">Worcester, Worcestershire.
+                        Benedictine cathedral priory of St Mary the Virgin. </orgName><p>Corpus
+                        Christi Coll. 557 and Lawrence, Univ. of Kansas, Y.103 are fragments of one
+                        MS.</p><p>Cambridge, UL, Kk.3.18; Clare Coll. 30, CCC 12; 162 pp. 139--160;
+                        178; 198; 391; 557; Glasgow, UL, Hunterian 431; Lawrence, Univ. of Kansas,
+                        Y.103, Y 104; London, BL, Cotton Otho B.x fols. 29, 30; Otho C.i, part ii;
+                        Harley 55; Oxford, Bodl., Hatton 20; 76; 113; 114; 115; 116; Junius 121;
+                        Laud Misc. 482; Worcester Cathedral F.174: contain annotations in a
+                        tremulous hand, probably of s. xiii in. (see C. H. Turner, Early Worcester
+                        MSS, p. lvi; N. R. Ker in Leeds Studies in English 7 (1937), p.
+                        28.</p><p> </p></provenance>
+                  <provenance type="MLGB3_laterOwners">Printed books given by Archbp. Matthew Parker
+                     (no. 2 in locker 8 "in minori bibliotheca").</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

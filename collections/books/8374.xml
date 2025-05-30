@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8374">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Merton College</repository>
+                  <idno type="shelfmark">MS. 251</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">8374</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Ioh. Sharpe; Antonius Andreae</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="140X/141X">s. xv in.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_435">Oxford, Oxfordshire.
+                        Merton College. </orgName><p>‘f. i is a letter from Neil Ker to H. W.
+                        Garrod, dated July 26 1942, identifying Bodl. Libr., Digby 77, ff. 150–97,
+                        as part of this MS’ (Thomson, Merton, 194)‘Hunc librum prouidit dompnus
+                        [Iohannes h ... de Wed ... solum et] suis beneuolis [...] sacre theologie
+                        baculaur’ anno Domini m. cccc. xxv quem qui alienauerit uel eius titulum hic
+                        aut alibi deleuerit anathema sit, predicti Iohannis fortuna prosperitatis
+                        non uariata seu ipso non affirmante’ (fol. iiiv, partly erased)‘IHOHANNES’
+                        and ‘DICTUS WETH’ (fol. 89, erased decorative words at head and foot)Perhaps
+                        the book referred to in the College bursar’s acount rolls of 1449 (MCR 3765
+                        and Thomson, Merton, 276 (Appendix B, no. 98)) as given by John
+                        Whethamstede</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Perhaps John Whethamstede (c. 1392­–1465),
+                     abbot of St Albans</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

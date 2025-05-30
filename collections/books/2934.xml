@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_2934">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Douce 140</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">2934</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Primasius</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="16XX">s. vii</origDate>
+                  </origin>
+                  <provenance type="#s"><orgName role="fmo" key="mlgbOrg_224">Glastonbury, Somerset.
+                        Benedictine Abbey of Saint Mary the Virgin. </orgName><p>Interlineations on
+                        fol. 3v--5, 118--122v appear to be in the hand presumed to be St Dunstan's:
+                        cf. R. W. Hunt's introduction to the facsimile of Oxford, Bodleian, Auct.
+                        F.4.32, Umbrae codicum occidentalium, 4 (1961), pp. vi,
+                     xiv.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">George Mason, dean of Crediton in 1524 and
+                     1535 (Oliver, Monasticon dioecesis Exoniensis, pp. 77, 85, 86).</provenance>
+                  <provenance type="MLGB3_laterOwners">For later owners, see Codices latini
+                     antiquiores, ii, no. 237 (a John Blaxton was Bishop Veysey's commissry at
+                     Exeter in 1544: Oliver, Lives, p. 183).</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

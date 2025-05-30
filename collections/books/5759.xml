@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5759">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">MS. Harley Roll CC 21</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5759</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Memoranda</title>
+                     <note type="MLGB3_generalNotes">2 fols. (bifolium), evidently originally blank
+                        endleaves, pastedown and flyleaf, from the same manuscript as Harley 315
+                        fols. 46, 47 (q.v.). It seems likely that the memoranda are in the hands of
+                        Nicholas de Tarent, prior (d. 1309).</note>
+                     <note type="MLGB3_generalNotes">Davis, Medieval cartularies, rev ed. (2010),
+                        1045 (but not in any sense a register).</note>
+                     <note type="MLGB3_generalNotes"> </note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="12XX/13XX">s. xiii/xiv</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_437">Winchester, Hampshire. Benedictine
+                        cathedral priory of St Peter, St Paul, and St Swithun.
+                     </orgName></provenance>
+                  <provenance type="MLGB3_laterOwners">At top of the once pasted side (?) Thomas
+                     Dackomb (d. c. 1572) wrote a note, in 1558, asking that the manuscript of which
+                     these were the endleaves should go to Sheen.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

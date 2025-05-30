@@ -1,0 +1,102 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3611">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Lincoln</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. 7</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3611</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Passionarius, etc.</title>
+                     <msItem>
+                        <title>A) (fols. 1r--6r) Sulpicius Severus, Vita s. Martini</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 6r--7r)</locus>
+                        <title>Sulpicius Severus, ep. 1</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 7r--8r)</locus>
+                        <title>Sulpicius Severus, ep. 2</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 8r--9v)</locus>
+                        <title>Sulpicius Severus, ep. 3</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 9v--30r)</locus>
+                        <title>Sulpicius Severus, Dialogi</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 31r--39r)</locus>
+                        <title>John the Deacon, Vita s. Nicholai</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 39r--43v)</locus>
+                        <title>"Incipiunt miracula in uitam s. Nicholai patrata. De transitu eius.
+                           Quodam tempore aduenit quedam mulier ...". 13 miracles</title>
+                     </msItem>
+                     <msItem>
+                        <title>B) (fols. 44r--83r) Vitae sanctorum, covering the period 21 March --
+                           15 July</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xii in. (fols. 1--43)--xii ex.</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_316">Lincoln, Lincolnshire. Cathedral
+                        church of St Mary the Virgin. </orgName><p>Visible in the old
+                        catalogue.</p><note type="MLGB3_medievalCatalogueNotes">Old cat.
+                     19</note></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

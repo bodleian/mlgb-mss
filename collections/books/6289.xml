@@ -1,0 +1,76 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6289">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>New York (NY, USA)</settlement>
+                  <repository>Public Library</repository>
+                  <idno type="shelfmark">MS. Spencer 26</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6289</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Psalterium</title>
+                     <note type="MLGB3_generalNotes">Written by Prior John Tikyll 'qui istum librum
+                        propriis manibus scripsit necnon deaurauit'; cf. de Ricci, Census, 2. 1340,
+                        no. 26; I. Bell, The Times 2 Mar. 1932; D. D. Egbert, Bull. N. Y. Publ.
+                        Libr. 36 (1932) 663--78. Cf. D. D. Egbert, The Tickhill psalter and related
+                        MSS. (N.Y.P.L. &amp; Quaritch, 1940).</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="130X/131X">s. xiv in.</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_604">Worksop (or Radford),
+                        Nottinghamshire. Augustinian priory of Saint Mary the Virgin and St
+                        Cuthbert. </orgName></provenance>
+                  <provenance type="MLGB3_laterOwners">Marquis of Lothian at Newbattle Abbey. Sold
+                     17 Jan. 1932 (lot 7) to Rosenbach.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

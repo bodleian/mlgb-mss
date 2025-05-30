@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1367">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Manchester</settlement>
+                  <repository>Nortwestern Congregational College</repository>
+                  <idno type="shelfmark">MS. 1</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1367</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Biblia latina, cum prologo Hieronimi, etc.</title>
+                     <note type="MLGB3_generalNotes">15th-cent. flyleaves are made up of fragments
+                        of the mortuary roll (cf. Laud misc. 730) of William Molash, prior of Christ
+                        Church. The present binding is modern (s. xix).</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="12XX">s. xiii</origDate>
+                  </origin>
+                  <provenance type="#b"><orgName role="fmo" key="mlgbOrg_4">Canterbury, Kent.
+                        Benedictine cathedral priory of Holy Trinity or Christ Church.
+                        </orgName><p>(fol. 423v) 'Byblia quondam in custodia magistri Iohannis
+                        Langdon . . . In custodia W. Bonyngton anno domini 1483 et R
+                        primo'.</p><p>John Langdon was a Canterbury monk professed in 1465, who died
+                        in 1496 having been twice the warden of Canterbury College (1478--82,
+                        1486--95) (see Greatrex 217--18), William Bonyngton professed at Christ
+                        Church in 1469 and died 1485 (Greatrex 95).</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

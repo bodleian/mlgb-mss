@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6822">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Lat. liturg. f.19</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6822</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Psalterium</title>
+                     <note type="MLGB3_generalNotes">The calendar is similar to the Ormesby Psalter
+                        (Bodleian, Douce 366, q.v.) and other Norwich calendars. The date is after
+                        1383.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="138X/139X">s. xiv ex.</origDate>
+                  </origin>
+                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_404">Norwich, Norfolk.
+                        Benedictine cathedral priory of Holy Trinity. </orgName><p>Norwich pressmark
+                        at fol. 7, beginning of the Psalter, middle of top margin, over an erased
+                        mark.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Dame Thomas Hughson est huius libri
+                     possessor (fol. 244v, s. xvi); he was sacrist of Norwich, s. xvi2.</provenance>
+                  <provenance type="MLGB3_laterOwners">Katherine Conbet (fol. 243).</provenance>
+                  <provenance type="MLGB3_laterOwners">'Charles Martin, Dartington, from Miss A. S.
+                     Bourne 1872. Probably belonged to Bishop Lowth'. Presented by Mris Martin to
+                     Bodley 15 May 1918.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

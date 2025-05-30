@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1519">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">MS. Royal 1 A.xviii</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1519</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Evangelia</title>
+                     <note type="MLGB3_generalNotes">Six lines of elegiacs by and in the hand of
+                        John Leland (fol. 2v), from which it would appear that the MS. was
+                        appropriated by Henry VIII. at the dissolution of St Augustine's.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="90X/91X">s. x in.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_122">Canterbury, Kent.
+                        Benedictine abbey of St Augustine (originally of St Peter and St Paul).
+                        </orgName><p>Inscription, s. xi (fol. 3v), states that the volume was given
+                        by King Athelstan to St Augustine's.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Thomas Lee, John Birchynton and John Hinstyde
+                     (or Lynstyde), s. xv (fol. 8v).</provenance>
+                  <provenance type="MLGB3_laterOwners">N. Hersth, s. xv (fol. 60r).</provenance>
+                  <provenance type="MLGB3_laterOwners">John Lumley (c. 1533--1609), first Baron
+                     Lumley.</provenance>
+                  <provenance type="MLGB3_laterOwners"> </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

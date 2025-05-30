@@ -1,0 +1,99 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8597">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Princeton (NJ, USA)</settlement>
+                  <repository>University Library</repository>
+                  <idno type="shelfmark">MS. ChL 1799</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">8597</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Walter Hilton, Treatise of Love (English)</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>Westminster, A.D. 1492--3</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_110">Campsey, Suffolk. Priory
+                        of St Mary the Virgin, of Augustinian nuns. </orgName><p>The 1744 sale
+                        catalogue of the Harley library describes an inscription that was
+                        subsequently washed off: 'On the last Leaf, there is a Memorandum, written
+                        by a Nun of Campesey, named Elyzabeth Wyllowby, That she gives this Book to
+                        Dame Cateryne Symonde, under the Condition, That, in no wise, she sell it,
+                        or give it from the House of Campessey: But she shall give it to one of her
+                        Sisters.' (Catalogus Bibliothecae Harleianae, III, no. 1560.)</p><p>Under
+                        ultra-violet light, 'Elizabeth Willowby' and 'dame Cateryne Symonde' are
+                        more or less legible (sig. H6v). The writing matches that in Cambridge,
+                        Corpus Christi College, MS 268, also once owned by Elizabeth
+                     Willowby.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Elizabeth Wyllowby, nun of Campsey Priory
+                     (Suffolk) to Catherine Symond. </provenance>
+                  <provenance type="MLGB3_laterOwners">Thomas Rawlinson (1681--1725), his sale, part
+                     VIII, 26 April 1727, lot 2072</provenance>
+                  <provenance type="MLGB3_laterOwners">Acquired by Edward Harley (1689--1741), 2nd
+                     earl of Oxford. With other printed books from his library, sold by his widow,
+                     Henrietta Cavendish (1694--1755), in 1743 to Thomas Osborne.</provenance>
+                  <provenance type="MLGB3_laterOwners">George Spencer Churchill (1766-1840), 5th
+                     duke of Marlborough and Marquess of Blandford</provenance>
+                  <provenance type="MLGB3_laterOwners">White Knights Library sale, Evans, part I, 7
+                     June 1819, lot 970 for £32/11/0 to: </provenance>
+                  <provenance type="MLGB3_laterOwners">Heneage Finch (1786--1859), 5th earl of
+                     Aylesford, for whom the book was rebound (his crest is on the binding), which
+                     is probably when the inscription was removed. </provenance>
+                  <provenance type="MLGB3_laterOwners">Heneage Finch (1849-1885), 7th earl of
+                     Aylesford, his sale, Christie's, 12 March 1888, lot 409, to Quaritch. </provenance>
+                  <provenance type="MLGB3_laterOwners">William Amhurst Tyssen-Amherst, Baron Amherst
+                     (1835--1909), his sale, Sotheby's London, 3 Dec. 1908, lot 180 (purchased prior
+                     to sale) to: Pierpont Morgan (1837--1913).</provenance>
+                  <provenance type="MLGB3_laterOwners">Purchased for Princeton with the Amherst
+                     collection, 1908.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

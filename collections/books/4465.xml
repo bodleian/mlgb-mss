@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4465">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Lavantal, Austria</settlement>
+                  <repository>Abbey of St Paul</repository>
+                  <idno type="shelfmark">MS. xxv.2.19</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4465</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Psalterium</title>
+                     <note type="MLGB3_generalNotes">New York, Pierpont Morgan 302 was part of the
+                        St Paul-in-Lavantal MS.</note>
+                     <note type="MLGB3_generalNotes">See Beschreibendes Verzeichnis der
+                        illuminierten Hss. Österreichs, 3. 83--89.</note>
+                     <note type="MLGB3_generalNotes">The calendar entries suggest a date soon after
+                        the death of abbot William of Godmanchester (d. 1285).</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="130X/131X">s. xiv in.</origDate>
+                  </origin>
+                  <provenance type="#lc"><orgName role="fmo" key="mlgbOrg_456">Ramsey, Huntingdonshire.
+                        Benedictine Abbey of Saint Mary the Virgin and St Benedict.
+                     </orgName></provenance>
+                  <provenance type="MLGB3_laterOwners">S. Blasien (Bavaria).</provenance>
+                  <provenance type="MLGB3_laterOwners">At foot of last page of calendar is 'Grafham
+                     honoretur' (? W. de Grafham who gave a psalter to Ramsey and was cellarer in
+                     1297: v. Macray, Chron. Abb. Ram., p. 357, and Cart. mon. de Ramsey, 1.
+                     64.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

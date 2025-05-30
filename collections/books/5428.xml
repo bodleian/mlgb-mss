@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5428">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>University College</repository>
+                  <idno type="shelfmark">MS. 25</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5428</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Officia liturgica (pr. bk. and MS.), incl. a printed Sarum Psalter, F.
+                        Burkman, 1522</title>
+                     <note type="MLGB3_generalNotes">Cf. Procter &amp; Wordsworth, Breviarium Sarum
+                        4, p. lxxxii.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>1522, Paris, and s. xvi in.</origDate>
+                  </origin>
+                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_537">Syon, Middlesex.
+                        Bridgettine abbey of St Saviour, St Mary the Virgin, and St Bridget.
+                        </orgName><p>Memoria of St Brigitta on fol. 289r. In litany Brigitta is
+                        second of 22 virgins, following Anna. Office on fol. 285r is for feminine
+                        use in a convent.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'This booke perteynete to Elysabeth yate' (s.
+                     xvi med.). One of this name was nun of Syon in 1539 and in Marian
+                     times.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

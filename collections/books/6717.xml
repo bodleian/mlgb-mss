@@ -1,0 +1,86 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6717">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Edinburgh, Scotland</settlement>
+                  <repository>National Library of Scotland</repository>
+                  <idno type="shelfmark">MS. Dep. 273</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6717</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Psalterium</title>
+                     <note type="MLGB3_generalNotes">Medieval binding, much repaired.</note>
+                     <note type="MLGB3_generalNotes">Continental script. The litany suggests the Low
+                        Countries.</note>
+                     <msItem>
+                        <title>Cum canticis et litania.</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="13XX">s. xiv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_767">Inchmahome (Insula S.
+                        Colmoci), Stirlingshire. Augustinian priory of St Colmoc; cell of
+                        Cambuskenneth. </orgName><p>First two lines in black, third in
+                        red:</p><p>'Anno milleno cum quincentis [. . .] seno</p><p>Illo prior david
+                        colmoco me dedit almo</p><p>David prior'</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Lt. Col. W. E. Moss, lot 1173 in the sale of
+                     some his books, Sotheby's, 8 March 1937, priced £50. Sold to
+                     Marks.</provenance>
+                  <provenance type="MLGB3_laterOwners">J. &amp; J. Leighton illustrated catalogue,
+                     pt vi, no. 4230, with facsimile of illuminated initials, priced at £55. Also in
+                     their Catalogue of Manuscripts (no date), no. 262 (£50).</provenance>
+                  <provenance type="MLGB3_laterOwners">Mr C. A. Gordon of Insch, Aberdeenshire, and
+                     recorded in that location in MLGB. By the time of the Supplement, deposited by
+                     Miss J. Gordon in the National Library.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

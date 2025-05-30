@@ -1,0 +1,76 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6690">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Reigate</settlement>
+                  <repository>Church</repository>
+                  <idno type="shelfmark">MS. 2322</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6690</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Horae</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="148X/149X">s. xv ex</origDate>
+                  </origin>
+                  <provenance type="#il"><orgName role="fmo" key="mlgbOrg_338">London. Abbey of St Mary
+                        the Virgin and St Francis, without Aldgate, of Franciscan nuns.
+                        </orgName><p>On pastedown at the end: 'Memorandum that dam Annes Porter gafe
+                        to dam An French meneres wythe owte Algate \of lundun/ yis boke to gyfe
+                        after hir deses with the licens of hur sufferer to hom yt she woll' (s. xvi
+                        in.).</p><p>Use of Franciscan nuns.</p><p>(Binding with Reynes's St George
+                        and baptism of Christ panels and Oldham no. 431 as a border to each
+                        roll.)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Given by 'Benjamin Bonwick senior of
+                     Kennersly Esqre' in 1701[/2].</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

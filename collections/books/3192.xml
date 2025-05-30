@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3192">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">MS. Egerton 3133</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3192</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Thomas de Eccleston, De adventu fratrum minorum</title>
+                     <note type="MLGB3_generalNotes">Egerton 3133 was originally part of Cotton Nero
+                        A.ix fols. 75--103: the scribe of the Lamport fragment (part of Eccleston's
+                        chronicle) did not write any of the Cotton MS.; but allowing for the loss of
+                        a bifolium the Lamport fragment fits into the other, and both have
+                        annotations in the hand of Fr. Wm. Herbert, s. xiv in. Together they formed
+                        the original of the Phillipps MS. of Eccleston. See A.G. Little in EHR 49
+                        (1934) 299ff., and B. Schofield in Brit. Mus. Quart. 9, p. 116.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="128X/129X">s. xiii ex.</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_251">Hereford, Herefordshire. Franciscan
+                        convent. </orgName></provenance>
+                  <provenance type="MLGB3_laterOwners">Isham family, Lamport Hall.</provenance>
+                  <provenance type="MLGB3_laterOwners">Deposited with Northants. Rec. Soc. Thence
+                     passed to Brit. Mus.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

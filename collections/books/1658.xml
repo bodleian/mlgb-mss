@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1658">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Baltimore (MD, USA)</settlement>
+                  <repository>Walters Art Museum</repository>
+                  <idno type="shelfmark">MS. 90</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1658</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Psalterium, etc.</title>
+                     <note type="MLGB3_generalNotes">de Ricci, Census, 1. 771.</note>
+                     <note type="MLGB3_generalNotes">Carrow owned this in the 15th century, but it
+                        was not written there: H. Y. Thompson, Cat. 2nd Series, no. 52;
+                        Illustrations of 100 MSS., 4, pls. 18--23.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xiii med. (c. 1250)</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_130">Carrow, Norfolk. Priory of
+                        St Mary the Virgin and St John, of Benedictine nuns. </orgName><p>"Istud
+                        psalterium pertinet domui de Carehow".</p></provenance>
+                  <provenance type="MLGB3_laterOwners">John Baptist Caryll 3rd baron
+                     (1716--1780).</provenance>
+                  <provenance type="MLGB3_laterOwners">James Galwey Mills (sold 1800).</provenance>
+                  <provenance type="MLGB3_laterOwners">Rev. David Thomas Powell.</provenance>
+                  <provenance type="MLGB3_laterOwners">Ashburnham appendix no. 33 (Hist. MSS. Comm.
+                     Rep. 8, app. 3. 101).</provenance>
+                  <provenance type="MLGB3_laterOwners">H. Yates Thompson no. 52.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

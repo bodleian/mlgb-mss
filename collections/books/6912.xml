@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6912">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Durham</settlement>
+                  <repository>University Library</repository>
+                  <idno type="shelfmark">MS. Cosin V.v.6</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6912</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Graduale</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="108X/109X">s. xi ex.</origDate>
+                  </origin>
+                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_189">Durham. Benedictine
+                        cathedral priory of St Cuthbert. </orgName><p>K. D. Hartzell in Anglo-Saxon
+                        England 4 (1975), 131--144, with facsim. of f. 40. Written at Christ Church,
+                        Canterbury and probably sent to Durham to promote liturgical reform there,
+                        s. xi/xii: Aidan, Cuthbert, Oswald are early additions.</p><p>Perhaps Catt.
+                        Vett. p. 118, 'gradale', among the gifts of bp. William of St
+                        Calais.</p><p>Hymn to St Cuthbert (Rep. Hymn 41019) added, f. 135v</p><p>2
+                        fo. innocua militum</p><p>See descr. of Pepys 2981 no. 8</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Geo. Davenport</provenance>
+                  <provenance type="MLGB3_laterOwners">Thomas Horsley (f. 21v)</provenance>
+                  <provenance type="MLGB3_laterOwners">Joh. Heath (f. 2)</provenance>
+                  <provenance type="MLGB3_laterOwners">Christopher Kepper</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

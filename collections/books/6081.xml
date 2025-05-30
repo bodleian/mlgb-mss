@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6081">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Worcester</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. F.58</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6081</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Summa Goffredi, etc.</title>
+                     <msItem>
+                        <title>A) (fols. 1r--78r) Breviarium de iure canonico; "In nomine summe
+                           trinitatis et indiuidue unitatis patris et filii et spiritus sancti
+                           ..."</title>
+                     </msItem>
+                     <msItem>
+                        <author>B) (fols. 79r--241r) Goffredo di Trani</author>
+                        <title>Summa super titulis Decretalium</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xiii--xiv</origDate>
+                  </origin>
+                  <provenance type="#b"><orgName role="fmo" key="mlgbOrg_601">Worcester, Worcestershire.
+                        Benedictine cathedral priory of St Mary the Virgin. </orgName><p>Fols. i,
+                        ii, were formerly fyleaves of art. 2 (Goffredus, s. xiii): 'Liber [...] de
+                        apperleya' (fol. i recto); on these flyleaves are pencilled documents drawn
+                        up by John de Apperley perpetual vicar of Silkstone, W. R. Yorks. for whom
+                        see Register of Archbp. Wickwane, Surtees Soc., pp. 233, 317.</p><p>Later no
+                        doubt at Worcester as there are marks of clasps at head and foot as well as
+                        at sides of the upper cover, as on F.7 and a dozen other Worcester
+                     MSS.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

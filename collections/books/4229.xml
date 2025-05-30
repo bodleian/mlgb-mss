@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4229">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Corpus Christi College</repository>
+                  <idno type="shelfmark">MS. 228</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4229</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Questiones de anima</title>
+                     <note type="MLGB3_generalNotes">MSS. 227 &amp; 228 were written in the Oxford
+                        convent, but it is probable that MS. 227 at least was at York convent (q.
+                        v.) at the Dissolution.</note>
+                     <note type="MLGB3_generalNotes">Mainly in W. V's hand (cf. MS. 227). The MS.
+                        contains also two printed pieces.</note>
+                     <note type="MLGB3_generalNotes"> </note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="148X/149X">s. xv ex.</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_420">Oxford, Oxfordshire. Franciscan
+                        convent. </orgName><p>(fol. 61r) 'Amen quod frater Wyllelmus Vavysur
+                        Expliciunt questiones de anima valde perutiles anno domini
+                        1490.'</p><p>(fol. 51r) in V's hand: 'Et sic est finis harum questionum
+                        valde utilium. Oxon. anno domini 1490.'</p><p>V's name at the end of texts
+                        also on fols. 3v, 13v.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">John Dee's ladder mark: cf. MS.
+                     227.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

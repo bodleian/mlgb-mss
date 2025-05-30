@@ -1,0 +1,86 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6730">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Keble College</repository>
+                  <idno type="shelfmark">MS. XS(Misc.) 30</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6730</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Biblia</title>
+                     <note type="MLGB3_generalNotes">Thecher and White were pensioned at the
+                        Dissolution: Letters and Papers Henry VIII, 14/1, no. 1355.</note>
+                     <note type="MLGB3_generalNotes">ib00556000.</note>
+                     <note type="MLGB3_generalNotes">Former Keble shelfmark was 'A.62' which is that
+                        recorded in MLGB.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>Venice: Theodorus of Rendsburg and Rainaldus de Novimagio,
+                        1478</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_387">Newark, Surrey. Augustinian priory
+                        of St Mary the Virgin and St Thomas the Martyr. </orgName><p>'M' quod Ego
+                        Iohannes Grave prior de Nouo loco iuxta Guldeford' in Com' Surr' dedi hunc
+                        librum confratri nostro domino Iohanni Rosse chanonico ibidem et Curato de
+                        Weyld' in Com' South' iuxta Alresford nouam viz iijo die Octobris Anno
+                        domini Millesimo quingentesimo tricesimo octauo. Hiis testibus Domino
+                        Wyllelmus Thecher domino Nicholao Whygtt (?) confratribus nostris. Et
+                        Roberto Pennye Georgio seruientibus dict' domino Priori' (fol. 3v). Also, at
+                        the beginning of each book of the Bible is written 'Iste liber pertinet
+                        Iohanni Rosse chanonico de newerke iuxta Guldeford'.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Ex dono 1610 francisci Towneley de Litleton
+                     in comitatu Middlesex armig. apud Litleton iijo Nouembris'. There is a Towneley
+                     bookplate, dated 1702, and the family arms on the covers, with motto 'Tenez le
+                     vray 1603'.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,82 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8261">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Merton College</repository>
+                  <idno type="shelfmark">MS. 130</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">8261</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Anon. in sententias; Petrus Tarentasius</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="130X/131X">s. xiv in.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_435">Oxford, Oxfordshire.
+                        Merton College. </orgName><p>‘At the foot of f. 216 a 2-line inscription has
+                        been erased, ‘Liber [iste pertinet collegio ... Oxon’ per magistrum /
+                        Willelmum ...] prepositum eiusdem collegii’. One suspects that the college
+                        was Oriel and the provost William de Daventre, 1349–73 (BRUO 547).’
+                        (Thomson, Merton, 105) ‘Caucio Iohannis Huntman exposita in antiqua cista
+                        uniuersitatis pro una marca in uigilia omnium sanctorum anno Domini M. CCC
+                        octogesimo sexto’ (fol. iiv) ‘Liber Iohannis Wyttenham quem emit de Iohanne
+                        Brown stacionario Oxon’ anno Domini 1403 in die sanctorum Iohannis et Pauli’
+                        (fol. iiv)‘Liber magistri Ricardi Fytz Iames sacre theologie professoris
+                        quem emit 12 die Nouembris Anno Christi 1482. Precium vi s. viii d.’ (fol.
+                        216)‘Durandus super Sentenciarum libros de dono Magistri Ricardi Fitz Iames
+                        nuper custodis istius Collegii de Mertone cuius anime propicietur Deus amen’
+                        (fol. vv)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Richard Fitzjames (d. 1522), fellow and
+                     warden of Merton, bishop of Rochester, Cicester, and London</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

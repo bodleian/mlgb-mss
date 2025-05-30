@@ -1,0 +1,104 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3694">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Lincoln</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. 219</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3694</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Hieronymus, opera</title>
+                     <note type="MLGB3_generalNotes">"Ieronimus contra faustum et ruffinum prec'
+                        iiij s'."</note>
+                     <msItem>
+                        <author>(fols. 4r--8r) Jerome</author>
+                        <title>Ad Tesiphontem contra Pelagianos</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fols. 8r--52r) Jerome</author>
+                        <title>Dialogi contra Pelagianos libri III&amp;nbsp;</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fols. 52r--66r) Jerome</author>
+                        <title>De mansionibus Israelitici populi</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fols. 66v--101r) Jerome</author>
+                        <title>Apologia adversus libros Rufini</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fol. 101r--v) Jerome</author>
+                        <title>Ad Rufinum</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 101v--103r)</locus>
+                        <title>Rufinus, Praefatio in libros Origenis Peri Archon</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fols. 103r--104v) Rufinus</author>
+                        <title>Apologia ad Anastasium</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fols. 104v--125v) Jerome</author>
+                        <title>Liber tertius adversus libros Rufini</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="114X/115X">s. xii med.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_316">Lincoln, Lincolnshire.
+                        Cathedral church of St Mary the Virgin. </orgName><p>"Liber sancte marie
+                        Linc'" (fol. 2r).</p><note type="MLGB3_medievalCatalogueNotes">Cat. 87; old
+                        cat. 71</note></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

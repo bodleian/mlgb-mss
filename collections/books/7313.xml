@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7313">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>Peterhouse</repository>
+                  <idno type="shelfmark">MS. 12</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">7313</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Gregorius</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="118X/119X">s. xii ex.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_106">Cambridge, Cambridgeshire.
+                        Peterhouse (Collegium Sancti Petri). </orgName><p>‘Muskham’ (fol. 196v, s.
+                        xiv ex.)</p><p>‘Iste liber moralium beati Gregorii donatus est \de
+                        elemosina/ domui siue Collegio sancti Petri Cantebr’ per executores domini
+                        Roberti Muskham quondam rectoris de Ouere. Ita quod a Collegio predicto
+                        nullatenus aliqua occasione alienetur et \sub/ condicione \quod per/
+                        magistrum \et/ socios dicti Collegii nomen dicti Roberti inter benefactores
+                        \suos/ intituletur et inter nomina eorum recitetur ac eciam quod in missis
+                        exequiis et aliis oracionibus et deuocionibus memoria euisdem sicut pro
+                        aliis benefactoribus habeatur. Executores uero predicti uolunt et concedunt
+                        quod si predictus liber per Alianoram relictam domini Iohannis Knyvet
+                        euincatur, quod tunc soluto debito dicti domini Iohannis per eandem magistro
+                        et scolaribus Collegii supradicti quatenus hunc librum pro rata
+                        rationabiliter concernit eidem Alianore protinus retradatur nisi aliter
+                        inter eosdem poterit concordari’ (fol. 196v)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Robert Muskam (fl. c. 1386), rector of Over,
+                     Cambs.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

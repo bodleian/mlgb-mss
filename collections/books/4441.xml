@@ -1,0 +1,82 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4441">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Düsseldorf, Germany</settlement>
+                  <repository>private collection</repository>
+                  <idno type="shelfmark"/>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4441</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Biblia latina</title>
+                     <note type="MLGB3_generalNotes"> </note>
+                     <note type="MLGB3_generalNotes">Formerly Dublin, Chester Beatty Library,
+                        W.34.</note>
+                     <note type="MLGB3_generalNotes">Webster was a monk of Pipewell at the
+                        dissolution.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="12XX">s. xiii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_448">Pipewell,
+                        Northamptonshire. Cistercian abbey of St Mary the Virgin. </orgName><p>'Iste
+                        liber pertinet ad me Iohannem Webster clericum ex dono domus beate Marie
+                        virginis de pipewell a. d. 1538 5o die novembris. Quicunque alienaverit
+                        anathema sit. Webster.'</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Lord de Grey, Wrest Park (cf. Hist. MSS.
+                     Comm. Rep. 2. 4b).</provenance>
+                  <provenance type="MLGB3_laterOwners">Sold at Baroness Luca's sale (Wrest Park
+                     Library), Sotheby 21 June 1922 lot 572.</provenance>
+                  <provenance type="MLGB3_laterOwners">In 1972 it belonged to bookseller Colin
+                     Franklin of Culham, near Abingdon.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

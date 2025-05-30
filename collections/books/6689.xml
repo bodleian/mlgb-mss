@@ -1,0 +1,92 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6689">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Wellington (NZ)</settlement>
+                  <repository>Turnbull Library</repository>
+                  <idno type="shelfmark">MS. MSR-01</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6689</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Psalterium</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="140X/141X">s. xv in</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_338">London. Abbey of St Mary
+                        the Virgin and St Francis, without Aldgate, of Franciscan nuns.
+                        </orgName><p>Given by Beterice Carneburgh, the donation inscription asking
+                        the nuns to pray for the names entered as obits in the calendar (fol. 2r):
+                        'Memorandum that this Sawter was gevyn by Beterice Carneburgh unto Dame
+                        Grace Centurio to have it to her for terme of her lyfe and aftir her
+                        discesse to Remayne unto what syster of the meneres that it shall plese the
+                        seme grace to gyf it not to be gevyn awey solde nor lent but onely to the
+                        meneres, they to pray perpetually for the sawles named in this present
+                        Sawter'.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">On fol. 201v in a 16th-cent, italic hand:
+                     'Nouton in Nor: one myle from Danitrier / either to William Carter, or William
+                     Cartwright, Clearlie of the kitchin: uppon one of the Easter
+                     Holydaies'.</provenance>
+                  <provenance type="MLGB3_laterOwners">Bernard Edward, 12th duke of Norfolk (d.
+                     1842).</provenance>
+                  <provenance type="MLGB3_laterOwners">Armorial bookplate of J. G. Leeming, and a
+                     faint erased pencil inscription apparently signed by Leeming and dated
+                     1889.</provenance>
+                  <provenance type="MLGB3_laterOwners">Later belonged to Mrs Harvey Staunton of
+                     London and was lot 202 in her sale, Sotheby's 27 July 1925; purchased by Albert
+                     Clemas and sold by him to the British and Foreign Bible Society of New Zealand
+                     in 1933; deposited on permanent loan to Turnbull Library by the Bible Society
+                     of New Zealand in 1978.</provenance>
+                  <provenance type="MLGB3_laterOwners">on permanent loan by the Bible Society in New
+                     Zealand, 1978.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

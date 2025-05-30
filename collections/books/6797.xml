@@ -1,0 +1,82 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6797">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Truro</settlement>
+                  <repository>Cornwall Record Office</repository>
+                  <idno type="shelfmark">MS. RS/60</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6797</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Liber collationum, obituarium, etc.</title>
+                     <note type="MLGB3_generalNotes">Medieval binding.</note>
+                     <msItem>
+                        <title>Obituarium; Liber collationum; Martyrologium; Regula Sancti
+                           Benedicti.</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xv in.--xvi in.</origDate>
+                  </origin>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_770">Tywardreath, Cornwall.
+                        Benedictine alien priory of St Andrew. </orgName></provenance>
+                  <provenance type="MLGB3_laterOwners">In the library of Lord Arundell at Wardour
+                     Castle, Wilts, when Oliver described it: Monasticon Dioec. Exon., p. 36. In
+                     Oliver's house on his death, when it was 'accidentally and improperly sold',
+                     being ultimately purchased by Jonathan Rashley of Menabilly, Par, Cornwall
+                     (Yeatman, History of the House of Arundell, fol. 202b).</provenance>
+                  <provenance type="MLGB3_laterOwners">Acquired by Mr. W. S. Rashleigh of Stoketon
+                     House, nr Saltash, at the Mendabilly sale in 1940. Deposited with the County
+                     Record Office, with the Supplement recording its shelfmark to be
+                     DD.R(S)60.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

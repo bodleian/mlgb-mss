@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4282">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Lat. Misc. c.75</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4282</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Thomas Rudborne, Chronicon</title>
+                     <note type="MLGB3_generalNotes">4 quires 18, 28, 36, 48; 49 long lines. It
+                        seems likely that this MS., which belonged to Bale, is the one which he saw
+                        at All Souls Coll. (Index, p. 452). No other copy of the shorter chronicle
+                        (Inc.: 'Multi nobilis ac pietatis studio') is known. The MS. now ends
+                        imperfect at 1177, but a note in the Phillipps cat. says that it went to 18
+                        H. iiii, 'a quaternio being lost at the end'.</note>
+                     <note type="MLGB3_generalNotes">Bale's hand occurs on fol. 176r.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="13XX/14XX">s. xiv/xv</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_425">Oxford, Oxfordshire. All Souls'
+                        College. </orgName><note type="MLGB3_medievalCatalogueNotes">Cf. Bale,
+                        Index, p. 452</note></provenance>
+                  <provenance type="MLGB3_laterOwners">Bale, who also owned the other parts of Phil.
+                     3119. v. Honor McCusker, 'Books and MSS. in the possession of John Bale',
+                     Trans. Bibl. Soc. 16 (1935), no. 27.</provenance>
+                  <provenance type="MLGB3_laterOwners">Page-Turner Battlesden sale 19 Oct. 1824 lot
+                     2716/2 to Phillipps. '2716/2' on fol. 1r.</provenance>
+                  <provenance type="MLGB3_laterOwners">Formerly London, The Robinson Trust
+                     (Phillipps 3119, fols. 176--205).</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6615">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>New York (NY, USA)</settlement>
+                  <repository>Morgan Library and Museum</repository>
+                  <idno type="shelfmark">MS. G.18</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6615</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Biblia (with Kalendarium, red and blue, 4 months to a page)</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="12XX">s. xiii</origDate>
+                  </origin>
+                  <provenance type="#de"><orgName role="fmo" key="mlgbOrg_122">Canterbury, Kent.
+                        Benedictine abbey of St Augustine (originally of St Peter and St Paul).
+                        </orgName><p>'BIBLIA: RICARDI: DE SHOLDONE: DE: LIBRARIO· SANCTI: AUGUSTINI:
+                        CANTUARIE:'</p><p>'dist' Ia. Ga Io'. Identifiable in the catalogue by second
+                        folio.</p><p>(Very good hand and decoration. Kalendar includes
+                        'Freþeswide'.)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">W. Gossip 1744.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sotheby sale 27 July 1948, lot 358 (property
+                     of Joyce, Lady Allerton).</provenance>
+                  <provenance type="MLGB3_laterOwners">Bought by Messrs Maggs for Mr H. Hawey
+                     Frost.</provenance>
+                  <provenance type="MLGB3_laterOwners">Mr W. S. Glazier, New York (see John Plummer,
+                     Manuscripts from the William Glazier Collection (1959), no. 18).</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

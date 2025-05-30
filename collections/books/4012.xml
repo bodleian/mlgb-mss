@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4012">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">Addtional MS. 62450</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4012</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Gregorius in Ezechielem, in Cantica Canticorum; De conflictu viciorum et
+                        virtutum</title>
+                     <note type="MLGB3_generalNotes">On paper. Rebound. The main scribe wrote four
+                        lines of verse at the end; the last is "... Quos scripsit monachus John Awne
+                        cognomine dictus".</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX">s. xv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_383">Mount Grace (in East
+                        Harsley), Yorkshire. Charterhouse of the Assumption of St Mary the Virgin.
+                        </orgName><p>"Ihesus Liber montis gracie. qui ipsum alienauerit anathema sit
+                        amen".</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Constable Maxwell of Everingham; sold to
+                     Quaritch, 1947.</provenance>
+                  <provenance type="MLGB3_laterOwners">In Quaritch's shop Nov. 18, 1947 (£50), and
+                     in Cat. 691 (1951), no. 570.</provenance>
+                  <provenance type="MLGB3_laterOwners">Formerly Ripon, Mr H. L.
+                     Bradfer-Lawrence.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

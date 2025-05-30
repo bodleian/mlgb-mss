@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4218">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Florence, Italy</settlement>
+                  <repository>Biblioteca Laurenziana</repository>
+                  <idno type="shelfmark">MS. Plut. xvii sin. cod. x</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4218</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Stephen Patrington super Sentencias</title>
+                     <note type="MLGB3_generalNotes">Reference in Little, Grey Friars in Oxford,
+                        O.H.S., p. 252. 'Fey was inquisitor in his native land in 1402'.</note>
+                     <note type="MLGB3_generalNotes">Begins as Stegmüller, RS, 829a (cf. Doucet, AFH
+                        47, p. 83); information from Mr. Catto, May 1964.</note>
+                     <note type="MLGB3_generalNotes"> </note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="1393">1393</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_420">Oxford, Oxfordshire. Franciscan
+                        convent. </orgName><p>Written by Fr. J. Fey de Florentia in the Oxford
+                        Convent.</p><p>'Explicit compilatio quedam diversorum argumentorum
+                        recollectorum a diversis doctoribus in universitate Oxonie ordinata satis
+                        pulcre per reverendum fratrem [...] sacre theologie magistrum eiusdem
+                        uniuersitatis de ordine carmelitarum. scripta per me Fratrem J. Frey de
+                        Florentia ordinis fratrum minorum in Conventu Oxonie a. d. 1393 die sequenti
+                        festum 40 Martyrum ...' (fol. 113v).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Liber conuentus sancte Crucis de florentia
+                     ordinis minorum ... N. 590.'</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

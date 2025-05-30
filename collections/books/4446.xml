@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4446">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Boston (Lincs.)</settlement>
+                  <repository>Church Library</repository>
+                  <idno type="shelfmark"/>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4446</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Augustinus super Genesim ad litteram, super Genesim contra Manichaeos,
+                        et Responsiones ad Orosium</title>
+                     <note type="MLGB3_generalNotes">Ruling in hard point, 2 cols. of 33 lines;
+                        small folio.</note>
+                     <note type="MLGB3_generalNotes">Old (contemporary?) bare boards, repaired and
+                        rebacked.</note>
+                     <note type="MLGB3_generalNotes">'Aug' super Genesim' -- large and black, at
+                        foot of 1st leaf of text.</note>
+                     <note type="MLGB3_generalNotes">Initials in red, blue, green and brown -- green
+                        predominating --, a bit rough, but gay.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xii (med.)</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_452">Pontefract, Yorkshire.
+                        Cluniac priory of St John the Evangelist. </orgName><p>'Iste liber pertinet
+                        Monasterio beati Iohannis apostoli et Ewangeliste de pontefracto' (s. xv),
+                        on verso of flyleaf at beginning.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'The gift of Mr Wm Skelton Mr of Artes and
+                     Rector of Consby' (s. xviii).</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

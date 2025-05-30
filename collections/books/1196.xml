@@ -1,0 +1,98 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1196">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Canterbury</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. Lit. D.8 (53)</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1196</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Misc. jur.</title>
+                     <note type="MLGB3_generalNotes">Described by Ker, MMBL, 2. 278-79, with dating
+                        as above, superseding 's. xiv in.--xiv ex.' in MLGB2 (which was based on the
+                        assumption that art. 13 'is late xiv in book hand'; Ker's later opinion, as
+                        recorded in MMBL, was that the article was 'in textura by several
+                        hands').</note>
+                     <note type="MLGB3_generalNotes">Old binding. Arts. 1--12 have medieval
+                        foliation 1--100.</note>
+                     <msItem>
+                        <title>Formule iuris canonici (art. 1 and 12)</title>
+                     </msItem>
+                     <msItem>
+                        <title>Consuetudines (art. 2)</title>
+                     </msItem>
+                     <msItem>
+                        <title>Statuta et constitutiones (art. 3-5)</title>
+                     </msItem>
+                     <msItem>
+                        <title>Tractatus super formis electionum (art. 6)</title>
+                     </msItem>
+                     <msItem>
+                        <title>Magna Carta, Charter of the Forest, and supporting documents (art.
+                           7-11)</title>
+                     </msItem>
+                     <msItem>
+                        <title>Pars oculi (art. 13, added)</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="130X/131X">s. xiv in.</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_4">Canterbury, Kent.
+                        Benedictine cathedral priory of Holy Trinity or Christ Church.
+                        </orgName><p>At front flyleaf: 'pertinet ad dompnum W Inggrame penitenc eccl
+                        christi Cant'.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">At front flyleaf, 'Liber dompni Wilhelmi
+                     Londone ex dono'.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

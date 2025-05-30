@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8594">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Los Angeles (CA, USA)</settlement>
+                  <repository>UCLA, Library</repository>
+                  <idno type="shelfmark">MS. Rouse 96</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">8594</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Tabula septem custodiarum (frag.)</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="130X/131X">s. xiv in</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_420">Oxford, Oxfordshire. Franciscan
+                        convent. </orgName><p>Two bifolia (the bottom half of one bifolium and a
+                        nearly complete second bifolium) representing the penultimate stage in the
+                        making of the Tabula septem custodiarum; it preserves references to the
+                        works of Pope Gregory the Great rearranged in the order of the Bible text.
+                        Presumed to have been written at the Oxford Greyfriars, where this and the
+                        Registrum Anglie were compiled. An Oxford provenance is buttressed by the
+                        fact that these leaves became binding scrap in Oxford, acquired by the
+                        Oxford antiquary Philip Bliss (1787--1857). Illustrated, Rouse and Rouse,
+                        Registrum Anglie, CBMLC 2 (1991), fig. 4 (p. clxix).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Philip Bliss (1787--1857),
+                     antiquary.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sold with Bliss's collection of binders'
+                     scrap to Sir Thomas Phillipps, part of Phillipps MS 18133.</provenance>
+                  <provenance type="MLGB3_laterOwners">Quaritch, acquired by Prof. Ralph Hanna III,
+                     by whom given to Richard Rouse (co-editor of Registrum Anglie).</provenance>
+                  <provenance type="MLGB3_laterOwners">The Rouse collection was presented to UCLA by
+                     Mary and Richard Rouse in 2005 and 2011.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

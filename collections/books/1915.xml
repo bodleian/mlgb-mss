@@ -1,0 +1,86 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1915">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cardiff, Wales</settlement>
+                  <repository>Public Libraries</repository>
+                  <idno type="shelfmark">MS. 1.381 fols. 1--80</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1915</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Vite s. Wingualei (fols. 1--80), Aethelburge, Hildelithe, Ædwardi regis
+                        et martyris, Ædgithe, ...</title>
+                     <msItem>
+                        <title>Vita SS. Wingualei (fols. 1--80), Aethelburge, Hildelithe, Ædwardi
+                           regis et martyris, Ædgithe, Davidis; Historia metrica Hildeberti; Vita
+                           beati abbatis Ebrulfi.</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="120X/121X">s. xiii in.</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_3">Dover, Kent. Benedictine priory of St
+                        Mary the Virgin and St Martin; cell of Canterbury cathedral priory.
+                        </orgName><p>': D : VII : Vita sancti Wingualei ... forma egergium ... 88
+                        ...' (fol. 2r, s. xiv).</p><p>Pressmark identifies the first item of this
+                        with James, ALCD, p. 460 (no. 169). See description in Hist. MSS. Comm.
+                        Rep., Various Collections 2 (1903), pp. 24--27 and in Cardiff Public
+                        Libraries. Catalogue of manuscripts ... etc. relating to St. David (Cardiff
+                        1927), pp. 1--5 (descr. by J. A. Herbert). The lives of Æthelburga, etc. are
+                        not from Dover.</p><p>Wilmart, Anal. Boll. 56 (fasc. 3--4), pp. 24--25 n.
+                        suggests that they were written at St Augustine's, Canterbury. Evidence
+                        inconclusive. The volume was one in s. xv.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Ro. Cotton, 1601'.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sir Geo. Wombwell, Bart. Newburgh Priory.
+                     Sold at Sotheby's, Apr. 14--15, 1924, lot 136 (Wombwell sale).</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

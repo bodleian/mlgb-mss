@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5567">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Princeton (NJ, USA)</settlement>
+                  <repository>University Library</repository>
+                  <idno type="shelfmark">MS. Garrett 114</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5567</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Cassiodorus, varia; Seneca; Solinus</title>
+                     <note type="MLGB3_generalNotes">de Ricci, Census, 1. 887.</note>
+                     <note type="MLGB3_generalNotes">H. Y. Thompson, Cat. 4th Series, no.
+                        101.</note>
+                     <note type="MLGB3_generalNotes">Illustrations of 100 MSS. 4, pls. 16.
+                        17.</note>
+                     <note type="MLGB3_generalNotes">Medieval binding: 'Oak boards covered with
+                        white kid, ... headbands of blue and white silk'.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xii/xiii (c. 1200)</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_566">Waltham, Essex.
+                        Augustinian abbey of Holy Cross. </orgName><p>'Waltham sancte crucis [+
+                        cross]' (inside cover, c. 1200).</p><p>cxxix al[mario] ca[nonicorum]'
+                        (inside cover, s. xiv).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">H. Yates Thompson 101 (bought from Quaritch
+                     31 July 1911). Sold (Sotheby lot 33) 23 March 1920.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sir Nicholas Bacon. </provenance>
+                  <provenance type="MLGB3_laterOwners">Sir John Holt (L.C. J.) and descendants at
+                     Redgrave Hall, Suffolk. Sold by G. Holt Wilson of Redgrave Hall (Sotheby 156)
+                     21 july 1910. Bought by Quaritch.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

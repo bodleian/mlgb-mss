@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1014">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Ushaw</settlement>
+                  <repository>Ushaw College</repository>
+                  <idno type="shelfmark">MS. XVIII.F.4.18</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1014</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Missale Sarisb.</title>
+                     <note type="MLGB3_generalNotes">The form of the ex libris of Ushaw College,
+                        XVIII.F.4.18, written in Marian times, suggests that this missal was at St
+                        John's College earlier in the sixteenth century and had been restored
+                        there.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>Paris, A.D. 1503</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_107">Cambridge, Cambridgeshire.
+                        St John's College. </orgName><p>'Orate pro illius salute qui hunc librum
+                        reseruauit et collegio diui Ioannis evangeliste proprio domino restituit et
+                        ne sitis immemores primi donatoris sed pro anima eius ad deum fundite preces
+                        vel in resurrectionis gloria inter sanctos et electos dei resuscitat
+                        respirat' (s. xvi med.).</p><p>At end: oracio, secretum and postcommunio for
+                        St Etheldreda, in MS.</p><p>These two inscriptions suggest that this book
+                        belonged to St John's College, Cambridge, before the Reformation and was
+                        restored in Marian times.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

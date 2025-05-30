@@ -1,0 +1,76 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1799">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Stonyhurst</settlement>
+                  <repository>College</repository>
+                  <idno type="shelfmark">MS. XII F 17 (pr. bk)</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1799</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Breviarium Cisterciense</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>Paris, s.a.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_154">Combermere, Cheshire.
+                        Savigniac and (1147) Cistercian abbey of St Mary the Virgin and St Michael.
+                        </orgName><p>At beginning, on flyleaf, 'Cumbermere'. At end '[ . . . .]
+                        Monasterio de Cumb''.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Thomas Hamond'.</provenance>
+                  <provenance type="MLGB3_laterOwners">Edmund Bolton, clericus, 1568 (who notes that
+                     Dieulacres was founded in 1219).</provenance>
+                  <provenance type="MLGB3_laterOwners">'This book came into the possession of Mr
+                     Thornber from Mains Hall formerly the mansion of the Heskeths'.</provenance>
+                  <provenance type="MLGB3_laterOwners">'Presented by Mr Hill'.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

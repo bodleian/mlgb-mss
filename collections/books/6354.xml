@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6354">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>University Library</repository>
+                  <idno type="shelfmark">MS. Ee.4.19</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6354</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Manuale</title>
+                     <note type="MLGB3_generalNotes">Bidding prayer for 'all brethir and sisters of
+                        our modir kyrke saynt petir of thork, saynt John of Beuerlay, saynt Wilpede
+                        of Rypon and saynt Mari of Sowthel' (fol. 91r). Cf. MS. Manuale of Sir John
+                        Lawson, Brough Hall, described in H.M.C. 5th rep. 305 and nor in USA (de
+                        Ricci, Census, p. 1020).</note>
+                     <note type="MLGB3_generalNotes">Frere, Bibl. Musico-Liturgica, no. 836.
+                        Henderson, York Manual, Surtees Soc. 63 (1875), p. xiv.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX">s. xv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_612">York, Yorkshire. Hospital
+                        of St Leonard (formerly of St Peter). </orgName><p>'Orate pro animabus
+                        domini Iohannis Castylfurth et domini Willelmi Bramelay capellanorum
+                        parentum suorum et fratrum suorum et animum benefactorum suorum qui dederunt
+                        istum librum huic ecclesie sancti Leonardi ...' (fol. 91r).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Moore 280.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

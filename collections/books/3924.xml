@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3924">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Sankt Gallen, Switzerland</settlement>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno type="shelfmark">MS. 26</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3924</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Psalterium, etc.</title>
+                     <note type="MLGB3_generalNotes">c. 210 x 140 mm. </note>
+                     <msItem>
+                        <title>(pp. 1--12) Calendar, (pp. 13--70) Psalter, (pp. 70--74) Canticles,
+                           (pp. 75--80) Litany, (pp. 80--84) Monastic Canticles, (pp. 84--113)
+                           Hymns, (pp. 113--115) Monastic Canticles, Easter, (pp. 115--118)
+                           additions.</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="130X/131X">s. xiv in.</origDate>
+                  </origin>
+                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_360">Malmesbury, Wiltshire.
+                        Benedictine Abbey of St Mary the Virgin and St Aldhelm.
+                        </orgName><p>Calendar agreeing closely with Bodleian Library, MS Rawl.
+                        liturg. g. 12 (q. v. Pilton), but translation of Aldhelm is at 5 May, not 3
+                        Oct. Aldhelm is first among confessors. In S. Germany already by s. xiv ex.
+                        (Information from M. Korhammer, Die monastischen Cantica im Mittelalter ud
+                        ihre altenglischen Interlinearversionen, München, Phil. Diss., p.
+                     197).</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

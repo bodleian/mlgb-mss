@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6391">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">Addtional MS. 48984</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6391</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Gregorius, Homeliae in Lucam</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="118X/119X">s. xii ex.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_238">Hailes, Gloucestershire.
+                        Cistercian abbey of St Mary the Virgin. </orgName><p>"Anno domini MCCXLVIII
+                        dedit dompnus abbas et conventus de Kayrlion conventui de Heyles ad
+                        instantiam domini Ricardi comitis Cornubie egregii fundatoris illius domus
+                        et fratris domini Henrici regis Anglie tertii hunc librum", on the first
+                        leaf in large green capitals.</p><p>Inscription given by Bernard and in the
+                        1935 sale cat. and paraphrased in Philipps catalogue.</p><p>Notes relating
+                        to Wales (apud Lan Lechen) , one dated 1204, on penultimate leaf (from sale
+                        cat.)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Sir John Hoby 23 (Bernard, Catalogi,
+                     3814).</provenance>
+                  <provenance type="MLGB3_laterOwners">Philipps 12357.</provenance>
+                  <provenance type="MLGB3_laterOwners">Lot 152 in Philipp's sale Sotheby's June 24
+                     1935 (but did nit reach reserve?)</provenance>
+                  <provenance type="MLGB3_laterOwners">Eric Miller.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

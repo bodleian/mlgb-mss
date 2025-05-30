@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7832">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Balliol College</repository>
+                  <idno type="shelfmark">MS. 196</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">7832</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Anon. in sententias</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xiii 4/4</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_426">Oxford, Oxfordshire.
+                        Balliol College (Domus de Balliolo). </orgName><p>Mynors, Balliol, 195–196
+                        transcribes many notes, verses, and marks, some early.‘ On 1v is: ¶ Summa
+                        xxx d. ¶ Notule Sentenciarum || erasure || ¶ Ani a bello de Lewys xliii | ¶
+                        Ani a bello de Ewysham xlii (indicating A.D. 1307) [...] On 3v in a long
+                        erasure: . . . prec’ . . . fratri Thome G (?) . . . liber . . . usualis (the
+                        last word might be custodialis, which would indicate Franciscan ownership).
+                        Probably next in order of date is (295) Liber Willelmi Marche capellani.
+                        Then (3v): Iste liber constat fratri Johanni Kekelly | ex dono fratris
+                        Johannis Mnscham’ (Mynors, Balliol, 196)‘Liber domus de Balliolo ex dono |
+                        Magistri Roberti Roke’ (fol. 3v)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Robert Rooke (Roke) alias Cledeshow (d.
+                     1458), fellow of Balliol</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

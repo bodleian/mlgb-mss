@@ -1,0 +1,91 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3816">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">MS. Royal 3 E.i--v</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3816</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Vetus testamentum glo.</title>
+                     <note type="MLGB3_generalNotes"
+                        >http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=5893&amp;CollID=16&amp;NStart=30501</note>
+                     <note type="MLGB3_generalNotes"
+                        >http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=5893&amp;CollID=16&amp;NStart=30502</note>
+                     <note type="MLGB3_generalNotes"
+                        >http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=5894&amp;CollID=16&amp;NStart=30503</note>
+                     <note type="MLGB3_generalNotes"
+                        >http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=5895&amp;CollID=16&amp;NStart=30504</note>
+                     <note type="MLGB3_generalNotes"
+                        >http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=5893&amp;CollID=16&amp;NStart=30505</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="12XX">s. xiii</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_333">London. Dominican convent.
+                        </orgName><p>16th-cent. notes in Royal 3 E.i and 3 E.ix show that 3 E.i and
+                        six other vols. 'all bounde in white lether' and identifiable with 3
+                        E.ii--v, vii, viii, formed a 'set' of glossed books of the greater part of
+                        the bible (cf. Cat. Royal MSS., 1, p. xl). The fact that 3 E.i--v, viii
+                        belonged to the London Dominicans is now recorded only on the outside of the
+                        18th-cent. bindings. For 3 E.iii this is found also in Casley's
+                        catalogue.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Henry Fitz-Alan, Earl of Arundel, and John,
+                     Lord Lumley.</provenance>
+                  <provenance type="MLGB3_laterOwners">A 16th-cent. inscr. in 3 E.i reads: 'This
+                     Bible [ . . . ] a Glosse and Commentaires bounde in lether conteyne Genesis . .
+                     . being in 7 volumes in folio'. The similar note in 3 E.ix (see Canterbury,
+                     Franciscan convent) refers to three volumes as being 'bounde in white
+                     lether'.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5470">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">MS. Burney 357</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5470</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Miscellanea theologica</title>
+                     <note type="MLGB3_generalNotes">Burney 246, 285, 295, 341, 344 were part of
+                        Burney 357, which has a Thame inscription.</note>
+                     <note type="MLGB3_generalNotes">The table of contents is in Burney 357, see
+                        above (cf. N. R. Ker, B. M. Quarterly 5 (1938), p. 134).</note>
+                     <note type="MLGB3_generalNotes">The volume has been rebound s. xviii and is
+                        incomplete and rearranged. </note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="11XX">s. xii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_543">Thame, Oxfordshire.
+                        Cistercian abbey of St Mary the Virgin. </orgName><p>'Liber sancte Marie de
+                        Thama in quo continentur hec, scilicet Hugo de x preceptis Anselmus de
+                        fermetato contra Grecos, sententie quedam Amularii de officiis
+                        ecclesiasticis, Sedulius Prosper glosati, Versus Sigerii de Sanctis, Micho
+                        Levita de producendis breviandis dictionibus, de eruptione diluvii, de
+                        sententiis divine pagine, Liber Iuliani Pomerii. Qui hunc fraude abstulerit
+                        vel deposuerit anathema sit' (fol. 24v (ad fin. Hugonis), s. xii
+                     ex.).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Liber Guilielmi Forresti' (fol. 24r), s.
+                     xvi.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

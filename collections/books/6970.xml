@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6970">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Chester</settlement>
+                  <repository>Cheshire Archives and Local Studies</repository>
+                  <idno type="shelfmark">MS. EDD 3913 (olim Chester Cathedral, MS 2)</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6970</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Ranulphus Higden</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="144X/145X">s. xv med.</origDate>
+                  </origin>
+                  <provenance type="#d"><orgName role="fmo" key="mlgbOrg_299">Leicester, Leicestershire.
+                        Augustinian abbey of St Mary the Virgin de Pratis. </orgName><p>The secundo
+                        folio, 'sit molestus' (fol. 7r, after the tabula) is a match for the entry
+                        in the library catalogue of the Leicester Austins, A20.646, where the copy
+                        is said to be 'in magno uolumine' and this book is 410 x 270 mm.
+                     </p></provenance>
+                  <provenance type="MLGB3_laterOwners">Ralph Seyton, canon of Leicester and student
+                     at Oxford in 1440, who gave the book to his house. (See further BRUO 1676.)
+                     According to the library catalogue he was the donor of ten or eleven other
+                     volumes (A20. 466, 467, 480, 646, 1009, 1042, 1043, 1045, 1330, 1331 and
+                     perhaps 1102 ('per Radulphum')).</provenance>
+                  <provenance type="MLGB3_laterOwners">Humfrey Ridinge, s. xvi. (A kinsman of Hector
+                     Riddinge who had A20.660 in 1503?)</provenance>
+                  <provenance type="MLGB3_laterOwners">Sir Henry Savile of Banke
+                     (1568--1617).</provenance>
+                  <provenance type="MLGB3_laterOwners">Purchased for Chester Cathedral in 1924 or
+                     1925.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

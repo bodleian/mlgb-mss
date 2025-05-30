@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6770">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Winchester</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. 15</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6770</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Theodolus, etc.</title>
+                     <note type="MLGB3_generalNotes">The book was alienated and recovered in
+                        1876-77.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="144X/145X">s. xv med.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_437">Winchester, Hampshire.
+                        Benedictine cathedral priory of St Peter, St Paul, and St Swithun.
+                        </orgName><p>'Iste liber est de domo Sancti Swythini Wynton'. Qui eum
+                        alienauerit Anathema sit' (at end).</p><p>'Anno domini Mlo CCCC iiijxx vto |
+                        Iste liber est de domo Sancti Swythini Wynton' Ex prouidencia Willelmi [. .
+                        .] Qui eum alienauerit Anathema sit (also at end).</p><p>Also, 'Constat
+                        Thome Sylksted suppriori' (at end). 'Liber T Sylkested', prec' xiii s iiii d
+                        (front flyleaf).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Thomas Sylkstead, prior (d. 1524), on whom
+                     see Ker, MMBL, 4, pp. 592-94.</provenance>
+                  <provenance type="MLGB3_laterOwners"> </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

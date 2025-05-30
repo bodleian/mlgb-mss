@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_2701">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Exeter</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. 3510</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">2701</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Missale</title>
+                     <note type="MLGB3_generalNotes">2o folio 'adiuti' or (after the calendar) 'et
+                        hostiis'.</note>
+                     <note type="MLGB3_generalNotes">Contains list of ornaments belonging to altar
+                        of St. Gabriel in 1506 -- for which see Cat., p. 356 --, which includes
+                        'quoddam manual'.' and 'historia sancti Gabrielis'.</note>
+                     <note type="MLGB3_generalNotes">Frere, Bibl. Musico-Liturg., no. 579.</note>
+                     <note type="MLGB3_generalNotes">Botfield 6.</note>
+                     <note type="MLGB3_generalNotes">Modern binding.</note>
+                     <note type="MLGB3_generalNotes">The missal at St. Gabriel's altar in 1506 had
+                        2o folio 'Asperges me'. </note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="12XX">s. xiii</origDate>
+                  </origin>
+                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_1">Exeter, Devon. Cathedral
+                        church of St Peter. </orgName><p>Sarum use modified for Exeter.</p><p
+                     > </p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

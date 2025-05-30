@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5406">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>St Peter Port, Guernsey</settlement>
+                  <repository>Mr G. S. Cox</repository>
+                  <idno type="shelfmark">MS. Cox 39</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5406</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Sermones dominicales, etc.</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX">s. xv</origDate>
+                  </origin>
+                  <provenance type="#db"><orgName role="fmo" key="mlgbOrg_537">Syon, Middlesex.
+                        Bridgettine abbey of St Saviour, St Mary the Virgin, and St Bridget.
+                        </orgName><p>Medieval binding. Label on lower cover inscribed 'Sermones
+                        dominicales | Aug' de abusionibus | De 12cim vtilibus tribulacionibus | 2o
+                        fo filius hominis | Lawsby'.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">John Lawsby d. 1490.</provenance>
+                  <provenance type="MLGB3_laterOwners">Eb. Musselll (his sale 30 May 1766, lot
+                     [?]).</provenance>
+                  <provenance type="MLGB3_laterOwners">George Scott of Chigwell, Essex (d.
+                     1780).</provenance>
+                  <provenance type="MLGB3_laterOwners">A. A. P. Ethelstone: sale at Sothebys 23
+                     April 1956, lot 52, to J. S. Cox.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

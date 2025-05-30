@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6694">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Exeter</settlement>
+                  <repository>University Library</repository>
+                  <idno type="shelfmark">MS. 262/4</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6694</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Horae</title>
+                     <note type="MLGB3_generalNotes">MLGB2 reports books at Syon Abbey (South
+                        Brent); since 2004 these have been deposited in Exeter University
+                        Library.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="1424~">c. AD 1424</origDate>
+                  </origin>
+                  <provenance type="#cl"><orgName role="fmo" key="mlgbOrg_537">Syon, Middlesex.
+                        Bridgettine abbey of St Saviour, St Mary the Virgin, and St Bridget.
+                        </orgName><p>House obits in the kalendar: 'Obitus domini Henrici ffy3there',
+                        at 10 January; of Henry V, 'fundatoris monasterii de Syon' (fol. 18v); at 1
+                        October 'dedicacio ecclesie catehdralis et monasterii de Syon', and
+                        Brigittine feasts added.</p><p>(Medieval binding.)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Bought from Messrs Maggs, September 1927
+                     (£120).</provenance>
+                  <provenance type="MLGB3_laterOwners">Since 2004 the Syon Abbey books have been
+                     deposited in Exeter University Library.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

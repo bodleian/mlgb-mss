@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6565">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Untraced</settlement>
+                  <repository>Untraced</repository>
+                  <idno type="shelfmark"/>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6565</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Ezechiel glo.</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="11XX">s. xii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_360">Malmesbury, Wiltshire.
+                        Benedictine Abbey of St Mary the Virgin and St Aldhelm. </orgName><p>At end
+                        in red on three lines: 'LIBE . . . . . / RIE . . . . . . / RI'.</p><p>The
+                        conjecture is that this relates to Malmesbury; marginalia mention Beverston
+                        and Stanton, each within 10 miles of Malmesbury.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Quaritch catalogue 176 (1898), no.
+                     7.</provenance>
+                  <provenance type="MLGB3_laterOwners">George Dunn, bought in 1902; his sale,
+                     Sothebys, 11--14 February 1913, lot 476.</provenance>
+                  <provenance type="MLGB3_laterOwners">J. and J. Leighton sale, Sothebys 14 November
+                     1918, lot 107.</provenance>
+                  <provenance type="MLGB3_laterOwners">Leicester Harmsworth sale, Sothebys 15
+                     October 1945, lot 1933, bought by Maggs Bros.</provenance>
+                  <provenance type="MLGB3_laterOwners">William Foyle, of Beeleigh Abbey, Maldon
+                     (Essex), purchased from Maggs 1947; by descent to Christina Foyle; sale at
+                     Christie's, 11 July 2000, lot 9 (col.ill.)</provenance>
+                  <provenance type="MLGB3_laterOwners"> </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

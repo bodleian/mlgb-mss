@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4332">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Worcester College</repository>
+                  <idno type="shelfmark">MS. 233</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4332</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>T. Netter, Doctrinale, bks. III--IV, etc.</title>
+                     <note type="MLGB3_generalNotes">Worcester College 233 (formerly Merton College
+                        MS 318) is the second part of BL Royal 8 G.x.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX">s. xv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_432">Oxford, Oxfordshire.
+                        Gloucester College; cell of Gloucester. </orgName><p>'In hoc volumine
+                        continentur . . . Fratribus Oxonie datur in munus liber iste | ‘Iohannem
+                        Whethamstede’ | Per patrem pecorum prothomartiris Angligenarum | Quem si
+                        quis rapait raptim titulumve retractet | Vel Jude Paqueum vel furcas
+                        sensiat/ Amon.' (fol. 1v, facing first page of text; s. xv).</p><p>Second
+                        vol. of a collection of Anti-Wiclif tracts, of which the first is BL Royal 8
+                        G.x.</p><p>Medieval binding.</p><p>Chainmark on second cover at foot (4
+                        nails).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Robert Scherlys, fellow of Merton, rector of
+                     St Peter's in the East (1524-- ). He gave the book to Merton College in his
+                     lifetime, 'pro cuius felici fatu orate'.</provenance>
+                  <provenance type="MLGB3_laterOwners">Merton pressmark 'L.3.7' (Coxe, p.
+                     318).</provenance>
+                  <provenance type="MLGB3_laterOwners">Given by Merton to Worcester College June
+                     1938.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

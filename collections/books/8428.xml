@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8428">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Merton College</repository>
+                  <idno type="shelfmark">MS. 309</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">8428</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Boethius; Priscianus; Donatus; etc.</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xiii ex. et xi</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_435">Oxford, Oxfordshire.
+                        Merton College. </orgName><p>‘Liber domus scolarium de Merton’ in Oxon’ de
+                        legato M. Ioh’ Reynham sacre pagine professoris et quondam socii eiusdem
+                        domus’ (fol. 115v)‘Hugo Herle habet librum particularem’ (fol. 204v)‘Iste
+                        liber emptus fuit [pro l ... florinis]’ (fol. 204v)‘Iohanni Cole’ (fol.
+                        201v)At least the first part of the MS was at the College by early s. xiv
+                        (UO46.54). CBMLC 16, 785 thus identifies the donor as a different John
+                        Reyham (fl. 1321–1331), fellow of Merton (BRUO 1570) from the Reynham (d.
+                        1376) who gave many other MSS. However, there is nothing to associate this
+                        MS with the name of John Reynham at all beyond the inscription on fol. 115v,
+                        the form of which does not support this interpretation. Perhaps the latter
+                        part of the MS was given by John Reynham (d. 1376).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">John Reynham (d. by Nov. 1376), fellow of
+                     Merton and chancellor of Oxford</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

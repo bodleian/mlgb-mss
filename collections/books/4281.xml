@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4281">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Tokyo, Japan</settlement>
+                  <repository>University Library</repository>
+                  <idno type="shelfmark">MS. A.100.1300</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4281</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Formulare</title>
+                     <note type="MLGB3_generalNotes">For contents see short note by E. L[obel] 'A
+                        xvc. MS. in private hands' BQR 5, pp. 134f.</note>
+                     <note type="MLGB3_generalNotes">An erased note on fol. 2r states that it was
+                        goven to All Souls by James Goldwell bp. of Norwich. It had apparently been
+                        earlier at Ch. Ch. Canterbury and is in a Canterbury binding of c.
+                        1450--1500. See Count Roberto Weiss, 'Some unpublished correspondence of
+                        Guarino da Verona', Italian Studies Febr. 1939, pp. 110--113.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xv (1450--1460)</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_425">Oxford, Oxfordshire. All
+                        Souls' College. </orgName><p>'Liber Collegii animarum omnium fidelium
+                        defunctorum Ex nota Reverendissimi patris Iacobi Goldwell Norwicensis
+                        episcopi et legum doctoris ac quondam huius collegii] socii' (erased but
+                        legible under u. v. light).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">William Chart monk of
+                     Canterbury?</provenance>
+                  <provenance type="MLGB3_laterOwners">James Goldwell Bp. of Norwich.</provenance>
+                  <provenance type="MLGB3_laterOwners">Canon B. H. Streeter, who presented the book
+                     to University of Tokyo 1923 (?); cf. BQR article, loc. cit. </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,95 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3691">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Lincoln</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. 203</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3691</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Compendium theologice veritatis, etc.</title>
+                     <msItem>
+                        <locus>(fols. 1v--2v)</locus>
+                        <title>notes and verses</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 3r--10v)</locus>
+                        <title>subject-index to the following work</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fols. 11r--123v) Hugo Ripelinus OP</author>
+                        <title>Summa theologiae veritatis</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fols. 125r--166v) Isidore</author>
+                        <title>Sententiarum libri tres</title>
+                     </msItem>
+                     <msItem>
+                        <locus>(fols. 167r--168v)</locus>
+                        <title>"E celo cecidit sententia notis elithos. Consequentes [sic] esset ut
+                           dies diei eructaret uerbum ... ut rapiat pauperem dum attrahit ["</title>
+                     </msItem>
+                     <msItem>
+                        <author>(fols. 169r--178r) Edmund of Canterbury</author>
+                        <title>Mirour de Seinte Eglyse</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="13XX">s. xiv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_316">Lincoln, Lincolnshire.
+                        Cathedral church of St Mary the Virgin. </orgName><p>"liber sancte marie
+                        Lincoln'" (fol. 3r).</p><note type="MLGB3_medievalCatalogueNotes">Cat.
+                        31</note></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

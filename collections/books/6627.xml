@@ -1,0 +1,75 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6627">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>St John's College</repository>
+                  <idno type="shelfmark">MS. HB4/fol/6 (A. 9. 5--7) (pr. bks.)</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6627</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Petrus Berchorius</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>Nuremberg, 1499</origDate>
+                  </origin>
+                  <provenance type="#db"><orgName role="fmo" key="mlgbOrg_537">Syon, Middlesex.
+                        Bridgettine abbey of St Saviour, St Mary the Virgin, and St Bridget.
+                        </orgName><p>Identifiable in the Syon catalogue, the gift of William Bonde
+                        (d. 1530).</p><p>Contemporary stamped leather binding with marks of labels
+                        formerly attached to back cover. Usual Syon fore-edge tabs.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Nicholas Brigham: 'N Brighami liber est per
+                     lege, claude, vale' (foot of title).</provenance>
+                  <provenance type="MLGB3_laterOwners">'To Mr Ely Ad' (?) this in seynt John's
+                     Colledge' on front cover.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

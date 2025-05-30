@@ -1,0 +1,91 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3243">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>San Marino (CA, USA)</settlement>
+                  <repository>Huntington Library</repository>
+                  <idno type="shelfmark">MS. HM 19915</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3243</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Augustinus, Enchiridion; Prosper, De vita contemplativa</title>
+                     <note type="MLGB3_generalNotes">Cf. Hist. MSS. Comm. Rep. 6. 418b, no.
+                        54.</note>
+                     <note type="MLGB3_generalNotes">Old binding with tall bosses of fluted metal on
+                        first cover. Label formerly low down on 2nd cover: nail marks remain.</note>
+                     <note type="MLGB3_generalNotes">Images from
+                        http://www.digital-scriptorium.org</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="120X/121X">s. xiii in.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_260">Holme Cultram, Cumberland.
+                        Cistercian abbey of St Mary the Virgin. </orgName><p>"Liber Sancte Marie De
+                        Holmcoltran. Hec continentur In Hoc Volumine Enchiridion augustini Prosper
+                        de Vita Contemplativa" (flyleaf).</p><p>"liber lxxvj" at head of fol.
+                        1r.</p><p>"Liber sancte Marie de holmo" at foot of fol. 1r.</p><p
+                     > </p></provenance>
+                  <provenance type="MLGB3_laterOwners">No. 17 in the Llanerch cat. of
+                     1740.</provenance>
+                  <provenance type="MLGB3_laterOwners">No. 42 in the Llanerch cat. of
+                     1778.</provenance>
+                  <provenance type="MLGB3_laterOwners">Philip Bryan Davies-Cooke of Owston (Yorks.),
+                     Gwysaney (Flints.): his son is Philip Tatton Davies-Cooke of Gwysaney,
+                     Mold.</provenance>
+                  <provenance type="MLGB3_laterOwners">At Gwysaney in May 1942; deposited in the
+                     Nat. Library of Wales 1947.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sotheby's sale 15 June 1959, lot 197
+                     (Davies-Cooke).</provenance>
+                  <provenance type="MLGB3_laterOwners"> </provenance>
+                  <provenance type="MLGB3_laterOwners"> </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7342">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>Peterhouse</repository>
+                  <idno type="shelfmark">MS. 47</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">7342</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Aquinas</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="128X/129X">s. xiii ex.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_106">Cambridge, Cambridgeshire.
+                        Peterhouse (Collegium Sancti Petri). </orgName><p>‘Liber Sancti Benedicti’
+                        (fol. iii, s. xiv)</p><p>‘Isti s ... eras fieri Le...istre pro xl d.’ (fol.
+                        iii, erased)</p><p>‘Iste sunt conclusiones magistrales reuerendi doctoris
+                        Predicatorum Ordinis scilicet fratris Willelmi de Iordan in prima
+                        determinatione sua anno Domini M CCC [eras. ?]’ (fol. 218v)</p><p>‘Iste sunt
+                        conclusiones magistrales doctoris fratrum minorum scilicet fratris Rogerii
+                        de Nothingham anno Domini MCCC [eras.] in prima determinatione sua’ (fol.
+                        219r)</p><p>Erased cautio of Nicholas Gay on fol. 213v</p><p>‘Memorandum
+                        quod anno Domini M CCCC LXX xxviii. die mensis Ianuarii Ego Nicholaus Gay
+                        sacre theologie professor sponte ac libere contuli istud uolumen collegio
+                        Sancti Petri Cantebrig’ ut sit post decessum meum cathenatum in libraria
+                        dicti collegii iuxta uolumen sancti Thome de Aquino super quartum. Hiis
+                        testibus Magistris Thoma Cooke et Ric(ardo) Narboro doctoribus iuris
+                        ciuilis. Si quis a dicto collegio alienauerit anathema sit’ (fol.
+                     iiiv)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Nicholas Gay (d. 1474), fellow of Peterhouse
+                     and vice-chancellor of Cambridge</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

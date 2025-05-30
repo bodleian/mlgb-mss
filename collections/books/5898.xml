@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5898">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Durham</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. A.iv.30</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5898</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Biblia (praefigitur Kalendarium et Indiculus lectionum ex epistolis et
+                        evangeliis)</title>
+                     <note type="MLGB3_generalNotes">Probably written for the Dominicans of
+                        Besançon; presented to Witham by William Loryng, see Charles Clay in Antiq.
+                        Journal 11, p. 312.</note>
+                     <note type="MLGB3_generalNotes">Loryng died 1416.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="12XX">s. xiii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_598">Witham, Somerset.
+                        Charterhouse of Saint Mary the Virgin. </orgName><p>"Iste Liber est domus
+                        beate marie de Witham ordinis cart' ex dono magistri Willelmi
+                        Loryng".</p><p>The MS. is described by T. Hearne as "Ordo lectionum in
+                        festis sanctorum. Iste liber est domus beate Marie de Witham ordinis cartus.
+                        ex dono magistri Willelmi Loryng" among the MSS. of Lord Bulstrode Whitlock
+                        (Collections, 2 (O.H.S.), pp. 133, 135).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Richard Winwood. 1655.</provenance>
+                  <provenance type="MLGB3_laterOwners">Henry Bland, Dean of Durham, presented it to
+                     the Cathedral 1729.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

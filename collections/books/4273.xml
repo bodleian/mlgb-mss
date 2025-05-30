@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4273">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">MS. Sloane 280</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4273</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>J. Gadesden, Rosa medicinae</title>
+                     <note type="MLGB3_generalNotes">Flyleaves (formerly pasted down) from a
+                        homiliary well written in Enlish hand of c. 1000 (fols. 1, 286).</note>
+                     <note type="MLGB3_generalNotes">2o folio (fol. 10r): 'et sanguis qui
+                        fiet'.</note>
+                     <note type="MLGB3_generalNotes">Mark of chain on fols. 1--5 at head.</note>
+                     <note type="MLGB3_generalNotes">William Romsey was fellow of Merton 1448, gave
+                        3 books to Merton in 1493 and MS Oriel 6 to Oriel. Merton MSS. 47 and Oriel
+                        6 were written at Romsey's cost ('quem fieri fecit').</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX">s. xv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_425">Oxford, Oxfordshire. All
+                        Souls' College. </orgName><p>'Liber Collegii animarum in Oxon.' (fol. 2v, s.
+                        xvi).</p><p>'Liber collegii animarum omnium defunctorum in Oxon.' (fol. 10r,
+                        at foot, on erasure).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Liber Willelmi Romesey quem fecit scribi'
+                     (fol. 2v foot, s. xv).</provenance>
+                  <provenance type="MLGB3_laterOwners"> </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

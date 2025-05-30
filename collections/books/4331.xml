@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4331">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>New College</repository>
+                  <idno type="shelfmark">MS. 49</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4331</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Petrus Iohannes Olivi, in Mattheum</title>
+                     <note type="MLGB3_generalNotes"> </note>
+                     <note type="MLGB3_generalNotes"> </note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX">s. xv</origDate>
+                  </origin>
+                  <provenance type="#bs"><orgName role="fmo" key="mlgbOrg_432">Oxford, Oxfordshire.
+                        Gloucester College; cell of Gloucester. </orgName><p>New College 49 is
+                        evidently a present from John Whethamstede, abbot of St Albans, like London,
+                        Bodleian ad Worcester Coll. MSS.: like them it is identifiable in
+                        Whethamstede's booklist in London, BL, Arundel 34 (see under St Albans): see
+                        D. R. Howlett and R. W. Hunt, BLR 10 (1982), pp. 225--28.</p><p>Identifiable
+                        by the 'lamb and flag' and 'eagle' medallions in the border on fol. 1r with
+                        the copy made for John Whethamstede, no. 9 in the list, 'Factura librorum de
+                        compo[s]icione aliorum', 'Item in factura Petri Iohannis super Matheum lxs'
+                        (Annales, p. 268); cf. Eton 103, Bodleian Auct. F. inf. 1.1, Cotton Nero
+                        C.vi.</p><p>Chain staple on lower cover at foot; cf. the marks on Worcester
+                        Coll. 233 (the distance from the first to the last of the four nails is
+                        unusually long, c.115--1[..] in both MSS.).</p><p>II bands (cf. Worcester
+                        Coll.).</p><p>Hand of fols. 14r--40v, 57v--159r is that of Worcester Coll.,
+                        233. See D. R. Howlett &amp; R. W. Hunt, BLR 10 (1981), p.
+                     225.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

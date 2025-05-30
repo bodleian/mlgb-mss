@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4228">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Corpus Christi College</repository>
+                  <idno type="shelfmark">MS. 227</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4228</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Duns Scotus, etc.</title>
+                     <note type="MLGB3_generalNotes">MSS. 227 &amp; 228 were written in the Oxford
+                        convent, but it is probable that MS. 227 at least was at York convent (q.
+                        v.) at the Dissolution.</note>
+                     <note type="MLGB3_generalNotes">For W. Vavaseur, Warden at Oxford c. 1500 and
+                        warden of York at the dissolution see Little, Grey Friars in Oxford, p.
+                        130.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="148X/149X">s. xv ex.</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_420">Oxford, Oxfordshire. Franciscan
+                        convent. </orgName><p>Colophons:</p><p>1) (fol. 45v) 'Expliciunt questiones
+                        doctoris subtilis super 2o. 7. 3o de anima scripte per fratrem petrum pauli
+                        de Nycopia. Lord thy mercy'.</p><p>2) (fol. 119v) 'Explicit tractatus ...
+                        scriptus per me fratrem Wyllelmum studentem Oxon. Anno incarnacionis
+                        dominice 1419 [sic]'.</p><p>3) (fol. 215v) 'Expliciunt questiones 3i libri
+                        metheorum secundum doctorem subtilem ordinis minorum ac scripte per manum
+                        fratris Wyllelmum Vavysour eiusdem ordinis Anno dominice incarnacionis.
+                        1491. Amen then.'</p><p> </p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Christopher Thurske' (fol.
+                     218v).</provenance>
+                  <provenance type="MLGB3_laterOwners">'Joannes Dee 1559; Novembris 24 Eboraci',
+                     with ladder mark; fol. 1r.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

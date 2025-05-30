@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5238">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Paris, France</settlement>
+                  <repository>Bibliothèque Sainte-Geneviève</repository>
+                  <idno type="shelfmark">MS. 2809</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5238</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Iohannes de Pecham, Ierarchie (in French)</title>
+                     <note type="MLGB3_generalNotes">See Doucet in Antonianum 8, p. 427.</note>
+                     <note type="MLGB3_generalNotes">Facs. Ecole des chartes, n. f. 402.</note>
+                     <note type="MLGB3_generalNotes">Line numbering by fives.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>A. D. 1297</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_510">Southampton, Hampshire.
+                        Franciscan convent. </orgName><p>Ad fin.: 'cest liure fu escrit lan de la
+                        incarnacion mo cco lxxx viio' in hand of Jordan de Kingston, O.F.M., not of
+                        the scribe.</p><p>'Cest liure fist frere jordan de Kingestone' (fol.
+                        1r).</p><p>'Cest liure resingna ffrere jordan de Kingestone a la commune de
+                        ffreres menurs de stuthampton par la volonte e le graunt frere Willame de
+                        Notingham ministre de Engleterre dunt la commune ad sa lettre l'an de grace
+                        MCCCXVII' (fol. 1r).</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

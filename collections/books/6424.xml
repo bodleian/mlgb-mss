@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6424">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">MS. Royal 14 C.vii</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6424</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Matthew Paris, etc.</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xiii--xiv ex.</origDate>
+                  </origin>
+                  <provenance type="#es"><orgName role="fmo" key="mlgbOrg_474">St Albans, Hertfordshire.
+                        Benedictine abbey of St Alban. </orgName><p>Matthew Paris wrote to fol. 210
+                        (see R. Vaughan, 'The handwriting of Matthew Paris', Transactions of the
+                        Cambridge Bib. Soc. 1 (1953) 390--92).</p><p>Note of gift by Matthew Paris
+                        in his own hand (fol. 6v, part erased): 'Hunc librum dedit frater Matheus
+                        parisiensis [ . . . . . . . ] anima Mathei et anime omnium fidelium
+                        defunctorum requiescant in pace amen'.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Humfrey of Lancaster, 1st duke of Gloucester
+                     (1390--1447): 'Ceste livre est a moy Homffrey duc de Gloucestre' (fol. 231r,
+                     erased).</provenance>
+                  <provenance type="MLGB3_laterOwners">Note by John Russell (d. 1494), bishop of
+                     Lincoln, that if the book can be proved to have belonged to and to belong to St
+                     Albans, then he is willing to regard it as on loan from the monks, otherwise he
+                     bequeaths it to the College of St Mary Winton at Oxford, i.e. New
+                     College.</provenance>
+                  <provenance type="MLGB3_laterOwners">John Bale saw it in the Royal Library,
+                     1549--57. Old Royal pressmark, 'no. 1041'.</provenance>
+                  <provenance type="MLGB3_laterOwners">Henry Fitzalan, earl of Arundel.</provenance>
+                  <provenance type="MLGB3_laterOwners">John, Lord Lumley.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

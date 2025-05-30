@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6682">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Ushaw</settlement>
+                  <repository>College</repository>
+                  <idno type="shelfmark">MS. XVIII G.3.11, 12 (pr. bk.)</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6682</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Ambrosius, Opera (2 vols)</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>Basel, 1516</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_189">Durham. Benedictine
+                        cathedral priory of St Cuthbert. </orgName><p>Two volumes of three (vol. 2
+                        missing). Inscriptions: 'Liber Dompni W. Wylom monachi Dunelm''; 'precium
+                        istius cum aliis duabus partibus xj s', in each volume. In both 'W. Wylom'
+                        is on erasure of 'Petri Lee'. The inscriptions are in the same hand as in
+                        the Rosarium, XVIII C.5.2. For Peter Lee cf. Oxford, Oriel College,
+                        C.e.20.</p><p>(Original stamped binding, unrepaired; large
+                        fleur-de-lys.)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Found in the library of the Catholic
+                     presbytery at Hexham.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sir Thomas Tempest Baronet.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

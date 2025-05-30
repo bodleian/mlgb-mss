@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1188">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Canterbury</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. Lit.B.10 (37)</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1188</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>T. de Chabham, etc.</title>
+                     <msItem>
+                        <title>Thomas de Chobham, Summa confessorum</title>
+                     </msItem>
+                     <msItem>
+                        <title>Also contains notes on penance attrib. Robert Grosseteste,
+                           constitutions on tithe of Archbishop Boniface, legate Otto, etc., and
+                           visitation articles.</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="13XX">s. xiv</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_4">Canterbury, Kent.
+                        Benedictine cathedral priory of Holy Trinity or Christ Church.
+                        </orgName><p>'R. Chelmyngton 1461' (fol. 61v), 'R. Chelmyngton monachus
+                        ecclesie Xi Cant'' (fol. 94v). Robert Chelmynton was a monk of Christ
+                        Church, from at least 1416 until his death in 1470 (Greatrex, Register,
+                        116--17).</p><p>Old limp vellum binding. Medieval
+                     foliation.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Robert Chelmynton (d. 1470), monk of Christ
+                     Church, Canterbury.</provenance>
+                  <provenance type="MLGB3_laterOwners">'Liber Willelmi Blankpeyn Rectoris de
+                     Oreseta'.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

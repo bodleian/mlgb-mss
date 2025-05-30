@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4641">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>University Library</repository>
+                  <idno type="shelfmark">MS. Gg.3.33</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4641</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Lethbertus, Flores psalterii (Pss 1--50) (= 2nd part)</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="11XX">s. xii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_468">Roche, Yorkshire.
+                        Cistercian abbey of St Mary the Virgin. </orgName><p>'Liber sancte Marie de
+                        Rupe' (fol. 1r, at top).</p><p>I, II, III set in the margin at intervals of
+                        roughly 1 1/4 cols. (s. xv).</p><p>A companion volume to Bodl. Laud Misc.
+                        145, which contains the third part of Lethbertus and has similar writing and
+                        marks.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Shyrbroke 1583', at foot of fol. 163v, i.e.
+                     Michael Sherbrook (1535--1610), rector of Wickersley, about seven miles from
+                     Roche, and author of Fall of the Religious Houses, in which the dissolution of
+                     Roche is described. (See further M. Carter in Notes and Queries 63 (2016)
+                     19--22.)</provenance>
+                  <provenance type="MLGB3_laterOwners">John Moore (1646--1714), his MS 72;
+                     subsequently acquired by King George I and donated to Cambridge University
+                     Library in 1715.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6683">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Winchester</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. 10</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6683</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Vita S. Godrici</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="140X/141X">s. xv in</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_189">Durham. Benedictine
+                        cathedral priory of St Cuthbert. </orgName><p>Erased inscription on fol. 2v:
+                        [ . . . . . . ] quis alienauerit al(?) [ . . . .] sit [ . . . ]'.</p><p>Fol.
+                        2v: 'Liber domini Ricardi [ . . . . ]dell de empcione a domino Roberti Rok'.
+                        (Richard Riddell occurs as a monk of Durham between 1485/6 and 1501; Robert
+                        Rok fl. 1491--1505; Durham Cathedral A.IV.29, fol. 149v has 'Ihesus est amor
+                        meus Robertus Rok', s. xv.)</p><p>Fol. 35v: 'C heghington Monachus Dunelm''.
+                        (Cuthbert Heghington occurs 1520--39; the name 'Dompnus C. heghyngton' is in
+                        the Durham Liber Vitae, fol. 83r.)</p><p>(Medieval binding: chain-staple
+                        intact at foot of back cover.)</p><p>Various scribbles on flyleaf, 'Nomina
+                        messorum . . .', etc. Also 'Compotus domini Willelmi Cuthbert' magistri de .
+                        . .', and 'Recepcio pecunie quam ego recepi de tali homine manente in nouo
+                        castro'. (William Cuthbert senior occurs 1453, d. 1474 or 1475; William
+                        Cuthbert jnr occurs 1462/3 and until 1497.</p><p> </p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

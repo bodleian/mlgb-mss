@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6518">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Jesus College</repository>
+                  <idno type="shelfmark">MS. 3</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6518</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Gregorius Nazianzenus, etc.</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="110X/111X">s. xii in</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_143">Cirencester, Gloucestershire.
+                        Augustinian abbey of St Mary the Virgin. </orgName><p>The table of contents
+                        in Prise's hand suggests that this may be from Cirencester, as such notes
+                        are found regularly in the Cirencester manuscripts at Jesus and Hereford,
+                        but rarely in any manuscripts owned by Prise and coming from religious
+                        houses other than Cirencester. The rubrics to the works of Ambrose and
+                        Gregory of Nazianzus in this manuscript match those used in the Registrum
+                        Anglie (R3.1; R18.2, 13, 14), reporting copies at Cirencester, and might
+                        also have caused its misattribution of the ‘Expositio baptisterii’ to
+                        Gregory (correctly Leidrad, De sacramento baptismi).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Sir John Prise (1501/2--1555).</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

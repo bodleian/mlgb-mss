@@ -1,0 +1,82 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4271">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Exeter</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. 3506</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4271</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>J. Gadesden, Rosa medicine</title>
+                     <note type="MLGB3_generalNotes">'J. Grenstede me scripsit' (fol. 239v), in the
+                        main hand.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="138X/139X">s. xiv ex.</origDate>
+                  </origin>
+                  <provenance type="#b"><orgName role="fmo" key="mlgbOrg_425">Oxford, Oxfordshire. All
+                        Souls' College. </orgName><p>2o folio 'illo sanguine' identifies the MS.
+                        probably with Rosa medicine 2o folio 'io sanguine' recorded in All Souls
+                        catalogues in the Vellum Inventory (s. xv ex., a. d. 1576; see e. g. fol.
+                        25r); possibly no. 12 in T. James' list, a. d. 1600.</p><p>Binding of white
+                        leather over boards, perhaps s. xvi; the clasping is like All Souls work.
+                        </p><note type="MLGB3_medievalCatalogueNotes">Cat. 209, 134; inv. fol.
+                        25</note></provenance>
+                  <provenance type="MLGB3_laterOwners">'John Woolton' and 'Ricardus Ackworth' (s.
+                     xvii). Given by John Mongwell, Senior, January, 1658.</provenance>
+                  <provenance type="MLGB3_laterOwners">'Caucio magistri Thome Mordon [LLB Cantab.,
+                     a. d. 1405] exposita ciste de Derlyngton. pro iij h. in festo sancti Leonardi
+                     et habet tria suplementa ysiderum [sic] cum aliis manipulum florum et zonam
+                     argenteam'.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

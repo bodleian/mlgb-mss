@@ -1,0 +1,75 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7607">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>All Souls College</repository>
+                  <idno type="shelfmark">MS. 59</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">7607</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Ioh. Faber Runcinus</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="1406">A.D. 1406</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_425">Oxford, Oxfordshire. All Souls'
+                        College. </orgName><p>‘On the front pastedown is ‘Iohannes Faber doctor
+                        legum fuit iste quod Goldwell’ in a gothica-humanistica hand which does not
+                        resemble Goldwell’s hand in MS 93. Not in the list of books given by him to
+                        the College in BRUO, 385 [recte 785].’ (Watson, All Souls, 123)</p><note
+                        type="MLGB3_medievalCatalogueNotes">UO6.232 = UO7.152 = UO13.236 = UO14.298
+                        = UO16.335 = ?UO20.125</note></provenance>
+                  <provenance type="MLGB3_laterOwners">Perhaps James Goldwell (d. 1499), fellow of
+                     All Souls and bishop of Norwich</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3550">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Rawlinson A.445</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3550</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Sermones dominicales</title>
+                     <note type="MLGB3_generalNotes">Nichols gives William Weston as rector of
+                        Carleton Curlew in 1534 -- Robert Weston 1560 -- Hugh Weston 1606. Hugh was
+                        instituted 1576 (Linc. Ep. Records, p. 35).</note>
+                     <note type="MLGB3_generalNotes">Medieval binding; two nailmarks on end
+                        cover.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX">s. xv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_299">Leicester, Leicestershire.
+                        Augustinian abbey of St Mary the Virgin de Pratis. </orgName><p>"Liber ...
+                        ecclesie beate Marie ... Leycestr' anno regni regis Henrici octavi [decimo
+                        deleted] vicesimo octavo" (fol. [307]v, s. xvi).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">"Wyllm. Weston" (inside cover, s.
+                     xvi).</provenance>
+                  <provenance type="MLGB3_laterOwners">"Liber Hugonis Weston Ecclesiae Carleton
+                     rectoris 1572" (fol. i recto).</provenance>
+                  <provenance type="MLGB3_laterOwners">"Liber Willelmi Weston rectoris ecclesiae
+                     parochialis Carleton' Curle[ewe]" (fol. 1r, s. xvi).</provenance>
+                  <provenance type="MLGB3_laterOwners">"Liber domini Roberti Weston de dono domini
+                     Thome Thorpe et Iohannis Moore executorum domini Thome Peeke quondam rectoris
+                     ecclesie de Burton' Overey ... ad quem quidem presens liber pertinebat ..."
+                     (fol. [307]r, s. xvi).</provenance>
+                  <provenance type="MLGB3_laterOwners">Pole no. 1386.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

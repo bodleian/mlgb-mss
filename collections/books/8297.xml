@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8297">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Merton College</repository>
+                  <idno type="shelfmark">MS. 170</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">8297</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Nic. de Gorran</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="130X/131X">s. xiv in.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_435">Oxford, Oxfordshire.
+                        Merton College. </orgName><p>‘Originally two separate volumes, brought
+                        together for the present binding [. . .] Given to the College as two
+                        separate volumes by William Reed in 1374: UO49. 94, 96. Part of a set of
+                        twn, of which eight survive: the others are MSS 166, 169–9, 171–2.’
+                        (Thomson, Merton, 126)‘Liber M. Willelmi Reed episcopi Cicestrensis quem
+                        emit a \uenerabili patre/ domino Thoma Tryllek’ episcopo Roffensi. Oretis
+                        igitur pro utroque’ (fol. ivv, hand of William Reed)‘Liber domus scolarium
+                        de Merton’ in Oxon’ in communi libraria eiusdem et ad usum communem sociorum
+                        ibidem studencium cathenandus. Ex dono uenerabilis patris domini Willelmi
+                        tercii episcopi Cicestrie. Oretis igitur pro eodem et benefactoribus eiusdem
+                        ac fidelium animabus a purgatorio liberandis’ (fol. ivv, hand of Walter
+                        Roberti)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">William Reed (c. 1315–1385), bishop of
+                     Chichester</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

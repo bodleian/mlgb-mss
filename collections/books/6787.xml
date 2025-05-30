@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6787">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Urbana (IL, USA)</settlement>
+                  <repository>University Library</repository>
+                  <idno type="shelfmark">MS. q.251 Sp.31.1481</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6787</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Speculum exemplorum</title>
+                     <note type="MLGB3_generalNotes">ISTC 00651000</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>Deventer: Richardus Pafraet, 1481</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_608">York, Yorkshire.
+                        Benedictine abbey of Saint Mary the Virgin. </orgName><p>'Acquist' per
+                        fratrem Thomam Stavelay Ebor' Monachum' (foot of a.ii)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">There are scribbles (s. xvii): 'Be it knowne
+                     vnto all men . . . that I Daniell Smythson of Burrowbridge' and 'Thomas
+                     Smithsons booke' (both at sig. a.ii), and 'Daniel Smithson was seke of an ague
+                     the xx2th of March 1610'.</provenance>
+                  <provenance type="MLGB3_laterOwners">'Sir William How: Nowarde' (sig. a.iii). It
+                     appears in the list of early printed books and manuscripts at Castle Howard:
+                     Household Books of Lord William Howard, Surtees Society (1878), p.
+                     486.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sale of the books of Hon. Geoffrey Howard,
+                     Sotheby's, 12 December 1930, lot 1535 to Davis and Orioli for £13.</provenance>
+                  <provenance type="MLGB3_laterOwners">J. P. L. van der Lande, Deventer, at which
+                     location it was recorded in MLGB, and was superseded in the Supplement with the
+                     present location.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

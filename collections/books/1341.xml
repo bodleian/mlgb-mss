@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1341">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Magdalen College</repository>
+                  <idno type="shelfmark">MS. lat. 166</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1341</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Cassiodorus, Epistole</title>
+                     <note type="MLGB3_generalNotes">Italian MS., but the 12th-cent. title is
+                        English. Binding s. xix with remains of early s. xvi (?) stamped leather on
+                        the covers. On the outside of the lower board is the title 'Epistole regis
+                        Atheniensium elegantissimo stilo' (s. xv/xvi).</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="11XX">s. xii</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_4">Canterbury, Kent. Benedictine
+                        cathedral priory of Holy Trinity or Christ Church. </orgName><p>Title:
+                        'Epistole regis Atheniensium' (s. xii), and 'D ii Ga v', and mark '.sa.' at
+                        the head of fol. 1r.</p><note type="MLGB3_medievalCatalogueNotes">cat.
+                        835</note></provenance>
+                  <provenance type="MLGB3_laterOwners">The name of William Worcester (d. 1482) is on
+                     fol. iii verso as in Magdalen College 65.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

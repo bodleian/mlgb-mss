@@ -1,0 +1,89 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6739">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Untraced</settlement>
+                  <repository>Untraced</repository>
+                  <idno type="shelfmark"/>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6739</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Augustinus</title>
+                     <note type="MLGB3_generalNotes">On the scribe, see A.I. Doyle, 'Stephen
+                        Dodesham of Witham and Sheen' in P. Robinson et al. ed., Of the Making of
+                        Books: Medieval Manuscripts, their Scribes and Readers: Essays Presented to
+                        M.B. Parkes (Aldershot, 1997) pp. 94-115.</note>
+                     <msItem>
+                        <author>Augustine</author>
+                        <title>Sermons</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xv (1462)</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_598">Witham, Somerset.
+                        Charterhouse of Saint Mary the Virgin. </orgName><p>'Liber domus beate marie
+                        de Wytham ordinis Cartusiensis quem scripsit domnus Stephanus dodesham
+                        monachus eiusdem domus Anno domini quadragentesimo sexagesimo
+                     secundo'</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Maggs, Catalogue, 364 (1918), no.
+                     50.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sidney Cockerell: see his article in The Book
+                     Handbook (1950). Sold by him, c. 1956-057.</provenance>
+                  <provenance type="MLGB3_laterOwners">Alan G. Thomas, Catalogue, 2 (1957), no. 2
+                     (300 guineas).</provenance>
+                  <provenance type="MLGB3_laterOwners">Dawson's of Pall Mall, Catalogue, 102 (1960),
+                     no. 15 (£450), with facsimile.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sold by Dawson's to Philip C. Duschnes of
+                     Lexington Avenue, New York, from whose shop it was stolen in 1962.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,89 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6757">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Tokyo, Japan</settlement>
+                  <repository>Prof. T. Takamiya</repository>
+                  <idno type="shelfmark">MS. 21</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6757</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Pentateuch (fragments)</title>
+                     <note type="MLGB3_generalNotes">Lowe, Codices latini antiquiores, 2, no.
+                        259.</note>
+                     <note type="MLGB3_generalNotes">Gneuss and Lapidge, Anglo-Saxon Manuscripts,
+                        no. 646.</note>
+                     <msItem>
+                        <title>Together, the fragments provide parts of Numbers and
+                           Deuteronomy.</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. viii/ix</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_484">Salisbury, Wiltshire.
+                        Cathedral church of St Mary the Virgin; see removed from Sherborne in 1078.
+                        </orgName><p>Two leaves, one of which has the inscription (s. xiii/xiv)
+                        'Iste liber est de almario Sarr''. They are from the same manuscript as
+                        three leaves from bindings of Salisbury books, Oxford, Bodleian lat. bib. c.
+                        8 (P) and Salisbury 117, fol. 163--64 (q.v.).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Sir Thomas Phillipps (1792-1872), no.
+                     36183.</provenance>
+                  <provenance type="MLGB3_laterOwners">W. H. Robinson, Catalogue, 77 (1948), no. 53,
+                     from whom they were bought by Martin Bodmer, the location recorded in
+                     MLGB.</provenance>
+                  <provenance type="MLGB3_laterOwners">H. P. Kraus, Catalogue, 126 (1971), no.
+                     8.</provenance>
+                  <provenance type="MLGB3_laterOwners">The ownership by Prof. Takamiya is recorded
+                     in the Supplement.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

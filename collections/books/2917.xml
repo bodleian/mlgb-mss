@@ -1,0 +1,82 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_2917">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">MS. Harley 1918</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">2917</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Omeliarium</title>
+                     <note type="MLGB3_generalNotes">? Seen by Leland at Glastonbury.</note>
+                     <msItem>
+                        <title>MLGB records the author as 'Clemens Lanthoniensis' but it was changed
+                           to 'Omelarium' in the Supplement. It is attributed by the British Library
+                           Illuminated Manuscripts Catalogue to Paul the Deacon.</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="11XX">s. xii</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_224">Glastonbury, Somerset. Benedictine
+                        Abbey of Saint Mary the Virgin. </orgName><p>Attributed to Glastonbury in
+                        note by Samuel Knott (fol. 1r). There is also a reference at fol. 189v to
+                        Indract, whose cult (5 February) was a special Glastonbury
+                     one.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">"Robert Wottone" (s. xvi, fol.
+                     191v).</provenance>
+                  <provenance type="MLGB3_laterOwners">Samuel Knott (s. xvii).</provenance>
+                  <provenance type="MLGB3_laterOwners">Robert Burscough (s. xvii), from whose widow
+                     it was purchased for the Harleian collection, 17 May 1715.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4213">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Exeter</settlement>
+                  <repository>Cathedral</repository>
+                  <idno type="shelfmark">MS. 3521</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4213</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Iohannis Sequardi, opera; 'Secretum philosophorum'; Statutes of Crediton
+                        &amp; Ottery; Medical recipes</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="140X/141X">s. xv in.</origDate>
+                  </origin>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_417">Ottery St Mary, Devon.
+                        Collegiate church of St Mary the Virgin. </orgName><p>The book contains
+                        statutes of the colleges of Ottery St Mary and Crediton, and the note that
+                        John Exeter had taken books from the library to London. John Excestre (d.
+                        1449) was a canon of both places (of Crediton 1429, of Ottery 1436), but he
+                        is to be tied more firmly to Ottery, over which he was principally concerned
+                        in making legacies and to which he left thirty-six books. The obits at the
+                        front of the book relate solely to Ottery. It was later in the hands of the
+                        Drake family, local to Ottery. See further Willoughby, Collegiate Churches,
+                        381--2.</p><p>(Medieval binding; flyleaves and pastedowns (4 at each end)
+                        from a law book of s. xiv.)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Sum liber Thomæ Drake ex dono amici mei W.
+                     M.' (p. 421), probably Thomas Drake of Ashe, fl. s. xvii1, of a family local to
+                     Ottery.</provenance>
+                  <provenance type="MLGB3_laterOwners">'W. M.' may have been William Martyn, a
+                     pensioner of the college.</provenance>
+                  <provenance type="MLGB3_laterOwners">The book was certainly at Exeter cathedral by
+                     1697 when it was catalogued for CMA.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

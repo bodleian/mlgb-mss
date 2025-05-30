@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8101">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Magdalen College</repository>
+                  <idno type="shelfmark">MS. lat. 148</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">8101</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Rob. Holcot</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX">s. xv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_434">Oxford, Oxfordshire. St
+                        Mary Magdalen College. </orgName><p>‘Memorandum quod anno domini 1496. 18.
+                        die mensis Ianuarij Ego Simon donham licet indignus sacre theologie
+                        professor vendidi istum librum Magistro Roberto Radclyffe arcium magistro et
+                        quondam socio collegij beate marie magdalene oxon’ sub hac condicione quod
+                        idem magister Robertus suis propriis expensis mittet uel faciet mitti et
+                        dabit predicto Colleg’ librum istum ante obitum suum uel post ad vsum
+                        studencium Oracionibus vestris commendimus nos tres Robertum Radclyffe
+                        Thomam Carswell et Simonem donham Vale iocale’ (fol. 213v)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Simon Denham (fl. 1475–1501, fellow of
+                     Lincoln College, OxfordRobert Radclyffe (d. 1500), fellow and chaplain of
+                     Magdalen College, Oxford</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

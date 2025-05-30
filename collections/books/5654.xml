@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5654">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">MS. Egerton 3775</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5654</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Augustinus, De consensu evangelistarum</title>
+                     <note type="MLGB3_generalNotes">Monastic binding.</note>
+                     <note type="MLGB3_generalNotes">The pressmark corresponds to one found in two
+                        places in Royal MS 5 B.viii (fols. 50r &amp; 137r): '·S· xl· pe et ed West'.
+                        Cf. also Edinburgh.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="11XX">s. xii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_579">Westminster, Middlesex.
+                        Benedictine abbey of St Peter. </orgName><p>'S. xxx pe[tri] et ed[wardi]
+                        West' at the beginning (fols. 1v), in the middle (fol. 64r), and at the end
+                        (fol. 126v).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Anthony Dunstan, monk of Westminster
+                     (afterwards bp. of Llandaft).</provenance>
+                  <provenance type="MLGB3_laterOwners">Cope, Bramshill (H.M.C., 3rd report, app., p.
+                     242); omitted from sale catalogue, Sotheby's, 4 March 1913, but sold as lot 9A
+                     to Maggs;</provenance>
+                  <provenance type="MLGB3_laterOwners">Lt.-Col. W. E. Mos; his sale at Sotheby's, 2
+                     March 1937, lot 53, wrongly described as a Bury MS., and as one of those from
+                     Redgrave Hall sold in 1910.</provenance>
+                  <provenance type="MLGB3_laterOwners">E. G. Millar, London.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

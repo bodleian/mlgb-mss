@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1315">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Bodley 827</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1315</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Ambrosius, De fide</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="110X/111X">s. xii in.</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_4">Canterbury, Kent. Benedictine
+                        cathedral priory of Holy Trinity or Christ Church. </orgName><p>'D(?)
+                        secunda Gradus vi' on flyleaf (s. xiii ?).</p><p>R in top right corner of f.
+                        1 and on last leaf.</p><p>Ambrosius de fide on flyleaf s. xii on specially
+                        ruled line: 'uetus' and, after a space, 'libri nouem' have been added in
+                        another hand or hands.</p><p>Medieval binding, skin over flat boards. E.
+                        R.(?) at top of 2nd cover.</p><p>Chainmark in right bottom corner of 1st
+                        cover.</p><p>Cf. ALCD, no 51 or 52 (one of these is St John's, Cambr.,
+                        5).</p><p>'Liber Johannis Bayley ex dono dominae Annae Ailworth patruelis
+                        1587 Sept. 17th'.</p><p>The form of the pressmark, in which D is an
+                        elaborate and by itself illegible letter, is unusual, as is the occurence of
+                        the letter mark at the end as well as at the beginning of the MS. On the
+                        other hand, D. ii G. v or G. vi would be the correct pressmark for Ambrose,
+                        which seems a strong argument in favour of Ch. Ch. provenance. And since
+                        there are 2 copies of Ambrose de fide in its cat. we would expect one to be
+                        marked uetus. Cf. T.C.C. B.3.31, B.3.33; C.C.C.C. 326; C.U.L. Kk.i.23; Royal
+                        12.D.uv, Royal 10.A.xiii.</p><note type="MLGB3_medievalCatalogueNotes">cf.
+                        cat. 51, 52</note></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

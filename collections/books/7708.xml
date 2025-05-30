@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7708">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Balliol College</repository>
+                  <idno type="shelfmark">MS. 64</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">7708</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Petrus de Candia</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="13XX/14XX">s. xiv/xv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_426">Oxford, Oxfordshire.
+                        Balliol College (Domus de Balliolo). </orgName><p>‘At the foot of 150,
+                        perhaps in the scribe’s hand, is frater Johannes Beruerii; one of this name
+                        occurs as bachelor of canon law in a Paris list of A.D. 1379 in the
+                        Chartularium univ. Paris., ed. H. Denifle and E. Chatelain, III (1894) 277.
+                        Along the top edge of i in red, partly cut away, is: Hunc librum vendidit
+                        magister Johannes Carso magistro Guillelmo Pulcrinepotis in lugo (?) pretio
+                        x scutis auri; this I take to be the Guillaume Beauneveu who appears at
+                        Paris as mater of arts and bachelor of divinity in 1403, and later attended
+                        the Council of Constance; ibid. iv (1897)98, and 108, note 21. The volume
+                        found its way to Italy, for also on i in a 15th-cent. Italian hand is:
+                        (Alesandro de Ales sopra lined through) Petrus de Candia sopra le sentenzie
+                        d.xij. In Italy, no doubt, Gray bought it, and later, if the offset of the
+                        initial is correctly read, had his arms painted on the first leaf.’ (Mynors,
+                        Balliol, 49)‘Liber domus de Balliolo in Oxon’ | ex dono Reverendi in Christo
+                        patris et | domini Willelmi Gray Eliensis episcopi’ (fol.
+                     iiv)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">William Gray (c. 1414–1478), bishop of
+                     Ely</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

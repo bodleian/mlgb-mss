@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6816">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Boston (MA, USA)</settlement>
+                  <repository>Countway Library of Medicine</repository>
+                  <idno type="shelfmark">MS. Ballard 329</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6816</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>(1) Recollecte Gaietani; (2) J. Canonicus</title>
+                     <note type="MLGB3_generalNotes">Binding is by Garrett Godfrey, rolls I and IV;
+                        it includes ms fragments.</note>
+                     <note type="MLGB3_generalNotes">Item (1) is ISTC ig00036000.</note>
+                     <note type="MLGB3_generalNotes">First recorded in the Supplement, with location
+                        untraced and it stated that (2) was detached and appeared at Sotheby's,
+                        London, 14 November 1918, lot 751 (sold to Ellis). Both printings, however,
+                        are recorded as now being in the Countway Library.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>(1) Venice: Johannes Hertzog; (2) Venice: Giunta, 1516</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_407">Norwich, Norfolk.
+                        Dominican convent. </orgName><p>Two printings in one early binding, both
+                        with ownership note of frater Thomas Bryggs; (1) has, in upper margin of
+                        A2r, 'Liber ... ord[in]is p[rae]dica[torum] nortvic. ex dono ff[rat]ris
+                        tho[m]e bryggs'.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Thomas Bryggs, prior of Norwich convent,
+                     1534: see A. B. Emden, A survey of Dominicans in England (London, 1967), p.
+                     289.</provenance>
+                  <provenance type="MLGB3_laterOwners">The volume was in the Sherbrooke sale, 27
+                     June 1912, lot 458.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,82 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4262">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Paris, France</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno type="shelfmark">MS. 7805</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4262</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Plinius secundus</title>
+                     <note type="MLGB3_generalNotes">Rebound: old pastedowns and flyleaves
+                        retained.</note>
+                     <note type="MLGB3_generalNotes">Medieval foliation.</note>
+                     <note type="MLGB3_generalNotes">Bibl. Ec. Char. 58. 392.</note>
+                     <note type="MLGB3_generalNotes"> </note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate/>
+                  </origin>
+                  <provenance type="#di"><orgName role="fmo" key="mlgbOrg_424">Oxford, Oxfordshire.
+                        University. </orgName><p>Recorded in the gift made by Humfrey, duke of
+                        Gloucester in 1444, no. 73.</p><p>'Liber 163' in ordine' on flyleaf opposite
+                        first leaf of text.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Gul. Cecill. Ds de Burghley'. Sale 1687 lot
+                     63: Colbert 3122.</provenance>
+                  <provenance type="MLGB3_laterOwners">'Est illustrissimi domini ducis
+                     Gloucestrensis' in red on verso of pastedown followed by table of contents in
+                     same hand. </provenance>
+                  <provenance type="MLGB3_laterOwners">'Cest liure est a moy homfrey duc de
+                     Gloucestre' at end (fol. 139v).</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

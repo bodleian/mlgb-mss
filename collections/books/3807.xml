@@ -1,0 +1,82 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3807">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Rome, Italy</settlement>
+                  <repository>Biblioteca Apostolica Vaticana</repository>
+                  <idno type="shelfmark">MS. Ottob. lat. 1565</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3807</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Ricardus de Mediavilla in III Sententiarum</title>
+                     <note type="MLGB3_generalNotes">On Andrew Bavard see Kingsford, Grey Friars of
+                        London, BSFS 6, pp. 23, 60 etc.</note>
+                     <note type="MLGB3_generalNotes">K. assumes that the library in the above
+                        inscription is that of the Cambridge Franciscans. Bavard's later
+                        associations are with the London house -- Guardian early s. xvi; d.
+                        1508.</note>
+                     <note type="MLGB3_generalNotes">The London Franciscans had such a book Leland,
+                        Collect., 4. 51.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate/>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_337">London. Franciscan convent.
+                        </orgName><p>"Istum librum fecit ligari frater Andreas Bavard custos
+                        librarie a. d. 1468 de communibus elemosinis prefate librarie collatis"
+                        (fol. 8v).</p><note type="MLGB3_medievalCatalogueNotes">?
+                     Leland</note></provenance>
+                  <provenance type="MLGB3_laterOwners">Cardinal Sirleto (d. 1575) no.
+                     355.</provenance>
+                  <provenance type="MLGB3_laterOwners">Duke Giov. Angelo di Altemps.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

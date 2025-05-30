@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4272">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Glasgow, Scotland</settlement>
+                  <repository>University Library</repository>
+                  <idno type="shelfmark"/>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4272</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>1) A. de Rampegollis, Biblia aurea cum suis historiis; 2) De contemptu
+                        mundi; 3) Manuale sacerdotum</title>
+                     <note type="MLGB3_generalNotes">2o folio ''-runt et victoriam identifies this
+                        with no. 64 in the list of Warham's gifts to All Sould (All Souls Vellum
+                        Inventory, fol. 30v).</note>
+                     <note type="MLGB3_generalNotes">Contemporay limp vellum cover.</note>
+                     <note type="MLGB3_generalNotes">MS. titles outside 1st cover.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>1) 1513, Paris; 2 &amp; 3) s. a., Paris</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_425">Oxford, Oxfordshire. All
+                        Souls' College. </orgName><p>'Liber collegii animarum omnium fidelium
+                        defunctorum in oxon' ex dono Rmi in cristo patris domini Willelmi Warham
+                        Cant' archiepiscopi' at foot of 2nd leaf.</p><note
+                        type="MLGB3_medievalCatalogueNotes">Warham 64</note></provenance>
+                  <provenance type="MLGB3_laterOwners">Ex-libris Bibliothecæ Universitatis
+                     Glasguensis.</provenance>
+                  <provenance type="MLGB3_laterOwners">Empt. publicis Acandemiæ sumptibus </provenance>
+                  <provenance type="MLGB3_laterOwners">Will: Dunlop' (s. xvii ex.).</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

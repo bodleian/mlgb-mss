@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4517">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Göttingen, Germany</settlement>
+                  <repository>Niedersächsische Staats- und Universitätsbibl.</repository>
+                  <idno type="shelfmark">MS. Theol. 2</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4517</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Biblia sacra</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="13XX">s. xiv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_458">Reading, Berkshire.
+                        Benedictine abbey of Saint Mary the Virgin. </orgName><p>'Iste liber est ex
+                        dono dompni Iohannis [two lines illegible] de Radyng. Quem quicumque
+                        alienaverit vel de eo fraudem fecerit anathema sit' (fol. 2r). The missing
+                        name is possibly (Sarum: John Sarum was donor of Bodley 397 to Reading but
+                        earlier) Clifton: see Belvoir.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'William Duncomb me iure tenet a. d. 1675'
+                     (fol. 1r).</provenance>
+                  <provenance type="MLGB3_laterOwners">'Liber R. Warfilde ex dono Iohannis Bullocke
+                     amicissimi' (fol. 3r).</provenance>
+                  <provenance type="MLGB3_laterOwners">Obtained by Göttingen from the library of the
+                     Zollschreiber Süllow of Hameln.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

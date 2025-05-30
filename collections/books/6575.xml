@@ -1,0 +1,94 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6575">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Eton</settlement>
+                  <repository>Eton College</repository>
+                  <idno type="shelfmark">MS. 226</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6575</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Gregorius</title>
+                     <note type="MLGB3_generalNotes">No old flyleaves. Stylus ruling; 2 columns, 43
+                        lines.</note>
+                     <note type="MLGB3_generalNotes">Part of the eleven-volume set from which come
+                        the five manuscripts that are now Chicago, Newberry Library 12, as well as
+                        Eton 225 and the untraced manuscript of Gregory on Ezechiel.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="11XX">s. xii</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_458">Reading, Berkshire. Benedictine
+                        abbey of Saint Mary the Virgin. </orgName><p>Identifiable in the Reading
+                        catalogues, secured by second folio in the refectory list.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Sir Francis Englefield (fol. 138; d.
+                     1596).</provenance>
+                  <provenance type="MLGB3_laterOwners">'Liber Clementis burdett prec xxx s iiij d'
+                     (fol. 94).</provenance>
+                  <provenance type="MLGB3_laterOwners">Name of Reynoldes on fol. 1.</provenance>
+                  <provenance type="MLGB3_laterOwners">?James Bowen: Quartich, Catalogue, 211 (1912)
+                     says 'it does not bear the name of James Bowen but from the binding we know
+                     that it belonged to him, along with other books from Reading abbey'. The volume
+                     is now rebound (s. xx).</provenance>
+                  <provenance type="MLGB3_laterOwners">Sir Thomas Phillipps (1792-1872), no.
+                     3616.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sold at Sotheby's, March 1985, lot 356, to
+                     Nichols.</provenance>
+                  <provenance type="MLGB3_laterOwners">H. B. Weaver sale, Christies, 29 March 1898,
+                     lot 322.</provenance>
+                  <provenance type="MLGB3_laterOwners">Quartich, Catalogue, 180 (1898), no. 26; 211
+                     (1902), no. 13.</provenance>
+                  <provenance type="MLGB3_laterOwners">Given to Eton by Sir John Noble in November
+                     1921.</provenance>
+                  <provenance type="MLGB3_laterOwners"> </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

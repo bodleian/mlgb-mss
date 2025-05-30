@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6639">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Paris, France</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno type="shelfmark">MS. fr. 24766</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6639</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Gregorius, Dialogi (in French)</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="120X/121X">s. xiii in</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_419">Oxford, Oxfordshire.
+                        Augustinian priory of St Frideswide. </orgName><p>'Explicit opus manuum
+                        mearum quod compleui. Ego frater A. subdiaconus. Sancte Frideswide
+                        seruientium minimus. Anno uerbi incarnati. .Mº.ccº.xiiº. Mense .xiº.
+                        Ebdomada .iiiiª. feria .vi. In vigilia sancti Andree Apostoli. Anno
+                        conuersionis mee .viiº. Ad laudem et honorem domini nostro Ihesu Christi Qui
+                        cum patre et spiritu sancto viuit et Regnat deus per infinita secula
+                        seculorum. Amen.' (fol. 151r).</p><p>At the end of the translation of the of
+                        the Life of St Gregory, and in the same hand as the colophon on fol. 151r,
+                        is 'Istud compleui conuersionis mee anno ixo Sacerdocii ijo, In vigilia
+                        apostolorum Philippi et Iacobi' (fol. 174r).</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

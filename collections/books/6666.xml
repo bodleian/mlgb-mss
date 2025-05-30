@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6666">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Worcester College</repository>
+                  <idno type="shelfmark">MS. 3.16 A (213)</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6666</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Annals 1000--1281; Hieronymus, De membris domini, etc.</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="12XX">s. xiii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_458">Reading, Berkshire.
+                        Benedictine abbey of Saint Mary the Virgin. </orgName><p>'Hunc librum dedit
+                        Alanus prior deo et beate marie de Rading' quem qui celauerit uel
+                        alienauerit uel fraudem de eo fecerit anathema sit.' (fol. 1v, on blank
+                        space in annals, late 13th cent.); table of contents
+                     follows.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Bibliotheca Palmeriana, Londini
+                     1747'</provenance>
+                  <provenance type="MLGB3_laterOwners">'Londini ab Elmsleyo emptum bibliothecae
+                     Francisci Basset Baronetti D.D.D. R. E. Raspe d. 14 March 1787' (fol.
+                     1r).</provenance>
+                  <provenance type="MLGB3_laterOwners">Bookplates said to be of Ralph earl Verney
+                     (1752--1791) and Francis Basset lord de Dunstanville (1796--1835).</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

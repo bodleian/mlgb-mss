@@ -1,0 +1,90 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6732">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Austin (TX, USA)</settlement>
+                  <repository>University of Texas, Harry Ransom Center</repository>
+                  <idno type="shelfmark">MS. 33</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6732</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Gesta Alexandri</title>
+                     <note type="MLGB3_generalNotes">De Ricci, Census MSS USA, 2, pp.
+                        2156-57.</note>
+                     <note type="MLGB3_generalNotes">In MLGB, shelfmark recorded as 2; now
+                        transferred to the Harry Ransom Center with shelfmark 33.</note>
+                     <msItem>
+                        <author>Ps-Callisthenes</author>
+                        <title>Gesta Alexandri magni latine </title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="13XX">s. xiv</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_404">Norwich, Norfolk. Benedictine
+                        cathedral priory of Holy Trinity. </orgName></provenance>
+                  <provenance type="MLGB3_laterOwners">Elizabeth Barker to Francis Blomefield,
+                     1723.</provenance>
+                  <provenance type="MLGB3_laterOwners">Thomas Martin of Palgrave.</provenance>
+                  <provenance type="MLGB3_laterOwners">Rev. Richard Farmer sale (1798, lot 8082) to
+                     Combe.</provenance>
+                  <provenance type="MLGB3_laterOwners">R. Heber (bought at Leigh and Sotheby, 27
+                     June 1811, lot 235), sold 1836 (XI, no, 113) to Thorpe (Catalogue MSS, 1836,
+                     no. 21). Sold to Philllipps 2367.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sold 1895 (lot 6) to
+                     Christopher.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sold 23 July 1906 (Sotheby, lot 464) to
+                     Quaritch.</provenance>
+                  <provenance type="MLGB3_laterOwners">Bought of Otto Harrassowitz, November 1910
+                     (Catalogue, no. 729).</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

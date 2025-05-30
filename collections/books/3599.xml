@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3599">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Rawlinson A.389</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3599</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>R. Rolle, etc. (partly in English)</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="140X/141X">s. xv in.</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_312">Lichfield, Staffordshire.
+                        Cathedral church of St Mary the Virgin and St Chad. </orgName><p>Rawlinson
+                        A.389 belonged to two prebendaries of Lichfield in s. xv ex. At end: 'Liber
+                        magistri Thome Rynold' and 'Liber Magistri Iohannis Redhill'; both were
+                        prebendaries of Lichfield in s. xv2.</p><p>No. 73 in Patrick Young's
+                        catatlogue of the Lichfield cathedral manuscripts, 1622--3. </p><p>The
+                        flyleaf, fol. iii, is from a 13th-cent. MS of Isidore of Seville's
+                        Etymologiae.</p><p>Mark of chain (?) shows at foot of fols. iii recto and i
+                        recto.</p><note type="MLGB3_medievalCatalogueNotes">Young
+                     73</note></provenance>
+                  <provenance type="MLGB3_laterOwners">John Langley of the Amies, Broseley, whose
+                     arms are on the binding.</provenance>
+                  <provenance type="MLGB3_laterOwners">Somers. Somers-Jekyll sale, March 1739--40,
+                     no. 112.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

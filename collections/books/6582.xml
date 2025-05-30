@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6582">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Paris, France</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno type="shelfmark">MS. lat. 4167A</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6582</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Ricardus de Pophis</title>
+                     <note type="MLGB3_generalNotes">Binding s. xv, repaired and rebacked; flyleaves
+                        from a missal (s. xiv). No chainmarks.</note>
+                     <note type="MLGB3_generalNotes">Noted by T. Gottlieb, Ueber mittelalterliche
+                        Bibliotheken (Leipzig, 1890), p. 165 (n. 1), and by Delisle, Cabinet, vol.
+                        2, p. 368, to be from Glastonbury.</note>
+                     <msItem>
+                        <author>Ric. de Pophis</author>
+                        <title>Summa dictaminis</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="13XX">s. xiv</origDate>
+                  </origin>
+                  <provenance type="#de"><orgName role="fmo" key="mlgbOrg_224">Glastonbury, Somerset.
+                        Benedictine Abbey of Saint Mary the Virgin. </orgName><p>Idenitifiable in
+                        the list of Monington books, by second folio.</p><p>'Liber monasterii
+                        Glastoniens' de perquisito Fratris Johannis Crosse Prioris ibidem in quo
+                        continentur videlicet . . .' (fol. 208v; s. xiv/xv).</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

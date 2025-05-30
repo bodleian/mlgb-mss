@@ -1,0 +1,95 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6700">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Untraced</settlement>
+                  <repository>Untraced</repository>
+                  <idno type="shelfmark"/>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6700</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Gerardus Cambrensis</title>
+                     <note type="MLGB3_generalNotes">See C. T. Berkhout, 'The Parkerian legacy of a
+                        Scheide manuscript', Princeton University Library Chronicle 55 (1993–4)
+                        277–86.</note>
+                     <msItem>
+                        <author>Gerald of Wales</author>
+                        <title>Topographia Hiberniae</title>
+                     </msItem>
+                     <msItem>
+                        <author>Gerald of Wales</author>
+                        <title>Descriptio Kambriae</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="11XX/12XX">s. xii/xiii</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_467">Robertsbridge, Sussex. Cistercian
+                        abbey of St Mary the Virgin. </orgName><p>The manuscript has long been
+                        associated with NLW MS 13210D (which contains an inscription for the abbey)
+                        and Princeton UL MS 159. The books were still together during John Parker's
+                        time, when they were listed as one volume, but had been separated into
+                        discrete bindings by the time of their sale to Thomas Phillipps in
+                     1828.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Matthew Parker (1504–1575), archbishop of
+                     Canterbury.</provenance>
+                  <provenance type="MLGB3_laterOwners">John Parker (1548–1619), son of the
+                     archbishop; pawned by his son Richard.</provenance>
+                  <provenance type="MLGB3_laterOwners">Richard Stanley, grandson of William Stanley,
+                     master of Corpus Christi College, Cambridge from 1693–8, by whom sold at
+                     Christie's, 10 March 1828, to:</provenance>
+                  <provenance type="MLGB3_laterOwners">Sir Thomas Phillipps, baronet (1792–1872),
+                     collector.</provenance>
+                  <provenance type="MLGB3_laterOwners">Phillipps sale, Sotheby's, 25 November 1969,
+                     lot 455, to William Dawson &amp; Sons. Now untraced.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

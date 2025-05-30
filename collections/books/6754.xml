@@ -1,0 +1,93 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6754">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Untraced</settlement>
+                  <repository>Untraced</repository>
+                  <idno type="shelfmark"/>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6754</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Gregorius</title>
+                     <note type="MLGB3_generalNotes">One volume in a set of eleven, of which five
+                        are now Chicago, Newberry Library, 12, and with Eton College 225 and 226
+                        also being parts.</note>
+                     <note type="MLGB3_generalNotes">De Ricci, Census of . . . Manuscripts in the
+                        United States and Canada, 3 vols (New York, 1935-40), vol. 2, pp.
+                        1670-71.</note>
+                     <msItem>
+                        <author>Gregory the Great</author>
+                        <title>Homilies on Ezechiel</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="11XX">s. xii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_458">Reading, Berkshire.
+                        Benedictine abbey of Saint Mary the Virgin. </orgName><p>'Hic liber est de
+                        monasterio Radyng quem qui alienaverit seu fraudem de eo fecerit anathema
+                        sit. Amen' (copied on flyleaf from original cover; rebound, s.
+                     xviii).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">James Bowen 1749.</provenance>
+                  <provenance type="MLGB3_laterOwners">Quaritch, Catalogue, 164 (1896), no.
+                     80.</provenance>
+                  <provenance type="MLGB3_laterOwners">H. Watney of Buckholme, Pangbourne, Berks.
+                     Sold at Sotheby's, 27 July 1932, lot 104, to Thorp.</provenance>
+                  <provenance type="MLGB3_laterOwners">Thomas Thorp of London, Catalogue (November
+                     1932), no. 678, priced at £60.</provenance>
+                  <provenance type="MLGB3_laterOwners">Rev. Arno Clemens Gaebelein (1861-1945) of
+                     Stony Brook, New York. It is with this as the previous ownership that the
+                     manuscript is entered in MLGB. The manuscript descended to Rev. Gabelein's son,
+                     Rev. Frank Ely Gaebelein (1899-1983). It is not known what happened to the
+                     manuscript after his ownership.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

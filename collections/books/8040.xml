@@ -1,0 +1,94 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8040">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Exeter College</repository>
+                  <idno type="shelfmark">MS. 61</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">8040</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Ioh. de Rupella; Hugo de S. Caro</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="1464">A.D. 1464</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_431">Oxford, Oxfordshire.
+                        Exeter College. </orgName><p>Forms part of a set, MSS 51–68, given to Exeter
+                        by Roger Keyes. On the set see Watson, Exeter, 85–87. An ex dono inscription
+                        survives in only some of the volumes, e.g. MS 53 (q.v.).‘Hunc librum Hugonem
+                        de uienna super danielem Iob et actus apostolorum 2o fo estimat M. Rogerus
+                        Keys precentor Ecclesie Cathedralis beati Petri Exon’ primo die Mensis
+                        Ianuarii anno domini millesimo Quadringentesimo Sexagesimo Nono contulit et
+                        dedit M. Iohanni Philipp Rectori et sociis Collegii Exon’ in Oxon’ uocati
+                        Stapilton halle cathenandum in libraria eiusdem collegii ad usum predictorum
+                        Rectoris et sociorum ac successorum suorum in eodem studere uolencium quam
+                        diu durare poterit pro qua quidem donacione iidem M. Iohannes Philipp Rector
+                        et socii collegii predicti obligarunt se et successores suos Rectores et
+                        socios eiusdem collegii prefati M. Rogero uirtute iuramenti prestiti quod
+                        solempniter cum nota postquam idem M. Rogerus ab hac luce migrauerit
+                        imperpetuum semel in anno tenebunt obitum suum et benefactorum suorum cum
+                        exequiis et missa in crastino per Rectorem ibidem pro tempore existentem uel
+                        unum de sociis collegii predicti in capella eiusdem celebrand’. Si quis
+                        autem prefatum librum a collegio predicto alienauerit uel de libraria
+                        predicta sine licencie Rectoris et omnium sociorum collegii predicti tam
+                        absencium quam presencium pro tempore existencium abstulerit alienauerit uel
+                        ad extra cariauerit nisi causa correccionis reparacionis uel ligacionis per
+                        predictum Rectorem et omnes socios predictos prius approbanda auctoritate
+                        dei patris omnipotentis et beatorum apostolorum suorum petri et pauli ac
+                        Reuerendi in christo patris et domini Domini Iohannis dei gratia Exon’
+                        episcopi anatematizatus sit ipso facto’ (fol. 1v, s. xv (transcribed from
+                        Watson, Exeter, pl. 2))</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Roger Keyes (d. 1477), warden of All Souls
+                     College</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

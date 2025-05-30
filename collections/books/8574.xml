@@ -1,0 +1,87 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8574">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Eton</settlement>
+                  <repository>Eton College</repository>
+                  <idno type="shelfmark">MS. DDf.9.1</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">8574</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Alexander Carpenter</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>Cologne: AD 1480</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_198">Eton, Buckinghamshire.
+                        Royal College of the Assumption of Saint Mary the Virgin.
+                        </orgName><p>Contains on the verso of the back page the ownership
+                        inscription of Walter Smyth (d. 1524), fellow of Eton from 1501 (BRUO 1720):
+                        'Walteri Smythe Eton'. However, across the top of the verso of the first
+                        leaf (sig. a1v) is, in a different hand, 'Saltfletby, Omnium Sanctorum'.
+                        Smyth, who hailed from Saltfleetby (Lincs), had left the residue of his
+                        books to All Saints to form a lending library available for a year's lease
+                        to the learned of the district 'within the space of seven myles'. (For his
+                        testament and further discussion, see Willoughby, Collegiate Churches,
+                        171--3, SC234.)</p><p>The fact that the book is now at Eton may offer
+                        presumptive evidence that it never left the college. However, the ex libris
+                        for All Saints at Saltfleetby is strong evidence against that assumption,
+                        and Willoughby has suggested that the book was received by, and marked for,
+                        the parish library but came to be muddled up in the books of Richard Lylly,
+                        rector of Saltfleetby from October 1547 until his death by April 1572, at
+                        least one of whose books got to Eton after his death (Bg.8.25).</p><p>The
+                        book's medieval presence at the college is to be treated with caution. The
+                        first certain evidence for Eton is the early seventeenth-century binding by
+                        the local binder, 'Vincent' Williamson (on whom see P. Morgan in The
+                        Library, 5th ser. 26 (1971), 80).</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

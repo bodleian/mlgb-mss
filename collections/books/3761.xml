@@ -1,0 +1,79 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3761">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Douce 372</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3761</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Lives of Saints (in English)</title>
+                     <note type="MLGB3_generalNotes">Cf. Horstmann, Altenglische Legenden, NF (1881)
+                        p. cxxx.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xv (A. D. 1438)</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_331">London. Priory of St John
+                        the Baptist, of Augustinian canonesses in Holywell (Shoreditch).
+                        </orgName><p>(fol. 163v) "[b]e hit remembryd that Iohn Burton [c]itizen and
+                        mercer of London past oute of this lyfe the xx day of Novembr' the yere of
+                        oure Lorde Mill' cccc lx and the yere of kynge Henry the sixte after the
+                        conquest xxxix and the said ... Legenda Sanctorum the seyde Kateryne to have
+                        hit and to occupye to hir owne use and at hir owne liberte durynge hur lyfe
+                        and ... evermore they to pray for the saide John Burton and Johane his wife
+                        and alle crystene soyles. And who that lettithe the execucion [of thi]s
+                        bequest be the lawe standeth". </p><p> </p></provenance>
+                  <provenance type="MLGB3_laterOwners">E. Trotter (s. xvii, fol. 8r).</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4804">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>Corpus Christi College</repository>
+                  <idno type="shelfmark">MS. 5, 6, 7</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4804</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>John of Tynemouth, Historia aurea (2 vols.) and Registrum Benefactorum
+                        (vol. 3)</title>
+                     <note type="MLGB3_generalNotes">See V. H. Galbraith, The St. Albans Chronicle,
+                        pp. lv--lxvi with facs. of pp. 50, 212.</note>
+                     <note type="MLGB3_generalNotes">Pp. 50 ff. are from the original 19th quire of
+                        Royal 13 E.ix.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>(vols. 1--2) s. xv in., (vol. 3) s. xiv/xv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_474">St Albans, Hertfordshire.
+                        Benedictine abbey of St Alban. </orgName><p>On 1st leaf of text of vol. 1,
+                        in large red letters: 'Hic est liber Sancti Albani de libraria
+                        conuentus.'</p><p>At foot of page, a long inscription recording the writing
+                        of the book to the order of William Wyntreshull under Abbot John
+                        Whethamstede. Similar inscr. in vols. 2 and 3 (q. v.).</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

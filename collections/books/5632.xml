@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5632">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Edinburgh, Scotland</settlement>
+                  <repository>University Library</repository>
+                  <idno type="shelfmark">MS. Laing II.515</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5632</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Frgm. (2 bifolia): Gratiani decretum</title>
+                     <note type="MLGB3_generalNotes">W. L. was monk of Westminster 1457--1513
+                        (Pearce, Monks of Westminster, p. 156).</note>
+                     <msItem>
+                        <title>Frgm. (2 bifolia): Gratiani decretum, parts of distinctions 4 &amp; 5
+                           of part 3; end of distinction 5 on fol. 4v.</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="12XX">s. xiii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_579">Westminster, Middlesex.
+                        Benedictine abbey of St Peter. </orgName><p>(fol. 4v) at bottom: 1) 'liber
+                        iste est ecclesie beati Petri Westm. et pertinet Willelmo lambert monacho
+                        eiusdem loci'.</p><p>2) 'Westm. Petrus Edwardus'.</p><p>3) 'Monasterii Petri
+                        et Edwardi Westm.'.</p><p>4) 'M v pe et ed West' (? s.
+                        xiii).</p><p>'Willelmo Lambert' on erasure.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

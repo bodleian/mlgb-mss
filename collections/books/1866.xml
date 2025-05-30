@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1866">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Durham</settlement>
+                  <repository>University Library</repository>
+                  <idno type="shelfmark">MS. Add. 767</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1866</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Petrus Comestor, etc.</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xiii in.--xv in.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_170">Darlington, Co. Durham.
+                        Collegiate church of St Cuthbert. </orgName><p>The volume contains the ex
+                        dono of Richard Witton, first dean of the college, and the list of books
+                        dated 1487 'in isto librario' (SC222). 'Iste liber legatur ecclesie colleg'
+                        de derlyngton per magistrum Ric' Witton' primum decanum ibidem Et decanus
+                        habebit vsum [. .] tociens indeget reparacionem decanus reparabit sumptibus
+                        suis propriis', at end, erased, but legible under u-v light.</p><p>A volume
+                        made of three booklets but annotated by the same 15th-cent. hand, to show
+                        they were together by the time the book arrived at
+                     Darlington.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Richard Witton (d. by 1451), first dean of
+                     the college.</provenance>
+                  <provenance type="MLGB3_laterOwners">Capt. T. F. Powell, Sharow, Ripon. Thomas
+                     Hopper, a former owner, was Capt. Powell's great great uncle: he 'was a Durham
+                     man and lived in the Bailey near the Cathedral'.</provenance>
+                  <provenance type="MLGB3_laterOwners">Purchased by Mr Harold Smith of Leicester,
+                     and given by him to Durham UL in 1988.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

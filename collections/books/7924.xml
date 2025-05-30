@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7924">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Balliol College</repository>
+                  <idno type="shelfmark">MS. 299</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">7924</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Willelmus de Ockham</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="134X/135X">s. xiv med.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_426">Oxford, Oxfordshire.
+                        Balliol College (Domus de Balliolo). </orgName><p>Notes of pledging‘On 2 at
+                        the top is an erased inscription, perhaps of an early owner [...] The late
+                        14th-cent. College inventory-mark 249 liber theologie is at the head of 7,
+                        and the valuation precium xvi s. on 8. On 6v is a 15th-cent. title. At the
+                        foot of 1 (the old pastedown) is a horizontal staple-mark.’ (Mynors,
+                        Balliol, 319)‘Liber Willelmi de Wilton . . . super iiij libros Sent. Item
+                        idem super sacramenta altaris’ (fol. 2)‘Iste liber est collegii de Ballolo
+                        in Oxon’ ex legato magistri Willemi Wylton’ quondam cancellarii
+                        universitatis Oxon’ ac socii eiusdem domus cuius anime | propicietur Deus et
+                        est inceptor Ockham super quattuor libros Sententiarum et super sacramenta
+                        altaris’ (fol. 2)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">William Wilton (d. after 1376), fellow of
+                     Balliol, chancellor of Oxford</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

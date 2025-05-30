@@ -1,0 +1,80 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5698">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>London</settlement>
+                  <repository>Royal College of Physicians</repository>
+                  <idno type="shelfmark">MS. 409</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5698</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Psalterium</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xiii (c. 1250)</origDate>
+                  </origin>
+                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_588">Wilton, Wiltshire. Abbey
+                        of St Mary the Virgin and St Edith, of Benedictine nuns.
+                        </orgName><p>Includes prayers for the abbess of Wilton in the litany, and
+                        for the congregation of St Mary and St Edith (fol. 206r). Cf. Burlington Ho.
+                        Exhib. 1908 no. 42 and E. G. Millar, Les MSS. à peintures des bibliothèques
+                        de Londres (Paris 1914--1920), pp. 48--61 and A. G. Little.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Given in 1523 by Ranfe Lepton, parson of
+                     Alresford and Kingsworthy, to Elizabeth Langrege, of Romsey. An Elizabeth
+                     Langriche aged 17 was professed a nun of Romsey 28 July 1534 (Reg. Stephen
+                     Gardiner, p. 39). See also under Romsey.</provenance>
+                  <provenance type="MLGB3_laterOwners">"Nicholaus Saunder" (front flyleaf,
+                     1581).</provenance>
+                  <provenance type="MLGB3_laterOwners">Marquis of Dorchester gave to the College
+                     1680--1687.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

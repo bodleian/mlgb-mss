@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7588">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>Trinity Hall</repository>
+                  <idno type="shelfmark">MS. 8</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">7588</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Repertorium biblicum; decretales</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xiv med. et xiii 2</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_672">Cambridge, Cambridgeshire. Trinity
+                        Hall. </orgName><p>‘It has been conjectured that the book is one of those
+                        given to the College by Bp Bateman, either the Repertorium Tusculani or the
+                        Liber Concordantiarum Biblie magnus et pulcher or the Liber Concordantiarum
+                        Bible minor et portabilis.’ (James, Trinity Hall, 9) [i.e. UC57.39a,
+                        UC57.55, or UC57.56]</p><p>Neither James nor New’s supplement identifies the
+                        text (which begins imperfectly). If it were identified it could be matched
+                        more closely to a catalogue entry.</p><p>Bateman’s arms are on fol.
+                        130v.</p><note type="MLGB3_medievalCatalogueNotes">Perhaps ?UC57.55 or
+                        ?UC57.56 (per CBMLC 10); James suggests also ?UC57.39a</note></provenance>
+                  <provenance type="MLGB3_laterOwners">Perhaps William Bateman (c. 1298–1355),
+                     bishop of Norwich</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

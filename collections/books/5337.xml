@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5337">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>University Library</repository>
+                  <idno type="shelfmark">MS. Add. 8885 (olim Bristol Baptist College, Z.d.40)</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5337</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Processionale</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX">s. xv</origDate>
+                  </origin>
+                  <provenance type="#lc"><orgName role="fmo" key="mlgbOrg_537">Syon, Middlesex.
+                        Bridgettine abbey of St Saviour, St Mary the Virgin, and St Bridget.
+                        </orgName><p>Forms for natale and canonizatio sancte brigitte (fols. 26r,
+                        90r). Bridget 2nd following Anne in litanies. (Fol. 176r) Dispensation by
+                        John Kemp, bp. of London, 'bone memorie' (d. 1454) to the sisters of Syon:
+                        'Ut sorores monasterii sancti saluatoris de Syon tam presentes quam future a
+                        consciencia scrupulosa remoueantur intuentes in hac processionario plura
+                        addita siue diminuta aliter quam consuetudo primaria antiquitus solebat
+                        habebat. Reuerendus in Christo ...'.</p><p>At end: 3 inserted leaves wth
+                        randerings of liturgical forms in the processional (alma redemptoris mater,
+                        etc.) by Joseph Dorion, 'Musicae scriptor et Antiquae Musicae Versificator
+                        et Transpositor', no. 78 Wardour Street, Soho, May, 1776.</p><p>Lengthy
+                        account of the manuscript, Syon, ancient music, etc., on inserted leaves, by
+                        Edw. O'Reilly, London, May, 11 1776.</p><p> </p></provenance>
+                  <provenance type="MLGB3_laterOwners">Inside cover (s. xvi in.): Anne dyngue amator
+                     dei memento mei | Anne Armasam amator dei obliuiscere me'.</provenance>
+                  <provenance type="MLGB3_laterOwners">Andrew Gifford (in 1777: vide Harley 955,
+                     flyleaf).</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

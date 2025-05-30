@@ -1,0 +1,86 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8337">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AH">
+               <resp when="2025">Markup and encoding</resp>
+               <persName>Alex Hitchman</persName>
+               <note>Conversion from database to TEI</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Merton College</repository>
+                  <idno type="shelfmark">MS. 212</idno>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">8337</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Pet. Cantor</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate>s. xiii 1</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_435">Oxford, Oxfordshire.
+                        Merton College. </orgName><p>‘Liber collatus M. Thome Chace ad terminum uite
+                        sue per executores Magistri Thome Leyntwardyne ad orandum specialiter pro
+                        anima eiusdem et animabus parentum suorum et domini Roberti Braybrok ac
+                        omnium aliorum benefactorum suorum pro quibus ipse tenebatur orare, sub
+                        condicione tamen quod dictus Magister Thomas Chace post decessum suum
+                        relinquet istum librum alteri sacerdoti materiem predicabilem amplectenti.
+                        Et ipse sacerdos sub eadem condicione relinquet eundem librum tercio
+                        sacerdoti et sic de uno sacerdote ad alium quamdiu durauerit iste liber,
+                        condicione predicta semper seruata’ (fol. 152v)‘non obstante scriptura
+                        precedente inuentus erat iste liber uendendus London’ in Pater Noster Rewe
+                        quem emit Henricus Seuer’ (fol. 152v, hand of Henry Sever)‘Iste est liber
+                        Magistri [Henrici Sever over er.] continens glosam .4. ewangeliorum
+                        collectam et excerptam cum labore super unum ex quatuor per Petrum Cantorem
+                        Parisiensem’ (fol. 5v)‘Liber domus scolarium de Mertone ex dono Magistri
+                        Henrici Seuer sacre pagine professoris ac custodis eiusdem incathenatus ad
+                        communem usum in libraria studentis uolencium Anno Domini M. CCCC lxviii’
+                        (fol. 5v)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Henry Sever (d. 1471), fellow and warden of
+                     Merton, chancellor of Oxford, and king’s almoner</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
