@@ -1,0 +1,3566 @@
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="collections/authority-schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Medieval Libraries of Great Britain - Place Authority File</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName type="department">Special Collections</orgName>
+                    <orgName type="unit">Bodleian Libraries</orgName>
+                    <orgName type="institution">University of Oxford</orgName>
+                    <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from MLGB database to TEI</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listOrg>
+
+                <org xml:id="mlgbOrg_1">
+                    <orgName type="display">Cathedral church of St Peter,
+                        Exeter</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_2">
+                    <orgName type="display">Benedictine abbey of St Peter, St Paul,
+                        and St Andrew, Peterborough</orgName>
+                    <region type="county">Northamptonshire</region>
+                </org>
+                <org xml:id="mlgbOrg_3">
+                    <orgName type="display">Benedictine priory of St Mary the Virgin
+                        and St Martin; cell of Canterbury cathedral priory, Dover</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_4">
+                    <orgName type="display">Benedictine cathedral priory of Holy
+                        Trinity or Christ Church, Canterbury</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_5">
+                    <orgName type="display">Benedictine abbey of St Peter,
+                        Abbotsbury</orgName>
+                    <region type="county">Dorset</region>
+                </org>
+                <org xml:id="mlgbOrg_9">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Conway</orgName>
+                    <region type="county">Caernarvonshire</region>
+                </org>
+                <org xml:id="mlgbOrg_10">
+                    <orgName type="display">Cathedral church of St Mary the Virgin,
+                        Aberdeen</orgName>
+                    <region type="county">Aberdeenshire</region>
+                </org>
+                <org xml:id="mlgbOrg_11">
+                    <orgName type="display">Hospital of the Visitation of St Mary
+                        the Virgin, Aberdeen</orgName>
+                    <region type="county">Aberdeenshire</region>
+                </org>
+                <org xml:id="mlgbOrg_12">
+                    <orgName type="display">Franciscan convent, Aberdeen</orgName>
+                    <region type="county">Aberdeenshire</region>
+                </org>
+                <org xml:id="mlgbOrg_13">
+                    <orgName type="display">King's College, Aberdeen</orgName>
+                    <region type="county">Aberdeenshire</region>
+                </org>
+                <org xml:id="mlgbOrg_14">
+                    <orgName type="display">Benedictine abbey of St Mary the Virgin,
+                        Abingdon</orgName>
+                    <region type="county">Berkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_15">
+                    <orgName type="display">Priory of Holy Cross, of Augustinian
+                        nuns, Aconbury</orgName>
+                    <region type="county">Herefordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_16">
+                    <orgName type="display">Premonstratensian abbey of St Mary the
+                        Virgin, Alnwick</orgName>
+                    <region type="county">Northumberland</region>
+                </org>
+                <org xml:id="mlgbOrg_17">
+                    <orgName type="display">Priory (cell of Fontevrault) and later
+                        abbey of Sts Mary the Virgin and Melior, of Benedictine nuns,
+                        Amesbury</orgName>
+                    <region type="county">Wiltshire</region>
+                </org>
+                <org xml:id="mlgbOrg_18">
+                    <orgName type="display">Augustinian priory of St Mary the Virgin
+                        and St Nicholas, Anglesey</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_19">
+                    <orgName type="display">Benedictine nunnery of St Mary Magdalen,
+                        Ankerwycke</orgName>
+                    <region type="county">Buckinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_20">
+                    <orgName type="display">Benedictine (originally Tironensian)
+                        abbey of St Thomas the Martyr, Arbroath</orgName>
+                    <region type="county">Angus</region>
+                </org>
+                <org xml:id="mlgbOrg_21">
+                    <orgName type="display">Collegiate church of St Ternan,
+                        Arbuthnott</orgName>
+                    <region type="county">Kincardineshire</region>
+                </org>
+                <org xml:id="mlgbOrg_22">
+                    <orgName type="display">Collegiate church of Holy Trinity,
+                        Arundel</orgName>
+                    <region type="county">Sussex</region>
+                </org>
+                <org xml:id="mlgbOrg_23">
+                    <orgName type="display">House of Bonshommes of St Mary the
+                        Virgin (and of the Holy Blood), Ashridge</orgName>
+                    <region type="county">Buckinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_24">
+                    <orgName type="display">Benedictine abbey of St Saviour, St
+                        Peter, and St Paul, Athelney</orgName>
+                    <region type="county">Somerset</region>
+                </org>
+                <org xml:id="mlgbOrg_25">
+                    <orgName type="display">Charterhouse of the Visitation of the
+                        Blessed Virgin Mary, Axholme</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_26">
+                    <orgName type="display">Franciscan convent, Aylesbury</orgName>
+                    <region type="county">Buckinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_27">
+                    <orgName type="display">Franciscan convent, Babwell (Bury St
+                        Edmunds)</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_28">
+                    <orgName type="display">Cathedral church of St Deiniol,
+                        Bangor</orgName>
+                    <region type="county">Caernarvonshire</region>
+                </org>
+                <org xml:id="mlgbOrg_29">
+                    <orgName type="display">Benedictine abbey of St Peter, St Paul,
+                        and St Oswald, Bardney</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_30">
+                    <orgName type="display">Abbey of St Mary the Virgin and St
+                        Ethelburga, of Benedictine nuns, Barking</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_31">
+                    <orgName type="display">Premonstratensian abbey of St Mary the
+                        Virgin, Barlings</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_32">
+                    <orgName type="display">Augustinian priory of St Giles,
+                        Barnwell</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_33">
+                    <orgName type="display">Savigniac and then Cistercian abbey of
+                        St Mary the Virgin, Basingwerk</orgName>
+                    <region type="county">Flintshire</region>
+                </org>
+                <org xml:id="mlgbOrg_34">
+                    <orgName type="display">Benedictine cathedral priory of St
+                        Saviour, St Peter, and St Paul, Bath</orgName>
+                    <region type="county">Somerset</region>
+                </org>
+                <org xml:id="mlgbOrg_36">
+                    <orgName type="display">Benedictine abbey of St Martin,
+                        Battle</orgName>
+                    <region type="county">Sussex</region>
+                </org>
+                <org xml:id="mlgbOrg_37">
+                    <orgName type="display">Collegiate church of St Mary Magdalen,
+                        Battlefield</orgName>
+                    <region type="county">Shropshire</region>
+                </org>
+                <org xml:id="mlgbOrg_46">
+                    <orgName type="display">Premonstratensian abbey of St Mary the
+                        Virgin and St Nicholas, Beeleigh</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_39">
+                    <orgName type="display">Premonstratensian abbey of St Mary the
+                        Virgin and St Lawrence, removed from Otham, Bayham</orgName>
+                    <region type="county">Sussex</region>
+                </org>
+                <org xml:id="mlgbOrg_40">
+                    <orgName type="display">Premonstratensian abbey of St Mary the
+                        Virgin and St Thomas the Martyr, Beauchief</orgName>
+                    <region type="county">Derbyshire</region>
+                </org>
+                <org xml:id="mlgbOrg_41">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Beaulieu</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_42">
+                    <orgName type="display">Priory of St Mary the Virgin and St John
+                        the Baptist of the order of Vallis Caulium, Beauly</orgName>
+                    <region type="county">Inverness-shire</region>
+                </org>
+                <org xml:id="mlgbOrg_43">
+                    <orgName type="display">Charterhouse of Holy Trinity,
+                        Beauvale</orgName>
+                    <region type="county">Nottinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_44">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Beddgelert</orgName>
+                    <region type="county">Caernarvonshire</region>
+                </org>
+                <org xml:id="mlgbOrg_45">
+                    <orgName type="display">Franciscan convent, Bedford</orgName>
+                    <region type="county">Bedfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_48">
+                    <orgName type="display">Benedictine priory of St Mary the
+                        Virgin; cell of St Albans, Belvoir</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_49">
+                    <orgName type="display">Cluniac priory and (from 1399) abbey of
+                        St Saviour, Bermondsey</orgName>
+                    <region type="county">Surrey</region>
+                </org>
+                <org xml:id="mlgbOrg_50">
+                    <orgName type="display">Minster (collegiate church) of St John
+                        the Evangelist, Beverley</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_51">
+                    <orgName type="display">Dominican convent, Beverley</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_52">
+                    <orgName type="display">Augustinian priory of St Edburga,
+                        Bicester</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_53">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Biddlesden</orgName>
+                    <region type="county">Buckinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_54">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Bilsington</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_55">
+                    <orgName type="display">Benedictine (later Augustinian) priory
+                        of St Petroc, Bodmin</orgName>
+                    <region type="county">Cornwall</region>
+                </org>
+                <org xml:id="mlgbOrg_57">
+                    <orgName type="display">Franciscan convent, Bodmin</orgName>
+                    <region type="county">Cornwall</region>
+                </org>
+                <org xml:id="mlgbOrg_58">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Bolton</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_59">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Bordesley</orgName>
+                    <region type="county">Worcestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_60">
+                    <orgName type="display">Dominican convent, Boston</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_61">
+                    <orgName type="display">Guild of Corpus Christi,
+                        Boston</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_62">
+                    <orgName type="display">Augustinian abbey of St Peter and St
+                        Paul, Bourne</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_63">
+                    <orgName type="display">Benedictine alien priory of St Mary the
+                        Virgin (?and St Blaise); cell of Lessay, Boxgrove</orgName>
+                    <region type="county">Sussex</region>
+                </org>
+                <org xml:id="mlgbOrg_64">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Boxley</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_65">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Bradenstoke</orgName>
+                    <region type="county">Wiltshire</region>
+                </org>
+                <org xml:id="mlgbOrg_66">
+                    <orgName type="display">Benedictine priory of St John the
+                        Evangelist, Brecon</orgName>
+                    <region type="county">Brecknockshire</region>
+                </org>
+                <org xml:id="mlgbOrg_67">
+                    <orgName type="display">Dominican convent, Brecon</orgName>
+                    <region type="county">Brecknockshire</region>
+                </org>
+                <org xml:id="mlgbOrg_68">
+                    <orgName type="display">Franciscan convent, Bridgwater</orgName>
+                    <region type="county">Somerset</region>
+                </org>
+                <org xml:id="mlgbOrg_69">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Bridlington</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_70">
+                    <orgName type="display">Augustinian (Victorine) abbey of St
+                        Augustine, Bristol</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_71">
+                    <orgName type="display">Hospital of St John the Baptist in
+                        Redcliffe, Bristol</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_72">
+                    <orgName type="display">Hospital of St Mark of Billeswick,
+                        otherwise Gaunt's hospital, of Augustinian canons, Bristol</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_73">
+                    <orgName type="display">Franciscan convent, Bristol</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_74">
+                    <orgName type="display">Dominican convent, Bristol</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_75">
+                    <orgName type="display">Corporation, Bristol</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_76">
+                    <orgName type="display">Benedictine priory of St Mary the
+                        Virgin; cell of Gloucester, Bromfield</orgName>
+                    <region type="county">Shropshire</region>
+                </org>
+                <org xml:id="mlgbOrg_77">
+                    <orgName type="display">Cluniac priory of St Andrew,
+                        Bromholm</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_78">
+                    <orgName type="display">Abbey of the Annunciation of St Mary the
+                        Virgin, of Franciscan nuns, Bruisyard</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_79">
+                    <orgName type="display">Augustinian priory (later abbey) of St
+                        Mary the Virgin, Bruton</orgName>
+                    <region type="county">Somerset</region>
+                </org>
+                <org xml:id="mlgbOrg_80">
+                    <orgName type="display">Savigniac and (1147) Cistercian abbey of
+                        St Mary the Virgin, Buckfast</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_81">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Buckland</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_82">
+                    <orgName type="display">Priory of St John the Baptist, of nuns
+                        of St John of Jerusalem, Buckland Minchin</orgName>
+                    <region type="county">Somerset</region>
+                </org>
+                <org xml:id="mlgbOrg_83">
+                    <orgName type="display">Savigniac and (1147) Cistercian abbey of
+                        St Mary the Virgin and St Chad, Buildwas</orgName>
+                    <region type="county">Shropshire</region>
+                </org>
+                <org xml:id="mlgbOrg_84">
+                    <orgName type="display">Carmelite convent, Burnham
+                        Norton</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_85">
+                    <orgName type="display">Benedictine abbey of St Mary the Virgin
+                        and St Modwenna, Burton-upon-Trent</orgName>
+                    <region type="county">Staffordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_86">
+                    <orgName type="display">Benedictine abbey of St Edmund, King and
+                        Martyr, Bury St Edmunds</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_87">
+                    <orgName type="display">Franciscan convent, Bury St
+                        Edmunds</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_88">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Butley</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_89">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Byland</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_91">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Llantarnam</orgName>
+                    <region type="county">Monmouthshire</region>
+                </org>
+                <org xml:id="mlgbOrg_92">
+                    <orgName type="display">Gilbertine priory of St Edmund,
+                        Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_93">
+                    <orgName type="display">Hospital of St John the Evangelist,
+                        Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_94">
+                    <orgName type="display">Franciscan convent, Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_95">
+                    <orgName type="display">Dominican convent, Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_96">
+                    <orgName type="display">Convent of Austin friars,
+                        Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_97">
+                    <orgName type="display">University, Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_98">
+                    <orgName type="display">Clare College (formerly University Hall,
+                        formerly Clare Hall), Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_99">
+                    <orgName type="display">Corpus Christi College (formerly often
+                        called Benet College), Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_100">
+                    <orgName type="display">Gonville Hall, Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_101">
+                    <orgName type="display">Jesus College, Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_102">
+                    <orgName type="display">King's College (Collegium regale Beate
+                        Marie et Sancti Nicholai), Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_103">
+                    <orgName type="display">King's Hall, Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_104">
+                    <orgName type="display">Michaelhouse, Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_105">
+                    <orgName type="display">Pembroke College (Aula Valence S.
+                        Marie), Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_106">
+                    <orgName type="display">Peterhouse (Collegium Sancti Petri),
+                        Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_107">
+                    <orgName type="display">St John's College, Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_108">
+                    <orgName type="display">Guild of All Saints, Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_109">
+                    <orgName type="display">Augustinian abbey of St Mary the Virgin,
+                        Cambuskenneth</orgName>
+                    <region type="county">Stirlingshire</region>
+                </org>
+                <org xml:id="mlgbOrg_110">
+                    <orgName type="display">Priory of St Mary the Virgin, of
+                        Augustinian nuns, Campsey</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_112">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Canons Ashby</orgName>
+                    <region type="county">Northamptonshire</region>
+                </org>
+                <org xml:id="mlgbOrg_113">
+                    <orgName type="display">Abbey of St Mary the Virgin, St John the
+                        Evangelist, and St Etheldreda, of Augustinian nuns, Canonsleigh</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_116">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Coupar Angus</orgName>
+                    <region type="county">Perthshire</region>
+                </org>
+                <org xml:id="mlgbOrg_123">
+                    <orgName type="display">Augustinian priory of St Gregory,
+                        Canterbury</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_122">
+                    <orgName type="display">Benedictine abbey of St Augustine
+                        (originally of St Peter and St Paul), Canterbury</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_124">
+                    <orgName type="display">Franciscan convent, Canterbury</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_125">
+                    <orgName type="display">Benedictine priory of St Mary the
+                        Virgin; cell of Tewkesbury, Cardiff</orgName>
+                    <region type="county">Glamorgan</region>
+                </org>
+                <org xml:id="mlgbOrg_126">
+                    <orgName type="display">Augustinian cathedral priory of St Mary
+                        the Virgin, Carlisle</orgName>
+                    <region type="county">Cumberland</region>
+                </org>
+                <org xml:id="mlgbOrg_127">
+                    <orgName type="display">Dominican convent, Carlisle</orgName>
+                    <region type="county">Cumberland</region>
+                </org>
+                <org xml:id="mlgbOrg_128">
+                    <orgName type="display">Augustinian priory of St John the
+                        Evangelist, Carmarthen</orgName>
+                    <region type="county">Kermerdinia</region>
+                </org>
+                <org xml:id="mlgbOrg_129">
+                    <orgName type="display">Franciscan convent, Carmarthen</orgName>
+                    <region type="county">Kermerdinia</region>
+                </org>
+                <org xml:id="mlgbOrg_130">
+                    <orgName type="display">Priory of St Mary the Virgin and St
+                        John, of Benedictine nuns, Carrow</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_131">
+                    <orgName type="display">Cluniac priory of St Mary the Virgin,
+                        Castle Acre</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_132">
+                    <orgName type="display">Benedictine abbey of St Mary the Virgin,
+                        St Peter and St Ethelwold, Cerne</orgName>
+                    <region type="county">Dorset</region>
+                </org>
+                <org xml:id="mlgbOrg_133">
+                    <orgName type="display">Benedictine abbey of St Peter,
+                        Chertsey</orgName>
+                    <region type="county">Surrey</region>
+                </org>
+                <org xml:id="mlgbOrg_134">
+                    <orgName type="display">Benedictine abbey of St Werburg,
+                        Chester</orgName>
+                    <region type="county">Cheshire</region>
+                </org>
+                <org xml:id="mlgbOrg_136">
+                    <orgName type="display">Priory of St Mary the Virgin, of
+                        Benedictine nuns, Chester</orgName>
+                    <region type="county">Cheshire</region>
+                </org>
+                <org xml:id="mlgbOrg_137">
+                    <orgName type="display">Franciscan convent, Chester</orgName>
+                    <region type="county">Cheshire</region>
+                </org>
+                <org xml:id="mlgbOrg_138">
+                    <orgName type="display">Dominican convent, Chester</orgName>
+                    <region type="county">Cheshire</region>
+                </org>
+                <org xml:id="mlgbOrg_139">
+                    <orgName type="display">Cathedral church of Holy Trinity,
+                        Chichester</orgName>
+                    <region type="county">West Sussex</region>
+                </org>
+                <org xml:id="mlgbOrg_140">
+                    <orgName type="display">Dominican convent, Chichester</orgName>
+                    <region type="county">West Sussex</region>
+                </org>
+                <org xml:id="mlgbOrg_141">
+                    <orgName type="display">Gilbertine priory of St Mary the
+                        Virgin., Chicksands</orgName>
+                    <region type="county">Bedfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_142">
+                    <orgName type="display">Augustinian priory of Holy Trinity or
+                        Christ Church, Christchurch</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_143">
+                    <orgName type="display">Augustinian abbey of St Mary the Virgin,
+                        Cirencester</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_144">
+                    <orgName type="display">Convent of Austin friars,
+                        Clare</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_145">
+                    <orgName type="display">Gilbertine priory of St Mary the Virgin
+                        and St Leonard, Clattercote</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_146">
+                    <orgName type="display">Chantry college of St Mary Magdalen,
+                        Cobham</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_147">
+                    <orgName type="display">Premonstratensian abbey of St Mary the
+                        Virgin, Cockersand</orgName>
+                    <region type="county">Lancashire</region>
+                </org>
+                <org xml:id="mlgbOrg_148">
+                    <orgName type="display">Savigniac and (1147) Cistercian abbey of
+                        Saint Mary the Virgin, Coggeshall</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_149">
+                    <orgName type="display">Benedictine abbey of St John the
+                        Baptist, Colchester</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_150">
+                    <orgName type="display">Augustinian priory of St Botolph,
+                        Colchester</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_151">
+                    <orgName type="display">Franciscan convent, Colchester</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_152">
+                    <orgName type="display">Benedictine priory of St Mary the
+                        Virgin, St Cuthbert, and St Ebba; cell of Durham, Coldingham</orgName>
+                    <region type="county">Berwickshire</region>
+                </org>
+                <org xml:id="mlgbOrg_153">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Combe</orgName>
+                    <region type="county">Warwickshire</region>
+                </org>
+                <org xml:id="mlgbOrg_154">
+                    <orgName type="display">Savigniac and (1147) Cistercian abbey of
+                        St Mary the Virgin and St Michael, Combermere</orgName>
+                    <region type="county">Cheshire</region>
+                </org>
+                <org xml:id="mlgbOrg_630">
+                    <orgName type="display">Benedictine abbey of St Paul; see
+                        JARROW, Monkwearmouth</orgName>
+                    <region type="county">Durham</region>
+                </org>
+                <org xml:id="mlgbOrg_158">
+                    <orgName type="display">Benedictine cathedral priory of St Mary
+                        the Virgin, Coventry</orgName>
+                    <region type="county">Warwickshire</region>
+                </org>
+                <org xml:id="mlgbOrg_159">
+                    <orgName type="display">Charterhouse of St Anne,
+                        Coventry</orgName>
+                    <region type="county">Warwickshire</region>
+                </org>
+                <org xml:id="mlgbOrg_160">
+                    <orgName type="display">Franciscan convent, Coventry</orgName>
+                    <region type="county">Warwickshire</region>
+                </org>
+                <org xml:id="mlgbOrg_161">
+                    <orgName type="display">Carmelite convent, Coventry</orgName>
+                    <region type="county">Warwickshire</region>
+                </org>
+                <org xml:id="mlgbOrg_162">
+                    <orgName type="display">Premonstratensian abbey of St Mary the
+                        Virgin, Coverham</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_163">
+                    <orgName type="display">Collegiate church of Holy Cross,
+                        Crediton</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_165">
+                    <orgName type="display">Benedictine abbey of St Mary the Virgin,
+                        St Bartholomew, and St Guthlac, Crowland</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_166">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Croxden</orgName>
+                    <region type="county">Staffordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_167">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin
+                        and St Serf, Culross</orgName>
+                    <region type="county">Fife</region>
+                </org>
+                <org xml:id="mlgbOrg_168">
+                    <orgName type="display">Premonstratensian abbey of St Mary the
+                        Virgin, Dale</orgName>
+                    <region type="county">Derbyshire</region>
+                </org>
+                <org xml:id="mlgbOrg_169">
+                    <orgName type="display">Augustinian abbey of St Mary the Virgin,
+                        Darley</orgName>
+                    <region type="county">Derbyshire</region>
+                </org>
+                <org xml:id="mlgbOrg_170">
+                    <orgName type="display">Collegiate church of St Cuthbert,
+                        Darlington</orgName>
+                    <region type="county">Co. Durham</region>
+                </org>
+                <org xml:id="mlgbOrg_171">
+                    <orgName type="display">Priory of St Mary the Virgin and St
+                        Margaret, of Dominican nuns, Dartford</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_172">
+                    <orgName type="display">Benedictine priory of St James; cell of
+                        Thorney, Deeping</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_173">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Deer</orgName>
+                    <region type="county">Aberdeenshire</region>
+                </org>
+                <org xml:id="mlgbOrg_174">
+                    <orgName type="display">Abbey of St James and St Leonard, of
+                        Franciscan nuns, Denny</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_175">
+                    <orgName type="display">Priory of St Mary the Virgin, King's
+                        Mead, of Benedictine nuns, Derby</orgName>
+                    <region type="county">Derbyshire</region>
+                </org>
+                <org xml:id="mlgbOrg_176">
+                    <orgName type="display">Premonstratensian abbey of St Mary the
+                        Virgin, West Dereham</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_177">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin
+                        and St Benedict, Dieulacres</orgName>
+                    <region type="county">Staffordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_178">
+                    <orgName type="display">Franciscan convent, Doncaster</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_179">
+                    <orgName type="display">Augustinian (Arrouaisian) abbey of St
+                        Peter, Dorchester</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_180">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Dore</orgName>
+                    <region type="county">Herefordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_182">
+                    <orgName type="display">Covent of Austin friars,
+                        Droitwich</orgName>
+                    <region type="county">Worcestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_183">
+                    <orgName type="display">Benedictine abbey of the Holy Trinity,
+                        Dunfermline</orgName>
+                    <region type="county">Fife</region>
+                </org>
+                <org xml:id="mlgbOrg_184">
+                    <orgName type="display">Cathedral church of St Columba,
+                        Dunkeld</orgName>
+                    <region type="county">Perthshire</region>
+                </org>
+                <org xml:id="mlgbOrg_185">
+                    <orgName type="display">Augustinian priory of St Peter,
+                        Dunstable</orgName>
+                    <region type="county">Bedfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_186">
+                    <orgName type="display">Dominican convent, Dunstable</orgName>
+                    <region type="county">Bedfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_187">
+                    <orgName type="display">Benedictine priory of St George; cell of
+                        Bath, Dunster</orgName>
+                    <region type="county">Somerset</region>
+                </org>
+                <org xml:id="mlgbOrg_188">
+                    <orgName type="display">Premonstratensian abbey of St Mary the
+                        Virgin and St John the Baptist, Dureford</orgName>
+                    <region type="county">Sussex</region>
+                </org>
+                <org xml:id="mlgbOrg_189">
+                    <orgName type="display">Benedictine cathedral priory of St
+                        Cuthbert, Durham</orgName>
+                </org>
+                <org xml:id="mlgbOrg_190">
+                    <orgName type="display">Benedictine abbey and (1109) cathedral
+                        priory of St Peter and St Etheldreda, Ely</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_191">
+                    <orgName type="display">Premonstratensian abbey of St Agatha,
+                        Easby</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_192">
+                    <orgName type="display">Convent of Dominican nuns, of St
+                        Catharine of Siena, Edinburgh</orgName>
+                    <region type="county">Lothian</region>
+                </org>
+                <org xml:id="mlgbOrg_193">
+                    <orgName type="display">Collegiate church of St Giles,
+                        Edinburgh</orgName>
+                    <region type="county">Lothian</region>
+                </org>
+                <org xml:id="mlgbOrg_194">
+                    <orgName type="display">House of Bonshommes, of St James, St
+                        Catharine, and All Saints, Edington</orgName>
+                    <region type="county">Wiltshire</region>
+                </org>
+                <org xml:id="mlgbOrg_195">
+                    <orgName type="display">Cathedral church of Holy Trinity,
+                        Elgin</orgName>
+                    <region type="county">Moray</region>
+                </org>
+                <org xml:id="mlgbOrg_196">
+                    <orgName type="display">Abbey of Saint Mary the Virgin and St
+                        Helen, of Benedictine nuns, Elstow</orgName>
+                    <region type="county">Bedfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_197">
+                    <orgName type="display">Bishopric, Ely</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_198">
+                    <orgName type="display">Royal College of the Assumption of Saint
+                        Mary the Virgin, Eton</orgName>
+                    <region type="county">Buckinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_199">
+                    <orgName type="display">Benedictine abbey of St Mary the Virgin
+                        and St Egwin, Evesham</orgName>
+                    <region type="county">Worcestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_200">
+                    <orgName type="display">Benedictine priory of St Nicholas; cell
+                        of Battle, Exeter</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_201">
+                    <orgName type="display">Hospital of St John the Baptist and St
+                        John the Evangelist, Exeter</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_202">
+                    <orgName type="display">Franciscan convent, Exeter</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_203">
+                    <orgName type="display">Dominican convent, Exeter</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_204">
+                    <orgName type="display">Benedictine alien priory of St Peter;
+                        cell of Bernay, Eye</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_205">
+                    <orgName type="display">Benedictine abbey of St Mary the Virgin,
+                        St Benedict and All Saints, Eynsham</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_207">
+                    <orgName type="display">Benedictine abbey of St Saviour,
+                        Faversham</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_208">
+                    <orgName type="display">Corporation of the borough,
+                        Faversham</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_209">
+                    <orgName type="display">Premonstratensian abbey of St Ninian,
+                        Fearn</orgName>
+                    <region type="county">Ross and Cromarty</region>
+                </org>
+                <org xml:id="mlgbOrg_210">
+                    <orgName type="display">Benedictine priory of St Felix; cell of
+                        Rochester, Felixstowe</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_211">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, North Ferriby</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_212">
+                    <orgName type="display">Benedictine priory of St John the
+                        Baptist and St Godric; cell of Durham, Finchale</orgName>
+                    <region type="county">Durham</region>
+                </org>
+                <org xml:id="mlgbOrg_213">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Fineshade</orgName>
+                    <region type="county">Northamptonshire</region>
+                </org>
+                <org xml:id="mlgbOrg_214">
+                    <orgName type="display">Augustinian priory of St John the
+                        Baptist, Flanesford</orgName>
+                    <region type="county">Herefordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_215">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Flaxley</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_216">
+                    <orgName type="display">Priory of St Mary the Virgin and St
+                        Catharine, of Augustinian nuns, Flixton</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_217">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Ford</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_218">
+                    <orgName type="display">Collegiate church of St Mary the Virgin
+                        and All Saints, Fotheringhay</orgName>
+                    <region type="county">Northamptonshire</region>
+                </org>
+                <org xml:id="mlgbOrg_219">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Fountains</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_220">
+                    <orgName type="display">Benedictine priory of St James; cell of
+                        Crowland, Frieston</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_221">
+                    <orgName type="display">Savigniac and (1147) Cistercian abbey of
+                        Saint Mary the Virgin, Furness</orgName>
+                    <region type="county">Lancashire</region>
+                </org>
+                <org xml:id="mlgbOrg_222">
+                    <orgName type="display">Cistercian abbey of Saint Mary the
+                        Virgin, Garendon</orgName>
+                    <region type="county">Leicestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_223">
+                    <orgName type="display">Cathedral church of St Mungo (or
+                        Kentigern), Glasgow</orgName>
+                    <region type="county">Lanarkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_224">
+                    <orgName type="display">Benedictine Abbey of Saint Mary the
+                        Virgin, Glastonbury</orgName>
+                    <region type="county">Somerset</region>
+                </org>
+                <org xml:id="mlgbOrg_225">
+                    <orgName type="display">Benedictine abbey of St Peter,
+                        Gloucester</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_226">
+                    <orgName type="display">Augustinian priory of St Oswald, King
+                        and Martyr, Gloucester</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_227">
+                    <orgName type="display">Franciscan convent, Gloucester</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_228">
+                    <orgName type="display">Dominican convent, Gloucester</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_229">
+                    <orgName type="display">Abbey of St Mary the Virgin ad St John
+                        the Baptist, of Benedictine nuns, Godstow</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_230">
+                    <orgName type="display">Priory of St Mary the Virgin, of
+                        Augustinian nuns, Goring</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_231">
+                    <orgName type="display">Franciscan convent, Grantham</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_232">
+                    <orgName type="display">Franciscan convent, Greenwich</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_233">
+                    <orgName type="display">Franciscan convent, Grimsby</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_234">
+                    <orgName type="display">Dominican convent, Guildford</orgName>
+                    <region type="county">Surrey</region>
+                </org>
+                <org xml:id="mlgbOrg_235">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Guisborough</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_236">
+                    <orgName type="display">Collegiate church, Guthrie</orgName>
+                    <region type="county">Angus</region>
+                </org>
+                <org xml:id="mlgbOrg_237">
+                    <orgName type="display">Premonstratensian abbey of St Thomas the
+                        Martyr, Hagnaby</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_238">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Hailes</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_239">
+                    <orgName type="display">Premonstratensian abbey of St Mary the
+                        Virgin and St John the Evangelist, Halesowen</orgName>
+                    <region type="county">Worcestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_240">
+                    <orgName type="display">Augustinian priory of St Mary the Virgin
+                        and Holy Cross, Haltemprice (or Cottingham)</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_241">
+                    <orgName type="display">Priory of St Mary the Virgin, of
+                        Cistercian nuns, Hampole</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_242">
+                    <orgName type="display">Augustinian (Arrouaisian) abbey of St
+                        Nectan, Hartland</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_243">
+                    <orgName type="display">Benedictine priory of St Mary the
+                        Virgin; cell of St Albans, Hatfield Peverel</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_244">
+                    <orgName type="display">Benedictine alien priory of St Mary the
+                        Virgin; cell of St Melaine, Rennes (independent from ?1254), Hatfield
+                        Regis</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_245">
+                    <orgName type="display">Augustinian abbey of St John the
+                        Evangelist, Haughmond</orgName>
+                    <region type="county">Shropshire</region>
+                </org>
+                <org xml:id="mlgbOrg_246">
+                    <orgName type="display">Dominican convent,
+                        Haverfordwest</orgName>
+                    <region type="county">Pembrokeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_247">
+                    <orgName type="display">Cathedral church of St Ethelbert,
+                        Hereford</orgName>
+                    <region type="county">Herefordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_248">
+                    <orgName type="display">Cathedral of St Ethelbert, Vicars
+                        Choral, Hereford</orgName>
+                    <region type="county">Herefordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_249">
+                    <orgName type="display">Diocesan Registry, Hereford</orgName>
+                    <region type="county">Herefordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_250">
+                    <orgName type="display">Benedictine priory of St Peter, St Paul,
+                        and St Guthlac; cell of Gloucester, Hereford</orgName>
+                    <region type="county">Herefordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_251">
+                    <orgName type="display">Franciscan convent, Hereford</orgName>
+                    <region type="county">Herefordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_252">
+                    <orgName type="display">Dominican convent, Hereford</orgName>
+                    <region type="county">Herefordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_253">
+                    <orgName type="display">Benedictine priory of St Mary the
+                        Virgin; cell of St Albans, Hertford</orgName>
+                    <region type="county">Hertfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_254">
+                    <orgName type="display">Augustinian priory of St Andrew,
+                        Hexham</orgName>
+                    <region type="county">Northumberland</region>
+                </org>
+                <org xml:id="mlgbOrg_255">
+                    <orgName type="display">Priory of St Mary the Virgin, of
+                        Cistercian nuns, Heynings</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_256">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, St Augustine and All Saints, Hickling</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_257">
+                    <orgName type="display">College of St Mary the Virgin, St Thomas
+                        the Martyr and St Edward the Confessor, Higham Ferrers</orgName>
+                    <region type="county">Northamptonshire</region>
+                </org>
+                <org xml:id="mlgbOrg_258">
+                    <orgName type="display">Charterhouse of St Mary the Virgin, St
+                        John the Baptist and All Saints, Hinton</orgName>
+                    <region type="county">Somerset</region>
+                </org>
+                <org xml:id="mlgbOrg_259">
+                    <orgName type="display">Benedictine abbey of St Benedict, Holme
+                        St Benet's</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_260">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Holme Cultram</orgName>
+                    <region type="county">Cumberland</region>
+                </org>
+                <org xml:id="mlgbOrg_615">
+                    <orgName type="display">Cathedral of St Peter, Vicars Choral,
+                        Exeter</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_262">
+                    <orgName type="display">Augustinian abbey of Holy Cross, St Mary
+                        the Virgin and All Saints, Holyrood</orgName>
+                    <region type="county">Midlothian</region>
+                </org>
+                <org xml:id="mlgbOrg_263">
+                    <orgName type="display">Benedictine alien priory of St Faith;
+                        cell of Conches, Horsham St Faith</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_264">
+                    <orgName type="display">Abbey of St Wolfrida, of Benedictine
+                        nuns, Horton</orgName>
+                    <region type="county">Dorset</region>
+                </org>
+                <org xml:id="mlgbOrg_265">
+                    <orgName type="display">Benedictine (? originally Tironensian)
+                        abbey of St Mary the Virgin and St Peter, Humberstone</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_266">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Huntingdon</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_267">
+                    <orgName type="display">Benedictine priory of St Mary the
+                        Virgin; cell of Westminster, Hurley</orgName>
+                    <region type="county">Berkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_268">
+                    <orgName type="display">Benedictine abbey of Holy Trinity, St
+                        Mary the Virgin, and St Peter, Hyde (Hida, formerly New Minster,
+                        Winchester)</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_269">
+                    <orgName type="display">Priory of St Mary Magdalen, of
+                        Benedictine nuns, Ickleton</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_270">
+                    <orgName type="display">Dominican convent, Ilchester</orgName>
+                    <region type="county">Somerset</region>
+                </org>
+                <org xml:id="mlgbOrg_271">
+                    <orgName type="display">Augustinian abbey of St Columba,
+                        Inchcolm</orgName>
+                    <region type="county">Fife</region>
+                </org>
+                <org xml:id="mlgbOrg_272">
+                    <orgName type="display">Benedictine abbey, Iona</orgName>
+                    <region type="county">Argyllshire</region>
+                </org>
+                <org xml:id="mlgbOrg_273">
+                    <orgName type="display">Franciscan convent, Ipswich</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_274">
+                    <orgName type="display">Benedictine abbey of St Paul; later cell
+                        of Durham, Jarrow and Monkwearmouth</orgName>
+                    <region type="county">Durham</region>
+                </org>
+                <org xml:id="mlgbOrg_275">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Jervaulx</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_276">
+                    <orgName type="display">Benedictine (orig. Tironensian) abbey of
+                        St Mary the Virgin, Kelso</orgName>
+                    <region type="county">Roxburghshire</region>
+                </org>
+                <org xml:id="mlgbOrg_277">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Kenilworth</orgName>
+                    <region type="county">Warwickshire</region>
+                </org>
+                <org xml:id="mlgbOrg_278">
+                    <orgName type="display">Augustinian abbey of St Mary the Virgin,
+                        St Peter, and St Paul, Keynsham</orgName>
+                    <region type="county">Somerset</region>
+                </org>
+                <org xml:id="mlgbOrg_279">
+                    <orgName type="display">Dominican convent, Kings
+                        Langley</orgName>
+                    <region type="county">Hertfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_280">
+                    <orgName type="display">Charterhouse of St Mary the Virgin, St
+                        Michael, and St Thomas the Martyr, Kingston-upon-Hull</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_281">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Kingswood</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_282">
+                    <orgName type="display">Priory of St Mary the Virgin, of
+                        Benedictine nuns, Kington St Michael</orgName>
+                    <region type="county">Wiltshire</region>
+                </org>
+                <org xml:id="mlgbOrg_283">
+                    <orgName type="display">Cistercian abbey of Saint Mary the
+                        Virgin, Kinloss</orgName>
+                    <region type="county">Moray</region>
+                </org>
+                <org xml:id="mlgbOrg_284">
+                    <orgName type="display">Augustinian priory of St Peter, Kirby
+                        Bellars</orgName>
+                    <region type="county">Leicestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_285">
+                    <orgName type="display">Augustinian priory of Holy Trinity or
+                        Christ Church, Kirkham</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_286">
+                    <orgName type="display">Cistercian abbey of Saint Mary the
+                        Virgin, Kirkstall</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_287">
+                    <orgName type="display">Cistercian abbey of Saint Mary the
+                        Virgin, Kirkstead</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_288">
+                    <orgName type="display">Trinitarian convent,
+                        Knaresborough</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_289">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Kyme</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_290">
+                    <orgName type="display">Abbey of St Mary the Virgin and St
+                        Bernard, of Augustinian nuns, Lacock</orgName>
+                    <region type="county">Wiltshire</region>
+                </org>
+                <org xml:id="mlgbOrg_291">
+                    <orgName type="display">Dominican convent, Lancaster</orgName>
+                    <region type="county">Lancashire</region>
+                </org>
+                <org xml:id="mlgbOrg_292">
+                    <orgName type="display">Augustinian priory of St Mary Magdalen,
+                        Lanercost</orgName>
+                    <region type="county">Cumberland</region>
+                </org>
+                <org xml:id="mlgbOrg_293">
+                    <orgName type="display">Premonstratensian abbey of St Mary the
+                        Virgin and St Thomas the Martyr, West Langdon</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_294">
+                    <orgName type="display">Premonstratensian abbey of St Mary the
+                        Virgin, Langley</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_295">
+                    <orgName type="display">Augustinian priory of St Mary the Virgin
+                        and St John the Baptist, Lanthony (secunda)</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_296">
+                    <orgName type="display">Augustinian priory of St Stephen,
+                        Launceston</orgName>
+                    <region type="county">Cornwall</region>
+                </org>
+                <org xml:id="mlgbOrg_297">
+                    <orgName type="display">Augustinian priory of St John the
+                        Baptist, Launde</orgName>
+                    <region type="county">Leicestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_298">
+                    <orgName type="display">Augustinian abbey of St Mary the Virgin
+                        and St Nicholas, Leeds</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_299">
+                    <orgName type="display">Augustinian abbey of St Mary the Virgin
+                        de Pratis, Leicester</orgName>
+                    <region type="county">Leicestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_300">
+                    <orgName type="display">Collegiate church of the Annunciation of
+                        St Mary the Virgin, in the Newarke, Leicester</orgName>
+                    <region type="county">Leicestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_301">
+                    <orgName type="display">Dominican convent, Leicester</orgName>
+                    <region type="county">Leicestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_302">
+                    <orgName type="display">Premonstratensian abbey of St Mary the
+                        Virgin, Leiston</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_303">
+                    <orgName type="display">Hospital of St Anthony, Leith</orgName>
+                    <region type="county">Midlothian</region>
+                </org>
+                <org xml:id="mlgbOrg_304">
+                    <orgName type="display">Cluniac priory of Holy Trinity,
+                        Lenton</orgName>
+                    <region type="county">Nottinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_305">
+                    <orgName type="display">Benedictine priory of St Peter; cell of
+                        Reading, Leominster</orgName>
+                    <region type="county">Herefordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_306">
+                    <orgName type="display">Benedictine priory of St Machutus,
+                        Lesmahagow</orgName>
+                    <region type="county">Lanarkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_307">
+                    <orgName type="display">Augustinian abbey of St Thomas the
+                        Martyr, Lessness or Westwood</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_308">
+                    <orgName type="display">Augustinian priory of St Thomas the
+                        Martyr, Stafford</orgName>
+                </org>
+                <org xml:id="mlgbOrg_309">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Letheringham (Crew)</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_310">
+                    <orgName type="display">Cluniac priory of St Pancras,
+                        Lewes</orgName>
+                    <region type="county">Sussex</region>
+                </org>
+                <org xml:id="mlgbOrg_311">
+                    <orgName type="display">Franciscan convent, Lewes</orgName>
+                    <region type="county">Sussex</region>
+                </org>
+                <org xml:id="mlgbOrg_312">
+                    <orgName type="display">Cathedral church of St Mary the Virgin
+                        and St Chad, Lichfield</orgName>
+                    <region type="county">Staffordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_313">
+                    <orgName type="display">Cathedral chantries, Lichfield</orgName>
+                    <region type="county">Staffordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_314">
+                    <orgName type="display">Franciscan convent, Lichfield</orgName>
+                    <region type="county">Staffordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_315">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Lilleshall</orgName>
+                    <region type="county">Shropshire</region>
+                </org>
+                <org xml:id="mlgbOrg_316">
+                    <orgName type="display">Cathedral church of St Mary the Virgin,
+                        Lincoln</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_317">
+                    <orgName type="display">Episcopal registry, Lincoln</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_318">
+                    <orgName type="display">Convent of Austin friars,
+                        Lincoln</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_319">
+                    <orgName type="display">Gilbertine priory of St Catharine,
+                        Lincoln</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_320">
+                    <orgName type="display">Franciscan convent, Lincoln</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_321">
+                    <orgName type="display">Dominican convent, Lincoln</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_322">
+                    <orgName type="display">Carmelite convent, Lincoln</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_323">
+                    <orgName type="display">Benedictine priory of St Peter;
+                        originally seat of bishopric; later cell of Durham, Lindisfarne (Holy
+                        Island)</orgName>
+                    <region type="county">Northumberland</region>
+                </org>
+                <org xml:id="mlgbOrg_324">
+                    <orgName type="display">Benedictine (orig. Tironensian) abbey of
+                        St Mary the Virgin and St Andrew, Lindores</orgName>
+                    <region type="county">Fife</region>
+                </org>
+                <org xml:id="mlgbOrg_325">
+                    <orgName type="display">Priory of St Mary the Virgin and St
+                        Nicholas, of Benedictine nuns, Littlemore</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_326">
+                    <orgName type="display">Cathedral church of St Peter and St
+                        Teilo, Llandaff</orgName>
+                    <region type="county">Glamorganshire</region>
+                </org>
+                <org xml:id="mlgbOrg_327">
+                    <orgName type="display">Augustinian priory of St John the
+                        Baptist; cell of Lanthony (secunda) from AD 1481, Llanthony
+                        (prima)</orgName>
+                    <region type="county">Monmouthshire</region>
+                </org>
+                <org xml:id="mlgbOrg_328">
+                    <orgName type="display">Franciscan convent, Llanfaes</orgName>
+                    <region type="county">Gwynedd</region>
+                </org>
+                <org xml:id="mlgbOrg_329">
+                    <orgName type="display">Augustinian priory of St Serif, Loch
+                        Leven</orgName>
+                    <region type="county">Kinross</region>
+                </org>
+                <org xml:id="mlgbOrg_330">
+                    <orgName type="display">Cathedral church of St Paul,
+                        London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_331">
+                    <orgName type="display">Priory of St John the Baptist, of
+                        Augustinian canonesses in Holywell (Shoreditch), London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_332">
+                    <orgName type="display">Cistercian abbey of St Mary of Graces,
+                        London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_333">
+                    <orgName type="display">Dominican convent, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_334">
+                    <orgName type="display">Charterhouse of the Salutation of St
+                        Mary the Virgin, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_335">
+                    <orgName type="display">Augustinian priory of Holy Trinity,
+                        Aldgate, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_336">
+                    <orgName type="display">Augustinian priory of St Bartholomew,
+                        Smithfield, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_337">
+                    <orgName type="display">Franciscan convent, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_338">
+                    <orgName type="display">Abbey of St Mary the Virgin and St
+                        Francis, without Aldgate, of Franciscan nuns, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_340">
+                    <orgName type="display">Carmelite convent, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_341">
+                    <orgName type="display">Convent of Austin friars,
+                        London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_342">
+                    <orgName type="display">Convent of friars of the Holy Cross
+                        (Crutched friars), London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_343">
+                    <orgName type="display">Hospital of St Mary of Bethlehem,
+                        without Bishopsgate, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_344">
+                    <orgName type="display">Hospital of St Mary the Virgin, within
+                        Cripplegate (Elsing Spital), London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_345">
+                    <orgName type="display">Priory of Knights Hospitallers of St
+                        John of Jerusalem, Clerkenwell, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_346">
+                    <orgName type="display">Hospital of St Thomas of Acon,
+                        Cheapside, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_347">
+                    <orgName type="display">Collegiate church of St Michael, in
+                        Crooked Lane, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_348">
+                    <orgName type="display">Whittington College (Collegiate church
+                        of the Holy Ghost and St Mary, St Michael and All Saints), London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_349">
+                    <orgName type="display">Gray's Inn, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_350">
+                    <orgName type="display">Lincoln's Inn, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_351">
+                    <orgName type="display">Guildhall, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_352">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Louth Park</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_353">
+                    <orgName type="display">Benedictine priory of St Mary the
+                        Virgin, Luffield</orgName>
+                    <region type="county">Northamptonshire</region>
+                </org>
+                <org xml:id="mlgbOrg_354">
+                    <orgName type="display">Benedictine priory of St Margaret; cell
+                        of Norwich cathedral priory, Lynn, King's</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_355">
+                    <orgName type="display">Franciscan convent, Lynn,
+                        King's</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_356">
+                    <orgName type="display">Carmelite convent, Lynn,
+                        King's</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_357">
+                    <orgName type="display">Hospital of St Mary Magdalen (Gaywood
+                        Hospital), Lynn, King's</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_358">
+                    <orgName type="display">Collegiate church of All Saints,
+                        Maidstone</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_359">
+                    <orgName type="display">Abbey of St Mary the Virgin and St
+                        Andrew, of Benedictine nuns, Malling</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_360">
+                    <orgName type="display">Benedictine Abbey of St Mary the Virgin
+                        and St Aldhelm, Malmesbury</orgName>
+                    <region type="county">Wiltshire</region>
+                </org>
+                <org xml:id="mlgbOrg_361">
+                    <orgName type="display">Benedictine Abbey of Saint Mary the
+                        Virgin and St Michael; cell of Westminster, Great Malvern</orgName>
+                    <region type="county">Worcestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_362">
+                    <orgName type="display">Collegiate church of St Mary the Virgin,
+                        Manchester</orgName>
+                    <region type="county">Lancashire</region>
+                </org>
+                <org xml:id="mlgbOrg_363">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Margam</orgName>
+                    <region type="county">Glamorganshire</region>
+                </org>
+                <org xml:id="mlgbOrg_364">
+                    <orgName type="display">Augustinian priory of St Peter,
+                        Markby</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_365">
+                    <orgName type="display">Hermitage, later priory of Benedictine
+                        nuns, Markyate</orgName>
+                    <region type="county">Hertfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_366">
+                    <orgName type="display">Carmelite convent, Marlborough</orgName>
+                    <region type="county">Wiltshire</region>
+                </org>
+                <org xml:id="mlgbOrg_367">
+                    <orgName type="display">Priory of St Mary the Virgin and St
+                        Andrew, of Benedictine nuns, Marrick</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_368">
+                    <orgName type="display">Augustinian priory of Holy Trinity, St
+                        Mary the Virgin, St Michael and All Saints, Maxstoke</orgName>
+                    <region type="county">Warwickshire</region>
+                </org>
+                <org xml:id="mlgbOrg_369">
+                    <orgName type="display">Benedictine and (s. xiv) Augustinian
+                        priory of All Saints; cell of Reading, later cell of St Andrews, Isle of
+                        May</orgName>
+                    <region type="county">Fife</region>
+                </org>
+                <org xml:id="mlgbOrg_370">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Meaux</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_371">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Medmenham</orgName>
+                    <region type="county">Buckinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_372">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Melrose</orgName>
+                    <region type="county">Roxburghshire</region>
+                </org>
+                <org xml:id="mlgbOrg_373">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Merevale</orgName>
+                    <region type="county">Warwickshire</region>
+                </org>
+                <org xml:id="mlgbOrg_374">
+                    <orgName type="display">Benedictine alien priory of St Peter;
+                        cell of St Ouen, Rouen, Mersea</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_375">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Merton</orgName>
+                    <region type="county">Surrey</region>
+                </org>
+                <org xml:id="mlgbOrg_376">
+                    <orgName type="display">Augustinian (Arrouaisian) priory of St
+                        Mary the Virgin, Missenden</orgName>
+                    <region type="county">Buckinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_377">
+                    <orgName type="display">Cluniac priory of St Mary Magdalen, Monk
+                        Bretton</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_378">
+                    <orgName type="display">Benedictine alien priory; cell of
+                        Conches, Monkland</orgName>
+                    <region type="county">Herefordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_379">
+                    <orgName type="display">Benedictine alien priory of St Nicholas;
+                        cell of St Nicholas, Angers, Monks Kirby</orgName>
+                    <region type="county">Warwickshire</region>
+                </org>
+                <org xml:id="mlgbOrg_380">
+                    <orgName type="display">Cluniac priory of St Peter and St Paul,
+                        Montacute</orgName>
+                    <region type="county">Somerset</region>
+                </org>
+                <org xml:id="mlgbOrg_381">
+                    <orgName type="display">Trinitarian convent, Mottenden</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_382">
+                    <orgName type="display">Augustinian priory of Holy Trinity,
+                        Mottisfont</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_383">
+                    <orgName type="display">Charterhouse of the Assumption of St
+                        Mary the Virgin, Mount Grace (in East Harsley)</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_384">
+                    <orgName type="display">Benedictine abbey of St Peter and St
+                        Paul, Muchelney</orgName>
+                    <region type="county">Somerset</region>
+                </org>
+                <org xml:id="mlgbOrg_385">
+                    <orgName type="display">Savigniac and (1147) Cistercian abbey of
+                        Saint Mary the Virgin, Neath</orgName>
+                    <region type="county">Glamorgan</region>
+                </org>
+                <org xml:id="mlgbOrg_386">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin
+                        and St Edward, Netley</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_387">
+                    <orgName type="display">Augustinian priory of St Mary the Virgin
+                        and St Thomas the Martyr, Newark</orgName>
+                    <region type="county">Surrey</region>
+                </org>
+                <org xml:id="mlgbOrg_388">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Newbattle</orgName>
+                    <region type="county">Midlothian</region>
+                </org>
+                <org xml:id="mlgbOrg_389">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Newburgh</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_390">
+                    <orgName type="display">Convent of Austin friars,
+                        Newcastle-upon-Tyne</orgName>
+                    <region type="county">Northumberland</region>
+                </org>
+                <org xml:id="mlgbOrg_391">
+                    <orgName type="display">Dominican convent,
+                        Newcastle-upon-Tyne</orgName>
+                    <region type="county">Northumberland</region>
+                </org>
+                <org xml:id="mlgbOrg_392">
+                    <orgName type="display">Carmelite convent,
+                        Newcastle-upon-Tyne</orgName>
+                    <region type="county">Northumberland</region>
+                </org>
+                <org xml:id="mlgbOrg_393">
+                    <orgName type="display">Reclusory, Newcastle-upon-Tyne</orgName>
+                    <region type="county">Northumberland</region>
+                </org>
+                <org xml:id="mlgbOrg_394">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Newminster</orgName>
+                    <region type="county">Northumberland</region>
+                </org>
+                <org xml:id="mlgbOrg_395">
+                    <orgName type="display">Augustinian priory of St Paul,
+                        Newnham</orgName>
+                    <region type="county">Bedfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_396">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Newstead</orgName>
+                    <region type="county">Nottinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_397">
+                    <orgName type="display">Premonstratensian abbey of St Mary the
+                        Virgin and St Martial, Newsham</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_398">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Newstead</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_399">
+                    <orgName type="display">Gilbertine priory of Holy Trinity,
+                        Newstead</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_400">
+                    <orgName type="display">Augustinian priory of St Mary Magdalen,
+                        Nocton Park</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_401">
+                    <orgName type="display">Cluniac priory of St Andrew,
+                        Northampton</orgName>
+                    <region type="county">Northamptonshire</region>
+                </org>
+                <org xml:id="mlgbOrg_402">
+                    <orgName type="display">Franciscan convent,
+                        Northampton</orgName>
+                    <region type="county">Northamptonshire</region>
+                </org>
+                <org xml:id="mlgbOrg_403">
+                    <orgName type="display">Dominican convent, Northampton</orgName>
+                    <region type="county">Northamptonshire</region>
+                </org>
+                <org xml:id="mlgbOrg_404">
+                    <orgName type="display">Benedictine cathedral priory of Holy
+                        Trinity, Norwich</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_405">
+                    <orgName type="display">Benedictine priory of St Leonard; cell
+                        of Norwich, Norwich</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_406">
+                    <orgName type="display">Franciscan convent, Norwich</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_407">
+                    <orgName type="display">Dominican convent, Norwich</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_408">
+                    <orgName type="display">Convent of Austin friars,
+                        Norwich</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_409">
+                    <orgName type="display">Carmelite convent, Norwich</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_410">
+                    <orgName type="display">Hospital of St Giles, Bishopgate,
+                        Norwich</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_411">
+                    <orgName type="display">Augustinian abbey of St Mary the Virgin
+                        and St John the Baptist, Notley</orgName>
+                    <region type="county">Buckinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_412">
+                    <orgName type="display">Franciscan convent, Nottingham</orgName>
+                    <region type="county">Nottinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_413">
+                    <orgName type="display">Priory of St Mary the Virgin, of
+                        Cistercian nuns, Nun Coton</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_414">
+                    <orgName type="display">Priory of St Mary the Virgin, of nuns of
+                        Fontevrault, Nuneaton</orgName>
+                    <region type="county">Warwickshire</region>
+                </org>
+                <org xml:id="mlgbOrg_415">
+                    <orgName type="display">Augustinian priory of St Oswald,
+                        Nostell</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_416">
+                    <orgName type="display">Augustinian abbey of St Mary the Virgin,
+                        Osney</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_417">
+                    <orgName type="display">Collegiate church of St Mary the Virgin,
+                        Ottery St Mary</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_418">
+                    <orgName type="display">Augustinian abbey of St Andrew,
+                        Owston</orgName>
+                    <region type="county">Leicestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_419">
+                    <orgName type="display">Augustinian priory of St Frideswide,
+                        Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_420">
+                    <orgName type="display">Franciscan convent, Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_421">
+                    <orgName type="display">Dominican convent, Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_422">
+                    <orgName type="display">Carmelite convent, Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_423">
+                    <orgName type="display">Austin friars, Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_424">
+                    <orgName type="display">University, Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_425">
+                    <orgName type="display">All Souls' College, Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_426">
+                    <orgName type="display">Balliol College (Domus de Balliolo),
+                        Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_427">
+                    <orgName type="display">Brasenose College, Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_428">
+                    <orgName type="display">Canterbury College; cell of Christ
+                        Church, Canterbury, Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_429">
+                    <orgName type="display">Corpus Christi College, Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_430">
+                    <orgName type="display">Durham College; cell of Durham cathedral
+                        priory, Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_431">
+                    <orgName type="display">Exeter College, Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_432">
+                    <orgName type="display">Gloucester College; cell of Gloucester,
+                        Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_433">
+                    <orgName type="display">Lincoln College, Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_434">
+                    <orgName type="display">St Mary Magdalen College,
+                        Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_435">
+                    <orgName type="display">Merton College, Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_436">
+                    <orgName type="display">New College (Collegium beate Marie
+                        Winton' in Oxonia), Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_437">
+                    <orgName type="display">Benedictine cathedral priory of St
+                        Peter, St Paul, and St Swithun, Winchester</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_438">
+                    <orgName type="display">Oriel College (Domus beate Marie seu
+                        Collegium regale Oxon'), Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_439">
+                    <orgName type="display">The Queen's College, Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_440">
+                    <orgName type="display">St Edmund Hall, Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_441">
+                    <orgName type="display">Staple Hall, Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_442">
+                    <orgName type="display">University College (Aula magna
+                        universitatis), Oxford</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_443">
+                    <orgName type="display">Cluniac priory and from 1219 abbey of St
+                        James and St Mirren, Paisley</orgName>
+                    <region type="county">Renfrewshire</region>
+                </org>
+                <org xml:id="mlgbOrg_444">
+                    <orgName type="display">Benedictine abbey of St Edburga
+                        (originally of St Mary the Virgin, St Peter, and St Paul),
+                        Pershore</orgName>
+                    <region type="county">Worcestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_445">
+                    <orgName type="display">Charterhouse Vallis Virtutis,
+                        Perth</orgName>
+                    <region type="county">Perthshire</region>
+                </org>
+                <org xml:id="mlgbOrg_446">
+                    <orgName type="display">Franciscan convent, Perth</orgName>
+                    <region type="county">Perthshire</region>
+                </org>
+                <org xml:id="mlgbOrg_447">
+                    <orgName type="display">Benedictine priory of St Mary the
+                        Virgin; cell of Malmesbury, Pilton</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_448">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Pipewell</orgName>
+                    <region type="county">Northamptonshire</region>
+                </org>
+                <org xml:id="mlgbOrg_449">
+                    <orgName type="display">Collegiate church of the Holy Trinity,
+                        Pleshey</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_450">
+                    <orgName type="display">Augustinian priory of St Peter,
+                        Plympton</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_451">
+                    <orgName type="display">Convent of Benedictine nuns,
+                        Polsloe</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_452">
+                    <orgName type="display">Cluniac priory of St John the
+                        Evangelist, Pontefract</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_453">
+                    <orgName type="display">Hospital of St Sepulchre,
+                        Preston</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_454">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Quarr</orgName>
+                    <region type="county">Isle of Wight</region>
+                </org>
+                <org xml:id="mlgbOrg_455">
+                    <orgName type="display">Mayor and Corporation,
+                        Queenborough</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_456">
+                    <orgName type="display">Benedictine Abbey of Saint Mary the
+                        Virgin and St Benedict, Ramsey</orgName>
+                    <region type="county">Huntingdonshire</region>
+                </org>
+                <org xml:id="mlgbOrg_457">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Ranton</orgName>
+                    <region type="county">Staffordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_458">
+                    <orgName type="display">Benedictine abbey of Saint Mary the
+                        Virgin, Reading</orgName>
+                    <region type="county">Berkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_459">
+                    <orgName type="display">Franciscans, Reading</orgName>
+                    <region type="county">Berkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_460">
+                    <orgName type="display">Benedictine priory of St Amphibalus;
+                        cell of St Albans, Redbourn</orgName>
+                    <region type="county">Hertfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_461">
+                    <orgName type="display">Augustinian priory of Holy Trinity,
+                        Repton</orgName>
+                    <region type="county">Derbyshire</region>
+                </org>
+                <org xml:id="mlgbOrg_462">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin
+                        and St Lawrence, Revesby</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_463">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Rewley</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_464">
+                    <orgName type="display">Franciscan convent, Richmond</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_465">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Rievaulx</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_467">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Robertsbridge</orgName>
+                    <region type="county">Sussex</region>
+                </org>
+                <org xml:id="mlgbOrg_468">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Roche</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_469">
+                    <orgName type="display">Cathedral priory of St Andrew,
+                        Rochester</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_470">
+                    <orgName type="display">Abbey of Saint Mary the Virgin and St
+                        Elfleda, of Benedictine nuns, Romsey</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_471">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Rufford</orgName>
+                    <region type="county">Nottinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_472">
+                    <orgName type="display">Savigniac and (1147) Cistercian abbey of
+                        Saint Mary the Virgin, Rushen</orgName>
+                    <region type="county">Isle of Man</region>
+                </org>
+                <org xml:id="mlgbOrg_473">
+                    <orgName type="display">Jesus College, Rotheram</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_474">
+                    <orgName type="display">Benedictine abbey of St Alban, St
+                        Albans</orgName>
+                    <region type="county">Hertfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_475">
+                    <orgName type="display">Augustinian cathedral priory of St
+                        Andrew, St Andrews</orgName>
+                    <region type="county">Fife</region>
+                </org>
+                <org xml:id="mlgbOrg_476">
+                    <orgName type="display">Benedictine priory of St Bee; cell of St
+                        Mary's, York, St Bees</orgName>
+                    <region type="county">Cumberland</region>
+                </org>
+                <org xml:id="mlgbOrg_477">
+                    <orgName type="display">Cathedral church of St David, St
+                        David's</orgName>
+                    <region type="county">Pembrokeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_478">
+                    <orgName type="display">Benedictine (orig. Tironensian) abbey of
+                        Saint Mary the Virgin (?), St Dogmells</orgName>
+                    <region type="county">Pembrokeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_479">
+                    <orgName type="display">Benedictine (afterwards Augustinian)
+                        priory of St German, St Germans</orgName>
+                    <region type="county">Cornwall</region>
+                </org>
+                <org xml:id="mlgbOrg_480">
+                    <orgName type="display">Benedictine priory of St Ives; cell of
+                        Ramsay, St Ives</orgName>
+                    <region type="county">Huntingdonshire</region>
+                </org>
+                <org xml:id="mlgbOrg_481">
+                    <orgName type="display">Archpresbytery, St Michael's
+                        Mount</orgName>
+                    <region type="county">Cornwall</region>
+                </org>
+                <org xml:id="mlgbOrg_482">
+                    <orgName type="display">Benedictine alien priory of St Neot;
+                        cell of Bec, St Neots</orgName>
+                    <region type="county">Huntingdonshire</region>
+                </org>
+                <org xml:id="mlgbOrg_483">
+                    <orgName type="display">Augustinian abbey of St Peter, St Paul,
+                        and St Osyth, St Osyth</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_484">
+                    <orgName type="display">Cathedral church of St Mary the Virgin;
+                        see removed from Sherborne in 1078, Salisbury</orgName>
+                    <region type="county">Wiltshire</region>
+                </org>
+                <org xml:id="mlgbOrg_485">
+                    <orgName type="display">Franciscan convent, Salisbury</orgName>
+                    <region type="county">Wiltshire</region>
+                </org>
+                <org xml:id="mlgbOrg_486">
+                    <orgName type="display">Dominican convent, Salisbury</orgName>
+                    <region type="county">Wiltshire</region>
+                </org>
+                <org xml:id="mlgbOrg_487">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Sawley</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_488">
+                    <orgName type="display">Grange or 'domus' dependent on the abbey
+                        of C&#238;teaux, Scarborough</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_489">
+                    <orgName type="display">Grange or 'domus' dependent on the abbey
+                        of C&#238;teaux, Scarborough</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_490">
+                    <orgName type="display">Grange or 'domus' dependent on the abbey
+                        of C&#238;teaux, Scarborough</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_491">
+                    <orgName type="display">Grange or 'domus' dependent on the abbey
+                        of Citeaux, Scarborough</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_492">
+                    <orgName type="display">Augustinian priory, later abbey, of
+                        Saint Mary the Virgin and St Michael, Scone </orgName>
+                    <region type="county">Perthshire</region>
+                </org>
+                <org xml:id="mlgbOrg_493">
+                    <orgName type="display">Benedictine abbey of St Mary the Virgin
+                        and St German, Selby</orgName>
+                    <region type="county">York</region>
+                </org>
+                <org xml:id="mlgbOrg_494">
+                    <orgName type="display">Gilbertine priory of St Mary the Virgin,
+                        Sempringham</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_495">
+                    <orgName type="display">Abbey of St Mary the Virgin and St
+                        Edward, of Benedictine nuns, Shaftesbury</orgName>
+                    <region type="county">Dorset</region>
+                </org>
+                <org xml:id="mlgbOrg_496">
+                    <orgName type="display">Charterhouse of Jesus of Bethlehem,
+                        Sheen</orgName>
+                    <region type="county">Surrey</region>
+                </org>
+                <org xml:id="mlgbOrg_497">
+                    <orgName type="display">Reclusory, Sheen</orgName>
+                    <region type="county">Surrey</region>
+                </org>
+                <org xml:id="mlgbOrg_498">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Shelford</orgName>
+                    <region type="county">Nottinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_499">
+                    <orgName type="display">Benedictine abbey of St Mary the Virgin;
+                        seat of bishopric until A. D. 1078, Sherborne</orgName>
+                    <region type="county">Dorset</region>
+                </org>
+                <org xml:id="mlgbOrg_500">
+                    <orgName type="display">Benedictine alien priory of St Mary the
+                        Virgin and St John; cell of Cerisy, Monk Sherborne</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_501">
+                    <orgName type="display">Hospital of St Mary Magdalen,
+                        Sherburn-in-Elmet</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_502">
+                    <orgName type="display">Benedictine abbey of St Peter and St
+                        Paul, Shrewsbury</orgName>
+                    <region type="county">Shropshire</region>
+                </org>
+                <org xml:id="mlgbOrg_503">
+                    <orgName type="display">Collegiate church of St Chad,
+                        Shrewsbury</orgName>
+                    <region type="county">Shropshire</region>
+                </org>
+                <org xml:id="mlgbOrg_504">
+                    <orgName type="display">Franciscan convent, Shrewsbury</orgName>
+                    <region type="county">Shropshire</region>
+                </org>
+                <org xml:id="mlgbOrg_505">
+                    <orgName type="display">Dominican convent, Shrewsbury</orgName>
+                    <region type="county">Shropshire</region>
+                </org>
+                <org xml:id="mlgbOrg_506">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Shulbrede</orgName>
+                    <region type="county">Sussex</region>
+                </org>
+                <org xml:id="mlgbOrg_507">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Sibton</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_508">
+                    <orgName type="display">Premonstratensian abbey of St John the
+                        Evangelist, Soulseat</orgName>
+                    <region type="county">Wigtownshire</region>
+                </org>
+                <org xml:id="mlgbOrg_509">
+                    <orgName type="display">Augustinian priory of St Denis,
+                        Southampton</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_510">
+                    <orgName type="display">Franciscan convent,
+                        Southampton</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_511">
+                    <orgName type="display">Augustinian priory of St Mary Overy,
+                        Southwark</orgName>
+                    <region type="county">Surrey</region>
+                </org>
+                <org xml:id="mlgbOrg_512">
+                    <orgName type="display">College of St Michael, South
+                        Malling</orgName>
+                    <region type="county">Sussex</region>
+                </org>
+                <org xml:id="mlgbOrg_513">
+                    <orgName type="display">Minster (collegiate church) of St Mary
+                        the Virgin, Southwell</orgName>
+                    <region type="county">Nottinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_514">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Southwick</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_515">
+                    <orgName type="display">Benedictine priory of St Mary the Virgin
+                        and St Nicholas; cell of Crowland, 1051, and of St Nicholas,
+                        Spalding</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_517">
+                    <orgName type="display">Franciscan convent, Stafford</orgName>
+                </org>
+                <org xml:id="mlgbOrg_518">
+                    <orgName type="display">Collegiate church of St Mary the Virgin,
+                        Stafford</orgName>
+                </org>
+                <org xml:id="mlgbOrg_519">
+                    <orgName type="display">Hospital of St Mary the Virgin,
+                        Staindrop</orgName>
+                    <region type="county">Durham</region>
+                </org>
+                <org xml:id="mlgbOrg_520">
+                    <orgName type="display">Benedictine priory of St Leonard; cell
+                        of Durham, Stamford</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_521">
+                    <orgName type="display">Priory of St Michael, of Benedictine
+                        nuns, Stamford</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_522">
+                    <orgName type="display">Hospital of William Browne, of St Mary
+                        the Virgin and All Saints, Stamford</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_523">
+                    <orgName type="display">Franciscan convent, Stamford</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_524">
+                    <orgName type="display">Carmelite convent, Stamford</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_525">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Stanley</orgName>
+                    <region type="county">Wiltshire</region>
+                </org>
+                <org xml:id="mlgbOrg_526">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        removed in 1296 to Whalley, Stanlow</orgName>
+                    <region type="county">Cheshire</region>
+                </org>
+                <org xml:id="mlgbOrg_527">
+                    <orgName type="display">Franciscan Observant convent,
+                        Stirling</orgName>
+                    <region type="county">Stirlingshire</region>
+                </org>
+                <org xml:id="mlgbOrg_528">
+                    <orgName type="display">Collegiate church of St John the
+                        Baptist, Stoke-by-Clare</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_529">
+                    <orgName type="display">Augustinian priory of St Wulfhad,
+                        Stone</orgName>
+                    <region type="county">Staffordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_530">
+                    <orgName type="display">Cistercian abbey of Saint Mary the
+                        Virgin, Stoneleigh</orgName>
+                    <region type="county">Warwickshire</region>
+                </org>
+                <org xml:id="mlgbOrg_531">
+                    <orgName type="display">Savigniac and (1147) Cistercian abbey of
+                        Saint Mary the Virgin, Stratford Langthorne</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_532">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Studley</orgName>
+                    <region type="county">Warwickshire</region>
+                </org>
+                <org xml:id="mlgbOrg_533">
+                    <orgName type="display">Dominican convent, Sudbury</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_534">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Sweethart or New Abbey</orgName>
+                    <region type="county">Kirkcudbrightshire</region>
+                </org>
+                <org xml:id="mlgbOrg_535">
+                    <orgName type="display">Priory of St Mary the Virgin, of
+                        Cistercian nuns, Swine</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_536">
+                    <orgName type="display">Savigniac and (1147) Cistercian abbey of
+                        Saint Mary the Virgin, Swineshead</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_537">
+                    <orgName type="display">Bridgettine abbey of St Saviour, St Mary
+                        the Virgin, and St Bridget, Syon</orgName>
+                    <region type="county">Middlesex</region>
+                </org>
+                <org xml:id="mlgbOrg_538">
+                    <orgName type="display">Abbey of St Mary the Virgin, of
+                        Cistercian nuns, Tarrant Keynston</orgName>
+                    <region type="county">Dorset</region>
+                </org>
+                <org xml:id="mlgbOrg_539">
+                    <orgName type="display">Collegiate church of the Holy Trinity
+                        and St Mary the Virgin, Tattershall</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_540">
+                    <orgName type="display">Augustinian priory of St Peter and Paul,
+                        Taunton</orgName>
+                    <region type="county">Somerset</region>
+                </org>
+                <org xml:id="mlgbOrg_541">
+                    <orgName type="display">Benedictine Abbey of St Mary the Virgin
+                        and St Rumon, Tavistock</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_542">
+                    <orgName type="display">Benedictine abbey of St Mary the Virgin,
+                        Tewkesbury</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_543">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Thame</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_544">
+                    <orgName type="display">Cluniac priory of St Mary the Virgin,
+                        Thetford</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_545">
+                    <orgName type="display">Benedictine Abbey of Saint Mary the
+                        Virgin and St Botolph, Thorney</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_546">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Thornholm</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_547">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Thornton-on-Humber</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_548">
+                    <orgName type="display">Augustinian priory of St James,
+                        Thremhall</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_549">
+                    <orgName type="display">Augustinian priory of St Peter,
+                        Thurgarton</orgName>
+                    <region type="county">Nottinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_552">
+                    <orgName type="display">Premonstratensian abbey of the
+                        Assumption of St Mary and St John the Evangelist, Titchfield</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_551">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Tintern</orgName>
+                    <region type="county">Monmouthshire</region>
+                </org>
+                <org xml:id="mlgbOrg_553">
+                    <orgName type="display">Augustinian priory of St Mary Magdalen,
+                        Tonbridge</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_555">
+                    <orgName type="display">Augustinian priory of St Mary the Virgin
+                        and All Saints, Trentham</orgName>
+                    <region type="county">Staffordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_556">
+                    <orgName type="display">Dominican convent, Truro</orgName>
+                    <region type="county">Cornwall</region>
+                </org>
+                <org xml:id="mlgbOrg_557">
+                    <orgName type="display">Premonstratensian abbey of St Mary the
+                        Virgin, Tupholme</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_558">
+                    <orgName type="display">Benedictine priory of St Mary the Virgin
+                        and St Oswin; cell of St Albans, Tynemouth</orgName>
+                    <region type="county">Northumberland</region>
+                </org>
+                <org xml:id="mlgbOrg_559">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Vale Royal</orgName>
+                    <region type="county">Cheshire</region>
+                </org>
+                <org xml:id="mlgbOrg_560">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Valle Crucis</orgName>
+                    <region type="county">Denbighshire</region>
+                </org>
+                <org xml:id="mlgbOrg_561">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Vauday</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_562">
+                    <orgName type="display">Benedictine priory of St Mary the Virgin
+                        and St James, Saffron Walden</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_563">
+                    <orgName type="display">Benedictine priory of Holy Trinity; cell
+                        of St Albans, Wallingford</orgName>
+                    <region type="county">Berkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_564">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Walsingham</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_565">
+                    <orgName type="display">Franciscan convent, Walsingham</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_566">
+                    <orgName type="display">Augustinian abbey of Holy Cross,
+                        Waltham</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_567">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Warden</orgName>
+                    <region type="county">Bedfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_568">
+                    <orgName type="display">Covent of Austin friars,
+                        Warrington</orgName>
+                    <region type="county">Lancashire</region>
+                </org>
+                <org xml:id="mlgbOrg_569">
+                    <orgName type="display">Dominican convent, Warwick</orgName>
+                    <region type="county">Warwickshire</region>
+                </org>
+                <org xml:id="mlgbOrg_570">
+                    <orgName type="display">Collegiate church of St Mary the Virgin
+                        and All Saints, Warwick</orgName>
+                    <region type="county">Warwickshire</region>
+                </org>
+                <org xml:id="mlgbOrg_571">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Waverley</orgName>
+                    <region type="county">Surrey</region>
+                </org>
+                <org xml:id="mlgbOrg_572">
+                    <orgName type="display">Premonstratensian abbey of St James,
+                        Welbeck</orgName>
+                    <region type="county">Nottinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_573">
+                    <orgName type="display">Cathedral church of St Andrew,
+                        Wells</orgName>
+                    <region type="county">Somerset</region>
+                </org>
+                <org xml:id="mlgbOrg_574">
+                    <orgName type="display">Cathedral church of St Andrew, Vicars
+                        Choral, Wells</orgName>
+                    <region type="county">Somerset</region>
+                </org>
+                <org xml:id="mlgbOrg_575">
+                    <orgName type="display">Premonstratensian abbey of St Mary the
+                        Virgin, Wendling</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_576">
+                    <orgName type="display">Cluniac priory of St Milburga,
+                        Wenlock</orgName>
+                    <region type="county">Shropshire</region>
+                </org>
+                <org xml:id="mlgbOrg_577">
+                    <orgName type="display">Augustinian priory of St Mary the Virgin
+                        and All Saints, Westacre</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_578">
+                    <orgName type="display">College of St Mary the Virgin, later the
+                        Holy Trinity, Westbury-on-Trym</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_579">
+                    <orgName type="display">Benedictine abbey of St Peter,
+                        Westminster</orgName>
+                    <region type="county">Middlesex</region>
+                </org>
+                <org xml:id="mlgbOrg_580">
+                    <orgName type="display">Royal collegiate chapel of St Stephen,
+                        Westminster</orgName>
+                    <region type="county">Middlesex</region>
+                </org>
+                <org xml:id="mlgbOrg_581">
+                    <orgName type="display">Priory of Holy Trinity, St Mary the
+                        Virgin, and St Constantine; cell of St Mary's, York, Wetheral</orgName>
+                    <region type="county">Cumberland</region>
+                </org>
+                <org xml:id="mlgbOrg_582">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Whalley</orgName>
+                    <region type="county">Lancashire</region>
+                </org>
+                <org xml:id="mlgbOrg_583">
+                    <orgName type="display">Abbey of Holy Cross, of Benedictine
+                        nuns, Wherwell</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_584">
+                    <orgName type="display">Benedictine abbey of St Peter and St
+                        Hilda, Whitby</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_585">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Whitland</orgName>
+                    <region type="county">Dyfed</region>
+                </org>
+                <org xml:id="mlgbOrg_586">
+                    <orgName type="display">Augustinian abbey of St James,
+                        Wigmore</orgName>
+                    <region type="county">Herefordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_587">
+                    <orgName type="display">Benedictine alien priory; cell of Bec,
+                        Wilsford</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_588">
+                    <orgName type="display">Abbey of St Mary the Virgin and St
+                        Edith, of Benedictine nuns, Wilton</orgName>
+                    <region type="county">Wiltshire</region>
+                </org>
+                <org xml:id="mlgbOrg_589">
+                    <orgName type="display">Benedictine abbey of St Kenelm,
+                        Winchcombe</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_590">
+                    <orgName type="display">Franciscan convent, Winchelsea</orgName>
+                    <region type="county">Sussex</region>
+                </org>
+                <org xml:id="mlgbOrg_592">
+                    <orgName type="display">Abbey of St Mary the Virgin, of
+                        Benedictine nuns (Nunnaminster), Winchester</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_593">
+                    <orgName type="display">College of St Elizabeth of Hungary,
+                        Winchester</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_594">
+                    <orgName type="display">Dominican convent, Winchester</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_595">
+                    <orgName type="display">College of St Mary the Virgin of
+                        Winchester, Winchester</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_596">
+                    <orgName type="display">Royal collegiate chapel of St George,
+                        Windsor</orgName>
+                    <region type="county">Berkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_597">
+                    <orgName type="display">Priory of Saint Mary the Virgin, of
+                        Cistercian nuns, Wintney</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_598">
+                    <orgName type="display">Charterhouse of Saint Mary the Virgin,
+                        Witham</orgName>
+                    <region type="county">Somerset</region>
+                </org>
+                <org xml:id="mlgbOrg_599">
+                    <orgName type="display">Augustinian priory of St Mary the Virgin
+                        and St Leonard, Wombridge</orgName>
+                    <region type="county">Shropshire</region>
+                </org>
+                <org xml:id="mlgbOrg_600">
+                    <orgName type="display">Cistercian abbey of Saint Mary the
+                        Virgin, Woburn</orgName>
+                    <region type="county">Bedfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_601">
+                    <orgName type="display">Benedictine cathedral priory of St Mary
+                        the Virgin, Worcester</orgName>
+                    <region type="county">Worcestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_602">
+                    <orgName type="display">Franciscan convent, Worcester</orgName>
+                    <region type="county">Worcestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_603">
+                    <orgName type="display">Dominican convent, Worcester</orgName>
+                    <region type="county">Worcestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_604">
+                    <orgName type="display">Augustinian priory of Saint Mary the
+                        Virgin and St Cuthbert, Worksop (or Radford)</orgName>
+                    <region type="county">Nottinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_605">
+                    <orgName type="display">Augustinian priory of Saint Mary the
+                        Virgin, Wroxton</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_606">
+                    <orgName type="display">Benedictine abbey of Saint Mary the
+                        Virgin; originally priory and cell of St Albans, Wymondham</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_607">
+                    <orgName type="display">Cathedral church of St Peter,
+                        York</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_608">
+                    <orgName type="display">Benedictine abbey of Saint Mary the
+                        Virgin, York</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_609">
+                    <orgName type="display">Benedictine alien priory of Holy
+                        Trinity; cell of Marmoutier, York</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_610">
+                    <orgName type="display">Franciscan convent, York</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_611">
+                    <orgName type="display">Convent of Austin friars, York </orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_612">
+                    <orgName type="display">Hospital of St Leonard (formerly of St
+                        Peter), York</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_613">
+                    <orgName type="display">Collegiate chapel of St Mary and Holy
+                        Angels, York</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_616">
+                    <orgName type="display">Priory of St Peter, of Augustinian nuns,
+                        Harrold</orgName>
+                    <region type="county">Bedfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_617">
+                    <orgName type="display">Hospital of St Ethelbert,
+                        Hereford</orgName>
+                    <region type="county">Herefordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_618">
+                    <orgName type="display">Trinitarian convent, Hounslow</orgName>
+                    <region type="county">Middlesex</region>
+                </org>
+                <org xml:id="mlgbOrg_619">
+                    <orgName type="display">Carmelite friary, Aylesford</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_620">
+                    <orgName type="display">Carmelite friary, Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_621">
+                    <orgName type="display">Alien priory (cell of Lyre) of St Mary
+                        the Virgin, Carisbrooke</orgName>
+                    <region type="county">Isle of Wight</region>
+                </org>
+                <org xml:id="mlgbOrg_622">
+                    <orgName type="display">Austin Friars, Grimsby</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_623">
+                    <orgName type="display">Collegiate church of All Saints,
+                        Derby</orgName>
+                    <region type="county">Derbyshire</region>
+                </org>
+                <org xml:id="mlgbOrg_624">
+                    <orgName type="display">Cluniac priory of St Mary Magdalen; cell
+                        of Lewes, Monkton Farleigh</orgName>
+                    <region type="county">Wiltshire</region>
+                </org>
+                <org xml:id="mlgbOrg_625">
+                    <orgName type="display">Benedictine priory of St Nicholas; cell
+                        of Norwich, Yarmouth</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_626">
+                    <orgName type="display">Benedictine priory of St Michael; cell
+                        of St Mary's abbey, York, Rumburgh</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_627">
+                    <orgName type="display">Benedictine abbey of St Benedict. See
+                        HOLME ST BENET'S, St Benet Holme</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_628">
+                    <orgName type="display">Benedictine alien priory of St Mary the
+                        Virgin; cell of St Serge, Angers, Totnes</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_629">
+                    <orgName type="display">Benedictine abbey of St Mary the Virgin
+                        and St James. See SAFFRON WALDEN, Walden</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_631">
+                    <orgName type="display">Benedictine abbey of St Paul; see
+                        JARROW, Monkwearmouth</orgName>
+                    <region type="county">Durham</region>
+                </org>
+                <org xml:id="mlgbOrg_632">
+                    <orgName type="display">Augustinian priory of St Mary the Virgin
+                        and St Edmund, Elsham</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_633">
+                    <orgName type="display">Augustinian priory of St Augustine and
+                        St Olave, Wellow</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_634">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Selborne</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_635">
+                    <orgName type="display">Guild of Kalendars in the church of All
+                        Saints, Bristol</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_636">
+                    <orgName type="display">Collegiate church of St Mary the Virgin,
+                        Crail</orgName>
+                    <region type="county">Fife</region>
+                </org>
+                <org xml:id="mlgbOrg_637">
+                    <orgName type="display">University library, Glasgow</orgName>
+                    <region type="county">Lanarkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_638">
+                    <orgName type="display">Dominican convent, St Andrews</orgName>
+                    <region type="county">Fife</region>
+                </org>
+                <org xml:id="mlgbOrg_639">
+                    <orgName type="display">St Salvator's College, St
+                        Andrews</orgName>
+                    <region type="county">Fife</region>
+                </org>
+                <org xml:id="mlgbOrg_640">
+                    <orgName type="display">University library, St Andrews</orgName>
+                    <region type="county">Fife</region>
+                </org>
+                <org xml:id="mlgbOrg_641">
+                    <orgName type="display">Chapel Royal of St Mary the Virgin and
+                        St Michael, Stirling</orgName>
+                    <region type="county">Stirlingshire</region>
+                </org>
+                <org xml:id="mlgbOrg_642">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Dunkeswell</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_643">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Sawtry</orgName>
+                    <region type="county">Huntingdonshire</region>
+                </org>
+                <org xml:id="mlgbOrg_644">
+                    <orgName type="display">Gilbertine priory of St Mary the Virgin,
+                        Bullington</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_645">
+                    <orgName type="display">Gilbertine priory of St Mary the Virgin,
+                        Haverholme</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_646">
+                    <orgName type="display">Gilbertine priory of St Mary the Virgin,
+                        North Ormsby</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_647">
+                    <orgName type="display">Premonstratensian abbey of St Radegund,
+                        Bradsole</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_648">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Newenham</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_649">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Ivychurch</orgName>
+                    <region type="county">Wiltshire</region>
+                </org>
+                <org xml:id="mlgbOrg_650">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Blythburgh</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_651">
+                    <orgName type="display">Cistercian abbey of St Mary the Virgin,
+                        Tilty</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_652">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Little Dunmow</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_654">
+                    <orgName type="display">Premonstratensian abbey of St Saviour or
+                        Holy Trinity, Torre</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_655">
+                    <orgName type="display">Augustinian priory of St Leonard,
+                        Torksey</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_656">
+                    <orgName type="display">Gilbertine priory of St Mary the Virgin,
+                        Malton</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_658">
+                    <orgName type="display">Augustinian abbey of St James,
+                        Northampton</orgName>
+                    <region type="county">Northamptonshire</region>
+                </org>
+                <org xml:id="mlgbOrg_659">
+                    <orgName type="display">Augustinian priory of Holy Trinity,
+                        Ipswich</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_661">
+                    <orgName type="display">Augustinian priory of St Peter and St
+                        Paul, Ipswich</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_662">
+                    <orgName type="display">Augustinian abbey of Holy Cross, St Mary
+                        the Virgin, and All Saints, Jedburgh</orgName>
+                    <region type="county">Roxburghshire</region>
+                </org>
+                <org xml:id="mlgbOrg_663">
+                    <orgName type="display">Augustinian priory of St Peter and St
+                        Paul, Brinkburn</orgName>
+                    <region type="county">Northumberland</region>
+                </org>
+                <org xml:id="mlgbOrg_664">
+                    <orgName type="display">Augustinian priory of St Mary the
+                        Virgin, Norton</orgName>
+                    <region type="county">Cheshire</region>
+                </org>
+                <org xml:id="mlgbOrg_665">
+                    <orgName type="display">Augustinian priory of St Mary the Virgin
+                        and St Leonard, Wormsley</orgName>
+                    <region type="county">Herefordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_666">
+                    <orgName type="display">Cluniac priory of St Mary the Virgin,
+                        Clifford</orgName>
+                    <region type="county">Herefordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_667">
+                    <orgName type="display">Benedictine priory of St Mary the
+                        Virgin, Goldcliff</orgName>
+                    <region type="county">Monmouthshire</region>
+                </org>
+                <org xml:id="mlgbOrg_668">
+                    <orgName type="display">Burden Hostel, Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_669">
+                    <orgName type="display">Christ's College (formerly Godshouse),
+                        Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_670">
+                    <orgName type="display">Queens' College (formerly The Queen's
+                        College of St Margaret and St Bernard), Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_671">
+                    <orgName type="display">St Catharine's College (formerly St
+                        Catharine's Hall), Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_672">
+                    <orgName type="display">Trinity Hall, Cambridge</orgName>
+                    <region type="county">Cambridgeshire</region>
+                </org>
+                <org xml:id="mlgbOrg_673">
+                    <orgName type="display">Hospital of the Holy Trinity,
+                        Beverley</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_674">
+                    <orgName type="display">Hospital of Clyst Gabriel, Bishop's
+                        Clyst</orgName>
+                    <region type="county">Devon</region>
+                </org>
+                <org xml:id="mlgbOrg_675">
+                    <orgName type="display">Hospital of St John the Evangelist,
+                        Blyth</orgName>
+                    <region type="county">Nottinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_680">
+                    <orgName type="display">Grammar school, Bristol</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_681">
+                    <orgName type="display">Grammar school,
+                        Brough-under-Stainmore</orgName>
+                    <region type="county">Westmorland</region>
+                </org>
+                <org xml:id="mlgbOrg_677">
+                    <orgName type="display">Guild of St Mary, Boston</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_678">
+                    <orgName type="display">Hospital of St John the Baptist,
+                        Bridport</orgName>
+                    <region type="county">Dorset</region>
+                </org>
+                <org xml:id="mlgbOrg_679">
+                    <orgName type="display">Hospital of St Mary Magdalen,
+                        Bristol</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_682">
+                    <orgName type="display">Hospital of St James by Canterbury,
+                        Canterbury</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_683">
+                    <orgName type="display">Hospital of St John the Baptist,
+                        Northgate, Canterbury</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_684">
+                    <orgName type="display">Hospital of St Nicholas, Harbledown,
+                        Canterbury</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_685">
+                    <orgName type="display">Guild of the Holy Trinity,
+                        Coventry</orgName>
+                    <region type="county">Warwickshire</region>
+                </org>
+                <org xml:id="mlgbOrg_686">
+                    <orgName type="display">Hospital of St Mary or Domus Dei,
+                        Dover</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_687">
+                    <orgName type="display">God's House, Ewelme</orgName>
+                    <region type="county">Oxfordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_688">
+                    <orgName type="display">Hospital of St Edmund, Bishop and
+                        Confessor, Gateshead</orgName>
+                    <region type="county">Co. Durham</region>
+                </org>
+                <org xml:id="mlgbOrg_689">
+                    <orgName type="display">Hospital of St Giles, Kepier</orgName>
+                    <region type="county">Co. Durham</region>
+                </org>
+                <org xml:id="mlgbOrg_690">
+                    <orgName type="display">Hospital of St Katharine,
+                        Ledbury</orgName>
+                    <region type="county">Herefordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_691">
+                    <orgName type="display">Hospital of the Holy Innocents,
+                        Lincoln</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_692">
+                    <orgName type="display">Hospital of St Anthony, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_693">
+                    <orgName type="display">Hospital of St Bartholomew, Smithfield,
+                        London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_694">
+                    <orgName type="display">Hospital of St Giles in the Fields,
+                        Holborn, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_695">
+                    <orgName type="display">Hospital of St Katharine,
+                        London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_696">
+                    <orgName type="display">Chapel of St Thomas, London</orgName>
+                    <region type="county">London Bridge</region>
+                </org>
+                <org xml:id="mlgbOrg_697">
+                    <orgName type="display">Court of Arches, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_698">
+                    <orgName type="display">Inner Temple, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_699">
+                    <orgName type="display">Middle Temple, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_700">
+                    <orgName type="display">Guildhall, library, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_701">
+                    <orgName type="display">Barber-Surgeons' Company,
+                        London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_702">
+                    <orgName type="display">College of Physicians, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_703">
+                    <orgName type="display">Grammar school, Manchester</orgName>
+                    <region type="county">Lancashire</region>
+                </org>
+                <org xml:id="mlgbOrg_704">
+                    <orgName type="display">Hospital of St Mary the Virgin, of
+                        Westgate, Newcastle-upon-Tyne</orgName>
+                    <region type="county">Northumberland</region>
+                </org>
+                <org xml:id="mlgbOrg_705">
+                    <orgName type="display">Hospital of St Mary Magdalen,
+                        Norwich</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_706">
+                    <orgName type="display">Carnary chapel, library,
+                        Norwich</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_707">
+                    <orgName type="display">College and almshouse,
+                        Pontefract</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_708">
+                    <orgName type="display">Hospital of St John the Baptist,
+                        Ripon</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_709">
+                    <orgName type="display">Hospital of St Mary Magdalen,
+                        Ripon</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_710">
+                    <orgName type="display">Bridge chapel, Rochester</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_711">
+                    <orgName type="display">Hospital of the Holy Trinity and St
+                        Thomas the Martyr, Rome</orgName>
+                    <region type="county">Italy</region>
+                </org>
+                <org xml:id="mlgbOrg_712">
+                    <orgName type="display">Almshouse, Saffron Walden</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_713">
+                    <orgName type="display">Hospital of the Holy Trinity,
+                        Salisbury</orgName>
+                    <region type="county">Wiltshire</region>
+                </org>
+                <org xml:id="mlgbOrg_714">
+                    <orgName type="display">Hospital of St John the Baptist,
+                        Sandwich</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_715">
+                    <orgName type="display">Grammar school, Sedbergh</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_716">
+                    <orgName type="display">Hospital of St John the Baptist,
+                        Sevenoaks</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_717">
+                    <orgName type="display">Hospital of St Mary the Virgin, Lazarus,
+                        Martha and Mary, Sherburn</orgName>
+                    <region type="county">Co. Durham</region>
+                </org>
+                <org xml:id="mlgbOrg_718">
+                    <orgName type="display">Hospital of St Julian, or God's House
+                        (Domus Dei), Southampton</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_719">
+                    <orgName type="display">Hospital of St Giles, Stamford</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_720">
+                    <orgName type="display">Hospital of St Thomas the Martyr and St
+                        John the Baptist, Stamford</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_721">
+                    <orgName type="display">Guild of Holy Cross,
+                        Stratford-upon-Avon</orgName>
+                    <region type="county">Warwickshire</region>
+                </org>
+                <org xml:id="mlgbOrg_722">
+                    <orgName type="display">Hospital of St Mary Magdalen,
+                        Thetford</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_723">
+                    <orgName type="display">Grammar school, Wainfleet</orgName>
+                    <region type="county">Lincolnshire</region>
+                </org>
+                <org xml:id="mlgbOrg_724">
+                    <orgName type="display">Bridge chapel of St Mary the Virgin,
+                        Wakefield</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_725">
+                    <orgName type="display">Hospital of St Leonard, West
+                        Somerton</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_726">
+                    <orgName type="display">Hospital of the Holy Trinity and free
+                        grammar school, Whitkirk</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_727">
+                    <orgName type="display">Hospital of St Cross,
+                        Winchester</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_728">
+                    <orgName type="display">Hospital of St John the Baptist,
+                        Winchester</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_729">
+                    <orgName type="display">Hospital of St Mary Magdalen,
+                        Winchester</orgName>
+                    <region type="county">Hampshire</region>
+                </org>
+                <org xml:id="mlgbOrg_730">
+                    <orgName type="display">Carnary chapel, library,
+                        Worcester</orgName>
+                    <region type="county">Worcestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_731">
+                    <orgName type="display">Grammar school,
+                        Wotton-under-Edge</orgName>
+                    <region type="county">Gloucestershire</region>
+                </org>
+                <org xml:id="mlgbOrg_732">
+                    <orgName type="display">Church or hospital of All Saints,
+                        Writtle</orgName>
+                    <region type="county">Essex</region>
+                </org>
+                <org xml:id="mlgbOrg_733">
+                    <orgName type="display">Hospital of Christ and St Mary the
+                        Virgin, Fossgate, York</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_734">
+                    <orgName type="display">Hospital of St Thomas, outside
+                        Micklegate Bar, York</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_735">
+                    <orgName type="display">Chapel of St Anne on Foss Bridge,
+                        York</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_736">
+                    <orgName type="display">Chantry college of St Mary the Virgin,
+                        Ashford</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_737">
+                    <orgName type="display">Collegiate church of St Andrew, Bishop
+                        Auckland</orgName>
+                    <region type="county">Co. Durham</region>
+                </org>
+                <org xml:id="mlgbOrg_738">
+                    <orgName type="display">English Hospital of St Edmund,
+                        Rome</orgName>
+                    <region type="county">Italy</region>
+                </org>
+                <org xml:id="mlgbOrg_739">
+                    <orgName type="display">Royal free chapel of the Holy Trinity,
+                        Bosham</orgName>
+                    <region type="county">Sussex</region>
+                </org>
+                <org xml:id="mlgbOrg_740">
+                    <orgName type="display">Collegiate church of the Holy Trinity,
+                        Clifton</orgName>
+                    <region type="county">Nottinghamshire</region>
+                </org>
+                <org xml:id="mlgbOrg_741">
+                    <orgName type="display">Collegiate church of St Peter and St
+                        Paul, Heytesbury</orgName>
+                    <region type="county">Wiltshire</region>
+                </org>
+                <org xml:id="mlgbOrg_742">
+                    <orgName type="display">Collegiate church of St Peter and St
+                        Paul, Howden</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_743">
+                    <orgName type="display">Cardinal's College of St Mary in
+                        Ipswich, Ipswich</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_744">
+                    <orgName type="display">Collegiate church of St Peter,
+                        Irthlingborough</orgName>
+                    <region type="county">Northamptonshire</region>
+                </org>
+                <org xml:id="mlgbOrg_745">
+                    <orgName type="display">Collegiate church of St Peter and St
+                        Paul, Lingfield</orgName>
+                    <region type="county">Surrey</region>
+                </org>
+                <org xml:id="mlgbOrg_746">
+                    <orgName type="display">Royal free chapel of St Martin-le-Grand,
+                        London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_747">
+                    <orgName type="display">Guildhall College (Collegiate church of
+                        St Mary the Virgin, St Mary Magdalen, and All Saints), London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_748">
+                    <orgName type="display">Jesus Commons, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_749">
+                    <orgName type="display">St James Commons at St James
+                        Garlickhythe, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_750">
+                    <orgName type="display">Chantry library at St
+                        Peter-upon-Cornhill, London</orgName>
+                </org>
+                <org xml:id="mlgbOrg_751">
+                    <orgName type="display">Collegiate church of St Mary the Virgin,
+                        Mettingham</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_752">
+                    <orgName type="display">Carnary College of St John the
+                        Evangelist, Norwich</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_753">
+                    <orgName type="display">Downes Chapel (Chantry chapel of St Mary
+                        the Virgin and Jesus), Pott Shrigley</orgName>
+                    <region type="county">Cheshire</region>
+                </org>
+                <org xml:id="mlgbOrg_754">
+                    <orgName type="display">Minster (collegiate church) of St Peter,
+                        later St Wilfrid, Ripon</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_755">
+                    <orgName type="display">Collegiate church of St Edmund,
+                        Salisbury</orgName>
+                    <region type="county">Wiltshire</region>
+                </org>
+                <org xml:id="mlgbOrg_756">
+                    <orgName type="display">Collegiate church of St Gregory,
+                        Sudbury</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_757">
+                    <orgName type="display">Royal collegiate chapel of St Edith,
+                        Tamworth</orgName>
+                    <region type="county">Staffordshire</region>
+                </org>
+                <org xml:id="mlgbOrg_758">
+                    <orgName type="display">Royal free chapel of St Nicholas,
+                        Wallingford</orgName>
+                    <region type="county">Berkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_759">
+                    <orgName type="display">Collegiate church of St Mary the Virgin,
+                        St John the Baptist, and St Andrew, Wingfield</orgName>
+                    <region type="county">Suffolk</region>
+                </org>
+                <org xml:id="mlgbOrg_760">
+                    <orgName type="display">Collegiate church of St Mary the Virgin,
+                        Wingham</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_761">
+                    <orgName type="display">Collegiate church of St Gregory and St
+                        Martin, Wye</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_762">
+                    <orgName type="display">Cathedral church of St Asaph, St
+                        Asaph</orgName>
+                    <region type="county">Flintshire</region>
+                </org>
+                <org xml:id="mlgbOrg_763">
+                    <orgName type="display">College of St William, York</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_764">
+                    <orgName type="display">Bedern of the Minster, York</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_765">
+                    <orgName type="display">Carmelite convent, Hulne</orgName>
+                    <region type="county">Northumberland</region>
+                </org>
+                <org xml:id="mlgbOrg_766">
+                    <orgName type="display">Augustinian convent,
+                        Kingston-upon-Hull</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_767">
+                    <orgName type="display">Augustinian priory of St Colmoc; cell of
+                        Cambuskenneth, Inchmahome (Insula S. Colmoci)</orgName>
+                    <region type="county">Stirlingshire</region>
+                </org>
+                <org xml:id="mlgbOrg_768">
+                    <orgName type="display">Dominican Convent, Scarborough</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_769">
+                    <orgName type="display">'Celtic' monastery,
+                        Llandeilo-Fawr</orgName>
+                    <region type="county">Dyfed</region>
+                </org>
+                <org xml:id="mlgbOrg_770">
+                    <orgName type="display">Benedictine alien priory of St Andrew,
+                        Tywardreath</orgName>
+                    <region type="county">Cornwall</region>
+                </org>
+                <org xml:id="mlgbOrg_771">
+                    <orgName type="display">Priory of St Mary the Virgin of
+                        Augustinian nuns, Iona</orgName>
+                    <region type="county">Argyllshire</region>
+                </org>
+                <org xml:id="mlgbOrg_772">
+                    <orgName type="display">Dominican convent, Canterbury</orgName>
+                    <region type="county">Kent</region>
+                </org>
+                <org xml:id="mlgbOrg_773">
+                    <orgName type="display">Priory of BVM and St Andrew, of
+                        Benedictine nuns, Marrick</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+                <org xml:id="mlgbOrg_774">
+                    <orgName type="display">Dominican convent, Lynn,
+                        King's</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_775">
+                    <orgName type="display">Augustinian priory of the Holy
+                        Sepulchre, Thetford</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_776">
+                    <orgName type="display">Dominican convent, Thetford</orgName>
+                    <region type="county">Norfolk</region>
+                </org>
+                <org xml:id="mlgbOrg_777">
+                    <orgName type="display">Augustinian priory of St Nicholas,
+                        Drax</orgName>
+                    <region type="county">Yorkshire</region>
+                </org>
+            </listOrg>
+        </body>
+    </text>
+</TEI>
