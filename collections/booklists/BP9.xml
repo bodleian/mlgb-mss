@@ -1,0 +1,52 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_BP9">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BENEDICTINES: Peterborough. BP9. Books given by Abbot John de Caux
+               (1250-63)</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">BP9.3</ab>
+            </div>
+            <div type="entry" n="4">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">BP9.4</ab>
+            </div>
+            <div type="entry" n="5">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">BP9.5</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_667">Concilium Lateranense IV, the
+                  Statutes of the Fourth Lateran Council (1215)</author><title key="mlgbWork_667_1"
+               /></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_2973">Robert Grosseteste, known as
+                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_51"
+                  >Templum Domini</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_3287">Testamentum XII patriarcharum, tr.
+                  Robert Grosseteste</author><title key="mlgbWork_3287_1"/></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

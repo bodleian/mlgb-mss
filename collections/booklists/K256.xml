@@ -1,0 +1,39 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_K256">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>HENRY DE KIRKESTEDE: HENRY DE KIRKESTEDE. K256. Catalogus, c. 1360</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">K256.1</ab>
+               <ab type="mlgb_catalogueExtract">(`Heraclidis librum de uitis fratrum qui quidem
+                  liber paradisus uocatur', 1 copy)</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_2456">Palladius of Hellenopolis [c365—425]
+                  </author><title key="mlgbWork_2456_1">Historia Lausiaca, Latin tr.</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

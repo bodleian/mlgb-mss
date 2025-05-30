@@ -1,0 +1,116 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_F17">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>NEW FRIARS: Ipswich-Franciscan. F17. List of donors of books, 14th cent.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">F17.1</ab>
+               <ab type="mlgb_catalogueExtract">(attrib. Grosseteste)</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">F17.†2</ab>
+               <ab type="mlgb_catalogueExtract">(`historiola Gulielmi M.')</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">F17.3</ab>
+               <ab type="mlgb_catalogueExtract">(`epistola Ennodii' Z21.23</ab>
+            </div>
+            <div type="entry" n="4">
+               <bibl type="identification" corresp="#bibl_4"/>
+               <ab type="mlgb_copyCode">F17.4</ab>
+               <ab type="mlgb_catalogueExtract">(`omeliae Mauricii')</ab>
+            </div>
+            <div type="entry" n="5">
+               <bibl type="identification" corresp="#bibl_5"/>
+               <ab type="mlgb_copyCode">F17.‡5</ab>
+               <ab type="mlgb_catalogueExtract">(`omelie Odonis')</ab>
+            </div>
+            <div type="entry" n="5">
+               <bibl type="identification" corresp="#bibl_6"/>
+               <ab type="mlgb_copyCode">F17.‡5</ab>
+               <ab type="mlgb_catalogueExtract">(`omelie Odonis')</ab>
+            </div>
+            <div type="entry" n="6">
+               <bibl type="identification" corresp="#bibl_7"/>
+               <ab type="mlgb_copyCode">F17.6</ab>
+               <ab type="mlgb_catalogueExtract">(`Lincolniensis de resurrectione')</ab>
+            </div>
+            <div type="entry" n="8">
+               <bibl type="identification" corresp="#bibl_8"/>
+               <ab type="mlgb_copyCode">F17.†8</ab>
+               <ab type="mlgb_catalogueExtract">(`recollectiones L. in tractatus pentientiae')</ab>
+            </div>
+            <div type="entry" n="9">
+               <bibl type="identification" corresp="#bibl_9"/>
+               <ab type="mlgb_copyCode">F17.†9</ab>
+               <ab type="mlgb_catalogueExtract">(`Wiclif de legibus et de ueneno')</ab>
+            </div>
+            <div type="entry" n="10">
+               <bibl type="identification" corresp="#bibl_10"/>
+               <ab type="mlgb_copyCode">F17.10</ab>
+               <ab type="mlgb_catalogueExtract">(`Peccham de mysterio †minorum')</ab>
+            </div>
+            <div type="entry" n="12">
+               <bibl type="identification" corresp="#bibl_11"/>
+               <ab type="mlgb_copyCode">F17.12</ab>
+            </div>
+            <div type="entry" n="13">
+               <bibl type="identification" corresp="#bibl_12"/>
+               <ab type="mlgb_copyCode">F17.13</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_2586">Peter of Limoges [†1306]
+                  </author><title key="mlgbWork_2586_1">Oculus moralis</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_3735">William of Malmesbury OSB
+                  [c1080—1143] </author><title key="mlgbWork_3735_7">Gesta regum
+               Anglorum</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_876">Magnus Felix Ennodius [473/4—521],
+                  bishop of Ticino </author><title key="mlgbWork_876_2">Epistulae</title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_2219">Maurice of Sully [†1196], bishop of
+                  Paris </author><title key="mlgbWork_2219_1">Sermones de dominicis</title></bibl>
+            <bibl xml:id="bibl_5"><author key="mlgbAuthor_2387">Odo of Canterbury OSB [†1200], abbot
+                  of Battle </author><title key="mlgbWork_2387_3">Sermones</title></bibl>
+            <bibl xml:id="bibl_6"><author key="mlgbAuthor_2389">Odo of Cheriton [†1247]
+                  </author><title key="mlgbWork_2389_3">Sermones</title></bibl>
+            <bibl xml:id="bibl_7"><author key="mlgbAuthor_2973">Robert Grosseteste, known as
+                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_36">De
+                  resurrectione (Dictum 20)</title></bibl>
+            <bibl xml:id="bibl_8"><author key="mlgbAuthor_2973">Robert Grosseteste, known as
+                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_32">De
+                  modo confitendi, inc. `Ad primum dicat sacerdos'</title></bibl>
+            <bibl xml:id="bibl_9"><author key="mlgbAuthor_1920">John Wyclif [†1384] </author><title
+                  key="mlgbWork_1920_4">De noua praeuaricantia mandatorum</title></bibl>
+            <bibl xml:id="bibl_10"><author key="mlgbAuthor_1810">John Pecham OFM [c1240—1292]
+                  </author><title key="mlgbWork_1810_6">De numeris mysticis</title></bibl>
+            <bibl xml:id="bibl_11"><author key="mlgbAuthor_36">Adam of Merrymouth [1275—1347]
+                  </author><title key="mlgbWork_36_1">Continuatio chronicarum</title></bibl>
+            <bibl xml:id="bibl_12"><author key="mlgbAuthor_1892">John Tonneys OESA [† by 1514]
+                  </author><title key="mlgbWork_1892_1">grammatical writings</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

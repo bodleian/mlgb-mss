@@ -1,0 +1,62 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_K51">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>HENRY DE KIRKESTEDE: HENRY DE KIRKESTEDE. K51. Catalogus, c. 1360</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">K51.1</ab>
+               <ab type="mlgb_catalogueExtract">(`de naturis rerum Ricardo episcopo Bathoniensi',
+                  inc.)</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">K51.2</ab>
+               <ab type="mlgb_catalogueExtract">(attrib. Adelard)</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">K51.3</ab>
+               <ab type="mlgb_catalogueExtract">(`de septem artibus liberalibus', inc.)</ab>
+            </div>
+            <div type="entry" n="4">
+               <bibl type="identification" corresp="#bibl_4"/>
+               <ab type="mlgb_copyCode">K51.4</ab>
+               <ab type="mlgb_catalogueExtract">(`librum Ezich iafaris transtulit de arabico in
+                  latinum')</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_43">Adelard of Bath [early 12th cent.]
+                  </author><title key="mlgbWork_43_2">Quaestiones naturales</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_2522">Peter Abelard [1079—1142]
+                  </author><title key="mlgbWork_2522_6">Sic et non</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_43">Adelard of Bath [early 12th cent.]
+                  </author><title key="mlgbWork_43_1">De eodem et diuerso</title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_115">Alcoarismi (Abu `Abd Allah Muhammad
+                  b. Musa al-Khwarizmi) [† after 846] </author><title key="mlgbWork_115_1"
+                  >al-Khwarizmi's Zij, titled Ezich Elkauresmi, tr. Adelard of Bath</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

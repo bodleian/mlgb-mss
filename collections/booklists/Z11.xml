@@ -1,0 +1,112 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_Z11">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>CISTERCIANS: Kirkstead. Z11. Lincolnshire list, 1528</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">Z11.1</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">Z11.2b</ab>
+               <ab type="mlgb_catalogueExtract">(anon.)</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">Z11.†2a</ab>
+               <ab type="mlgb_catalogueExtract">(`Hugo in cronicis')</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_4"/>
+               <ab type="mlgb_copyCode">Z11.3</ab>
+            </div>
+            <div type="entry" n="4">
+               <bibl type="identification" corresp="#bibl_5"/>
+               <ab type="mlgb_copyCode">Z11.4</ab>
+            </div>
+            <div type="entry" n="5" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_3361">
+               <bibl type="identification" corresp="#bibl_6"/>
+               <ab type="mlgb_copyCode">Z11.*5</ab>
+               <ab type="mlgb_catalogueExtract">= H2.*1066</ab>
+            </div>
+            <div type="entry" n="6" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_3362">
+               <bibl type="identification" corresp="#bibl_7"/>
+               <ab type="mlgb_copyCode">Z11.*6</ab>
+               <ab type="mlgb_catalogueExtract">= H2.*844</ab>
+            </div>
+            <div type="entry" n="7">
+               <bibl type="identification" corresp="#bibl_8"/>
+               <ab type="mlgb_copyCode">Z11.7b</ab>
+            </div>
+            <div type="entry" n="7">
+               <bibl type="identification" corresp="#bibl_9"/>
+               <ab type="mlgb_copyCode">Z11.7c</ab>
+            </div>
+            <div type="entry" n="7">
+               <bibl type="identification" corresp="#bibl_10"/>
+               <ab type="mlgb_copyCode">Z11.7d</ab>
+            </div>
+            <div type="entry" n="7">
+               <bibl type="identification" corresp="#bibl_11"/>
+               <ab type="mlgb_copyCode">Z11.7a</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_2834">Ranulf de Glanvill [†1190]
+                  </author><title key="mlgbWork_2834_1">(attrib.), Tractatus de legibus et
+                  consuetudinibus regum Angliae</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1389">Honorius Augustodunensis
+                  [c1080—1137] </author><title key="mlgbWork_1389_7">Imago mundi</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_1410">Hugh of Fleury OSB [† c1135]
+                  </author><title key="mlgbWork_1410_1">Historia ecclesiastica siue
+                  Chronicon</title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_1149">Gilbert of Hoyland OCist [†1172],
+                  abbot of Swineshead </author><title key="mlgbWork_1149_1">Sermons on the Song of
+                  Songs 3</title></bibl>
+            <bibl xml:id="bibl_5"><author key="mlgbAuthor_2957">Robert of Bridlington OSA [† after
+                  1154] </author><title key="mlgbWork_2957_3">Commentary on Exodus</title></bibl>
+            <bibl xml:id="bibl_6"><author key="mlgbAuthor_1423">Hugh of Saint-Victor OSA
+                  [c1096—1141] </author><title key="mlgbWork_1423_6">Commentary on ps. Dionysius's
+                  Hierarchia caelestis</title></bibl>
+            <bibl xml:id="bibl_7"><author key="mlgbAuthor_2818">Ralph of Flaix OSB [mid 12th cent.],
+                  abbot of Flaix </author><title key="mlgbWork_2818_1">Commentary on
+                  Leviticus</title></bibl>
+            <bibl xml:id="bibl_8"><author key="mlgbAuthor_3235">Stephen Langton [c1165—1228],
+                  archbishop of Canterbury </author><title key="mlgbWork_3235_13">Commentary on
+                  Tobit, inc. `Fiant luminaria in firmamento celi [Gn 1</title></bibl>
+            <bibl xml:id="bibl_9"><author key="mlgbAuthor_3235">Stephen Langton [c1165—1228],
+                  archbishop of Canterbury </author><title key="mlgbWork_3235_14">Commentary on
+                  Judith, inc. `Lucerna splendens super candelabrum aureum, &amp;c. [Sir
+               26</title></bibl>
+            <bibl xml:id="bibl_10"><author key="mlgbAuthor_3235">Stephen Langton [c1165—1228],
+                  archbishop of Canterbury </author><title key="mlgbWork_3235_15">Commentary on
+                  Esther, inc. `Legitur in XI Prouerbiorum, Mulier gratiosa, &amp;c. [Prv
+               11</title></bibl>
+            <bibl xml:id="bibl_11"><author key="mlgbAuthor_3235">Stephen Langton [c1165—1228],
+                  archbishop of Canterbury </author><title key="mlgbWork_3235_24">Commentary on
+                  Isaiah, inc. `Quattuor rote per bases singulas &amp;c. [3 Rg 7</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

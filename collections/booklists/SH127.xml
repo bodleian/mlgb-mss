@@ -1,0 +1,48 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_SH127">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SECULAR INSTITUTIONS: Hospitals, Towns, and the Professions: York, St Leonard.
+               SH127. Bequest by John de Stokeslay, 10 August 1400</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">SH127.3</ab>
+               <ab type="mlgb_catalogueExtract">(`grandoctrinale')</ab>
+            </div>
+            <div type="entry" n="4">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">SH127.4</ab>
+               <ab type="mlgb_catalogueExtract">(`alium librum cum exposicione uocabulorum
+                  bibliothece')</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_149">Alexander de Villa Dei [c1170—c1240]
+                  </author><title key="mlgbWork_149_2">Doctrinale magnum</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_3673">William Brito [late 13th cent.]
+                  </author><title key="mlgbWork_3673_3">Expositiones uocabulorum
+               Bibliae</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,48 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_F41">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>NEW FRIARS: Reading-Franciscan. F41. Leland, c. 1536-40</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">F41.1</ab>
+               <ab type="mlgb_catalogueExtract">(`Io. Pecham de numeris et mysteriis
+                  numerorum')</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">F41.2</ab>
+               <ab type="mlgb_catalogueExtract">(Eustachi metropolitani enarrationes in ethicorum
+                  Aristotelis libros')</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1810">John Pecham OFM [c1240—1292]
+                  </author><title key="mlgbWork_1810_6">De numeris mysticis</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_922">Eustratius [fl. 1082—1114]
+                  </author><title key="mlgbWork_922_2">(&amp; others), Commentary on Aristotle's
+                  Ethica, tr. R. Grosseteste</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

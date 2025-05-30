@@ -1,0 +1,108 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_BP7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BENEDICTINES: Peterborough. BP7. Books given by Abbot Walter of St. Edmund
+               (1233-45)</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">BP7.1</ab>
+               <ab type="mlgb_catalogueExtract">(`decretale')</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">BP7.2</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">BP7.3</ab>
+            </div>
+            <div type="entry" n="5">
+               <bibl type="identification" corresp="#bibl_4"/>
+               <ab type="mlgb_copyCode">BP7.5</ab>
+            </div>
+            <div type="entry" n="6">
+               <bibl type="identification" corresp="#bibl_5"/>
+               <ab type="mlgb_copyCode">BP7.6a</ab>
+               <ab type="mlgb_catalogueExtract">(`Rabanus de naturis rerum')</ab>
+            </div>
+            <div type="entry" n="6">
+               <bibl type="identification" corresp="#bibl_6"/>
+               <ab type="mlgb_copyCode">BP7.6b</ab>
+            </div>
+            <div type="entry" n="7">
+               <bibl type="identification" corresp="#bibl_7"/>
+               <ab type="mlgb_copyCode">BP7.†7</ab>
+               <ab type="mlgb_catalogueExtract">(`uersus magistri W. de Montibus')</ab>
+            </div>
+            <div type="entry" n="9">
+               <bibl type="identification" corresp="#bibl_8"/>
+               <ab type="mlgb_copyCode">BP7.9</ab>
+            </div>
+            <div type="entry" n="10">
+               <bibl type="identification" corresp="#bibl_9"/>
+               <ab type="mlgb_copyCode">BP7.†10b</ab>
+               <ab type="mlgb_catalogueExtract">(`cum arte confessionum')</ab>
+            </div>
+            <div type="entry" n="10">
+               <bibl type="identification" corresp="#bibl_10"/>
+               <ab type="mlgb_copyCode">BP7.10a</ab>
+            </div>
+            <div type="entry" n="11">
+               <bibl type="identification" corresp="#bibl_11"/>
+               <ab type="mlgb_copyCode">BP7.11</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1194">Gregory IX (Ugolino da Segni)
+                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1"
+                  >Decretales</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_2618">Petrus Riga [†1209] </author><title
+                  key="mlgbWork_2618_1">Aurora</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_1411">Hugh of Fouilloy OSA [†1172/3],
+                  prior of Saint-Laurent-au-Bois, Fouilloy </author><title key="mlgbWork_1411_3">De
+                  claustro animae</title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_3235">Stephen Langton [c1165—1228],
+                  archbishop of Canterbury </author><title key="mlgbWork_3235_36">Hexaemeron carmine
+                  heroico</title></bibl>
+            <bibl xml:id="bibl_5"><author key="mlgbAuthor_1398">Hrabanus Maurus [†856]
+                  </author><title key="mlgbWork_1398_22">De uniuerso seu De rerum
+               naturis</title></bibl>
+            <bibl xml:id="bibl_6"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title
+                  key="mlgbWork_1517_124">Liber interpretationis hebraicorum nominum</title></bibl>
+            <bibl xml:id="bibl_7"><author key="mlgbAuthor_3744">William de Montibus [†1213]
+                  </author><title key="mlgbWork_3744_15">Versarium</title></bibl>
+            <bibl xml:id="bibl_8"><author key="mlgbAuthor_1740">John of Kent [†after 1213]
+                  </author><title key="mlgbWork_1740_2">Summa de poenitentia</title></bibl>
+            <bibl xml:id="bibl_9"><author key="mlgbAuthor_2973">Robert Grosseteste, known as
+                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_19">De
+                  confessione (serm. 15)</title></bibl>
+            <bibl xml:id="bibl_10"><author key="mlgbAuthor_2973">Robert Grosseteste, known as
+                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_51"
+                  >Templum Domini</title></bibl>
+            <bibl xml:id="bibl_11"><author key="mlgbAuthor_2870">Regula S. Benedicti</author><title
+                  key="mlgbWork_2870_1"/></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

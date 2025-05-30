@@ -1,0 +1,60 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_UC167">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE: Donor documents. UC167. Will of
+               William Warmyster, 13 October 1457; King's College</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">UC167.1</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">UC167.2</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">UC167.3b</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_4"/>
+               <ab type="mlgb_copyCode">UC167.3a</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_319">Aristotle [384—322 BC]
+                  </author><title key="mlgbWork_319_47">Logica uetus comprised</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_319">Aristotle [384—322 BC]
+                  </author><title key="mlgbWork_319_44">Libri naturales, a collection comprising
+                  Aristotle's Physica, De generatione et corruptione, De caelo, Meteora I—III, De
+                  plantis, and the pseudo-Aristotelian Liber de causis and De differentia spiritus
+                  et animae; in the late 13th cent. new translations from Greek were substituted for
+                  those from Arabic</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_1391">Q. Horatius Flaccus (Horace) [65—8
+                  BC] </author><title key="mlgbWork_1391_1">Opera</title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_3215">P. Papinius Statius [AD c45—c96]
+                  </author><title key="mlgbWork_3215_4">Thebais (`magnus')</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

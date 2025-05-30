@@ -1,0 +1,50 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_K361">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>HENRY DE KIRKESTEDE: HENRY DE KIRKESTEDE. K361. Catalogus, c. 1360</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="nan">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">K361</ab>
+            </div>
+            <div type="entry" n="6.0">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">K361.*6</ab>
+            </div>
+            <div type="entry" n="6.0">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">K361.6</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_2248">Methodius [], bishop of Olympus
+                  </author><title key="mlgbWork_2248_1">◊, works reported from Jerome, § 83.
+               </title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_2248">Methodius [], bishop of Olympus
+                  </author><title key="mlgbWork_2248_2">De initio et fine saeculi</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_2248">Methodius [], bishop of Olympus
+                  </author><title key="mlgbWork_2248_2">De initio et fine saeculi</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

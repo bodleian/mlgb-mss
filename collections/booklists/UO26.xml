@@ -1,0 +1,59 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_UO26">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD: Corpus Christi College. UO26. List of
+               select books formerly belonging to William Grocyn, in or soon after 1520</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="6">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">UO26.¶*6b</ab>
+            </div>
+            <div type="entry" n="6">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">UO26.¶*6a</ab>
+               <ab type="mlgb_catalogueExtract">(`Boccatius')</ab>
+            </div>
+            <div type="entry" n="17">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">UO26.¶17b</ab>
+            </div>
+            <div type="entry" n="27">
+               <bibl type="identification" corresp="#bibl_4"/>
+               <ab type="mlgb_copyCode">UO26.¶27</ab>
+               <ab type="mlgb_catalogueExtract">(`interprete Argeropilo 2')</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_362">Aulus Gellius [c130—c180]
+                  </author><title key="mlgbWork_362_1">Noctes atticae</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1598">Giovanni Boccaccio [1313—1375]
+                  </author><title key="mlgbWork_1598_12">Genealogia deorum gentilium</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_2711">Pomponius Mela [1st cent.]
+                  </author><title key="mlgbWork_2711_1">Chorographia</title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_319">Aristotle [384—322 BC]
+                  </author><title key="mlgbWork_319_4">Opera, tr. Iohannes Argyropulus and
+                  others</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

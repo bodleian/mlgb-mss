@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_SC219">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SECULAR INSTITUTIONS: Secular Colleges: Cobham. SC219. Inventory of goods, 25
+               December 1479 </title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="19">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">SC219.†19</ab>
+               <ab type="mlgb_catalogueExtract">(`expositio totius legende et missal'')</ab>
+            </div>
+            <div type="entry" n="20">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">SC219.20b</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_940">Expositio uerborum difficilium
+                  legende, an anonymous work known from four extant copies, all
+                  English</author><title key="mlgbWork_940_1"/></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1142">Gesta Romanorum cum applicationibus
+                  moralizatis</author><title key="mlgbWork_1142_1"/></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

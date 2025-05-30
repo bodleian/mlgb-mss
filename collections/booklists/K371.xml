@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_K371">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>HENRY DE KIRKESTEDE: HENRY DE KIRKESTEDE. K371. Catalogus, c. 1360</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="nan">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">K371</ab>
+            </div>
+            <div type="entry" n="2.0">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">K371.2</ab>
+               <ab type="mlgb_catalogueExtract">(`Mileto uel Miletus', 1 copy)</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_2234">Melito of Sardis [† c190]
+                  </author><title key="mlgbWork_2234_1">works reported from Jerome, § 24.
+               </title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_2234">Melito of Sardis [† c190]
+                  </author><title key="mlgbWork_2234_2">De transitu beatae Mariae
+               uirginis</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

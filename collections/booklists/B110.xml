@@ -1,0 +1,57 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_B110">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BENEDICTINES: THE SHORTER CATALOGUES: Whitby. B110. Leland, c. 1536-40</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">B110.1</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">B110.2</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">B110.3</ab>
+            </div>
+            <div type="entry" n="4">
+               <bibl type="identification" corresp="#bibl_4"/>
+               <ab type="mlgb_copyCode">B110.4</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_860">Elias of Evesham OSB [fl. 1200]
+                  </author><title key="mlgbWork_860_1">Quadrilogus de uita S. Thomae
+                  Cantuariensis</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_433">Benedict of Peterborough OSB [†1193],
+                  monk of Christ Church, Canterbury, later abbot of Peterborough </author><title
+                  key="mlgbWork_433_1">Passio et miracula S. Thomae Cantuariensis</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_3521">Bega </author><title
+                  key="mlgbWork_3521_1"/></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_3557">Hild </author><title
+                  key="mlgbWork_3557_1"/></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

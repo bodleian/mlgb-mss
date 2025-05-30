@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_F18">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>NEW FRIARS: King's Lynn-Carmelite. F18. Books bequeathed by Thomas Lexham,
+               1382</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">F18.1</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">F18.2</ab>
+               <ab type="mlgb_catalogueExtract">= F19.38</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_2978">Robert Ivory OCarm [†1392]
+                  </author><title key="mlgbWork_2978_1">Commentary on Ecclesiasticus</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_2978">Robert Ivory OCarm [†1392]
+                  </author><title key="mlgbWork_2978_2">Commentary on Revelation, inc. `Legimus in
+                  ecclesiastica historia'</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

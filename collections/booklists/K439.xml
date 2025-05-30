@@ -1,0 +1,58 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_K439">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>HENRY DE KIRKESTEDE: HENRY DE KIRKESTEDE. K439. Catalogus, c. 1360</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">K439.1</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">K439.2</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">K439.*3</ab>
+            </div>
+            <div type="entry" n="4">
+               <bibl type="identification" corresp="#bibl_4"/>
+               <ab type="mlgb_copyCode">K439.◊4</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_2587">Peter Lombard [c1100—1160]
+                  </author><title key="mlgbWork_2587_4">Sententiarum libri IV</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_2587">Peter Lombard [c1100—1160]
+                  </author><title key="mlgbWork_2587_1">Gloss on the Psalms (Magna
+                  glosatura)</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_2587">Peter Lombard [c1100—1160]
+                  </author><title key="mlgbWork_2587_3">Gloss on the Pauline Epistles (Magna
+                  glosatura)</title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_2587">Peter Lombard [c1100—1160]
+                  </author><title key="mlgbWork_2587_7">Sermones de diebus festis et
+                  dominicis</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_B6">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BENEDICTINES: THE SHORTER CATALOGUES: Bardney. B6. Leland, c. 1536-40</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">B6.1</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">B6.2</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">B6.3</ab>
+               <ab type="mlgb_catalogueExtract">(`super uetus testamentum')</ab>
+            </div>
+            <div type="entry" n="4">
+               <bibl type="identification" corresp="#bibl_4"/>
+               <ab type="mlgb_copyCode">B6.4</ab>
+            </div>
+            <div type="entry" n="5">
+               <bibl type="identification" corresp="#bibl_5"/>
+               <ab type="mlgb_copyCode">B6.5</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_426">Bede the Venerable [c673—735], monk
+                  of Wearmouth—Jarrow </author><title key="mlgbWork_426_15">Commentary on Acts of
+                  the Apostles</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1278">Henry of Avranches [†1260]
+                  </author><title key="mlgbWork_1278_12">Vita metrica S. Oswaldi</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_1947">Isidore of Seville [†636], bishop of
+                  Seville </author><title key="mlgbWork_1947_18">Quaestiones super uetus
+                  testamentum</title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_243">Anselm of Laon [†1117]
+                  </author><title key="mlgbWork_243_5">Gloss on the Pauline Epistles</title></bibl>
+            <bibl xml:id="bibl_5"><author key="mlgbAuthor_2710">Sex. Pompeius Festus [? late 2nd
+                  cent.] </author><title key="mlgbWork_2710_2">In Donati Artem
+               maiorem</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

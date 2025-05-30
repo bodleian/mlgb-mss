@@ -1,0 +1,56 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_R69">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>REGISTRUM ANGLIE: REGISTRUM ANGLIE. R69. Union catalogue by author and title,
+               early 14th cent.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">R69.1</ab>
+               <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">R69.2</ab>
+               <ab type="mlgb_catalogueExtract">(`de cardinalibus uirtutibus', 1 copy)</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">R69.3</ab>
+               <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_324">Arnold of Bonneval OSB [† after
+                  1156], abbot of Bonneval </author><title key="mlgbWork_324_3">De sex uerbis Domini
+                  in cruce</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_324">Arnold of Bonneval OSB [† after
+                  1156], abbot of Bonneval </author><title key="mlgbWork_324_1">De cardinalibus
+                  operibus Christi</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_324">Arnold of Bonneval OSB [† after
+                  1156], abbot of Bonneval </author><title key="mlgbWork_324_2">De operibus sex
+                  dierum</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,48 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_K655">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>HENRY DE KIRKESTEDE: HENRY DE KIRKESTEDE. K655. Catalogus, c. 1360</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">K655.1</ab>
+               <ab type="mlgb_catalogueExtract">(`Wilhelmus de Conches philosophiam primam de
+                  naturis inferiorum et superiorum lib. 2', inc.)</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">K655.2</ab>
+               <ab type="mlgb_catalogueExtract">(`philosophiam secundam', inc.)</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_728">Daniel of Morley [fl. 1200]
+                  </author><title key="mlgbWork_728_1">De naturis inferiorum et superiorum, also
+                  titled De creatione mundi, inc. `Cum dudum ab Anglia me causa studii excepissem,
+                  et Parisius aliquamdiu moram fecissem'</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_3687">William of Conches [c1080—1154]
+                  </author><title key="mlgbWork_3687_2">Dragmaticon</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

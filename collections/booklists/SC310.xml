@@ -1,0 +1,54 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_SC310">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SECULAR INSTITUTIONS: Secular Colleges: Sudbury. SC310. Bequest by Thomas Gooch,
+               21 September 1508</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">SC310.¶2</ab>
+               <ab type="mlgb_catalogueExtract">(2 vols)</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">SC310.¶3</ab>
+            </div>
+            <div type="entry" n="4">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">SC310.¶4</ab>
+               <ab type="mlgb_catalogueExtract">(`B. de proprietatibus in anglicis')</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1502">Iacobus de Voragine (Iacopo da
+                  Varazze) OP [†1298] </author><title key="mlgbWork_1502_6">Sermones
+                  dominicales</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_135">Alexander Carpenter [fl. 1430]
+                  </author><title key="mlgbWork_135_1">Destructorium uitiorum</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_401">Bartholomew the Englishman [†1250]
+                  </author><title key="mlgbWork_401_2">De proprietatibus rerum, English tr. by John
+                  Trevisa</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

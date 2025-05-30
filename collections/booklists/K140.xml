@@ -1,0 +1,61 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_K140">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>HENRY DE KIRKESTEDE: HENRY DE KIRKESTEDE. K140. Catalogus, c. 1360</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">K140.1—2</ab>
+               <ab type="mlgb_catalogueExtract">, 5—20</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">K140.1—2</ab>
+               <ab type="mlgb_catalogueExtract">, 5—20</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">K140.3</ab>
+               <ab type="mlgb_catalogueExtract">(`de †contradictione hominis ad Egipium')</ab>
+            </div>
+            <div type="entry" n="4">
+               <bibl type="identification" corresp="#bibl_4"/>
+               <ab type="mlgb_copyCode">K140.4</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_791">Dionysius [fl. 247—264], bishop of
+                  Alexandria </author><title key="mlgbWork_791_1">◊, works reported from Jerome, §
+                  69. </title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_791">Dionysius [fl. 247—264], bishop of
+                  Alexandria </author><title key="mlgbWork_791_1">◊, works reported from Jerome, §
+                  69. </title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_1200">Gregory of Nyssa [† c395]
+                  </author><title key="mlgbWork_1200_3">De opificio hominis, tr. Dionysius
+                  Exiguus</title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_794">Dionysius Exiguus [† after 526]
+                  </author><title key="mlgbWork_794_2">Liber de cyclo magno Paschae</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

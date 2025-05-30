@@ -1,0 +1,55 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_UC135">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE: Donor documents. UC135. Will of
+               Henry Hornby, 10 December 1517; various</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">UC135.¶2</ab>
+               <ab type="mlgb_catalogueExtract">(`cum expositione eiusdem [sc. H. of
+                  Saint-Cher]')</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">UC135.¶2</ab>
+               <ab type="mlgb_catalogueExtract">(attrib. Hugh of Saint-Cher)</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">UC135.¶3</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_352">Augustine [354—430], bishop of Hippo
+                  </author><title key="mlgbWork_352_47">De ciuitate Dei</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_3394">Thomas Waleys OP [†1350]
+                  </author><title key="mlgbWork_3394_1">Commentary on Augustine's De ciuitate Dei
+                  I—X 29</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_490">Biblia sacra with the Glossa
+                  ordinaria and Nicholas of Lyre's Postilla</author><title key="mlgbWork_490_1"
+               /></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

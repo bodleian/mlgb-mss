@@ -1,0 +1,53 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_UO65">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD: Merton College. UO65. Electio list of
+               philosophical books, 16 Dec. 1513</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="12">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">UO65.12</ab>
+            </div>
+            <div type="entry" n="12">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">UO65.†12</ab>
+               <ab type="mlgb_catalogueExtract">(`Miluerley in logica et philosophia')</ab>
+            </div>
+            <div type="entry" n="15">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">UO65.15</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_615">M. Tullius Cicero [106—43 BC]
+                  </author><title key="mlgbWork_615_10">De inuentione</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_3741">William Milverley [early 15th cent.]
+                  </author><title key="mlgbWork_3741_1">Commentary on De sex
+               principiis</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_3624">Walter Burley [1275—after 1344]
+                  </author><title key="mlgbWork_3624_17">Commentary on Aristotle's
+               Physica</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

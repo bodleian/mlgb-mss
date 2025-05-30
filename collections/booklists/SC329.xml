@@ -1,0 +1,78 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_SC329">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SECULAR INSTITUTIONS: Secular Colleges: Winchester College. SC329. Bequest by
+               William of Wykeham, 24 July 1404</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">SC329.2</ab>
+               <ab type="mlgb_catalogueExtract">= SC330.76</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">SC329.3x</ab>
+               <ab type="mlgb_catalogueExtract">= SC330.77x</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">SC329.3</ab>
+               <ab type="mlgb_catalogueExtract">= SC330.77</ab>
+            </div>
+            <div type="entry" n="4">
+               <bibl type="identification" corresp="#bibl_4"/>
+               <ab type="mlgb_copyCode">SC329.4</ab>
+               <ab type="mlgb_catalogueExtract">= SC330.78</ab>
+            </div>
+            <div type="entry" n="5" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_5813">
+               <bibl type="identification" corresp="#bibl_5"/>
+               <ab type="mlgb_copyCode">SC329.*5</ab>
+               <ab type="mlgb_catalogueExtract">(`librum de uita sancti Thome uocatum Thomas') =
+                  SC330.*79</ab>
+            </div>
+            <div type="entry" n="6" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_6545">
+               <bibl type="identification" corresp="#bibl_6"/>
+               <ab type="mlgb_copyCode">SC329.6</ab>
+               <ab type="mlgb_catalogueExtract">(`pars oculi') = SC330.81</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1706">John of Genoa OP [† after 1286]
+                  </author><title key="mlgbWork_1706_1">Catholicon</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1502">Iacobus de Voragine (Iacopo da
+                  Varazze) OP [†1298] </author><title key="mlgbWork_1502_1">Legenda
+               aurea</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_3698">Willelmus Durandus the Elder
+                  [1237—1296], bishop of Mende </author><title key="mlgbWork_3698_4">Rationale
+                  diuinorum officiorum</title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_1789">John of Mirfield [fl. 1390]
+                  </author><title key="mlgbWork_1789_1">Florarium Bartholomaei</title></bibl>
+            <bibl xml:id="bibl_5"><author key="mlgbAuthor_3678">William of Canterbury OSB [late 12th
+                  cent.] </author><title key="mlgbWork_3678_1">Vita et miracula S. Thomae
+                  Cantuariensis</title></bibl>
+            <bibl xml:id="bibl_6"><author key="mlgbAuthor_3753">Willelmus de Pagula [early 14th
+                  cent.] </author><title key="mlgbWork_3753_2">Oculus sacerdotis</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

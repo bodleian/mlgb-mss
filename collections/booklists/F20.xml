@@ -1,0 +1,58 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_F20">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>NEW FRIARS: Lincoln-Austin. F20. Lincolnshire list, 1528</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">F20.1</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">F20.2</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">F20.3</ab>
+               <ab type="mlgb_catalogueExtract">(`Remigius in omnes epistolas Pauli')</ab>
+            </div>
+            <div type="entry" n="4">
+               <bibl type="identification" corresp="#bibl_4"/>
+               <ab type="mlgb_copyCode">F20.4</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_243">Anselm of Laon [†1117]
+                  </author><title key="mlgbWork_243_4">Commentary on John</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_243">Anselm of Laon [†1117]
+                  </author><title key="mlgbWork_243_5">Gloss on the Pauline Epistles</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_1247">Haimo of Auxerre [fl. 840—865]
+                  </author><title key="mlgbWork_1247_4">Commentary on the Pauline
+               Epistles</title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_192">Ambrose [c339—397], archbishop of
+                  Milan </author><title key="mlgbWork_192_83">`super epistolam ad
+               Hebraeos'</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,91 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_F30">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>NEW FRIARS: London-Franciscan. F30. Leland, c. 1536-40</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">F30.2</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">F30.3</ab>
+            </div>
+            <div type="entry" n="4">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">F30.†4</ab>
+               <ab type="mlgb_catalogueExtract">(`tabula optima originalium secundum ordinem
+                  librorum sed non alphabeti')</ab>
+            </div>
+            <div type="entry" n="5">
+               <bibl type="identification" corresp="#bibl_4"/>
+               <ab type="mlgb_copyCode">F30.5</ab>
+               <ab type="mlgb_catalogueExtract">(`corectorium coruptorii sancti Thome', anon.)</ab>
+            </div>
+            <div type="entry" n="6">
+               <bibl type="identification" corresp="#bibl_5"/>
+               <ab type="mlgb_copyCode">F30.6</ab>
+               <ab type="mlgb_catalogueExtract">(`Egidius de corpore et sanguine domini')</ab>
+            </div>
+            <div type="entry" n="7">
+               <bibl type="identification" corresp="#bibl_6"/>
+               <ab type="mlgb_copyCode">F30.7</ab>
+            </div>
+            <div type="entry" n="8">
+               <bibl type="identification" corresp="#bibl_7"/>
+               <ab type="mlgb_copyCode">F30.8</ab>
+            </div>
+            <div type="entry" n="9">
+               <bibl type="identification" corresp="#bibl_8"/>
+               <ab type="mlgb_copyCode">F30.9</ab>
+               <ab type="mlgb_catalogueExtract">(1—6, 12)</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1423">Hugh of Saint-Victor OSA
+                  [c1096—1141] </author><title key="mlgbWork_1423_6">Commentary on ps. Dionysius's
+                  Hierarchia caelestis</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_3663">William of Auxerre [†1231]
+                  </author><title key="mlgbWork_3663_2">Summa aurea super quatuor libros
+                  Sententiarum</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_3273">Tabula septem
+                  custodiarum</author><title key="mlgbWork_3273_1"/></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_2917">Richard Knapwell OP [† after 1286]
+                  </author><title key="mlgbWork_2917_1">Correctorium corruptorii
+               Quare</title></bibl>
+            <bibl xml:id="bibl_5"><author key="mlgbAuthor_1165">Giles of Rome OESA [c1243—1316],
+                  archbishop of Bourges </author><title key="mlgbWork_1165_28">Theoremata de corpore
+                  Christi</title></bibl>
+            <bibl xml:id="bibl_6"><author key="mlgbAuthor_241">Anselm of Canterbury OSB
+                  [c1033—1109], archbishop of Canterbury </author><title key="mlgbWork_241_11">De
+                  sacrificio azymi et fermentati</title></bibl>
+            <bibl xml:id="bibl_7"><author key="mlgbAuthor_790">Ps. Dionysius the Areopagite
+                  </author><title key="mlgbWork_790_9">Epistulae, Latin tr. The group circulating
+                  with the ps. Dionysian corpus, comprising ten letters addressed to Gaius (epp.
+                  1—4) and others</title></bibl>
+            <bibl xml:id="bibl_8"><author key="mlgbAuthor_3340">Thomas Aquinas OP [c1225—1274]
+                  </author><title key="mlgbWork_3340_54">Quaestiones de quolibet</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

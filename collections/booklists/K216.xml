@@ -1,0 +1,59 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_K216">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>HENRY DE KIRKESTEDE: HENRY DE KIRKESTEDE. K216. Catalogus, c. 1360</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">K216.2</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">K216.3</ab>
+            </div>
+            <div type="entry" n="4">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">K216.4</ab>
+            </div>
+            <div type="entry" n="5">
+               <bibl type="identification" corresp="#bibl_4"/>
+               <ab type="mlgb_copyCode">K216.5</ab>
+               <ab type="mlgb_catalogueExtract">(attrib. Geoffrey of Auxerre)</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1080">Geoffrey of Auxerre [mid 12th cent.]
+                  </author><title key="mlgbWork_1080_1">Commentary on the Song of
+               Songs</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1081">Geoffrey Babio du Louroux [†1158],
+                  archbishop of Bordeaux </author><title key="mlgbWork_1081_1">Commentary on
+                  Matthew</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_1080">Geoffrey of Auxerre [mid 12th cent.]
+                  </author><title key="mlgbWork_1080_2">Commentary on Revelation</title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_3779">William of Saint-Thierry OCist
+                  [1075/80—1148] </author><title key="mlgbWork_3779_6">Vita I S. Bernardi (with
+                  Arnold of Bonneval and Geoffrey of Auxerre)</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

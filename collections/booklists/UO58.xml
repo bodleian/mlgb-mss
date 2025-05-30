@@ -1,0 +1,39 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_UO58">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD: Merton College. UO58. List of books
+               redeemed from the Rede chest, 7 Dec. 1493</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="6">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">UO58.6</ab>
+               <ab type="mlgb_catalogueExtract">(`de operibus A.')</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_352">Augustine [354—430], bishop of Hippo
+                  </author><title key="mlgbWork_352_14">Confessiones</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

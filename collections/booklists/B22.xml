@@ -1,0 +1,58 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_B22">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BENEDICTINES: THE SHORTER CATALOGUES: Colchester. B22. Leland, c. 1536-40</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">B22.2</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">B22.3</ab>
+            </div>
+            <div type="entry" n="4">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">B22.4</ab>
+            </div>
+            <div type="entry" n="16">
+               <bibl type="identification" corresp="#bibl_4"/>
+               <ab type="mlgb_copyCode">B22.16</ab>
+               <ab type="mlgb_catalogueExtract">(`liber concordanciarum')</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_831">Dudo of Saint-Quentin [early 11th
+                  cent.] </author><title key="mlgbWork_831_1">De moribus et actis primorum
+                  Normanniae ducum</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_67">`Aethicus Ister' (? Virgil of
+                  Salzburg) </author><title key="mlgbWork_67_1">Cosmographia</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_2496">Paul the Deacon [c720—799]
+                  </author><title key="mlgbWork_2496_2">Historia Langobardorum</title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_670">Concordantia maior, the so-called
+                  `third concordance' compiled by the Dominicans of Saint-Jacques,
+                  Paris</author><title key="mlgbWork_670_1"/></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

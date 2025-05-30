@@ -1,0 +1,53 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_B38">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BENEDICTINES: THE SHORTER CATALOGUES: Glastonbury. B38. Books copied for Prior
+               Thomas (d. 1215)</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">B38.2</ab>
+               <ab type="mlgb_catalogueExtract">= B39.114—116</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">B38.3</ab>
+            </div>
+            <div type="entry" n="13">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">B38.13</ab>
+               <ab type="mlgb_catalogueExtract">(`Hamonem') = B39.107</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1190">Gratian [† by c1160] </author><title
+                  key="mlgbWork_1190_1">Decretum</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_2818">Ralph of Flaix OSB [mid 12th cent.],
+                  abbot of Flaix </author><title key="mlgbWork_2818_1">Commentary on
+                  Leviticus</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_1247">Haimo of Auxerre [fl. 840—865]
+                  </author><title key="mlgbWork_1247_7">Homiliae de tempore</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

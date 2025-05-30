@@ -1,0 +1,54 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_K9">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>HENRY DE KIRKESTEDE: HENRY DE KIRKESTEDE. K9. Catalogus, c. 1360</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">K9.3</ab>
+               <ab type="mlgb_catalogueExtract">(—-)</ab>
+            </div>
+            <div type="entry" n="5">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">K9.5</ab>
+               <ab type="mlgb_catalogueExtract">(`categoriarum spiritualium de euangeliis liber
+                  unus')</ab>
+            </div>
+            <div type="entry" n="14">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">K9.14</ab>
+               <ab type="mlgb_catalogueExtract">(`super euangelium omelia, Erunt signa in sole [Lc
+                  21:25]')</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_5">Abbo of Fleury OSB [c. 945—1004], abbot
+                  of Fleury </author><title key="mlgbWork_5_4">Passio S. Edmundi</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_5">Abbo of Fleury OSB [c. 945—1004], abbot
+                  of Fleury </author><title key="mlgbWork_5_5">Super euangelia</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_5">Abbo of Fleury OSB [c. 945—1004], abbot
+                  of Fleury </author><title key="mlgbWork_5_5">Super euangelia</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,44 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_SH48">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SECULAR INSTITUTIONS: Hospitals, Towns, and the Professions: London, Guildhall
+               library. SH48. Bequest by Hugh Damlett, 6 July 1475</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">SH48.1</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">SH48.2</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_3340">Thomas Aquinas OP [c1225—1274]
+                  </author><title key="mlgbWork_3340_56">Summa contra gentiles</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_401">Bartholomew the Englishman [†1250]
+                  </author><title key="mlgbWork_401_1">De proprietatibus rerum</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

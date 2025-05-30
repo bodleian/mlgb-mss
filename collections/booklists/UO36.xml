@@ -1,0 +1,54 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_UO36">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD: Exeter College. UO36. Gift of books
+               by Henry Boner, 9 April 1427</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">UO36.1</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">UO36.†2</ab>
+               <ab type="mlgb_catalogueExtract">(`Othoni')</ab>
+            </div>
+            <div type="entry" n="46">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">UO36.*46</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_367">Authenticum was a common medieval
+                  arrangement in nine collationes of Justinian's Nouellae</author><title
+                  key="mlgbWork_367_1"/></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_2446">Otto de Monteferrato [†1251],
+                  cardinal </author><title key="mlgbWork_2446_1">Constitutiones
+               (1237)</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_1208">Guarinus Veronensis (Guarino Guarini
+                  Veronese) [1374—1460] </author><title key="mlgbWork_1208_6">Parallela ex
+                  Plutarcho</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

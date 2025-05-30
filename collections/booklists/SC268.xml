@@ -1,0 +1,59 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_SC268">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SECULAR INSTITUTIONS: Secular Colleges: London, St Peter-upon-Cornhill. SC268.
+               Leland, autumn 1534 {x} spring 1535</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">SC268.1</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">SC268.2</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">SC268.3</ab>
+               <ab type="mlgb_catalogueExtract">(`summa Fauentini super decreta')</ab>
+            </div>
+            <div type="entry" n="4">
+               <bibl type="identification" corresp="#bibl_4"/>
+               <ab type="mlgb_copyCode">SC268.4</ab>
+               <ab type="mlgb_catalogueExtract">UO9.17,UO22.*12</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_2339">Nicholas de Gorran OP [† c1295]
+                  </author><title key="mlgbWork_2339_12">Distinctiones theologicae</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_2964">Robert Cowton OFM [† after 1313]
+                  </author><title key="mlgbWork_2964_1">Lectura super Sententias</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_1681">Iohannes Faventinus [†1187]
+                  </author><title key="mlgbWork_1681_1">Summa super Decreta</title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_2977">Robert Holcot OP [†1349]
+                  </author><title key="mlgbWork_2977_2">Commentary on the Minor
+               Prophets</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

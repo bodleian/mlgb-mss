@@ -1,0 +1,90 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_UO50">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD: Merton College. UO50. Electio list of
+               philosophical books, 8 December 1375</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">UO50.1</ab>
+            </div>
+            <div type="entry" n="11">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">UO50.11</ab>
+               <ab type="mlgb_catalogueExtract">?= UO51.*96</ab>
+            </div>
+            <div type="entry" n="12">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">UO50.12</ab>
+               <ab type="mlgb_catalogueExtract">(`libros Auicenne')</ab>
+            </div>
+            <div type="entry" n="17">
+               <bibl type="identification" corresp="#bibl_4"/>
+               <ab type="mlgb_copyCode">UO50.17</ab>
+            </div>
+            <div type="entry" n="26">
+               <bibl type="identification" corresp="#bibl_5"/>
+               <ab type="mlgb_copyCode">UO50.26</ab>
+               <ab type="mlgb_catalogueExtract">?= UO68.267</ab>
+            </div>
+            <div type="entry" n="64">
+               <bibl type="identification" corresp="#bibl_6"/>
+               <ab type="mlgb_copyCode">UO50.64</ab>
+               <ab type="mlgb_catalogueExtract">(`expositorem de anima')</ab>
+            </div>
+            <div type="entry" n="83">
+               <bibl type="identification" corresp="#bibl_7"/>
+               <ab type="mlgb_copyCode">UO50.83</ab>
+               <ab type="mlgb_catalogueExtract">(`methaphisicam Auicenne')</ab>
+            </div>
+            <div type="entry" n="94">
+               <bibl type="identification" corresp="#bibl_8"/>
+               <ab type="mlgb_copyCode">UO50.94</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_905">Euclid [fl. 300 BC] </author><title
+                  key="mlgbWork_905_3">Elementa, tr. from Arabic by Adelard of Bath</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_3093">L. Annaeus Seneca [4 BC—AD 65]
+                  </author><title key="mlgbWork_3093_17">Naturales quaestiones</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_373">Avicenna (Abu `Ali al-Husain ibn
+                  `Abdallah Ibn Sina) [980—1037] </author><title key="mlgbWork_373_13">unspec.
+               </title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_370">Averroes (Ibn Rushd) [1126—1198]
+                  </author><title key="mlgbWork_370_3">Commentarium magnum on Aristotle's De anima,
+                  tr. Michael Scot</title></bibl>
+            <bibl xml:id="bibl_5"><author key="mlgbAuthor_922">Eustratius [fl. 1082—1114]
+                  </author><title key="mlgbWork_922_2">(&amp; others), Commentary on Aristotle's
+                  Ethica, tr. R. Grosseteste</title></bibl>
+            <bibl xml:id="bibl_6"><author key="mlgbAuthor_3340">Thomas Aquinas OP [c1225—1274]
+                  </author><title key="mlgbWork_3340_6">Commentary on Aristotle's De
+               anima</title></bibl>
+            <bibl xml:id="bibl_7"><author key="mlgbAuthor_373">Avicenna (Abu `Ali al-Husain ibn
+                  `Abdallah Ibn Sina) [980—1037] </author><title key="mlgbWork_373_11">Metaphysica,
+                  tr. Dominicus Gundisalvi</title></bibl>
+            <bibl xml:id="bibl_8"><author key="mlgbAuthor_319">Aristotle [384—322 BC]
+                  </author><title key="mlgbWork_319_68">Topica, tr. Boethius</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

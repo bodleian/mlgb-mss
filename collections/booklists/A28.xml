@@ -1,0 +1,73 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_A28">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AUGUSTINIAN CANONS: Plympton. A28. Leland, c. 1536-40</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">A28.1</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">A28.2</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">A28.2c</ab>
+               <ab type="mlgb_catalogueExtract">(`sex libri beati Effrem ad monachos')</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_4"/>
+               <ab type="mlgb_copyCode">A28.2b</ab>
+               <ab type="mlgb_catalogueExtract">(`omelie octo Eusebii Emiseni')</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_5"/>
+               <ab type="mlgb_copyCode">A28.3</ab>
+               <ab type="mlgb_catalogueExtract">(`Alexfacus de diis gentilibus')</ab>
+            </div>
+            <div type="entry" n="4">
+               <bibl type="identification" corresp="#bibl_6"/>
+               <ab type="mlgb_copyCode">A28.4</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_2910">Richard Fishacre OP [†1248]
+                  </author><title key="mlgbWork_2910_3">Commentary on Proverbs</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_546">Caesarius of Arles [c470—542],
+                  archbishop of Arles </author><title key="mlgbWork_546_17">Homiliae X ad
+                  monachos</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_878">Ps. Ephraem Syrus </author><title
+                  key="mlgbWork_878_1">Opera</title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_915">`Eusebius Gallicanus' </author><title
+                  key="mlgbWork_915_2">Homiliae X ad monachos (serm. 36—45)</title></bibl>
+            <bibl xml:id="bibl_5"><author key="mlgbAuthor_82">Alberic of London [fl. 1200]
+                  </author><title key="mlgbWork_82_1">Poetarius siue Scintillarium
+               poetarum</title></bibl>
+            <bibl xml:id="bibl_6"><author key="mlgbAuthor_1943">Isaac Iudaeus (Ishaq Ibn Suleiman)
+                  [9th cent.] </author><title key="mlgbWork_1943_1">De dietis uniuersalibus et
+                  particularibus, tr. Constantinus Africanus or Gerard of Cremona</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

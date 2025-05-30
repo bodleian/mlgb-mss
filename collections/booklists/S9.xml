@@ -1,0 +1,38 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_S9">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SCOTLAND: Coldingham priory. S9. Inventory of goods, 10 Jan 1446/7</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="10">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">S9.10c</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1092">Geoffrey of Monmouth [†1154]
+                  </author><title key="mlgbWork_1092_2">Prophetia Merlini (Historia regum Britanniae
+                  VII), often found separately</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

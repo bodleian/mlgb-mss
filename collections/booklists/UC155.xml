@@ -1,0 +1,58 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_UC155">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE: Donor documents. UC155. Will of
+               John Rowclyff, 1 July 1492; King's Hall</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">UC155.1</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">UC155.2b</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">UC155.¶2</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_4"/>
+               <ab type="mlgb_copyCode">UC155.2a</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1545">John Acton [†1350] </author><title
+                  key="mlgbWork_1545_1">Commentary on the Legatine Constitutions</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_691">Constitutiones Clementinae,
+                  collecting the constitutions of Clement V, promulgated by John XXII in
+                  1317</author><title key="mlgbWork_691_1"/></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_1607">John of Bromyard OP [†1352]
+                  </author><title key="mlgbWork_1607_4">Summa praedicantium</title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_2078">Liber sextus Decretalium, continuing
+                  the Decretals from Gregory IX (1234) to Boniface VIII (1298)</author><title
+                  key="mlgbWork_2078_1"/></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_BP22">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BENEDICTINES: Peterborough. BP22. Books noted by William Morton, almoner,
+               1458-61</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">BP22.1</ab>
+            </div>
+            <div type="entry" n="3">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">BP22.3b</ab>
+            </div>
+            <div type="entry" n="4">
+               <bibl type="identification" corresp="#bibl_3"/>
+               <ab type="mlgb_copyCode">BP22.4</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_2368">Nigel Witeker OSB [† after 1206]
+                  </author><title key="mlgbWork_2368_6">Speculum stultorum</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_2618">Petrus Riga [†1209] </author><title
+                  key="mlgbWork_2618_1">Aurora</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_149">Alexander de Villa Dei [c1170—c1240]
+                  </author><title key="mlgbWork_149_2">Doctrinale magnum</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

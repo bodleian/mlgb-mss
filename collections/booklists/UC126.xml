@@ -1,0 +1,47 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_UC126">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE: Donor documents. UC126. Will of
+               Nicholas Gay, 19 June 1474; Peterhouse</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="1">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">UC126.*1</ab>
+               <ab type="mlgb_catalogueExtract">(I—III)</ab>
+            </div>
+            <div type="entry" n="2">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">UC126.2</ab>
+               <ab type="mlgb_catalogueExtract">(Ps, Is)</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_3340">Thomas Aquinas OP [c1225—1274]
+                  </author><title key="mlgbWork_3340_55">Scriptum super libros
+               Sententiarum</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1422">Hugh of Saint-Cher OP [†1263]
+                  </author><title key="mlgbWork_1422_1">Biblia cum postilla</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>

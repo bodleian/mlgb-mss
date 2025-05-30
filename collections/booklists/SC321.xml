@@ -1,0 +1,47 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_SC321">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SECULAR INSTITUTIONS: Secular Colleges: Westbury-on-Trym. SC321. Bequest by
+               William Oakbourne, 30 July 1455</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="list">
+
+            <div type="entry" n="3" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_5624">
+               <bibl type="identification" corresp="#bibl_1"/>
+               <ab type="mlgb_copyCode">SC321.*3</ab>
+               <ab type="mlgb_catalogueExtract">(`Ianuensem opere quadragesimali')</ab>
+            </div>
+            <div type="entry" n="3" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_5624">
+               <bibl type="identification" corresp="#bibl_2"/>
+               <ab type="mlgb_copyCode">SC321.*3x</ab>
+            </div>
+         </div>
+
+      </body>
+      <back>
+         <listBibl>
+
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1502">Iacobus de Voragine (Iacopo da
+                  Varazze) OP [†1298] </author><title key="mlgbWork_1502_7">Sermones
+                  quadragesimales</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1685">John Felton [†1434] </author><title
+                  key="mlgbWork_1685_3">Tabula to Jacobus de Voragine, Sermones
+                  quadragesimales</title></bibl>
+         </listBibl>
+      </back>
+   </text>
+</TEI>
