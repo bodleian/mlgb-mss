@@ -5,9 +5,8 @@ declare option saxon:output "indent=yes";
 
 declare variable $books := collection('../collections/books/?select=*.xml;recurse=yes');
 
-(: Authority fiiles are shared from medieval-mss :)
-declare variable $countryauthorities := doc("../../medieval-mss/places.xml")/tei:TEI/tei:text/tei:body//tei:listPlace/tei:place[@xml:id and @type='country'];
-declare variable $worksauthority := doc("../../medieval-mss/works.xml");
+declare variable $countryauthorities := doc("../places.xml")/tei:TEI/tei:text/tei:body//tei:listPlace/tei:place[@xml:id and @type='country'];
+declare variable $worksauthority := doc("../works.xml");
 
 declare function local:origin($countrykeyatts as attribute()*, $solrfield as xs:string) as element()*
 {

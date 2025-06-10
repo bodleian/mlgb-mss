@@ -2,16 +2,15 @@ import module namespace bod = "http://www.bodleian.ox.ac.uk/bdlss" at "lib/msdes
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare option saxon:output "indent=yes";
 
-(: Authority fiiles are shared from medieval-mss :)
 
 (: Read authority file :)
-declare variable $worksdoc := doc("../../medieval-mss/works.xml");
+declare variable $worksdoc := doc("../works.xml");
 declare variable $authorityentries := $worksdoc/tei:TEI/tei:text/tei:body//tei:listBibl/tei:bibl[@xml:id];
 declare variable $authorsinworksauthority := true();
 
 (: Read persons authority file to be able to link from works to 
    their authors (not necessary if the works authority has authors in it) :)
-declare variable $personauthority := doc("../../medieval-mss/persons.xml")/tei:TEI/tei:text/tei:body/tei:listPerson/tei:person[@xml:id];
+declare variable $personauthority := doc("../persons.xml")/tei:TEI/tei:text/tei:body/tei:listPerson/tei:person[@xml:id];
 
 (: Get a list of person keys in all the collection records, to check a link from work to person won't be broken :)
 declare variable $personkeys := distinct-values(collection('../collections?select=*.xml;recurse=yes')//tei:msDesc//(tei:persName|tei:author|tei:editor)/@key/data());
