@@ -13,7 +13,7 @@ declare variable $authorsinworksauthority := true();
 declare variable $personauthority := doc("../persons.xml")/tei:TEI/tei:text/tei:body/tei:listPerson/tei:person[@xml:id];
 
 (: Get a list of person keys in all the collection records, to check a link from work to person won't be broken :)
-declare variable $personkeys := distinct-values(collection('../collections?select=*.xml;recurse=yes')//tei:msDesc//(tei:persName|tei:author|tei:editor)/@key/data());
+declare variable $personkeys := distinct-values(collection('../collections?select=*.xml;recurse=yes')//(tei:msDesc|tei:bibl[@xml:id])//(tei:persName|tei:author|tei:editor)/@key/data());
 
 (: Find instances in collection files, building in-memory data 
    structure, to avoid having to search across all files for each authority file entry :)
@@ -21,27 +21,40 @@ declare variable $allinstances :=
     for $instance in collection('../collections?select=*.xml;recurse=yes')//tei:title
         let $roottei := $instance/ancestor::tei:TEI
         let $shelfmark := ($roottei/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno[@type = "shelfmark"])[1]/text()
+        let $biblidhash := concat("#", $instance/parent::tei:bibl/@xml:id/data())     
+        let $copycode := $instance/ancestor::tei:text/tei:body//tei:div[@type="entry" and tei:bibl[@corresp=$biblidhash]]/tei:ab[@type="mlgb_copyCode"]/text()  
         let $datesoforigin := distinct-values($roottei//tei:origin//tei:origDate/normalize-space())
         let $placesoforigin := distinct-values($roottei//tei:origin//tei:origPlace/normalize-space())
         return
         <instance>
             { for $key in tokenize(normalize-space($instance/@key), ' ') return <key>{ $key }</key> }
             <title>{ normalize-space($instance/string()) }</title>
-            <link>{ concat(
+            {
+            if ($copycode) then 
+                  <booklistlink>{ concat(
                         '/catalog/', 
                         $roottei/@xml:id/data(), 
                         '|', 
-                        $shelfmark,
-                        if ($roottei//tei:sourceDesc//tei:surrogates/tei:bibl[@type=('digital-fascimile','digital-facsimile') and @subtype='full']) then
-                            ' (Digital facsimile online)'
-                        else if ($roottei//tei:sourceDesc//tei:surrogates/tei:bibl[@type=('digital-fascimile','digital-facsimile') and @subtype='partial']) then
-                            ' (Selected pages online)'
-                        else
-                            ''
-                        ,'|',
-                        if ($roottei//tei:msPart) then 'Composite manuscript' else string-join(($datesoforigin, $placesoforigin), '; ')
+                        $copycode                      
                     )
-            }</link>
+                }</booklistlink>
+            else 
+                <booklink>{ concat(
+                            '/catalog/', 
+                            $roottei/@xml:id/data(), 
+                            '|', 
+                            $shelfmark,
+                            if ($roottei//tei:sourceDesc//tei:surrogates/tei:bibl[@type=('digital-fascimile','digital-facsimile') and @subtype='full']) then
+                                ' (Digital facsimile online)'
+                            else if ($roottei//tei:sourceDesc//tei:surrogates/tei:bibl[@type=('digital-fascimile','digital-facsimile') and @subtype='partial']) then
+                                ' (Selected pages online)'
+                            else
+                                ''
+                            , '|',
+                            if ($roottei//tei:msPart) then 'Composite manuscript' else string-join(($datesoforigin, $placesoforigin), '; ')
+                        )
+                }</booklink>
+            }
             {
             if ($authorsinworksauthority) then () else 
                 for $authorid in ($instance/ancestor::tei:msItem[tei:author][1]/tei:author/@key/data(), $instance/parent::*/(tei:author|tei:persName[@role=('author','aut')])/@key/data())
@@ -90,15 +103,26 @@ declare variable $allinstances :=
                 <field name="type">work</field>
                 <field name="pk">{ $id }</field>
                 <field name="id">{ $id }</field>
-                <field name="title">{ $title }</field>
-                <field name="alpha_title">
-                    { 
-                    if (contains($title, ':')) then
-                        bod:alphabetize($title)
-                    else
-                        bod:alphabetizeTitle($title)
-                    }
-                </field>
+                {
+                    if ($title) then (
+                        <field name="title">{ $title }</field>
+                    )
+                    else (
+                        <field name="title">[MISSING]</field>
+                    )
+                }
+                {
+                if ($title) then (
+                    <field name="alpha_title">
+                        { 
+                        if (contains($title, ':')) then
+                            bod:alphabetize($title)
+                        else 
+                            bod:alphabetizeTitle($title)
+                        }
+                    </field>
+                ) else ()
+                }
                 {
                 (: Alternative titles :)
                 for $variant in distinct-values($variants)
@@ -213,10 +237,17 @@ declare variable $allinstances :=
                 }
                 {
                 (: Links to books containing the work :)
-                for $link in distinct-values($instances/link/text())
-                    order by tokenize($link, '\|')[2]
+                for $booklink in distinct-values($instances/booklink/text())
+                    order by tokenize($booklink, '\|')[2]
                     return
-                    <field name="link_books_smni">{ $link }</field>
+                    <field name="link_books_smni">{ $booklink }</field>
+                }
+                {
+                (: Links to booklists containing the work :)
+                for $booklistlink in distinct-values($instances/booklistlink/text())
+                    order by tokenize($booklistlink, '\|')[2]
+                    return
+                    <field name="link_booklists_smni">{ $booklistlink }</field>
                 }
             </doc>
         else

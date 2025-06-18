@@ -10,32 +10,37 @@ declare variable $worksauthority := doc("../works.xml")/tei:TEI/tei:text/tei:bod
 declare variable $authorsinworksauthority := true();
 
 (: Get a list of work keys in all the collection records, to check a link from author to work won't be broken :)
-declare variable $workkeys := distinct-values(collection('../collections?select=*.xml;recurse=yes')//tei:msDesc//tei:title/@key/data());
+declare variable $workkeys := distinct-values(collection('../collections?select=*.xml;recurse=yes')//(tei:msDesc|tei:bibl[@xml:id])//tei:title/@key/data());
 
 (: Find instances in collection description files, building in-memory data structure, to avoid having to search across all files for each authority file entry :)
 declare variable $allinstances :=
-    for $instance in collection('../collections?select=*.xml;recurse=yes')//tei:msDesc//(tei:persName|tei:author|tei:editor)
+    for $instance in collection('../collections?select=*.xml;recurse=yes')//(tei:msDesc|tei:bibl[@xml:id])//(tei:persName|tei:author|tei:editor)
         let $roottei := $instance/ancestor::tei:TEI
-        let $shelfmark := ($roottei/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno[@type = "shelfmark"])[1]/text()
+        let $shelfmark := ($roottei/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno[@type = "shelfmark"])[1]/text()   
+        let $biblidhash := concat("#", $instance/parent::tei:bibl/@xml:id/data())     
+        let $copycode := $instance/ancestor::tei:text/tei:body//tei:div[@type="entry" and tei:bibl[@corresp=$biblidhash]]/tei:ab[@type="mlgb_copyCode"]/text()    
         let $roles := if ($instance/self::tei:author) then ('aut') else tokenize($instance/@role/data(), ' ')
         let $datesoforigin := distinct-values($roottei//tei:origin//tei:origDate/normalize-space())
         let $placesoforigin := distinct-values($roottei//tei:origin//tei:origPlace/normalize-space())
         return
         <instance>
+            <biblidhash>{$biblidhash}</biblidhash>
+            <copycode>{$copycode}</copycode>
             { for $key in tokenize(normalize-space($instance/@key), ' ') return <key>{ $key }</key> }
             <name>{ normalize-space($instance/string()) }</name>
             <link>{ concat(
                         '/catalog/', 
                         $roottei/@xml:id/data(), 
                         '|', 
-                        $shelfmark,
+                        ($shelfmark, $copycode)[1],
                         if ($roottei//tei:sourceDesc//tei:surrogates/tei:bibl[@type=('digital-fascimile','digital-facsimile') and @subtype='full']) then
                             ' (Digital facsimile online)'
                         else if ($roottei//tei:sourceDesc//tei:surrogates/tei:bibl[@type=('digital-fascimile','digital-facsimile') and @subtype='partial']) then
                             ' (Selected pages online)'
                         else
                             ''
-                        ,'|',
+                        ,
+                        if ($shelfmark) then '|' else (),
                         if ($roottei//tei:msPart) then 'Composite manuscript' else string-join(($datesoforigin, $placesoforigin), '; ')
                     )
             }</link>

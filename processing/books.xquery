@@ -160,11 +160,17 @@ declare function bod:decoTypeLookup($decotype as xs:string) as xs:string
                 let $deconotes := $ms//tei:sourceDesc//tei:decoDesc/tei:decoNote[not(@type='none')]
                 let $decotypes := $deconotes/@type
                 let $repository := normalize-space($ms//tei:msDesc/tei:msIdentifier/tei:repository[1]/text())
+                let $settlement := normalize-space($ms//tei:msDesc/tei:msIdentifier/tei:settlement[1]/text())
+                let $currentLocation := concat(                                    
+                                    $repository, 
+                                    ', ', 
+                                    $settlement                                    
+                                )
                 let $title := concat(
                                     $mainshelfmark, 
                                     ' (', 
-                                    $repository,
-                                        ')'
+                                    $currentLocation,
+                                    ')'
                                 )
 
                 let $latestoriginyear := max(for $dateattr in $ms//tei:origin//tei:origDate[not(@type = ('additions', 'addition'))]/(@when|@notBefore|@notAfter|@from|@to) return functx:get-matches($dateattr, $bod:yearregex)[1])
@@ -185,7 +191,7 @@ declare function bod:decoTypeLookup($decotype as xs:string) as xs:string
                     { bod:string2one($title, 'title') }
                     { bod:one2one($ms//tei:titleStmt/tei:title[@type='collection'], 'ms_collection_s') }
                     { bod:one2one($ms//tei:msDesc/tei:msIdentifier/tei:institution, 'institution_sm') }
-                    { bod:many2one($ms//tei:msDesc/tei:msIdentifier/tei:repository, 'ms_repository_s') }
+                    { bod:string2one($currentLocation, 'ms_repository_s') }
                     { bod:strings2many(bod:shelfmarkVariants($allshelfmarks), 'shelfmarks') (: Non-tokenized field :) }
                     { bod:many2many($oldshelfmarks, 'ms_oldshelfmarks_smni') }
                     { bod:many2many($allshelfmarks, 'ms_shelfmarks_sm') (: Tokenized field :) }
@@ -236,7 +242,6 @@ declare function bod:decoTypeLookup($decotype as xs:string) as xs:string
                     { bod:strings2many(local:buildSummaries($ms), 'ms_summary_sm') }
                     { bod:indexHTML($htmldoc, 'ms_textcontent_tni') }
                     { bod:displayHTML($htmldoc, 'display') }
-                    { bod:requesting($ms/tei:TEI) }
                 </doc>
 
             else
