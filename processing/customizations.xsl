@@ -202,10 +202,16 @@
                                                     <xsl:call-template name="Footer"/>
                                                 </xsl:when>
                                                 <xsl:otherwise>
-                                                    <xsl:apply-templates select="/TEI/text/body"/>
+                                                    <xsl:choose>
+                                                        <xsl:when test="starts-with(/TEI/@xml:id, 'booklist_')">
+                                                            <xsl:call-template name="Booklist"/>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <xsl:apply-templates select="/TEI/text/body"/>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
                                                 </xsl:otherwise>
                                             </xsl:choose>
-
 
                                         </div>
                                     </body>
@@ -242,5 +248,40 @@
     </xsl:template>
 
 
+    <!-- MLGB Booklists -->
+    <xsl:template name="Booklist">
+        <xsl:for-each select="/TEI/text/body//div[@type='entry' and not(ab[@type='mlgb_copyCode'] = preceding-sibling::div[@type='entry']/ab[@type='mlgb_copyCode'])]">
+
+            <xsl:variable name="biblid" select="substring-after(./bibl/@corresp, '#')"/>
+            <xsl:variable name="copycode" select="./ab[@type='mlgb_copyCode']/text()"/>
+            <xsl:variable name="booklink" select="substring-after(./@corresp, 'catalog/')"/>
+            <xsl:variable name="extract" select="./ab[@type='mlgb_catalogueExtract']/text()"/>
+            <xsl:variable name="biblnode" select="/TEI/text/back/listBibl/bibl[@xml:id=$biblid]"/>
+
+            <li>
+                <xsl:choose>
+                    <xsl:when test="$booklink">
+                        <a>
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="$website-url"/>
+                                <xsl:text>/catalog/</xsl:text>
+                                <xsl:value-of select="tokenize($booklink, ' ')[1]"/>
+                            </xsl:attribute>
+                            <xsl:value-of select="$copycode" />
+                        </a>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="$copycode" />
+                    </xsl:otherwise>
+                </xsl:choose>
+                <xsl:if test="$extract">
+                    <xsl:text>&#x20;</xsl:text>
+                    <xsl:value-of select="$extract" />
+                </xsl:if>
+                <xsl:apply-templates select="$biblnode" />
+            </li>
+
+        </xsl:for-each>
+    </xsl:template>
 
 </xsl:stylesheet>
