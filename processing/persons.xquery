@@ -28,7 +28,17 @@ declare variable $allinstances :=
             <copycode>{$copycode}</copycode>
             { for $key in tokenize(normalize-space($instance/@key), ' ') return <key>{ $key }</key> }
             <name>{ normalize-space($instance/string()) }</name>
-            <link>{ concat(
+            {
+            if ($copycode) then 
+                  <booklistlink>{ concat(
+                        '/catalog/', 
+                        $roottei/@xml:id/data(), 
+                        '|', 
+                        $copycode                      
+                    )
+                }</booklistlink>
+            else 
+                <booklink>{ concat(
                         '/catalog/', 
                         $roottei/@xml:id/data(), 
                         '|', 
@@ -39,11 +49,11 @@ declare variable $allinstances :=
                             ' (Selected pages online)'
                         else
                             ''
-                        ,
-                        if ($shelfmark) then '|' else (),
+                        , '|',
                         if ($roottei//tei:msPart) then 'Composite manuscript' else string-join(($datesoforigin, $placesoforigin), '; ')
                     )
-            }</link>
+                }</booklink>
+            }
             { for $role in $roles return <role>{ $role }</role> }
             {
             if ($authorsinworksauthority) then () else
@@ -204,10 +214,17 @@ declare variable $allinstances :=
                 }
                 {
                 (: Links to books containing mentions of the person :)
-                for $link in distinct-values($instances/link/text())
-                    order by tokenize($link, '\|')[2]
+                for $booklink in distinct-values($instances/booklink/text())
+                    order by tokenize($booklink, '\|')[2]
                     return
-                    <field name="link_books_smni">{ $link }</field>
+                    <field name="link_books_smni">{ $booklink }</field>
+                }
+                  {
+                (: Links to booklists containing mentions of the person :)
+                for $booklistlink in distinct-values($instances/booklistlink/text())
+                    order by tokenize($booklistlink, '\|')[2]
+                    return
+                    <field name="link_booklists_smni">{ $booklistlink }</field>
                 }
                 {
                 (: Filter on which external authorities, if any, this person has been identified in :)

@@ -103,11 +103,19 @@ declare function local:titles($titles as node()*, $solrfield as xs:string, $solr
                         let $subfolders := string-join(tokenize(substring-after(base-uri($booklist), 'collections/booklists/'), '/')[position() lt last()], '/')
                         let $htmlfilename := concat($blid, '.html')
                         let $htmldoc := doc(concat('html/booklists/', $subfolders, '/', $htmlfilename))
-                        let $titlegroup := $booklist/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type="mlgb_booklist_Group"]
-                        let $titlelocation := $booklist/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type="mlgb_location"]
-                        let $titlecode := $booklist/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type="mlgb_code"]
-                        let $titlebooklist := $booklist/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type="mlgb_booklist"]
-                        let $title := concat($titlegroup, ": ", $titlelocation, ". ", $titlecode, ". ", $titlebooklist)
+                    
+                        let $titlestmt := $booklist/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt
+                        let $titlegroup := $titlestmt/tei:title[@type="mlgb_booklist_Group"]
+                        let $titlelocation := $titlestmt/tei:title[@type="mlgb_location"]
+                        let $titlecode := $titlestmt/tei:title[@type="mlgb_code"]
+                        let $titlebooklist := $titlestmt/tei:title[@type="mlgb_booklist"]
+                        let $title := string-join((
+                            $titlegroup,
+                            concat(": ", $titlelocation),
+                            concat(". ", $titlecode),
+                            concat(". ", $titlebooklist)
+                        ))
+
                         let $instances := $allinstances[key/@xml:id/data() = $blid]
                        
                         (:
