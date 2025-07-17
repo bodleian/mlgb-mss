@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5611">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Paris, France</settlement>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
                   <repository>Bibliothèque nationale de France</repository>
                   <idno type="shelfmark">MS. lat. 3381</idno>
                   <altIdentifier type="system">
@@ -50,9 +52,9 @@
                   <origin>
                      <origDate when-custom="140X/141X">s. xv in.</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_573">Wells, Somerset. Cathedral church of
-                        St Andrew. </orgName><note type="MLGB3_medievalCatalogueNotes"
-                     >Leland</note></provenance>
+                  <provenance><orgName role="fmo" key="mlgbOrg_573">Wells, Somerset. Cathedral
+                        church of St Andrew. </orgName><note type="MLGB3_medievalCatalogueNotes"
+                        >Leland</note></provenance>
                </history>
             </msDesc>
          </sourceDesc>

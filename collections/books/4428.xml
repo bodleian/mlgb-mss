@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4428">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Edinburgh, Scotland</settlement>
+                  <country>Scotland</country>
+                  <settlement>Edinburgh</settlement>
                   <repository>National Library of Scotland</repository>
                   <idno type="shelfmark">MS. Advocates 25.5.10</idno>
                   <altIdentifier type="system">
@@ -55,7 +57,8 @@
                   <provenance type="#e"><orgName role="fmo" key="mlgbOrg_445">Perth, Perthshire.
                         Charterhouse Vallis Virtutis. </orgName><p>'Liber domus vallis Virtutis
                         ordinis Cartusiensis in Scocia' on fol. 1r, in marg.</p><p>Pressmark 'H. vj'
-                        at foot of fol. 1r ('H' in blue, 'vj' in red).</p><q type="pressmark">H.vj</q></provenance>
+                        at foot of fol. 1r ('H' in blue, 'vj' in red).</p><q type="pressmark"
+                        >H.vj</q></provenance>
                   <provenance type="MLGB3_laterOwners">George Mackenzie, 1st Earl of Cromartie:
                      given by him to the Advocates Library in 1747.</provenance>
                </history>

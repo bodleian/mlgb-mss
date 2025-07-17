@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5645">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
                   <idno type="shelfmark">MS. K.8.k.8 (paper leaf)</idno>
@@ -51,12 +53,13 @@
                   <origin>
                      <origDate/>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_579">Westminster, Middlesex. Benedictine
-                        abbey of St Peter. </orgName><p>'John [...] monachus westmonasterii est
-                        custos huius libri teste Thoma Phylyp commonacho eius precium Richardys
-                        Emdsun monachus Westmonasterii est custos huius libri thestes [sic] Iohannes
-                        Grayce Thomas Phylyp Thomas Whethamsted monachi huius loci' (see A. H. King
-                        in The Library, 5th ser. 26 (1971), p. 209, &amp; pl. II.</p></provenance>
+                  <provenance><orgName role="fmo" key="mlgbOrg_579">Westminster, Middlesex.
+                        Benedictine abbey of St Peter. </orgName><p>'John [...] monachus
+                        westmonasterii est custos huius libri teste Thoma Phylyp commonacho eius
+                        precium Richardys Emdsun monachus Westmonasterii est custos huius libri
+                        thestes [sic] Iohannes Grayce Thomas Phylyp Thomas Whethamsted monachi huius
+                        loci' (see A. H. King in The Library, 5th ser. 26 (1971), p. 209, &amp; pl.
+                        II.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Bought from Ludwig Rosenthal Antiquariat, 16
                      Hildegardstrasse, Munich, 26 September 1904.</provenance>
                </history>

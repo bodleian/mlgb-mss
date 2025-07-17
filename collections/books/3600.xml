@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3600">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Philadelphia (PA, USA)</settlement>
+                  <country>USA</country>
+                  <settlement>Philadelphia (PA)</settlement>
                   <repository>Bryn Mawr College</repository>
                   <idno type="shelfmark">MS. Gordan MS 24</idno>
                   <altIdentifier type="system">
@@ -50,12 +52,12 @@
                   <origin>
                      <origDate>s. xv1</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_313">Lichfield, Staffordshire.
-                        Cathedral chantries. </orgName><p>'Istum librum dedit dominus Ricardus Gully
-                        nuper vicarius choralis ecclesie Cathedralis Lychfeld' Capellanis
-                        cantariarum infra clausum dicte ecclesie fundatarum ad inperpetuum inter
-                        ipsos remanendum' (on recto of back flyleaf, s. xv, in a large, ornamental
-                        gothic script).</p><p> </p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_313">Lichfield,
+                        Staffordshire. Cathedral chantries. </orgName><p>'Istum librum dedit dominus
+                        Ricardus Gully nuper vicarius choralis ecclesie Cathedralis Lychfeld'
+                        Capellanis cantariarum infra clausum dicte ecclesie fundatarum ad
+                        inperpetuum inter ipsos remanendum' (on recto of back flyleaf, s. xv, in a
+                        large, ornamental gothic script).</p><p> </p></provenance>
                   <provenance type="MLGB3_laterOwners">Philip J. C. Howard sale (London, 1 Aug.
                      1934), lot 87, to Maggs.</provenance>
                   <provenance type="MLGB3_laterOwners">Howard L. Goodhart, given by him to Phyllis

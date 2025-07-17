@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8535">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Oriel College</repository>
                   <idno type="shelfmark">MS. 51</idno>
@@ -50,13 +52,13 @@
                   <origin>
                      <origDate when-custom="14XX">s. xv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_438">Oxford, Oxfordshire. Oriel
-                        College (Domus beate Marie seu Collegium regale Oxon'). </orgName><p>‘Liber
-                        domus beate marie et collegii regis Oxon. vocati Oryell, ex dono venerabilis
-                        viri magistri Henrici Sampson quondam eiusdem loci prepositi.’ (The Dean’s
-                        Register, 394)In the Treasurer’s accounts, 1455, is an entry for 8s 4d ‘pro
-                        quodam libro Hugonis de Vienna’, which may or may not be related to this
-                        manuscript</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_438">Oxford, Oxfordshire.
+                        Oriel College (Domus beate Marie seu Collegium regale Oxon').
+                        </orgName><p>‘Liber domus beate marie et collegii regis Oxon. vocati Oryell,
+                        ex dono venerabilis viri magistri Henrici Sampson quondam eiusdem loci
+                        prepositi.’ (The Dean’s Register, 394)In the Treasurer’s accounts, 1455, is
+                        an entry for 8s 4d ‘pro quodam libro Hugonis de Vienna’, which may or may
+                        not be related to this manuscript</p></provenance>
                   <provenance type="MLGB3_laterOwners">Henry Sampson (d. 1482), fellow and provost
                      of Oriel</provenance>
                </history>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3243">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>San Marino (CA, USA)</settlement>
+                  <country>USA</country>
+                  <settlement>San Marino (CA)</settlement>
                   <repository>Huntington Library</repository>
                   <idno type="shelfmark">MS. HM 19915</idno>
                   <altIdentifier type="system">
@@ -56,11 +58,12 @@
                   <origin>
                      <origDate when-custom="120X/121X">s. xiii in.</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_260">Holme Cultram, Cumberland.
-                        Cistercian abbey of St Mary the Virgin. </orgName><p>"Liber Sancte Marie De
-                        Holmcoltran. Hec continentur In Hoc Volumine Enchiridion augustini Prosper
-                        de Vita Contemplativa" (flyleaf).</p><p>"liber lxxvj" at head of fol.
-                        1r.</p><p>"Liber sancte Marie de holmo" at foot of fol. 1r.</p><p> </p><q type="pressmark">liber lxxvi</q></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_260">Holme Cultram,
+                        Cumberland. Cistercian abbey of St Mary the Virgin. </orgName><p>"Liber
+                        Sancte Marie De Holmcoltran. Hec continentur In Hoc Volumine Enchiridion
+                        augustini Prosper de Vita Contemplativa" (flyleaf).</p><p>"liber lxxvj" at
+                        head of fol. 1r.</p><p>"Liber sancte Marie de holmo" at foot of fol.
+                        1r.</p><p> </p><q type="pressmark">liber lxxvi</q></provenance>
                   <provenance type="MLGB3_laterOwners">No. 17 in the Llanerch cat. of
                      1740.</provenance>
                   <provenance type="MLGB3_laterOwners">No. 42 in the Llanerch cat. of

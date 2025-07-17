@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3185">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Hereford</settlement>
                   <repository>Cathedral</repository>
                   <idno type="shelfmark">MS. P.iii.12</idno>
@@ -59,10 +61,11 @@
                   <origin>
                      <origDate when-custom="12XX/13XX">s. xiii--xiv</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_251">Hereford, Herefordshire.
-                        Franciscan convent. </orgName><p>"Iste liber tradatur fratri Philippo de
-                        Landu ex parte fratris Walteri de Land'" (fol. i recto).</p><p>"F. 8. bonus
-                        liber est" (fol. i verso).</p><q type="pressmark">F.8</q></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_251">Hereford,
+                        Herefordshire. Franciscan convent. </orgName><p>"Iste liber tradatur fratri
+                        Philippo de Landu ex parte fratris Walteri de Land'" (fol. i
+                        recto).</p><p>"F. 8. bonus liber est" (fol. i verso).</p><q type="pressmark"
+                        >F.8</q></provenance>
                </history>
             </msDesc>
          </sourceDesc>

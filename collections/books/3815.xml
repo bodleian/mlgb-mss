@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3815">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Bodleian Library</repository>
                   <idno type="shelfmark">MS. Laud Misc. 728</idno>
@@ -50,12 +52,13 @@
                   <origin>
                      <origDate when-custom="13XX">s. xiv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_333">London. Dominican convent.
-                        </orgName><p>On fol. iv verso: 'J. 12 Maria Ihesus Iohannes tibi Ihesu laus
-                        lux eterna' 'De perquisit fratris Iohannis Tille' (legible by ultra-violet
-                        light).</p><p>Compare Trinity College O. 2. 50, given by Tille in 1421,
-                        where the same invocation occurs. Also Cambridge, Corpus Christi College,
-                        299, 306, and Cambridge UL Add. 2991.</p><q type="pressmark">J.12</q></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_333">London. Dominican
+                        convent. </orgName><p>On fol. iv verso: 'J. 12 Maria Ihesus Iohannes tibi
+                        Ihesu laus lux eterna' 'De perquisit fratris Iohannis Tille' (legible by
+                        ultra-violet light).</p><p>Compare Trinity College O. 2. 50, given by Tille
+                        in 1421, where the same invocation occurs. Also Cambridge, Corpus Christi
+                        College, 299, 306, and Cambridge UL Add. 2991.</p><q type="pressmark"
+                        >J.12</q></provenance>
                   <provenance type="MLGB3_laterOwners">Laudian date 1635.</provenance>
                </history>
             </msDesc>

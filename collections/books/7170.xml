@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7170">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Gonville and Caius College</repository>
                   <idno type="shelfmark">MS. 600/512</idno>
@@ -50,11 +52,11 @@
                   <origin>
                      <origDate when-custom="12XX">s. xiii</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_100">Cambridge, Cambridgeshire.
-                        Gonville Hall. </orgName><p>‘Pignus Iohannis de Hann’ impignoratum in
-                        communi cista pro viii s. in crastino annunciationis dominice AD m. cc.
-                        nonagesimo quarto’ (fol. 222v)</p><p>‘Liber Michaelis de Causton’ (fol.
-                        222v)</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_100">Cambridge,
+                        Cambridgeshire. Gonville Hall. </orgName><p>‘Pignus Iohannis de Hann’
+                        impignoratum in communi cista pro viii s. in crastino annunciationis
+                        dominice AD m. cc. nonagesimo quarto’ (fol. 222v)</p><p>‘Liber Michaelis de
+                        Causton’ (fol. 222v)</p></provenance>
                   <provenance type="MLGB3_laterOwners">Perhaps Michael de Causton (d. by July 1396),
                      canon of Chichester and Lincoln and chancellor of Oxford</provenance>
                </history>

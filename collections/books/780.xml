@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_780">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
                   <idno type="shelfmark">MS. Royal 8 B.iv</idno>
@@ -50,14 +52,15 @@
                   <origin>
                      <origDate>s. xii--xiv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_86">Bury St Edmunds, Suffolk.
-                        Benedictine abbey of St Edmund, King and Martyr. </orgName><p>Bury
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_86">Bury St Edmunds,
+                        Suffolk. Benedictine abbey of St Edmund, King and Martyr. </orgName><p>Bury
                         pressmark, S.184. Article 5 (Suidas) is a separate quire inscribed
                         'Quaternus monachorum s. Edmundi de procuracione fr. Henrici de Kirkested,
                         in quo continetur narracio sumpta de libro qui vocatus Suda' (fol. 72r, s.
                         xiv).</p><p>At end of art. 5 is: 'Non plus habetur apud Lenniam sed residuum
                         est Oxonie et non continet in toto vnum psalterium'. List of chapters of
-                        Suidas in hand of the 15th-cent. librarian.</p><q type="pressmark">S.184</q></provenance>
+                        Suidas in hand of the 15th-cent. librarian.</p><q type="pressmark"
+                     >S.184</q></provenance>
                   <provenance type="MLGB3_laterOwners"> </provenance>
                   <provenance type="MLGB3_laterOwners">John Lumley, first Baron Lumley (c.
                      1533--1609).</provenance>

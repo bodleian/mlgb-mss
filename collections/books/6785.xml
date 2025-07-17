@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6785">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
                   <idno type="shelfmark">MS. Reg. lat. 1351</idno>
                   <altIdentifier type="system">
@@ -56,11 +58,11 @@
                   <origin>
                      <origDate when-custom="110X/111X">s. xii in</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_601">Worcester, Worcestershire.
-                        Benedictine cathedral priory of St Mary the Virgin. </orgName><p>Apparently
-                        the copy of his works which Baldric took with him to Worcester and in which
-                        a Worcester scribe entered (fol. 151v) verses on the organs and rota of the
-                        Cathedral church.</p></provenance>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_601">Worcester,
+                        Worcestershire. Benedictine cathedral priory of St Mary the Virgin.
+                        </orgName><p>Apparently the copy of his works which Baldric took with him to
+                        Worcester and in which a Worcester scribe entered (fol. 151v) verses on the
+                        organs and rota of the Cathedral church.</p></provenance>
                   <provenance type="MLGB3_laterOwners">'E.S.' at foot of fol. 5, 151v (s.
                      xvi?).</provenance>
                </history>

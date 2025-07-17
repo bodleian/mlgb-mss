@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7335">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Peterhouse</repository>
                   <idno type="shelfmark">MS. 38</idno>
@@ -50,13 +52,13 @@
                   <origin>
                      <origDate>s. xiv 1</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_106">Cambridge, Cambridgeshire.
-                        Peterhouse (Collegium Sancti Petri). </orgName><p>‘Liber Collegii sancti
-                        Petri Cantabrigg’ collatus per uenerabilem patrem dominum Thomam [de Lyle
-                        above line in another hand] Dei gracia episcopum Eliensem’ (fol.
-                        iiiv)</p><p>Fol. 98 has a Peterhouse ownership inscription, but Thomson
-                        (Peterhouse, 21) writes that ‘This is obviously from another
-                     book.’</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_106">Cambridge,
+                        Cambridgeshire. Peterhouse (Collegium Sancti Petri). </orgName><p>‘Liber
+                        Collegii sancti Petri Cantabrigg’ collatus per uenerabilem patrem dominum
+                        Thomam [de Lyle above line in another hand] Dei gracia episcopum Eliensem’
+                        (fol. iiiv)</p><p>Fol. 98 has a Peterhouse ownership inscription, but
+                        Thomson (Peterhouse, 21) writes that ‘This is obviously from another
+                        book.’</p></provenance>
                   <provenance type="MLGB3_laterOwners">Thomas de Lisle (d. 1361), bishop of
                      Ely</provenance>
                </history>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_961">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
                   <idno type="shelfmark">MS. Ottoboni lat. 1764</idno>
                   <altIdentifier type="system">
@@ -55,15 +57,16 @@
                   <origin>
                      <origDate when-custom="1318">A.D. 1318</origDate>
                   </origin>
-                  <provenance type="#b"><orgName role="fmo" key="mlgbOrg_96">Cambridge, Cambridgeshire.
-                        Convent of Austin friars. </orgName><p>Label from the old binding attached
-                        inside the cover is uniform with the label of Ottob. lat. 1603: it bears the
-                        letter 'F' in red and the title 'Coment' super problemata aristotelis' on
-                        another line.</p><p>Flyleaves, fols. 1, 2, 227, 228, are four leaves of a
-                        Digest, Bks XI, XII, in an English hand: 2 cols, 48-lines.</p><p>'Anno
-                        domini M' CCCo 18o 6a die augusti completa fuit scriptura huius exposicionis
-                        per manum Magistri Iohannis de Genduno parisius in domo solarium de nauarra
-                        Deo gracias'.</p><q type="pressmark">F</q></provenance>
+                  <provenance type="#b"><orgName role="fmo" key="mlgbOrg_96">Cambridge,
+                        Cambridgeshire. Convent of Austin friars. </orgName><p>Label from the old
+                        binding attached inside the cover is uniform with the label of Ottob. lat.
+                        1603: it bears the letter 'F' in red and the title 'Coment' super problemata
+                        aristotelis' on another line.</p><p>Flyleaves, fols. 1, 2, 227, 228, are
+                        four leaves of a Digest, Bks XI, XII, in an English hand: 2 cols,
+                        48-lines.</p><p>'Anno domini M' CCCo 18o 6a die augusti completa fuit
+                        scriptura huius exposicionis per manum Magistri Iohannis de Genduno parisius
+                        in domo solarium de nauarra Deo gracias'.</p><q type="pressmark"
+                     >F</q></provenance>
                   <provenance type="MLGB3_laterOwners">Marcello Cervini (1501--1555), cardinal, his
                      no. 116.</provenance>
                </history>

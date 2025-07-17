@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3842">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Glasgow, Scotland</settlement>
+                  <country>Scotland</country>
+                  <settlement>Glasgow</settlement>
                   <repository>University Library</repository>
                   <idno type="shelfmark">MS. Dp.e.6</idno>
                   <altIdentifier type="system">
@@ -53,13 +55,14 @@
                   <origin>
                      <origDate>Venice: Johannes Herbort de Seligenstadt, 1484</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_341">London. Convent of Austin
-                        friars. </orgName><p>(1) 'Iste liber pertinet fratri Willelmo frere lectore
-                        fratrum Eremitarum sancti Augustini London'' (end flyleaf, recto)</p><p>(2)
-                        'Anno domini 1521. Iste liber pertinet fratri Iacobi Andrew ordinis fratrum
-                        Eremitarum sancti Augustini london' le xxvj iour De octobyr anno 1521' (end
-                        flyleaf, recto)</p><p>(3) 'Iste liber pertinet fratri [?] Thomas [sic] Wiman
-                        [?] fratrum sancti augustini' (end flyleaf, verso)</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_341">London. Convent of
+                        Austin friars. </orgName><p>(1) 'Iste liber pertinet fratri Willelmo frere
+                        lectore fratrum Eremitarum sancti Augustini London'' (end flyleaf,
+                        recto)</p><p>(2) 'Anno domini 1521. Iste liber pertinet fratri Iacobi Andrew
+                        ordinis fratrum Eremitarum sancti Augustini london' le xxvj iour De octobyr
+                        anno 1521' (end flyleaf, recto)</p><p>(3) 'Iste liber pertinet fratri [?]
+                        Thomas [sic] Wiman [?] fratrum sancti augustini' (end flyleaf,
+                     verso)</p></provenance>
                   <provenance type="MLGB3_laterOwners">John Gibson 22 Dec. 1587.</provenance>
                   <provenance type="MLGB3_laterOwners">Andreas Davidson 1539.</provenance>
                   <provenance type="MLGB3_laterOwners">Euing collection.</provenance>

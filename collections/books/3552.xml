@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3552">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>York</settlement>
                   <repository>York Minster</repository>
                   <idno type="shelfmark">MS. XVI.M.7</idno>
@@ -52,10 +54,11 @@
                   <origin>
                      <origDate when-custom="11XX">s. xii</origDate>
                   </origin>
-                  <provenance type="#d"><orgName role="fmo" key="mlgbOrg_299">Leicester, Leicestershire.
-                        Augustinian abbey of St Mary the Virgin de Pratis. </orgName><p>Identifiable
-                        in the catalogue by second folio ('accepta dividiter').</p><p>York XVI.M.6,
-                        M.7 formed one volume in s. xvi in.</p></provenance>
+                  <provenance type="#d"><orgName role="fmo" key="mlgbOrg_299">Leicester,
+                        Leicestershire. Augustinian abbey of St Mary the Virgin de Pratis.
+                        </orgName><p>Identifiable in the catalogue by second folio ('accepta
+                        dividiter').</p><p>York XVI.M.6, M.7 formed one volume in s. xvi
+                     in.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

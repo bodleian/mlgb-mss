@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_954">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
                   <idno type="shelfmark">MS. Ottoboni lat. 468</idno>
                   <altIdentifier type="system">
@@ -54,14 +56,15 @@
                   <origin>
                      <origDate when-custom="128X/129X">s. xiii ex</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_96">Cambridge, Cambridgeshire. Convent of
-                        Austin friars. </orgName><p>Press mark in usual form: 'B.Q.' on fol.
-                        291r.</p><p>'L' F' Ioh' Bury' (fol. 1r, at foot).</p><p>'Caucio magistri
-                        Iohannis Willelmi ludham extra cist' trintate anno domini Millesimo ccccmo
-                        et xxij die mensis marcii et habet vnum supplementum uidelicet(?) Precianum
-                        in minori cum aliis pro xx s.' (fol. 294v, cancelled); 'Caucio m' I'
-                        Willelmi ludham extra cist' s' trinitatis anno domini Mo cccco et jo et [. .
-                        . .]' (fol. 294v, not cancelled).</p><q type="pressmark">B.Q.</q></provenance>
+                  <provenance><orgName role="fmo" key="mlgbOrg_96">Cambridge, Cambridgeshire.
+                        Convent of Austin friars. </orgName><p>Press mark in usual form: 'B.Q.' on
+                        fol. 291r.</p><p>'L' F' Ioh' Bury' (fol. 1r, at foot).</p><p>'Caucio
+                        magistri Iohannis Willelmi ludham extra cist' trintate anno domini Millesimo
+                        ccccmo et xxij die mensis marcii et habet vnum supplementum uidelicet(?)
+                        Precianum in minori cum aliis pro xx s.' (fol. 294v, cancelled); 'Caucio m'
+                        I' Willelmi ludham extra cist' s' trinitatis anno domini Mo cccco et jo et
+                        [. . . .]' (fol. 294v, not cancelled).</p><q type="pressmark"
+                     >B.Q.</q></provenance>
                   <provenance type="MLGB3_laterOwners">Gugliemo Sirleto (1514--1585), cardinal and
                      scholar, his no. 375 or 376.</provenance>
                </history>

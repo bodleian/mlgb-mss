@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_901">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
                   <idno type="shelfmark">MS. Ottoboni lat. 352 fols. 1--86</idno>
                   <altIdentifier type="system">
@@ -50,19 +52,19 @@
                   <origin>
                      <origDate when-custom="13XX">s. xiv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_94">Cambridge, Cambridgeshire.
-                        Franciscan convent. </orgName><p>' . . . minorum Babwell'' (foot of fol. 1r,
-                        erased, s. xiv). Below it in the same hand is: 'Precium 8 s' et dixit in
-                        vita sua quod communitas'; followed by an erasure, over which is written in
-                        a 15th-cent. hand: 'fratrum minorum cantebr' haberet ex eius collatione de
-                        licentia rev. fratris T. Radnor ministri'. Probably the same 15th-c. hand
-                        writes at top of fol. 1r: 'fratris Thome Trumpyton sacre theologie
-                        doctoris'. A partially erased inscription on fol. 86v (end of the original
-                        volume), s. xiv, seems to read: 'de alm[ariis fratrum de] Babwell' de
-                        [?dono] fratr[is? . .] de Creyk''.</p><p>The rest of the volume is earlier
-                        and may not have been bound together in the middle ages: witness the chain
-                        or clasp marks on fol. 87.</p><p>Thomas Trumpington STP was president of the
-                        Minoresses of Denny, 1465.</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_94">Cambridge,
+                        Cambridgeshire. Franciscan convent. </orgName><p>' . . . minorum Babwell''
+                        (foot of fol. 1r, erased, s. xiv). Below it in the same hand is: 'Precium 8
+                        s' et dixit in vita sua quod communitas'; followed by an erasure, over which
+                        is written in a 15th-cent. hand: 'fratrum minorum cantebr' haberet ex eius
+                        collatione de licentia rev. fratris T. Radnor ministri'. Probably the same
+                        15th-c. hand writes at top of fol. 1r: 'fratris Thome Trumpyton sacre
+                        theologie doctoris'. A partially erased inscription on fol. 86v (end of the
+                        original volume), s. xiv, seems to read: 'de alm[ariis fratrum de] Babwell'
+                        de [?dono] fratr[is? . .] de Creyk''.</p><p>The rest of the volume is
+                        earlier and may not have been bound together in the middle ages: witness the
+                        chain or clasp marks on fol. 87.</p><p>Thomas Trumpington STP was president
+                        of the Minoresses of Denny, 1465.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Marcello Cervini (1501--1555), cardinal, his
                      no. 869. </provenance>
                   <provenance type="MLGB3_laterOwners">Gugliemo Sirleto (1514--1585), cardinal and

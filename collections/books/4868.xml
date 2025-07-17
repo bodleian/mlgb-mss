@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4868">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
                   <idno type="shelfmark">MS. Royal 10 E.viii</idno>
@@ -50,13 +52,13 @@
                   <origin>
                      <origDate>s. xiv ex.</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_474">St Albans, Hertfordshire.
-                        Benedictine abbey of St Alban. </orgName><p>'Iste liber est de speciali
-                        provisione fratris Thome de Aylesberi monachi monasterii sancti Albani,
-                        doctoris decretorum, ad usum perpetuum monasterii predicti. deus saluet
-                        animam suam.' (fol. 2r).</p><p>'A. D. 1376 assignatus fuit iste liber una
-                        cum aliis ... ad officium archidiaconi monasterii sancti Albani
-                     ...'.</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_474">St Albans,
+                        Hertfordshire. Benedictine abbey of St Alban. </orgName><p>'Iste liber est
+                        de speciali provisione fratris Thome de Aylesberi monachi monasterii sancti
+                        Albani, doctoris decretorum, ad usum perpetuum monasterii predicti. deus
+                        saluet animam suam.' (fol. 2r).</p><p>'A. D. 1376 assignatus fuit iste liber
+                        una cum aliis ... ad officium archidiaconi monasterii sancti Albani
+                        ...'.</p></provenance>
                   <provenance type="MLGB3_laterOwners">'T. C.'</provenance>
                   <provenance type="MLGB3_laterOwners">Old Royal pressmark 'no. 1305'.</provenance>
                </history>

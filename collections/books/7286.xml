@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7286">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Pembroke College</repository>
                   <idno type="shelfmark">MS. 249</idno>
@@ -50,15 +52,16 @@
                   <origin>
                      <origDate when-custom="14XX">s. xv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_105">Cambridge, Cambridgeshire.
-                        Pembroke College (Aula Valence S. Marie). </orgName><p>‘Magistri Thome
-                        Hylle’ and ‘T. Hille’ (fol. ir)</p><p>‘Iste liber constat collegio siue aule
-                        Valence Marie Pembrochie ex dono Magistri Thome Hyll rectoris ecclesie
-                        parrochialis de Chesterforth Magna cuius magnificenciam et summam
-                        liberalitatem retribuat Summus omnium bonorum retributor Deus et Dominus
-                        noster Iesus Christus. Et datus est iste liber sub hac conditione quod socii
-                        dicte aule faciant istum librum in pergameno transcribi et in libraria dicte
-                        aule inchatenari ad communem inspeccionem.’ (fol. 110v)</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_105">Cambridge,
+                        Cambridgeshire. Pembroke College (Aula Valence S. Marie).
+                        </orgName><p>‘Magistri Thome Hylle’ and ‘T. Hille’ (fol. ir)</p><p>‘Iste
+                        liber constat collegio siue aule Valence Marie Pembrochie ex dono Magistri
+                        Thome Hyll rectoris ecclesie parrochialis de Chesterforth Magna cuius
+                        magnificenciam et summam liberalitatem retribuat Summus omnium bonorum
+                        retributor Deus et Dominus noster Iesus Christus. Et datus est iste liber
+                        sub hac conditione quod socii dicte aule faciant istum librum in pergameno
+                        transcribi et in libraria dicte aule inchatenari ad communem inspeccionem.’
+                        (fol. 110v)</p></provenance>
                   <provenance type="MLGB3_laterOwners">Thomas Hill (d. by June 1465), pensioner of
                      Pembroke Hall</provenance>
                </history>

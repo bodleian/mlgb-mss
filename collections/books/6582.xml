@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6582">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Paris, France</settlement>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
                   <repository>Bibliothèque nationale de France</repository>
                   <idno type="shelfmark">MS. lat. 4167A</idno>
                   <altIdentifier type="system">
@@ -59,11 +61,12 @@
                   <origin>
                      <origDate when-custom="13XX">s. xiv</origDate>
                   </origin>
-                  <provenance type="#de"><orgName role="fmo" key="mlgbOrg_224">Glastonbury, Somerset.
-                        Benedictine Abbey of Saint Mary the Virgin. </orgName><p>Idenitifiable in
-                        the list of Monington books, by second folio.</p><p>'Liber monasterii
-                        Glastoniens' de perquisito Fratris Johannis Crosse Prioris ibidem in quo
-                        continentur videlicet . . .' (fol. 208v; s. xiv/xv).</p></provenance>
+                  <provenance type="#de"><orgName role="fmo" key="mlgbOrg_224">Glastonbury,
+                        Somerset. Benedictine Abbey of Saint Mary the Virgin.
+                        </orgName><p>Idenitifiable in the list of Monington books, by second
+                        folio.</p><p>'Liber monasterii Glastoniens' de perquisito Fratris Johannis
+                        Crosse Prioris ibidem in quo continentur videlicet . . .' (fol. 208v; s.
+                        xiv/xv).</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

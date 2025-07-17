@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5184">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
                   <idno type="shelfmark">MS. Barberini 2689</idno>
                   <altIdentifier type="system">
@@ -53,13 +55,13 @@
                   <origin>
                      <origDate when-custom="13XX">s. xiv</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_494">Sempringham, Lincolnshire.
-                        Gilbertine priory of St Mary the Virgin. </orgName><p>Nat. Libr. of Scotland
-                        2728 is a copy made for B. H. Bright in 1823. Flyleaf memoranda show the
-                        provenance, e. g. (2728, fol. iv verso) note of the great rain in 1349 and
-                        the damage it did at Sempringham 'et mult des liures de lalmarie peris', and
-                        (2728, fol. vii recto) list of masters to Wm. of Beverley, d. 1396,
-                        succeeded by John of Hanworth.</p></provenance>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_494">Sempringham,
+                        Lincolnshire. Gilbertine priory of St Mary the Virgin. </orgName><p>Nat.
+                        Libr. of Scotland 2728 is a copy made for B. H. Bright in 1823. Flyleaf
+                        memoranda show the provenance, e. g. (2728, fol. iv verso) note of the great
+                        rain in 1349 and the damage it did at Sempringham 'et mult des liures de
+                        lalmarie peris', and (2728, fol. vii recto) list of masters to Wm. of
+                        Beverley, d. 1396, succeeded by John of Hanworth.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

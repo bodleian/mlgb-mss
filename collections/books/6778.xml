@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6778">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>New Haven (CT, USA)</settlement>
+                  <country>USA</country>
+                  <settlement>New Haven (CT)</settlement>
                   <repository>Beinecke Library</repository>
                   <idno type="shelfmark">MS. Takamiya Deposit 15</idno>
                   <altIdentifier type="system">
@@ -54,13 +56,13 @@
                   <origin>
                      <origDate>s. xv1.</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_314">Lichfield, Staffordshire.
-                        Franciscan convent. </orgName><p>'Ihesus 1486 Detur iste liber Conuentui
-                        fratrum minorum de lych' super condicione quod dicant [. . .] missas
-                        trigental' sancti Gregorii triginta placebo dirige et totidem viitem psalmi
-                        penitentiales [next four words interlinear:] cum commendac' animarum xxx pro
-                        animabus Alice Iocose et alani et animabus omnium fidelium defunctorum'
-                        (fol. 84v).</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_314">Lichfield,
+                        Staffordshire. Franciscan convent. </orgName><p>'Ihesus 1486 Detur iste
+                        liber Conuentui fratrum minorum de lych' super condicione quod dicant [. .
+                        .] missas trigental' sancti Gregorii triginta placebo dirige et totidem
+                        viitem psalmi penitentiales [next four words interlinear:] cum commendac'
+                        animarum xxx pro animabus Alice Iocose et alani et animabus omnium fidelium
+                        defunctorum' (fol. 84v).</p></provenance>
                   <provenance type="MLGB3_laterOwners">Sold at Sotheby's, 10 December 1969, lot 43
                      for £22,000; the Catalogue of the sale has a reduced facsimile of one page.
                      Dawson's Catalogue, 209 (June 1970), item 3 at £38500.</provenance>

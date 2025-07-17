@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6995">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Gonville and Caius College</repository>
                   <idno type="shelfmark">MS. 27/16</idno>
@@ -50,11 +52,11 @@
                   <origin>
                      <origDate when-custom="13XX">s. xiv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_100">Cambridge, Cambridgeshire.
-                        Gonville Hall. </orgName><p>‘Distinctiones Boraston cum aliis bonis
-                        tractatibus prec’ lxvi s. viii d. ex legato domini Iohannis de Lynstede
-                        rectoris de Causton’ (‘on the last page’ per James, Gonville and Caius,
-                        21)</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_100">Cambridge,
+                        Cambridgeshire. Gonville Hall. </orgName><p>‘Distinctiones Boraston cum
+                        aliis bonis tractatibus prec’ lxvi s. viii d. ex legato domini Iohannis de
+                        Lynstede rectoris de Causton’ (‘on the last page’ per James, Gonville and
+                        Caius, 21)</p></provenance>
                   <provenance type="MLGB3_laterOwners">John de Lynstede (fl. c. 1374), rector of
                      Cawston, Norf.</provenance>
                </history>

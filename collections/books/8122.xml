@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8122">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Magdalen College</repository>
                   <idno type="shelfmark">MS. lat. 196</idno>
@@ -50,8 +52,13 @@
                   <origin>
                      <origDate when-custom="144X/145X">s. xv med.</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_434">Oxford, Oxfordshire. St
-                        Mary Magdalen College. </orgName><q type="pressmark">‘Liber Magistri Iohanis Neell’ scriptus per manum domini Thomas Cand (blank) 59 (?) (blank)’ (rear pastedown, s. xv 2, referring to Thomas Candour)One of 42 books given to the College by Neele, for which see the headnote to UO44 (CBMLC 16, 748–749) and J. M. Fletcher, ‘A fifteenth-century benefaction to Magdalen College Library’, Bodleian Library Record, 9 (1974), 169–72</q></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_434">Oxford, Oxfordshire.
+                        St Mary Magdalen College. </orgName><q type="pressmark">‘Liber Magistri
+                        Iohanis Neell’ scriptus per manum domini Thomas Cand (blank) 59 (?) (blank)’
+                        (rear pastedown, s. xv 2, referring to Thomas Candour)One of 42 books given
+                        to the College by Neele, for which see the headnote to UO44 (CBMLC 16,
+                        748–749) and J. M. Fletcher, ‘A fifteenth-century benefaction to Magdalen
+                        College Library’, Bodleian Library Record, 9 (1974), 169–72</q></provenance>
                   <provenance type="MLGB3_laterOwners">John Neele (d. 1498), master of Holy Trinity
                      College, Arundel (Sussex) and chaplain to William Waynflete</provenance>
                </history>

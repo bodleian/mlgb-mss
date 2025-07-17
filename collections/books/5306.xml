@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5306">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>New Haven (CT, USA)</settlement>
+                  <country>USA</country>
+                  <settlement>New Haven (CT)</settlement>
                   <repository>Beinecke Library</repository>
                   <idno type="shelfmark">MS. Marston 118</idno>
                   <altIdentifier type="system">
@@ -50,12 +52,12 @@
                   <origin>
                      <origDate when-custom="13XX">s. xiv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_524">Stamford, Lincolnshire.
-                        Carmelite convent. </orgName><p>'Liber conuentus ordinis Carmelitarum
-                        S[tamfor]d' on flyleaf.</p><p>Pressmark 'H.30'.</p><p>Provenance stated in
-                        Leighton's cat.: a reagent has been used on the MS. and the bracketed
-                        letters are not certain.</p><p>Stamford seems the only
-                     possibility.</p><q type="pressmark">H.30</q></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_524">Stamford,
+                        Lincolnshire. Carmelite convent. </orgName><p>'Liber conuentus ordinis
+                        Carmelitarum S[tamfor]d' on flyleaf.</p><p>Pressmark
+                        'H.30'.</p><p>Provenance stated in Leighton's cat.: a reagent has been used
+                        on the MS. and the bracketed letters are not certain.</p><p>Stamford seems
+                        the only possibility.</p><q type="pressmark">H.30</q></provenance>
                   <provenance type="MLGB3_laterOwners">J. &amp; J. Leighton (Bookseller) cat. New
                      Series no. 5 (n. d. but after 1920), no. 88. = Sneyd sale, Sotheby 16--19 Dec.
                      1903, lot 777.</provenance>

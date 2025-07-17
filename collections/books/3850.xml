@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3850">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>New York (NY, USA)</settlement>
+                  <country>USA</country>
+                  <settlement>New York (NY)</settlement>
                   <repository>Columbia University, Butler Library</repository>
                   <idno type="shelfmark">MS. Plimpton collection r.169</idno>
                   <altIdentifier type="system">
@@ -58,8 +60,8 @@
                   <origin>
                      <origDate>(1) Paris: Ascensius, 1508; (2) Deventer: , 1505</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_342">London. Convent of friars
-                        of the Holy Cross (Crutched friars). </orgName><p>Two printings bound
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_342">London. Convent of
+                        friars of the Holy Cross (Crutched friars). </orgName><p>Two printings bound
                         together. Inscriptions said to be 'Liber conuentus fratrum cruciferentium
                         circa turrim Londoniarum anglie' on title-page of (1), and 'conuentus
                         londoniensis' on last page of (2).</p></provenance>

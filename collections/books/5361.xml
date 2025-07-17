@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5361">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Trinity College</repository>
                   <idno type="shelfmark">MS. B. 15. 2</idno>
@@ -50,10 +52,11 @@
                   <origin>
                      <origDate when-custom="14XX">s. xv</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_537">Syon, Middlesex. Bridgettine abbey
-                        of St Saviour, St Mary the Virgin, and St Bridget. </orgName><p>On the
+                  <provenance><orgName role="fmo" key="mlgbOrg_537">Syon, Middlesex. Bridgettine
+                        abbey of St Saviour, St Mary the Virgin, and St Bridget. </orgName><p>On the
                         flyleaf is the label from the old binding, with donor's name 'Bracebridge'.
-                        Visible as L.33 in Betson's catalogue.</p><q type="pressmark">L.33</q></provenance>
+                        Visible as L.33 in Betson's catalogue.</p><q type="pressmark"
+                     >L.33</q></provenance>
                   <provenance type="MLGB3_laterOwners">On fol. 55r are the names (s. xvi) 'Richard
                      Irelame'; 'Richard Johnson'.</provenance>
                   <provenance type="MLGB3_laterOwners">Peter LeNeve.</provenance>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_963">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
                   <idno type="shelfmark">MS. Vat. lat. 4954</idno>
                   <altIdentifier type="system">
@@ -54,12 +56,12 @@
                   <origin>
                      <origDate when-custom="11XX">s. xii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_96">Cambridge, Cambridgeshire.
-                        Convent of Austin friars. </orgName><p>'Frater Iohannes Longspey de
-                        Broklesby ordinis sancti Augustini dedit istum librum scilicet mediam
-                        quinquagenam nectaris Aurelii Augustini super psalmos comunitati fratrum
-                        eiusdem ordinis Cantebrigie Anno domini Mm ccc. quinquagesimo septimo' (fol.
-                        1v).</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_96">Cambridge,
+                        Cambridgeshire. Convent of Austin friars. </orgName><p>'Frater Iohannes
+                        Longspey de Broklesby ordinis sancti Augustini dedit istum librum scilicet
+                        mediam quinquagenam nectaris Aurelii Augustini super psalmos comunitati
+                        fratrum eiusdem ordinis Cantebrigie Anno domini Mm ccc. quinquagesimo
+                        septimo' (fol. 1v).</p></provenance>
                   <provenance type="MLGB3_laterOwners">Marcello Cervini (1501--1555),
                      cardinal.</provenance>
                   <provenance type="MLGB3_laterOwners"> </provenance>

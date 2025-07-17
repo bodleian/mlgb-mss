@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5974">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
                   <idno type="shelfmark">MS. Royal 5 A. xiii</idno>
@@ -53,9 +55,11 @@
                   <origin>
                      <origDate when-custom="11XX">s. xii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_601">Worcester, Worcestershire.
-                        Benedictine cathedral priory of St Mary the Virgin. </orgName><p>"Liber
-                        sancte Marie Wigorn. Aug' de medacio [sic] C. XIII" (fol. 1v).</p><note type="MLGB3_medievalCatalogueNotes">Young 21</note><q type="pressmark">C.xiii</q></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_601">Worcester,
+                        Worcestershire. Benedictine cathedral priory of St Mary the Virgin.
+                        </orgName><p>"Liber sancte Marie Wigorn. Aug' de medacio [sic] C. XIII"
+                        (fol. 1v).</p><note type="MLGB3_medievalCatalogueNotes">Young 21</note><q
+                        type="pressmark">C.xiii</q></provenance>
                   <provenance type="MLGB3_laterOwners">John Theyer.</provenance>
                   <provenance type="MLGB3_laterOwners">CMA 6412.</provenance>
                </history>

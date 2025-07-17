@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4663">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Edinburgh, Scotland</settlement>
+                  <country>Scotland</country>
+                  <settlement>Edinburgh</settlement>
                   <repository>National Library of Scotland</repository>
                   <idno type="shelfmark">MS. Advocates 18.2.4</idno>
                   <altIdentifier type="system">
@@ -50,9 +52,10 @@
                   <origin>
                      <origDate when-custom="110X/111X">s. xii in.</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_469">Rochester, Kent. Cathedral
-                        priory of St Andrew. </orgName><p>Pressmark formerly at foot of fol. 1r, now
-                        cut away.</p><p>Rochester documents on fol. 206v.</p></provenance>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_469">Rochester, Kent.
+                        Cathedral priory of St Andrew. </orgName><p>Pressmark formerly at foot of
+                        fol. 1r, now cut away.</p><p>Rochester documents on fol.
+                     206v.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Balfour of Denmilne 1628.</provenance>
                </history>
             </msDesc>

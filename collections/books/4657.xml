@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4657">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>St John's College</repository>
                   <idno type="shelfmark">MS. C.20 (70)</idno>
@@ -50,9 +52,10 @@
                   <origin>
                      <origDate when-custom="11XX">s. xii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_469">Rochester, Kent. Cathedral
-                        priory of St Andrew. </orgName><p>On fol. 1r at bottom: 'Liber de claustro
-                        Roffensi per Zacariam precentorem'.</p><p>'III'.</p><q type="pressmark">III</q></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_469">Rochester, Kent.
+                        Cathedral priory of St Andrew. </orgName><p>On fol. 1r at bottom: 'Liber de
+                        claustro Roffensi per Zacariam precentorem'.</p><p>'III'.</p><q
+                        type="pressmark">III</q></provenance>
                   <provenance type="MLGB3_laterOwners">Given to St John's by Thos. Wriothesley, Earl
                      of Southampton.</provenance>
                </history>

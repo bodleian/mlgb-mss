@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3886">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Lincoln</settlement>
                   <repository>Cathedral</repository>
                   <idno type="shelfmark">MS. 47</idno>
@@ -53,11 +55,11 @@
                   <origin>
                      <origDate when-custom="12XX">s. xiii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_352">Louth Park, Lincolnshire.
-                        Cistercian abbey of St Mary the Virgin. </orgName><p>"Liber Sancte Marie de
-                        Parcho Lude. Datus eidem domui a venerabili domino Willelmo de Tornaco
-                        aliquando decano Lincoln. et retribuat deus ei in vitam eternam" (first
-                        flyleaf, fol. 1r, at top).</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_352">Louth Park,
+                        Lincolnshire. Cistercian abbey of St Mary the Virgin. </orgName><p>"Liber
+                        Sancte Marie de Parcho Lude. Datus eidem domui a venerabili domino Willelmo
+                        de Tornaco aliquando decano Lincoln. et retribuat deus ei in vitam eternam"
+                        (first flyleaf, fol. 1r, at top).</p></provenance>
                   <provenance type="MLGB3_laterOwners">"Liber Christoferi Wyllisfordi" (fol.
                      3v).</provenance>
                </history>

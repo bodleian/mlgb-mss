@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3930">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>San Marino (CA, USA)</settlement>
+                  <country>USA</country>
+                  <settlement>San Marino (CA)</settlement>
                   <repository>Huntington Library</repository>
                   <idno type="shelfmark">MS. HM 26560</idno>
                   <altIdentifier type="system">
@@ -55,9 +57,9 @@
                   <origin>
                      <origDate when-custom="138X/139X">s. xiv ex.</origDate>
                   </origin>
-                  <provenance type="#g"><orgName role="fmo" key="mlgbOrg_362">Manchester, Lancashire.
-                        Collegiate church of St Mary the Virgin. </orgName><p>"Mariale magistri
-                        Thome la Warre".</p></provenance>
+                  <provenance type="#g"><orgName role="fmo" key="mlgbOrg_362">Manchester,
+                        Lancashire. Collegiate church of St Mary the Virgin. </orgName><p>"Mariale
+                        magistri Thome la Warre".</p></provenance>
                   <provenance type="MLGB3_laterOwners">"Laurentius Vause grammatice magister me
                      possidet [fellow of Manchester coll. and warden 1558]".</provenance>
                   <provenance type="MLGB3_laterOwners">Richard Wroe, warden of Manchester coll., d.

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6276">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Dublin, Ireland</settlement>
+                  <country>Ireland</country>
+                  <settlement>Dublin</settlement>
                   <repository>Trinity College</repository>
                   <idno type="shelfmark">MS. 43</idno>
                   <altIdentifier type="system">
@@ -52,10 +54,10 @@
                   <origin>
                      <origDate when-custom="12XX">s. xiii</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_602">Worcester, Worcestershire.
-                        Franciscan convent. </orgName><p>, or e:</p><p>Inscription partly legible
-                        under u. v. light ends with the words 'fratrum minorum Wygorn'' (Letter from
-                        W. O'Sullivan, 1. 10. 1956).</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_602">Worcester,
+                        Worcestershire. Franciscan convent. </orgName><p>, or e:</p><p>Inscription
+                        partly legible under u. v. light ends with the words 'fratrum minorum
+                        Wygorn'' (Letter from W. O'Sullivan, 1. 10. 1956).</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

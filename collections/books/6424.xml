@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6424">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
                   <idno type="shelfmark">MS. Royal 14 C.vii</idno>
@@ -50,13 +52,14 @@
                   <origin>
                      <origDate>s. xiii--xiv ex.</origDate>
                   </origin>
-                  <provenance type="#es"><orgName role="fmo" key="mlgbOrg_474">St Albans, Hertfordshire.
-                        Benedictine abbey of St Alban. </orgName><p>Matthew Paris wrote to fol. 210
-                        (see R. Vaughan, 'The handwriting of Matthew Paris', Transactions of the
-                        Cambridge Bib. Soc. 1 (1953) 390--92).</p><p>Note of gift by Matthew Paris
-                        in his own hand (fol. 6v, part erased): 'Hunc librum dedit frater Matheus
-                        parisiensis [ . . . . . . . ] anima Mathei et anime omnium fidelium
-                        defunctorum requiescant in pace amen'.</p><q type="pressmark">A 19.</q></provenance>
+                  <provenance type="#es"><orgName role="fmo" key="mlgbOrg_474">St Albans,
+                        Hertfordshire. Benedictine abbey of St Alban. </orgName><p>Matthew Paris
+                        wrote to fol. 210 (see R. Vaughan, 'The handwriting of Matthew Paris',
+                        Transactions of the Cambridge Bib. Soc. 1 (1953) 390--92).</p><p>Note of
+                        gift by Matthew Paris in his own hand (fol. 6v, part erased): 'Hunc librum
+                        dedit frater Matheus parisiensis [ . . . . . . . ] anima Mathei et anime
+                        omnium fidelium defunctorum requiescant in pace amen'.</p><q
+                        type="pressmark">A 19.</q></provenance>
                   <provenance type="MLGB3_laterOwners">Humfrey of Lancaster, 1st duke of Gloucester
                      (1390--1447): 'Ceste livre est a moy Homffrey duc de Gloucestre' (fol. 231r,
                      erased).</provenance>

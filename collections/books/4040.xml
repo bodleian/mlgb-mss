@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4040">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Bodleian Library</repository>
                   <idno type="shelfmark">MS. Laud Misc. 285</idno>
@@ -50,12 +52,13 @@
                   <origin>
                      <origDate when-custom="11XX/12XX">s. xii/xiii</origDate>
                   </origin>
-                  <provenance type="#s"><orgName role="fmo" key="mlgbOrg_396">Newstead, Nottinghamshire.
-                        Augustinian priory of St Mary the Virgin. </orgName><p>Bodleian, Laud Misc.
-                        428 and Laud Misc. 285 may have belonged to Newstead, Lincs., or more
-                        probably, Newstead, Notts., since it came to Laud from William le Neve, like
-                        Laud Lat. 34.</p><p>Initial P very like that in Laud Misc. 428. Both MSS. in
-                        2 cols., of 29 leaves.</p><p> </p></provenance>
+                  <provenance type="#s"><orgName role="fmo" key="mlgbOrg_396">Newstead,
+                        Nottinghamshire. Augustinian priory of St Mary the Virgin.
+                        </orgName><p>Bodleian, Laud Misc. 428 and Laud Misc. 285 may have belonged
+                        to Newstead, Lincs., or more probably, Newstead, Notts., since it came to
+                        Laud from William le Neve, like Laud Lat. 34.</p><p>Initial P very like that
+                        in Laud Misc. 428. Both MSS. in 2 cols., of 29 leaves.</p><p
+                     > </p></provenance>
                   <provenance type="MLGB3_laterOwners">Le Neve.</provenance>
                   <provenance type="MLGB3_laterOwners">Laudian date 1639 on a leaf supplied, s. xvii
                      (in Laud Misc. 428 it is on the same leaf as the Newstead inscr.).</provenance>

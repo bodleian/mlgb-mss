@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_946">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
                   <idno type="shelfmark">MS. Ottoboni lat. 323</idno>
                   <altIdentifier type="system">
@@ -54,10 +56,10 @@
                   <origin>
                      <origDate>s. xiii med</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_96">Cambridge, Cambridgeshire. Convent of
-                        Austin friars. </orgName><p>'R.S.' at end.</p><p>Fols. 1--4, flyleaves, are
-                        from a Digest, Bks XLII, XLIII, in 2 cols of 48 lines, as MSS 196 and
-                        612.</p><q type="pressmark">R.S.</q></provenance>
+                  <provenance><orgName role="fmo" key="mlgbOrg_96">Cambridge, Cambridgeshire.
+                        Convent of Austin friars. </orgName><p>'R.S.' at end.</p><p>Fols. 1--4,
+                        flyleaves, are from a Digest, Bks XLII, XLIII, in 2 cols of 48 lines, as MSS
+                        196 and 612.</p><q type="pressmark">R.S.</q></provenance>
                   <provenance type="MLGB3_laterOwners">Gugliemo Sirleto (1514--1585), cardinal and
                      scholar, his no. 395.</provenance>
                </history>

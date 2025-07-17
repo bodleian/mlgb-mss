@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1696">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>San Marino (CA, USA)</settlement>
+                  <country>USA</country>
+                  <settlement>San Marino (CA)</settlement>
                   <repository>Huntington Library</repository>
                   <idno type="shelfmark">MS. EL 34 B. 7</idno>
                   <altIdentifier type="system">
@@ -55,9 +57,10 @@
                   <origin>
                      <origDate>s. xv/xvi</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_136">Chester, Cheshire. Priory
-                        of St Mary the Virgin, of Benedictine nuns. </orgName><p>"The booke longeth
-                        to Dame Margery Byrkerhed of Chestre" (ad fin.), s. xvi.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_136">Chester, Cheshire.
+                        Priory of St Mary the Virgin, of Benedictine nuns. </orgName><p>"The booke
+                        longeth to Dame Margery Byrkerhed of Chestre" (ad fin.), s.
+                     xvi.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

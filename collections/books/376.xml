@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_376">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Chicago (IL, USA)</settlement>
+                  <country>USA</country>
+                  <settlement>Chicago (IL)</settlement>
                   <repository>University Library</repository>
                   <idno type="shelfmark">MS. 254</idno>
                   <altIdentifier type="system">
@@ -50,12 +52,12 @@
                   <origin>
                      <origDate>s. xv med</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_36">Battle, Sussex. Benedictine
-                        abbey of St Martin. </orgName><p>'Istius libelli possessio ex iure debetur
-                        venerabili in Christo Patri ac Domino Dompno Iohanni Nuton dei prouidencia
-                        venerandi Monasterii de Bello Rectori ac patri Angligeni gentis Cronice
-                        vocati cuius alienator vel alieni professor anathema sit', etc. (fol.
-                        2r)</p><q type="pressmark">IN</q></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_36">Battle, Sussex.
+                        Benedictine abbey of St Martin. </orgName><p>'Istius libelli possessio ex
+                        iure debetur venerabili in Christo Patri ac Domino Dompno Iohanni Nuton dei
+                        prouidencia venerandi Monasterii de Bello Rectori ac patri Angligeni gentis
+                        Cronice vocati cuius alienator vel alieni professor anathema sit', etc.
+                        (fol. 2r)</p><q type="pressmark">IN</q></provenance>
                   <provenance type="MLGB3_laterOwners">Sir Thomas Phillipps, baronet (1792--1872);
                      Phillipps 2706.</provenance>
                   <provenance type="MLGB3_laterOwners">Sold (1896, lot 282) to Quaritch (£39).

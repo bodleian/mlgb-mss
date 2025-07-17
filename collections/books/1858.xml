@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1858">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Edinburgh, Scotland</settlement>
+                  <country>Scotland</country>
+                  <settlement>Edinburgh</settlement>
                   <repository>National Library of Scotland</repository>
                   <idno type="shelfmark">MS. Advocates 18.8.11</idno>
                   <altIdentifier type="system">
@@ -52,11 +54,11 @@
                   <origin>
                      <origDate when-custom="148X/149X">s. xv ex.</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_167">Culross, Fife. Cistercian
-                        abbey of St Mary the Virgin and St Serf. </orgName><p>'Me fecit fieri
-                        ricardus marchel quondam abbas de culeros quem deus saluet hic ... ' (fol.
-                        10v, in gold letters).</p><p>Richard Marshall elected 1467, degraded, d.
-                        1470.</p><p> </p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_167">Culross, Fife.
+                        Cistercian abbey of St Mary the Virgin and St Serf. </orgName><p>'Me fecit
+                        fieri ricardus marchel quondam abbas de culeros quem deus saluet hic ... '
+                        (fol. 10v, in gold letters).</p><p>Richard Marshall elected 1467, degraded,
+                        d. 1470.</p><p> </p></provenance>
                   <provenance type="MLGB3_laterOwners">James Balfour.</provenance>
                   <provenance type="MLGB3_laterOwners">'Archibald Primrose' (fol. 80r; s. xvi),
                      identified with Archibald Primrose, Monk of Culross 1539, d. 1594.</provenance>

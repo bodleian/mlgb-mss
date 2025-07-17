@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_316">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Philadelphia (PA, USA)</settlement>
+                  <country>USA</country>
+                  <settlement>Philadelphia (PA)</settlement>
                   <repository>Pennsylvania UL</repository>
                   <idno type="shelfmark">MS. MS Codex 75 (olim Lea 23)</idno>
                   <altIdentifier type="system">
@@ -50,9 +52,10 @@
                   <origin>
                      <origDate when-custom="14XX">s. xv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_28">Bangor, Caernarvonshire.
-                        Cathedral church of St Deiniol. </orgName><p>'Iste liber pertinet Ecclesie
-                        sancti Daniellis' (ad fin. s. xv ex.)</p><q type="pressmark">Lea 23</q></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_28">Bangor,
+                        Caernarvonshire. Cathedral church of St Deiniol. </orgName><p>'Iste liber
+                        pertinet Ecclesie sancti Daniellis' (ad fin. s. xv ex.)</p><q
+                        type="pressmark">Lea 23</q></provenance>
                   <provenance type="MLGB3_laterOwners">Roberts (s. xviii).</provenance>
                   <provenance type="MLGB3_laterOwners">Thomas Kerslake's catalogue (1858), no. 2756;
                      sold thence to Thomas Phillipps, no. 20547.</provenance>

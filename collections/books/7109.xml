@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7109">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Gonville and Caius College</repository>
                   <idno type="shelfmark">MS. 290/682</idno>
@@ -50,13 +52,14 @@
                   <origin>
                      <origDate>s. xiii ex. et xiv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_100">Cambridge, Cambridgeshire.
-                        Gonville Hall. </orgName><p>‘Liber collegii annunciacionis beate Marie
-                        Cantebrig’ ex dono magistri Ade Lakynggythe doctoris in theologia’ (front
-                        flyleaf)</p><p> ‘Liber collegii annunciacionis beate Marie. Homo quid
-                        superbis I. W.’ (front flyleaf)</p><p>‘Table of contents signed Cabolde’
-                        (James, Gonville and Caius, 336, perhaps referring to Thomas Cabold (d. 20
-                        May 1503), fellow of Gonville Hall and papal chaplain)</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_100">Cambridge,
+                        Cambridgeshire. Gonville Hall. </orgName><p>‘Liber collegii annunciacionis
+                        beate Marie Cantebrig’ ex dono magistri Ade Lakynggythe doctoris in
+                        theologia’ (front flyleaf)</p><p> ‘Liber collegii annunciacionis beate
+                        Marie. Homo quid superbis I. W.’ (front flyleaf)</p><p>‘Table of contents
+                        signed Cabolde’ (James, Gonville and Caius, 336, perhaps referring to Thomas
+                        Cabold (d. 20 May 1503), fellow of Gonville Hall and papal
+                     chaplain)</p></provenance>
                   <provenance type="MLGB3_laterOwners">Adam de Lakenheath (fl. 1353–1391),
                      chancellor of Cambridge</provenance>
                </history>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1818">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
                   <idno type="shelfmark">MS. Royal 5 A.v</idno>
@@ -50,10 +52,10 @@
                   <origin>
                      <origDate when-custom="14XX">s. xv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_159">Coventry, Warwickshire.
-                        Charterhouse of St Anne. </orgName><p>Belonged to the Carthusian house of St
-                        Anne near Coventry by the gift of Robert Odyham (fols. 1v,
-                     134r).</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_159">Coventry,
+                        Warwickshire. Charterhouse of St Anne. </orgName><p>Belonged to the
+                        Carthusian house of St Anne near Coventry by the gift of Robert Odyham
+                        (fols. 1v, 134r).</p></provenance>
                   <provenance type="MLGB3_laterOwners">Edward Aglionby (16th century).</provenance>
                   <provenance type="MLGB3_laterOwners">John Theyer.</provenance>
                </history>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_300">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Stonyhurst</settlement>
                   <repository>Stonyhurst College</repository>
                   <idno type="shelfmark">MS. 44</idno>
@@ -50,10 +52,10 @@
                   <origin>
                      <origDate when-custom="138X/139X">s. xiv ex</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_23">Ashridge, Buckinghamshire.
-                        House of Bonshommes of St Mary the Virgin (and of the Holy Blood).
-                        </orgName><p>'Dedicatio ecclesie de Assherugge' in kalendar, 22 October
-                        (fol. 124v)</p></provenance>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_23">Ashridge,
+                        Buckinghamshire. House of Bonshommes of St Mary the Virgin (and of the Holy
+                        Blood). </orgName><p>'Dedicatio ecclesie de Assherugge' in kalendar, 22
+                        October (fol. 124v)</p></provenance>
                   <provenance type="MLGB3_laterOwners">'Edwarde Borowe est verus possesor (sic)
                      huius libri' (? s. xvi)</provenance>
                </history>

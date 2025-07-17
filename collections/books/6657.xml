@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6657">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>New York (NY, USA)</settlement>
+                  <country>USA</country>
+                  <settlement>New York (NY)</settlement>
                   <repository>Morgan Library and Museum</repository>
                   <idno type="shelfmark">MS. 926</idno>
                   <altIdentifier type="system">
@@ -50,10 +52,10 @@
                   <origin>
                      <origDate>s. xi ex--xi/xii</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_474">St Albans, Hertfordshire.
-                        Benedictine abbey of St Alban. </orgName><p>Provenance inferred from
-                        contents. See K. D. Hartzell, 'A St Albans miscellany in New York',
-                        Mittelalteinisches Jahrbuch 10 (1975) 20--61.</p></provenance>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_474">St Albans,
+                        Hertfordshire. Benedictine abbey of St Alban. </orgName><p>Provenance
+                        inferred from contents. See K. D. Hartzell, 'A St Albans miscellany in New
+                        York', Mittelalteinisches Jahrbuch 10 (1975) 20--61.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Given to the Library Company of Philadelphia
                      by the Revd Samuel Preston rector of Chevening, Kent, in 1803. Belonged earlier
                      to S. Adee (d. 1786), FRS, MD, who gave it to George Harris (d.

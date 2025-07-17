@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4874">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
                   <idno type="shelfmark">MS. Royal 13 D.iv</idno>
@@ -50,12 +52,12 @@
                   <origin>
                      <origDate>s. xii ex. (AD 1167--83)</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_474">St Albans, Hertfordshire.
-                        Benedictine abbey of St Alban. </orgName><p>'Hunc librum fecit dominus Symon
-                        abbas sancto. Albano [sic], quem qui ei abstuliert . . . ' (fol.
-                        1r).</p><p>'Hunc librum venditum domino Ricardo de Biry episcopo Dunelmensi
-                        emit Michael abbas sancti Albani ab executoribus predicti episcopi anno
-                        domini Mmo CCCmo XLVto [i. e. 1346] circa purificationem beate
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_474">St Albans,
+                        Hertfordshire. Benedictine abbey of St Alban. </orgName><p>'Hunc librum
+                        fecit dominus Symon abbas sancto. Albano [sic], quem qui ei abstuliert . . .
+                        ' (fol. 1r).</p><p>'Hunc librum venditum domino Ricardo de Biry episcopo
+                        Dunelmensi emit Michael abbas sancti Albani ab executoribus predicti
+                        episcopi anno domini Mmo CCCmo XLVto [i. e. 1346] circa purificationem beate
                         virginis.'</p></provenance>
                   <provenance type="MLGB3_laterOwners">'T. C.', i.e. Thomas Wolsey,
                      Cardinal-archbishop of York.</provenance>

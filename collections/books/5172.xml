@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5172">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
                   <idno type="shelfmark">Addtional MS. 36652C</idno>
@@ -50,11 +52,12 @@
                   <origin>
                      <origDate when-custom="11XX/12XX">s. xii/xiii</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_493">Selby, York. Benedictine
-                        abbey of St Mary the Virgin and St German. </orgName><p>Notes in the margin
-                        include foundation (1069) and death of abbot Germanus (1160). Last entry is
-                        at 1183. Four more or less imperfect leaves bought with a collection of
-                        Selby charters in 1901 (Add. Ch. 45798--45961).</p></provenance>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_493">Selby, York.
+                        Benedictine abbey of St Mary the Virgin and St German. </orgName><p>Notes in
+                        the margin include foundation (1069) and death of abbot Germanus (1160).
+                        Last entry is at 1183. Four more or less imperfect leaves bought with a
+                        collection of Selby charters in 1901 (Add. Ch.
+                     45798--45961).</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

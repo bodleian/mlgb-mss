@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1803">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
                   <idno type="shelfmark">MS. Pal. lat. 65</idno>
                   <altIdentifier type="system">
@@ -53,9 +55,9 @@
                   <origin>
                      <origDate when-custom="11XX">s. xii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_116">Coupar Angus, Perthshire.
-                        Cistercian abbey of St Mary the Virgin. </orgName><p>"Liber sancte Marie de
-                        Cupro".</p><q type="pressmark">Gra. G.C.</q></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_116">Coupar Angus,
+                        Perthshire. Cistercian abbey of St Mary the Virgin. </orgName><p>"Liber
+                        sancte Marie de Cupro".</p><q type="pressmark">Gra. G.C.</q></provenance>
                </history>
             </msDesc>
          </sourceDesc>

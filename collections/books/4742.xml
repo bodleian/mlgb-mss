@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4742">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
                   <idno type="shelfmark">MS. Royal 7 F.iv</idno>
@@ -50,10 +52,11 @@
                   <origin>
                      <origDate/>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_469">Rochester, Kent. Cathedral
-                        priory of St Andrew. </orgName><p>'Liber Pantheologi per fratrem Thomam de
-                        Horstede monachum de claustro Roffensi. Hunc si quis titulum tollat radatve
-                        dolose eterne stimulum pene subeat tediose' (fol. 1r).</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_469">Rochester, Kent.
+                        Cathedral priory of St Andrew. </orgName><p>'Liber Pantheologi per fratrem
+                        Thomam de Horstede monachum de claustro Roffensi. Hunc si quis titulum
+                        tollat radatve dolose eterne stimulum pene subeat tediose' (fol.
+                     1r).</p></provenance>
                   <provenance type="MLGB3_laterOwners">Westm. inv. of 1542.</provenance>
                </history>
             </msDesc>

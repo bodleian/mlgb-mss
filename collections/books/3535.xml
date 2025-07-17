@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3535">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Dublin, Ireland</settlement>
+                  <country>Ireland</country>
+                  <settlement>Dublin</settlement>
                   <repository>Trinity College</repository>
                   <idno type="shelfmark">Shelfmark not recorded</idno>
                   <altIdentifier type="system">
@@ -54,10 +56,11 @@
                   <origin>
                      <origDate>1499, Lyon</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_298">Leeds, Kent. Augustinian
-                        abbey of St Mary the Virgin and St Nicholas. </orgName><p>"Liber Willelmi
-                        Feuersham Canonici", and "Ex dono" added above it.</p><p>Also "William
-                        Shepearde" and "Liodensis Alins shepherd suo cognato W.S.".</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_298">Leeds, Kent.
+                        Augustinian abbey of St Mary the Virgin and St Nicholas. </orgName><p>"Liber
+                        Willelmi Feuersham Canonici", and "Ex dono" added above it.</p><p>Also
+                        "William Shepearde" and "Liodensis Alins shepherd suo cognato
+                     W.S.".</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

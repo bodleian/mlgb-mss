@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_947">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
                   <idno type="shelfmark">MS. Ottoboni lat. 326</idno>
                   <altIdentifier type="system">
@@ -50,11 +52,11 @@
                   <origin>
                      <origDate when-custom="13XX/14XX">s. xiv/xv</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_96">Cambridge, Cambridgeshire. Convent of
-                        Austin friars. </orgName><p>'Magister Iohannes Nekton' (foot of fol. 1r in
-                        large capitals); as in MS lat. 229, etc. [John Necton (d. by March 1398) was
-                        fellow of Corpus Christi College, Cambridge, from 1376 and master from
-                        1389/90 until death; BRUC 419.]</p></provenance>
+                  <provenance><orgName role="fmo" key="mlgbOrg_96">Cambridge, Cambridgeshire.
+                        Convent of Austin friars. </orgName><p>'Magister Iohannes Nekton' (foot of
+                        fol. 1r in large capitals); as in MS lat. 229, etc. [John Necton (d. by
+                        March 1398) was fellow of Corpus Christi College, Cambridge, from 1376 and
+                        master from 1389/90 until death; BRUC 419.]</p></provenance>
                   <provenance type="MLGB3_laterOwners">Perhaps Marcello Cervini (1501--1555),
                      cardinal, his no. 46. </provenance>
                   <provenance type="MLGB3_laterOwners"> </provenance>

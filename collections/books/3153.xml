@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3153">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
                   <idno type="shelfmark">MS. Harley 2983</idno>
@@ -50,12 +52,13 @@
                   <origin>
                      <origDate when-custom="128X/129X">s. xiii ex.</origDate>
                   </origin>
-                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_247">Hereford, Herefordshire.
-                        Cathedral church of St Ethelbert. </orgName><p>Described by W. H. Frere
-                        &amp; L. E. G. Brown, Hereford Breviary 3, Henry Bradshaw Society, 46
-                        (London, 1915), p. lxii-lxvii, noting that it has a supplementary section
-                        (their O3) which 'it is clear . . . belongs to the cathedral' (p. lxiii and
-                        attributing all the manuscript to the same provenance.</p></provenance>
+                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_247">Hereford,
+                        Herefordshire. Cathedral church of St Ethelbert. </orgName><p>Described by
+                        W. H. Frere &amp; L. E. G. Brown, Hereford Breviary 3, Henry Bradshaw
+                        Society, 46 (London, 1915), p. lxii-lxvii, noting that it has a
+                        supplementary section (their O3) which 'it is clear . . . belongs to the
+                        cathedral' (p. lxiii and attributing all the manuscript to the same
+                        provenance.</p></provenance>
                   <provenance type="MLGB3_laterOwners">'Rychard Hynys boyt thys boke' (s.
                      xvi).</provenance>
                   <provenance type="MLGB3_laterOwners">Entered the Harleian coll. 5 Nov. 1723, so

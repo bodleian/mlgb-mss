@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5692">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Chicago (IL, USA)</settlement>
+                  <country>USA</country>
+                  <settlement>Chicago (IL)</settlement>
                   <repository>University Library</repository>
                   <idno type="shelfmark">MS. 224</idno>
                   <altIdentifier type="system">
@@ -52,13 +54,14 @@
                   <origin>
                      <origDate when-custom="1400~">c. 1400</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_586">Wigmore, Herefordshire.
-                        Augustinian abbey of St James. </orgName><p>Chronicle in Norman-French of
-                        Wigmore abbey, with genealogical tables and heraldic bearings concerning the
-                        Mortimer family. Fols. 49--60 has a heraldry-marked descent of the Mortimers
-                        of Wigmore, c. 1400, which steadily tracks the family in its relation to the
-                        abbey, most particularly Edmund Mortimer (d. 1381), who was regarded as
-                        'secundus fundator' of the abbey.</p></provenance>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_586">Wigmore,
+                        Herefordshire. Augustinian abbey of St James. </orgName><p>Chronicle in
+                        Norman-French of Wigmore abbey, with genealogical tables and heraldic
+                        bearings concerning the Mortimer family. Fols. 49--60 has a heraldry-marked
+                        descent of the Mortimers of Wigmore, c. 1400, which steadily tracks the
+                        family in its relation to the abbey, most particularly Edmund Mortimer (d.
+                        1381), who was regarded as 'secundus fundator' of the
+                     abbey.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Earl de Grey and Lord Lucas, Wrest Park
                      (Hist. MSS. Com. Rep. 2 (1871), p. 6, no. 25).</provenance>
                   <provenance type="MLGB3_laterOwners">Lady Lucas sale 19 June 1922 lot 636 to

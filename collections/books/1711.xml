@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1711">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Emmanuel College</repository>
                   <idno type="shelfmark">MS. 28</idno>
@@ -50,10 +52,11 @@
                   <origin>
                      <origDate when-custom="11XX/12XX">s. xii/xiii</origDate>
                   </origin>
-                  <provenance type="#g"><orgName role="fmo" key="mlgbOrg_139">Chichester, West Sussex.
-                        Cathedral church of Holy Trinity. </orgName><p>The usual form of Chichester
-                        mark (s. xiv). At bottom of fol. 1r "Boicius de Trinitate glosatus Walteri
-                        decani iido. fo. | quidam vero | h. xxxvj."</p><q type="pressmark">H.xxxvi</q></provenance>
+                  <provenance type="#g"><orgName role="fmo" key="mlgbOrg_139">Chichester, West
+                        Sussex. Cathedral church of Holy Trinity. </orgName><p>The usual form of
+                        Chichester mark (s. xiv). At bottom of fol. 1r "Boicius de Trinitate
+                        glosatus Walteri decani iido. fo. | quidam vero | h. xxxvj."</p><q
+                        type="pressmark">H.xxxvi</q></provenance>
                </history>
             </msDesc>
          </sourceDesc>

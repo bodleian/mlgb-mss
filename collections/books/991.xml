@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_991">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Ampleforth</settlement>
                   <repository>Ampleforth Abbey</repository>
                   <idno type="shelfmark">MS. C.V.21</idno>
@@ -50,11 +52,11 @@
                   <origin>
                      <origDate>Venice, A.D. 1493</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_104">Cambridge, Cambridgeshire.
-                        Michaelhouse. </orgName><p>'Liber Collegii sancti michaelis ex dono W.
-                        Filey'. William Filey DD (d. 1549), a member of Michaelhouse in the first
-                        two decades of the century, gave five other printed books on scholastic
-                        theology to the college.</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_104">Cambridge,
+                        Cambridgeshire. Michaelhouse. </orgName><p>'Liber Collegii sancti michaelis
+                        ex dono W. Filey'. William Filey DD (d. 1549), a member of Michaelhouse in
+                        the first two decades of the century, gave five other printed books on
+                        scholastic theology to the college.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

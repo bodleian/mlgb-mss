@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4795">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>University Library</repository>
                   <idno type="shelfmark">MS. Dd.11.78</idno>
@@ -50,12 +52,12 @@
                   <origin>
                      <origDate when-custom="12XX">s. xiii</origDate>
                   </origin>
-                  <provenance type="#em"><orgName role="fmo" key="mlgbOrg_474">St Albans, Hertfordshire.
-                        Benedictine abbey of St Alban. </orgName><p>'Hunc librum dedit frater
-                        Matheus deo et ecclesie sancti Albani. Quem qui ei abstulerit anathema sit.
-                        Amen.' (fol. 1r).</p><p>Contains marginalia in the hand of Matthew Paris
-                        (see R. Vaughan, 'The handwriting of Matthew Paris', Transactions of the
-                        Cambridge Bib. Soc. 1 (1953) 390--92).</p></provenance>
+                  <provenance type="#em"><orgName role="fmo" key="mlgbOrg_474">St Albans,
+                        Hertfordshire. Benedictine abbey of St Alban. </orgName><p>'Hunc librum
+                        dedit frater Matheus deo et ecclesie sancti Albani. Quem qui ei abstulerit
+                        anathema sit. Amen.' (fol. 1r).</p><p>Contains marginalia in the hand of
+                        Matthew Paris (see R. Vaughan, 'The handwriting of Matthew Paris',
+                        Transactions of the Cambridge Bib. Soc. 1 (1953) 390--92).</p></provenance>
                   <provenance type="MLGB3_laterOwners">Moore 906.</provenance>
                </history>
             </msDesc>

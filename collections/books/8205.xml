@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8205">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Merton College</repository>
                   <idno type="shelfmark">MS. 70</idno>
@@ -50,10 +52,11 @@
                   <origin>
                      <origDate when-custom="1472">A.D. 1472</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_435">Oxford, Oxfordshire. Merton College.
-                        </orgName><p>‘Explicit tabula theologie que dicitur Pera peregrini compilata
-                        a quodam monacho Noui Monasterii anno Domini MCCCL; scripta per Magistrum W.
-                        Lyneham socium aule de Merton in Oxonia 1472’ (fol. 523v)</p></provenance>
+                  <provenance><orgName role="fmo" key="mlgbOrg_435">Oxford, Oxfordshire. Merton
+                        College. </orgName><p>‘Explicit tabula theologie que dicitur Pera peregrini
+                        compilata a quodam monacho Noui Monasterii anno Domini MCCCL; scripta per
+                        Magistrum W. Lyneham socium aule de Merton in Oxonia 1472’ (fol.
+                     523v)</p></provenance>
                   <provenance type="MLGB3_laterOwners">Perhaps given by William Lynham (d. 1473),
                      fellow of Merton</provenance>
                </history>

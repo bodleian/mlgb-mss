@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3597">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
                   <idno type="shelfmark">MS. Harley 5249</idno>
@@ -50,12 +52,13 @@
                   <origin>
                      <origDate when-custom="140X/141X">s. xv in.</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_312">Lichfield, Staffordshire.
-                        Cathedral church of St Mary the Virgin and St Chad. </orgName><p>'Iste liber
-                        est de dono Magistri Willelmi Admondeston' Canonici Ecclesie Cathedralis
-                        Lychefeld ad perpetuum usum eiusdem Ecclesie. Si quis eum alienauerit.
-                        anathema sit', on verso of last leaf (fol. 70v).</p><p>Canon William
-                        Admondeston, archdeacon of Stafford, d. 1432.</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_312">Lichfield,
+                        Staffordshire. Cathedral church of St Mary the Virgin and St Chad.
+                        </orgName><p>'Iste liber est de dono Magistri Willelmi Admondeston' Canonici
+                        Ecclesie Cathedralis Lychefeld ad perpetuum usum eiusdem Ecclesie. Si quis
+                        eum alienauerit. anathema sit', on verso of last leaf (fol.
+                        70v).</p><p>Canon William Admondeston, archdeacon of Stafford, d.
+                     1432.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Acquired by Harley '5 de Novembris A. D.
                      1723', so from Archdeacon Battely.</provenance>
                </history>

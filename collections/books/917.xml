@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_917">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
                   <idno type="shelfmark">MS. Ottoboni lat. 208 fols. 87--324</idno>
                   <altIdentifier type="system">
@@ -73,16 +75,17 @@
                   <origin>
                      <origDate when-custom="128X/129X">s. xiii ex</origDate>
                   </origin>
-                  <provenance type="#m"><orgName role="fmo" key="mlgbOrg_95">Cambridge, Cambridgeshire.
-                        Dominican convent. </orgName><p>Notes signed by John Crafford (friar of the
-                        Cambridge convent in 1411 and 1412; BRUC 165) on fols. 135, 136, 184 (same
-                        hand as Vat. lat. 7095 and Ottob. lat. 187) and one by him on fol. 184r
-                        beginning 'Nota bene passum quia yngham. . .' (?John de Yngham, Clare Hall
-                        fellow 1402; BRUC 326).</p><p>'rokell' is against a note on fol. 135r and
-                        'Rokell' is in margins of fols. 149r, 259r (?John Rokyll, prior-provincial
-                        before 1427; BRUO 2210--11).</p><p>'Caucio \fratris/ Iohannis fe.r.y
-                        exposita cist' de [. . .]' (fol. 334v).</p><p>Bound with a 15th-cent. copy
-                        of Aquinas's Quodlibeta, in an English hand.</p></provenance>
+                  <provenance type="#m"><orgName role="fmo" key="mlgbOrg_95">Cambridge,
+                        Cambridgeshire. Dominican convent. </orgName><p>Notes signed by John
+                        Crafford (friar of the Cambridge convent in 1411 and 1412; BRUC 165) on
+                        fols. 135, 136, 184 (same hand as Vat. lat. 7095 and Ottob. lat. 187) and
+                        one by him on fol. 184r beginning 'Nota bene passum quia yngham. . .' (?John
+                        de Yngham, Clare Hall fellow 1402; BRUC 326).</p><p>'rokell' is against a
+                        note on fol. 135r and 'Rokell' is in margins of fols. 149r, 259r (?John
+                        Rokyll, prior-provincial before 1427; BRUO 2210--11).</p><p>'Caucio
+                        \fratris/ Iohannis fe.r.y exposita cist' de [. . .]' (fol.
+                        334v).</p><p>Bound with a 15th-cent. copy of Aquinas's Quodlibeta, in an
+                        English hand.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Marcello Cervini (1501--1555), cardinal, his
                      no. 51.</provenance>
                </history>

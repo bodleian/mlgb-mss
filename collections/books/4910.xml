@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4910">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>St John's College</repository>
                   <idno type="shelfmark">MS. 130</idno>
@@ -53,12 +55,12 @@
                   <origin>
                      <origDate when-custom="14XX">s. xv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_474">St Albans, Hertfordshire.
-                        Benedictine abbey of St Alban. </orgName><p>'Hunc librum dedit frater
-                        Henricus Wylum fratri Iohanni Kywell per licen/ciam Iohannis abbatis
-                        monasterii sancti Albani. qui liber post / mortem predicti fratris Iohannis
-                        Ky[?] remanebit in conuentu eiusdem / domus quorum anime propicietur iesus
-                        cristus', at end, s. xv.</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_474">St Albans,
+                        Hertfordshire. Benedictine abbey of St Alban. </orgName><p>'Hunc librum
+                        dedit frater Henricus Wylum fratri Iohanni Kywell per licen/ciam Iohannis
+                        abbatis monasterii sancti Albani. qui liber post / mortem predicti fratris
+                        Iohannis Ky[?] remanebit in conuentu eiusdem / domus quorum anime
+                        propicietur iesus cristus', at end, s. xv.</p></provenance>
                   <provenance type="MLGB3_laterOwners">'Hum. Dyson'.</provenance>
                   <provenance type="MLGB3_laterOwners">Given by William Paddy to St Johns in
                      1634.</provenance>

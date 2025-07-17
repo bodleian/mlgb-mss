@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_211">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Trinity College</repository>
                   <idno type="shelfmark">MS. O. 9. 9</idno>
@@ -50,9 +52,9 @@
                   <origin>
                      <origDate when-custom="148X/149X">s. xv ex</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_13">Aberdeen, Aberdeenshire.
-                        King's College. </orgName><p>'Collegii Abnd' ex dono magistri Hectoris Bois
-                        primi primarii eiusdem' (s. xvi in).</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_13">Aberdeen,
+                        Aberdeenshire. King's College. </orgName><p>'Collegii Abnd' ex dono magistri
+                        Hectoris Bois primi primarii eiusdem' (s. xvi in).</p></provenance>
                   <provenance type="MLGB3_laterOwners">'Alexandri Galloway' (fol. 1r, s. xvi
                      in).</provenance>
                </history>

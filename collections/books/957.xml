@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_957">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
                   <idno type="shelfmark">MS. Ottoboni lat. 1407</idno>
                   <altIdentifier type="system">
@@ -50,10 +52,11 @@
                   <origin>
                      <origDate when-custom="11XX">s. xii</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_96">Cambridge, Cambridgeshire. Convent of
-                        Austin friars. </orgName><p>The familiar mark: 'HA' on first leaf.</p><p>Not
-                        an English MS, but in England in s. xiv, as appears from running titles and
-                        from the alphlabet on fol. 28v.</p><q type="pressmark">HA</q></provenance>
+                  <provenance><orgName role="fmo" key="mlgbOrg_96">Cambridge, Cambridgeshire.
+                        Convent of Austin friars. </orgName><p>The familiar mark: 'HA' on first
+                        leaf.</p><p>Not an English MS, but in England in s. xiv, as appears from
+                        running titles and from the alphlabet on fol. 28v.</p><q type="pressmark"
+                        >HA</q></provenance>
                </history>
             </msDesc>
          </sourceDesc>

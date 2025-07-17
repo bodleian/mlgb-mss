@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_926">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
                   <idno type="shelfmark">MS. Vat. lat. 7095</idno>
                   <altIdentifier type="system">
@@ -56,11 +58,12 @@
                   <origin>
                      <origDate when-custom="12XX/13XX">s. xiii/xiv</origDate>
                   </origin>
-                  <provenance type="#m"><orgName role="fmo" key="mlgbOrg_95">Cambridge, Cambridgeshire.
-                        Dominican convent. </orgName><p>Vatican, Ottob. lat. 187 and Vat. lat. 7095
-                        formed one volume.</p><p>Fol. 23va opposite q. 3 a. 2 ad 3m: 'Nota optime
-                        pro attributis sancti Thome . Crafford''. For other notes of Crafford's
-                        (Cambridge convent 1411) see Ottob. lat. 208, 187.</p></provenance>
+                  <provenance type="#m"><orgName role="fmo" key="mlgbOrg_95">Cambridge,
+                        Cambridgeshire. Dominican convent. </orgName><p>Vatican, Ottob. lat. 187 and
+                        Vat. lat. 7095 formed one volume.</p><p>Fol. 23va opposite q. 3 a. 2 ad 3m:
+                        'Nota optime pro attributis sancti Thome . Crafford''. For other notes of
+                        Crafford's (Cambridge convent 1411) see Ottob. lat. 208,
+                     187.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

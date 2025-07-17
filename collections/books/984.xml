@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_984">
@@ -33,7 +34,8 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Leiden, The Netherlands</settlement>
+                  <country>The Netherlands</country>
+                  <settlement>Leiden</settlement>
                   <repository>University Library</repository>
                   <idno type="shelfmark">MS. Scal. Hebr. 8</idno>
                   <altIdentifier type="system">
@@ -52,10 +54,10 @@
                   <origin>
                      <origDate when-custom="11XX">s. xii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_102">Cambridge, Cambridgeshire.
-                        King's College (Collegium regale Beate Marie et Sancti Nicholai).
-                        </orgName><p>'Liber collegii Regalis sed littera est nescio qualis' (fol.
-                        57v).</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_102">Cambridge,
+                        Cambridgeshire. King's College (Collegium regale Beate Marie et Sancti
+                        Nicholai). </orgName><p>'Liber collegii Regalis sed littera est nescio
+                        qualis' (fol. 57v).</p></provenance>
                   <provenance type="MLGB3_laterOwners">A manuscript from St Augustine's abbey,
                      Canterbury, borrowed by Humfrey, Duke of Gloucester, and given to Henry VI's
                      new foundation of King's College after Duke Humfrey's attainder. (See G. I.

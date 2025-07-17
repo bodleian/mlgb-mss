@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6323">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
                   <idno type="shelfmark">Addtional MS. 24361</idno>
@@ -54,13 +56,14 @@
                   <origin>
                      <origDate/>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_607">York, Yorkshire. Cathedral
-                        church of St Peter. </orgName><p>'Liber monasterii beate Marie Ebor'
-                        attinens/ fratri Willelmo Couyrdaill' ex dono/ fratris Walteri Hothome
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_607">York, Yorkshire.
+                        Cathedral church of St Peter. </orgName><p>'Liber monasterii beate Marie
+                        Ebor' attinens/ fratri Willelmo Couyrdaill' ex dono/ fratris Walteri Hothome
                         ambobus/ eiusdem Cenobiii accolis ac concenobitis. / Contentus huiusce/
                         Tragedia de Flavio et Affra/ Philibiblon de laude librorum/ Alanus de
                         planctu nature/ Regule dictaminis/ Tractatus de sermonibus faciendis/ Biblia
-                        versificata et quotata' (fol. 1v, s. xv ex.) </p><q type="pressmark">s. xv</q></provenance>
+                        versificata et quotata' (fol. 1v, s. xv ex.) </p><q type="pressmark">s.
+                        xv</q></provenance>
                </history>
             </msDesc>
          </sourceDesc>
