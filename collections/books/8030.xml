@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8030">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Exeter College</repository>
                   <idno type="shelfmark">MS. 51</idno>
@@ -50,11 +52,11 @@
                   <origin>
                      <origDate when-custom="A.D. 1466~">c. A.D. 1466</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_431">Oxford, Oxfordshire. Exeter College.
-                        </orgName><p>Forms part of a set, MSS 51–68, given to Exeter by Roger Keyes.
-                        On the set see Watson, Exeter, 85–87. An ex dono inscription survives in
-                        only some of the volumes, e.g. MS 53 (q.v.).Arms of Roger Keyes, fol.
-                        1r.</p></provenance>
+                  <provenance><orgName role="fmo" key="mlgbOrg_431">Oxford, Oxfordshire. Exeter
+                        College. </orgName><p>Forms part of a set, MSS 51–68, given to Exeter by
+                        Roger Keyes. On the set see Watson, Exeter, 85–87. An ex dono inscription
+                        survives in only some of the volumes, e.g. MS 53 (q.v.).Arms of Roger Keyes,
+                        fol. 1r.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Roger Keyes (d. 1477), warden of All Souls
                      College</provenance>
                </history>

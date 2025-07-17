@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_706">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Pembroke College</repository>
-                  <idno type="shelfmark">MS. 101 fols. 1--93</idno>
+                  <idno type="shelfmark">MS 101 fols. 1--93</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">706</idno>
                   </altIdentifier>
@@ -53,8 +55,8 @@
                   <origin>
                      <origDate when-custom="120X/121X">s. xiii in</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_86">Bury St Edmunds, Suffolk. Benedictine
-                        abbey of St Edmund, King and Martyr. </orgName><p>On fol. 1r: 'S
+                  <provenance><orgName role="fmo" key="mlgbOrg_86">Bury St Edmunds, Suffolk.
+                        Benedictine abbey of St Edmund, King and Martyr. </orgName><p>On fol. 1r: 'S
                         .65.'</p><p>Old binding.</p><q type="pressmark">S.65</q></provenance>
                   <provenance type="MLGB3_laterOwners">William Smart (d. 1599), portreeve of
                      Ipswich, by whom given to Pembroke.</provenance>

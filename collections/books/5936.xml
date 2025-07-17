@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5936">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Edinburgh, Scotland</settlement>
+                  <country>Scotland</country>
+                  <settlement>Edinburgh</settlement>
                   <repository>National Library of Scotland</repository>
-                  <idno type="shelfmark">MS. Advocates 18.5.3</idno>
+                  <idno type="shelfmark">MS Advocates 18.5.3</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5936</idno>
                   </altIdentifier>
@@ -52,10 +54,11 @@
                   <origin>
                      <origDate>s. xii/xiii in.</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_601">Worcester, Worcestershire.
-                        Benedictine cathedral priory of St Mary the Virgin. </orgName><p>Fol. 1r,
-                        partly erased: '[...] I&lt;ohannes&gt; de Evesham', who is perhaps the prior
-                        of Worcester of that name 1340--1370 (BRUO).</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_601">Worcester,
+                        Worcestershire. Benedictine cathedral priory of St Mary the Virgin.
+                        </orgName><p>Fol. 1r, partly erased: '[...] I&lt;ohannes&gt; de Evesham',
+                        who is perhaps the prior of Worcester of that name 1340--1370
+                     (BRUO).</p></provenance>
                   <provenance type="MLGB3_laterOwners">Sir James Balfour of Kinnard and
                      Denmilne.</provenance>
                </history>

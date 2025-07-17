@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_912">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
-                  <idno type="shelfmark">MS. Ottoboni lat. 99</idno>
+                  <idno type="shelfmark">MS Ottoboni lat. 99</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">912</idno>
                   </altIdentifier>
@@ -50,10 +52,10 @@
                   <origin>
                      <origDate/>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_95">Cambridge, Cambridgeshire.
-                        Dominican convent. </orgName><p>'Nota quod in isto volumine inter .a.a
-                        (?almaria) [/comunitatis Cantebrigg'] continentur libri anselmi', etc. (fol.
-                        iv, flyleaf, s. xv).</p><p>'Iste liber est de comunitate fratrum
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_95">Cambridge,
+                        Cambridgeshire. Dominican convent. </orgName><p>'Nota quod in isto volumine
+                        inter .a.a (?almaria) [/comunitatis Cantebrigg'] continentur libri anselmi',
+                        etc. (fol. iv, flyleaf, s. xv).</p><p>'Iste liber est de comunitate fratrum
                         predicatorum Cantebrigg'' (fol. 242v, s. xiv). 'Iste liber est de almario
                         fratrum predicatorum cantebr. [--comodatus fratri W. de sancto martino
                         quamdiu vixerit' (fol. 242v, another hand, s. xiv).</p></provenance>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_299">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>San Marino (CA, USA)</settlement>
+                  <country>USA</country>
+                  <settlement>San Marino (CA)</settlement>
                   <repository>Huntington Library</repository>
-                  <idno type="shelfmark">MS. EL 9 H.15</idno>
+                  <idno type="shelfmark">MS EL 9 H.15</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">299</idno>
                   </altIdentifier>
@@ -50,11 +52,11 @@
                   <origin>
                      <origDate when-custom="140X/141X">s. xv in.</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_23">Ashridge, Buckinghamshire.
-                        House of Bonshommes of St Mary the Virgin (and of the Holy Blood).
-                        </orgName><p>Rules and statutes in Latin, also a kalendar and martyrology
-                        containing special commemorations of the College of the Bonshommes at
-                        Ashridge.</p></provenance>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_23">Ashridge,
+                        Buckinghamshire. House of Bonshommes of St Mary the Virgin (and of the Holy
+                        Blood). </orgName><p>Rules and statutes in Latin, also a kalendar and
+                        martyrology containing special commemorations of the College of the
+                        Bonshommes at Ashridge.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Earl of Ellesmere, Bridgewater
                      House.</provenance>
                   <provenance type="MLGB3_laterOwners">Probably therefore the same descent as the

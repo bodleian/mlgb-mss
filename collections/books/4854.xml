@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4854">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Royal 2 B.vi</idno>
+                  <idno type="shelfmark">MS Royal 2 B.vi</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4854</idno>
                   </altIdentifier>
@@ -50,16 +52,17 @@
                   <origin>
                      <origDate when-custom="12XX">s. xiii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_474">St Albans, Hertfordshire.
-                        Benedictine abbey of St Alban. </orgName><p>'Hunc librum dedit frater
-                        Iohannes de Dalling[ . . ] ex licencia domini Iohannis [de Hertford] abbatis
-                        [1235--1260] deo et ecclesie Sancti Albani. ita tamen quod habeat usum
-                        tantum in uita sua. Quem quidem qui ab eadem ecclesia alienauerit uel
-                        titulum deleverit anathema sit. Amen.' and 'Anima Iohannis de Dalling et
-                        anime omnium fidelium defunctorum requiescant in pace. Amen.', s. xiii (fol.
-                        1r).</p><p>'De almariolo in choro.', s. xiv (fol. 1r).</p><p>St Alban and St
-                        Amphibalus are highly graded in the kalendar and litany, and they appear
-                        among the miniatures.</p><q type="pressmark">de almariolo in choro</q></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_474">St Albans,
+                        Hertfordshire. Benedictine abbey of St Alban. </orgName><p>'Hunc librum
+                        dedit frater Iohannes de Dalling[ . . ] ex licencia domini Iohannis [de
+                        Hertford] abbatis [1235--1260] deo et ecclesie Sancti Albani. ita tamen quod
+                        habeat usum tantum in uita sua. Quem quidem qui ab eadem ecclesia
+                        alienauerit uel titulum deleverit anathema sit. Amen.' and 'Anima Iohannis
+                        de Dalling et anime omnium fidelium defunctorum requiescant in pace. Amen.',
+                        s. xiii (fol. 1r).</p><p>'De almariolo in choro.', s. xiv (fol.
+                        1r).</p><p>St Alban and St Amphibalus are highly graded in the kalendar and
+                        litany, and they appear among the miniatures.</p><q type="pressmark">de
+                        almariolo in choro</q></provenance>
                   <provenance type="MLGB3_laterOwners">Robarttus Gylles (s. xvi).</provenance>
                   <provenance type="MLGB3_laterOwners">John Theyer.</provenance>
                </history>

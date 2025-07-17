@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_331">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Addtional MS. 10596, fols. 25--83</idno>
+                  <idno type="shelfmark">Addtional MS 10596, fols. 25--83</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">331</idno>
                   </altIdentifier>
@@ -50,12 +52,13 @@
                   <origin>
                      <origDate when-custom="14XX">s. xv</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_30">Barking, Essex. Abbey of St
-                        Mary the Virgin and St Ethelburga, of Benedictine nuns. </orgName><p>'Iste
-                        liber constat Matilde Hayle de Berkynge'; 'Iste liber constat D. Marie
-                        Hastyngs de berkynge' (s. xv).</p><p>Fols. 82v--83r, sequence 'Gaude mater
-                        Ethelburga' (s. xv/xvi).</p><p>Fols. 1--24, Crafte of deying, may belong
-                        with the rest: erased colophon at the end.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_30">Barking, Essex. Abbey
+                        of St Mary the Virgin and St Ethelburga, of Benedictine nuns.
+                        </orgName><p>'Iste liber constat Matilde Hayle de Berkynge'; 'Iste liber
+                        constat D. Marie Hastyngs de berkynge' (s. xv).</p><p>Fols. 82v--83r,
+                        sequence 'Gaude mater Ethelburga' (s. xv/xvi).</p><p>Fols. 1--24, Crafte of
+                        deying, may belong with the rest: erased colophon at the
+                     end.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

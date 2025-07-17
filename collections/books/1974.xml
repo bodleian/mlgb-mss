@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1974">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Jesus College</repository>
-                  <idno type="shelfmark">MS. 28</idno>
+                  <idno type="shelfmark">MS 28</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1974</idno>
                   </altIdentifier>
@@ -54,7 +56,8 @@
                   <provenance type="#e"><orgName role="fmo" key="mlgbOrg_189">Durham. Benedictine
                         cathedral priory of St Cuthbert. </orgName><p>(fol. 3r) in usual early
                         15th-cent. hand: "Precianus [sic] in maiori et de accentibus de communi
-                        librario monachorum dunelm."</p><note type="MLGB3_medievalCatalogueNotes">cat., p. 49 N</note><q type="pressmark">N</q></provenance>
+                        librario monachorum dunelm."</p><note type="MLGB3_medievalCatalogueNotes"
+                        >cat., p. 49 N</note><q type="pressmark">N</q></provenance>
                   <provenance type="MLGB3_laterOwners">Revd. Thos. Man.</provenance>
                </history>
             </msDesc>

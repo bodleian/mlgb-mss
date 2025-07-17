@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_949">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
-                  <idno type="shelfmark">MS. Ottoboni lat. 342</idno>
+                  <idno type="shelfmark">MS Ottoboni lat. 342</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">949</idno>
                   </altIdentifier>
@@ -58,11 +60,11 @@
                   <origin>
                      <origDate when-custom="130X/131X">s. xiv in</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_96">Cambridge, Cambridgeshire.
-                        Convent of Austin friars. </orgName><p>'Liber fratris Iohannis de Clar'' (at
-                        foot of fol. 5r, in capitals). John de Clare was at the Cambridge convent in
-                        1304, was prior provincial in 1307 and still in 1328; BRUC
-                     136--7.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_96">Cambridge,
+                        Cambridgeshire. Convent of Austin friars. </orgName><p>'Liber fratris
+                        Iohannis de Clar'' (at foot of fol. 5r, in capitals). John de Clare was at
+                        the Cambridge convent in 1304, was prior provincial in 1307 and still in
+                        1328; BRUC 136--7.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

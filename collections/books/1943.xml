@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1943">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>University Library</repository>
-                  <idno type="shelfmark">MS. Additional 2770</idno>
+                  <idno type="shelfmark">MS Additional 2770</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1943</idno>
                   </altIdentifier>
@@ -58,9 +60,9 @@
                   <origin>
                      <origDate when-custom="14XX">s. xv</origDate>
                   </origin>
-                  <provenance type="#ic"><orgName role="fmo" key="mlgbOrg_186">Dunstable, Bedfordshire.
-                        Dominican convent. </orgName><p>"De dono Patris fratris Wyllelmi Lynne"
-                        (fol. 13r).</p></provenance>
+                  <provenance type="#ic"><orgName role="fmo" key="mlgbOrg_186">Dunstable,
+                        Bedfordshire. Dominican convent. </orgName><p>"De dono Patris fratris
+                        Wyllelmi Lynne" (fol. 13r).</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

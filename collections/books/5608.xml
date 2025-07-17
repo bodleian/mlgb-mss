@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5608">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Addtional MS. 6059</idno>
+                  <idno type="shelfmark">Addtional MS 6059</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5608</idno>
                   </altIdentifier>
@@ -50,10 +52,10 @@
                   <origin>
                      <origDate when-custom="1463">1463</origDate>
                   </origin>
-                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_573">Wells, Somerset. Cathedral
-                        church of St Andrew. </orgName><p>Provenance inferred from liturgical
-                        character.</p><p>See B. Schofield, 'Muchelney Memoranda', Som. Rec. Soc. 42,
-                        pp. 145, 163.</p></provenance>
+                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_573">Wells, Somerset.
+                        Cathedral church of St Andrew. </orgName><p>Provenance inferred from
+                        liturgical character.</p><p>See B. Schofield, 'Muchelney Memoranda', Som.
+                        Rec. Soc. 42, pp. 145, 163.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Sir John Cheke.</provenance>
                   <provenance type="MLGB3_laterOwners">W. Cecill.</provenance>
                </history>

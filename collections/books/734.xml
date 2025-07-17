@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_734">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Columbia (MO, USA)</settlement>
+                  <country>USA</country>
+                  <settlement>Columbia (MO)</settlement>
                   <repository>University of Missouri, Ellis Library</repository>
-                  <idno type="shelfmark">MS. Fragmenta Manuscripta 14</idno>
+                  <idno type="shelfmark">MS Fragmenta Manuscripta 14</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">734</idno>
                   </altIdentifier>
@@ -59,11 +61,11 @@
                   <origin>
                      <origDate>s. xii 1</origDate>
                   </origin>
-                  <provenance type="#s"><orgName role="fmo" key="mlgbOrg_86">Bury St Edmunds, Suffolk.
-                        Benedictine abbey of St Edmund, King and Martyr. </orgName><p>Originally
-                        part of one volume with CUL MS Add. 4406, pt 1. Same hand as Pembroke
-                        College, MS 18. Uses open 'g', nota-bene sign, like Pembroke 18 and Bodl. MS
-                        e Mus. 26.</p></provenance>
+                  <provenance type="#s"><orgName role="fmo" key="mlgbOrg_86">Bury St Edmunds,
+                        Suffolk. Benedictine abbey of St Edmund, King and Martyr.
+                        </orgName><p>Originally part of one volume with CUL MS Add. 4406, pt 1. Same
+                        hand as Pembroke College, MS 18. Uses open 'g', nota-bene sign, like
+                        Pembroke 18 and Bodl. MS e Mus. 26.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Tenison sale, 1 July 1861, lot 38, to Sir
                      Thomas Phillipps (Phillipps MS 15758).</provenance>
                   <provenance type="MLGB3_laterOwners">Sold 19 May 1913, lot 742.</provenance>

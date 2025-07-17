@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5480">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Royal 15 A.x</idno>
+                  <idno type="shelfmark">MS Royal 15 A.x</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5480</idno>
                   </altIdentifier>
@@ -53,8 +55,8 @@
                   <origin>
                      <origDate when-custom="11XX/12XX">s. xii--xiii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_545">Thorney, Cambridgeshire.
-                        Benedictine Abbey of Saint Mary the Virgin and St Botolph.
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_545">Thorney,
+                        Cambridgeshire. Benedictine Abbey of Saint Mary the Virgin and St Botolph.
                         </orgName><p>'Liber precentorie Thorneye' (fol. 2r).</p></provenance>
                   <provenance type="MLGB3_laterOwners">Henry Savile (cat. no. 184, Trans. bibl. soc.
                      9 (1907)).</provenance>

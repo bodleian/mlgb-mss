@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3196">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Royal 7 F.viii</idno>
+                  <idno type="shelfmark">MS Royal 7 F.viii</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3196</idno>
                   </altIdentifier>
@@ -53,11 +55,12 @@
                   <origin>
                      <origDate when-custom="128X/129X">s. xiii ex.</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_251">Hereford, Herefordshire.
-                        Franciscan convent. </orgName><p>"Iste liber est de ordine fratrum minorum
-                        concessus fratri Willelmo Herbert as usum quem librum ipse pro ordine
-                        procurauit. Qui eius usum habuerit oret pro anima dicti fratris. Hunc librum
-                        ... Minorum H ..." (fol. 47r; cf. fol. 13r, erased).</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_251">Hereford,
+                        Herefordshire. Franciscan convent. </orgName><p>"Iste liber est de ordine
+                        fratrum minorum concessus fratri Willelmo Herbert as usum quem librum ipse
+                        pro ordine procurauit. Qui eius usum habuerit oret pro anima dicti fratris.
+                        Hunc librum ... Minorum H ..." (fol. 47r; cf. fol. 13r,
+                     erased).</p></provenance>
                   <provenance type="MLGB3_laterOwners">This MS. and Royal 7 F.vii were in the Lumley
                      Library, but came into the hands of Prince Henry's chaplain, John Prideaux, bp.
                      of Worcester (1641--50), and thence into the Theyer collection.</provenance>

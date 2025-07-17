@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8403">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Merton College</repository>
                   <idno type="shelfmark">MS. 282</idno>
@@ -52,7 +54,14 @@
                   </origin>
                   <provenance type="#e"><orgName role="fmo" key="mlgbOrg_435">Oxford, Oxfordshire.
                         Merton College. </orgName><note type="MLGB3_medievalCatalogueNotes">UO49.21
-                        = perhaps ?UO68.279 or ?UO68.287</note><q type="pressmark">‘Liber M. Willelmi Red ex dono magistri Nicholai de Sandwyco. Oretis igitur pro utroque’ (fol. iv, hand of William Reed)‘proprietas domus Mertone’ (fol. iv)‘Liber domus scolarium de Merton’ in Oxon’ in communi libraria eiusdem et ad usum communem sociorum ibidem studencium cathenandus. Ex dono uenerabilis patris domini Willelmi tercii episcopi Cicestrie. Oretis igitur pro eodem et benefactoribus eiusdem ac fidelium animabus a purgatorio liberandis’ (fol. iv)‘2us de sorte Mothyrby’ (fol. iv)</q></provenance>
+                        = perhaps ?UO68.279 or ?UO68.287</note><q type="pressmark">‘Liber M.
+                        Willelmi Red ex dono magistri Nicholai de Sandwyco. Oretis igitur pro
+                        utroque’ (fol. iv, hand of William Reed)‘proprietas domus Mertone’ (fol.
+                        iv)‘Liber domus scolarium de Merton’ in Oxon’ in communi libraria eiusdem et
+                        ad usum communem sociorum ibidem studencium cathenandus. Ex dono uenerabilis
+                        patris domini Willelmi tercii episcopi Cicestrie. Oretis igitur pro eodem et
+                        benefactoribus eiusdem ac fidelium animabus a purgatorio liberandis’ (fol.
+                        iv)‘2us de sorte Mothyrby’ (fol. iv)</q></provenance>
                   <provenance type="MLGB3_laterOwners">William Reed (c. 1315–1385), bishop of
                      Chichester</provenance>
                </history>

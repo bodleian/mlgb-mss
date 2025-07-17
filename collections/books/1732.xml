@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1732">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Arundel 83</idno>
+                  <idno type="shelfmark">MS Arundel 83</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1732</idno>
                   </altIdentifier>
@@ -53,14 +55,14 @@
                   <origin>
                      <origDate when-custom="130X/131X">s. xiv in.</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_141">Chicksands, Bedfordshire.
-                        Gilbertine priory of St Mary the Virgin.. </orgName><p>'Jeo Robert de Lyle
-                        donay cest lyuere sus le iour sayncte Katerine en lan nostre seignour myl
-                        CCC XXXIX a ma fille Audere oue la dieux beneyssoun et la moye. Et apres
-                        soen deses a Alborou sa soer et issy de soer en soer taunk come ascune de
-                        eles vyvont. Et apres remeyne a touz iours a les dames de Chikessaund', s.
-                        xiv (fol. 122r; copied by a professional scribe, fol. 122v).</p><p
-                     > </p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_141">Chicksands,
+                        Bedfordshire. Gilbertine priory of St Mary the Virgin.. </orgName><p>'Jeo
+                        Robert de Lyle donay cest lyuere sus le iour sayncte Katerine en lan nostre
+                        seignour myl CCC XXXIX a ma fille Audere oue la dieux beneyssoun et la moye.
+                        Et apres soen deses a Alborou sa soer et issy de soer en soer taunk come
+                        ascune de eles vyvont. Et apres remeyne a touz iours a les dames de
+                        Chikessaund', s. xiv (fol. 122r; copied by a professional scribe, fol.
+                        122v).</p><p> </p></provenance>
                   <provenance type="MLGB3_laterOwners">"John Fox" (fol. 1r).</provenance>
                   <provenance type="MLGB3_laterOwners">"Wm Howard" 1591 (fol. 3r).</provenance>
                </history>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3159">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Bodleian Library</repository>
                   <idno type="shelfmark">MS. Ashmole 789</idno>
@@ -53,13 +55,14 @@
                   <origin>
                      <origDate when-custom="14XX">s. xv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_249">Hereford, Herefordshire.
-                        Diocesan Registry. </orgName><p>"Volo istum librum remanere in Registro C.
-                        Hereford'."</p><p>"Donatus est hic liber per reverendum in Christo patrem et
-                        dominum, dominum Carolum divina permissione Hereford. episcopum, officio
-                        Registrarii episcopi Hereforden. ea intencione et voto quod semper penes
-                        officium Registrarii, absque alienatione eiusdem remaneat, teste David
-                        Walker dicti reverendi patris Rgistrario. David Walker."</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_249">Hereford,
+                        Herefordshire. Diocesan Registry. </orgName><p>"Volo istum librum remanere
+                        in Registro C. Hereford'."</p><p>"Donatus est hic liber per reverendum in
+                        Christo patrem et dominum, dominum Carolum divina permissione Hereford.
+                        episcopum, officio Registrarii episcopi Hereforden. ea intencione et voto
+                        quod semper penes officium Registrarii, absque alienatione eiusdem remaneat,
+                        teste David Walker dicti reverendi patris Rgistrario. David
+                     Walker."</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

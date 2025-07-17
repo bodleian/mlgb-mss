@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6347">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Cotton Vespasian B.xxiii</idno>
+                  <idno type="shelfmark">MS Cotton Vespasian B.xxiii</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6347</idno>
                   </altIdentifier>
@@ -52,9 +54,11 @@
                   <origin>
                      <origDate when-custom="13XX">s. xiv</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_611">York , Yorkshire. Convent
-                        of Austin friars. </orgName><p>'Liber ffratris Iohannis de Erghom ...' on
-                        verso of flyleaf (fol. 1v).</p><p>'Lettermark R'.</p><note type="MLGB3_medievalCatalogueNotes">cat. 493</note><q type="pressmark">R</q></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_611">York , Yorkshire.
+                        Convent of Austin friars. </orgName><p>'Liber ffratris Iohannis de Erghom
+                        ...' on verso of flyleaf (fol. 1v).</p><p>'Lettermark R'.</p><note
+                        type="MLGB3_medievalCatalogueNotes">cat. 493</note><q type="pressmark"
+                     >R</q></provenance>
                   <provenance type="MLGB3_laterOwners">Henry Ferrers (s. xvi).</provenance>
                </history>
             </msDesc>

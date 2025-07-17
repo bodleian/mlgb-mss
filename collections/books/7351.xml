@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7351">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Peterhouse</repository>
-                  <idno type="shelfmark">MS. 56</idno>
+                  <idno type="shelfmark">MS 56</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">7351</idno>
                   </altIdentifier>
@@ -50,14 +52,15 @@
                   <origin>
                      <origDate when-custom="12XX">s. xiii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_106">Cambridge, Cambridgeshire.
-                        Peterhouse (Collegium Sancti Petri). </orgName><p>‘Magister Historiarum’
-                        (front pastedown)</p><p>‘Liber magistri Iohannis Warkeworth’ (front
-                        pastedown)</p><p>‘Liber Collegii Sancti Petri in Cantebrig’ ex dono magistri
-                        Iohannis Warkeworth magistri dicti Collegii sub interminacione anathematis
-                        nullatenus a libraria ibidem alienandus’ (front pastedown)</p><p>Thomson
-                        (Peterhouse, 32) writes that this pastedown ‘must refer to another MS, prob.
-                        now lost (perh. CBMLC 10, UC48. 499).’</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_106">Cambridge,
+                        Cambridgeshire. Peterhouse (Collegium Sancti Petri). </orgName><p>‘Magister
+                        Historiarum’ (front pastedown)</p><p>‘Liber magistri Iohannis Warkeworth’
+                        (front pastedown)</p><p>‘Liber Collegii Sancti Petri in Cantebrig’ ex dono
+                        magistri Iohannis Warkeworth magistri dicti Collegii sub interminacione
+                        anathematis nullatenus a libraria ibidem alienandus’ (front
+                        pastedown)</p><p>Thomson (Peterhouse, 32) writes that this pastedown ‘must
+                        refer to another MS, prob. now lost (perh. CBMLC 10, UC48.
+                     499).’</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

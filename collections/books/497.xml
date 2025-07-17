@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_497">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Bodleian Library</repository>
                   <idno type="shelfmark">MS. Bodley 618</idno>
@@ -50,12 +52,13 @@
                   <origin>
                      <origDate when-custom="150X/151X">s. xvi in</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_72">Bristol, Gloucestershire.
-                        Hospital of St Mark of Billeswick, otherwise Gaunt's hospital, of
-                        Augustinian canons. </orgName><p>'Orate pro anima Iohannis Codlman quondam
-                        Magistri domus le Gauntes iuxta Bristolliam qui quidem magister dedit librum
-                        hunc Iohanni Bradley clerico' (fol. 139v). JC monogram on fol. 1v (as in
-                        Lyell 38). John Colman wrote part of the book.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_72">Bristol,
+                        Gloucestershire. Hospital of St Mark of Billeswick, otherwise Gaunt's
+                        hospital, of Augustinian canons. </orgName><p>'Orate pro anima Iohannis
+                        Codlman quondam Magistri domus le Gauntes iuxta Bristolliam qui quidem
+                        magister dedit librum hunc Iohanni Bradley clerico' (fol. 139v). JC monogram
+                        on fol. 1v (as in Lyell 38). John Colman wrote part of the
+                     book.</p></provenance>
                   <provenance type="MLGB3_laterOwners">John Colman; John Bradley (see
                      above).</provenance>
                   <provenance type="MLGB3_laterOwners">'David ac [?=ap] Robert owyth this booke'

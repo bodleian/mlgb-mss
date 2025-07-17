@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1694">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Balliol College</repository>
                   <idno type="shelfmark">MS. 57</idno>
@@ -54,11 +56,12 @@
                   <origin>
                      <origDate when-custom="128X/129X">s. xiii ex.</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_134">Chester, Cheshire. Benedictine abbey
-                        of St Werburg. </orgName><p>"Fisshacre super sententias. cum Iohanne
+                  <provenance><orgName role="fmo" key="mlgbOrg_134">Chester, Cheshire. Benedictine
+                        abbey of St Werburg. </orgName><p>"Fisshacre super sententias. cum Iohanne
                         Damasceno de fide orthodoxa. vijo loco." (from cum onwards erased, but
                         legible by u. v. light), s. xiv, on fol. 2v (opposite 1st leaf of text), in
-                        the same hand as in Bodley 373 and other MSS.</p><q type="pressmark">viio loco</q></provenance>
+                        the same hand as in Bodley 373 and other MSS.</p><q type="pressmark">viio
+                        loco</q></provenance>
                   <provenance type="MLGB3_laterOwners">Given to Balliol by Gray.</provenance>
                </history>
             </msDesc>

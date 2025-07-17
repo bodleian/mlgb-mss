@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6818">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Paris, France</settlement>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
                   <repository>Bibliothèque nationale de France</repository>
-                  <idno type="shelfmark">MS. lat. 4922</idno>
+                  <idno type="shelfmark">MS lat. 4922</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6818</idno>
                   </altIdentifier>
@@ -56,7 +58,8 @@
                   </origin>
                   <provenance type="#e"><orgName role="fmo" key="mlgbOrg_404">Norwich, Norfolk.
                         Benedictine cathedral priory of Holy Trinity. </orgName><p>Norwich pressmark
-                        at the head of the first column on fol. 1.</p><q type="pressmark">I.lxii</q></provenance>
+                        at the head of the first column on fol. 1.</p><q type="pressmark"
+                     >I.lxii</q></provenance>
                </history>
             </msDesc>
          </sourceDesc>

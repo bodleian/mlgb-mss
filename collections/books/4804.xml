@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4804">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Corpus Christi College</repository>
-                  <idno type="shelfmark">MS. 5, 6, 7</idno>
+                  <idno type="shelfmark">MS 5, 6, 7</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4804</idno>
                   </altIdentifier>
@@ -55,11 +57,11 @@
                   <origin>
                      <origDate>(vols. 1--2) s. xv in., (vol. 3) s. xiv/xv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_474">St Albans, Hertfordshire.
-                        Benedictine abbey of St Alban. </orgName><p>On 1st leaf of text of vol. 1,
-                        in large red letters: 'Hic est liber Sancti Albani de libraria
-                        conuentus.'</p><p>At foot of page, a long inscription recording the writing
-                        of the book to the order of William Wyntreshull under Abbot John
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_474">St Albans,
+                        Hertfordshire. Benedictine abbey of St Alban. </orgName><p>On 1st leaf of
+                        text of vol. 1, in large red letters: 'Hic est liber Sancti Albani de
+                        libraria conuentus.'</p><p>At foot of page, a long inscription recording the
+                        writing of the book to the order of William Wyntreshull under Abbot John
                         Whethamstede. Similar inscr. in vols. 2 and 3 (q. v.).</p></provenance>
                </history>
             </msDesc>

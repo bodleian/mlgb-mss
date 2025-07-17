@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1851">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Princeton (NJ, USA)</settlement>
+                  <country>USA</country>
+                  <settlement>Princeton (NJ)</settlement>
                   <repository>University Library</repository>
-                  <idno type="shelfmark">MS. Garrett 119</idno>
+                  <idno type="shelfmark">MS Garrett 119</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1851</idno>
                   </altIdentifier>
@@ -50,12 +52,12 @@
                   <origin>
                      <origDate when-custom="138X/139X">s. xiv ex.</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_165">Crowland, Lincolnshire.
-                        Benedictine abbey of St Mary the Virgin, St Bartholomew, and St Guthlac.
-                        </orgName><p>'Belonged at an early date to W. de Burgh at Croyland Abbey.'
-                        It is written on erased MS. accounts of Revesby Abbey s. xiii (de Ricci,
-                        Census, 1. 888).</p><p>cf. Journal of American Musicological Soc. 4 (1951)
-                        220--39.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_165">Crowland,
+                        Lincolnshire. Benedictine abbey of St Mary the Virgin, St Bartholomew, and
+                        St Guthlac. </orgName><p>'Belonged at an early date to W. de Burgh at
+                        Croyland Abbey.' It is written on erased MS. accounts of Revesby Abbey s.
+                        xiii (de Ricci, Census, 1. 888).</p><p>cf. Journal of American Musicological
+                        Soc. 4 (1951) 220--39.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Lord Burghley's sale (London 1687 no. 69) to
                      James Sotheby.</provenance>
                   <provenance type="MLGB3_laterOwners">Col. H. G. Sotheby sale (London 1924 no. 5)

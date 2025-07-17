@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_382">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Cotton Tiberius B. v, part i, fols. 2--73,
+                  <idno type="shelfmark">MS Cotton Tiberius B. v, part i, fols. 2--73,
                      77--88</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">382</idno>
@@ -66,12 +68,12 @@
                   <origin>
                      <origDate>s. x/xi</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_36">Battle, Sussex. Benedictine
-                        abbey of St Martin. </orgName><p>Tib. B. v, fol. 88r, contains an 'annotatio
-                        ecclesiarum dotalium Ecclesie de Bello' of 1154, and Nero D. ii contains
-                        Battle Abbey annals. The earlier part of the MS includes a list of the
-                        abbots of GLASTONBURY. In a list of bishops [S]UUIÐHUN is in
-                     capitals.</p></provenance>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_36">Battle, Sussex.
+                        Benedictine abbey of St Martin. </orgName><p>Tib. B. v, fol. 88r, contains
+                        an 'annotatio ecclesiarum dotalium Ecclesie de Bello' of 1154, and Nero D.
+                        ii contains Battle Abbey annals. The earlier part of the MS includes a list
+                        of the abbots of GLASTONBURY. In a list of bishops [S]UUIÐHUN is in
+                        capitals.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Sir Robert Bruce Cotton (1571--1631),
                      1598.</provenance>
                   <provenance type="MLGB3_laterOwners">John Lumley, first Baron Lumley (c.

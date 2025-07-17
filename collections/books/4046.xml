@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4046">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Trinity College</repository>
-                  <idno type="shelfmark">MS. B.11.33</idno>
+                  <idno type="shelfmark">MS B.11.33</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4046</idno>
                   </altIdentifier>
@@ -52,11 +54,11 @@
                   <origin>
                      <origDate when-custom="11XX">s. xii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_400">Nocton Park, Lincolnshire.
-                        Augustinian priory of St Mary Magdalen. </orgName><p>"Liber Prioratus de
-                        parcho Noktone" on the first flyleaf, erased, s. xv. After the erasure an
-                        untidy 16th-cent. hand writes "modo in custodia Roberti
-                     Maltby."</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_400">Nocton Park,
+                        Lincolnshire. Augustinian priory of St Mary Magdalen. </orgName><p>"Liber
+                        Prioratus de parcho Noktone" on the first flyleaf, erased, s. xv. After the
+                        erasure an untidy 16th-cent. hand writes "modo in custodia Roberti
+                        Maltby."</p></provenance>
                   <provenance type="MLGB3_laterOwners">Sotheby's.</provenance>
                   <provenance type="MLGB3_laterOwners">Formerly Inch, Mr C. A. Gordon.</provenance>
                </history>

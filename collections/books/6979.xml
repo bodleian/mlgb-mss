@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6979">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Clare College</repository>
-                  <idno type="shelfmark">MS. F1.2.11–16</idno>
+                  <idno type="shelfmark">MS F1.2.11–16</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6979</idno>
                   </altIdentifier>
@@ -51,10 +53,10 @@
                   <origin>
                      <origDate>A.D. 1498–1504</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_98">Cambridge, Cambridgeshire.
-                        Clare College (formerly University Hall, formerly Clare Hall).
-                        </orgName><p>Six volumes. Volume two has the inscription ‘Ex dono M. Henrici
-                        Hornby’</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_98">Cambridge,
+                        Cambridgeshire. Clare College (formerly University Hall, formerly Clare
+                        Hall). </orgName><p>Six volumes. Volume two has the inscription ‘Ex dono M.
+                        Henrici Hornby’</p></provenance>
                   <provenance type="MLGB3_laterOwners">Henry Hornby (d. 1518), master of
                      Peterhouse</provenance>
                </history>

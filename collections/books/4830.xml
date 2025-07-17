@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4830">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Eton</settlement>
                   <repository>Eton College</repository>
-                  <idno type="shelfmark">MS. 103</idno>
+                  <idno type="shelfmark">MS 103</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4830</idno>
                   </altIdentifier>
@@ -50,13 +52,13 @@
                   <origin>
                      <origDate when-custom="14XX">s. xv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_474">St Albans, Hertfordshire.
-                        Benedictine abbey of St Alban. </orgName><p>At end: 'Hunc librum ad usum
-                        Conuentus Monasterii sancti Albani assignauit venerabilis pater dompnus
-                        Iohannes Whethamstede olim Abbas Monasterii antedicti, vinculoque
-                        anathematis innodauit illos omnes qui aut titulum illius delere curauerint
-                        aut ad usus applicare presumpserint alienos'.</p><p>Shortly afterwards (by
-                        1465) acquired by Eton College (q.v.).</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_474">St Albans,
+                        Hertfordshire. Benedictine abbey of St Alban. </orgName><p>At end: 'Hunc
+                        librum ad usum Conuentus Monasterii sancti Albani assignauit venerabilis
+                        pater dompnus Iohannes Whethamstede olim Abbas Monasterii antedicti,
+                        vinculoque anathematis innodauit illos omnes qui aut titulum illius delere
+                        curauerint aut ad usus applicare presumpserint alienos'.</p><p>Shortly
+                        afterwards (by 1465) acquired by Eton College (q.v.).</p></provenance>
                   <provenance type="MLGB3_laterOwners">Eton College (q.v.), by 1465.</provenance>
                </history>
             </msDesc>

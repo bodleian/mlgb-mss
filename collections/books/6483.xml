@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6483">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>All Souls College</repository>
                   <idno type="shelfmark">MS. 4</idno>
@@ -50,11 +52,11 @@
                   <origin>
                      <origDate when-custom="114X/115X">s. xii med.</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_425">Oxford, Oxfordshire. All
-                        Souls' College. </orgName><p>UO8.13–14 = UO12.3–4 = UO13.16–17 = UO14.16–17
-                        = UO16.20–1 = UO19.1–2</p><p>‘Liber Collegii Omnium Animarum Fidelium
-                        Defunctorum de Oxon’’ (fol. 1 of vols. I and III)</p><p>‘Bound as two
-                        volumes when it was put with other books into the chained library of All
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_425">Oxford, Oxfordshire.
+                        All Souls' College. </orgName><p>UO8.13–14 = UO12.3–4 = UO13.16–17 =
+                        UO14.16–17 = UO16.20–1 = UO19.1–2</p><p>‘Liber Collegii Omnium Animarum
+                        Fidelium Defunctorum de Oxon’’ (fol. 1 of vols. I and III)</p><p>‘Bound as
+                        two volumes when it was put with other books into the chained library of All
                         Souls in the time of Warden Stokes (1466–94) [...] but rebound in four
                         volumes in s. xviiimed.’ (Watson, All Souls, 11)</p></provenance>
                </history>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6978">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Clare College</repository>
-                  <idno type="shelfmark">MS. F.1.2</idno>
+                  <idno type="shelfmark">MS F.1.2</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6978</idno>
                   </altIdentifier>
@@ -51,13 +53,13 @@
                   <origin>
                      <origDate>A.D. 1512–1513</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_98">Cambridge, Cambridgeshire.
-                        Clare College (formerly University Hall, formerly Clare Hall).
-                        </orgName><p>Five volumes. ‘The title-page of each volume is inscribed
-                        ‘Thomas Patenson’ (‘To Clare Hall’ is added in vol. 4) and ‘Clare Hall
-                        Booke’. The upper margin of the first page of text in each volume is also
-                        inscribed: ‘Thomas Patenson off your charite pray for his soule. To Clare
-                        Hall’ (CBMLC 10, 159)</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_98">Cambridge,
+                        Cambridgeshire. Clare College (formerly University Hall, formerly Clare
+                        Hall). </orgName><p>Five volumes. ‘The title-page of each volume is
+                        inscribed ‘Thomas Patenson’ (‘To Clare Hall’ is added in vol. 4) and ‘Clare
+                        Hall Booke’. The upper margin of the first page of text in each volume is
+                        also inscribed: ‘Thomas Patenson off your charite pray for his soule. To
+                        Clare Hall’ (CBMLC 10, 159)</p></provenance>
                   <provenance type="MLGB3_laterOwners">Thomas Patenson (d. 1546), fellow of Pembroke
                      Hall, Cambridge</provenance>
                </history>

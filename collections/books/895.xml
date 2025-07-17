@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_895">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Corpus Christi College</repository>
                   <idno type="shelfmark">MS. 182</idno>
@@ -51,12 +53,13 @@
                   <origin>
                      <origDate when-custom="13XX">s. xiv</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_94">Cambridge, Cambridgeshire.
-                        Franciscan convent. </orgName><p>'fratris Ambrosii Kelle ordinis [fratrum]
-                        minorum cust[odie] [Can]tabrigie. . .' (fol. iv, erased; 'Kelle' is fairly
-                        clear, and all except 'fratrum' and 'Can' comes up well under u-v light. The
-                        letters 'tabrigie' seem to be in a different hand from the rest. The date at
-                        the end is 1525. Three pieces at the end now missing.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_94">Cambridge,
+                        Cambridgeshire. Franciscan convent. </orgName><p>'fratris Ambrosii Kelle
+                        ordinis [fratrum] minorum cust[odie] [Can]tabrigie. . .' (fol. iv, erased;
+                        'Kelle' is fairly clear, and all except 'fratrum' and 'Can' comes up well
+                        under u-v light. The letters 'tabrigie' seem to be in a different hand from
+                        the rest. The date at the end is 1525. Three pieces at the end now
+                        missing.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

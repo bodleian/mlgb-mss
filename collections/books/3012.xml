@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3012">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Wells</settlement>
                   <repository>Cathedral</repository>
-                  <idno type="shelfmark">MS. G.1.3--8 (pr. bks., 6 vols.)</idno>
+                  <idno type="shelfmark">MS G.1.3--8 (pr. bks., 6 vols.)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3012</idno>
                   </altIdentifier>
@@ -55,10 +57,10 @@
                   <origin>
                      <origDate>Paris 1531</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_238">Hailes, Gloucestershire.
-                        Cistercian abbey of St Mary the Virgin. </orgName><p>"Liber monasterii beate
-                        marie de heiles ex dono fratris philippi acton eiusdem loci monachi et
-                        scolaris", in each vol., but crossed out.</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_238">Hailes,
+                        Gloucestershire. Cistercian abbey of St Mary the Virgin. </orgName><p>"Liber
+                        monasterii beate marie de heiles ex dono fratris philippi acton eiusdem loci
+                        monachi et scolaris", in each vol., but crossed out.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Given by John Bourne Canon Residentiary in
                      1622.</provenance>
                </history>

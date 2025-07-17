@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6874">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>All Souls College</repository>
                   <idno type="shelfmark">MS. 14</idno>
@@ -50,12 +52,12 @@
                   <origin>
                      <origDate>s. ?</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_425">Oxford, Oxfordshire. All
-                        Souls' College. </orgName><p>Watson, All Souls, 30 has ‘s. xvi1’, but this
-                        must be an error.</p><p>‘Liber collegij Animarum omnium fidelium defunctorum
-                        in Ox’ Ex dono domini W. Folowys preceptoris quondam gramatice apud Euesham
-                        qui obiit 4 die Augusti Anno d’ 1483. &lt;Oretis igitur pro anima
-                        eiusdem&gt;’ (fol. 2r)</p><p/></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_425">Oxford, Oxfordshire.
+                        All Souls' College. </orgName><p>Watson, All Souls, 30 has ‘s. xvi1’, but
+                        this must be an error.</p><p>‘Liber collegij Animarum omnium fidelium
+                        defunctorum in Ox’ Ex dono domini W. Folowys preceptoris quondam gramatice
+                        apud Euesham qui obiit 4 die Augusti Anno d’ 1483. &lt;Oretis igitur pro
+                        anima eiusdem&gt;’ (fol. 2r)</p><p/></provenance>
                   <provenance type="MLGB3_laterOwners">William Felowys (d. 1483), grammar master at
                      Evesham</provenance>
                </history>

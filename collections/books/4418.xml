@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4418">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Royal 8 D.iv</idno>
+                  <idno type="shelfmark">MS Royal 8 D.iv</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4418</idno>
                   </altIdentifier>
@@ -50,11 +52,12 @@
                   <origin>
                      <origDate>s. xiii &amp; xiv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_444">Pershore, Worcestershire.
-                        Benedictine abbey of St Edburga (originally of St Mary the Virgin, St Peter,
-                        and St Paul). </orgName><p>(fol. 1r) 'Parshare'.</p><p>'Iste liber constat
-                        domino Ricardo de Haselore presbytero', with anathema and 'precium huius
-                        libri restat xx. s. ad minorem valenciam'.</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_444">Pershore,
+                        Worcestershire. Benedictine abbey of St Edburga (originally of St Mary the
+                        Virgin, St Peter, and St Paul). </orgName><p>(fol. 1r)
+                        'Parshare'.</p><p>'Iste liber constat domino Ricardo de Haselore
+                        presbytero', with anathema and 'precium huius libri restat xx. s. ad minorem
+                        valenciam'.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Westm. invent. of 1542.</provenance>
                </history>
             </msDesc>

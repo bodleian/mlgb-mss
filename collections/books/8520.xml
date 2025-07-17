@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8520">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Oriel College</repository>
                   <idno type="shelfmark">MS. 28</idno>
@@ -50,14 +52,14 @@
                   <origin>
                      <origDate when-custom="14XX">s. xv</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_438">Oxford, Oxfordshire. Oriel
-                        College (Domus beate Marie seu Collegium regale Oxon'). </orgName><p>‘Liber
-                        Ric’ Hopton quem emit ab executoribus ... ao dni Mo CCCCLVo pro xxvi s. The
-                        name omitted was probably Richard Thryng, fellow, who died in 1452, and
-                        whose copy of Scotus on the Sentences was bought by the college in Nov. for
-                        £6.’ (The Dean’s Register, 390)‘Oriel College paid for carriage of books
-                        from Eton given by [Hopton], 24 Dec. 1497. One of them is MS 28.’ (CBMLC 16,
-                        1313)</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_438">Oxford, Oxfordshire.
+                        Oriel College (Domus beate Marie seu Collegium regale Oxon').
+                        </orgName><p>‘Liber Ric’ Hopton quem emit ab executoribus ... ao dni Mo
+                        CCCCLVo pro xxvi s. The name omitted was probably Richard Thryng, fellow,
+                        who died in 1452, and whose copy of Scotus on the Sentences was bought by
+                        the college in Nov. for £6.’ (The Dean’s Register, 390)‘Oriel College paid
+                        for carriage of books from Eton given by [Hopton], 24 Dec. 1497. One of them
+                        is MS 28.’ (CBMLC 16, 1313)</p></provenance>
                   <provenance type="MLGB3_laterOwners">Richard Hopton (d. 1497), fellow of Oriel and
                      fellow and headmaster of Eton</provenance>
                </history>

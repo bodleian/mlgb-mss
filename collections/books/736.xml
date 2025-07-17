@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_736">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>San Marino (CA, USA)</settlement>
+                  <country>USA</country>
+                  <settlement>San Marino (CA)</settlement>
                   <repository>Huntington Library</repository>
-                  <idno type="shelfmark">MS. HM 31151</idno>
+                  <idno type="shelfmark">MS HM 31151</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">736</idno>
                   </altIdentifier>
@@ -52,10 +54,11 @@
                   <origin>
                      <origDate>s. xii 2/4</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_86">Bury St Edmunds, Suffolk.
-                        Benedictine abbey of St Edmund, King and Martyr. </orgName><p>Pressmark A.10
-                        (fols. 1, 5). 'Liber monachorum sancti Edmundi . . .' (fol. 1r, s. xv). 'In
-                        custodia .S. Langham' (fol. 1r).</p><p>Medieval binding.</p><q type="pressmark">A.10</q></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_86">Bury St Edmunds,
+                        Suffolk. Benedictine abbey of St Edmund, King and Martyr.
+                        </orgName><p>Pressmark A.10 (fols. 1, 5). 'Liber monachorum sancti Edmundi .
+                        . .' (fol. 1r, s. xv). 'In custodia .S. Langham' (fol. 1r).</p><p>Medieval
+                        binding.</p><q type="pressmark">A.10</q></provenance>
                   <provenance type="MLGB3_laterOwners">?Sir Nicholas Bacon.</provenance>
                   <provenance type="MLGB3_laterOwners">G. H. Wilson, Redgrave Hall. Sold Sotheby's
                      21 July 1910, first part of lot 159.</provenance>

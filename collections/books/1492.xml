@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1492">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Cotton Vespasian D.vi fols. 2--77</idno>
+                  <idno type="shelfmark">MS Cotton Vespasian D.vi fols. 2--77</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1492</idno>
                   </altIdentifier>
@@ -52,7 +54,7 @@
                   </origin>
                   <provenance type="#e"><orgName role="fmo" key="mlgbOrg_122">Canterbury, Kent.
                         Benedictine abbey of St Augustine (originally of St Peter and St Paul).
-                     </orgName><q type="pressmark">D.ii G.iii</q></provenance>
+                        </orgName><q type="pressmark">D.ii G.iii</q></provenance>
                   <provenance type="MLGB3_laterOwners">"D. II Gra III liber sancti augustini" (fol.
                      2r, at head).</provenance>
                   <provenance type="MLGB3_laterOwners">Notes by John Joscelyn.</provenance>

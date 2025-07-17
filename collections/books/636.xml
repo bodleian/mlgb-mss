@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_636">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Pembroke College</repository>
-                  <idno type="shelfmark">MS. 33</idno>
+                  <idno type="shelfmark">MS 33</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">636</idno>
                   </altIdentifier>
@@ -50,14 +52,15 @@
                   <origin>
                      <origDate when-custom="13XX">s. xiv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_86">Bury St Edmunds, Suffolk.
-                        Benedictine abbey of St Edmund, King and Martyr. </orgName><p>On flyleaf in
-                        a large hand: 'Istum librum in quo continentur primum scriptum et secundum
-                        sententiarum editum a fratre Thoma de Aquino venerabili doctore theologie
-                        procurauit fr. Petrus de Aylesham et monachus S. Eadmundi regis et martiris
-                        communi armariolo ecclesie memorate quem qui a dicto armariolo alienauerit
-                        vel alienari fecerit, iram et indignacionem omnipotentis dei se nouerit
-                        incursum. Fiat fiat. Amen.'</p><p>On fol. 1r: T .1.</p><q type="pressmark">T.1</q></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_86">Bury St Edmunds,
+                        Suffolk. Benedictine abbey of St Edmund, King and Martyr. </orgName><p>On
+                        flyleaf in a large hand: 'Istum librum in quo continentur primum scriptum et
+                        secundum sententiarum editum a fratre Thoma de Aquino venerabili doctore
+                        theologie procurauit fr. Petrus de Aylesham et monachus S. Eadmundi regis et
+                        martiris communi armariolo ecclesie memorate quem qui a dicto armariolo
+                        alienauerit vel alienari fecerit, iram et indignacionem omnipotentis dei se
+                        nouerit incursum. Fiat fiat. Amen.'</p><p>On fol. 1r: T .1.</p><q
+                        type="pressmark">T.1</q></provenance>
                   <provenance type="MLGB3_laterOwners">William Smart (d. 1599), portreeve of
                      Ipswich, by whom given to Pembroke.</provenance>
                </history>

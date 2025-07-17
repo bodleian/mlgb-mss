@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3923">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Urbana (IL, USA)</settlement>
+                  <country>USA</country>
+                  <settlement>Urbana (IL)</settlement>
                   <repository>University Library</repository>
-                  <idno type="shelfmark">MS. 128 (2 fols.)</idno>
+                  <idno type="shelfmark">MS 128 (2 fols.)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3923</idno>
                   </altIdentifier>
@@ -50,10 +52,11 @@
                   <origin>
                      <origDate when-custom="09XX">s. x</origDate>
                   </origin>
-                  <provenance type="#cm"><orgName role="fmo" key="mlgbOrg_360">Malmesbury, Wiltshire.
-                        Benedictine Abbey of St Mary the Virgin and St Aldhelm. </orgName><p>Perhaps
-                        a fragment of the copy used by William of Malmesbury, see R. M. Thomson,
-                        William of Malmesbury (1987), pp. 78--79, 126--129.</p></provenance>
+                  <provenance type="#cm"><orgName role="fmo" key="mlgbOrg_360">Malmesbury,
+                        Wiltshire. Benedictine Abbey of St Mary the Virgin and St Aldhelm.
+                        </orgName><p>Perhaps a fragment of the copy used by William of Malmesbury,
+                        see R. M. Thomson, William of Malmesbury (1987), pp. 78--79,
+                     126--129.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

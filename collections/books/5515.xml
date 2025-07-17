@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5515">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Fitzwilliam Museum</repository>
-                  <idno type="shelfmark">MS. 1-1973</idno>
+                  <idno type="shelfmark">MS 1-1973</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5515</idno>
                   </altIdentifier>
@@ -52,11 +54,11 @@
                   <origin>
                      <origDate when-custom="138X/139X">s. xiv ex.</origDate>
                   </origin>
-                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_558">Tynemouth, Northumberland.
-                        Benedictine priory of St Mary the Virgin and St Oswin; cell of St Albans.
-                        </orgName><p>Special devotion to St Oswin in litany, suffrages, and
-                        sanctorale; see Transactions of Cambridge Biblographical Society, 6 (1975),
-                        pp. 248--49.</p></provenance>
+                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_558">Tynemouth,
+                        Northumberland. Benedictine priory of St Mary the Virgin and St Oswin; cell
+                        of St Albans. </orgName><p>Special devotion to St Oswin in litany,
+                        suffrages, and sanctorale; see Transactions of Cambridge Biblographical
+                        Society, 6 (1975), pp. 248--49.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Signature of William Chamberlayne,
                      Chesterfield, Derbyshire, 16 April 1549, fol. 1.</provenance>
                   <provenance type="MLGB3_laterOwners">G. B. 1867.</provenance>

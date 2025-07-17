@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_951">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
-                  <idno type="shelfmark">MS. Ottoboni lat. 357</idno>
+                  <idno type="shelfmark">MS Ottoboni lat. 357</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">951</idno>
                   </altIdentifier>
@@ -53,10 +55,11 @@
                   <origin>
                      <origDate when-custom="13XX">s. xiv</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_96">Cambridge, Cambridgeshire. Convent of
-                        Austin friars. </orgName><p>Note at end: 'Holkoote lectura super librum
-                        sapiencie m'; in same hand as a similar note in lat. 426, a MS for which
-                        there is additional provenance evidence.</p><q type="pressmark">M</q></provenance>
+                  <provenance><orgName role="fmo" key="mlgbOrg_96">Cambridge, Cambridgeshire.
+                        Convent of Austin friars. </orgName><p>Note at end: 'Holkoote lectura super
+                        librum sapiencie m'; in same hand as a similar note in lat. 426, a MS for
+                        which there is additional provenance evidence.</p><q type="pressmark"
+                     >M</q></provenance>
                </history>
             </msDesc>
          </sourceDesc>

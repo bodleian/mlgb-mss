@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_988">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Cotton Claudius B.ix fols. 2--263</idno>
+                  <idno type="shelfmark">MS Cotton Claudius B.ix fols. 2--263</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">988</idno>
                   </altIdentifier>
@@ -50,9 +52,10 @@
                   <origin>
                      <origDate when-custom="14XX">s. xv</origDate>
                   </origin>
-                  <provenance type="#d"><orgName role="fmo" key="mlgbOrg_103">Cambridge, Cambridgeshire.
-                        King's Hall. </orgName><p>Identifiable by secundo folio in the list of books
-                        given to King's Hall in 1435 by King Henry VI.</p></provenance>
+                  <provenance type="#d"><orgName role="fmo" key="mlgbOrg_103">Cambridge,
+                        Cambridgeshire. King's Hall. </orgName><p>Identifiable by secundo folio in
+                        the list of books given to King's Hall in 1435 by King Henry
+                     VI.</p></provenance>
                   <provenance type="MLGB3_laterOwners">John Dee (1527--1609), mathematician,
                      astrologer, and antiquary.</provenance>
                </history>

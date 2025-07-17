@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_996">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>Dulwich College</repository>
-                  <idno type="shelfmark">MS. A.3.f.12</idno>
+                  <idno type="shelfmark">MS A.3.f.12</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">996</idno>
                   </altIdentifier>
@@ -50,12 +52,12 @@
                   <origin>
                      <origDate>Paris, A.D. 1519</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_104">Cambridge, Cambridgeshire.
-                        Michaelhouse. </orgName><p>'Iste liber pertinet ad collegium diui Michaelis
-                        ex dono magistri hunkes' (in front; also on fol. 199v:) 'Hunc librum
-                        contulit Ioannes hunkes collegio Diui Michaelis'.</p><p>Contemporary English
-                        binding, Oldham's roll SVa5, with a fringed foliage stamp he does not
-                        record.</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_104">Cambridge,
+                        Cambridgeshire. Michaelhouse. </orgName><p>'Iste liber pertinet ad collegium
+                        diui Michaelis ex dono magistri hunkes' (in front; also on fol. 199v:) 'Hunc
+                        librum contulit Ioannes hunkes collegio Diui Michaelis'.</p><p>Contemporary
+                        English binding, Oldham's roll SVa5, with a fringed foliage stamp he does
+                        not record.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

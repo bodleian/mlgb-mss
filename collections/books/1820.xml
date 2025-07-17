@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1820">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Colchester</settlement>
                   <repository>Harsnett Library</repository>
-                  <idno type="shelfmark">MS. H.h.14 (pr. bk)</idno>
+                  <idno type="shelfmark">MS H.h.14 (pr. bk)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1820</idno>
                   </altIdentifier>
@@ -52,15 +54,16 @@
                   <origin>
                      <origDate>Lyon, 1511</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_160">Coventry, Warwickshire.
-                        Franciscan convent. </orgName><p>'Pontificale in Christo patris domini
-                        domini Willelmi duffild sacre pagine professoris ordinis minorum conuentus
-                        coventrensis necnon permissione diuina ascelenensis episcopi emptus per
-                        eundem Londoniis anno salutis 153o (sic) siue consecracionis primo qui
-                        utetur oret fideliter pro anima predicti domini' (at end of
-                        table).</p><p>Notes at head of many leaves in Duffield's hand: 'Ihesus Maria
-                        Franciscus Katerina'. Many marginal notes, including translations into
-                        English of parts of the ordination services.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_160">Coventry,
+                        Warwickshire. Franciscan convent. </orgName><p>'Pontificale in Christo
+                        patris domini domini Willelmi duffild sacre pagine professoris ordinis
+                        minorum conuentus coventrensis necnon permissione diuina ascelenensis
+                        episcopi emptus per eundem Londoniis anno salutis 153o (sic) siue
+                        consecracionis primo qui utetur oret fideliter pro anima predicti domini'
+                        (at end of table).</p><p>Notes at head of many leaves in Duffield's hand:
+                        'Ihesus Maria Franciscus Katerina'. Many marginal notes, including
+                        translations into English of parts of the ordination
+                     services.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

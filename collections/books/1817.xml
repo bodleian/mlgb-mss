@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1817">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Peterhouse</repository>
-                  <idno type="shelfmark">MS. 276</idno>
+                  <idno type="shelfmark">MS 276</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1817</idno>
                   </altIdentifier>
@@ -50,10 +52,10 @@
                   <origin>
                      <origDate when-custom="140X/141X">s. xv in.</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_159">Coventry, Warwickshire.
-                        Charterhouse of St Anne. </orgName><p>'At foot of fol. 1r (s. xv): 'Iste
-                        liber pertinet ad domum S. Anne ordinis cartusiensis prope
-                     Covent.'</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_159">Coventry,
+                        Warwickshire. Charterhouse of St Anne. </orgName><p>'At foot of fol. 1r (s.
+                        xv): 'Iste liber pertinet ad domum S. Anne ordinis cartusiensis prope
+                        Covent.'</p></provenance>
                   <provenance type="MLGB3_laterOwners">Given to P. by Mr. Osbaldeston, 18. 2.
                      1716.</provenance>
                </history>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5221">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Eton</settlement>
                   <repository>Eton College</repository>
-                  <idno type="shelfmark">MS. 33</idno>
+                  <idno type="shelfmark">MS 33</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5221</idno>
                   </altIdentifier>
@@ -50,11 +52,11 @@
                   <origin>
                      <origDate>s. xii, xiii</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_500">Monk Sherborne, Hampshire.
-                        Benedictine alien priory of St Mary the Virgin and St John; cell of Cerisy.
-                        </orgName><p>On the last leaf is a letter of fraternity of 1256 of the prior
-                        and convent at S. </p><p>Sherborne formed part of the endowment of
-                     Eton.</p></provenance>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_500">Monk Sherborne,
+                        Hampshire. Benedictine alien priory of St Mary the Virgin and St John; cell
+                        of Cerisy. </orgName><p>On the last leaf is a letter of fraternity of 1256
+                        of the prior and convent at S. </p><p>Sherborne formed part of the endowment
+                        of Eton.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

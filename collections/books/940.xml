@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_940">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
-                  <idno type="shelfmark">MS. Ottoboni lat. 200</idno>
+                  <idno type="shelfmark">MS Ottoboni lat. 200</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">940</idno>
                   </altIdentifier>
@@ -50,11 +52,11 @@
                   <origin>
                      <origDate when-custom="128X/129X">s. xiii ex</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_96">Cambridge, Cambridgeshire.
-                        Convent of Austin friars. </orgName><p>'Liber fratris Iohannis de Clar'' (in
-                        capitals, foot of fol. 1r). John de Clare was at the Cambridge convent in
-                        1304, was prior provincial in 1307 and still in 1328; BRUC
-                        136--7.</p><p>Title and mark 'B.S.' at end, fol. 152r, in same hand as
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_96">Cambridge,
+                        Cambridgeshire. Convent of Austin friars. </orgName><p>'Liber fratris
+                        Iohannis de Clar'' (in capitals, foot of fol. 1r). John de Clare was at the
+                        Cambridge convent in 1304, was prior provincial in 1307 and still in 1328;
+                        BRUC 136--7.</p><p>Title and mark 'B.S.' at end, fol. 152r, in same hand as
                         Ottob. lat. 2071.</p><q type="pressmark">B.S.</q></provenance>
                   <provenance type="MLGB3_laterOwners">Marcello Cervini (1501--1555), cardinal, his
                      no. 62. </provenance>

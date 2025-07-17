@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1039">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>University Library</repository>
-                  <idno type="shelfmark">MS. Ii. 1. 41</idno>
+                  <idno type="shelfmark">MS Ii. 1. 41</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1039</idno>
                   </altIdentifier>
@@ -53,7 +55,9 @@
                   <provenance type="#dm"><orgName role="fmo" key="mlgbOrg_4">Canterbury, Kent.
                         Benedictine cathedral priory of Holy Trinity or Christ Church.
                         </orgName><p>Christ Church pressmark and marginal
-                        markings.</p><p>Identifiable in Christ Church catalogues.</p><note type="MLGB3_medievalCatalogueNotes">Cat. 232; Ingram 293</note><q type="pressmark">D.v. G.ii Dem. i</q></provenance>
+                        markings.</p><p>Identifiable in Christ Church catalogues.</p><note
+                        type="MLGB3_medievalCatalogueNotes">Cat. 232; Ingram 293</note><q
+                        type="pressmark">D.v. G.ii Dem. i</q></provenance>
                   <provenance type="MLGB3_laterOwners">Richard Holdsworth (1590--1649), his no.
                      8.</provenance>
                </history>

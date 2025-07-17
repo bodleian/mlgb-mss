@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_385">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Lansdowne 358</idno>
+                  <idno type="shelfmark">MS Lansdowne 358</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">385</idno>
                   </altIdentifier>
@@ -50,10 +52,10 @@
                   <origin>
                      <origDate when-custom="11XX/12XX">s. xii/xiii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_36">Battle, Sussex. Benedictine
-                        abbey of St Martin. </orgName><p>'Liber abbatis et conventus de Bello', s.
-                        xv (fol. 3r); 'Liber de Bello', s. xv (fol. 198v).</p><p>Contents list, s.
-                        xiii/xiv (fol. 3r).</p><q type="pressmark">FX</q></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_36">Battle, Sussex.
+                        Benedictine abbey of St Martin. </orgName><p>'Liber abbatis et conventus de
+                        Bello', s. xv (fol. 3r); 'Liber de Bello', s. xv (fol. 198v).</p><p>Contents
+                        list, s. xiii/xiv (fol. 3r).</p><q type="pressmark">FX</q></provenance>
                   <provenance type="MLGB3_laterOwners">'LLC, No 39' in an 18th-cent. library (fol.
                      3r); cf. ST OSYTHS, Lansdowne 382.</provenance>
                </history>

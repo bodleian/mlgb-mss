@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4179">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Douai, France</settlement>
+                  <country>France</country>
+                  <settlement>Douai</settlement>
                   <repository>Bibliothèque municipale</repository>
-                  <idno type="shelfmark">MS. 887</idno>
+                  <idno type="shelfmark">MS 887</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4179</idno>
                   </altIdentifier>
@@ -52,9 +54,10 @@
                   <origin>
                      <origDate>s. xiii--xiv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_414">Nuneaton, Warwickshire.
-                        Priory of St Mary the Virgin, of nuns of Fontevrault. </orgName><p>"Liber
-                        ecclesie B. Marie de Ayton" (inside cover).</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_414">Nuneaton,
+                        Warwickshire. Priory of St Mary the Virgin, of nuns of Fontevrault.
+                        </orgName><p>"Liber ecclesie B. Marie de Ayton" (inside
+                     cover).</p></provenance>
                   <provenance type="MLGB3_laterOwners">English College, Douai, to which it was given
                      by D. F. Barberi.</provenance>
                </history>

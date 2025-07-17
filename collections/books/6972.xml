@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6972">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Trinity College</repository>
-                  <idno type="shelfmark">MS. B. 2. 20</idno>
+                  <idno type="shelfmark">MS B. 2. 20</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6972</idno>
                   </altIdentifier>
@@ -50,11 +52,11 @@
                   <origin>
                      <origDate when-custom="11XX/12XX">s. xii/xiii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_341">London. Convent of Austin
-                        friars. </orgName><p>'Pro noua libraria london’ per me Iohannem Lowe’ (the
-                        foot of fol. 1v, erased, visible under ultra-violet light).</p><p>John Lowe
-                        (c. 1385–1467) was prior of the London Augustinians by 1423. He was elected
-                        bishop of St Asaph in 1433, translated to Rochester in
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_341">London. Convent of
+                        Austin friars. </orgName><p>'Pro noua libraria london’ per me Iohannem Lowe’
+                        (the foot of fol. 1v, erased, visible under ultra-violet light).</p><p>John
+                        Lowe (c. 1385–1467) was prior of the London Augustinians by 1423. He was
+                        elected bishop of St Asaph in 1433, translated to Rochester in
                      1444.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Given to Trinity by Thomas Nevile, dean of
                      Canterbury (c. 1548--1615).</provenance>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_911">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
-                  <idno type="shelfmark">MS. Ottoboni lat. 85</idno>
+                  <idno type="shelfmark">MS Ottoboni lat. 85</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">911</idno>
                   </altIdentifier>
@@ -50,9 +52,9 @@
                   <origin>
                      <origDate when-custom="12XX/13XX">s. xiii/xiv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_95">Cambridge, Cambridgeshire.
-                        Dominican convent. </orgName><p>'pertinet ordini fratrum predicatorum
-                        cantabrig'' (fol. 1r at foot, s. xv).</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_95">Cambridge,
+                        Cambridgeshire. Dominican convent. </orgName><p>'pertinet ordini fratrum
+                        predicatorum cantabrig'' (fol. 1r at foot, s. xv).</p></provenance>
                   <provenance type="MLGB3_laterOwners">Marcello Cervini (1501--1555), cardinal, his
                      no. 90.</provenance>
                </history>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5303">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Harley 2372</idno>
+                  <idno type="shelfmark">MS Harley 2372</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5303</idno>
                   </altIdentifier>
@@ -50,14 +52,15 @@
                   <origin>
                      <origDate when-custom="14XX">s. xv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_522">Stamford, Lincolnshire.
-                        Hospital of William Browne, of St Mary the Virgin and All Saints.
-                        </orgName><p>'Thys ys a good bok for holy men and wemen the whyche bok
-                        bylongeth to the almeshowse of Wylliam Brown in Stawnford in the dyocesse of
-                        Lyncoln By the gyft of sir John Trus chapleyh to the seyd Wylliam Brown
-                        sumtyme and prest in the seyd beydhowse. Orate queso pro anima dicti domini
-                        Iohannis.'</p><p>For discussion of John Trus alias Taylor (d. 1517), see A.
-                        Rogers in The Library, 7th ser. 15 (2014) 187--92.</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_522">Stamford,
+                        Lincolnshire. Hospital of William Browne, of St Mary the Virgin and All
+                        Saints. </orgName><p>'Thys ys a good bok for holy men and wemen the whyche
+                        bok bylongeth to the almeshowse of Wylliam Brown in Stawnford in the
+                        dyocesse of Lyncoln By the gyft of sir John Trus chapleyh to the seyd
+                        Wylliam Brown sumtyme and prest in the seyd beydhowse. Orate queso pro anima
+                        dicti domini Iohannis.'</p><p>For discussion of John Trus alias Taylor (d.
+                        1517), see A. Rogers in The Library, 7th ser. 15 (2014)
+                     187--92.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

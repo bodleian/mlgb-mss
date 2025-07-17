@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7119">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Gonville and Caius College</repository>
-                  <idno type="shelfmark">MS. 317/713</idno>
+                  <idno type="shelfmark">MS 317/713</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">7119</idno>
                   </altIdentifier>
@@ -50,11 +52,11 @@
                   <origin>
                      <origDate>s. xiii et xiv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_100">Cambridge, Cambridgeshire.
-                        Gonville Hall. </orgName><p>‘Liber collegii siue aule annunciationis b.
-                        Marie in Cantabrigg ex dono m. Michaelis de Causton magistri in theologia
-                        reseruato sibi usu eiusdem libri ad terminum uite sue &amp;c. prout in
-                        concordantiis continetur’ (flyleaf)</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_100">Cambridge,
+                        Cambridgeshire. Gonville Hall. </orgName><p>‘Liber collegii siue aule
+                        annunciationis b. Marie in Cantabrigg ex dono m. Michaelis de Causton
+                        magistri in theologia reseruato sibi usu eiusdem libri ad terminum uite sue
+                        &amp;c. prout in concordantiis continetur’ (flyleaf)</p></provenance>
                   <provenance type="MLGB3_laterOwners">Michael de Causton (d. by July 1396), canon
                      of Chichester and Lincoln and chancellor of Oxford</provenance>
                </history>

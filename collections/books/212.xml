@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_212">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Edinburgh, Scotland</settlement>
+                  <country>Scotland</country>
+                  <settlement>Edinburgh</settlement>
                   <repository>National Library of Scotland</repository>
-                  <idno type="shelfmark">MS. Advocates 18.3.10</idno>
+                  <idno type="shelfmark">MS Advocates 18.3.10</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">212</idno>
                   </altIdentifier>
@@ -50,13 +52,13 @@
                   <origin>
                      <origDate when-custom="1481">A.D. 1481</origDate>
                   </origin>
-                  <provenance type="#s"><orgName role="fmo" key="mlgbOrg_13">Aberdeen, Aberdeenshire.
-                        King's College. </orgName><p>Formed one volume with Advocates 18.3.11: they
-                        have the same decoration, annotations and catchwords in the same hand. 'Ro.
-                        Braidfut', fols. 90v, 132v: he was the scribe of fols. 1--99. Fols. 91--99
-                        were transferred hence from Advocates 18.3.11 in 1970 (Scriptorium 27
-                        (1973), 71--2).</p><p>For an ex libris, see Advocates
-                     18.3.11.</p></provenance>
+                  <provenance type="#s"><orgName role="fmo" key="mlgbOrg_13">Aberdeen,
+                        Aberdeenshire. King's College. </orgName><p>Formed one volume with Advocates
+                        18.3.11: they have the same decoration, annotations and catchwords in the
+                        same hand. 'Ro. Braidfut', fols. 90v, 132v: he was the scribe of fols.
+                        1--99. Fols. 91--99 were transferred hence from Advocates 18.3.11 in 1970
+                        (Scriptorium 27 (1973), 71--2).</p><p>For an ex libris, see Advocates
+                        18.3.11.</p></provenance>
                   <provenance type="MLGB3_laterOwners">38 Denmilne. Balfour's '1630' (fol. 1r) 'Ex
                      libris magistri Dauidis conyngami ex dono', s. xvi, fol. 132v 'Ex libris andree
                      Broun ex dono Dauidis episcopi aberdonensis', fol. 90v</provenance>

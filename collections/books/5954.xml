@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5954">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Cotton Vespasian E.iv fols. 203--210</idno>
+                  <idno type="shelfmark">MS Cotton Vespasian E.iv fols. 203--210</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5954</idno>
                   </altIdentifier>
@@ -53,12 +55,12 @@
                   <origin>
                      <origDate when-custom="110X/111X">s. xii in.</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_601">Worcester, Worcestershire.
-                        Benedictine cathedral priory of St Mary the Virgin. </orgName><p>Three of
-                        the documents relate to Worcester.</p><p>Cotton Appendix 56 fols. 1--4 (and
-                        possibly fols. 5--61 also) and Vespasian E.iv fols. 203--210 (same hand as
-                        Vesp. fol. 203 which contains the prologue to De Doctrina christiana), are
-                        fragments of one volume.</p></provenance>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_601">Worcester,
+                        Worcestershire. Benedictine cathedral priory of St Mary the Virgin.
+                        </orgName><p>Three of the documents relate to Worcester.</p><p>Cotton
+                        Appendix 56 fols. 1--4 (and possibly fols. 5--61 also) and Vespasian E.iv
+                        fols. 203--210 (same hand as Vesp. fol. 203 which contains the prologue to
+                        De Doctrina christiana), are fragments of one volume.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Savile. Cat. ed. J. P. Gilson in Trans. Bibl.
                      Soc., no. 158.</provenance>
                </history>

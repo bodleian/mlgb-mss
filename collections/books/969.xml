@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_969">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Trinity College</repository>
-                  <idno type="shelfmark">MS. R. 9. 9</idno>
+                  <idno type="shelfmark">MS R. 9. 9</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">969</idno>
                   </altIdentifier>
@@ -54,11 +56,11 @@
                   <origin>
                      <origDate>s. xv/xvi</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_97">Cambridge, Cambridgeshire.
-                        University. </orgName><p>'Cuthbertus Londoniensis episcopus studiosis dono
-                        dedit', on flyleaf. Bishop Tunstall, shortly before his translation to
-                        Durham in 1529--30, sent several books to Cambridge, all bearing this same
-                        autograph inscription at the beginning.</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_97">Cambridge,
+                        Cambridgeshire. University. </orgName><p>'Cuthbertus Londoniensis episcopus
+                        studiosis dono dedit', on flyleaf. Bishop Tunstall, shortly before his
+                        translation to Durham in 1529--30, sent several books to Cambridge, all
+                        bearing this same autograph inscription at the beginning.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Given to Trinity by Thomas Nevile, dean of
                      Canterbury (c. 1548--1615).</provenance>
                </history>

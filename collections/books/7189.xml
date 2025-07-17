@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7189">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>King's College</repository>
-                  <idno type="shelfmark">MS. D.5.11</idno>
+                  <idno type="shelfmark">MS D.5.11</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">7189</idno>
                   </altIdentifier>
@@ -51,10 +53,10 @@
                   <origin>
                      <origDate when-custom="1519">A.D. 1519</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_102">Cambridge, Cambridgeshire.
-                        King's College (Collegium regale Beate Marie et Sancti Nicholai).
-                        </orgName><p>‘William Button dedit’ (inscription recorded without folio
-                        number in CBMLC 10, 308)</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_102">Cambridge,
+                        Cambridgeshire. King's College (Collegium regale Beate Marie et Sancti
+                        Nicholai). </orgName><p>‘William Button dedit’ (inscription recorded without
+                        folio number in CBMLC 10, 308)</p></provenance>
                   <provenance type="MLGB3_laterOwners">William Button, not in BRUC, Venn, or CBMLC
                      index of donors</provenance>
                </history>

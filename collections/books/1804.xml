@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1804">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
-                  <idno type="shelfmark">MS. Regin. lat. 694</idno>
+                  <idno type="shelfmark">MS Regin. lat. 694</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1804</idno>
                   </altIdentifier>
@@ -50,9 +52,9 @@
                   <origin>
                      <origDate>s. xii/xiii (c. 1200)</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_116">Coupar Angus, Perthshire.
-                        Cistercian abbey of St Mary the Virgin. </orgName><p>"Liber Sancte Marie de
-                        Cupre".</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_116">Coupar Angus,
+                        Perthshire. Cistercian abbey of St Mary the Virgin. </orgName><p>"Liber
+                        Sancte Marie de Cupre".</p></provenance>
                   <provenance type="MLGB3_laterOwners">Paul Petau (2. 48).</provenance>
                   <provenance type="MLGB3_laterOwners">Alexander Petau (811).</provenance>
                   <provenance type="MLGB3_laterOwners">Christina of Sweden (364).</provenance>

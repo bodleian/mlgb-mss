@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_2823">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Magdalen College</repository>
                   <idno type="shelfmark">MS. lat. 170</idno>
@@ -51,10 +53,11 @@
                   <origin>
                      <origDate when-custom="11XX/12XX">s. xii/xiii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_204">Eye, Suffolk. Benedictine
-                        alien priory of St Peter; cell of Bernay. </orgName><p>'Iste liber est
-                        monasterii Beati petri de Eye in Comitatu Suwtffolch' omnes eum vid[entes?]
-                        minime venalem esse' (s. xv, on last pastedown).</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_204">Eye, Suffolk.
+                        Benedictine alien priory of St Peter; cell of Bernay. </orgName><p>'Iste
+                        liber est monasterii Beati petri de Eye in Comitatu Suwtffolch' omnes eum
+                        vid[entes?] minime venalem esse' (s. xv, on last
+                     pastedown).</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

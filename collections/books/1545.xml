@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1545">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Royal 15 A.xvi</idno>
+                  <idno type="shelfmark">MS Royal 15 A.xvi</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1545</idno>
                   </altIdentifier>
@@ -53,7 +55,8 @@
                   <provenance type="#e"><orgName role="fmo" key="mlgbOrg_122">Canterbury, Kent.
                         Benedictine abbey of St Augustine (originally of St Peter and St Paul).
                         </orgName><p>"Di. xi. gra. ii, Iuuencus cum A".</p><p>"Liber sancti
-                        Augustini Cant'" (in usual hand).</p><q type="pressmark">D.xi G.ii</q></provenance>
+                        Augustini Cant'" (in usual hand).</p><q type="pressmark">D.xi
+                     G.ii</q></provenance>
                   <provenance type="MLGB3_laterOwners">Westm. invent. of 1542.</provenance>
                </history>
             </msDesc>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5635">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Addtional MS. 8167</idno>
+                  <idno type="shelfmark">Addtional MS 8167</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5635</idno>
                   </altIdentifier>
@@ -55,12 +57,12 @@
                   <origin>
                      <origDate when-custom="12XX">s. xiii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_579">Westminster, Middlesex.
-                        Benedictine abbey of St Peter. </orgName><p>'Iste libellus est ecclesie
-                        beati Petri Westmenasterii ex procuracione fratris Willelmi de Hasele,
-                        reservato inde eidem W. quoad vixerit usu fructu de licencia domini abbatis
-                        et conventus' (fol. 2r), s. xiii.</p><p>'T. Ruston' monachus Westm'' (fol.
-                        201r), s. xv.</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_579">Westminster,
+                        Middlesex. Benedictine abbey of St Peter. </orgName><p>'Iste libellus est
+                        ecclesie beati Petri Westmenasterii ex procuracione fratris Willelmi de
+                        Hasele, reservato inde eidem W. quoad vixerit usu fructu de licencia domini
+                        abbatis et conventus' (fol. 2r), s. xiii.</p><p>'T. Ruston' monachus Westm''
+                        (fol. 201r), s. xv.</p></provenance>
                   <provenance type="MLGB3_laterOwners">'Jo. Bulkley' (fol. 2r), ? s. xvi or
                      xvii.</provenance>
                   <provenance type="MLGB3_laterOwners">John Tophan.</provenance>

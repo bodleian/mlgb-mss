@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5181">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Cotton Nero C.iv</idno>
+                  <idno type="shelfmark">MS Cotton Nero C.iv</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5181</idno>
                   </altIdentifier>
@@ -51,13 +53,13 @@
                   <origin>
                      <origDate when-custom="11XX">s. xii</origDate>
                   </origin>
-                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_495">Shaftesbury, Dorset. Abbey
-                        of St Mary the Virgin and St Edward, of Benedictine nuns. </orgName><p>Cf.
-                        G. F. Warnes, Illum. MSS. in the Brit. Mus., pl. 12, and Pal. Soc. 1. 124.
-                        The kalendar shows its origin at St Swithun's, where it was probably
-                        executed for Bishop Henry of Blois. Early additions to the kalendar show
-                        that it soon passed to Shaftesbury (Apr. 14 Dedicatio ecclesie monasterii
-                        schestonie).</p></provenance>
+                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_495">Shaftesbury, Dorset.
+                        Abbey of St Mary the Virgin and St Edward, of Benedictine nuns.
+                        </orgName><p>Cf. G. F. Warnes, Illum. MSS. in the Brit. Mus., pl. 12, and
+                        Pal. Soc. 1. 124. The kalendar shows its origin at St Swithun's, where it
+                        was probably executed for Bishop Henry of Blois. Early additions to the
+                        kalendar show that it soon passed to Shaftesbury (Apr. 14 Dedicatio ecclesie
+                        monasterii schestonie).</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

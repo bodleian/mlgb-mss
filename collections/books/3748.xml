@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3748">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Aberdeen, Scotland</settlement>
+                  <country>Scotland</country>
+                  <settlement>Aberdeen</settlement>
                   <repository>University Library</repository>
-                  <idno type="shelfmark">MS. 205</idno>
+                  <idno type="shelfmark">MS 205</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3748</idno>
                   </altIdentifier>
@@ -50,9 +52,9 @@
                   <origin>
                      <origDate>s. xiii &amp; xiv</origDate>
                   </origin>
-                  <provenance type="#d"><orgName role="fmo" key="mlgbOrg_330">London. Cathedral church
-                        of St Paul. </orgName><p>Catalogue, letter C (1), 2o folio "sed eciam inter
-                        illos" agrees.</p><note type="MLGB3_medievalCatalogueNotes">Cat.
+                  <provenance type="#d"><orgName role="fmo" key="mlgbOrg_330">London. Cathedral
+                        church of St Paul. </orgName><p>Catalogue, letter C (1), 2o folio "sed eciam
+                        inter illos" agrees.</p><note type="MLGB3_medievalCatalogueNotes">Cat.
                         C.(1)</note></provenance>
                   <provenance type="MLGB3_laterOwners">Reid bequest.</provenance>
                </history>

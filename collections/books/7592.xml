@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7592">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Trinity Hall</repository>
-                  <idno type="shelfmark">MS. M*.1.23</idno>
+                  <idno type="shelfmark">MS M*.1.23</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">7592</idno>
                   </altIdentifier>
@@ -51,9 +53,9 @@
                   <origin>
                      <origDate>A.D. 1484 et 1488</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_672">Cambridge, Cambridgeshire. Trinity
-                        Hall. </orgName><p>‘Puregold’ (‘on final verso’ per CBMLC 10,
-                     652)</p></provenance>
+                  <provenance><orgName role="fmo" key="mlgbOrg_672">Cambridge, Cambridgeshire.
+                        Trinity Hall. </orgName><p>‘Puregold’ (‘on final verso’ per CBMLC 10,
+                        652)</p></provenance>
                   <provenance type="MLGB3_laterOwners">John Purgold (d. 1527), fellow of Trinity
                      Hall</provenance>
                </history>

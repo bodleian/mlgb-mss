@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_990">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Royal 12 C.xxi</idno>
+                  <idno type="shelfmark">MS Royal 12 C.xxi</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">990</idno>
                   </altIdentifier>
@@ -50,10 +52,11 @@
                   <origin>
                      <origDate when-custom="1458">A.D. 1458</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_103">Cambridge, Cambridgeshire.
-                        King's Hall. </orgName><p>'Liber collegii dicti aule regis 38'.</p><p>'mag.
-                        Rogerus Rotherham' (?and his arms). Roger Rotherham was warden of King's
-                        Hall from 1473 until his death, by October 1477 (BRUC 489).</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_103">Cambridge,
+                        Cambridgeshire. King's Hall. </orgName><p>'Liber collegii dicti aule regis
+                        38'.</p><p>'mag. Rogerus Rotherham' (?and his arms). Roger Rotherham was
+                        warden of King's Hall from 1473 until his death, by October 1477 (BRUC
+                        489).</p></provenance>
                   <provenance type="MLGB3_laterOwners"> </provenance>
                   <provenance type="MLGB3_laterOwners">John Lumley, first Baron Lumley (c.
                      1533--1609).</provenance>

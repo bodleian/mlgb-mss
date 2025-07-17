@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_2971">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>Lambeth Palace Library</repository>
-                  <idno type="shelfmark">MS. 151 fols. i--v, 1--209 (pt.1)</idno>
+                  <idno type="shelfmark">MS 151 fols. i--v, 1--209 (pt.1)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">2971</idno>
                   </altIdentifier>
@@ -53,7 +55,8 @@
                   <provenance type="#e"><orgName role="fmo" key="mlgbOrg_227">Gloucester,
                         Gloucestershire. Franciscan convent. </orgName><p>On flyleaf above list of
                         contents: "de communitate Glouuern." and mark "... C 2m."</p><p>"Iste liber
-                        est de communitate fratrum minorum Glou." (fol. 5v),</p><q type="pressmark">C 2m</q></provenance>
+                        est de communitate fratrum minorum Glou." (fol. 5v),</p><q type="pressmark"
+                        >C 2m</q></provenance>
                </history>
             </msDesc>
          </sourceDesc>

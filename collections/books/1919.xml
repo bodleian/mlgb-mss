@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1919">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Cotton Julius D.v fols. 14--68</idno>
+                  <idno type="shelfmark">MS Cotton Julius D.v fols. 14--68</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1919</idno>
                   </altIdentifier>
@@ -53,10 +55,10 @@
                   <origin>
                      <origDate when-custom="128X/129X">s. xiii ex.</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_3">Dover, Kent. Benedictine priory of St
-                        Mary the Virgin and St Martin; cell of Canterbury cathedral priory.
-                        </orgName><p>Library mark ": h [inscribed:] 11 : VII :" (fol.
-                     15r).</p><q type="pressmark">H.VII.11</q></provenance>
+                  <provenance><orgName role="fmo" key="mlgbOrg_3">Dover, Kent. Benedictine priory of
+                        St Mary the Virgin and St Martin; cell of Canterbury cathedral priory.
+                        </orgName><p>Library mark ": h [inscribed:] 11 : VII :" (fol. 15r).</p><q
+                        type="pressmark">H.VII.11</q></provenance>
                </history>
             </msDesc>
          </sourceDesc>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5232">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
-                  <idno type="shelfmark">MS. Ottobon. lat. 191</idno>
+                  <idno type="shelfmark">MS Ottobon. lat. 191</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5232</idno>
                   </altIdentifier>
@@ -53,13 +55,13 @@
                   <origin>
                      <origDate when-custom="12XX">s. xiii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_505">Shrewsbury, Shropshire.
-                        Dominican convent. </orgName><p>'Iste liber impignorabatur Iohanni Tapton'
-                        clerico pro xxvi ? s[olidis] ? vii[i d.] et ut putatur fuit liber
-                        conventualis fratrum predicatorum de Salop. Quare idem Iohannes vult quod
-                        prior et conventus eiusdem domus rehabeant istum librum si velint redimere
-                        pro xx solidis, ... Scriptum manu propria xx die mensis febr. anno regni
-                        regis Eduuardi quarti ... ' (fol. 3v), s. xv.</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_505">Shrewsbury,
+                        Shropshire. Dominican convent. </orgName><p>'Iste liber impignorabatur
+                        Iohanni Tapton' clerico pro xxvi ? s[olidis] ? vii[i d.] et ut putatur fuit
+                        liber conventualis fratrum predicatorum de Salop. Quare idem Iohannes vult
+                        quod prior et conventus eiusdem domus rehabeant istum librum si velint
+                        redimere pro xx solidis, ... Scriptum manu propria xx die mensis febr. anno
+                        regni regis Eduuardi quarti ... ' (fol. 3v), s. xv.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Card. Sirleto (d. 1575) no. 344.</provenance>
                </history>
             </msDesc>

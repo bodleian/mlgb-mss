@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3766">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Blackburn</settlement>
                   <repository>Art Gallery and Museum</repository>
-                  <idno type="shelfmark">MS. 091.21195</idno>
+                  <idno type="shelfmark">MS 091.21195</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3766</idno>
                   </altIdentifier>
@@ -51,10 +53,11 @@
                   <origin>
                      <origDate when-custom="140X/141X">s. xv in.</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_334">London. Charterhouse of
-                        the Salutation of St Mary the Virgin. </orgName><p>In calendar for January
-                        15 "Obitus Walteri de Mawny fundatoris huius domus". For Mawny see Thompson,
-                        pp. 167ff.; Oct. 26: "Dedicacio ecclesie Cartus' Lond'".</p></provenance>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_334">London. Charterhouse
+                        of the Salutation of St Mary the Virgin. </orgName><p>In calendar for
+                        January 15 "Obitus Walteri de Mawny fundatoris huius domus". For Mawny see
+                        Thompson, pp. 167ff.; Oct. 26: "Dedicacio ecclesie Cartus'
+                     Lond'".</p></provenance>
                   <provenance type="MLGB3_laterOwners">Given by to the Blackburn library by Mr
                      Sudworth, a retired schoolmaster, after it was found in Bank Top County Primary
                      School, Blackburn.</provenance>

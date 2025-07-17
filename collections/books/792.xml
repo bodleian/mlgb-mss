@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_792">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>Lambeth Palace Library</repository>
-                  <idno type="shelfmark">MS. 90</idno>
+                  <idno type="shelfmark">MS 90</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">792</idno>
                   </altIdentifier>
@@ -50,10 +52,11 @@
                   <origin>
                      <origDate when-custom="12XX">s. xiii</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_86">Bury St Edmunds, Suffolk.
-                        Benedictine abbey of St Edmund, King and Martyr. </orgName><p>'Biblia
-                        integra Iohannis Yxworth' (fol. 1r); also a long inscription in English of
-                        1573, describing John Yxworth as a Bury monk.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_86">Bury St Edmunds,
+                        Suffolk. Benedictine abbey of St Edmund, King and Martyr.
+                        </orgName><p>'Biblia integra Iohannis Yxworth' (fol. 1r); also a long
+                        inscription in English of 1573, describing John Yxworth as a Bury
+                     monk.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Roger Duckett, given by him in 1573 to Robert
                      Chalenor.</provenance>
                </history>

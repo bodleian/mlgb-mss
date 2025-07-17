@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4665">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Edinburgh, Scotland</settlement>
+                  <country>Scotland</country>
+                  <settlement>Edinburgh</settlement>
                   <repository>National Library of Scotland</repository>
-                  <idno type="shelfmark">MS. Advocates 18.5.18</idno>
+                  <idno type="shelfmark">MS Advocates 18.5.18</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4665</idno>
                   </altIdentifier>
@@ -57,9 +59,9 @@
                   <origin>
                      <origDate when-custom="12XX">s. xiii</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_469">Rochester, Kent. Cathedral
-                        priory of St Andrew. </orgName><p>At foot of fol. 1r: 'Radulphi de Eylesburi
-                        monachi'.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_469">Rochester, Kent.
+                        Cathedral priory of St Andrew. </orgName><p>At foot of fol. 1r: 'Radulphi de
+                        Eylesburi monachi'.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

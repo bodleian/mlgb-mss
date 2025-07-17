@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6915">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Paris, France</settlement>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
                   <repository>Bibliothèque nationale de France</repository>
-                  <idno type="shelfmark">MS. lat. 2478</idno>
+                  <idno type="shelfmark">MS lat. 2478</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6915</idno>
                   </altIdentifier>
@@ -50,11 +52,12 @@
                   <origin>
                      <origDate when-custom="11XX">s. xii</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_122">Canterbury, Kent. Benedictine abbey
-                        of St Augustine (originally of St Peter and St Paul). </orgName><p>Wilmart
-                        suggests that this may come from St Augustine's in RTAM ii.21 &amp; Rev.
-                        Ben. 43, but gives no evidence.</p><p>Not identifiable in the Christ Church
-                        or St. Aug. cats. O. Pächt says like Canterbury decoration.</p></provenance>
+                  <provenance><orgName role="fmo" key="mlgbOrg_122">Canterbury, Kent. Benedictine
+                        abbey of St Augustine (originally of St Peter and St Paul).
+                        </orgName><p>Wilmart suggests that this may come from St Augustine's in RTAM
+                        ii.21 &amp; Rev. Ben. 43, but gives no evidence.</p><p>Not identifiable in
+                        the Christ Church or St. Aug. cats. O. Pächt says like Canterbury
+                        decoration.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Colber 4195</provenance>
                </history>
             </msDesc>

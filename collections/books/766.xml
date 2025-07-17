@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_766">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Harley 4968</idno>
+                  <idno type="shelfmark">MS Harley 4968</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">766</idno>
                   </altIdentifier>
@@ -50,14 +52,15 @@
                   <origin>
                      <origDate when-custom="14XX">s. xv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_86">Bury St Edmunds, Suffolk.
-                        Benedictine abbey of St Edmund, King and Martyr. </orgName><p>'De
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_86">Bury St Edmunds,
+                        Suffolk. Benedictine abbey of St Edmund, King and Martyr. </orgName><p>'De
                         procuratione I. de tymworth abbatis' (fol. 1*v, followed by table of
                         contents in the same hand).</p><p>'Liber monachorum sancti Edmundi de
                         empcione I. Tymworth abbatis. O.28' (fol. 2*r).</p><p>'Liber monachorum
                         sancti Edmundi. O.28' (fol. 1r, at top). [The latter two inscriptions are in
                         the same hand.]</p><p>John de Timworth was abbot of Bury St Edmunds from
-                        1379 to 1389.</p><p>Binding leaf of s. xii.</p><q type="pressmark">O.28</q></provenance>
+                        1379 to 1389.</p><p>Binding leaf of s. xii.</p><q type="pressmark"
+                     >O.28</q></provenance>
                   <provenance type="MLGB3_laterOwners">Sir Clement Heigham (b. in or before 1500, d.
                      1571), judge and speaker of the House of Commons (as also Harley 5334, 5388 and
                      5442, from Bury). Inscribed 'Clement Heigham' on fol. 1r.</provenance>

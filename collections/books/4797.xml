@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4797">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>University Library</repository>
-                  <idno type="shelfmark">MS. Ee.3.59</idno>
+                  <idno type="shelfmark">MS Ee.3.59</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4797</idno>
                   </altIdentifier>
@@ -53,8 +55,8 @@
                   <origin>
                      <origDate when-custom="12XX">s. xiii</origDate>
                   </origin>
-                  <provenance type="#s"><orgName role="fmo" key="mlgbOrg_474">St Albans, Hertfordshire.
-                        Benedictine abbey of St Alban. </orgName></provenance>
+                  <provenance type="#s"><orgName role="fmo" key="mlgbOrg_474">St Albans,
+                        Hertfordshire. Benedictine abbey of St Alban. </orgName></provenance>
                   <provenance type="MLGB3_laterOwners">Nowell 1563.</provenance>
                   <provenance type="MLGB3_laterOwners">W. Lambarde.</provenance>
                   <provenance type="MLGB3_laterOwners">Sir W. Cope.</provenance>

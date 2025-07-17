@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5810">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Winchester</settlement>
                   <repository>College Library</repository>
-                  <idno type="shelfmark">MS. 38</idno>
+                  <idno type="shelfmark">MS 38</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5810</idno>
                   </altIdentifier>
@@ -50,14 +52,14 @@
                   <origin>
                      <origDate when-custom="138X/139X">s. xiv ex.</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_595">Winchester, Hampshire. College of St
-                        Mary the Virgin of Winchester. </orgName><p>A book given by the founder 'in
-                        quo continentur taxaciones omnium ecclesiarum in singulis Diocesibus per
-                        totam Angliam' was brought to the college in 1418--19 by John Arnold,
-                        summonitor to Bishop Wykeham. It is entered (without second folio) in the
-                        inventory in the Liber Albus, fol. 34v, where it is said to be 'modo in
-                        manibus Custodis', to which is added 'in manibus Park' (John Park, fellow of
-                        Winchester 1430--72).</p></provenance>
+                  <provenance><orgName role="fmo" key="mlgbOrg_595">Winchester, Hampshire. College
+                        of St Mary the Virgin of Winchester. </orgName><p>A book given by the
+                        founder 'in quo continentur taxaciones omnium ecclesiarum in singulis
+                        Diocesibus per totam Angliam' was brought to the college in 1418--19 by John
+                        Arnold, summonitor to Bishop Wykeham. It is entered (without second folio)
+                        in the inventory in the Liber Albus, fol. 34v, where it is said to be 'modo
+                        in manibus Custodis', to which is added 'in manibus Park' (John Park, fellow
+                        of Winchester 1430--72).</p></provenance>
                   <provenance type="MLGB3_laterOwners">William of Wykeham (d. 1404), bishop of
                      Winchester.</provenance>
                </history>

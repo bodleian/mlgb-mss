@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6591">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Cotton Appendix 20</idno>
+                  <idno type="shelfmark">MS Cotton Appendix 20</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6591</idno>
                   </altIdentifier>
@@ -50,14 +52,14 @@
                   <origin>
                      <origDate when-custom="120X/121X">s. xiii in</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_295">Lanthony (secunda), Gloucestershire.
-                        Augustinian priory of St Mary the Virgin and St John the Baptist.
-                        </orgName><p>Comprises pp. 203--218 of a larger manuscript. The pagination
-                        shows that this is part of the manuscript described by Twyne in Bodl. MS
-                        Twyne 22, p. 419, 'Liber MS. rhapsodicus qui olim pertinebat ad bibliothecam
-                        Lanthon', then belonging to Henry Parry, and which contained 'Hugo de
-                        ordinatione claustri' beginning on p. 203, and also a poem on the site of
-                        Lanthony prima (now lost?). See also Bold. MS James 26, p. 147 (old
+                  <provenance><orgName role="fmo" key="mlgbOrg_295">Lanthony (secunda),
+                        Gloucestershire. Augustinian priory of St Mary the Virgin and St John the
+                        Baptist. </orgName><p>Comprises pp. 203--218 of a larger manuscript. The
+                        pagination shows that this is part of the manuscript described by Twyne in
+                        Bodl. MS Twyne 22, p. 419, 'Liber MS. rhapsodicus qui olim pertinebat ad
+                        bibliothecam Lanthon', then belonging to Henry Parry, and which contained
+                        'Hugo de ordinatione claustri' beginning on p. 203, and also a poem on the
+                        site of Lanthony prima (now lost?). See also Bold. MS James 26, p. 147 (old
                         pagination).</p></provenance>
                   <provenance type="MLGB3_laterOwners">Henry Parry (d. 1629), in 1617.</provenance>
                </history>

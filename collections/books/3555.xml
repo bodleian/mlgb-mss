@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3555">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>St John's College</repository>
                   <idno type="shelfmark">MS. 198 fols. 1--175</idno>
@@ -56,10 +58,11 @@
                   <origin>
                      <origDate when-custom="13XX">s. xiv</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_301">Leicester, Leicestershire.
-                        Dominican convent. </orgName><p>"Iste quaternus [...] ordinis predicatorum
-                        leycestrie" (fol. 175v, s. xv, now erased). The inscription is written
-                        beneath and later than the table of contents.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_301">Leicester,
+                        Leicestershire. Dominican convent. </orgName><p>"Iste quaternus [...]
+                        ordinis predicatorum leycestrie" (fol. 175v, s. xv, now erased). The
+                        inscription is written beneath and later than the table of
+                     contents.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

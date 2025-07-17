@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5476">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Corpus Christi College</repository>
-                  <idno type="shelfmark">MS. 297</idno>
+                  <idno type="shelfmark">MS 297</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5476</idno>
                   </altIdentifier>
@@ -50,11 +52,12 @@
                   <origin>
                      <origDate>s. xiii/xiv in.</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_545">Thorney, Cambridgeshire.
-                        Benedictine Abbey of Saint Mary the Virgin and St Botolph. </orgName><p>On
-                        lower margin of fol. 51r: 'Istum librum scripsit frater Iohannes
-                        Brito.'</p><p>On lower margin of fol. 127r, a copy of a receipt dated 1292
-                        in which J. Brito calls himself precentor of Thorney.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_545">Thorney,
+                        Cambridgeshire. Benedictine Abbey of Saint Mary the Virgin and St Botolph.
+                        </orgName><p>On lower margin of fol. 51r: 'Istum librum scripsit frater
+                        Iohannes Brito.'</p><p>On lower margin of fol. 127r, a copy of a receipt
+                        dated 1292 in which J. Brito calls himself precentor of
+                     Thorney.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

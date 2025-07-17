@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6983">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Clare College</repository>
-                  <idno type="shelfmark">MS. I.5.10</idno>
+                  <idno type="shelfmark">MS I.5.10</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6983</idno>
                   </altIdentifier>
@@ -51,9 +53,10 @@
                   <origin>
                      <origDate>A.D. 1521, 1516, et 1523</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_98">Cambridge, Cambridgeshire.
-                        Clare College (formerly University Hall, formerly Clare Hall).
-                        </orgName><p>‘Ex dono magistri Swynborn’ (title page)</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_98">Cambridge,
+                        Cambridgeshire. Clare College (formerly University Hall, formerly Clare
+                        Hall). </orgName><p>‘Ex dono magistri Swynborn’ (title
+                     page)</p></provenance>
                   <provenance type="MLGB3_laterOwners">Roland Swynborne (d. 1557), fellow and master
                      of Clare</provenance>
                </history>

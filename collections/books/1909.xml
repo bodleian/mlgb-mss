@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1909">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Pembroke College</repository>
-                  <idno type="shelfmark">MS. 280</idno>
+                  <idno type="shelfmark">MS 280</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1909</idno>
                   </altIdentifier>
@@ -55,10 +57,10 @@
                   <origin>
                      <origDate when-custom="11XX">s. xii</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_3">Dover, Kent. Benedictine priory of St
-                        Mary the Virgin and St Martin; cell of Canterbury cathedral priory.
-                        </orgName><p>On fol. 3r, lower margin: ":J: III:', and
-                     title.</p><q type="pressmark">J.III.8</q></provenance>
+                  <provenance><orgName role="fmo" key="mlgbOrg_3">Dover, Kent. Benedictine priory of
+                        St Mary the Virgin and St Martin; cell of Canterbury cathedral priory.
+                        </orgName><p>On fol. 3r, lower margin: ":J: III:', and title.</p><q
+                        type="pressmark">J.III.8</q></provenance>
                </history>
             </msDesc>
          </sourceDesc>

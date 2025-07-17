@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4058">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Avignon, France</settlement>
+                  <country>France</country>
+                  <settlement>Avignon</settlement>
                   <repository>Bibliothèque de la ville</repository>
-                  <idno type="shelfmark">MS. 996</idno>
+                  <idno type="shelfmark">MS 996</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4058</idno>
                   </altIdentifier>
@@ -53,7 +55,8 @@
                   <provenance type="#e"><orgName role="fmo" key="mlgbOrg_404">Norwich, Norfolk.
                         Benedictine cathedral priory of Holy Trinity. </orgName><p>"X. C. LIII" (top
                         left of fol. 1r), in red.</p><p>"Liber Ecclesie norwycen' per magistrum Adam
-                        de Eston. monachum dicti loci".</p><q type="pressmark">X.cliii</q></provenance>
+                        de Eston. monachum dicti loci".</p><q type="pressmark"
+                     >X.cliii</q></provenance>
                </history>
             </msDesc>
          </sourceDesc>

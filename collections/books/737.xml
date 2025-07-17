@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_737">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Durham</settlement>
                   <repository>University Library</repository>
-                  <idno type="shelfmark">MS. Cosin V.iii.20</idno>
+                  <idno type="shelfmark">MS Cosin V.iii.20</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">737</idno>
                   </altIdentifier>
@@ -50,13 +52,13 @@
                   <origin>
                      <origDate when-custom="12XX">s. xiii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_86">Bury St Edmunds, Suffolk.
-                        Benedictine abbey of St Edmund, King and Martyr. </orgName><p>Bury pressmark
-                        Y.28. Fol. 51v: 'Ysidorus ethimologiarum de procreacione (sic) domini
-                        Willelmi Curteys Abbatis mon' sancti Edmundi de Bury cum vna notabili tabula
-                        quem librum eiusdem monasterii librarie ab ipso fabricate assignauit et
-                        donauit perpetuo remansurum qui signatur sub litera Y et numero
-                     .28.'</p><q type="pressmark">Y.28</q></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_86">Bury St Edmunds,
+                        Suffolk. Benedictine abbey of St Edmund, King and Martyr. </orgName><p>Bury
+                        pressmark Y.28. Fol. 51v: 'Ysidorus ethimologiarum de procreacione (sic)
+                        domini Willelmi Curteys Abbatis mon' sancti Edmundi de Bury cum vna notabili
+                        tabula quem librum eiusdem monasterii librarie ab ipso fabricate assignauit
+                        et donauit perpetuo remansurum qui signatur sub litera Y et numero
+                        .28.'</p><q type="pressmark">Y.28</q></provenance>
                   <provenance type="MLGB3_laterOwners">Richard James, s. xvi.</provenance>
                   <provenance type="MLGB3_laterOwners">George Davenport 1664.</provenance>
                </history>

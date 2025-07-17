@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6175">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Worcester</settlement>
                   <repository>Cathedral</repository>
-                  <idno type="shelfmark">MS. F.157</idno>
+                  <idno type="shelfmark">MS F.157</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6175</idno>
                   </altIdentifier>
@@ -52,13 +54,14 @@
                   <origin>
                      <origDate when-custom="128X/129X">s. xiii ex.</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_601">Worcester, Worcestershire.
-                        Benedictine cathedral priory of St Mary the Virgin. </orgName><p>'Istum
-                        librum contulit communitati Wygorn' magister Clemens quondam rector ecclesie
-                        de Chaddesleye anno gracie millesimo tr(e)centesimo quinto' (fol. iv
-                        recto).</p><p>'liber [...] beate marie Wygorn' (fol. iv recto), s. xv;
-                        'liber', which is followed by an erasure, may be s. xiv.</p><note
-                        type="MLGB3_medievalCatalogueNotes">Young 300</note></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_601">Worcester,
+                        Worcestershire. Benedictine cathedral priory of St Mary the Virgin.
+                        </orgName><p>'Istum librum contulit communitati Wygorn' magister Clemens
+                        quondam rector ecclesie de Chaddesleye anno gracie millesimo tr(e)centesimo
+                        quinto' (fol. iv recto).</p><p>'liber [...] beate marie Wygorn' (fol. iv
+                        recto), s. xv; 'liber', which is followed by an erasure, may be s.
+                        xiv.</p><note type="MLGB3_medievalCatalogueNotes">Young
+                     300</note></provenance>
                </history>
             </msDesc>
          </sourceDesc>

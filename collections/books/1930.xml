@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1930">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Brasenose College</repository>
                   <idno type="shelfmark">MS. 13</idno>
@@ -53,13 +55,13 @@
                   <origin>
                      <origDate when-custom="12XX">s. xiii</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_182">Droitwich, Worcestershire.
-                        Covent of Austin friars. </orgName><p>An inscription s. xiv on fol. iii
-                        verso has been read no doubt correctly as "Iste est liber [fratrum] Iohannis
-                        [Dentone senioris et iunioris. ordinis] sancti augustini conuentus [Wichie]
-                        in quo continentur ...", but the bracketed words are not now quite certainly
-                        legible by u. v. light, as a reagent has been used. NB The whole inscription
-                        is much better by u. v. light.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_182">Droitwich,
+                        Worcestershire. Covent of Austin friars. </orgName><p>An inscription s. xiv
+                        on fol. iii verso has been read no doubt correctly as "Iste est liber
+                        [fratrum] Iohannis [Dentone senioris et iunioris. ordinis] sancti augustini
+                        conuentus [Wichie] in quo continentur ...", but the bracketed words are not
+                        now quite certainly legible by u. v. light, as a reagent has been used. NB
+                        The whole inscription is much better by u. v. light.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Given by William Smith, the
                      founder.</provenance>
                </history>

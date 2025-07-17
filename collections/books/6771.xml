@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6771">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Cotton Otho C.xi</idno>
+                  <idno type="shelfmark">MS Cotton Otho C.xi</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6771</idno>
                   </altIdentifier>
@@ -55,12 +57,13 @@
                   <origin>
                      <origDate when-custom="14XX">s. xv</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_579">Westminster, Middlesex.
-                        Benedictine abbey of St Peter. </orgName><p>'Anno gracie Moccolxvjo [ad
-                        preceptum] domini Ricardi de Wara dei gracia abbatis Westmonasterii, frater
-                        [Willelmus de Haseley] a tunc temporis subprior et magister noviciorum
-                        eiusdem lo[ci hoc opus] incepit et ad finem usque perduxit . . .' (colophon,
-                        with missing parts supplied from Smith's catalogue).</p></provenance>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_579">Westminster,
+                        Middlesex. Benedictine abbey of St Peter. </orgName><p>'Anno gracie
+                        Moccolxvjo [ad preceptum] domini Ricardi de Wara dei gracia abbatis
+                        Westmonasterii, frater [Willelmus de Haseley] a tunc temporis subprior et
+                        magister noviciorum eiusdem lo[ci hoc opus] incepit et ad finem usque
+                        perduxit . . .' (colophon, with missing parts supplied from Smith's
+                        catalogue).</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_7540">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Peterhouse</repository>
-                  <idno type="shelfmark">MS. O.6.15</idno>
+                  <idno type="shelfmark">MS O.6.15</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">7540</idno>
                   </altIdentifier>
@@ -51,11 +53,11 @@
                   <origin>
                      <origDate when-custom="1498">A.D. 1498</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_106">Cambridge, Cambridgeshire.
-                        Peterhouse (Collegium Sancti Petri). </orgName><p>‘Liber Collegij sancti
-                        petri in Cantebrigia. Ex dono executo[rum] magistri doctoris Burgoyn quondam
-                        magistri eiusdem collegij. Anno D[omi]ni 1590 [i.e. 1529] Die vero mensis
-                        Octobris 18o’ (beneath title)</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_106">Cambridge,
+                        Cambridgeshire. Peterhouse (Collegium Sancti Petri). </orgName><p>‘Liber
+                        Collegij sancti petri in Cantebrigia. Ex dono executo[rum] magistri doctoris
+                        Burgoyn quondam magistri eiusdem collegij. Anno D[omi]ni 1590 [i.e. 1529]
+                        Die vero mensis Octobris 18o’ (beneath title)</p></provenance>
                   <provenance type="MLGB3_laterOwners">William Burgoyne (d. 1523), fellow and master
                      of Peterhouse</provenance>
                </history>

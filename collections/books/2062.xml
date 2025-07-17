@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_2062">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Durham</settlement>
                   <repository>Cathedral</repository>
-                  <idno type="shelfmark">MS. A.III.9</idno>
+                  <idno type="shelfmark">MS A.III.9</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">2062</idno>
                   </altIdentifier>
@@ -53,8 +55,9 @@
                   </origin>
                   <provenance type="#e"><orgName role="fmo" key="mlgbOrg_189">Durham. Benedictine
                         cathedral priory of St Cuthbert. </orgName><p>"AA".</p><p>"Liber sancti
-                        Cuthberti de Dunelm' [s. xiv] ‘de le splendement’" (fol. 2v).</p><note type="MLGB3_medievalCatalogueNotes">cat., pp. 13 AA, 89
-                     AA</note><q type="pressmark">AA</q></provenance>
+                        Cuthberti de Dunelm' [s. xiv] ‘de le splendement’" (fol. 2v).</p><note
+                        type="MLGB3_medievalCatalogueNotes">cat., pp. 13 AA, 89 AA</note><q
+                        type="pressmark">AA</q></provenance>
                </history>
             </msDesc>
          </sourceDesc>

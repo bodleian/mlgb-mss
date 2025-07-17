@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3954">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Winchester</settlement>
                   <repository>College Library</repository>
-                  <idno type="shelfmark">MS. 6</idno>
+                  <idno type="shelfmark">MS 6</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3954</idno>
                   </altIdentifier>
@@ -50,11 +52,12 @@
                   <origin>
                      <origDate>s. xii2</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_373">Merevale, Warwickshire.
-                        Cistercian abbey of St Mary the Virgin. </orgName><p>"Liber sancte Marie
-                        [..]re vallis" written over a double opening. Inscription erased, except the
-                        beginning of the placename, which may begin with M (cf. M in "Marie"). No
-                        word, but "Mere vallis" seems to fit the conditions.</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_373">Merevale,
+                        Warwickshire. Cistercian abbey of St Mary the Virgin. </orgName><p>"Liber
+                        sancte Marie [..]re vallis" written over a double opening. Inscription
+                        erased, except the beginning of the placename, which may begin with M (cf. M
+                        in "Marie"). No word, but "Mere vallis" seems to fit the
+                     conditions.</p></provenance>
                   <provenance type="MLGB3_laterOwners">The book has been at Winchester College
                      certainly since 1609 and may be visible in the inventory of 1566 (Willoughby,
                      Collegiate Churches, SC346.13).</provenance>

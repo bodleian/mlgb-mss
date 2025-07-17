@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3233">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Carlisle</settlement>
                   <repository>Cathedral</repository>
-                  <idno type="shelfmark">MS. F.III.10</idno>
+                  <idno type="shelfmark">MS F.III.10</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3233</idno>
                   </altIdentifier>
@@ -58,10 +60,10 @@
                   <origin>
                      <origDate>Paris: Henri Estienne, 1519</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_260">Holme Cultram, Cumberland.
-                        Cistercian abbey of St Mary the Virgin. </orgName><p>'Liber monasterii beate
-                        marie de holm[.]coltrano de expe(n)sis matthei dauy [...] confratris
-                        adeptus'.</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_260">Holme Cultram,
+                        Cumberland. Cistercian abbey of St Mary the Virgin. </orgName><p>'Liber
+                        monasterii beate marie de holm[.]coltrano de expe(n)sis matthei dauy [...]
+                        confratris adeptus'.</p></provenance>
                   <provenance type="MLGB3_laterOwners">'viro venerabili ac discreto Ric' patons'
                      presbytero ac curato de Warwyk attineth iste liber ... per dominum matheum
                      dev[...] tunc abbatem de holmcoltran cist' ord'.'.</provenance>

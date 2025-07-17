@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6366">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
-                  <idno type="shelfmark">MS. Ottob. lat. 177</idno>
+                  <idno type="shelfmark">MS Ottob. lat. 177</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6366</idno>
                   </altIdentifier>
@@ -53,7 +55,8 @@
                   <provenance type="#e"><orgName role="fmo" key="mlgbOrg_608">York, Yorkshire.
                         Benedictine abbey of Saint Mary the Virgin. </orgName><p>'Liber Beate Marie
                         [...] (fol. 1r), at top.</p><p>Pressmark within a frame at foot of fol. 1r:
-                        'In G 25', altered to 'In D[?] 25'.</p><q type="pressmark">In G. altered to D(?) 25</q></provenance>
+                        'In G 25', altered to 'In D[?] 25'.</p><q type="pressmark">In G. altered to
+                        D(?) 25</q></provenance>
                   <provenance type="MLGB3_laterOwners">Note of binding, a. d. 1545, in Italian, fol.
                      292v.</provenance>
                   <provenance type="MLGB3_laterOwners">Sirleto number 313. Cervini number

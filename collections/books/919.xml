@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_919">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
-                  <idno type="shelfmark">MS. Ottoboni lat. 277</idno>
+                  <idno type="shelfmark">MS Ottoboni lat. 277</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">919</idno>
                   </altIdentifier>
@@ -50,10 +52,10 @@
                   <origin>
                      <origDate when-custom="120X/121X">s. xiii in</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_95">Cambridge, Cambridgeshire.
-                        Dominican convent. </orgName><p>'Iste liber est de almario fratrum
-                        predicatorum Cantebr'' (fol. 86v, s. xiv). [Probably the same hand as the
-                        similar inscription in Ottoboni lat. 99, fol. 242v.]</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_95">Cambridge,
+                        Cambridgeshire. Dominican convent. </orgName><p>'Iste liber est de almario
+                        fratrum predicatorum Cantebr'' (fol. 86v, s. xiv). [Probably the same hand
+                        as the similar inscription in Ottoboni lat. 99, fol. 242v.]</p></provenance>
                   <provenance type="MLGB3_laterOwners">Gugliemo Sirleto (1514--1585), cardinal and
                      scholar, his no. 222.</provenance>
                </history>

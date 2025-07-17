@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_724">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>St John's College</repository>
-                  <idno type="shelfmark">MS. F.1 (138)</idno>
+                  <idno type="shelfmark">MS F.1 (138)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">724</idno>
                   </altIdentifier>
@@ -50,13 +52,13 @@
                   <origin>
                      <origDate when-custom="12XX">s. xiii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_86">Bury St Edmunds, Suffolk.
-                        Benedictine abbey of St Edmund, King and Martyr. </orgName><p>On flyleaf:
-                        'Quaternus monachorum s. Edmundi in quo continetur Summa de viciis optima et
-                        integra'. 'S.26.'</p><p>On fol. 1r: 'Liber s. Edmundi'.</p><p>On an inserted
-                        slip: 'Pertinet dompno [Roberto ypswych] monacho'.</p><p>Old binding. One
-                        flyleaf at the beginning is part of an account-roll (s. xiii
-                     ex).</p><q type="pressmark">S.26</q></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_86">Bury St Edmunds,
+                        Suffolk. Benedictine abbey of St Edmund, King and Martyr. </orgName><p>On
+                        flyleaf: 'Quaternus monachorum s. Edmundi in quo continetur Summa de viciis
+                        optima et integra'. 'S.26.'</p><p>On fol. 1r: 'Liber s. Edmundi'.</p><p>On
+                        an inserted slip: 'Pertinet dompno [Roberto ypswych] monacho'.</p><p>Old
+                        binding. One flyleaf at the beginning is part of an account-roll (s. xiii
+                        ex).</p><q type="pressmark">S.26</q></provenance>
                   <provenance type="MLGB3_laterOwners">Robert Ipswich, monk of Bury (see
                      above).</provenance>
                   <provenance type="MLGB3_laterOwners">?Aylot Holt (d. 1570), former monk of

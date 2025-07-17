@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4911">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Princeton (NJ, USA)</settlement>
+                  <country>USA</country>
+                  <settlement>Princeton (NJ)</settlement>
                   <repository>University Library</repository>
-                  <idno type="shelfmark">MS. Garrett 73</idno>
+                  <idno type="shelfmark">MS Garrett 73</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4911</idno>
                   </altIdentifier>
@@ -52,10 +54,11 @@
                   <origin>
                      <origDate when-custom="110X/111X">s. xii in.</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_474">St Albans, Hertfordshire.
-                        Benedictine abbey of St Alban. </orgName><p>Erased inscription in red at top
-                        of fol. 1r; enough is legible to show that it is the familiar St Alban's
-                        inscription (information from F. Wormald).</p><p> </p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_474">St Albans,
+                        Hertfordshire. Benedictine abbey of St Alban. </orgName><p>Erased
+                        inscription in red at top of fol. 1r; enough is legible to show that it is
+                        the familiar St Alban's inscription (information from F.
+                        Wormald).</p><p> </p></provenance>
                   <provenance type="MLGB3_laterOwners">Thomas Brudenell of Deene
                      (1502--80).</provenance>
                   <provenance type="MLGB3_laterOwners">Obtained by Garrett from W. M.

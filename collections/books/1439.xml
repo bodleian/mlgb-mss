@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1439">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Trinity College</repository>
-                  <idno type="shelfmark">MS. O. 3. 43</idno>
+                  <idno type="shelfmark">MS O. 3. 43</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1439</idno>
                   </altIdentifier>
@@ -53,7 +55,8 @@
                   <provenance type="#e"><orgName role="fmo" key="mlgbOrg_122">Canterbury, Kent.
                         Benedictine abbey of St Augustine (originally of St Peter and St Paul).
                         </orgName><p>On flyleaf (s. xiv): 'Palladius Rogerii abbatis'.</p><p>Di. xi.
-                        Gra. iiiio.</p><p>'Liber Sancti Augustini Cant.'.</p><q type="pressmark">D.xi G.iiii</q></provenance>
+                        Gra. iiiio.</p><p>'Liber Sancti Augustini Cant.'.</p><q type="pressmark"
+                        >D.xi G.iiii</q></provenance>
                </history>
             </msDesc>
          </sourceDesc>

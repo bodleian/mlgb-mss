@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_985">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Harley 1705</idno>
+                  <idno type="shelfmark">MS Harley 1705</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">985</idno>
                   </altIdentifier>
@@ -58,14 +60,14 @@
                   <origin>
                      <origDate when-custom="1438">A.D. 1438</origDate>
                   </origin>
-                  <provenance type="#d"><orgName role="fmo" key="mlgbOrg_102">Cambridge, Cambridgeshire.
-                        King's College (Collegium regale Beate Marie et Sancti Nicholai).
-                        </orgName><p>Secundo folio agrees with item D.10 in the King's College
-                        booklist of c. 1457. Autograph copy sent to Duke Humfrey by the translator
-                        in 1438.</p><p>'Cest livre est a moy Homfrey duc de Gloucestre du don P.
-                        Candidius secretaire du duc de Mylan'. Many of Duke Humfrey's books passed
-                        to the new royal foundation of King's College after his
-                     attainder.</p></provenance>
+                  <provenance type="#d"><orgName role="fmo" key="mlgbOrg_102">Cambridge,
+                        Cambridgeshire. King's College (Collegium regale Beate Marie et Sancti
+                        Nicholai). </orgName><p>Secundo folio agrees with item D.10 in the King's
+                        College booklist of c. 1457. Autograph copy sent to Duke Humfrey by the
+                        translator in 1438.</p><p>'Cest livre est a moy Homfrey duc de Gloucestre du
+                        don P. Candidius secretaire du duc de Mylan'. Many of Duke Humfrey's books
+                        passed to the new royal foundation of King's College after his
+                        attainder.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Humfrey, Duke of Gloucester (1390--1447),
                      prince and patron.</provenance>
                   <provenance type="MLGB3_laterOwners">Henry Wordey (d. 1747).</provenance>

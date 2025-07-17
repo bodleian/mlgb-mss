@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_307">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
-                  <idno type="shelfmark">MS. Ottobon. lat. 352 fols. 1--86</idno>
+                  <idno type="shelfmark">MS Ottobon. lat. 352 fols. 1--86</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">307</idno>
                   </altIdentifier>
@@ -50,12 +52,12 @@
                   <origin>
                      <origDate when-custom="13XX">s. xiv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_27">Babwell (Bury St Edmunds),
-                        Suffolk. Franciscan convent. </orgName><p>'[ ](?)minorum Babwell' (erased,
-                        foot of fol. 1r, s. xiv). A partially erased inscription on fol. 86v (end of
-                        original volume), s. xiv, seems to read: 'de alm[?ariis fratrum de] Babwell'
-                        de [?dono] fratr[is ] de Creyk''.</p><p>At a later date, it certainly
-                        belonged to the Cambridge Franciscans (q.v.)</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_27">Babwell (Bury St
+                        Edmunds), Suffolk. Franciscan convent. </orgName><p>'[ ](?)minorum Babwell'
+                        (erased, foot of fol. 1r, s. xiv). A partially erased inscription on fol.
+                        86v (end of original volume), s. xiv, seems to read: 'de alm[?ariis fratrum
+                        de] Babwell' de [?dono] fratr[is ] de Creyk''.</p><p>At a later date, it
+                        certainly belonged to the Cambridge Franciscans (q.v.)</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5477">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Dublin, Ireland</settlement>
+                  <country>Ireland</country>
+                  <settlement>Dublin</settlement>
                   <repository>Trinity College</repository>
-                  <idno type="shelfmark">MS. 448</idno>
+                  <idno type="shelfmark">MS 448</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5477</idno>
                   </altIdentifier>
@@ -50,8 +52,8 @@
                   <origin>
                      <origDate when-custom="14XX">s. xv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_545">Thorney, Cambridgeshire.
-                        Benedictine Abbey of Saint Mary the Virgin and St Botolph.
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_545">Thorney,
+                        Cambridgeshire. Benedictine Abbey of Saint Mary the Virgin and St Botolph.
                         </orgName><p>'Iste liber constat precentori de thornay | ex dono fratris
                         Ricardi newton vel ex dono Roberti | Smyth quod Huetth' (verso of flyleaf),
                         s. xv.</p></provenance>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4214">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Campbell Roll xxi.2</idno>
+                  <idno type="shelfmark">MS Campbell Roll xxi.2</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4214</idno>
                   </altIdentifier>
@@ -50,9 +52,9 @@
                   <origin>
                      <origDate when-custom="13XX">s. xiv</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_418">Owston, Leicestershire.
-                        Augustinian abbey of St Andrew. </orgName><p>The dorse contains accounts of
-                        Owston abbey, s. xiv.</p></provenance>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_418">Owston,
+                        Leicestershire. Augustinian abbey of St Andrew. </orgName><p>The dorse
+                        contains accounts of Owston abbey, s. xiv.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

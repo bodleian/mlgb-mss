@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_905">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
-                  <idno type="shelfmark">MS. Ottoboni lat. 1276</idno>
+                  <idno type="shelfmark">MS Ottoboni lat. 1276</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">905</idno>
                   </altIdentifier>
@@ -50,12 +52,12 @@
                   <origin>
                      <origDate>s. xv med</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_94">Cambridge, Cambridgeshire.
-                        Franciscan convent. </orgName><p>'Iste liber est emptus per me fratrem
-                        Rogerum Kemp a Willelmo Godyrson stacioner pro quatuor solidis et quatuor
-                        denariis Manus mea qui vendidi' (fol. 222r).</p><p>'Kemp ad celum preces
-                        reducans rogerum amen pater'; 'frater rogerus Kemp est possessor huius
-                        libri' (fol. 48r).</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_94">Cambridge,
+                        Cambridgeshire. Franciscan convent. </orgName><p>'Iste liber est emptus per
+                        me fratrem Rogerum Kemp a Willelmo Godyrson stacioner pro quatuor solidis et
+                        quatuor denariis Manus mea qui vendidi' (fol. 222r).</p><p>'Kemp ad celum
+                        preces reducans rogerum amen pater'; 'frater rogerus Kemp est possessor
+                        huius libri' (fol. 48r).</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

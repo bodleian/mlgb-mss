@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6402">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Harley 1003</idno>
+                  <idno type="shelfmark">MS Harley 1003</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6402</idno>
                   </altIdentifier>
@@ -50,16 +52,16 @@
                   <origin>
                      <origDate when-custom="140X/141X">s. xv in.</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_615">Exeter, Devon. Cathedral
-                        of St Peter, Vicars Choral. </orgName><p>'Hunc librum dominus Ricardus
-                        Brounst Vicarius de Choro ecclesie Cathedralis Exonie librarie vicariorum
-                        Chori ecclesie Cath' predict' in sua ultima voluntate dedit et assignauit
-                        volens insuper quod non extra hostium librarie mutuatur nec infra se ipos
-                        Cameratim (sic) occupetur sed si quis studere voluerit in eandem ibidem
-                        sedeat et permaneat donec intercionem ad voluntatem perfecerit. Et hec est
-                        eius \ultima/ voluntas quam si quis in toto vel in parte temere violauiert
-                        sciat se sentenciam excommunicacionis maioris et minoris latam ipso facto
-                        incursurum.'.</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_615">Exeter, Devon.
+                        Cathedral of St Peter, Vicars Choral. </orgName><p>'Hunc librum dominus
+                        Ricardus Brounst Vicarius de Choro ecclesie Cathedralis Exonie librarie
+                        vicariorum Chori ecclesie Cath' predict' in sua ultima voluntate dedit et
+                        assignauit volens insuper quod non extra hostium librarie mutuatur nec infra
+                        se ipos Cameratim (sic) occupetur sed si quis studere voluerit in eandem
+                        ibidem sedeat et permaneat donec intercionem ad voluntatem perfecerit. Et
+                        hec est eius \ultima/ voluntas quam si quis in toto vel in parte temere
+                        violauiert sciat se sentenciam excommunicacionis maioris et minoris latam
+                        ipso facto incursurum.'.</p></provenance>
                   <provenance type="MLGB3_laterOwners">'July 1664 bought of Mr Parrys in little
                      Bretton'.</provenance>
                </history>

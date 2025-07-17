@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4877">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Royal 13 E.vi</idno>
+                  <idno type="shelfmark">MS Royal 13 E.vi</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4877</idno>
                   </altIdentifier>
@@ -53,12 +55,13 @@
                   <origin>
                      <origDate when-custom="11XX/12XX">s. xii/xiii</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_474">St Albans, Hertfordshire.
-                        Benedictine abbey of St Alban. </orgName><p>Belonged to (and probably
-                        written for) St Albans.</p><p>'A 6 gradus 2 p' (fol. i
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_474">St Albans,
+                        Hertfordshire. Benedictine abbey of St Alban. </orgName><p>Belonged to (and
+                        probably written for) St Albans.</p><p>'A 6 gradus 2 p' (fol. i
                         recto).</p><p>Contains marginalia in the hand of Matthew Paris (see R.
                         Vaughan, 'The handwriting of Matthew Paris', Transactions of the Cambridge
-                        Bib. Soc. 1 (1953) 390--92).</p><q type="pressmark">A 6 gradus 2 p</q></provenance>
+                        Bib. Soc. 1 (1953) 390--92).</p><q type="pressmark">A 6 gradus 2
+                     p</q></provenance>
                   <provenance type="MLGB3_laterOwners">'T. C.'</provenance>
                   <provenance type="MLGB3_laterOwners">Old Royal pressamrk 'no. 1044'.</provenance>
                </history>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6648">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Cotton Claudius D.vi</idno>
+                  <idno type="shelfmark">MS Cotton Claudius D.vi</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6648</idno>
                   </altIdentifier>
@@ -50,14 +52,14 @@
                   <origin>
                      <origDate when-custom="130X/131X">s. xiv in</origDate>
                   </origin>
-                  <provenance type="#cs"><orgName role="fmo" key="mlgbOrg_474">St Albans, Hertfordshire.
-                        Benedictine abbey of St Alban. </orgName><p>Contains writing in the hand of
-                        Matthew Paris (see R. Vaughan, 'The handwriting of Matthew Paris',
-                        Transactions of the Cambridge Bib. Soc. 1 (1953) 390--92).</p><p>Kalendar
-                        for St Albans use. (See Wormald, English Benedictine Kalendars after 1100,
-                        p. 32.)</p><p>Fol. 12 is bound separately with Cotton Julius D.vii fols.
-                        50--53.</p><p>Royal 14 C.i fols. 1--19 formed part of this
-                     manuscript.</p></provenance>
+                  <provenance type="#cs"><orgName role="fmo" key="mlgbOrg_474">St Albans,
+                        Hertfordshire. Benedictine abbey of St Alban. </orgName><p>Contains writing
+                        in the hand of Matthew Paris (see R. Vaughan, 'The handwriting of Matthew
+                        Paris', Transactions of the Cambridge Bib. Soc. 1 (1953)
+                        390--92).</p><p>Kalendar for St Albans use. (See Wormald, English
+                        Benedictine Kalendars after 1100, p. 32.)</p><p>Fol. 12 is bound separately
+                        with Cotton Julius D.vii fols. 50--53.</p><p>Royal 14 C.i fols. 1--19 formed
+                        part of this manuscript.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

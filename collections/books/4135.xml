@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4135">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Edinburgh, Scotland</settlement>
+                  <country>Scotland</country>
+                  <settlement>Edinburgh</settlement>
                   <repository>National Library of Scotland</repository>
-                  <idno type="shelfmark">MS. 6125</idno>
+                  <idno type="shelfmark">MS 6125</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4135</idno>
                   </altIdentifier>
@@ -54,7 +56,8 @@
                   </origin>
                   <provenance type="#i"><orgName role="fmo" key="mlgbOrg_404">Norwich, Norfolk.
                         Benedictine cathedral priory of Holy Trinity. </orgName><p>"Liber Thome
-                        Hengham Monachi Norwicensis".</p><p>"D lxviii".</p><p> </p><q type="pressmark">D.lxviii</q></provenance>
+                        Hengham Monachi Norwicensis".</p><p>"D lxviii".</p><p> </p><q
+                        type="pressmark">D.lxviii</q></provenance>
                   <provenance type="MLGB3_laterOwners">Bookplate of Borthwick of
                      Crookston.</provenance>
                </history>

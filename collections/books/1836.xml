@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1836">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Magdalene College</repository>
-                  <idno type="shelfmark">MS. F.4.5</idno>
+                  <idno type="shelfmark">MS F.4.5</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1836</idno>
                   </altIdentifier>
@@ -50,11 +52,12 @@
                   <origin>
                      <origDate when-custom="13XX/14XX">s. xiv--xv</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_165">Crowland, Lincolnshire.
-                        Benedictine abbey of St Mary the Virgin, St Bartholomew, and St Guthlac.
-                        </orgName><p>On flyleaf: 'Iste liber constat Domino Johanne [erasure; read
-                        by A. I. Doyle in 1947 under u-v light] monacus C. Croland [erasure, also
-                        read by A. I. Doyle]'. Scribbled at the end: 'Dan Jhoon'.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_165">Crowland,
+                        Lincolnshire. Benedictine abbey of St Mary the Virgin, St Bartholomew, and
+                        St Guthlac. </orgName><p>On flyleaf: 'Iste liber constat Domino Johanne
+                        [erasure; read by A. I. Doyle in 1947 under u-v light] monacus C. Croland
+                        [erasure, also read by A. I. Doyle]'. Scribbled at the end: 'Dan
+                     Jhoon'.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Given to Magdalene College by the
                      Peterborough antiquary Simon Gunton (bap. 1609, d. 1676).</provenance>
                </history>

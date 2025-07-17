@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1611">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Bodleian Library</repository>
                   <idno type="shelfmark">MS. Selden Supra 25</idno>
@@ -50,10 +52,11 @@
                   <origin>
                      <origDate>s. xi--xiii (or s. xii, xiii?)</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_122">Canterbury, Kent. Benedictine abbey
-                        of St Augustine (originally of St Peter and St Paul).
+                  <provenance><orgName role="fmo" key="mlgbOrg_122">Canterbury, Kent. Benedictine
+                        abbey of St Augustine (originally of St Peter and St Paul).
                         </orgName><p>"Distinctione 13a Gradu 3a [sic]' (top of fol. 1r), s.
-                        xv.</p><p>(Medieval binding.)</p><q type="pressmark">D.13 G.3</q></provenance>
+                        xv.</p><p>(Medieval binding.)</p><q type="pressmark">D.13
+                     G.3</q></provenance>
                   <provenance type="MLGB3_laterOwners">W. Patten.</provenance>
                </history>
             </msDesc>

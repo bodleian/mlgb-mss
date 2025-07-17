@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1953">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>University Library</repository>
-                  <idno type="shelfmark">MS. Gg.4.33</idno>
+                  <idno type="shelfmark">MS Gg.4.33</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1953</idno>
                   </altIdentifier>
@@ -54,8 +56,9 @@
                   </origin>
                   <provenance type="#e"><orgName role="fmo" key="mlgbOrg_189">Durham. Benedictine
                         cathedral priory of St Cuthbert. </orgName><p>'Liber sancti Cuthberti de
-                        Dunelmo' (fol. 1r).</p><p>'de spendement C'.</p><note type="MLGB3_medievalCatalogueNotes">Cat. Vett., pp. 18 H, 93
-                     H</note><q type="pressmark">H (erased); C</q></provenance>
+                        Dunelmo' (fol. 1r).</p><p>'de spendement C'.</p><note
+                        type="MLGB3_medievalCatalogueNotes">Cat. Vett., pp. 18 H, 93 H</note><q
+                        type="pressmark">H (erased); C</q></provenance>
                   <provenance type="MLGB3_laterOwners">Holdsworth 109.</provenance>
                </history>
             </msDesc>

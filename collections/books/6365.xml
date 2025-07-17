@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6365">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Cotton Tiberius A.xv fols. 181--194</idno>
+                  <idno type="shelfmark">MS Cotton Tiberius A.xv fols. 181--194</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6365</idno>
                   </altIdentifier>
@@ -54,14 +56,15 @@
                   <origin>
                      <origDate when-custom="14XX">s. xv</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_608">York, Yorkshire. Benedictine abbey
-                        of Saint Mary the Virgin. </orgName><p>A detached portion from the end of
-                        Oxford, Corpus Christi College, MS 193: see the agreement of the contents of
-                        Corpus and Tiberius with no. 56 of Henry Savile's MSS.</p><p>Leland saw at
-                        York ten works of Rolle, nine of which occur in the same order in the Corpus
-                        MS, whilst the tenth is in Tiberius (B121.7--15).</p><p>The Cotton leaves
-                        have been damaged by fire. Written area about the same as in the Corpus MS,
-                        allowing for shrinkage due to fire. 46 long lines.</p></provenance>
+                  <provenance><orgName role="fmo" key="mlgbOrg_608">York, Yorkshire. Benedictine
+                        abbey of Saint Mary the Virgin. </orgName><p>A detached portion from the end
+                        of Oxford, Corpus Christi College, MS 193: see the agreement of the contents
+                        of Corpus and Tiberius with no. 56 of Henry Savile's MSS.</p><p>Leland saw
+                        at York ten works of Rolle, nine of which occur in the same order in the
+                        Corpus MS, whilst the tenth is in Tiberius (B121.7--15).</p><p>The Cotton
+                        leaves have been damaged by fire. Written area about the same as in the
+                        Corpus MS, allowing for shrinkage due to fire. 46 long
+                     lines.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Henry Savile of Banke.</provenance>
                </history>
             </msDesc>

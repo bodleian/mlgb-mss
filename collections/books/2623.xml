@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_2623">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Eton</settlement>
                   <repository>Eton College</repository>
-                  <idno type="shelfmark">MS. 119</idno>
+                  <idno type="shelfmark">MS 119</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">2623</idno>
                   </altIdentifier>
@@ -52,8 +54,8 @@
                   <origin>
                      <origDate>s. xiii--xv</origDate>
                   </origin>
-                  <provenance type="#be"><orgName role="fmo" key="mlgbOrg_198">Eton, Buckinghamshire.
-                        Royal College of the Assumption of Saint Mary the Virgin.
+                  <provenance type="#be"><orgName role="fmo" key="mlgbOrg_198">Eton,
+                        Buckinghamshire. Royal College of the Assumption of Saint Mary the Virgin.
                         </orgName><p>'Donum Guilielmi Hormani quondam socii huius
                         contubernii'.</p><p>Bound by the 'Bat-binder', s. xv2: label-mark (12
                         nails).</p></provenance>

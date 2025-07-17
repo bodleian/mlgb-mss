@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1008">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Harley 531</idno>
+                  <idno type="shelfmark">MS Harley 531</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1008</idno>
                   </altIdentifier>
@@ -50,12 +52,13 @@
                   <origin>
                      <origDate/>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_106">Cambridge, Cambridgeshire.
-                        Peterhouse (Collegium Sancti Petri). </orgName><p>A long erased note
-                        following table of contents on fol. 1*v. A reagent has been used.</p><p>Like
-                        Egerton 889, this table of contents is numbered and headed 'Contenta in hoc
-                        volumine sunt ista', in the hand of Roger Marchall.</p><p>Fol. 1r: 'Iste
-                        liber est scriptus anno domini 1272. . .'</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_106">Cambridge,
+                        Cambridgeshire. Peterhouse (Collegium Sancti Petri). </orgName><p>A long
+                        erased note following table of contents on fol. 1*v. A reagent has been
+                        used.</p><p>Like Egerton 889, this table of contents is numbered and headed
+                        'Contenta in hoc volumine sunt ista', in the hand of Roger
+                        Marchall.</p><p>Fol. 1r: 'Iste liber est scriptus anno domini 1272. .
+                     .'</p></provenance>
                   <provenance type="MLGB3_laterOwners"> </provenance>
                   <provenance type="MLGB3_laterOwners">Roger Marchall (d. 1477), fellow of
                      Peterhouse, physician.</provenance>

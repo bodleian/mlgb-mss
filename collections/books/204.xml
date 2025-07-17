@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_204">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Edinburgh, Scotland</settlement>
+                  <country>Scotland</country>
+                  <settlement>Edinburgh</settlement>
                   <repository>University Library</repository>
-                  <idno type="shelfmark">MS. 27</idno>
+                  <idno type="shelfmark">MS 27</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">204</idno>
                   </altIdentifier>
@@ -54,10 +56,10 @@
                   <origin>
                      <origDate when-custom="13XX">s. xiv</origDate>
                   </origin>
-                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_10">Aberdeen, Aberdeenshire.
-                        Cathedral church of St Mary the Virgin. </orgName><p>The dedication of
-                        Aberdeen cathedral (3 November) is noticed by the kalendar, and also St
-                        Machar (12 November), both being additions.</p></provenance>
+                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_10">Aberdeen,
+                        Aberdeenshire. Cathedral church of St Mary the Virgin. </orgName><p>The
+                        dedication of Aberdeen cathedral (3 November) is noticed by the kalendar,
+                        and also St Machar (12 November), both being additions.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

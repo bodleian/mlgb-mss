@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4456">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>University Library</repository>
-                  <idno type="shelfmark">MS. Mm.5.30</idno>
+                  <idno type="shelfmark">MS Mm.5.30</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4456</idno>
                   </altIdentifier>
@@ -54,10 +56,11 @@
                   <origin>
                      <origDate when-custom="11XX/12XX">s. xii/xiii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_456">Ramsey, Huntingdonshire.
-                        Benedictine Abbey of Saint Mary the Virgin and St Benedict. </orgName><p>On
-                        verso of last flyleaf (part of the original book) notes of law suits in
-                        which Abbot of Ramsey is concerned, s. xiii in.</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_456">Ramsey,
+                        Huntingdonshire. Benedictine Abbey of Saint Mary the Virgin and St Benedict.
+                        </orgName><p>On verso of last flyleaf (part of the original book) notes of
+                        law suits in which Abbot of Ramsey is concerned, s. xiii
+                     in.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

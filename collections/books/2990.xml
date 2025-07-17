@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_2990">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Cotton Vitellius E.vii fols. 1, 2</idno>
+                  <idno type="shelfmark">MS Cotton Vitellius E.vii fols. 1, 2</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">2990</idno>
                   </altIdentifier>
@@ -50,12 +52,13 @@
                   <origin>
                      <origDate when-custom="11XX">s. xii</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_235">Guisborough, Yorkshire. Augustinian
-                        priory of St Mary the Virgin. </orgName><p>Provenance inferred from a note
-                        of s. xvii in Oxford, Bodl., Lat. Misc. c.52, fol. 216.</p><p>Vit. E.vii,
-                        fols. 1, 2, are two misplaced and badly damaged fragments of Vit. E.i (q.
-                        v.). Five small burnt fragments, the top outer corners of five leaves are
-                        preserved as Cotton Misc. Burnt Fragments, Bundle I (12).</p></provenance>
+                  <provenance><orgName role="fmo" key="mlgbOrg_235">Guisborough, Yorkshire.
+                        Augustinian priory of St Mary the Virgin. </orgName><p>Provenance inferred
+                        from a note of s. xvii in Oxford, Bodl., Lat. Misc. c.52, fol.
+                        216.</p><p>Vit. E.vii, fols. 1, 2, are two misplaced and badly damaged
+                        fragments of Vit. E.i (q. v.). Five small burnt fragments, the top outer
+                        corners of five leaves are preserved as Cotton Misc. Burnt Fragments, Bundle
+                        I (12).</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>

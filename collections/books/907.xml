@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_907">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Rome, Italy</settlement>
+                  <country>Italy</country>
+                  <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
-                  <idno type="shelfmark">MS. Ottoboni lat. 2088</idno>
+                  <idno type="shelfmark">MS Ottoboni lat. 2088</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">907</idno>
                   </altIdentifier>
@@ -54,11 +56,11 @@
                   <origin>
                      <origDate>s. xv med</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_94">Cambridge, Cambridgeshire.
-                        Franciscan convent. </orgName><p>'Iste liber est fratris W. Morys de ordine
-                        minorum' (fol. 150v).</p><p>Morys was a member of the Cambridge convent in
-                        1404 (Emden, BRUC 414). The MS is with others from Cambridge OFM among the
-                        Ottoboni MSS.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_94">Cambridge,
+                        Cambridgeshire. Franciscan convent. </orgName><p>'Iste liber est fratris W.
+                        Morys de ordine minorum' (fol. 150v).</p><p>Morys was a member of the
+                        Cambridge convent in 1404 (Emden, BRUC 414). The MS is with others from
+                        Cambridge OFM among the Ottoboni MSS.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Gugliemo Sirleto (1514--1585), cardinal and
                      scholar, his no. 18.</provenance>
                   <provenance type="MLGB3_laterOwners">Duke Giovanni Angelo di Altempo.</provenance>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5644">
@@ -33,6 +34,7 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
                   <idno type="shelfmark">Shelfmark not recorded</idno>
@@ -53,11 +55,11 @@
                   <origin>
                      <origDate>1469, Rome</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_579">Westminster, Middlesex.
-                        Benedictine abbey of St Peter. </orgName><p>At end a slip is pasted with
-                        'Jhon Jhones brundunen./ Monachus cenobii Westmonasterii/ Monachorum.
-                        voluntas habet penam. Necsescitas [sic] parit nobis
-                     coronam'.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_579">Westminster,
+                        Middlesex. Benedictine abbey of St Peter. </orgName><p>At end a slip is
+                        pasted with 'Jhon Jhones brundunen./ Monachus cenobii Westmonasterii/
+                        Monachorum. voluntas habet penam. Necsescitas [sic] parit nobis
+                        coronam'.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Cracherode, a. d. 1790.</provenance>
                </history>
             </msDesc>

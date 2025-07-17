@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4836">
@@ -33,9 +34,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
+                  <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS. Arundel 201 fols. 44--97</idno>
+                  <idno type="shelfmark">MS Arundel 201 fols. 44--97</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4836</idno>
                   </altIdentifier>
@@ -50,11 +52,11 @@
                   <origin>
                      <origDate when-custom="120X/121X">s. xiii in.</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_474">St Albans, Hertfordshire.
-                        Benedictine abbey of St Alban. </orgName><p>R. M. Thomson, MSS. from St
-                        Albans Abbey 1, p. 90, 'A St Albans origin can be inferred from the verses
-                        in honour of Alban and Oswine, and from the attribution of item 2 to Abbot
-                        John de Cella'.</p></provenance>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_474">St Albans,
+                        Hertfordshire. Benedictine abbey of St Alban. </orgName><p>R. M. Thomson,
+                        MSS. from St Albans Abbey 1, p. 90, 'A St Albans origin can be inferred from
+                        the verses in honour of Alban and Oswine, and from the attribution of item 2
+                        to Abbot John de Cella'.</p></provenance>
                </history>
             </msDesc>
          </sourceDesc>
