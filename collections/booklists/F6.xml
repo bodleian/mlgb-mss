@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">NEW FRIARS</title><title type="mlgb_location">Cambridge-Austin</title><title type="mlgb_code">F6</title><title type="mlgb_booklist">Leland, c. 1536-1440</title>
+            <title type="mlgb_booklist_Group">NEW FRIARS</title>
+            <title type="mlgb_location">Cambridge-Austin</title>
+            <title type="mlgb_code">F6</title>
+            <title type="mlgb_booklist">Leland, c. 1536-1440</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,39 +24,54 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">F6.1</ab>
-               <ab type="mlgb_catalogueExtract">(`liber historiarum')</ab>
+               <head>F6.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">F6.1</ab>
+                  <ab type="mlgb_catalogueExtract">(`liber historiarum')</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">F6.2</ab>
-               <ab type="mlgb_catalogueExtract">(I)</ab>
+               <head>F6.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">F6.2</ab>
+                  <ab type="mlgb_catalogueExtract">(I)</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">F6.4</ab>
-               <ab type="mlgb_catalogueExtract">(III)</ab>
+               <head>F6.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">F6.4</ab>
+                  <ab type="mlgb_catalogueExtract">(III)</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">F6.5b</ab>
-            </div>
-            <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">F6.5a</ab>
-            </div>
-            <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">F6.6</ab>
-               <ab type="mlgb_catalogueExtract">(`sermones episcopi Ianuensis tam de temporali quam
-                  de sanctis')</ab>
+               <head>F6.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">F6.5b</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">F6.5a</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">F6.6</ab>
-               <ab type="mlgb_catalogueExtract">(`sermones episcopi Ianuensis tam de temporali quam
-                  de sanctis')</ab>
+               <head>F6.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">F6.6</ab>
+                  <ab type="mlgb_catalogueExtract">(`sermones episcopi Ianuensis tam de temporali
+                     quam de sanctis')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">F6.6</ab>
+                  <ab type="mlgb_catalogueExtract">(`sermones episcopi Ianuensis tam de temporali
+                     quam de sanctis')</ab>
+               </div>
             </div>
          </div>
 

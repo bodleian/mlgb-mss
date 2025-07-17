@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">HENRY DE KIRKESTEDE</title><title type="mlgb_location">HENRY DE KIRKESTEDE</title><title type="mlgb_code">K440</title><title type="mlgb_booklist">Catalogus, c. 1360</title>
+            <title type="mlgb_booklist_Group">HENRY DE KIRKESTEDE</title>
+            <title type="mlgb_location">HENRY DE KIRKESTEDE</title>
+            <title type="mlgb_code">K440</title>
+            <title type="mlgb_booklist">Catalogus, c. 1360</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,37 +24,58 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">K440.1</ab>
-               <ab type="mlgb_catalogueExtract">(6 copies)</ab>
+               <head>K440.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">K440.1</ab>
+                  <ab type="mlgb_catalogueExtract">(6 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">K440.2</ab>
-               <ab type="mlgb_catalogueExtract">(`sermones allegoricos super bibliam', attrib.
-                  Comestor)</ab>
+               <head>K440.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">K440.2</ab>
+                  <ab type="mlgb_catalogueExtract">(`sermones allegoricos super bibliam', attrib.
+                     Comestor)</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">K440.*3</ab>
+               <head>K440.*3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">K440.*3</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">K440.5</ab>
+               <head>K440.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">K440.5</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">K440.6</ab>
-               <ab type="mlgb_catalogueExtract">(attrib. Petrus Comestor)</ab>
+               <head>K440.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">K440.6</ab>
+                  <ab type="mlgb_catalogueExtract">(attrib. Petrus Comestor)</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">K440.7</ab>
+               <head>K440.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">K440.7</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">K440.8</ab>
-               <ab type="mlgb_catalogueExtract">(attrib. Petrus Comestor, 1 copy)</ab>
+               <head>K440.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">K440.8</ab>
+                  <ab type="mlgb_catalogueExtract">(attrib. Petrus Comestor, 1 copy)</ab>
+               </div>
             </div>
          </div>
 
@@ -73,7 +98,8 @@
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_2558">Petrus Comestor [†1187]
                   </author><title key="mlgbWork_2558_11">Sermo de conceptione beatae Mariae
                   Virginis, inc. `Conceptionem beate Marie uirginis corde et uoce'</title></bibl>
-            <bibl xml:id="bibl_7"><author key="mlgbAuthor_2430">Origen [c185—c254] </author><title key="mlgbWork_2430_4">Epithalamium super Cantica canticorum, tr.
+            <bibl xml:id="bibl_7"><author key="mlgbAuthor_2430">Origen [c185—c254] </author><title
+                  key="mlgbWork_2430_4">Epithalamium super Cantica canticorum, tr.
                Rufinus</title></bibl>
          </listBibl>
       </back>

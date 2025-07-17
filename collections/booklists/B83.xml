@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title><title type="mlgb_location">Rochester</title><title type="mlgb_code">B83</title><title type="mlgb_booklist">Indenture, 1391</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title>
+            <title type="mlgb_location">Rochester</title>
+            <title type="mlgb_code">B83</title>
+            <title type="mlgb_booklist">Indenture, 1391</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,50 +24,68 @@
          <div type="list">
 
             <div type="entry" n="2" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_4704">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">B83.*2x</ab>
-               <ab type="mlgb_catalogueExtract">= H2.*642x</ab>
-            </div>
-            <div type="entry" n="2" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_4704">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">B83.*2</ab>
-               <ab type="mlgb_catalogueExtract">(`concordancias pulcras in magno uolumine') =
-                  H2.*642</ab>
-            </div>
-            <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">B83.†3b</ab>
-               <ab type="mlgb_catalogueExtract">(`biblia pauperum')</ab>
+               <head>B83.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">B83.*2x</ab>
+                  <ab type="mlgb_catalogueExtract">= H2.*642x</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">B83.*2</ab>
+                  <ab type="mlgb_catalogueExtract">(`concordancias pulcras in magno uolumine') =
+                     H2.*642</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">B83.3a</ab>
+               <head>B83.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">B83.†3b</ab>
+                  <ab type="mlgb_catalogueExtract">(`biblia pauperum')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">B83.3a</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">B83.4b</ab>
-            </div>
-            <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">B83.4a</ab>
+               <head>B83.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">B83.4b</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">B83.4a</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">B83.5</ab>
+               <head>B83.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">B83.5</ab>
+               </div>
             </div>
             <div type="entry" n="6" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_4750">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">B83.*6x</ab>
-               <ab type="mlgb_catalogueExtract">= H2.*621x</ab>
-            </div>
-            <div type="entry" n="6" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_4750">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">B83.*6</ab>
-               <ab type="mlgb_catalogueExtract">= H2.*621</ab>
+               <head>B83.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">B83.*6x</ab>
+                  <ab type="mlgb_catalogueExtract">= H2.*621x</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">B83.*6</ab>
+                  <ab type="mlgb_catalogueExtract">= H2.*621</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">B83.9a</ab>
+               <head>B83.9a</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">B83.9a</ab>
+               </div>
             </div>
          </div>
 
@@ -71,7 +93,8 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_278">Ps. Antony of Padua </author><title key="mlgbWork_278_1">Concordantiae morales Bibliorum</title></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_278">Ps. Antony of Padua </author><title
+                  key="mlgbWork_278_1">Concordantiae morales Bibliorum</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_670">Concordantia maior, the so-called
                   `third concordance' compiled by the Dominicans of Saint-Jacques,
                   Paris</author><title key="mlgbWork_670_1"/></bibl>
@@ -83,7 +106,8 @@
             <bibl xml:id="bibl_5"><author key="mlgbAuthor_505">Boethius, Anicius Manlius Torquatus
                   Severinus [c480—524] </author><title key="mlgbWork_505_16">Philosophiae
                   consolatio</title></bibl>
-            <bibl xml:id="bibl_6"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title key="mlgbWork_1517_21">De uiris illustribus</title></bibl>
+            <bibl xml:id="bibl_6"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title
+                  key="mlgbWork_1517_21">De uiris illustribus</title></bibl>
             <bibl xml:id="bibl_7"><author key="mlgbAuthor_352">Augustine [354—430], bishop of Hippo
                   </author><title key="mlgbWork_352_47">De ciuitate Dei</title></bibl>
             <bibl xml:id="bibl_8"><author key="mlgbAuthor_511">Bonaventure OFM [1221—1274]
@@ -92,7 +116,8 @@
             <bibl xml:id="bibl_9"><author key="mlgbAuthor_511">Bonaventure OFM [1221—1274]
                   </author><title key="mlgbWork_511_8">Commentary on the Lombard's
                Sentences</title></bibl>
-            <bibl xml:id="bibl_10"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title key="mlgbWork_1517_8">Commentary on Ecclesiastes</title></bibl>
+            <bibl xml:id="bibl_10"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title
+                  key="mlgbWork_1517_8">Commentary on Ecclesiastes</title></bibl>
          </listBibl>
       </back>
    </text>

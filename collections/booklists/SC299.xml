@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title><title type="mlgb_location">Stoke-by-Clare</title><title type="mlgb_code">SC299</title><title type="mlgb_booklist">Inventory of church goods, 1 July 1534   </title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title>
+            <title type="mlgb_location">Stoke-by-Clare</title>
+            <title type="mlgb_code">SC299</title>
+            <title type="mlgb_booklist">Inventory of church goods, 1 July 1534 </title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,23 +24,35 @@
          <div type="list">
 
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SC299.¶3</ab>
-               <ab type="mlgb_catalogueExtract">(3 copies)</ab>
+               <head>SC299.¶3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SC299.¶3</ab>
+                  <ab type="mlgb_catalogueExtract">(3 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="23">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SC299.¶23</ab>
-               <ab type="mlgb_catalogueExtract">(`mamotractus')</ab>
+               <head>SC299.¶23</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SC299.¶23</ab>
+                  <ab type="mlgb_catalogueExtract">(`mamotractus')</ab>
+               </div>
             </div>
             <div type="entry" n="29">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">SC299.¶29</ab>
-               <ab type="mlgb_catalogueExtract">(`a newe legend pryntyd in paper')</ab>
+               <head>SC299.¶29</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">SC299.¶29</ab>
+                  <ab type="mlgb_catalogueExtract">(`a newe legend pryntyd in paper')</ab>
+               </div>
             </div>
             <div type="entry" n="30">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">SC299.¶30</ab>
+               <head>SC299.¶30</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">SC299.¶30</ab>
+               </div>
             </div>
          </div>
 
@@ -49,7 +65,8 @@
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_1774">Iohannes Marchesinus (Giovanni
                   Marchesini) OFM [fl. 1300] </author><title key="mlgbWork_1774_1">Mammotrectus
                   super Bibliam</title></bibl>
-            <bibl xml:id="bibl_3"><author key="mlgbAuthor_2372">Noua legenda Anglie</author><title key="mlgbWork_2372_2">English tr.</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_2372">Noua legenda Anglie</author><title
+                  key="mlgbWork_2372_2">English tr.</title></bibl>
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_520">Breuiarium ad usum ecclesiae
                   Sarisburiensis</author><title key="mlgbWork_520_1"/></bibl>
          </listBibl>

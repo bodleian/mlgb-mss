@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">HENRY DE KIRKESTEDE</title><title type="mlgb_location">HENRY DE KIRKESTEDE</title><title type="mlgb_code">K8</title><title type="mlgb_booklist">Catalogus, c. 1360</title>
+            <title type="mlgb_booklist_Group">HENRY DE KIRKESTEDE</title>
+            <title type="mlgb_location">HENRY DE KIRKESTEDE</title>
+            <title type="mlgb_code">K8</title>
+            <title type="mlgb_booklist">Catalogus, c. 1360</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,26 +24,38 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">K8.1</ab>
-               <ab type="mlgb_catalogueExtract">(2 copies, one of them B16.*17)</ab>
+               <head>K8.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">K8.1</ab>
+                  <ab type="mlgb_catalogueExtract">(2 copies, one of them B16.*17)</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">K8.2—3</ab>
-               <ab type="mlgb_catalogueExtract">(`de uirginitate et laude sanctorum et sanctarum de
-                  8 uiciis principalibus', 2 copies, one of them B16.*16)</ab>
+               <head>K8.2—3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">K8.2—3</ab>
+                  <ab type="mlgb_catalogueExtract">(`de uirginitate et laude sanctorum et sanctarum
+                     de 8 uiciis principalibus', 2 copies, one of them B16.*16)</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">K8.2—3</ab>
-               <ab type="mlgb_catalogueExtract">(`de uirginitate et laude sanctorum et sanctarum de
-                  8 uiciis principalibus', 2 copies, one of them B16.*16)</ab>
+               <head>K8.2—3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">K8.2—3</ab>
+                  <ab type="mlgb_catalogueExtract">(`de uirginitate et laude sanctorum et sanctarum
+                     de 8 uiciis principalibus', 2 copies, one of them B16.*16)</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">K8.4</ab>
-               <ab type="mlgb_catalogueExtract">(`de pascha contra errorum Britonum', ep. 4)</ab>
+               <head>K8.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">K8.4</ab>
+                  <ab type="mlgb_catalogueExtract">(`de pascha contra errorum Britonum', ep. 4)</ab>
+               </div>
             </div>
          </div>
 

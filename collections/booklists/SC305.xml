@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title><title type="mlgb_location">Sudbury</title><title type="mlgb_code">SC305</title><title type="mlgb_booklist">Bequest by Henry Sythyng, 1 May 1464</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title>
+            <title type="mlgb_location">Sudbury</title>
+            <title type="mlgb_code">SC305</title>
+            <title type="mlgb_booklist">Bequest by Henry Sythyng, 1 May 1464</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,55 +24,73 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SC305.1</ab>
-               <ab type="mlgb_catalogueExtract">(`Ianuens' in distinccionibus')</ab>
+               <head>SC305.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SC305.1</ab>
+                  <ab type="mlgb_catalogueExtract">(`Ianuens' in distinccionibus')</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SC305.2</ab>
-               <ab type="mlgb_catalogueExtract">(`Bartholomeum in casibus')</ab>
+               <head>SC305.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SC305.2</ab>
+                  <ab type="mlgb_catalogueExtract">(`Bartholomeum in casibus')</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">SC305.3</ab>
-               <ab type="mlgb_catalogueExtract">('a. in rosario')</ab>
+               <head>SC305.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">SC305.3</ab>
+                  <ab type="mlgb_catalogueExtract">('a. in rosario')</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">SC305.4</ab>
-               <ab type="mlgb_catalogueExtract">(`Petrum de Salines super decretum')</ab>
+               <head>SC305.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">SC305.4</ab>
+                  <ab type="mlgb_catalogueExtract">(`Petrum de Salines super decretum')</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">SC305.5</ab>
-               <ab type="mlgb_catalogueExtract">(`. . cum glosa Iohanne de Athona')</ab>
-            </div>
-            <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">SC305.5</ab>
-               <ab type="mlgb_catalogueExtract">(`librum constitutionum legatum cum glosa I. de
-                  Athona')</ab>
-            </div>
-            <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">SC305.5</ab>
-               <ab type="mlgb_catalogueExtract">(`librum constitutionum legatum cum glosa I. de
-                  Athona')</ab>
-            </div>
-            <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">SC305.6</ab>
-            </div>
-            <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">SC305.‡6b</ab>
-               <ab type="mlgb_catalogueExtract">(`super omelias')</ab>
+               <head>SC305.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">SC305.5</ab>
+                  <ab type="mlgb_catalogueExtract">(`. . cum glosa Iohanne de Athona')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">SC305.5</ab>
+                  <ab type="mlgb_catalogueExtract">(`librum constitutionum legatum cum glosa I. de
+                     Athona')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">SC305.5</ab>
+                  <ab type="mlgb_catalogueExtract">(`librum constitutionum legatum cum glosa I. de
+                     Athona')</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">SC305.‡6b</ab>
-               <ab type="mlgb_catalogueExtract">(`super omelias')</ab>
+               <head>SC305.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">SC305.6</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">SC305.‡6b</ab>
+                  <ab type="mlgb_catalogueExtract">(`super omelias')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">SC305.‡6b</ab>
+                  <ab type="mlgb_catalogueExtract">(`super omelias')</ab>
+               </div>
             </div>
          </div>
 
@@ -83,10 +105,12 @@
                   OP [c1260—1347] </author><title key="mlgbWork_414_1">Summa de casibus
                   conscientiae</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_1217">Guido de Baysio, known as
-                  Archidiaconus [†1313], archdeacon of Bologna </author><title key="mlgbWork_1217_2">Rosarium seu Apparatus ad Decretum</title></bibl>
+                  Archidiaconus [†1313], archdeacon of Bologna </author><title key="mlgbWork_1217_2"
+                  >Rosarium seu Apparatus ad Decretum</title></bibl>
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_2622">Petrus de Salinis [13th cent.]
                   </author><title key="mlgbWork_2622_1">Lectura super Decreta</title></bibl>
-            <bibl xml:id="bibl_5"><author key="mlgbAuthor_1545">John Acton [†1350] </author><title key="mlgbWork_1545_1">Commentary on the Legatine Constitutions</title></bibl>
+            <bibl xml:id="bibl_5"><author key="mlgbAuthor_1545">John Acton [†1350] </author><title
+                  key="mlgbWork_1545_1">Commentary on the Legatine Constitutions</title></bibl>
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_2446">Otto de Monteferrato [†1251],
                   cardinal </author><title key="mlgbWork_2446_1">Constitutiones
                (1237)</title></bibl>

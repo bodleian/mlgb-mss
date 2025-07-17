@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">HENRY DE KIRKESTEDE</title><title type="mlgb_location">HENRY DE KIRKESTEDE</title><title type="mlgb_code">K202</title><title type="mlgb_booklist">Catalogus, c. 1360</title>
+            <title type="mlgb_booklist_Group">HENRY DE KIRKESTEDE</title>
+            <title type="mlgb_location">HENRY DE KIRKESTEDE</title>
+            <title type="mlgb_code">K202</title>
+            <title type="mlgb_booklist">Catalogus, c. 1360</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,9 +24,12 @@
          <div type="list">
 
             <div type="entry" n="None">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">K202</ab>
-               <ab type="mlgb_catalogueExtract">(`Focas de differentia generis lib. 7')</ab>
+               <head>K202</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">K202</ab>
+                  <ab type="mlgb_catalogueExtract">(`Focas de differentia generis lib. 7')</ab>
+               </div>
             </div>
          </div>
 
@@ -30,7 +37,8 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_2674">Phocas [fl. 300] </author><title key="mlgbWork_2674_2">Institutiones, I 30. 2. </title></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_2674">Phocas [fl. 300] </author><title
+                  key="mlgbWork_2674_2">Institutiones, I 30. 2. </title></bibl>
          </listBibl>
       </back>
    </text>

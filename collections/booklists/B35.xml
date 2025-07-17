@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title><title type="mlgb_location">Faversham</title><title type="mlgb_code">B35</title><title type="mlgb_booklist">Leland, c. 1536-40</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title>
+            <title type="mlgb_location">Faversham</title>
+            <title type="mlgb_code">B35</title>
+            <title type="mlgb_booklist">Leland, c. 1536-40</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,33 +24,54 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">B35.1</ab>
+               <head>B35.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">B35.1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">B35.2</ab>
-               <ab type="mlgb_catalogueExtract">(`enchiridion Xysti')</ab>
+               <head>B35.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">B35.2</ab>
+                  <ab type="mlgb_catalogueExtract">(`enchiridion Xysti')</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">B35.3</ab>
+               <head>B35.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">B35.3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">B35.4</ab>
+               <head>B35.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">B35.4</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">B35.5</ab>
+               <head>B35.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">B35.5</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">B35.6</ab>
+               <head>B35.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">B35.6</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">B35.7</ab>
+               <head>B35.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">B35.7</ab>
+               </div>
             </div>
          </div>
 
@@ -58,10 +83,12 @@
                   </author><title key="mlgbWork_1398_14">Commentary on Matthew</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_3132">Sextus the Pythagorean [?2nd cent.]
                   </author><title key="mlgbWork_3132_1">Sententiae, tr. Rufinus</title></bibl>
-            <bibl xml:id="bibl_3"><author key="mlgbAuthor_2737">Prec1135—1210] </author><title key="mlgbWork_2737_2">Summa de quaestionibus theologicis</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_2737">Prec1135—1210] </author><title
+                  key="mlgbWork_2737_2">Summa de quaestionibus theologicis</title></bibl>
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_1111">Gerald of Wales [1146—1226]
                   </author><title key="mlgbWork_1111_7">Topographia Hiberniae</title></bibl>
-            <bibl xml:id="bibl_5"><author key="mlgbAuthor_3184">Solinus [3rd cent.] </author><title key="mlgbWork_3184_1">Collectanea rerum mirabilium</title></bibl>
+            <bibl xml:id="bibl_5"><author key="mlgbAuthor_3184">Solinus [3rd cent.] </author><title
+                  key="mlgbWork_3184_1">Collectanea rerum mirabilium</title></bibl>
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_3735">William of Malmesbury OSB
                   [c1080—1143] </author><title key="mlgbWork_3735_7">Gesta regum
                Anglorum</title></bibl>

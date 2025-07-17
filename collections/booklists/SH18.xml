@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the Professions</title><title type="mlgb_location">Kepier hospital</title><title type="mlgb_code">SH18</title><title type="mlgb_booklist">Inventory of goods, 7 December 1507</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the
+               Professions</title>
+            <title type="mlgb_location">Kepier hospital</title>
+            <title type="mlgb_code">SH18</title>
+            <title type="mlgb_booklist">Inventory of goods, 7 December 1507</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,17 +25,27 @@
          <div type="list">
 
             <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SH18.13</ab>
+               <head>SH18.13</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SH18.13</ab>
+               </div>
             </div>
             <div type="entry" n="15">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SH18.15</ab>
-               <ab type="mlgb_catalogueExtract">(`alium librum nominatum Iohannes Crisostomus')</ab>
+               <head>SH18.15</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SH18.15</ab>
+                  <ab type="mlgb_catalogueExtract">(`alium librum nominatum Iohannes
+                     Crisostomus')</ab>
+               </div>
             </div>
             <div type="entry" n="16">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">SH18.¶16</ab>
+               <head>SH18.¶16</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">SH18.¶16</ab>
+               </div>
             </div>
          </div>
 

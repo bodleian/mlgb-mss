@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title><title type="mlgb_location">Norwich</title><title type="mlgb_code">B61</title><title type="mlgb_booklist">Bale, c. 1550</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title>
+            <title type="mlgb_location">Norwich</title>
+            <title type="mlgb_code">B61</title>
+            <title type="mlgb_booklist">Bale, c. 1550</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,55 +24,91 @@
          <div type="list">
 
             <div type="entry" n="3" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_4145">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">B61.*3</ab>
+               <head>B61.*3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">B61.*3</ab>
+               </div>
             </div>
             <div type="entry" n="4" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_4145">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">B61.†4</ab>
-               <ab type="mlgb_catalogueExtract">(`de mirabilibus terrae sanctae')</ab>
+               <head>B61.†4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">B61.†4</ab>
+                  <ab type="mlgb_catalogueExtract">(`de mirabilibus terrae sanctae')</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">B61.5</ab>
-               <ab type="mlgb_catalogueExtract">(`de mirabilibus Hibernie')</ab>
+               <head>B61.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">B61.5</ab>
+                  <ab type="mlgb_catalogueExtract">(`de mirabilibus Hibernie')</ab>
+               </div>
             </div>
             <div type="entry" n="6" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_4139">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">B61.6</ab>
+               <head>B61.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">B61.6</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">B61.7</ab>
+               <head>B61.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">B61.7</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">B61.*8</ab>
+               <head>B61.*8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">B61.*8</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">B61.9</ab>
+               <head>B61.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">B61.9</ab>
+               </div>
             </div>
             <div type="entry" n="10" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_4120">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">B61.10</ab>
+               <head>B61.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">B61.10</ab>
+               </div>
             </div>
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">B61.12</ab>
-               <ab type="mlgb_catalogueExtract">(`Astulfus ad nouicios') = K72.1</ab>
+               <head>B61.12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">B61.12</ab>
+                  <ab type="mlgb_catalogueExtract">(`Astulfus ad nouicios') = K72.1</ab>
+               </div>
             </div>
             <div type="entry" n="14">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">B61.*14</ab>
+               <head>B61.*14</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">B61.*14</ab>
+               </div>
             </div>
             <div type="entry" n="20">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">B61.20</ab>
+               <head>B61.20</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">B61.20</ab>
+               </div>
             </div>
             <div type="entry" n="22">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">B61.22</ab>
+               <head>B61.22</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">B61.22</ab>
+               </div>
             </div>
          </div>
 
@@ -94,7 +134,8 @@
                   </author><title key="mlgbWork_2396_1">Itinerarium</title></bibl>
             <bibl xml:id="bibl_8"><author key="mlgbAuthor_3029">Roger of Wendover OSB [†1236]
                   </author><title key="mlgbWork_3029_1">Flores historiarum</title></bibl>
-            <bibl xml:id="bibl_9"><author key="mlgbAuthor_344">Astulfus [?] </author><title key="mlgbWork_344_1">Cantelarium</title></bibl>
+            <bibl xml:id="bibl_9"><author key="mlgbAuthor_344">Astulfus [?] </author><title
+                  key="mlgbWork_344_1">Cantelarium</title></bibl>
             <bibl xml:id="bibl_10"><author key="mlgbAuthor_3029">Roger of Wendover OSB [†1236]
                   </author><title key="mlgbWork_3029_1">Flores historiarum</title></bibl>
             <bibl xml:id="bibl_11"><author key="mlgbAuthor_3376">Thomas of Monmouth OSB [† after

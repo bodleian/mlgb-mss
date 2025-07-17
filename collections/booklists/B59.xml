@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title><title type="mlgb_location">Norwich</title><title type="mlgb_code">B59</title><title type="mlgb_booklist">Fragmentary list of books, 16th cent.</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title>
+            <title type="mlgb_location">Norwich</title>
+            <title type="mlgb_code">B59</title>
+            <title type="mlgb_booklist">Fragmentary list of books, 16th cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,38 +24,62 @@
          <div type="list">
 
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">B59.10</ab>
+               <head>B59.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">B59.10</ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">B59.11</ab>
-               <ab type="mlgb_catalogueExtract">(anon.)</ab>
+               <head>B59.11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">B59.11</ab>
+                  <ab type="mlgb_catalogueExtract">(anon.)</ab>
+               </div>
             </div>
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">B59.†12</ab>
+               <head>B59.†12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">B59.†12</ab>
+               </div>
             </div>
             <div type="entry" n="19">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">B59.19</ab>
+               <head>B59.19</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">B59.19</ab>
+               </div>
             </div>
             <div type="entry" n="22">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">B59.22</ab>
+               <head>B59.22</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">B59.22</ab>
+               </div>
             </div>
             <div type="entry" n="23">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">B59.¶23</ab>
+               <head>B59.¶23</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">B59.¶23</ab>
+               </div>
             </div>
             <div type="entry" n="24">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">B59.24</ab>
-               <ab type="mlgb_catalogueExtract">(anon.)</ab>
+               <head>B59.24</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">B59.24</ab>
+                  <ab type="mlgb_catalogueExtract">(anon.)</ab>
+               </div>
             </div>
             <div type="entry" n="25">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">B59.25</ab>
+               <head>B59.25</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">B59.25</ab>
+               </div>
             </div>
          </div>
 
@@ -67,11 +95,13 @@
                   cent.] </author><title key="mlgbWork_1481_1">Stimulus amoris</title></bibl>
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_149">Alexander de Villa Dei [c1170—c1240]
                   </author><title key="mlgbWork_149_2">Doctrinale magnum</title></bibl>
-            <bibl xml:id="bibl_5"><author key="mlgbAuthor_1395">Hortus uocabulorum</author><title key="mlgbWork_1395_1"/></bibl>
+            <bibl xml:id="bibl_5"><author key="mlgbAuthor_1395">Hortus uocabulorum</author><title
+                  key="mlgbWork_1395_1"/></bibl>
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_196">Ambrosius Calepinus (Ambrogio
                   Calepino) [c1435—1509] </author><title key="mlgbWork_196_1">Dictionum Latinarum et
                   Graecarum interpres</title></bibl>
-            <bibl xml:id="bibl_7"><author key="mlgbAuthor_1731">John Holt [†1504] </author><title key="mlgbWork_1731_1">Lac puerorum</title></bibl>
+            <bibl xml:id="bibl_7"><author key="mlgbAuthor_1731">John Holt [†1504] </author><title
+                  key="mlgbWork_1731_1">Lac puerorum</title></bibl>
             <bibl xml:id="bibl_8"><author key="mlgbAuthor_3093">L. Annaeus Seneca [4 BC—AD 65]
                   </author><title key="mlgbWork_3093_16">Epistulae morales</title></bibl>
          </listBibl>

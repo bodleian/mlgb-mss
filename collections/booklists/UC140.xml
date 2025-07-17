@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title><title type="mlgb_location">Donor documents</title><title type="mlgb_code">UC140</title><title type="mlgb_booklist">Will of William Lambert, 27 November 1521; Pembroke Hall</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title>
+            <title type="mlgb_location">Donor documents</title>
+            <title type="mlgb_code">UC140</title>
+            <title type="mlgb_booklist">Will of William Lambert, 27 November 1521; Pembroke
+               Hall</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,46 +25,76 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UC140.¶1</ab>
+               <head>UC140.¶1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UC140.¶1</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UC140.¶3</ab>
+               <head>UC140.¶3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UC140.¶3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">UC140.¶4</ab>
-               <ab type="mlgb_catalogueExtract">(`Valentinum super psalterium')</ab>
+               <head>UC140.¶4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">UC140.¶4</ab>
+                  <ab type="mlgb_catalogueExtract">(`Valentinum super psalterium')</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">UC140.5</ab>
+               <head>UC140.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">UC140.5</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">UC140.¶6</ab>
+               <head>UC140.¶6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">UC140.¶6</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">UC140.¶7</ab>
+               <head>UC140.¶7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">UC140.¶7</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">UC140.8</ab>
+               <head>UC140.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">UC140.8</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">UC140.¶10</ab>
-               <ab type="mlgb_catalogueExtract">UO3.57,UO24.¶34a</ab>
+               <head>UC140.¶10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">UC140.¶10</ab>
+                  <ab type="mlgb_catalogueExtract">UO3.57,UO24.¶34a</ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">UC140.¶11</ab>
+               <head>UC140.¶11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">UC140.¶11</ab>
+               </div>
             </div>
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">UC140.¶12</ab>
+               <head>UC140.¶12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">UC140.¶12</ab>
+               </div>
             </div>
          </div>
 
@@ -81,7 +116,8 @@
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_3485">Vincent Ferrer OP [1350—1419]
                   </author><title key="mlgbWork_3485_1">Sermones de tempore et de
                sanctis</title></bibl>
-            <bibl xml:id="bibl_7"><author key="mlgbAuthor_1685">John Felton [†1434] </author><title key="mlgbWork_1685_2">Sermones dominicales, known as Sermones
+            <bibl xml:id="bibl_7"><author key="mlgbAuthor_1685">John Felton [†1434] </author><title
+                  key="mlgbWork_1685_2">Sermones dominicales, known as Sermones
                Mawdeleyn</title></bibl>
             <bibl xml:id="bibl_8"><author key="mlgbAuthor_1972">M. Iunianus Iustinus [3rd cent.]
                   </author><title key="mlgbWork_1972_1">Epitome of Pompeius Trogus's lost Historiae

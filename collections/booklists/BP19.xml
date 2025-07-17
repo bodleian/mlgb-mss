@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES</title><title type="mlgb_location">Peterborough</title><title type="mlgb_code">BP19</title><title type="mlgb_booklist">Books given by Abbot Nicholas Elmstow (1391-6)</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES</title>
+            <title type="mlgb_location">Peterborough</title>
+            <title type="mlgb_code">BP19</title>
+            <title type="mlgb_booklist">Books given by Abbot Nicholas Elmstow (1391-6)</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,40 +24,64 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">BP19.1</ab>
-               <ab type="mlgb_catalogueExtract">(uetus)</ab>
+               <head>BP19.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">BP19.1</ab>
+                  <ab type="mlgb_catalogueExtract">(uetus)</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">BP19.2</ab>
-               <ab type="mlgb_catalogueExtract">(nouum)</ab>
+               <head>BP19.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">BP19.2</ab>
+                  <ab type="mlgb_catalogueExtract">(nouum)</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">BP19.3</ab>
+               <head>BP19.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">BP19.3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">BP19.4</ab>
-               <ab type="mlgb_catalogueExtract">(`liber Azonis')</ab>
+               <head>BP19.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">BP19.4</ab>
+                  <ab type="mlgb_catalogueExtract">(`liber Azonis')</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">BP19.5</ab>
+               <head>BP19.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">BP19.5</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">BP19.7</ab>
+               <head>BP19.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">BP19.7</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">BP19.8</ab>
-               <ab type="mlgb_catalogueExtract">(inforciatum)</ab>
+               <head>BP19.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">BP19.8</ab>
+                  <ab type="mlgb_catalogueExtract">(inforciatum)</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">BP19.9</ab>
+               <head>BP19.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">BP19.9</ab>
+               </div>
             </div>
          </div>
 
@@ -61,9 +89,12 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_5">Digestum</title></bibl>
-            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_5">Digestum</title></bibl>
-            <bibl xml:id="bibl_3"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_2">Codex</title></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_5">Digestum</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_5">Digestum</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_2">Codex</title></bibl>
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_378">Azo of Bologna [†1220]
                   </author><title key="mlgbWork_378_2">Summa Codicis and Summa
                Institutionum</title></bibl>
@@ -71,8 +102,10 @@
                   </author><title key="mlgbWork_2846_3">Summa de casibus poenitentiae</title></bibl>
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_2471">Paruum uolumen, a standard
                   collection</author><title key="mlgbWork_2471_1"/></bibl>
-            <bibl xml:id="bibl_7"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_5">Digestum</title></bibl>
-            <bibl xml:id="bibl_8"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_6">Institutiones</title></bibl>
+            <bibl xml:id="bibl_7"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_5">Digestum</title></bibl>
+            <bibl xml:id="bibl_8"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_6">Institutiones</title></bibl>
          </listBibl>
       </back>
    </text>

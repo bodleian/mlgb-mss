@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title><title type="mlgb_location">Westminster</title><title type="mlgb_code">B106</title><title type="mlgb_booklist">Receipt for further goods of Archbishop Langham, 1378</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title>
+            <title type="mlgb_location">Westminster</title>
+            <title type="mlgb_code">B106</title>
+            <title type="mlgb_booklist">Receipt for further goods of Archbishop Langham,
+               1378</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,22 +25,34 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">B106.1</ab>
-               <ab type="mlgb_catalogueExtract">(`memoriale decreti Iohannis')</ab>
+               <head>B106.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">B106.1</ab>
+                  <ab type="mlgb_catalogueExtract">(`memoriale decreti Iohannis')</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">B106.4</ab>
-               <ab type="mlgb_catalogueExtract">(Ia IIe)</ab>
+               <head>B106.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">B106.4</ab>
+                  <ab type="mlgb_catalogueExtract">(Ia IIe)</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">B106.6</ab>
+               <head>B106.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">B106.6</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">B106.9</ab>
+               <head>B106.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">B106.9</ab>
+               </div>
             </div>
          </div>
 

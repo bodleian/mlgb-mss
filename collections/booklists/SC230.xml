@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title><title type="mlgb_location">Eton College</title><title type="mlgb_code">SC230</title><title type="mlgb_booklist">Bequest by John Bonour, 10 January 1467</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title>
+            <title type="mlgb_location">Eton College</title>
+            <title type="mlgb_code">SC230</title>
+            <title type="mlgb_booklist">Bequest by John Bonour, 10 January 1467</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,28 +24,44 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SC230.1</ab>
+               <head>SC230.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SC230.1</ab>
+               </div>
             </div>
             <div type="entry" n="2" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_2627">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SC230.*2</ab>
-               <ab type="mlgb_catalogueExtract">(`magistrum historiarum')</ab>
+               <head>SC230.*2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SC230.*2</ab>
+                  <ab type="mlgb_catalogueExtract">(`magistrum historiarum')</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">SC230.3</ab>
-               <ab type="mlgb_catalogueExtract">(`magistrum sentenciarum')</ab>
+               <head>SC230.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">SC230.3</ab>
+                  <ab type="mlgb_catalogueExtract">(`magistrum sentenciarum')</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">SC230.4</ab>
-               <ab type="mlgb_catalogueExtract">(`summam Parisiensis de uiciis et uirtutibus')</ab>
+               <head>SC230.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">SC230.4</ab>
+                  <ab type="mlgb_catalogueExtract">(`summam Parisiensis de uiciis et
+                     uirtutibus')</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">SC230.5</ab>
-               <ab type="mlgb_catalogueExtract">(`Hugonem de sacris')</ab>
+               <head>SC230.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">SC230.5</ab>
+                  <ab type="mlgb_catalogueExtract">(`Hugonem de sacris')</ab>
+               </div>
             </div>
          </div>
 
@@ -49,7 +69,8 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1190">Gratian [† by c1160] </author><title key="mlgbWork_1190_1">Decretum</title></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1190">Gratian [† by c1160] </author><title
+                  key="mlgbWork_1190_1">Decretum</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_2558">Petrus Comestor [†1187]
                   </author><title key="mlgbWork_2558_5">Historia scholastica</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_2587">Peter Lombard [c1100—1160]

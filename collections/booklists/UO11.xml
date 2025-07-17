@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title><title type="mlgb_location">All Souls College</title><title type="mlgb_code">UO11</title><title type="mlgb_booklist">Donation by William Goldwyn, William Denys and Richard Salter, 1482 {x} 1519</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title>
+            <title type="mlgb_location">All Souls College</title>
+            <title type="mlgb_code">UO11</title>
+            <title type="mlgb_booklist">Donation by William Goldwyn, William Denys and Richard
+               Salter, 1482 {x} 1519</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,94 +25,133 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UO11.*1</ab>
-               <ab type="mlgb_catalogueExtract">(`concilia Montagnana')</ab>
-            </div>
-            <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UO11.*1x</ab>
-            </div>
-            <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">UO11.*1x</ab>
+               <head>UO11.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UO11.*1</ab>
+                  <ab type="mlgb_catalogueExtract">(`concilia Montagnana')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UO11.*1x</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">UO11.*1x</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">UO11.*2</ab>
+               <head>UO11.*2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">UO11.*2</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">UO11.3</ab>
+               <head>UO11.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">UO11.3</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">UO11.5</ab>
-               <ab type="mlgb_catalogueExtract">(`breuiarium Constantini')</ab>
+               <head>UO11.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">UO11.5</ab>
+                  <ab type="mlgb_catalogueExtract">(`breuiarium Constantini')</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">UO11.*6x</ab>
-            </div>
-            <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">UO11.*6x</ab>
-               <ab type="mlgb_catalogueExtract">= UO13.255</ab>
-            </div>
-            <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">UO11.*6x</ab>
-            </div>
-            <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">UO11.*6x</ab>
-            </div>
-            <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">UO11.*6x</ab>
+               <head>UO11.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">UO11.*6x</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">UO11.*6x</ab>
+                  <ab type="mlgb_catalogueExtract">= UO13.255</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">UO11.*6x</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">UO11.*6x</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">UO11.*6x</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">UO11.7</ab>
+               <head>UO11.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">UO11.7</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">UO11.*8</ab>
-            </div>
-            <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_14"/>
-               <ab type="mlgb_copyCode">UO11.*8</ab>
-               <ab type="mlgb_catalogueExtract">(w. Galen's comm.)</ab>
+               <head>UO11.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">UO11.*8</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_14"/>
+                  <ab type="mlgb_copyCode">UO11.*8</ab>
+                  <ab type="mlgb_catalogueExtract">(w. Galen's comm.)</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_15"/>
-               <ab type="mlgb_copyCode">UO11.*9</ab>
-            </div>
-            <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_16"/>
-               <ab type="mlgb_copyCode">UO11.*9</ab>
-               <ab type="mlgb_catalogueExtract">(w. Cardinalis' comm.) = UO15.3</ab>
+               <head>UO11.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_15"/>
+                  <ab type="mlgb_copyCode">UO11.*9</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_16"/>
+                  <ab type="mlgb_copyCode">UO11.*9</ab>
+                  <ab type="mlgb_catalogueExtract">(w. Cardinalis' comm.) = UO15.3</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_17"/>
-               <ab type="mlgb_copyCode">UO11.10</ab>
+               <head>UO11.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_17"/>
+                  <ab type="mlgb_copyCode">UO11.10</ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_18"/>
-               <ab type="mlgb_copyCode">UO11.11</ab>
-               <ab type="mlgb_catalogueExtract">= UO15.2</ab>
+               <head>UO11.11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_18"/>
+                  <ab type="mlgb_copyCode">UO11.11</ab>
+                  <ab type="mlgb_catalogueExtract">= UO15.2</ab>
+               </div>
             </div>
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_19"/>
-               <ab type="mlgb_copyCode">UO11.12</ab>
+               <head>UO11.12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_19"/>
+                  <ab type="mlgb_copyCode">UO11.12</ab>
+               </div>
             </div>
             <div type="entry" n="15">
-               <bibl type="identification" corresp="#bibl_20"/>
-               <ab type="mlgb_copyCode">UO11.15</ab>
+               <head>UO11.15</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_20"/>
+                  <ab type="mlgb_copyCode">UO11.15</ab>
+               </div>
             </div>
             <div type="entry" n="22">
-               <bibl type="identification" corresp="#bibl_21"/>
-               <ab type="mlgb_copyCode">UO11.22</ab>
+               <head>UO11.22</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_21"/>
+                  <ab type="mlgb_copyCode">UO11.22</ab>
+               </div>
             </div>
          </div>
 
@@ -117,7 +161,8 @@
 
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_406">Bartholomaeus Montagnana [1400—c1460]
                   </author><title key="mlgbWork_406_1">Consilia medica, Antidotarius</title></bibl>
-            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1056">Galen [c129—?199] </author><title key="mlgbWork_1056_44">De uirtute centaureae, tr. Nicholas of
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1056">Galen [c129—?199] </author><title
+                  key="mlgbWork_1056_44">De uirtute centaureae, tr. Nicholas of
                Reggio</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_2521">Peter of Abano (Pietro d'Abano)
                   [c1257—c1316] </author><title key="mlgbWork_2521_3">De uenenis</title></bibl>
@@ -127,7 +172,8 @@
                   `Abdallah Ibn Sina) [980—1037] </author><title key="mlgbWork_373_3">Canon
                   medicinae, tr. Gerard of Cremona</title></bibl>
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_686">Constantinus Africanus OSB
-                  [c1015—1087], monk of Monte Cassino </author><title key="mlgbWork_686_11">Viaticum</title></bibl>
+                  [c1015—1087], monk of Monte Cassino </author><title key="mlgbWork_686_11"
+                  >Viaticum</title></bibl>
             <bibl xml:id="bibl_7"><author key="mlgbAuthor_1127">Gerardus de Solo [early 14th cent.]
                   </author><title key="mlgbWork_1127_1">Directorium siue Introductorium
                   iuuenum</title></bibl>
@@ -141,7 +187,8 @@
                   </author><title key="mlgbWork_2895_7">Regulae de urinis</title></bibl>
             <bibl xml:id="bibl_12"><author key="mlgbAuthor_1701">John of Gaddesden [† by 1349]
                   </author><title key="mlgbWork_1701_1">Rosa medicinae</title></bibl>
-            <bibl xml:id="bibl_13"><author key="mlgbAuthor_1056">Galen [c129—?199] </author><title key="mlgbWork_1056_6">Commentary on Hippocrates' Aphorismata, Latin
+            <bibl xml:id="bibl_13"><author key="mlgbAuthor_1056">Galen [c129—?199] </author><title
+                  key="mlgbWork_1056_6">Commentary on Hippocrates' Aphorismata, Latin
                tr.</title></bibl>
             <bibl xml:id="bibl_14"><author key="mlgbAuthor_1368">Hippocrates [c460—c380 BC]
                   </author><title key="mlgbWork_1368_3">Aphorismata, Latin tr.</title></bibl>

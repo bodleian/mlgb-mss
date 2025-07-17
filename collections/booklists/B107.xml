@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title><title type="mlgb_location">Westminster</title><title type="mlgb_code">B107</title><title type="mlgb_booklist">Books bequeathed by Br Richard Exeter, 1396</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title>
+            <title type="mlgb_location">Westminster</title>
+            <title type="mlgb_code">B107</title>
+            <title type="mlgb_booklist">Books bequeathed by Br Richard Exeter, 1396</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,59 +24,95 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">B107.1</ab>
+               <head>B107.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">B107.1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">B107.2</ab>
-               <ab type="mlgb_catalogueExtract">(vol. 1)</ab>
+               <head>B107.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">B107.2</ab>
+                  <ab type="mlgb_catalogueExtract">(vol. 1)</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">B107.3</ab>
+               <head>B107.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">B107.3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">B107.4</ab>
-            </div>
-            <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">B107.4</ab>
+               <head>B107.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">B107.4</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">B107.4</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">B107.5</ab>
+               <head>B107.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">B107.5</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">B107.6</ab>
-               <ab type="mlgb_catalogueExtract">(`bromzerd bonum') ?= B108.5</ab>
+               <head>B107.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">B107.6</ab>
+                  <ab type="mlgb_catalogueExtract">(`bromzerd bonum') ?= B108.5</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">B107.†7</ab>
+               <head>B107.†7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">B107.†7</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">B107.8</ab>
+               <head>B107.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">B107.8</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">B107.9</ab>
+               <head>B107.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">B107.9</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">B107.†10</ab>
+               <head>B107.†10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">B107.†10</ab>
+               </div>
             </div>
             <div type="entry" n="14">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">B107.14</ab>
+               <head>B107.14</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">B107.14</ab>
+               </div>
             </div>
             <div type="entry" n="15">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">B107.†15</ab>
-               <ab type="mlgb_catalogueExtract">(`liber de Iohanne Maudyth')</ab>
+               <head>B107.†15</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">B107.†15</ab>
+                  <ab type="mlgb_catalogueExtract">(`liber de Iohanne Maudyth')</ab>
+               </div>
             </div>
          </div>
 
@@ -99,7 +139,8 @@
             <bibl xml:id="bibl_7"><author key="mlgbAuthor_1607">John of Bromyard OP [†1352]
                   </author><title key="mlgbWork_1607_3">Opus triuium siue Tractatus iuris ciuilis et
                   canonici ad moralem materiam applicati</title></bibl>
-            <bibl xml:id="bibl_8"><author key="mlgbAuthor_730">`Dares Phrygius' </author><title key="mlgbWork_730_1">De excidio Troiae historia</title></bibl>
+            <bibl xml:id="bibl_8"><author key="mlgbAuthor_730">`Dares Phrygius' </author><title
+                  key="mlgbWork_730_1">De excidio Troiae historia</title></bibl>
             <bibl xml:id="bibl_9"><author key="mlgbAuthor_2558">Petrus Comestor [†1187]
                   </author><title key="mlgbWork_2558_5">Historia scholastica</title></bibl>
             <bibl xml:id="bibl_10"><author key="mlgbAuthor_786">Dinus de Mugello [†1298]

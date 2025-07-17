@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the Professions</title><title type="mlgb_location">London, Lincoln's Inn</title><title type="mlgb_code">SH41</title><title type="mlgb_booklist">List of books in the treasury, 1 November 1512</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the
+               Professions</title>
+            <title type="mlgb_location">London, Lincoln's Inn</title>
+            <title type="mlgb_code">SH41</title>
+            <title type="mlgb_booklist">List of books in the treasury, 1 November 1512</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,14 +25,21 @@
          <div type="list">
 
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SH41.¶2</ab>
-               <ab type="mlgb_catalogueExtract">(`a pryntyd boke of yeres of E. IV') = SH42.¶3</ab>
+               <head>SH41.¶2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SH41.¶2</ab>
+                  <ab type="mlgb_catalogueExtract">(`a pryntyd boke of yeres of E. IV') =
+                     SH42.¶3</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SH41.3</ab>
-               <ab type="mlgb_catalogueExtract">(`Breton') = SH42.2</ab>
+               <head>SH41.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SH41.3</ab>
+                  <ab type="mlgb_catalogueExtract">(`Breton') = SH42.2</ab>
+               </div>
             </div>
          </div>
 
@@ -42,7 +54,8 @@
                   the early 14th cent. The printing of year books had begun by the 1480s, though the
                   earliest editions to survive are not contemporary with the terms
                reported</title></bibl>
-            <bibl xml:id="bibl_2"><author key="mlgbAuthor_525">Britton</author><title key="mlgbWork_525_1"/></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_525">Britton</author><title
+                  key="mlgbWork_525_1"/></bibl>
          </listBibl>
       </back>
    </text>

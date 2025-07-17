@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">NEW FRIARS</title><title type="mlgb_location">Cambridge-Franciscan</title><title type="mlgb_code">F8</title><title type="mlgb_booklist">Leland, c. 1536-40</title>
+            <title type="mlgb_booklist_Group">NEW FRIARS</title>
+            <title type="mlgb_location">Cambridge-Franciscan</title>
+            <title type="mlgb_code">F8</title>
+            <title type="mlgb_booklist">Leland, c. 1536-40</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,41 +24,56 @@
          <div type="list">
 
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">F8.8</ab>
-               <ab type="mlgb_catalogueExtract">(III—IV, incomplete)</ab>
+               <head>F8.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">F8.8</ab>
+                  <ab type="mlgb_catalogueExtract">(III—IV, incomplete)</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">F8.9</ab>
-               <ab type="mlgb_catalogueExtract">(`summa magistri Willelmi de Aucerre')</ab>
+               <head>F8.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">F8.9</ab>
+                  <ab type="mlgb_catalogueExtract">(`summa magistri Willelmi de Aucerre')</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">F8.†10</ab>
-               <ab type="mlgb_catalogueExtract">(`magne concordancie predicatorum in uno uolumine',
-                  1267 too early for third concordance)</ab>
+               <head>F8.†10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">F8.†10</ab>
+                  <ab type="mlgb_catalogueExtract">(`magne concordancie predicatorum in uno
+                     uolumine', 1267 too early for third concordance)</ab>
+               </div>
             </div>
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">F8.12a</ab>
-            </div>
-            <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">F8.12c</ab>
-               <ab type="mlgb_catalogueExtract">(`cum questionibus Philippi cancellarii
-                  Parisiensis', inc.)</ab>
-            </div>
-            <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">F8.13b</ab>
-               <ab type="mlgb_catalogueExtract">(`. . cum summa sermonum subtilium', inc.)</ab>
+               <head>F8.12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">F8.12a</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">F8.12c</ab>
+                  <ab type="mlgb_catalogueExtract">(`cum questionibus Philippi cancellarii
+                     Parisiensis', inc.)</ab>
+               </div>
             </div>
             <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">F8.13a</ab>
-               <ab type="mlgb_catalogueExtract">(`distincciones Philippi cancellarii Parisiensis
-                  super psalterium')</ab>
+               <head>F8.13</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">F8.13b</ab>
+                  <ab type="mlgb_catalogueExtract">(`. . cum summa sermonum subtilium', inc.)</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">F8.13a</ab>
+                  <ab type="mlgb_catalogueExtract">(`distincciones Philippi cancellarii Parisiensis
+                     super psalterium')</ab>
+               </div>
             </div>
          </div>
 

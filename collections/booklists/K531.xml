@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">HENRY DE KIRKESTEDE</title><title type="mlgb_location">HENRY DE KIRKESTEDE</title><title type="mlgb_code">K531</title><title type="mlgb_booklist">Catalogus, c. 1360</title>
+            <title type="mlgb_booklist_Group">HENRY DE KIRKESTEDE</title>
+            <title type="mlgb_location">HENRY DE KIRKESTEDE</title>
+            <title type="mlgb_code">K531</title>
+            <title type="mlgb_booklist">Catalogus, c. 1360</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,20 +24,32 @@
          <div type="list">
 
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">K531.2—3</ab>
+               <head>K531.2—3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">K531.2—3</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">K531.2—3</ab>
+               <head>K531.2—3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">K531.2—3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">K531.4—5</ab>
+               <head>K531.4—5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">K531.4—5</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">K531.4—5</ab>
+               <head>K531.4—5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">K531.4—5</ab>
+               </div>
             </div>
          </div>
 
@@ -41,10 +57,14 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_3088">Sedulius [fl. 450] </author><title key="mlgbWork_3088_1">Carmen paschale</title></bibl>
-            <bibl xml:id="bibl_2"><author key="mlgbAuthor_3088">Sedulius [fl. 450] </author><title key="mlgbWork_3088_1">Carmen paschale</title></bibl>
-            <bibl xml:id="bibl_3"><author key="mlgbAuthor_3088">Sedulius [fl. 450] </author><title key="mlgbWork_3088_2">Hymni</title></bibl>
-            <bibl xml:id="bibl_4"><author key="mlgbAuthor_3088">Sedulius [fl. 450] </author><title key="mlgbWork_3088_2">Hymni</title></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_3088">Sedulius [fl. 450] </author><title
+                  key="mlgbWork_3088_1">Carmen paschale</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_3088">Sedulius [fl. 450] </author><title
+                  key="mlgbWork_3088_1">Carmen paschale</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_3088">Sedulius [fl. 450] </author><title
+                  key="mlgbWork_3088_2">Hymni</title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_3088">Sedulius [fl. 450] </author><title
+                  key="mlgbWork_3088_2">Hymni</title></bibl>
          </listBibl>
       </back>
    </text>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">NEW FRIARS</title><title type="mlgb_location">Clare-Austin</title><title type="mlgb_code">F9</title><title type="mlgb_booklist">Receipts for books borrowed (1299-1339)</title>
+            <title type="mlgb_booklist_Group">NEW FRIARS</title>
+            <title type="mlgb_location">Clare-Austin</title>
+            <title type="mlgb_code">F9</title>
+            <title type="mlgb_booklist">Receipts for books borrowed (1299-1339)</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,17 +24,26 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">F9.1</ab>
-               <ab type="mlgb_catalogueExtract">(IV)</ab>
+               <head>F9.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">F9.1</ab>
+                  <ab type="mlgb_catalogueExtract">(IV)</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">F9.2</ab>
+               <head>F9.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">F9.2</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">F9.3</ab>
+               <head>F9.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">F9.3</ab>
+               </div>
             </div>
          </div>
 
@@ -41,7 +54,8 @@
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_2910">Richard Fishacre OP [†1248]
                   </author><title key="mlgbWork_2910_4">Commentary on the Lombard's
                   Sentences</title></bibl>
-            <bibl xml:id="bibl_2"><author key="mlgbAuthor_3551">Germanus </author><title key="mlgbWork_3551_1"/></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_3551">Germanus </author><title
+                  key="mlgbWork_3551_1"/></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_2364">Nicholas Trevet OP [c1258—c1334]
                   </author><title key="mlgbWork_2364_9">Commentary on Regula S.
                Augustini</title></bibl>

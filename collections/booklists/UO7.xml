@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title><title type="mlgb_location">All Souls College</title><title type="mlgb_code">UO7</title><title type="mlgb_booklist">Inventory of the library, c. 1443</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title>
+            <title type="mlgb_location">All Souls College</title>
+            <title type="mlgb_code">UO7</title>
+            <title type="mlgb_booklist">Inventory of the library, c. 1443</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,398 +24,635 @@
          <div type="list">
 
             <div type="entry" n="90">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UO7.90</ab>
-               <ab type="mlgb_catalogueExtract">(`textus philosophie')</ab>
+               <head>UO7.90</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UO7.90</ab>
+                  <ab type="mlgb_catalogueExtract">(`textus philosophie')</ab>
+               </div>
             </div>
             <div type="entry" n="93">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UO7.93</ab>
+               <head>UO7.93</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UO7.93</ab>
+               </div>
             </div>
             <div type="entry" n="94">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">UO7.†94</ab>
-               <ab type="mlgb_catalogueExtract">('Augustinus', 2nd fo.)</ab>
+               <head>UO7.†94</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">UO7.†94</ab>
+                  <ab type="mlgb_catalogueExtract">('Augustinus', 2nd fo.)</ab>
+               </div>
             </div>
             <div type="entry" n="96">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">UO7.†96</ab>
-               <ab type="mlgb_catalogueExtract">(`Bromyard') = UO7.400</ab>
-            </div>
-            <div type="entry" n="96">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">UO7.†96</ab>
-               <ab type="mlgb_catalogueExtract">(`Bromyard')</ab>
+               <head>UO7.96</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">UO7.†96</ab>
+                  <ab type="mlgb_catalogueExtract">(`Bromyard') = UO7.400</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">UO7.†96</ab>
+                  <ab type="mlgb_catalogueExtract">(`Bromyard')</ab>
+               </div>
             </div>
             <div type="entry" n="97">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">UO7.97</ab>
-               <ab type="mlgb_catalogueExtract">(`super Matheum')</ab>
+               <head>UO7.97</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">UO7.97</ab>
+                  <ab type="mlgb_catalogueExtract">(`super Matheum')</ab>
+               </div>
             </div>
             <div type="entry" n="98">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">UO7.†98</ab>
-               <ab type="mlgb_catalogueExtract">(`Hodilstone super psalterium') ?= UO7.396</ab>
+               <head>UO7.†98</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">UO7.†98</ab>
+                  <ab type="mlgb_catalogueExtract">(`Hodilstone super psalterium') ?= UO7.396</ab>
+               </div>
             </div>
             <div type="entry" n="99">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">UO7.99</ab>
-               <ab type="mlgb_catalogueExtract">= UO8.58</ab>
+               <head>UO7.99</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">UO7.99</ab>
+                  <ab type="mlgb_catalogueExtract">= UO8.58</ab>
+               </div>
             </div>
             <div type="entry" n="149">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">UO7.149</ab>
-               <ab type="mlgb_catalogueExtract">(`Iohannes An'')= UO7.430</ab>
+               <head>UO7.149</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">UO7.149</ab>
+                  <ab type="mlgb_catalogueExtract">(`Iohannes An'')= UO7.430</ab>
+               </div>
             </div>
             <div type="entry" n="183">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">UO7.183</ab>
-               <ab type="mlgb_catalogueExtract">= UO7.454,UO79.4 (`lecturam Iacobi super
-                  Codicem')</ab>
+               <head>UO7.183</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">UO7.183</ab>
+                  <ab type="mlgb_catalogueExtract">= UO7.454,UO79.4 (`lecturam Iacobi super
+                     Codicem')</ab>
+               </div>
             </div>
             <div type="entry" n="184">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">UO7.†184</ab>
-               <ab type="mlgb_catalogueExtract">(`tractatus')</ab>
+               <head>UO7.†184</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">UO7.†184</ab>
+                  <ab type="mlgb_catalogueExtract">(`tractatus')</ab>
+               </div>
             </div>
             <div type="entry" n="292">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">UO7.292</ab>
-               <ab type="mlgb_catalogueExtract">(`Bartholomeus Brixiensis', among Roman law
-                  books)</ab>
+               <head>UO7.292</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">UO7.292</ab>
+                  <ab type="mlgb_catalogueExtract">(`Bartholomeus Brixiensis', among Roman law
+                     books)</ab>
+               </div>
             </div>
             <div type="entry" n="314">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">UO7.314</ab>
-               <ab type="mlgb_catalogueExtract">(`Alecenus in perspectiua') = UO7.395</ab>
+               <head>UO7.314</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">UO7.314</ab>
+                  <ab type="mlgb_catalogueExtract">(`Alecenus in perspectiua') = UO7.395</ab>
+               </div>
             </div>
             <div type="entry" n="315">
-               <bibl type="identification" corresp="#bibl_14"/>
-               <ab type="mlgb_copyCode">UO7.315</ab>
-               <ab type="mlgb_catalogueExtract">(`theorica planetarum', 2nd fo.)</ab>
+               <head>UO7.315</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_14"/>
+                  <ab type="mlgb_copyCode">UO7.315</ab>
+                  <ab type="mlgb_catalogueExtract">(`theorica planetarum', 2nd fo.)</ab>
+               </div>
             </div>
             <div type="entry" n="316">
-               <bibl type="identification" corresp="#bibl_15"/>
-               <ab type="mlgb_copyCode">UO7.316</ab>
-               <ab type="mlgb_catalogueExtract">(`geometria')</ab>
+               <head>UO7.316</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_15"/>
+                  <ab type="mlgb_copyCode">UO7.316</ab>
+                  <ab type="mlgb_catalogueExtract">(`geometria')</ab>
+               </div>
             </div>
             <div type="entry" n="326">
-               <bibl type="identification" corresp="#bibl_16"/>
-               <ab type="mlgb_copyCode">UO7.326</ab>
+               <head>UO7.326</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_16"/>
+                  <ab type="mlgb_copyCode">UO7.326</ab>
+               </div>
             </div>
             <div type="entry" n="332">
-               <bibl type="identification" corresp="#bibl_17"/>
-               <ab type="mlgb_copyCode">UO7.332</ab>
-               <ab type="mlgb_catalogueExtract">= UO12.20</ab>
+               <head>UO7.332</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_17"/>
+                  <ab type="mlgb_copyCode">UO7.332</ab>
+                  <ab type="mlgb_catalogueExtract">= UO12.20</ab>
+               </div>
             </div>
             <div type="entry" n="338">
-               <bibl type="identification" corresp="#bibl_18"/>
-               <ab type="mlgb_copyCode">UO7.338</ab>
-               <ab type="mlgb_catalogueExtract">(altered to `trinitate')</ab>
+               <head>UO7.338</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_18"/>
+                  <ab type="mlgb_copyCode">UO7.338</ab>
+                  <ab type="mlgb_catalogueExtract">(altered to `trinitate')</ab>
+               </div>
             </div>
             <div type="entry" n="372">
-               <bibl type="identification" corresp="#bibl_19"/>
-               <ab type="mlgb_copyCode">UO7.372</ab>
+               <head>UO7.372</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_19"/>
+                  <ab type="mlgb_copyCode">UO7.372</ab>
+               </div>
             </div>
             <div type="entry" n="393">
-               <bibl type="identification" corresp="#bibl_20"/>
-               <ab type="mlgb_copyCode">UO7.393</ab>
-               <ab type="mlgb_catalogueExtract">(inforciatum)</ab>
+               <head>UO7.393</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_20"/>
+                  <ab type="mlgb_copyCode">UO7.393</ab>
+                  <ab type="mlgb_catalogueExtract">(inforciatum)</ab>
+               </div>
             </div>
             <div type="entry" n="394">
-               <bibl type="identification" corresp="#bibl_21"/>
-               <ab type="mlgb_copyCode">UO7.394</ab>
-               <ab type="mlgb_catalogueExtract">(uetus)</ab>
+               <head>UO7.394</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_21"/>
+                  <ab type="mlgb_copyCode">UO7.394</ab>
+                  <ab type="mlgb_catalogueExtract">(uetus)</ab>
+               </div>
             </div>
             <div type="entry" n="395">
-               <bibl type="identification" corresp="#bibl_22"/>
-               <ab type="mlgb_copyCode">UO7.395</ab>
-               <ab type="mlgb_catalogueExtract">(`Allocen' artis perspectiue')</ab>
+               <head>UO7.395</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_22"/>
+                  <ab type="mlgb_copyCode">UO7.395</ab>
+                  <ab type="mlgb_catalogueExtract">(`Allocen' artis perspectiue')</ab>
+               </div>
             </div>
             <div type="entry" n="396">
-               <bibl type="identification" corresp="#bibl_23"/>
-               <ab type="mlgb_copyCode">UO7.396</ab>
-               <ab type="mlgb_catalogueExtract">(`psalterium glosatum cum aliis contentis', same 2nd
-                  fo.)</ab>
+               <head>UO7.396</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_23"/>
+                  <ab type="mlgb_copyCode">UO7.396</ab>
+                  <ab type="mlgb_catalogueExtract">(`psalterium glosatum cum aliis contentis', same
+                     2nd fo.)</ab>
+               </div>
             </div>
             <div type="entry" n="397">
-               <bibl type="identification" corresp="#bibl_24"/>
-               <ab type="mlgb_copyCode">UO7.397</ab>
+               <head>UO7.397</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_24"/>
+                  <ab type="mlgb_copyCode">UO7.397</ab>
+               </div>
             </div>
             <div type="entry" n="398">
-               <bibl type="identification" corresp="#bibl_25"/>
-               <ab type="mlgb_copyCode">UO7.398</ab>
-               <ab type="mlgb_catalogueExtract">(`A. in diuersis tractat'')</ab>
+               <head>UO7.398</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_25"/>
+                  <ab type="mlgb_copyCode">UO7.398</ab>
+                  <ab type="mlgb_catalogueExtract">(`A. in diuersis tractat'')</ab>
+               </div>
             </div>
             <div type="entry" n="400">
-               <bibl type="identification" corresp="#bibl_26"/>
-               <ab type="mlgb_copyCode">UO7.400</ab>
+               <head>UO7.400</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_26"/>
+                  <ab type="mlgb_copyCode">UO7.400</ab>
+               </div>
             </div>
             <div type="entry" n="401">
-               <bibl type="identification" corresp="#bibl_27"/>
-               <ab type="mlgb_copyCode">UO7.401</ab>
+               <head>UO7.401</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_27"/>
+                  <ab type="mlgb_copyCode">UO7.401</ab>
+               </div>
             </div>
             <div type="entry" n="402">
-               <bibl type="identification" corresp="#bibl_28"/>
-               <ab type="mlgb_copyCode">UO7.†402</ab>
-               <ab type="mlgb_catalogueExtract">(anon., `liber artis perspectiue')</ab>
+               <head>UO7.†402</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_28"/>
+                  <ab type="mlgb_copyCode">UO7.†402</ab>
+                  <ab type="mlgb_catalogueExtract">(anon., `liber artis perspectiue')</ab>
+               </div>
             </div>
             <div type="entry" n="403">
-               <bibl type="identification" corresp="#bibl_29"/>
-               <ab type="mlgb_copyCode">UO7.403</ab>
+               <head>UO7.403</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_29"/>
+                  <ab type="mlgb_copyCode">UO7.403</ab>
+               </div>
             </div>
             <div type="entry" n="404">
-               <bibl type="identification" corresp="#bibl_30"/>
-               <ab type="mlgb_copyCode">UO7.404</ab>
-               <ab type="mlgb_catalogueExtract">(`geomancia Gerardi')</ab>
+               <head>UO7.404</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_30"/>
+                  <ab type="mlgb_copyCode">UO7.404</ab>
+                  <ab type="mlgb_catalogueExtract">(`geomancia Gerardi')</ab>
+               </div>
             </div>
             <div type="entry" n="405">
-               <bibl type="identification" corresp="#bibl_31"/>
-               <ab type="mlgb_copyCode">UO7.405</ab>
+               <head>UO7.405</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_31"/>
+                  <ab type="mlgb_copyCode">UO7.405</ab>
+               </div>
             </div>
             <div type="entry" n="406">
-               <bibl type="identification" corresp="#bibl_32"/>
-               <ab type="mlgb_copyCode">UO7.406</ab>
+               <head>UO7.406</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_32"/>
+                  <ab type="mlgb_copyCode">UO7.406</ab>
+               </div>
             </div>
             <div type="entry" n="410">
-               <bibl type="identification" corresp="#bibl_33"/>
-               <ab type="mlgb_copyCode">UO7.410</ab>
-               <ab type="mlgb_catalogueExtract">(`liber philosophie')</ab>
+               <head>UO7.410</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_33"/>
+                  <ab type="mlgb_copyCode">UO7.410</ab>
+                  <ab type="mlgb_catalogueExtract">(`liber philosophie')</ab>
+               </div>
             </div>
             <div type="entry" n="415">
-               <bibl type="identification" corresp="#bibl_34"/>
-               <ab type="mlgb_copyCode">UO7.415</ab>
-               <ab type="mlgb_catalogueExtract">(`perspectiua Bacon')</ab>
+               <head>UO7.415</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_34"/>
+                  <ab type="mlgb_copyCode">UO7.415</ab>
+                  <ab type="mlgb_catalogueExtract">(`perspectiua Bacon')</ab>
+               </div>
             </div>
             <div type="entry" n="417">
-               <bibl type="identification" corresp="#bibl_35"/>
-               <ab type="mlgb_copyCode">UO7.417</ab>
-               <ab type="mlgb_catalogueExtract">(`'Goffr')</ab>
+               <head>UO7.417</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_35"/>
+                  <ab type="mlgb_copyCode">UO7.417</ab>
+                  <ab type="mlgb_catalogueExtract">(`'Goffr')</ab>
+               </div>
             </div>
             <div type="entry" n="418">
-               <bibl type="identification" corresp="#bibl_36"/>
-               <ab type="mlgb_copyCode">UO7.†418</ab>
-               <ab type="mlgb_catalogueExtract">(`de lxx uerbis Aristotelis')</ab>
-            </div>
-            <div type="entry" n="418">
-               <bibl type="identification" corresp="#bibl_37"/>
-               <ab type="mlgb_copyCode">UO7.†418</ab>
-               <ab type="mlgb_catalogueExtract">(`de lxx uerbis Aristotelis')</ab>
+               <head>UO7.418</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_36"/>
+                  <ab type="mlgb_copyCode">UO7.†418</ab>
+                  <ab type="mlgb_catalogueExtract">(`de lxx uerbis Aristotelis')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_37"/>
+                  <ab type="mlgb_copyCode">UO7.†418</ab>
+                  <ab type="mlgb_catalogueExtract">(`de lxx uerbis Aristotelis')</ab>
+               </div>
             </div>
             <div type="entry" n="425">
-               <bibl type="identification" corresp="#bibl_38"/>
-               <ab type="mlgb_copyCode">UO7.425</ab>
-               <ab type="mlgb_catalogueExtract">(`Allocen artis perspectiue')</ab>
+               <head>UO7.425</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_38"/>
+                  <ab type="mlgb_copyCode">UO7.425</ab>
+                  <ab type="mlgb_catalogueExtract">(`Allocen artis perspectiue')</ab>
+               </div>
             </div>
             <div type="entry" n="426">
-               <bibl type="identification" corresp="#bibl_39"/>
-               <ab type="mlgb_copyCode">UO7.426</ab>
-               <ab type="mlgb_catalogueExtract">(`tractatus de conuersione s. Pauli cum aliis
-                  contentis secundum Petrum Blesenc'') = UO13.57</ab>
-            </div>
-            <div type="entry" n="426">
-               <bibl type="identification" corresp="#bibl_40"/>
-               <ab type="mlgb_copyCode">UO7.426</ab>
-               <ab type="mlgb_catalogueExtract">(`tractatus de conuersione s. Pauli cum aliis
-                  contentis secundum Petrum Blesenc'') = UO13.57</ab>
-            </div>
-            <div type="entry" n="426">
-               <bibl type="identification" corresp="#bibl_41"/>
-               <ab type="mlgb_copyCode">UO7.426</ab>
-               <ab type="mlgb_catalogueExtract">(`tractatus de conuersione s. Pauli cum aliis
-                  contentis secundum Petrum Blesenc'')</ab>
+               <head>UO7.426</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_39"/>
+                  <ab type="mlgb_copyCode">UO7.426</ab>
+                  <ab type="mlgb_catalogueExtract">(`tractatus de conuersione s. Pauli cum aliis
+                     contentis secundum Petrum Blesenc'') = UO13.57</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_40"/>
+                  <ab type="mlgb_copyCode">UO7.426</ab>
+                  <ab type="mlgb_catalogueExtract">(`tractatus de conuersione s. Pauli cum aliis
+                     contentis secundum Petrum Blesenc'') = UO13.57</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_41"/>
+                  <ab type="mlgb_copyCode">UO7.426</ab>
+                  <ab type="mlgb_catalogueExtract">(`tractatus de conuersione s. Pauli cum aliis
+                     contentis secundum Petrum Blesenc'')</ab>
+               </div>
             </div>
             <div type="entry" n="427">
-               <bibl type="identification" corresp="#bibl_42"/>
-               <ab type="mlgb_copyCode">UO7.427</ab>
+               <head>UO7.427</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_42"/>
+                  <ab type="mlgb_copyCode">UO7.427</ab>
+               </div>
             </div>
             <div type="entry" n="429">
-               <bibl type="identification" corresp="#bibl_43"/>
-               <ab type="mlgb_copyCode">UO7.429</ab>
-               <ab type="mlgb_catalogueExtract">(`Rydeuaus') = UO8.106</ab>
+               <head>UO7.429</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_43"/>
+                  <ab type="mlgb_copyCode">UO7.429</ab>
+                  <ab type="mlgb_catalogueExtract">(`Rydeuaus') = UO8.106</ab>
+               </div>
             </div>
             <div type="entry" n="430">
-               <bibl type="identification" corresp="#bibl_44"/>
-               <ab type="mlgb_copyCode">UO7.430</ab>
-               <ab type="mlgb_catalogueExtract">(`Ioh. in addic'') = UO8.186</ab>
+               <head>UO7.430</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_44"/>
+                  <ab type="mlgb_copyCode">UO7.430</ab>
+                  <ab type="mlgb_catalogueExtract">(`Ioh. in addic'') = UO8.186</ab>
+               </div>
             </div>
             <div type="entry" n="431">
-               <bibl type="identification" corresp="#bibl_45"/>
-               <ab type="mlgb_copyCode">UO7.431x</ab>
-            </div>
-            <div type="entry" n="431">
-               <bibl type="identification" corresp="#bibl_46"/>
-               <ab type="mlgb_copyCode">UO7.431</ab>
+               <head>UO7.431</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_45"/>
+                  <ab type="mlgb_copyCode">UO7.431x</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_46"/>
+                  <ab type="mlgb_copyCode">UO7.431</ab>
+               </div>
             </div>
             <div type="entry" n="432">
-               <bibl type="identification" corresp="#bibl_47"/>
-               <ab type="mlgb_copyCode">UO7.432</ab>
+               <head>UO7.432</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_47"/>
+                  <ab type="mlgb_copyCode">UO7.432</ab>
+               </div>
             </div>
             <div type="entry" n="434">
-               <bibl type="identification" corresp="#bibl_48"/>
-               <ab type="mlgb_copyCode">UO7.434</ab>
-               <ab type="mlgb_catalogueExtract">(`Lactencius', identified from 2nd fo.) =
-                  UO12.19</ab>
+               <head>UO7.434</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_48"/>
+                  <ab type="mlgb_copyCode">UO7.434</ab>
+                  <ab type="mlgb_catalogueExtract">(`Lactencius', identified from 2nd fo.) =
+                     UO12.19</ab>
+               </div>
             </div>
             <div type="entry" n="436">
-               <bibl type="identification" corresp="#bibl_49"/>
-               <ab type="mlgb_copyCode">UO7.436</ab>
+               <head>UO7.436</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_49"/>
+                  <ab type="mlgb_copyCode">UO7.436</ab>
+               </div>
             </div>
             <div type="entry" n="437">
-               <bibl type="identification" corresp="#bibl_50"/>
-               <ab type="mlgb_copyCode">UO7.437</ab>
+               <head>UO7.437</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_50"/>
+                  <ab type="mlgb_copyCode">UO7.437</ab>
+               </div>
             </div>
             <div type="entry" n="438">
-               <bibl type="identification" corresp="#bibl_51"/>
-               <ab type="mlgb_copyCode">UO7.438</ab>
-               <ab type="mlgb_catalogueExtract">(`abbas')</ab>
+               <head>UO7.438</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_51"/>
+                  <ab type="mlgb_copyCode">UO7.438</ab>
+                  <ab type="mlgb_catalogueExtract">(`abbas')</ab>
+               </div>
             </div>
             <div type="entry" n="439">
-               <bibl type="identification" corresp="#bibl_52"/>
-               <ab type="mlgb_copyCode">UO7.439</ab>
-               <ab type="mlgb_catalogueExtract">(`in prima parte')</ab>
+               <head>UO7.439</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_52"/>
+                  <ab type="mlgb_copyCode">UO7.439</ab>
+                  <ab type="mlgb_catalogueExtract">(`in prima parte')</ab>
+               </div>
             </div>
             <div type="entry" n="440">
-               <bibl type="identification" corresp="#bibl_53"/>
-               <ab type="mlgb_copyCode">UO7.440</ab>
+               <head>UO7.440</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_53"/>
+                  <ab type="mlgb_copyCode">UO7.440</ab>
+               </div>
             </div>
             <div type="entry" n="442">
-               <bibl type="identification" corresp="#bibl_54"/>
-               <ab type="mlgb_copyCode">UO7.442</ab>
+               <head>UO7.442</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_54"/>
+                  <ab type="mlgb_copyCode">UO7.442</ab>
+               </div>
             </div>
             <div type="entry" n="443">
-               <bibl type="identification" corresp="#bibl_55"/>
-               <ab type="mlgb_copyCode">UO7.443</ab>
-               <ab type="mlgb_catalogueExtract">(`glosa super digestum uetus')</ab>
+               <head>UO7.443</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_55"/>
+                  <ab type="mlgb_copyCode">UO7.443</ab>
+                  <ab type="mlgb_catalogueExtract">(`glosa super digestum uetus')</ab>
+               </div>
             </div>
             <div type="entry" n="444">
-               <bibl type="identification" corresp="#bibl_56"/>
-               <ab type="mlgb_copyCode">UO7.†444</ab>
-               <ab type="mlgb_catalogueExtract">(`Barnardus')</ab>
+               <head>UO7.†444</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_56"/>
+                  <ab type="mlgb_copyCode">UO7.†444</ab>
+                  <ab type="mlgb_catalogueExtract">(`Barnardus')</ab>
+               </div>
             </div>
             <div type="entry" n="445">
-               <bibl type="identification" corresp="#bibl_57"/>
-               <ab type="mlgb_copyCode">UO7.445</ab>
+               <head>UO7.445</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_57"/>
+                  <ab type="mlgb_copyCode">UO7.445</ab>
+               </div>
             </div>
             <div type="entry" n="446">
-               <bibl type="identification" corresp="#bibl_58"/>
-               <ab type="mlgb_copyCode">UO7.446</ab>
-               <ab type="mlgb_catalogueExtract">(`cum doctoribus')</ab>
+               <head>UO7.446</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_58"/>
+                  <ab type="mlgb_copyCode">UO7.446</ab>
+                  <ab type="mlgb_catalogueExtract">(`cum doctoribus')</ab>
+               </div>
             </div>
             <div type="entry" n="447">
-               <bibl type="identification" corresp="#bibl_59"/>
-               <ab type="mlgb_copyCode">UO7.447</ab>
+               <head>UO7.447</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_59"/>
+                  <ab type="mlgb_copyCode">UO7.447</ab>
+               </div>
             </div>
             <div type="entry" n="449">
-               <bibl type="identification" corresp="#bibl_60"/>
-               <ab type="mlgb_copyCode">UO7.†449</ab>
-               <ab type="mlgb_catalogueExtract">(`Palladius', among canon law books)</ab>
+               <head>UO7.†449</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_60"/>
+                  <ab type="mlgb_copyCode">UO7.†449</ab>
+                  <ab type="mlgb_catalogueExtract">(`Palladius', among canon law books)</ab>
+               </div>
             </div>
             <div type="entry" n="451">
-               <bibl type="identification" corresp="#bibl_61"/>
-               <ab type="mlgb_copyCode">UO7.451</ab>
+               <head>UO7.451</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_61"/>
+                  <ab type="mlgb_copyCode">UO7.451</ab>
+               </div>
             </div>
             <div type="entry" n="452">
-               <bibl type="identification" corresp="#bibl_62"/>
-               <ab type="mlgb_copyCode">UO7.452</ab>
+               <head>UO7.452</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_62"/>
+                  <ab type="mlgb_copyCode">UO7.452</ab>
+               </div>
             </div>
             <div type="entry" n="453">
-               <bibl type="identification" corresp="#bibl_63"/>
-               <ab type="mlgb_copyCode">UO7.453</ab>
+               <head>UO7.453</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_63"/>
+                  <ab type="mlgb_copyCode">UO7.453</ab>
+               </div>
             </div>
             <div type="entry" n="455">
-               <bibl type="identification" corresp="#bibl_64"/>
-               <ab type="mlgb_copyCode">UO7.455</ab>
-               <ab type="mlgb_catalogueExtract">(inforciatum)</ab>
+               <head>UO7.455</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_64"/>
+                  <ab type="mlgb_copyCode">UO7.455</ab>
+                  <ab type="mlgb_catalogueExtract">(inforciatum)</ab>
+               </div>
             </div>
             <div type="entry" n="456">
-               <bibl type="identification" corresp="#bibl_65"/>
-               <ab type="mlgb_copyCode">UO7.456</ab>
+               <head>UO7.456</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_65"/>
+                  <ab type="mlgb_copyCode">UO7.456</ab>
+               </div>
             </div>
             <div type="entry" n="457">
-               <bibl type="identification" corresp="#bibl_66"/>
-               <ab type="mlgb_copyCode">UO7.457</ab>
-               <ab type="mlgb_catalogueExtract">(nouum)</ab>
+               <head>UO7.457</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_66"/>
+                  <ab type="mlgb_copyCode">UO7.457</ab>
+                  <ab type="mlgb_catalogueExtract">(nouum)</ab>
+               </div>
             </div>
             <div type="entry" n="458">
-               <bibl type="identification" corresp="#bibl_67"/>
-               <ab type="mlgb_copyCode">UO7.458</ab>
+               <head>UO7.458</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_67"/>
+                  <ab type="mlgb_copyCode">UO7.458</ab>
+               </div>
             </div>
             <div type="entry" n="459">
-               <bibl type="identification" corresp="#bibl_68"/>
-               <ab type="mlgb_copyCode">UO7.459</ab>
+               <head>UO7.459</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_68"/>
+                  <ab type="mlgb_copyCode">UO7.459</ab>
+               </div>
             </div>
             <div type="entry" n="460">
-               <bibl type="identification" corresp="#bibl_69"/>
-               <ab type="mlgb_copyCode">UO7.460</ab>
-               <ab type="mlgb_catalogueExtract">(`conclusio Bal' super Innoc.')</ab>
+               <head>UO7.460</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_69"/>
+                  <ab type="mlgb_copyCode">UO7.460</ab>
+                  <ab type="mlgb_catalogueExtract">(`conclusio Bal' super Innoc.')</ab>
+               </div>
             </div>
             <div type="entry" n="462">
-               <bibl type="identification" corresp="#bibl_70"/>
-               <ab type="mlgb_copyCode">UO7.462</ab>
+               <head>UO7.462</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_70"/>
+                  <ab type="mlgb_copyCode">UO7.462</ab>
+               </div>
             </div>
             <div type="entry" n="463">
-               <bibl type="identification" corresp="#bibl_71"/>
-               <ab type="mlgb_copyCode">UO7.463</ab>
+               <head>UO7.463</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_71"/>
+                  <ab type="mlgb_copyCode">UO7.463</ab>
+               </div>
             </div>
             <div type="entry" n="464">
-               <bibl type="identification" corresp="#bibl_72"/>
-               <ab type="mlgb_copyCode">UO7.464</ab>
+               <head>UO7.464</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_72"/>
+                  <ab type="mlgb_copyCode">UO7.464</ab>
+               </div>
             </div>
             <div type="entry" n="465">
-               <bibl type="identification" corresp="#bibl_73"/>
-               <ab type="mlgb_copyCode">UO7.465—6</ab>
-               <ab type="mlgb_catalogueExtract">(inforciatum, 2 copies)</ab>
+               <head>UO7.465—6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_73"/>
+                  <ab type="mlgb_copyCode">UO7.465—6</ab>
+                  <ab type="mlgb_catalogueExtract">(inforciatum, 2 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="466">
-               <bibl type="identification" corresp="#bibl_74"/>
-               <ab type="mlgb_copyCode">UO7.465—6</ab>
-               <ab type="mlgb_catalogueExtract">(inforciatum, 2 copies)</ab>
+               <head>UO7.465—6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_74"/>
+                  <ab type="mlgb_copyCode">UO7.465—6</ab>
+                  <ab type="mlgb_catalogueExtract">(inforciatum, 2 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="467">
-               <bibl type="identification" corresp="#bibl_75"/>
-               <ab type="mlgb_copyCode">UO7.467</ab>
-               <ab type="mlgb_catalogueExtract">(nouum)</ab>
+               <head>UO7.467</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_75"/>
+                  <ab type="mlgb_copyCode">UO7.467</ab>
+                  <ab type="mlgb_catalogueExtract">(nouum)</ab>
+               </div>
             </div>
             <div type="entry" n="468">
-               <bibl type="identification" corresp="#bibl_76"/>
-               <ab type="mlgb_copyCode">UO7.468</ab>
+               <head>UO7.468</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_76"/>
+                  <ab type="mlgb_copyCode">UO7.468</ab>
+               </div>
             </div>
             <div type="entry" n="469">
-               <bibl type="identification" corresp="#bibl_77"/>
-               <ab type="mlgb_copyCode">UO7.469</ab>
+               <head>UO7.469</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_77"/>
+                  <ab type="mlgb_copyCode">UO7.469</ab>
+               </div>
             </div>
             <div type="entry" n="470">
-               <bibl type="identification" corresp="#bibl_78"/>
-               <ab type="mlgb_copyCode">UO7.470</ab>
+               <head>UO7.470</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_78"/>
+                  <ab type="mlgb_copyCode">UO7.470</ab>
+               </div>
             </div>
             <div type="entry" n="472">
-               <bibl type="identification" corresp="#bibl_79"/>
-               <ab type="mlgb_copyCode">UO7.472</ab>
+               <head>UO7.472</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_79"/>
+                  <ab type="mlgb_copyCode">UO7.472</ab>
+               </div>
             </div>
             <div type="entry" n="474">
-               <bibl type="identification" corresp="#bibl_80"/>
-               <ab type="mlgb_copyCode">UO7.474</ab>
-               <ab type="mlgb_catalogueExtract">(`casuarius super decretal'')</ab>
+               <head>UO7.474</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_80"/>
+                  <ab type="mlgb_copyCode">UO7.474</ab>
+                  <ab type="mlgb_catalogueExtract">(`casuarius super decretal'')</ab>
+               </div>
             </div>
             <div type="entry" n="475">
-               <bibl type="identification" corresp="#bibl_81"/>
-               <ab type="mlgb_copyCode">UO7.475</ab>
-               <ab type="mlgb_catalogueExtract">(IV)</ab>
+               <head>UO7.475</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_81"/>
+                  <ab type="mlgb_copyCode">UO7.475</ab>
+                  <ab type="mlgb_catalogueExtract">(IV)</ab>
+               </div>
             </div>
             <div type="entry" n="477">
-               <bibl type="identification" corresp="#bibl_82"/>
-               <ab type="mlgb_copyCode">UO7.477</ab>
-               <ab type="mlgb_catalogueExtract">(`magister †summarum')</ab>
+               <head>UO7.477</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_82"/>
+                  <ab type="mlgb_copyCode">UO7.477</ab>
+                  <ab type="mlgb_catalogueExtract">(`magister †summarum')</ab>
+               </div>
             </div>
             <div type="entry" n="479">
-               <bibl type="identification" corresp="#bibl_83"/>
-               <ab type="mlgb_copyCode">UO7.479</ab>
+               <head>UO7.479</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_83"/>
+                  <ab type="mlgb_copyCode">UO7.479</ab>
+               </div>
             </div>
             <div type="entry" n="480">
-               <bibl type="identification" corresp="#bibl_84"/>
-               <ab type="mlgb_copyCode">UO7.480</ab>
-               <ab type="mlgb_catalogueExtract">(`Ianuensis')</ab>
+               <head>UO7.480</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_84"/>
+                  <ab type="mlgb_copyCode">UO7.480</ab>
+                  <ab type="mlgb_catalogueExtract">(`Ianuensis')</ab>
+               </div>
             </div>
          </div>
 
@@ -445,7 +686,8 @@
                   [c1270—1348] </author><title key="mlgbWork_1555_2">Additiones ad
                   Decretales</title></bibl>
             <bibl xml:id="bibl_10"><author key="mlgbAuthor_1488">Iacobus de Ravanis (Jacques de
-                  Révigny) [†1296], bishop of Verdun </author><title key="mlgbWork_1488_1">Commentary on Justinian's Codex</title></bibl>
+                  Révigny) [†1296], bishop of Verdun </author><title key="mlgbWork_1488_1"
+                  >Commentary on Justinian's Codex</title></bibl>
             <bibl xml:id="bibl_11"><author key="mlgbAuthor_388">Baldus de Ubaldis (Baldo degli
                   Ubaldi) [?1327—1400] </author><title key="mlgbWork_388_15">Tractatus de
                   quaestionibus et tormentis</title></bibl>
@@ -454,9 +696,12 @@
             <bibl xml:id="bibl_13"><author key="mlgbAuthor_162">Alhazen (Abu `Ali al-Hasan ibn
                   al-Hasan ibn al-Haytham) [965—1038] </author><title key="mlgbWork_162_1">De
                   aspectibus, tr. Gerard of Cremona</title></bibl>
-            <bibl xml:id="bibl_14"><author key="mlgbAuthor_3327">Theorica planetarum</author><title key="mlgbWork_3327_1"/></bibl>
-            <bibl xml:id="bibl_15"><author key="mlgbAuthor_905">Euclid [fl. 300 BC] </author><title key="mlgbWork_905_3">Elementa, tr. from Arabic by Adelard of Bath</title></bibl>
-            <bibl xml:id="bibl_16"><author key="mlgbAuthor_905">Euclid [fl. 300 BC] </author><title key="mlgbWork_905_3">Elementa, tr. from Arabic by Adelard of Bath</title></bibl>
+            <bibl xml:id="bibl_14"><author key="mlgbAuthor_3327">Theorica planetarum</author><title
+                  key="mlgbWork_3327_1"/></bibl>
+            <bibl xml:id="bibl_15"><author key="mlgbAuthor_905">Euclid [fl. 300 BC] </author><title
+                  key="mlgbWork_905_3">Elementa, tr. from Arabic by Adelard of Bath</title></bibl>
+            <bibl xml:id="bibl_16"><author key="mlgbAuthor_905">Euclid [fl. 300 BC] </author><title
+                  key="mlgbWork_905_3">Elementa, tr. from Arabic by Adelard of Bath</title></bibl>
             <bibl xml:id="bibl_17"><author key="mlgbAuthor_2643">Francesco Petrarca [1304—1374]
                   </author><title key="mlgbWork_2643_4">De remediis utriusque
                fortunae</title></bibl>
@@ -465,8 +710,10 @@
             <bibl xml:id="bibl_19"><author key="mlgbAuthor_151">Alfarabius (Abu Nasr al-Farabi)
                   [870/72—950] </author><title key="mlgbWork_151_2">De ortu scientiarum, tr.
                   Dominicus Gundisalvi</title></bibl>
-            <bibl xml:id="bibl_20"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_5">Digestum</title></bibl>
-            <bibl xml:id="bibl_21"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_5">Digestum</title></bibl>
+            <bibl xml:id="bibl_20"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_5">Digestum</title></bibl>
+            <bibl xml:id="bibl_21"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_5">Digestum</title></bibl>
             <bibl xml:id="bibl_22"><author key="mlgbAuthor_162">Alhazen (Abu `Ali al-Hasan ibn
                   al-Hasan ibn al-Haytham) [965—1038] </author><title key="mlgbWork_162_1">De
                   aspectibus, tr. Gerard of Cremona</title></bibl>
@@ -479,7 +726,8 @@
             <bibl xml:id="bibl_26"><author key="mlgbAuthor_1607">John of Bromyard OP [†1352]
                   </author><title key="mlgbWork_1607_3">Opus triuium siue Tractatus iuris ciuilis et
                   canonici ad moralem materiam applicati</title></bibl>
-            <bibl xml:id="bibl_27"><author key="mlgbAuthor_2720">Porphyry [232—302] </author><title key="mlgbWork_2720_2">Isagoge in Categorias Aristotelis, tr.
+            <bibl xml:id="bibl_27"><author key="mlgbAuthor_2720">Porphyry [232—302] </author><title
+                  key="mlgbWork_2720_2">Isagoge in Categorias Aristotelis, tr.
                Boethius</title></bibl>
             <bibl xml:id="bibl_28"><author key="mlgbAuthor_162">Alhazen (Abu `Ali al-Hasan ibn
                   al-Hasan ibn al-Haytham) [965—1038] </author><title key="mlgbWork_162_1">De
@@ -531,11 +779,13 @@
             <bibl xml:id="bibl_46"><author key="mlgbAuthor_1529">Innocent IV (Sinibaldo Fieschi)
                   [sedit 1243—1254] </author><title key="mlgbWork_1529_1">Apparatus in quinque
                   libros Decretalium</title></bibl>
-            <bibl xml:id="bibl_47"><author key="mlgbAuthor_1545">John Acton [†1350] </author><title key="mlgbWork_1545_2">(?), Septuplum commentatum de peccatis</title></bibl>
+            <bibl xml:id="bibl_47"><author key="mlgbAuthor_1545">John Acton [†1350] </author><title
+                  key="mlgbWork_1545_2">(?), Septuplum commentatum de peccatis</title></bibl>
             <bibl xml:id="bibl_48"><author key="mlgbAuthor_1982">Lactantius Firmianus [fl. 305—323]
                   </author><title key="mlgbWork_1982_5">Diuinae institutiones</title></bibl>
             <bibl xml:id="bibl_49"><author key="mlgbAuthor_1194">Gregory IX (Ugolino da Segni)
-                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1">Decretales</title></bibl>
+                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1"
+                  >Decretales</title></bibl>
             <bibl xml:id="bibl_50"><author key="mlgbAuthor_2078">Liber sextus Decretalium,
                   continuing the Decretals from Gregory IX (1234) to Boniface VIII
                   (1298)</author><title key="mlgbWork_2078_1"/></bibl>
@@ -546,14 +796,17 @@
                   Hostiensis [c1200—1271] </author><title key="mlgbWork_1314_1">Lectura super
                   Decretales</title></bibl>
             <bibl xml:id="bibl_53"><author key="mlgbAuthor_1194">Gregory IX (Ugolino da Segni)
-                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1">Decretales</title></bibl>
+                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1"
+                  >Decretales</title></bibl>
             <bibl xml:id="bibl_54"><author key="mlgbAuthor_691">Constitutiones Clementinae,
                   collecting the constitutions of Clement V, promulgated by John XXII in
                   1317</author><title key="mlgbWork_691_1"/></bibl>
-            <bibl xml:id="bibl_55"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_5">Digestum</title></bibl>
+            <bibl xml:id="bibl_55"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_5">Digestum</title></bibl>
             <bibl xml:id="bibl_56"><author key="mlgbAuthor_460">Bernard of Parma [†1266]
                   </author><title key="mlgbWork_460_1">Casus longi super Decretales</title></bibl>
-            <bibl xml:id="bibl_57"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_6">Institutiones</title></bibl>
+            <bibl xml:id="bibl_57"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_6">Institutiones</title></bibl>
             <bibl xml:id="bibl_58"><author key="mlgbAuthor_2078">Liber sextus Decretalium,
                   continuing the Decretals from Gregory IX (1234) to Boniface VIII
                   (1298)</author><title key="mlgbWork_2078_1"/></bibl>
@@ -564,32 +817,44 @@
             <bibl xml:id="bibl_61"><author key="mlgbAuthor_1529">Innocent IV (Sinibaldo Fieschi)
                   [sedit 1243—1254] </author><title key="mlgbWork_1529_1">Apparatus in quinque
                   libros Decretalium</title></bibl>
-            <bibl xml:id="bibl_62"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_2">Codex</title></bibl>
+            <bibl xml:id="bibl_62"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_2">Codex</title></bibl>
             <bibl xml:id="bibl_63"><author key="mlgbAuthor_1217">Guido de Baysio, known as
-                  Archidiaconus [†1313], archdeacon of Bologna </author><title key="mlgbWork_1217_1">Apparatus ad Sextum</title></bibl>
-            <bibl xml:id="bibl_64"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_5">Digestum</title></bibl>
+                  Archidiaconus [†1313], archdeacon of Bologna </author><title key="mlgbWork_1217_1"
+                  >Apparatus ad Sextum</title></bibl>
+            <bibl xml:id="bibl_64"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_5">Digestum</title></bibl>
             <bibl xml:id="bibl_65"><author key="mlgbAuthor_2471">Paruum uolumen, a standard
                   collection</author><title key="mlgbWork_2471_1"/></bibl>
-            <bibl xml:id="bibl_66"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_5">Digestum</title></bibl>
-            <bibl xml:id="bibl_67"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_2">Codex</title></bibl>
+            <bibl xml:id="bibl_66"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_5">Digestum</title></bibl>
+            <bibl xml:id="bibl_67"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_2">Codex</title></bibl>
             <bibl xml:id="bibl_68"><author key="mlgbAuthor_1194">Gregory IX (Ugolino da Segni)
-                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1">Decretales</title></bibl>
+                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1"
+                  >Decretales</title></bibl>
             <bibl xml:id="bibl_69"><author key="mlgbAuthor_388">Baldus de Ubaldis (Baldo degli
                   Ubaldi) [?1327—1400] </author><title key="mlgbWork_388_13">Repertorium super
                   Innocentio, a key to Innocent IV's Apparatus on the Decretals</title></bibl>
-            <bibl xml:id="bibl_70"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_2">Codex</title></bibl>
+            <bibl xml:id="bibl_70"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_2">Codex</title></bibl>
             <bibl xml:id="bibl_71"><author key="mlgbAuthor_2471">Paruum uolumen, a standard
                   collection</author><title key="mlgbWork_2471_1"/></bibl>
             <bibl xml:id="bibl_72"><author key="mlgbAuthor_1529">Innocent IV (Sinibaldo Fieschi)
                   [sedit 1243—1254] </author><title key="mlgbWork_1529_1">Apparatus in quinque
                   libros Decretalium</title></bibl>
-            <bibl xml:id="bibl_73"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_5">Digestum</title></bibl>
-            <bibl xml:id="bibl_74"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_5">Digestum</title></bibl>
-            <bibl xml:id="bibl_75"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_5">Digestum</title></bibl>
-            <bibl xml:id="bibl_76"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_2">Codex</title></bibl>
+            <bibl xml:id="bibl_73"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_5">Digestum</title></bibl>
+            <bibl xml:id="bibl_74"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_5">Digestum</title></bibl>
+            <bibl xml:id="bibl_75"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_5">Digestum</title></bibl>
+            <bibl xml:id="bibl_76"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_2">Codex</title></bibl>
             <bibl xml:id="bibl_77"><author key="mlgbAuthor_2471">Paruum uolumen, a standard
                   collection</author><title key="mlgbWork_2471_1"/></bibl>
-            <bibl xml:id="bibl_78"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_2">Codex</title></bibl>
+            <bibl xml:id="bibl_78"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_2">Codex</title></bibl>
             <bibl xml:id="bibl_79"><author key="mlgbAuthor_1423">Hugh of Saint-Victor OSA
                   [c1096—1141] </author><title key="mlgbWork_1423_82">unspecified work
                </title></bibl>

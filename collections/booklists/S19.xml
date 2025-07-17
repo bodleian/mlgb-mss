@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SCOTLAND</title><title type="mlgb_location">Loch Leven priory</title><title type="mlgb_code">S19</title><title type="mlgb_booklist">Books transferred from Loch Leven to St Andrews priory, c. 1152-3</title>
+            <title type="mlgb_booklist_Group">SCOTLAND</title>
+            <title type="mlgb_location">Loch Leven priory</title>
+            <title type="mlgb_code">S19</title>
+            <title type="mlgb_booklist">Books transferred from Loch Leven to St Andrews priory, c.
+               1152-3</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,44 +25,65 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">S19.†1</ab>
-               <ab type="mlgb_catalogueExtract">(`cum pastorali', anon.)</ab>
-            </div>
-            <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">S19.†1</ab>
-               <ab type="mlgb_catalogueExtract">(`cum pastorali', anon.)</ab>
+               <head>S19.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">S19.†1</ab>
+                  <ab type="mlgb_catalogueExtract">(`cum pastorali', anon.)</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">S19.†1</ab>
+                  <ab type="mlgb_catalogueExtract">(`cum pastorali', anon.)</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">S19.4</ab>
-               <ab type="mlgb_catalogueExtract">(`cum Origene')</ab>
+               <head>S19.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">S19.4</ab>
+                  <ab type="mlgb_catalogueExtract">(`cum Origene')</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">S19.5</ab>
+               <head>S19.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">S19.5</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">S19.†6</ab>
-               <ab type="mlgb_catalogueExtract">(`cum tribus quaternionibus de sacramentis')</ab>
+               <head>S19.†6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">S19.†6</ab>
+                  <ab type="mlgb_catalogueExtract">(`cum tribus quaternionibus de sacramentis')</ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">S19.11</ab>
-               <ab type="mlgb_catalogueExtract">(`cum Prospero')</ab>
+               <head>S19.11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">S19.11</ab>
+                  <ab type="mlgb_catalogueExtract">(`cum Prospero')</ab>
+               </div>
             </div>
             <div type="entry" n="14">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">S19.†14</ab>
-               <ab type="mlgb_catalogueExtract">(`interpretationibus dictionum')</ab>
+               <head>S19.†14</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">S19.†14</ab>
+                  <ab type="mlgb_catalogueExtract">(`interpretationibus dictionum')</ab>
+               </div>
             </div>
             <div type="entry" n="17">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">S19.17</ab>
-               <ab type="mlgb_catalogueExtract">(`cum exceptionibus ecclesiasticarum
-                  regularum')</ab>
+               <head>S19.17</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">S19.17</ab>
+                  <ab type="mlgb_catalogueExtract">(`cum exceptionibus ecclesiasticarum
+                     regularum')</ab>
+               </div>
             </div>
          </div>
 
@@ -70,15 +96,18 @@
                   sacerdotali</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_1193">Gregory the Great [c540—604, sedit
                   590—604] </author><title key="mlgbWork_1193_2">De cura pastorali</title></bibl>
-            <bibl xml:id="bibl_3"><author key="mlgbAuthor_2430">Origen [c185—c254] </author><title key="mlgbWork_2430_23">Super uetus testamentum</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_2430">Origen [c185—c254] </author><title
+                  key="mlgbWork_2430_23">Super uetus testamentum</title></bibl>
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_447">Bernard of Clairvaux OCist
-                  [1090—1153], abbot of Clairvaux </author><title key="mlgbWork_447_34">Sententiae</title></bibl>
+                  [1090—1153], abbot of Clairvaux </author><title key="mlgbWork_447_34"
+                  >Sententiae</title></bibl>
             <bibl xml:id="bibl_5"><author key="mlgbAuthor_1978">Ivo of Chartres [c1040—1116]
                   </author><title key="mlgbWork_1978_3">De ecclesiasticis sacramentis (serm.
                   1—5)</title></bibl>
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_1957">Iulianus Pomerius [early 6th cent.]
                   </author><title key="mlgbWork_1957_1">De uita contemplatiua</title></bibl>
-            <bibl xml:id="bibl_7"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title key="mlgbWork_1517_125">Liber quaestionum hebraicarum in Genesim</title></bibl>
+            <bibl xml:id="bibl_7"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title
+                  key="mlgbWork_1517_125">Liber quaestionum hebraicarum in Genesim</title></bibl>
             <bibl xml:id="bibl_8"><author key="mlgbAuthor_1978">Ivo of Chartres [c1040—1116]
                   </author><title key="mlgbWork_1978_6">Exceptiones ecclesiasticarum regularum,
                   serving as a prologue to his Panormia (PL 161. 1041—?) and to his Decretum (PL

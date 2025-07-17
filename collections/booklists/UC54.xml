@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title><title type="mlgb_location">St John's College</title><title type="mlgb_code">UC54</title><title type="mlgb_booklist">Inventory, c. 1516</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title>
+            <title type="mlgb_location">St John's College</title>
+            <title type="mlgb_code">UC54</title>
+            <title type="mlgb_booklist">Inventory, c. 1516</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,141 +24,201 @@
          <div type="list">
 
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UC54.¶*4</ab>
-               <ab type="mlgb_catalogueExtract">= UC55.¶*17</ab>
+               <head>UC54.¶*4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UC54.¶*4</ab>
+                  <ab type="mlgb_catalogueExtract">= UC55.¶*17</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UC54.¶*5</ab>
-               <ab type="mlgb_catalogueExtract">= UC55.¶*11</ab>
+               <head>UC54.¶*5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UC54.¶*5</ab>
+                  <ab type="mlgb_catalogueExtract">= UC55.¶*11</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">UC54.¶6</ab>
-               <ab type="mlgb_catalogueExtract">(3 vols) = UC55.¶35</ab>
+               <head>UC54.¶6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">UC54.¶6</ab>
+                  <ab type="mlgb_catalogueExtract">(3 vols) = UC55.¶35</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">UC54.¶*8</ab>
-               <ab type="mlgb_catalogueExtract">(2 vols) = UC55.¶*57</ab>
+               <head>UC54.¶*8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">UC54.¶*8</ab>
+                  <ab type="mlgb_catalogueExtract">(2 vols) = UC55.¶*57</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">UC54.¶9</ab>
-               <ab type="mlgb_catalogueExtract">= UC55.¶56</ab>
+               <head>UC54.¶9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">UC54.¶9</ab>
+                  <ab type="mlgb_catalogueExtract">= UC55.¶56</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">UC54.¶*10</ab>
-               <ab type="mlgb_catalogueExtract">= UC55.¶*51</ab>
+               <head>UC54.¶*10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">UC54.¶*10</ab>
+                  <ab type="mlgb_catalogueExtract">= UC55.¶*51</ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">UC54.¶*11b</ab>
-               <ab type="mlgb_catalogueExtract">(gl.) = UC55.¶*52b</ab>
-            </div>
-            <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">UC54.¶*11</ab>
-               <ab type="mlgb_catalogueExtract">(3 vols)</ab>
-            </div>
-            <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">UC54.¶*11x</ab>
-            </div>
-            <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">UC54.¶*11a</ab>
-               <ab type="mlgb_catalogueExtract">(gl.) = UC55.¶*54</ab>
-            </div>
-            <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">UC54.¶*11d</ab>
-               <ab type="mlgb_catalogueExtract">(gl.) = UC55.¶*50</ab>
-            </div>
-            <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">UC54.¶*11x</ab>
-               <ab type="mlgb_catalogueExtract">(gl.)</ab>
-            </div>
-            <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">UC54.¶*11b</ab>
-               <ab type="mlgb_catalogueExtract">(gl.) = UC55.¶*52a</ab>
-            </div>
-            <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_14"/>
-               <ab type="mlgb_copyCode">UC54.¶*11x</ab>
-               <ab type="mlgb_catalogueExtract">(in Corpus iuris canonici)</ab>
-            </div>
-            <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_15"/>
-               <ab type="mlgb_copyCode">UC54.¶*11x</ab>
+               <head>UC54.11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">UC54.¶*11b</ab>
+                  <ab type="mlgb_catalogueExtract">(gl.) = UC55.¶*52b</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">UC54.¶*11</ab>
+                  <ab type="mlgb_catalogueExtract">(3 vols)</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">UC54.¶*11x</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">UC54.¶*11a</ab>
+                  <ab type="mlgb_catalogueExtract">(gl.) = UC55.¶*54</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">UC54.¶*11d</ab>
+                  <ab type="mlgb_catalogueExtract">(gl.) = UC55.¶*50</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">UC54.¶*11x</ab>
+                  <ab type="mlgb_catalogueExtract">(gl.)</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">UC54.¶*11b</ab>
+                  <ab type="mlgb_catalogueExtract">(gl.) = UC55.¶*52a</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_14"/>
+                  <ab type="mlgb_copyCode">UC54.¶*11x</ab>
+                  <ab type="mlgb_catalogueExtract">(in Corpus iuris canonici)</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_15"/>
+                  <ab type="mlgb_copyCode">UC54.¶*11x</ab>
+               </div>
             </div>
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_16"/>
-               <ab type="mlgb_copyCode">UC54.¶12</ab>
-               <ab type="mlgb_catalogueExtract">= UC55.¶55</ab>
+               <head>UC54.¶12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_16"/>
+                  <ab type="mlgb_copyCode">UC54.¶12</ab>
+                  <ab type="mlgb_catalogueExtract">= UC55.¶55</ab>
+               </div>
             </div>
             <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_17"/>
-               <ab type="mlgb_copyCode">UC54.¶13</ab>
-               <ab type="mlgb_catalogueExtract">(`A. super euangelia in tribus uoluminibus') =
-                  UC55.¶12</ab>
+               <head>UC54.¶13</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_17"/>
+                  <ab type="mlgb_copyCode">UC54.¶13</ab>
+                  <ab type="mlgb_catalogueExtract">(`A. super euangelia in tribus uoluminibus') =
+                     UC55.¶12</ab>
+               </div>
             </div>
             <div type="entry" n="14">
-               <bibl type="identification" corresp="#bibl_18"/>
-               <ab type="mlgb_copyCode">UC54.¶*14</ab>
-               <ab type="mlgb_catalogueExtract">= UC55.¶*31</ab>
+               <head>UC54.¶*14</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_18"/>
+                  <ab type="mlgb_copyCode">UC54.¶*14</ab>
+                  <ab type="mlgb_catalogueExtract">= UC55.¶*31</ab>
+               </div>
             </div>
             <div type="entry" n="15">
-               <bibl type="identification" corresp="#bibl_19"/>
-               <ab type="mlgb_copyCode">UC54.¶*15</ab>
-               <ab type="mlgb_catalogueExtract">= UC55.¶*13</ab>
+               <head>UC54.¶*15</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_19"/>
+                  <ab type="mlgb_copyCode">UC54.¶*15</ab>
+                  <ab type="mlgb_catalogueExtract">= UC55.¶*13</ab>
+               </div>
             </div>
             <div type="entry" n="16">
-               <bibl type="identification" corresp="#bibl_20"/>
-               <ab type="mlgb_copyCode">UC54.¶16</ab>
-               <ab type="mlgb_catalogueExtract">(2 vols)</ab>
+               <head>UC54.¶16</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_20"/>
+                  <ab type="mlgb_copyCode">UC54.¶16</ab>
+                  <ab type="mlgb_catalogueExtract">(2 vols)</ab>
+               </div>
             </div>
             <div type="entry" n="17">
-               <bibl type="identification" corresp="#bibl_21"/>
-               <ab type="mlgb_copyCode">UC54.¶*17</ab>
-               <ab type="mlgb_catalogueExtract">(2 vols) ?= UC55.¶42</ab>
+               <head>UC54.¶*17</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_21"/>
+                  <ab type="mlgb_copyCode">UC54.¶*17</ab>
+                  <ab type="mlgb_catalogueExtract">(2 vols) ?= UC55.¶42</ab>
+               </div>
             </div>
             <div type="entry" n="21">
-               <bibl type="identification" corresp="#bibl_22"/>
-               <ab type="mlgb_copyCode">UC54.¶21</ab>
-               <ab type="mlgb_catalogueExtract">(2 vols) =?</ab>
+               <head>UC54.¶21</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_22"/>
+                  <ab type="mlgb_copyCode">UC54.¶21</ab>
+                  <ab type="mlgb_catalogueExtract">(2 vols) =?</ab>
+               </div>
             </div>
             <div type="entry" n="22">
-               <bibl type="identification" corresp="#bibl_23"/>
-               <ab type="mlgb_copyCode">UC54.¶22</ab>
-               <ab type="mlgb_catalogueExtract">(`cronica cronicarum') = UC55.¶1</ab>
+               <head>UC54.¶22</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_23"/>
+                  <ab type="mlgb_copyCode">UC54.¶22</ab>
+                  <ab type="mlgb_catalogueExtract">(`cronica cronicarum') = UC55.¶1</ab>
+               </div>
             </div>
             <div type="entry" n="23">
-               <bibl type="identification" corresp="#bibl_24"/>
-               <ab type="mlgb_copyCode">UC54.¶23</ab>
+               <head>UC54.¶23</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_24"/>
+                  <ab type="mlgb_copyCode">UC54.¶23</ab>
+               </div>
             </div>
             <div type="entry" n="24">
-               <bibl type="identification" corresp="#bibl_25"/>
-               <ab type="mlgb_copyCode">UC54.¶24</ab>
-               <ab type="mlgb_catalogueExtract">= UC55.¶79</ab>
+               <head>UC54.¶24</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_25"/>
+                  <ab type="mlgb_copyCode">UC54.¶24</ab>
+                  <ab type="mlgb_catalogueExtract">= UC55.¶79</ab>
+               </div>
             </div>
             <div type="entry" n="25">
-               <bibl type="identification" corresp="#bibl_26"/>
-               <ab type="mlgb_copyCode">UC54.¶25</ab>
-               <ab type="mlgb_catalogueExtract">= UC55.¶82</ab>
+               <head>UC54.¶25</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_26"/>
+                  <ab type="mlgb_copyCode">UC54.¶25</ab>
+                  <ab type="mlgb_catalogueExtract">= UC55.¶82</ab>
+               </div>
             </div>
             <div type="entry" n="26">
-               <bibl type="identification" corresp="#bibl_27"/>
-               <ab type="mlgb_copyCode">UC54.¶26</ab>
+               <head>UC54.¶26</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_27"/>
+                  <ab type="mlgb_copyCode">UC54.¶26</ab>
+               </div>
             </div>
             <div type="entry" n="27">
-               <bibl type="identification" corresp="#bibl_28"/>
-               <ab type="mlgb_copyCode">UC54.¶27</ab>
-               <ab type="mlgb_catalogueExtract">= UC55.¶14</ab>
+               <head>UC54.¶27</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_28"/>
+                  <ab type="mlgb_copyCode">UC54.¶27</ab>
+                  <ab type="mlgb_catalogueExtract">= UC55.¶14</ab>
+               </div>
             </div>
          </div>
 
@@ -174,7 +238,8 @@
                   [c1270—1348] </author><title key="mlgbWork_1555_6">Nouellae in
                Decretales</title></bibl>
             <bibl xml:id="bibl_5"><author key="mlgbAuthor_1217">Guido de Baysio, known as
-                  Archidiaconus [†1313], archdeacon of Bologna </author><title key="mlgbWork_1217_2">Rosarium seu Apparatus ad Decretum</title></bibl>
+                  Archidiaconus [†1313], archdeacon of Bologna </author><title key="mlgbWork_1217_2"
+                  >Rosarium seu Apparatus ad Decretum</title></bibl>
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_816">Dominicus de S. Geminiano [†1431/36]
                   </author><title key="mlgbWork_816_1">Commentarius in Librum sextum
                   Decretalium</title></bibl>
@@ -185,13 +250,16 @@
                   Gratian's Decretum, Gregory IX's Decretales, Liber sextus Decretalium,
                   Constitutiones Clementinae, John XXII's Extrauagantes, and Extrauagantes communes,
                   together with their ordinary glosses</author><title key="mlgbWork_702_1"/></bibl>
-            <bibl xml:id="bibl_9"><author key="mlgbAuthor_942">Extrauagantes communes</author><title key="mlgbWork_942_1"/></bibl>
+            <bibl xml:id="bibl_9"><author key="mlgbAuthor_942">Extrauagantes communes</author><title
+                  key="mlgbWork_942_1"/></bibl>
             <bibl xml:id="bibl_10"><author key="mlgbAuthor_1190">Gratian [† by c1160]
                   </author><title key="mlgbWork_1190_1">Decretum</title></bibl>
             <bibl xml:id="bibl_11"><author key="mlgbAuthor_1194">Gregory IX (Ugolino da Segni)
-                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1">Decretales</title></bibl>
+                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1"
+                  >Decretales</title></bibl>
             <bibl xml:id="bibl_12"><author key="mlgbAuthor_1542">John XXII (Jacques Duèse)
-                  [1249—1334, sedit 1316—1334] </author><title key="mlgbWork_1542_3">Extrauagantes</title></bibl>
+                  [1249—1334, sedit 1316—1334] </author><title key="mlgbWork_1542_3"
+                  >Extrauagantes</title></bibl>
             <bibl xml:id="bibl_13"><author key="mlgbAuthor_2078">Liber sextus Decretalium,
                   continuing the Decretals from Gregory IX (1234) to Boniface VIII
                   (1298)</author><title key="mlgbWork_2078_1"/></bibl>
@@ -211,7 +279,8 @@
             <bibl xml:id="bibl_19"><author key="mlgbAuthor_95">Albertus Magnus OP [1193—1280]
                   </author><title key="mlgbWork_95_45">Summa theologiae siue De mirabili scientia
                   Dei</title></bibl>
-            <bibl xml:id="bibl_20"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title key="mlgbWork_1517_1">Opera</title></bibl>
+            <bibl xml:id="bibl_20"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title
+                  key="mlgbWork_1517_1">Opera</title></bibl>
             <bibl xml:id="bibl_21"><author key="mlgbAuthor_2921">Richard of Middleton OFM
                   [1245—before 1308] </author><title key="mlgbWork_2921_1">Commentary on the
                   Lombard's Sentences</title></bibl>
@@ -224,8 +293,10 @@
                   </author><title key="mlgbWork_1474_4">Commentarii in omnes diui Pauli
                   epistolas</title></bibl>
             <bibl xml:id="bibl_25"><author key="mlgbAuthor_447">Bernard of Clairvaux OCist
-                  [1090—1153], abbot of Clairvaux </author><title key="mlgbWork_447_1">Opera</title></bibl>
-            <bibl xml:id="bibl_26"><author key="mlgbAuthor_2430">Origen [c185—c254] </author><title key="mlgbWork_2430_1">Opera, Latin tr.</title></bibl>
+                  [1090—1153], abbot of Clairvaux </author><title key="mlgbWork_447_1"
+               >Opera</title></bibl>
+            <bibl xml:id="bibl_26"><author key="mlgbAuthor_2430">Origen [c185—c254] </author><title
+                  key="mlgbWork_2430_1">Opera, Latin tr.</title></bibl>
             <bibl xml:id="bibl_27"><author key="mlgbAuthor_714">Cyprian of Carthage [†258], bishop
                   of Carthage </author><title key="mlgbWork_714_1">Opera</title></bibl>
             <bibl xml:id="bibl_28"><author key="mlgbAuthor_2977">Robert Holcot OP [†1349]

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title><title type="mlgb_location">Spalding</title><title type="mlgb_code">B95</title><title type="mlgb_booklist">Visitation, 1438</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title>
+            <title type="mlgb_location">Spalding</title>
+            <title type="mlgb_code">B95</title>
+            <title type="mlgb_booklist">Visitation, 1438</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,54 +24,87 @@
          <div type="list">
 
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">B95.2</ab>
+               <head>B95.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">B95.2</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">B95.3</ab>
+               <head>B95.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">B95.3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">B95.4</ab>
+               <head>B95.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">B95.4</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">B95.5b</ab>
-            </div>
-            <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">B95.5a</ab>
+               <head>B95.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">B95.5b</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">B95.5a</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">B95.6</ab>
+               <head>B95.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">B95.6</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">B95.7</ab>
+               <head>B95.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">B95.7</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">B95.8</ab>
+               <head>B95.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">B95.8</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">B95.9</ab>
+               <head>B95.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">B95.9</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">B95.10</ab>
-               <ab type="mlgb_catalogueExtract">(`librum concordanciarum')</ab>
+               <head>B95.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">B95.10</ab>
+                  <ab type="mlgb_catalogueExtract">(`librum concordanciarum')</ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">B95.†11</ab>
-               <ab type="mlgb_catalogueExtract">(`sermones Odonis')</ab>
+               <head>B95.†11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">B95.†11</ab>
+                  <ab type="mlgb_catalogueExtract">(`sermones Odonis')</ab>
+               </div>
             </div>
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">B95.12</ab>
+               <head>B95.12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">B95.12</ab>
+               </div>
             </div>
          </div>
 
@@ -80,18 +117,22 @@
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_2587">Peter Lombard [c1100—1160]
                   </author><title key="mlgbWork_2587_4">Sententiarum libri IV</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_1194">Gregory IX (Ugolino da Segni)
-                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1">Decretales</title></bibl>
+                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1"
+                  >Decretales</title></bibl>
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_1792">Iohannes Monachus (Cardinal Jean Le
                   Moine) [†1313] </author><title key="mlgbWork_1792_1">Apparatus ad
                Sextum</title></bibl>
             <bibl xml:id="bibl_5"><author key="mlgbAuthor_2078">Liber sextus Decretalium, continuing
-                  the Decretals from Gregory IX (1234) to Boniface VIII (1298)</author><title key="mlgbWork_2078_1"/></bibl>
+                  the Decretals from Gregory IX (1234) to Boniface VIII (1298)</author><title
+                  key="mlgbWork_2078_1"/></bibl>
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_691">Constitutiones Clementinae,
                   collecting the constitutions of Clement V, promulgated by John XXII in
                   1317</author><title key="mlgbWork_691_1"/></bibl>
             <bibl xml:id="bibl_7"><author key="mlgbAuthor_1194">Gregory IX (Ugolino da Segni)
-                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1">Decretales</title></bibl>
-            <bibl xml:id="bibl_8"><author key="mlgbAuthor_1190">Gratian [† by c1160] </author><title key="mlgbWork_1190_1">Decretum</title></bibl>
+                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1"
+                  >Decretales</title></bibl>
+            <bibl xml:id="bibl_8"><author key="mlgbAuthor_1190">Gratian [† by c1160] </author><title
+                  key="mlgbWork_1190_1">Decretum</title></bibl>
             <bibl xml:id="bibl_9"><author key="mlgbAuthor_2544">Peter of Blois [†1211], archdeacon
                   of Bath </author><title key="mlgbWork_2544_15">Epistolae</title></bibl>
             <bibl xml:id="bibl_10"><author key="mlgbAuthor_670">Concordantia maior, the so-called

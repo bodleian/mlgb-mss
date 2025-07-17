@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title><title type="mlgb_location">University</title><title type="mlgb_code">UO4</title><title type="mlgb_booklist">Leland, 1535</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title>
+            <title type="mlgb_location">University</title>
+            <title type="mlgb_code">UO4</title>
+            <title type="mlgb_booklist">Leland, 1535</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,181 +24,263 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UO4.1</ab>
-               <ab type="mlgb_catalogueExtract">(`Chilwardbe super 8 partes orationis')</ab>
-            </div>
-            <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UO4.1</ab>
-               <ab type="mlgb_catalogueExtract">(`Chilwardbe super 8 partes orationis', inc.)</ab>
+               <head>UO4.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UO4.1</ab>
+                  <ab type="mlgb_catalogueExtract">(`Chilwardbe super 8 partes orationis')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UO4.1</ab>
+                  <ab type="mlgb_catalogueExtract">(`Chilwardbe super 8 partes orationis',
+                     inc.)</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">UO4.2</ab>
-               <ab type="mlgb_catalogueExtract">(`epp. H. secretarii S. Thome m.')</ab>
+               <head>UO4.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">UO4.2</ab>
+                  <ab type="mlgb_catalogueExtract">(`epp. H. secretarii S. Thome m.')</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">UO4.3</ab>
+               <head>UO4.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">UO4.3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">UO4.4g</ab>
-               <ab type="mlgb_catalogueExtract">(`de utilitate liberalium artium')</ab>
-            </div>
-            <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">UO4.4a</ab>
-               <ab type="mlgb_catalogueExtract">(`summa philosophie Roberti Lincolniensis',
-                  inc.)</ab>
-            </div>
-            <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">UO4.4h</ab>
-               <ab type="mlgb_catalogueExtract">(attrib. Grosseteste)</ab>
-            </div>
-            <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">UO4.4c</ab>
-            </div>
-            <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">UO4.4e</ab>
-            </div>
-            <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">UO4.4b</ab>
-               <ab type="mlgb_catalogueExtract">(`de formis')</ab>
-            </div>
-            <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">UO4.4f</ab>
-            </div>
-            <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">UO4.4d</ab>
+               <head>UO4.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">UO4.4g</ab>
+                  <ab type="mlgb_catalogueExtract">(`de utilitate liberalium artium')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">UO4.4a</ab>
+                  <ab type="mlgb_catalogueExtract">(`summa philosophie Roberti Lincolniensis',
+                     inc.)</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">UO4.4h</ab>
+                  <ab type="mlgb_catalogueExtract">(attrib. Grosseteste)</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">UO4.4c</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">UO4.4e</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">UO4.4b</ab>
+                  <ab type="mlgb_catalogueExtract">(`de formis')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">UO4.4f</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">UO4.4d</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">UO4.5</ab>
+               <head>UO4.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">UO4.5</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_14"/>
-               <ab type="mlgb_copyCode">UO4.6</ab>
+               <head>UO4.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_14"/>
+                  <ab type="mlgb_copyCode">UO4.6</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_15"/>
-               <ab type="mlgb_copyCode">UO4.7</ab>
-               <ab type="mlgb_catalogueExtract">(`Hampole super psalterium')</ab>
+               <head>UO4.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_15"/>
+                  <ab type="mlgb_copyCode">UO4.7</ab>
+                  <ab type="mlgb_catalogueExtract">(`Hampole super psalterium')</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_16"/>
-               <ab type="mlgb_copyCode">UO4.8</ab>
+               <head>UO4.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_16"/>
+                  <ab type="mlgb_copyCode">UO4.8</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_17"/>
-               <ab type="mlgb_copyCode">UO4.10</ab>
+               <head>UO4.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_17"/>
+                  <ab type="mlgb_copyCode">UO4.10</ab>
+               </div>
             </div>
             <div type="entry" n="15">
-               <bibl type="identification" corresp="#bibl_18"/>
-               <ab type="mlgb_copyCode">UO4.15</ab>
-               <ab type="mlgb_catalogueExtract">(`Flauius de re militari')</ab>
+               <head>UO4.15</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_18"/>
+                  <ab type="mlgb_copyCode">UO4.15</ab>
+                  <ab type="mlgb_catalogueExtract">(`Flauius de re militari')</ab>
+               </div>
             </div>
             <div type="entry" n="16">
-               <bibl type="identification" corresp="#bibl_19"/>
-               <ab type="mlgb_copyCode">UO4.16</ab>
-               <ab type="mlgb_catalogueExtract">(`Claudianus poeta')</ab>
+               <head>UO4.16</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_19"/>
+                  <ab type="mlgb_copyCode">UO4.16</ab>
+                  <ab type="mlgb_catalogueExtract">(`Claudianus poeta')</ab>
+               </div>
             </div>
             <div type="entry" n="17">
-               <bibl type="identification" corresp="#bibl_20"/>
-               <ab type="mlgb_copyCode">UO4.17</ab>
+               <head>UO4.17</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_20"/>
+                  <ab type="mlgb_copyCode">UO4.17</ab>
+               </div>
             </div>
             <div type="entry" n="18">
-               <bibl type="identification" corresp="#bibl_21"/>
-               <ab type="mlgb_copyCode">UO4.18</ab>
-               <ab type="mlgb_catalogueExtract">(`commentaria Ioannis de Serauala . . super opera
-                  Dantis')</ab>
+               <head>UO4.18</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_21"/>
+                  <ab type="mlgb_copyCode">UO4.18</ab>
+                  <ab type="mlgb_catalogueExtract">(`commentaria Ioannis de Serauala . . super opera
+                     Dantis')</ab>
+               </div>
             </div>
             <div type="entry" n="20">
-               <bibl type="identification" corresp="#bibl_22"/>
-               <ab type="mlgb_copyCode">UO4.20</ab>
-               <ab type="mlgb_catalogueExtract">(`aphorismi Damasceni')</ab>
-            </div>
-            <div type="entry" n="20">
-               <bibl type="identification" corresp="#bibl_23"/>
-               <ab type="mlgb_copyCode">UO4.20</ab>
-               <ab type="mlgb_catalogueExtract">(`Cato Censorius sublatus')</ab>
+               <head>UO4.20</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_22"/>
+                  <ab type="mlgb_copyCode">UO4.20</ab>
+                  <ab type="mlgb_catalogueExtract">(`aphorismi Damasceni')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_23"/>
+                  <ab type="mlgb_copyCode">UO4.20</ab>
+                  <ab type="mlgb_catalogueExtract">(`Cato Censorius sublatus')</ab>
+               </div>
             </div>
             <div type="entry" n="21">
-               <bibl type="identification" corresp="#bibl_24"/>
-               <ab type="mlgb_copyCode">UO4.21</ab>
-               <ab type="mlgb_catalogueExtract">(`opera Ciceronis')</ab>
+               <head>UO4.21</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_24"/>
+                  <ab type="mlgb_copyCode">UO4.21</ab>
+                  <ab type="mlgb_catalogueExtract">(`opera Ciceronis')</ab>
+               </div>
             </div>
             <div type="entry" n="22">
-               <bibl type="identification" corresp="#bibl_25"/>
-               <ab type="mlgb_copyCode">UO4.22</ab>
+               <head>UO4.22</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_25"/>
+                  <ab type="mlgb_copyCode">UO4.22</ab>
+               </div>
             </div>
             <div type="entry" n="23">
-               <bibl type="identification" corresp="#bibl_26"/>
-               <ab type="mlgb_copyCode">UO4.23</ab>
-               <ab type="mlgb_catalogueExtract">(`duodecim libri epistolarum Petri Candidi
-                  sublati')</ab>
-            </div>
-            <div type="entry" n="23">
-               <bibl type="identification" corresp="#bibl_27"/>
-               <ab type="mlgb_copyCode">UO4.23</ab>
-               <ab type="mlgb_catalogueExtract">(`ep. Lincoln. de formatis ad magistrum
-                  Adamum')</ab>
+               <head>UO4.23</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_26"/>
+                  <ab type="mlgb_copyCode">UO4.23</ab>
+                  <ab type="mlgb_catalogueExtract">(`duodecim libri epistolarum Petri Candidi
+                     sublati')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_27"/>
+                  <ab type="mlgb_copyCode">UO4.23</ab>
+                  <ab type="mlgb_catalogueExtract">(`ep. Lincoln. de formatis ad magistrum
+                     Adamum')</ab>
+               </div>
             </div>
             <div type="entry" n="25">
-               <bibl type="identification" corresp="#bibl_28"/>
-               <ab type="mlgb_copyCode">UO4.25</ab>
+               <head>UO4.25</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_28"/>
+                  <ab type="mlgb_copyCode">UO4.25</ab>
+               </div>
             </div>
             <div type="entry" n="26">
-               <bibl type="identification" corresp="#bibl_29"/>
-               <ab type="mlgb_copyCode">UO4.26</ab>
-               <ab type="mlgb_catalogueExtract">(`Cary super libros posteriorum')</ab>
+               <head>UO4.26</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_29"/>
+                  <ab type="mlgb_copyCode">UO4.26</ab>
+                  <ab type="mlgb_catalogueExtract">(`Cary super libros posteriorum')</ab>
+               </div>
             </div>
             <div type="entry" n="28">
-               <bibl type="identification" corresp="#bibl_30"/>
-               <ab type="mlgb_copyCode">UO4.28</ab>
+               <head>UO4.28</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_30"/>
+                  <ab type="mlgb_copyCode">UO4.28</ab>
+               </div>
             </div>
             <div type="entry" n="29">
-               <bibl type="identification" corresp="#bibl_31"/>
-               <ab type="mlgb_copyCode">UO4.29</ab>
-               <ab type="mlgb_catalogueExtract">(`tabula Byllingham')</ab>
+               <head>UO4.29</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_31"/>
+                  <ab type="mlgb_copyCode">UO4.29</ab>
+                  <ab type="mlgb_catalogueExtract">(`tabula Byllingham')</ab>
+               </div>
             </div>
             <div type="entry" n="30">
-               <bibl type="identification" corresp="#bibl_32"/>
-               <ab type="mlgb_copyCode">UO4.30</ab>
-            </div>
-            <div type="entry" n="30">
-               <bibl type="identification" corresp="#bibl_33"/>
-               <ab type="mlgb_copyCode">UO4.30</ab>
-               <ab type="mlgb_catalogueExtract">(`Algazel de logicalibus')</ab>
+               <head>UO4.30</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_32"/>
+                  <ab type="mlgb_copyCode">UO4.30</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_33"/>
+                  <ab type="mlgb_copyCode">UO4.30</ab>
+                  <ab type="mlgb_catalogueExtract">(`Algazel de logicalibus')</ab>
+               </div>
             </div>
             <div type="entry" n="31">
-               <bibl type="identification" corresp="#bibl_34"/>
-               <ab type="mlgb_copyCode">UO4.31</ab>
+               <head>UO4.31</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_34"/>
+                  <ab type="mlgb_copyCode">UO4.31</ab>
+               </div>
             </div>
             <div type="entry" n="32">
-               <bibl type="identification" corresp="#bibl_35"/>
-               <ab type="mlgb_copyCode">UO4.32</ab>
+               <head>UO4.32</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_35"/>
+                  <ab type="mlgb_copyCode">UO4.32</ab>
+               </div>
             </div>
             <div type="entry" n="33">
-               <bibl type="identification" corresp="#bibl_36"/>
-               <ab type="mlgb_copyCode">UO4.33</ab>
-               <ab type="mlgb_catalogueExtract">(`Autolichus de sphera mota')</ab>
+               <head>UO4.33</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_36"/>
+                  <ab type="mlgb_copyCode">UO4.33</ab>
+                  <ab type="mlgb_catalogueExtract">(`Autolichus de sphera mota')</ab>
+               </div>
             </div>
             <div type="entry" n="34">
-               <bibl type="identification" corresp="#bibl_37"/>
-               <ab type="mlgb_copyCode">UO4.34</ab>
-               <ab type="mlgb_catalogueExtract">(`Esculeus de ascentionibus')</ab>
+               <head>UO4.34</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_37"/>
+                  <ab type="mlgb_copyCode">UO4.34</ab>
+                  <ab type="mlgb_catalogueExtract">(`Esculeus de ascentionibus')</ab>
+               </div>
             </div>
             <div type="entry" n="35">
-               <bibl type="identification" corresp="#bibl_38"/>
-               <ab type="mlgb_copyCode">UO4.35</ab>
+               <head>UO4.35</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_38"/>
+                  <ab type="mlgb_copyCode">UO4.35</ab>
+               </div>
             </div>
          </div>
 
@@ -216,7 +302,8 @@
                   Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_15">De
                   artibus liberalibus</title></bibl>
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_2973">Robert Grosseteste, known as
-                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_75">Summa philosophiae, inc. `Philosophantes famosi'</title></bibl>
+                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_75"
+                  >Summa philosophiae, inc. `Philosophantes famosi'</title></bibl>
             <bibl xml:id="bibl_7"><author key="mlgbAuthor_813">Dominicus Gundisalvi [†1181]
                   </author><title key="mlgbWork_813_2">De diuisione philosophiae</title></bibl>
             <bibl xml:id="bibl_8"><author key="mlgbAuthor_2973">Robert Grosseteste, known as
@@ -254,7 +341,8 @@
             <bibl xml:id="bibl_20"><author key="mlgbAuthor_3093">L. Annaeus Seneca [4 BC—AD 65]
                   </author><title key="mlgbWork_3093_18">Tragoediae</title></bibl>
             <bibl xml:id="bibl_21"><author key="mlgbAuthor_1868">Iohannes de Serravalle (Giovanni
-                  dei Bertholdi) OFM [c1350—1445], bishop of Fermo and Fano </author><title key="mlgbWork_1868_1">Commentary on Dante's Divina commedia</title></bibl>
+                  dei Bertholdi) OFM [c1350—1445], bishop of Fermo and Fano </author><title
+                  key="mlgbWork_1868_1">Commentary on Dante's Divina commedia</title></bibl>
             <bibl xml:id="bibl_22"><author key="mlgbAuthor_1784">Iohannes Mesue (Masawaih
                   al-Mardini) [†1015] </author><title key="mlgbWork_1784_3">Liber
                   aphorismorum</title></bibl>
@@ -267,7 +355,8 @@
             <bibl xml:id="bibl_26"><author key="mlgbAuthor_2550">Pier Candido Decembrio [1399—1477]
                   </author><title key="mlgbWork_2550_2">Epistolae</title></bibl>
             <bibl xml:id="bibl_27"><author key="mlgbAuthor_2973">Robert Grosseteste, known as
-                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_42">Epistolae</title></bibl>
+                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_42"
+                  >Epistolae</title></bibl>
             <bibl xml:id="bibl_28"><author key="mlgbAuthor_3093">L. Annaeus Seneca [4 BC—AD 65]
                   </author><title key="mlgbWork_3093_29">`Quedam concordancie super libro
                   Senice'</title></bibl>

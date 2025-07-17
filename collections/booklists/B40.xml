@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title><title type="mlgb_location">Glastonbury</title><title type="mlgb_code">B40</title><title type="mlgb_booklist">Books bequeathed by Abbot John of Taunton (1274-91)</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title>
+            <title type="mlgb_location">Glastonbury</title>
+            <title type="mlgb_code">B40</title>
+            <title type="mlgb_booklist">Books bequeathed by Abbot John of Taunton (1274-91)</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,106 +24,157 @@
          <div type="list">
 
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">B40.2</ab>
-               <ab type="mlgb_catalogueExtract">(incomplete)</ab>
+               <head>B40.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">B40.2</ab>
+                  <ab type="mlgb_catalogueExtract">(incomplete)</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">B40.8b</ab>
-            </div>
-            <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">B40.8a</ab>
+               <head>B40.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">B40.8b</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">B40.8a</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">B40.10</ab>
+               <head>B40.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">B40.10</ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">B40.11b</ab>
-            </div>
-            <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">B40.11a</ab>
-            </div>
-            <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">B40.†12</ab>
-               <ab type="mlgb_catalogueExtract">(`super Genesim')</ab>
+               <head>B40.11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">B40.11b</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">B40.11a</ab>
+               </div>
             </div>
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">B40.12d</ab>
-            </div>
-            <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">B40.12c</ab>
-               <ab type="mlgb_catalogueExtract">(attrib. Augustine)</ab>
-            </div>
-            <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">B40.12e</ab>
+               <head>B40.12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">B40.†12</ab>
+                  <ab type="mlgb_catalogueExtract">(`super Genesim')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">B40.12d</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">B40.12c</ab>
+                  <ab type="mlgb_catalogueExtract">(attrib. Augustine)</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">B40.12e</ab>
+               </div>
             </div>
             <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">B40.13</ab>
+               <head>B40.13</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">B40.13</ab>
+               </div>
             </div>
             <div type="entry" n="14">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">B40.14a</ab>
-            </div>
-            <div type="entry" n="14">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">B40.14b</ab>
-               <ab type="mlgb_catalogueExtract">(I)</ab>
+               <head>B40.14</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">B40.14a</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">B40.14b</ab>
+                  <ab type="mlgb_catalogueExtract">(I)</ab>
+               </div>
             </div>
             <div type="entry" n="15">
-               <bibl type="identification" corresp="#bibl_14"/>
-               <ab type="mlgb_copyCode">B40.15</ab>
-               <ab type="mlgb_catalogueExtract">(Ia IIe)</ab>
+               <head>B40.15</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_14"/>
+                  <ab type="mlgb_copyCode">B40.15</ab>
+                  <ab type="mlgb_catalogueExtract">(Ia IIe)</ab>
+               </div>
             </div>
             <div type="entry" n="16">
-               <bibl type="identification" corresp="#bibl_15"/>
-               <ab type="mlgb_copyCode">B40.16</ab>
-               <ab type="mlgb_catalogueExtract">(IIa IIe)</ab>
+               <head>B40.16</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_15"/>
+                  <ab type="mlgb_copyCode">B40.16</ab>
+                  <ab type="mlgb_catalogueExtract">(IIa IIe)</ab>
+               </div>
             </div>
             <div type="entry" n="17">
-               <bibl type="identification" corresp="#bibl_16"/>
-               <ab type="mlgb_copyCode">B40.17</ab>
-               <ab type="mlgb_catalogueExtract">(III)</ab>
+               <head>B40.17</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_16"/>
+                  <ab type="mlgb_copyCode">B40.17</ab>
+                  <ab type="mlgb_catalogueExtract">(III)</ab>
+               </div>
             </div>
             <div type="entry" n="18">
-               <bibl type="identification" corresp="#bibl_17"/>
-               <ab type="mlgb_copyCode">B40.18</ab>
+               <head>B40.18</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_17"/>
+                  <ab type="mlgb_copyCode">B40.18</ab>
+               </div>
             </div>
             <div type="entry" n="19">
-               <bibl type="identification" corresp="#bibl_18"/>
-               <ab type="mlgb_copyCode">B40.19</ab>
-               <ab type="mlgb_catalogueExtract">(Ia IIe)</ab>
+               <head>B40.19</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_18"/>
+                  <ab type="mlgb_copyCode">B40.19</ab>
+                  <ab type="mlgb_catalogueExtract">(Ia IIe)</ab>
+               </div>
             </div>
             <div type="entry" n="20">
-               <bibl type="identification" corresp="#bibl_19"/>
-               <ab type="mlgb_copyCode">B40.20</ab>
-               <ab type="mlgb_catalogueExtract">(IIa IIe)</ab>
+               <head>B40.20</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_19"/>
+                  <ab type="mlgb_copyCode">B40.20</ab>
+                  <ab type="mlgb_catalogueExtract">(IIa IIe)</ab>
+               </div>
             </div>
             <div type="entry" n="21">
-               <bibl type="identification" corresp="#bibl_20"/>
-               <ab type="mlgb_copyCode">B40.21</ab>
+               <head>B40.21</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_20"/>
+                  <ab type="mlgb_copyCode">B40.21</ab>
+               </div>
             </div>
             <div type="entry" n="22">
-               <bibl type="identification" corresp="#bibl_21"/>
-               <ab type="mlgb_copyCode">B40.22</ab>
+               <head>B40.22</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_21"/>
+                  <ab type="mlgb_copyCode">B40.22</ab>
+               </div>
             </div>
             <div type="entry" n="23">
-               <bibl type="identification" corresp="#bibl_22"/>
-               <ab type="mlgb_copyCode">B40.23</ab>
-               <ab type="mlgb_catalogueExtract">(`librum qui dicitur la perspective')</ab>
+               <head>B40.23</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_22"/>
+                  <ab type="mlgb_copyCode">B40.23</ab>
+                  <ab type="mlgb_catalogueExtract">(`librum qui dicitur la perspective')</ab>
+               </div>
             </div>
             <div type="entry" n="24">
-               <bibl type="identification" corresp="#bibl_23"/>
-               <ab type="mlgb_copyCode">B40.24</ab>
+               <head>B40.24</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_23"/>
+                  <ab type="mlgb_copyCode">B40.24</ab>
+               </div>
             </div>
          </div>
 

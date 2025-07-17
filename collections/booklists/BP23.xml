@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES</title><title type="mlgb_location">Peterborough</title><title type="mlgb_code">BP23</title><title type="mlgb_booklist">Leland, c. 1536-40</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES</title>
+            <title type="mlgb_location">Peterborough</title>
+            <title type="mlgb_code">BP23</title>
+            <title type="mlgb_booklist">Leland, c. 1536-40</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,60 +24,99 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">BP23.1</ab>
-               <ab type="mlgb_catalogueExtract">(`Girardus Cameracensis ')</ab>
+               <head>BP23.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">BP23.1</ab>
+                  <ab type="mlgb_catalogueExtract">(`Girardus Cameracensis ')</ab>
+               </div>
             </div>
             <div type="entry" n="2" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_168">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">BP23.2</ab>
+               <head>BP23.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">BP23.2</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">BP23.3</ab>
-               <ab type="mlgb_catalogueExtract">(`tropologia super duodecim prophetas')</ab>
+               <head>BP23.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">BP23.3</ab>
+                  <ab type="mlgb_catalogueExtract">(`tropologia super duodecim prophetas')</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">BP23.4</ab>
+               <head>BP23.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">BP23.4</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">BP23.*6</ab>
+               <head>BP23.*6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">BP23.*6</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">BP23.7</ab>
+               <head>BP23.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">BP23.7</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">BP23.8</ab>
-               <ab type="mlgb_catalogueExtract">(`Beda super Pentateuchum')</ab>
+               <head>BP23.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">BP23.8</ab>
+                  <ab type="mlgb_catalogueExtract">(`Beda super Pentateuchum')</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">BP23.9</ab>
+               <head>BP23.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">BP23.9</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">BP23.10</ab>
+               <head>BP23.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">BP23.10</ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">BP23.11</ab>
-               <ab type="mlgb_catalogueExtract">(`uita s. Eustachii carmine heroico')</ab>
+               <head>BP23.11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">BP23.11</ab>
+                  <ab type="mlgb_catalogueExtract">(`uita s. Eustachii carmine heroico')</ab>
+               </div>
             </div>
             <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">BP23.13</ab>
+               <head>BP23.13</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">BP23.13</ab>
+               </div>
             </div>
             <div type="entry" n="14">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">BP23.14</ab>
+               <head>BP23.14</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">BP23.14</ab>
+               </div>
             </div>
             <div type="entry" n="15" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_193">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">BP23.15</ab>
+               <head>BP23.15</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">BP23.15</ab>
+               </div>
             </div>
          </div>
 
@@ -81,7 +124,8 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1112">Gerard [#unkn.#] </author><title key="mlgbWork_1112_1">Commentary on the Psalms</title></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1112">Gerard [#unkn.#] </author><title
+                  key="mlgbWork_1112_1">Commentary on the Psalms</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_2480">Passio Wulfadi et
                   Rufini</author><title key="mlgbWork_2480_1"/></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_3235">Stephen Langton [c1165—1228],
@@ -107,7 +151,8 @@
                   Samuel</title></bibl>
             <bibl xml:id="bibl_10"><author key="mlgbAuthor_2891">Rex aeterne poli mundani rector et
                   orbis</author><title key="mlgbWork_2891_1"/></bibl>
-            <bibl xml:id="bibl_11"><author key="mlgbAuthor_3552">Giselenus </author><title key="mlgbWork_3552_1"/></bibl>
+            <bibl xml:id="bibl_11"><author key="mlgbAuthor_3552">Giselenus </author><title
+                  key="mlgbWork_3552_1"/></bibl>
             <bibl xml:id="bibl_12"><author key="mlgbAuthor_2510">Paulinus of Nola [†431], bishop of
                   Nola </author><title key="mlgbWork_2510_1">Vita S. Felicis, a series of
                   poems</title></bibl>

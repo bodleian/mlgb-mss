@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title><title type="mlgb_location">Donor documents</title><title type="mlgb_code">UC134</title><title type="mlgb_booklist">Record of books purchased by Richard Holme, 1406; King's Hall</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title>
+            <title type="mlgb_location">Donor documents</title>
+            <title type="mlgb_code">UC134</title>
+            <title type="mlgb_booklist">Record of books purchased by Richard Holme, 1406; King's
+               Hall</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,12 +25,18 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UC134.1</ab>
+               <head>UC134.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UC134.1</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UC134.3</ab>
+               <head>UC134.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UC134.3</ab>
+               </div>
             </div>
          </div>
 
@@ -37,7 +48,8 @@
                   [c1270—1348] </author><title key="mlgbWork_1555_6">Nouellae in
                Decretales</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_2078">Liber sextus Decretalium, continuing
-                  the Decretals from Gregory IX (1234) to Boniface VIII (1298)</author><title key="mlgbWork_2078_1"/></bibl>
+                  the Decretals from Gregory IX (1234) to Boniface VIII (1298)</author><title
+                  key="mlgbWork_2078_1"/></bibl>
          </listBibl>
       </back>
    </text>

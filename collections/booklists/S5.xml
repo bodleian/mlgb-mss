@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SCOTLAND</title><title type="mlgb_location">Aberdeen, St Nicholas</title><title type="mlgb_code">S5</title><title type="mlgb_booklist">Books at altar of St Duthac given by Duncan Shearer, early 16th cent</title>
+            <title type="mlgb_booklist_Group">SCOTLAND</title>
+            <title type="mlgb_location">Aberdeen, St Nicholas</title>
+            <title type="mlgb_code">S5</title>
+            <title type="mlgb_booklist">Books at altar of St Duthac given by Duncan Shearer, early
+               16th cent</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,10 +25,13 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">S5.¶1</ab>
-               <ab type="mlgb_catalogueExtract">(`sermones fratris Wilhelmi Lugdone' de epistolis in
-                  dominicis diebus per annum')</ab>
+               <head>S5.¶1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">S5.¶1</ab>
+                  <ab type="mlgb_catalogueExtract">(`sermones fratris Wilhelmi Lugdone' de epistolis
+                     in dominicis diebus per annum')</ab>
+               </div>
             </div>
          </div>
 

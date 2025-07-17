@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title><title type="mlgb_location">Darlington</title><title type="mlgb_code">SC222</title><title type="mlgb_booklist">List of books in the library, 1487</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title>
+            <title type="mlgb_location">Darlington</title>
+            <title type="mlgb_code">SC222</title>
+            <title type="mlgb_booklist">List of books in the library, 1487</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,80 +24,119 @@
          <div type="list">
 
             <div type="entry" n="1" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1866">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SC222.*1x</ab>
-            </div>
-            <div type="entry" n="1" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1866">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SC222.*1x</ab>
-            </div>
-            <div type="entry" n="1" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1866">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">SC222.*1</ab>
-            </div>
-            <div type="entry" n="1" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1866">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">SC222.*1x</ab>
+               <head>SC222.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SC222.*1x</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SC222.*1x</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">SC222.*1</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">SC222.*1x</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">SC222.†2</ab>
-               <ab type="mlgb_catalogueExtract">(`epistole Pauli glosati')</ab>
+               <head>SC222.†2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">SC222.†2</ab>
+                  <ab type="mlgb_catalogueExtract">(`epistole Pauli glosati')</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">SC222.3</ab>
+               <head>SC222.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">SC222.3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">SC222.4</ab>
+               <head>SC222.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">SC222.4</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">SC222.5</ab>
-               <ab type="mlgb_catalogueExtract">(`liber uocatus Chebbam')</ab>
+               <head>SC222.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">SC222.5</ab>
+                  <ab type="mlgb_catalogueExtract">(`liber uocatus Chebbam')</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">SC222.†6b</ab>
-               <ab type="mlgb_catalogueExtract">(`unum abstractum de racionale diuinorum')</ab>
-            </div>
-            <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">SC222.†6a</ab>
-               <ab type="mlgb_catalogueExtract">(`summarium super decretales', w. abstract from
-                  Rationale)</ab>
+               <head>SC222.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">SC222.†6b</ab>
+                  <ab type="mlgb_catalogueExtract">(`unum abstractum de racionale diuinorum')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">SC222.†6a</ab>
+                  <ab type="mlgb_catalogueExtract">(`summarium super decretales', w. abstract from
+                     Rationale)</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">SC222.¶7</ab>
+               <head>SC222.¶7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">SC222.¶7</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">SC222.¶8</ab>
-               <ab type="mlgb_catalogueExtract">(`manipulus confessoris', anon.)</ab>
+               <head>SC222.¶8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">SC222.¶8</ab>
+                  <ab type="mlgb_catalogueExtract">(`manipulus confessoris', anon.)</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">SC222.9</ab>
-               <ab type="mlgb_catalogueExtract">(`pars oculi')</ab>
+               <head>SC222.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">SC222.9</ab>
+                  <ab type="mlgb_catalogueExtract">(`pars oculi')</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_14"/>
-               <ab type="mlgb_copyCode">SC222.10</ab>
-               <ab type="mlgb_catalogueExtract">(`Raymondus')</ab>
+               <head>SC222.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_14"/>
+                  <ab type="mlgb_copyCode">SC222.10</ab>
+                  <ab type="mlgb_catalogueExtract">(`Raymondus')</ab>
+               </div>
             </div>
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_15"/>
-               <ab type="mlgb_copyCode">SC222.12</ab>
+               <head>SC222.12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_15"/>
+                  <ab type="mlgb_copyCode">SC222.12</ab>
+               </div>
             </div>
             <div type="entry" n="15">
-               <bibl type="identification" corresp="#bibl_16"/>
-               <ab type="mlgb_copyCode">SC222.¶15</ab>
+               <head>SC222.¶15</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_16"/>
+                  <ab type="mlgb_copyCode">SC222.¶15</ab>
+               </div>
             </div>
             <div type="entry" n="16">
-               <bibl type="identification" corresp="#bibl_17"/>
-               <ab type="mlgb_copyCode">SC222.16</ab>
+               <head>SC222.16</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_17"/>
+                  <ab type="mlgb_copyCode">SC222.16</ab>
+               </div>
             </div>
          </div>
 
@@ -137,7 +180,8 @@
                   </author><title key="mlgbWork_2846_3">Summa de casibus poenitentiae</title></bibl>
             <bibl xml:id="bibl_15"><author key="mlgbAuthor_948">Fasciculus morum, a Franciscan
                   compilation</author><title key="mlgbWork_948_1"/></bibl>
-            <bibl xml:id="bibl_16"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_6">Institutiones</title></bibl>
+            <bibl xml:id="bibl_16"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_6">Institutiones</title></bibl>
             <bibl xml:id="bibl_17"><author key="mlgbAuthor_1432">Hugutio of Pisa [12th cent.]
                   </author><title key="mlgbWork_1432_2">Liber deriuationum</title></bibl>
          </listBibl>

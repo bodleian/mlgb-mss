@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title><title type="mlgb_location">REGISTRUM ANGLIE</title><title type="mlgb_code">R26</title><title type="mlgb_booklist">Union catalogue by author and title, early 14th cent.</title>
+            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title>
+            <title type="mlgb_location">REGISTRUM ANGLIE</title>
+            <title type="mlgb_code">R26</title>
+            <title type="mlgb_booklist">Union catalogue by author and title, early 14th
+               cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,60 +25,85 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">R26.1</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy) = K7.8</ab>
+               <head>R26.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">R26.1</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy) = K7.8</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">R26.2</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy) = K7.25</ab>
+               <head>R26.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">R26.2</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy) = K7.25</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">R26.3</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy) = K7.23</ab>
-            </div>
-            <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">R26.3</ab>
-               <ab type="mlgb_catalogueExtract">( copy) = K7.24</ab>
+               <head>R26.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">R26.3</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy) = K7.23</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">R26.3</ab>
+                  <ab type="mlgb_catalogueExtract">( copy) = K7.24</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">R26.5</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy) = K7.22</ab>
+               <head>R26.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">R26.5</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy) = K7.22</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">R26.6</ab>
-               <ab type="mlgb_catalogueExtract">(`Albinus de proprietate sermonum et rerum') =
-                  K7.21</ab>
-            </div>
-            <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">R26.6</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy) = K7.21</ab>
-            </div>
-            <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">R26.6</ab>
-               <ab type="mlgb_catalogueExtract">(`Albinus de proprietate sermonum uel rerum')</ab>
+               <head>R26.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">R26.6</ab>
+                  <ab type="mlgb_catalogueExtract">(`Albinus de proprietate sermonum et rerum') =
+                     K7.21</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">R26.6</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy) = K7.21</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">R26.6</ab>
+                  <ab type="mlgb_catalogueExtract">(`Albinus de proprietate sermonum uel
+                     rerum')</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">R26.7</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy) = K7.20</ab>
+               <head>R26.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">R26.7</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy) = K7.20</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">R26.8</ab>
-               <ab type="mlgb_catalogueExtract">= K7.15</ab>
+               <head>R26.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">R26.8</ab>
+                  <ab type="mlgb_catalogueExtract">= K7.15</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">R26.9</ab>
-               <ab type="mlgb_catalogueExtract">(—-)</ab>
+               <head>R26.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">R26.9</ab>
+                  <ab type="mlgb_catalogueExtract">(—-)</ab>
+               </div>
             </div>
          </div>
 
@@ -81,21 +111,30 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title key="mlgbWork_116_4">Commentary on Ecclesiastes</title></bibl>
-            <bibl xml:id="bibl_2"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title key="mlgbWork_116_29">`Cronica'</title></bibl>
-            <bibl xml:id="bibl_3"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title key="mlgbWork_116_31">`De manifestatione trinitatis'</title></bibl>
-            <bibl xml:id="bibl_4"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title key="mlgbWork_116_33">`Didascalicon'</title></bibl>
-            <bibl xml:id="bibl_5"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title key="mlgbWork_116_16">Disputatio Pippini cum Albino</title></bibl>
-            <bibl xml:id="bibl_6"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title key="mlgbWork_116_13">Disputatio de rhetorica</title></bibl>
-            <bibl xml:id="bibl_7"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title key="mlgbWork_116_32">`De proprietate sermonum'</title></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
+                  key="mlgbWork_116_4">Commentary on Ecclesiastes</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
+                  key="mlgbWork_116_29">`Cronica'</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
+                  key="mlgbWork_116_31">`De manifestatione trinitatis'</title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
+                  key="mlgbWork_116_33">`Didascalicon'</title></bibl>
+            <bibl xml:id="bibl_5"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
+                  key="mlgbWork_116_16">Disputatio Pippini cum Albino</title></bibl>
+            <bibl xml:id="bibl_6"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
+                  key="mlgbWork_116_13">Disputatio de rhetorica</title></bibl>
+            <bibl xml:id="bibl_7"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
+                  key="mlgbWork_116_32">`De proprietate sermonum'</title></bibl>
             <bibl xml:id="bibl_8"><author key="mlgbAuthor_1947">Isidore of Seville [†636], bishop of
                   Seville </author><title key="mlgbWork_1947_2">De differentiis, comprising De
                   differentiis uerborum and De differentiis rerum</title></bibl>
-            <bibl xml:id="bibl_9"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title key="mlgbWork_116_9">De confessione peccatorum (ep. 131)</title></bibl>
+            <bibl xml:id="bibl_9"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
+                  key="mlgbWork_116_9">De confessione peccatorum (ep. 131)</title></bibl>
             <bibl xml:id="bibl_10"><author key="mlgbAuthor_1683">John of Fécamp [†1079]
                   </author><title key="mlgbWork_1683_1">(attrib.; ps. Alcuin, ps. Augustine),
                   Confessio fidei</title></bibl>
-            <bibl xml:id="bibl_11"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title key="mlgbWork_116_21">Quaestiones in Genesim</title></bibl>
+            <bibl xml:id="bibl_11"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
+                  key="mlgbWork_116_21">Quaestiones in Genesim</title></bibl>
          </listBibl>
       </back>
    </text>

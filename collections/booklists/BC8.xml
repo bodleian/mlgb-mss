@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES</title><title type="mlgb_location">Canterbury-Christ Church</title><title type="mlgb_code">BC8</title><title type="mlgb_booklist">List of books repaired, 1508.</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES</title>
+            <title type="mlgb_location">Canterbury-Christ Church</title>
+            <title type="mlgb_code">BC8</title>
+            <title type="mlgb_booklist">List of books repaired, 1508.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,53 +24,86 @@
          <div type="list">
 
             <div type="entry" n="49">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">BC8.*49</ab>
+               <head>BC8.*49</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">BC8.*49</ab>
+               </div>
             </div>
             <div type="entry" n="64">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">BC8.64</ab>
-               <ab type="mlgb_catalogueExtract">(`Eticius super Leuiticum')</ab>
+               <head>BC8.64</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">BC8.64</ab>
+                  <ab type="mlgb_catalogueExtract">(`Eticius super Leuiticum')</ab>
+               </div>
             </div>
             <div type="entry" n="81">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">BC8.81</ab>
+               <head>BC8.81</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">BC8.81</ab>
+               </div>
             </div>
             <div type="entry" n="83">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">BC8.*83</ab>
-               <ab type="mlgb_catalogueExtract">+ BC8.*84</ab>
+               <head>BC8.*83</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">BC8.*83</ab>
+                  <ab type="mlgb_catalogueExtract">+ BC8.*84</ab>
+               </div>
             </div>
             <div type="entry" n="84">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">BC8.*84</ab>
+               <head>BC8.*84</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">BC8.*84</ab>
+               </div>
             </div>
             <div type="entry" n="91">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">BC8.*91</ab>
+               <head>BC8.*91</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">BC8.*91</ab>
+               </div>
             </div>
             <div type="entry" n="95">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">BC8.95</ab>
+               <head>BC8.95</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">BC8.95</ab>
+               </div>
             </div>
             <div type="entry" n="134">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">BC8.*134</ab>
+               <head>BC8.*134</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">BC8.*134</ab>
+               </div>
             </div>
             <div type="entry" n="216">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">BC8.216</ab>
-               <ab type="mlgb_catalogueExtract">(`Glossa Iohannis Datoun super constituciones
-                  Othonis')</ab>
+               <head>BC8.216</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">BC8.216</ab>
+                  <ab type="mlgb_catalogueExtract">(`Glossa Iohannis Datoun super constituciones
+                     Othonis')</ab>
+               </div>
             </div>
             <div type="entry" n="250">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">BC8.250</ab>
-               <ab type="mlgb_catalogueExtract">(`Sampson de Caluo monte')</ab>
+               <head>BC8.250</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">BC8.250</ab>
+                  <ab type="mlgb_catalogueExtract">(`Sampson de Caluo monte')</ab>
+               </div>
             </div>
             <div type="entry" n="268">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">BC8.*268</ab>
+               <head>BC8.*268</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">BC8.*268</ab>
+               </div>
             </div>
          </div>
 
@@ -95,7 +132,8 @@
                   </author><title key="mlgbWork_352_47">De ciuitate Dei</title></bibl>
             <bibl xml:id="bibl_8"><author key="mlgbAuthor_192">Ambrose [c339—397], archbishop of
                   Milan </author><title key="mlgbWork_192_2">Commentary on Luke</title></bibl>
-            <bibl xml:id="bibl_9"><author key="mlgbAuthor_1545">John Acton [†1350] </author><title key="mlgbWork_1545_1">Commentary on the Legatine Constitutions</title></bibl>
+            <bibl xml:id="bibl_9"><author key="mlgbAuthor_1545">John Acton [†1350] </author><title
+                  key="mlgbWork_1545_1">Commentary on the Legatine Constitutions</title></bibl>
             <bibl xml:id="bibl_10"><author key="mlgbAuthor_3064">Sampson de Chaumont []
                   </author><title key="mlgbWork_3064_1">Lectura super apparatu
                Hostiensis</title></bibl>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">PREMONSTRATENSIANS</title><title type="mlgb_location">Hagnaby</title><title type="mlgb_code">P3</title><title type="mlgb_booklist">Books received by A. Wadington, 1511</title>
+            <title type="mlgb_booklist_Group">PREMONSTRATENSIANS</title>
+            <title type="mlgb_location">Hagnaby</title>
+            <title type="mlgb_code">P3</title>
+            <title type="mlgb_booklist">Books received by A. Wadington, 1511</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,27 +24,39 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">P3.1</ab>
+               <head>P3.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">P3.1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">P3.2</ab>
+               <head>P3.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">P3.2</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">P3.3</ab>
-               <ab type="mlgb_catalogueExtract">1c (inforciatum), BP3.32 (uetus), BP3.33a—b (tres
-                  partes, nouum), BP19.1 (uetus), BP19.2 (nouum), BP19.8 (inforciatum) F13.1
-                  (`digestum uetus, nouum et inforciatum') FA8.402 (uetus), FA8.407 (uetus), FA8.408
-                  (`uetus et inforciatum'), FA8.409 (nouum), FA8.413 (uetus) H2.157 (nouum), H2.*158
-                  (uetus) = H2.*679, H2.244 (inforciatum), H2.676 (nouum), H2.*678 (uetus, gl.),
-                  H2.*737 (`inforciatum cum casibus Bartoli', i.e. extracts in margins) H2.*1065
-                  (nouum, gl.) P3.3</ab>
+               <head>P3.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">P3.3</ab>
+                  <ab type="mlgb_catalogueExtract">1c (inforciatum), BP3.32 (uetus), BP3.33a—b (tres
+                     partes, nouum), BP19.1 (uetus), BP19.2 (nouum), BP19.8 (inforciatum) F13.1
+                     (`digestum uetus, nouum et inforciatum') FA8.402 (uetus), FA8.407 (uetus),
+                     FA8.408 (`uetus et inforciatum'), FA8.409 (nouum), FA8.413 (uetus) H2.157
+                     (nouum), H2.*158 (uetus) = H2.*679, H2.244 (inforciatum), H2.676 (nouum),
+                     H2.*678 (uetus, gl.), H2.*737 (`inforciatum cum casibus Bartoli', i.e. extracts
+                     in margins) H2.*1065 (nouum, gl.) P3.3</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">P3.6</ab>
+               <head>P3.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">P3.6</ab>
+               </div>
             </div>
          </div>
 
@@ -48,10 +64,12 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1190">Gratian [† by c1160] </author><title key="mlgbWork_1190_1">Decretum</title></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1190">Gratian [† by c1160] </author><title
+                  key="mlgbWork_1190_1">Decretum</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_1612">Iohannes de Burgo [† after 1398]
                   </author><title key="mlgbWork_1612_1">Pupilla oculi</title></bibl>
-            <bibl xml:id="bibl_3"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_5">Digestum</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_5">Digestum</title></bibl>
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_1177">Goffredo di Trani [†1245]
                   </author><title key="mlgbWork_1177_2">Summa super titulis
                Decretalium</title></bibl>

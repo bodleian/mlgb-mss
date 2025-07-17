@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">AUGUSTINIAN CANONS</title><title type="mlgb_location">Guisborough</title><title type="mlgb_code">A11</title><title type="mlgb_booklist">Leland, c. 1536-40</title>
+            <title type="mlgb_booklist_Group">AUGUSTINIAN CANONS</title>
+            <title type="mlgb_location">Guisborough</title>
+            <title type="mlgb_code">A11</title>
+            <title type="mlgb_booklist">Leland, c. 1536-40</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,25 +24,40 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">A11.1</ab>
+               <head>A11.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">A11.1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">A11.2</ab>
+               <head>A11.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">A11.2</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">A11.3</ab>
+               <head>A11.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">A11.3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">A11.4</ab>
+               <head>A11.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">A11.4</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">A11.5</ab>
-               <ab type="mlgb_catalogueExtract">(not found by Leland)</ab>
+               <head>A11.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">A11.5</ab>
+                  <ab type="mlgb_catalogueExtract">(not found by Leland)</ab>
+               </div>
             </div>
          </div>
 
@@ -52,7 +71,8 @@
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_1293">Henry of Harclay [†1317]
                   </author><title key="mlgbWork_1293_2">Quodlibeta</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_3004">Robert Winchelsea [†1313],
-                  archbishop of Canterbury </author><title key="mlgbWork_3004_3">Quodlibeta</title></bibl>
+                  archbishop of Canterbury </author><title key="mlgbWork_3004_3"
+               >Quodlibeta</title></bibl>
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_3784">William de Shirburn OFM [† after
                   1312] </author><title key="mlgbWork_3784_1">Quodlibeta</title></bibl>
             <bibl xml:id="bibl_5"><author key="mlgbAuthor_3632">Walter of Guisborough OSA [† after

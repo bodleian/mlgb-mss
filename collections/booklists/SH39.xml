@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the Professions</title><title type="mlgb_location">London, Gray's Inn</title><title type="mlgb_code">SH39</title><title type="mlgb_booklist">Bequest by Edmund Pickering, 26 November 1488</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the
+               Professions</title>
+            <title type="mlgb_location">London, Gray's Inn</title>
+            <title type="mlgb_code">SH39</title>
+            <title type="mlgb_booklist">Bequest by Edmund Pickering, 26 November 1488</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,36 +25,55 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SH39.1</ab>
-               <ab type="mlgb_catalogueExtract">(`de statutis Edwardi tercii cum kalendario de
-                  omnibus statutis in paupiro')</ab>
+               <head>SH39.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SH39.1</ab>
+                  <ab type="mlgb_catalogueExtract">(`de statutis Edwardi tercii cum kalendario de
+                     omnibus statutis in paupiro')</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SH39.2</ab>
+               <head>SH39.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SH39.2</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">SH39.†3</ab>
-               <ab type="mlgb_catalogueExtract">(`liber de cronicis Anglie, 2o fo. et engendra', 2nd
-                  fo.)</ab>
+               <head>SH39.†3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">SH39.†3</ab>
+                  <ab type="mlgb_catalogueExtract">(`liber de cronicis Anglie, 2o fo. et engendra',
+                     2nd fo.)</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">SH39.4</ab>
-               <ab type="mlgb_catalogueExtract">(`de legend' sanctorum in gallicis')</ab>
+               <head>SH39.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">SH39.4</ab>
+                  <ab type="mlgb_catalogueExtract">(`de legend' sanctorum in gallicis')</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">SH39.†5</ab>
-               <ab type="mlgb_catalogueExtract">(`de regno de Iherusalem continens sex partes')</ab>
+               <head>SH39.†5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">SH39.†5</ab>
+                  <ab type="mlgb_catalogueExtract">(`de regno de Iherusalem continens sex
+                     partes')</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">SH39.6</ab>
-               <ab type="mlgb_catalogueExtract">(`de papa Vrbano pro Iherusalem lucrand' de manibus
-                  Sarazenorum')</ab>
+               <head>SH39.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">SH39.6</ab>
+                  <ab type="mlgb_catalogueExtract">(`de papa Vrbano pro Iherusalem lucrand' de
+                     manibus Sarazenorum')</ab>
+               </div>
             </div>
          </div>
 
@@ -62,7 +86,8 @@
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_2561">Petrus de Crescentiis (Pietro de'
                   Crescenzi) [c1233—c1320] </author><title key="mlgbWork_2561_1">Ruralia
                   commoda</title></bibl>
-            <bibl xml:id="bibl_3"><author key="mlgbAuthor_3366">Thomas Gray [] </author><title key="mlgbWork_3366_1">Scalachronica</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_3366">Thomas Gray [] </author><title
+                  key="mlgbWork_3366_1">Scalachronica</title></bibl>
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_1502">Iacobus de Voragine (Iacopo da
                   Varazze) OP [†1298] </author><title key="mlgbWork_1502_3">Legenda aurea, French
                   tr. by Jean de Vignay, La legende doree</title></bibl>

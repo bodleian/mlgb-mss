@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the Professions</title><title type="mlgb_location">York, hospital of Christ and St Mary</title><title type="mlgb_code">SH124</title><title type="mlgb_booklist">Bequest of William Otteley, 17 June 1432</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the
+               Professions</title>
+            <title type="mlgb_location">York, hospital of Christ and St Mary</title>
+            <title type="mlgb_code">SH124</title>
+            <title type="mlgb_booklist">Bequest of William Otteley, 17 June 1432</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,13 +25,19 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SH124.1</ab>
+               <head>SH124.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SH124.1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SH124.2</ab>
-               <ab type="mlgb_catalogueExtract">(`Breton')</ab>
+               <head>SH124.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SH124.2</ab>
+                  <ab type="mlgb_catalogueExtract">(`Breton')</ab>
+               </div>
             </div>
          </div>
 
@@ -41,7 +52,8 @@
                   apophthegmata of the type collected and published by H. Rosweyde and reprinted in
                   PL vols. 73—4. Jerome's Lives of St Paul the Hermit, St Hilarion, and St Malchus
                   (CPL 617—19) also make a frequent appearance. [See also Historia monachorum in
-                  Aegypto; Jerome, Liber adhortationum sanctorum patrum.] </author><title key="mlgbWork_3606_1"/></bibl>
+                  Aegypto; Jerome, Liber adhortationum sanctorum patrum.] </author><title
+                  key="mlgbWork_3606_1"/></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_3673">William Brito [late 13th cent.]
                   </author><title key="mlgbWork_3673_3">Expositiones uocabulorum
                Bibliae</title></bibl>

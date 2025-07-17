@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title><title type="mlgb_location">Burden Hostel</title><title type="mlgb_code">UC8</title><title type="mlgb_booklist">List of canon and civil law books, 1529</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title>
+            <title type="mlgb_location">Burden Hostel</title>
+            <title type="mlgb_code">UC8</title>
+            <title type="mlgb_booklist">List of canon and civil law books, 1529</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,150 +24,225 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UC8.¶1</ab>
+               <head>UC8.¶1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UC8.¶1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UC8.¶2</ab>
+               <head>UC8.¶2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UC8.¶2</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">UC8.¶3</ab>
-               <ab type="mlgb_catalogueExtract">(2 vols)</ab>
+               <head>UC8.¶3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">UC8.¶3</ab>
+                  <ab type="mlgb_catalogueExtract">(2 vols)</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">UC8.¶4</ab>
+               <head>UC8.¶4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">UC8.¶4</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">UC8.¶5</ab>
-               <ab type="mlgb_catalogueExtract">(8 vols)</ab>
+               <head>UC8.¶5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">UC8.¶5</ab>
+                  <ab type="mlgb_catalogueExtract">(8 vols)</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">UC8.¶6</ab>
-               <ab type="mlgb_catalogueExtract">(`casus Viuiani in duobus')</ab>
+               <head>UC8.¶6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">UC8.¶6</ab>
+                  <ab type="mlgb_catalogueExtract">(`casus Viuiani in duobus')</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">UC8.¶7b</ab>
-            </div>
-            <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">UC8.¶7a</ab>
-               <ab type="mlgb_catalogueExtract">(`margarita decretorum')</ab>
+               <head>UC8.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">UC8.¶7b</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">UC8.¶7a</ab>
+                  <ab type="mlgb_catalogueExtract">(`margarita decretorum')</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">UC8.¶8</ab>
+               <head>UC8.¶8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">UC8.¶8</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">UC8.¶9</ab>
+               <head>UC8.¶9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">UC8.¶9</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">UC8.¶10</ab>
-               <ab type="mlgb_catalogueExtract">(`Baldus super iure ciuili in 4 uol.')</ab>
-            </div>
-            <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">UC8.¶10</ab>
-               <ab type="mlgb_catalogueExtract">(`Baldus super iure ciuili in 4 uol.')</ab>
-            </div>
-            <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">UC8.¶10</ab>
-               <ab type="mlgb_catalogueExtract">(`Baldus super iure ciuili in 4 uol.')</ab>
-            </div>
-            <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_14"/>
-               <ab type="mlgb_copyCode">UC8.¶10</ab>
-               <ab type="mlgb_catalogueExtract">(`Baldus super iure ciuili in 4 uol.')</ab>
+               <head>UC8.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">UC8.¶10</ab>
+                  <ab type="mlgb_catalogueExtract">(`Baldus super iure ciuili in 4 uol.')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">UC8.¶10</ab>
+                  <ab type="mlgb_catalogueExtract">(`Baldus super iure ciuili in 4 uol.')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">UC8.¶10</ab>
+                  <ab type="mlgb_catalogueExtract">(`Baldus super iure ciuili in 4 uol.')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_14"/>
+                  <ab type="mlgb_copyCode">UC8.¶10</ab>
+                  <ab type="mlgb_catalogueExtract">(`Baldus super iure ciuili in 4 uol.')</ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_15"/>
-               <ab type="mlgb_copyCode">UC8.¶11</ab>
-               <ab type="mlgb_catalogueExtract">(4 vols)</ab>
+               <head>UC8.¶11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_15"/>
+                  <ab type="mlgb_copyCode">UC8.¶11</ab>
+                  <ab type="mlgb_catalogueExtract">(4 vols)</ab>
+               </div>
             </div>
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_16"/>
-               <ab type="mlgb_copyCode">UC8.¶12</ab>
+               <head>UC8.¶12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_16"/>
+                  <ab type="mlgb_copyCode">UC8.¶12</ab>
+               </div>
             </div>
             <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_17"/>
-               <ab type="mlgb_copyCode">UC8.¶13</ab>
+               <head>UC8.¶13</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_17"/>
+                  <ab type="mlgb_copyCode">UC8.¶13</ab>
+               </div>
             </div>
             <div type="entry" n="14">
-               <bibl type="identification" corresp="#bibl_18"/>
-               <ab type="mlgb_copyCode">UC8.¶14</ab>
+               <head>UC8.¶14</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_18"/>
+                  <ab type="mlgb_copyCode">UC8.¶14</ab>
+               </div>
             </div>
             <div type="entry" n="15">
-               <bibl type="identification" corresp="#bibl_19"/>
-               <ab type="mlgb_copyCode">UC8.¶15</ab>
+               <head>UC8.¶15</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_19"/>
+                  <ab type="mlgb_copyCode">UC8.¶15</ab>
+               </div>
             </div>
             <div type="entry" n="16">
-               <bibl type="identification" corresp="#bibl_20"/>
-               <ab type="mlgb_copyCode">UC8.¶16</ab>
-               <ab type="mlgb_catalogueExtract">(part 1)</ab>
+               <head>UC8.¶16</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_20"/>
+                  <ab type="mlgb_copyCode">UC8.¶16</ab>
+                  <ab type="mlgb_catalogueExtract">(part 1)</ab>
+               </div>
             </div>
             <div type="entry" n="17">
-               <bibl type="identification" corresp="#bibl_21"/>
-               <ab type="mlgb_copyCode">UC8.¶17</ab>
-               <ab type="mlgb_catalogueExtract">(`consilia Raphaelis')</ab>
-            </div>
-            <div type="entry" n="17">
-               <bibl type="identification" corresp="#bibl_22"/>
-               <ab type="mlgb_copyCode">UC8.¶17</ab>
-               <ab type="mlgb_catalogueExtract">(`consilia Raphaelis')</ab>
+               <head>UC8.17</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_21"/>
+                  <ab type="mlgb_copyCode">UC8.¶17</ab>
+                  <ab type="mlgb_catalogueExtract">(`consilia Raphaelis')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_22"/>
+                  <ab type="mlgb_copyCode">UC8.¶17</ab>
+                  <ab type="mlgb_catalogueExtract">(`consilia Raphaelis')</ab>
+               </div>
             </div>
             <div type="entry" n="18">
-               <bibl type="identification" corresp="#bibl_23"/>
-               <ab type="mlgb_copyCode">UC8.¶18</ab>
+               <head>UC8.¶18</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_23"/>
+                  <ab type="mlgb_copyCode">UC8.¶18</ab>
+               </div>
             </div>
             <div type="entry" n="19">
-               <bibl type="identification" corresp="#bibl_24"/>
-               <ab type="mlgb_copyCode">UC8.¶19</ab>
+               <head>UC8.¶19</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_24"/>
+                  <ab type="mlgb_copyCode">UC8.¶19</ab>
+               </div>
             </div>
             <div type="entry" n="20">
-               <bibl type="identification" corresp="#bibl_25"/>
-               <ab type="mlgb_copyCode">UC8.¶20</ab>
+               <head>UC8.¶20</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_25"/>
+                  <ab type="mlgb_copyCode">UC8.¶20</ab>
+               </div>
             </div>
             <div type="entry" n="21">
-               <bibl type="identification" corresp="#bibl_26"/>
-               <ab type="mlgb_copyCode">UC8.21</ab>
-               <ab type="mlgb_catalogueExtract">(`Bowycus super decretalibus in scriptura')</ab>
+               <head>UC8.21</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_26"/>
+                  <ab type="mlgb_copyCode">UC8.21</ab>
+                  <ab type="mlgb_catalogueExtract">(`Bowycus super decretalibus in scriptura')</ab>
+               </div>
             </div>
             <div type="entry" n="22">
-               <bibl type="identification" corresp="#bibl_27"/>
-               <ab type="mlgb_copyCode">UC8.¶22</ab>
-               <ab type="mlgb_catalogueExtract">(`Anglies super institutis')</ab>
-            </div>
-            <div type="entry" n="22">
-               <bibl type="identification" corresp="#bibl_28"/>
-               <ab type="mlgb_copyCode">UC8.¶22</ab>
-               <ab type="mlgb_catalogueExtract">(`Anglies super institutis')</ab>
+               <head>UC8.22</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_27"/>
+                  <ab type="mlgb_copyCode">UC8.¶22</ab>
+                  <ab type="mlgb_catalogueExtract">(`Anglies super institutis')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_28"/>
+                  <ab type="mlgb_copyCode">UC8.¶22</ab>
+                  <ab type="mlgb_catalogueExtract">(`Anglies super institutis')</ab>
+               </div>
             </div>
             <div type="entry" n="23">
-               <bibl type="identification" corresp="#bibl_29"/>
-               <ab type="mlgb_copyCode">UC8.¶23</ab>
+               <head>UC8.¶23</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_29"/>
+                  <ab type="mlgb_copyCode">UC8.¶23</ab>
+               </div>
             </div>
             <div type="entry" n="25">
-               <bibl type="identification" corresp="#bibl_30"/>
-               <ab type="mlgb_copyCode">UC8.¶†25</ab>
-               <ab type="mlgb_catalogueExtract">(`repetitiones Ioannis de Imola')</ab>
-            </div>
-            <div type="entry" n="25">
-               <bibl type="identification" corresp="#bibl_31"/>
-               <ab type="mlgb_copyCode">UC8.¶†25</ab>
-               <ab type="mlgb_catalogueExtract">(`repetitiones Ioannis de Imola')</ab>
+               <head>UC8.25</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_30"/>
+                  <ab type="mlgb_copyCode">UC8.¶†25</ab>
+                  <ab type="mlgb_catalogueExtract">(`repetitiones Ioannis de Imola')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_31"/>
+                  <ab type="mlgb_copyCode">UC8.¶†25</ab>
+                  <ab type="mlgb_catalogueExtract">(`repetitiones Ioannis de Imola')</ab>
+               </div>
             </div>
             <div type="entry" n="26">
-               <bibl type="identification" corresp="#bibl_32"/>
-               <ab type="mlgb_copyCode">UC8.¶26</ab>
-               <ab type="mlgb_catalogueExtract">(2 vols)</ab>
+               <head>UC8.¶26</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_32"/>
+                  <ab type="mlgb_copyCode">UC8.¶26</ab>
+                  <ab type="mlgb_catalogueExtract">(2 vols)</ab>
+               </div>
             </div>
          </div>
 
@@ -210,7 +289,8 @@
             <bibl xml:id="bibl_14"><author key="mlgbAuthor_388">Baldus de Ubaldis (Baldo degli
                   Ubaldi) [?1327—1400] </author><title key="mlgbWork_388_9">Lectura super Digesto
                   nouo</title></bibl>
-            <bibl xml:id="bibl_15"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_4">Corpus iuris ciuilis, comprising Justinian's Digestum,
+            <bibl xml:id="bibl_15"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_4">Corpus iuris ciuilis, comprising Justinian's Digestum,
                   Codex, Institutiones, and Nouellae</title></bibl>
             <bibl xml:id="bibl_16"><author key="mlgbAuthor_1190">Gratian [† by c1160]
                   </author><title key="mlgbWork_1190_1">Decretum</title></bibl>
@@ -224,7 +304,8 @@
             <bibl xml:id="bibl_20"><author key="mlgbAuthor_147">Alexander Tartagnus de Imola
                   (Alessandro Tartagni) [1424—1477] </author><title key="mlgbWork_147_2">Lectura
                   super prima et secunda parte Codicis</title></bibl>
-            <bibl xml:id="bibl_21"><author key="mlgbAuthor_2836">Raphael Fulgosus [] </author><title key="mlgbWork_2836_1">Consilia</title></bibl>
+            <bibl xml:id="bibl_21"><author key="mlgbAuthor_2836">Raphael Fulgosus [] </author><title
+                  key="mlgbWork_2836_1">Consilia</title></bibl>
             <bibl xml:id="bibl_22"><author key="mlgbAuthor_2837">Raphael de Raymundis []
                   </author><title key="mlgbWork_2837_1">Consilia</title></bibl>
             <bibl xml:id="bibl_23"><author key="mlgbAuthor_2658">Philippus Decius [1454—1535]

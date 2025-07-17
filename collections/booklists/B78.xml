@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title><title type="mlgb_location">Rochester</title><title type="mlgb_code">B78</title><title type="mlgb_booklist">Fragments of catalogue, early 12th cent.</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title>
+            <title type="mlgb_location">Rochester</title>
+            <title type="mlgb_code">B78</title>
+            <title type="mlgb_booklist">Fragments of catalogue, early 12th cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,18 +24,27 @@
          <div type="list">
 
             <div type="entry" n="6" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_4712">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">B78.*6</ab>
-               <ab type="mlgb_catalogueExtract">= B79.*15</ab>
+               <head>B78.*6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">B78.*6</ab>
+                  <ab type="mlgb_catalogueExtract">= B79.*15</ab>
+               </div>
             </div>
             <div type="entry" n="24">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">B78.†24</ab>
+               <head>B78.†24</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">B78.†24</ab>
+               </div>
             </div>
             <div type="entry" n="25">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">B78.*25</ab>
-               <ab type="mlgb_catalogueExtract">= B79.*135</ab>
+               <head>B78.*25</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">B78.*25</ab>
+                  <ab type="mlgb_catalogueExtract">= B79.*135</ab>
+               </div>
             </div>
          </div>
 

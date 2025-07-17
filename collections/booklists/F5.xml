@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">NEW FRIARS</title><title type="mlgb_location">Boston-Franciscan</title><title type="mlgb_code">F5</title><title type="mlgb_booklist">Lincolnshire list, 1528</title>
+            <title type="mlgb_booklist_Group">NEW FRIARS</title>
+            <title type="mlgb_location">Boston-Franciscan</title>
+            <title type="mlgb_code">F5</title>
+            <title type="mlgb_booklist">Lincolnshire list, 1528</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,37 +24,52 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">F5.1</ab>
-               <ab type="mlgb_catalogueExtract">(`epistole R. G. numero 127', inc. = ep. 2) +
-                  F5.3</ab>
+               <head>F5.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">F5.1</ab>
+                  <ab type="mlgb_catalogueExtract">(`epistole R. G. numero 127', inc. = ep. 2) +
+                     F5.3</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">F5.2</ab>
-               <ab type="mlgb_catalogueExtract">(`epistola fratris Gulielmi Notingham de
-                  obedientia')</ab>
+               <head>F5.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">F5.2</ab>
+                  <ab type="mlgb_catalogueExtract">(`epistola fratris Gulielmi Notingham de
+                     obedientia')</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">F5.3</ab>
-               <ab type="mlgb_catalogueExtract">(`epistola L. instar libelluli ad Adamum Rufum quod
-                  deus prima forma et forma omnium')</ab>
-            </div>
-            <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">F5.3</ab>
-               <ab type="mlgb_catalogueExtract">(inc. = ep. 1)</ab>
+               <head>F5.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">F5.3</ab>
+                  <ab type="mlgb_catalogueExtract">(`epistola L. instar libelluli ad Adamum Rufum
+                     quod deus prima forma et forma omnium')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">F5.3</ab>
+                  <ab type="mlgb_catalogueExtract">(inc. = ep. 1)</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">F5.4</ab>
-               <ab type="mlgb_catalogueExtract">(`duo sermones L. habiti coram papa')</ab>
+               <head>F5.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">F5.4</ab>
+                  <ab type="mlgb_catalogueExtract">(`duo sermones L. habiti coram papa')</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">F5.5</ab>
-               <ab type="mlgb_catalogueExtract">(`Ambrosius Ausbertus')</ab>
+               <head>F5.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">F5.5</ab>
+                  <ab type="mlgb_catalogueExtract">(`Ambrosius Ausbertus')</ab>
+               </div>
             </div>
          </div>
 
@@ -59,7 +78,8 @@
          <listBibl>
 
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_2973">Robert Grosseteste, known as
-                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_42">Epistolae</title></bibl>
+                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_42"
+                  >Epistolae</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_3750">William of Nottingham OFM [† after
                   1254] </author><title key="mlgbWork_3750_1">Sermo bonus de
                obedientia</title></bibl>
@@ -68,9 +88,11 @@
                   forma prima omnium, the first part of a letter to Adam Marsh (ep.
                1)</title></bibl>
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_2973">Robert Grosseteste, known as
-                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_42">Epistolae</title></bibl>
+                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_42"
+                  >Epistolae</title></bibl>
             <bibl xml:id="bibl_5"><author key="mlgbAuthor_2973">Robert Grosseteste, known as
-                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_49">Sermones</title></bibl>
+                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_49"
+                  >Sermones</title></bibl>
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_195">Ambrosius Autpertus [†781]
                   </author><title key="mlgbWork_195_2">De conflictu uitiorum et
                uirtutum</title></bibl>

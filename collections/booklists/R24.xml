@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title><title type="mlgb_location">REGISTRUM ANGLIE</title><title type="mlgb_code">R24</title><title type="mlgb_booklist">Union catalogue by author and title, early 14th cent.</title>
+            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title>
+            <title type="mlgb_location">REGISTRUM ANGLIE</title>
+            <title type="mlgb_code">R24</title>
+            <title type="mlgb_booklist">Union catalogue by author and title, early 14th
+               cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,19 +25,28 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">R24.1</ab>
-               <ab type="mlgb_catalogueExtract">(attrib. Rufinus, 1 copy)</ab>
+               <head>R24.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">R24.1</ab>
+                  <ab type="mlgb_catalogueExtract">(attrib. Rufinus, 1 copy)</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">R24.2</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+               <head>R24.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">R24.2</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">R24.3</ab>
-               <ab type="mlgb_catalogueExtract">(attrib. Rufinus, 2 copies)</ab>
+               <head>R24.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">R24.3</ab>
+                  <ab type="mlgb_catalogueExtract">(attrib. Rufinus, 2 copies)</ab>
+               </div>
             </div>
          </div>
 
@@ -40,7 +54,8 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_2430">Origen [c185—c254] </author><title key="mlgbWork_2430_9">Homilies on Numbers, tr. Rufinus</title></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_2430">Origen [c185—c254] </author><title
+                  key="mlgbWork_2430_9">Homilies on Numbers, tr. Rufinus</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_3050">Rufinus of Aquileia [c345—411]
                   </author><title key="mlgbWork_3050_2">Apologia contra Hieronymum</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_913">Eusebius of Caesarea [c260—339],

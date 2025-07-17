@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">CARTHUSIANS</title><title type="mlgb_location">Hinton</title><title type="mlgb_code">C1</title><title type="mlgb_booklist">Loans to another charterhouse, 1343</title>
+            <title type="mlgb_booklist_Group">CARTHUSIANS</title>
+            <title type="mlgb_location">Hinton</title>
+            <title type="mlgb_code">C1</title>
+            <title type="mlgb_booklist">Loans to another charterhouse, 1343</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,65 +24,104 @@
          <div type="list">
 
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">C1.3</ab>
+               <head>C1.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">C1.3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">C1.4</ab>
-               <ab type="mlgb_catalogueExtract">(`enchiridion of St Sixtus')</ab>
+               <head>C1.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">C1.4</ab>
+                  <ab type="mlgb_catalogueExtract">(`enchiridion of St Sixtus')</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">C1.5</ab>
-               <ab type="mlgb_catalogueExtract">(`a treatise of Peter of Cluny')</ab>
+               <head>C1.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">C1.5</ab>
+                  <ab type="mlgb_catalogueExtract">(`a treatise of Peter of Cluny')</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">C1.6</ab>
+               <head>C1.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">C1.6</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">C1.†7a</ab>
-               <ab type="mlgb_catalogueExtract">(`flores', w. Magna glosa Psalterii)</ab>
+               <head>C1.†7a</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">C1.†7a</ab>
+                  <ab type="mlgb_catalogueExtract">(`flores', w. Magna glosa Psalterii)</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">C1.8</ab>
+               <head>C1.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">C1.8</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">C1.9a</ab>
-            </div>
-            <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">C1.9b</ab>
+               <head>C1.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">C1.9a</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">C1.9b</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">C1.10</ab>
+               <head>C1.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">C1.10</ab>
+               </div>
             </div>
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">C1.†12</ab>
-               <ab type="mlgb_catalogueExtract">(`de †orto Pilati')</ab>
+               <head>C1.†12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">C1.†12</ab>
+                  <ab type="mlgb_catalogueExtract">(`de †orto Pilati')</ab>
+               </div>
             </div>
             <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">C1.13</ab>
+               <head>C1.13</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">C1.13</ab>
+               </div>
             </div>
             <div type="entry" n="14">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">C1.14</ab>
-               <ab type="mlgb_catalogueExtract">(`dialogus ss. Gregorii et Augustini')</ab>
+               <head>C1.14</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">C1.14</ab>
+                  <ab type="mlgb_catalogueExtract">(`dialogus ss. Gregorii et Augustini')</ab>
+               </div>
             </div>
             <div type="entry" n="18">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">C1.18</ab>
+               <head>C1.18</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">C1.18</ab>
+               </div>
             </div>
             <div type="entry" n="19">
-               <bibl type="identification" corresp="#bibl_14"/>
-               <ab type="mlgb_copyCode">C1.19a</ab>
+               <head>C1.19a</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_14"/>
+                  <ab type="mlgb_copyCode">C1.19a</ab>
+               </div>
             </div>
          </div>
 
@@ -87,7 +130,8 @@
          <listBibl>
 
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_241">Anselm of Canterbury OSB
-                  [c1033—1109], archbishop of Canterbury </author><title key="mlgbWork_241_21">Orationes and Meditationes</title></bibl>
+                  [c1033—1109], archbishop of Canterbury </author><title key="mlgbWork_241_21"
+                  >Orationes and Meditationes</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_3132">Sextus the Pythagorean [?2nd cent.]
                   </author><title key="mlgbWork_3132_1">Sententiae, tr. Rufinus</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_2635">Peter the Venerable OSB [c1092—1156]
@@ -103,9 +147,12 @@
             <bibl xml:id="bibl_7"><author key="mlgbAuthor_352">Augustine [354—430], bishop of Hippo
                   </author><title key="mlgbWork_352_327">Dialogus quaestionum LXV</title></bibl>
             <bibl xml:id="bibl_8"><author key="mlgbAuthor_2973">Robert Grosseteste, known as
-                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_51">Templum Domini</title></bibl>
-            <bibl xml:id="bibl_9"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title key="mlgbWork_1517_137">Vita S. Pauli primi heremitae</title></bibl>
-            <bibl xml:id="bibl_10"><author key="mlgbAuthor_927">Euangelium Nicodemi</author><title key="mlgbWork_927_1"/></bibl>
+                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_51"
+                  >Templum Domini</title></bibl>
+            <bibl xml:id="bibl_9"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title
+                  key="mlgbWork_1517_137">Vita S. Pauli primi heremitae</title></bibl>
+            <bibl xml:id="bibl_10"><author key="mlgbAuthor_927">Euangelium Nicodemi</author><title
+                  key="mlgbWork_927_1"/></bibl>
             <bibl xml:id="bibl_11"><author key="mlgbAuthor_3368">Thomas Hibernicus [14th cent.]
                   </author><title key="mlgbWork_3368_2">Manipulus florum</title></bibl>
             <bibl xml:id="bibl_12"><author key="mlgbAuthor_1193">Gregory the Great [c540—604, sedit

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title><title type="mlgb_location">London, St Martin-le-Grand</title><title type="mlgb_code">SC262</title><title type="mlgb_booklist">Inventory of books and vestments, after 1503</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title>
+            <title type="mlgb_location">London, St Martin-le-Grand</title>
+            <title type="mlgb_code">SC262</title>
+            <title type="mlgb_booklist">Inventory of books and vestments, after 1503</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,27 +24,42 @@
          <div type="list">
 
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SC262.4</ab>
+               <head>SC262.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SC262.4</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SC262.5b</ab>
-               <ab type="mlgb_catalogueExtract">(anon.)</ab>
+               <head>SC262.5b</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SC262.5b</ab>
+                  <ab type="mlgb_catalogueExtract">(anon.)</ab>
+               </div>
             </div>
             <div type="entry" n="17">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">SC262.¶17</ab>
-               <ab type="mlgb_catalogueExtract">(5 copies)</ab>
+               <head>SC262.¶17</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">SC262.¶17</ab>
+                  <ab type="mlgb_catalogueExtract">(5 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="29">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">SC262.¶29</ab>
+               <head>SC262.¶29</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">SC262.¶29</ab>
+               </div>
             </div>
             <div type="entry" n="43">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">SC262.43</ab>
-               <ab type="mlgb_catalogueExtract">(`a grammar boke', 2nd fo.)</ab>
+               <head>SC262.43</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">SC262.43</ab>
+                  <ab type="mlgb_catalogueExtract">(`a grammar boke', 2nd fo.)</ab>
+               </div>
             </div>
          </div>
 
@@ -54,7 +73,8 @@
                   Marseilles </author><title key="mlgbWork_1627_1">Collationes</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_2747">Processionale ad usum ecclesiae
                   Sarisburiensis</author><title key="mlgbWork_2747_1"/></bibl>
-            <bibl xml:id="bibl_4"><author key="mlgbAuthor_2016">Legenda ad usum Sarum</author><title key="mlgbWork_2016_1"/></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_2016">Legenda ad usum Sarum</author><title
+                  key="mlgbWork_2016_1"/></bibl>
             <bibl xml:id="bibl_5"><author key="mlgbAuthor_1432">Hugutio of Pisa [12th cent.]
                   </author><title key="mlgbWork_1432_2">Liber deriuationum</title></bibl>
          </listBibl>

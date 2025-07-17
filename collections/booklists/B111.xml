@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title><title type="mlgb_location">Wilton</title><title type="mlgb_code">B111</title><title type="mlgb_booklist">List of books, early 16th cent.</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title>
+            <title type="mlgb_location">Wilton</title>
+            <title type="mlgb_code">B111</title>
+            <title type="mlgb_booklist">List of books, early 16th cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,24 +24,36 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">B111.†1</ab>
-               <ab type="mlgb_catalogueExtract">(`flos Bartholomei')</ab>
+               <head>B111.†1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">B111.†1</ab>
+                  <ab type="mlgb_catalogueExtract">(`flos Bartholomei')</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">B111.†2</ab>
-               <ab type="mlgb_catalogueExtract">(`Isodorus')</ab>
+               <head>B111.†2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">B111.†2</ab>
+                  <ab type="mlgb_catalogueExtract">(`Isodorus')</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">B111.3—4</ab>
-               <ab type="mlgb_catalogueExtract">(incomplete?)</ab>
+               <head>B111.3—4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">B111.3—4</ab>
+                  <ab type="mlgb_catalogueExtract">(incomplete?)</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">B111.3—4</ab>
-               <ab type="mlgb_catalogueExtract">(incomplete?)</ab>
+               <head>B111.3—4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">B111.3—4</ab>
+                  <ab type="mlgb_catalogueExtract">(incomplete?)</ab>
+               </div>
             </div>
          </div>
 

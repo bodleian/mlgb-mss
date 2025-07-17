@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">HENRY DE KIRKESTEDE</title><title type="mlgb_location">HENRY DE KIRKESTEDE</title><title type="mlgb_code">K240</title><title type="mlgb_booklist">Catalogus, c. 1360</title>
+            <title type="mlgb_booklist_Group">HENRY DE KIRKESTEDE</title>
+            <title type="mlgb_location">HENRY DE KIRKESTEDE</title>
+            <title type="mlgb_code">K240</title>
+            <title type="mlgb_booklist">Catalogus, c. 1360</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,38 +24,59 @@
          <div type="list">
 
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">K240.2</ab>
-               <ab type="mlgb_catalogueExtract">(3 copies, among them B13.85)</ab>
+               <head>K240.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">K240.2</ab>
+                  <ab type="mlgb_catalogueExtract">(3 copies, among them B13.85)</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">K240.3</ab>
-               <ab type="mlgb_catalogueExtract">(3 copies, among them B13.161)</ab>
+               <head>K240.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">K240.3</ab>
+                  <ab type="mlgb_catalogueExtract">(3 copies, among them B13.161)</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">K240.4</ab>
-               <ab type="mlgb_catalogueExtract">(2 copies)</ab>
+               <head>K240.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">K240.4</ab>
+                  <ab type="mlgb_catalogueExtract">(2 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">K240.5</ab>
-               <ab type="mlgb_catalogueExtract">(3 copies)</ab>
+               <head>K240.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">K240.5</ab>
+                  <ab type="mlgb_catalogueExtract">(3 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">K240.6</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+               <head>K240.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">K240.6</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">K240.7</ab>
+               <head>K240.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">K240.7</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">K240.9</ab>
-               <ab type="mlgb_catalogueExtract">(3 copies)</ab>
+               <head>K240.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">K240.9</ab>
+                  <ab type="mlgb_catalogueExtract">(3 copies)</ab>
+               </div>
             </div>
          </div>
 
@@ -74,7 +99,8 @@
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_1250">Haimo [11th cent.], monk of
                   Saint-Denys </author><title key="mlgbWork_1250_1">Sermo de detectione corporis S.
                   Dionysii, addressed to Abbot Hugh by Haimo, indignus monachus</title></bibl>
-            <bibl xml:id="bibl_7"><author key="mlgbAuthor_1246">Haimo [?] </author><title key="mlgbWork_1246_1">De diuersis rebus monachorum</title></bibl>
+            <bibl xml:id="bibl_7"><author key="mlgbAuthor_1246">Haimo [?] </author><title
+                  key="mlgbWork_1246_1">De diuersis rebus monachorum</title></bibl>
          </listBibl>
       </back>
    </text>

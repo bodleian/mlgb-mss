@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title><title type="mlgb_location">Evesham</title><title type="mlgb_code">B29</title><title type="mlgb_booklist">Books acquired by Abbot Thomas Marlborough, early 13th cent.</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title>
+            <title type="mlgb_location">Evesham</title>
+            <title type="mlgb_code">B29</title>
+            <title type="mlgb_booklist">Books acquired by Abbot Thomas Marlborough, early 13th
+               cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,68 +25,110 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">B29.1</ab>
+               <head>B29.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">B29.1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">B29.2</ab>
-               <ab type="mlgb_catalogueExtract">(`antiparalenion')</ab>
+               <head>B29.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">B29.2</ab>
+                  <ab type="mlgb_catalogueExtract">(`antiparalenion')</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">B29.3</ab>
-               <ab type="mlgb_catalogueExtract">(`librum graduum secundum C.')</ab>
+               <head>B29.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">B29.3</ab>
+                  <ab type="mlgb_catalogueExtract">(`librum graduum secundum C.')</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">B29.4</ab>
+               <head>B29.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">B29.4</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">B29.5</ab>
+               <head>B29.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">B29.5</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">B29.6</ab>
+               <head>B29.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">B29.6</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">B29.8</ab>
+               <head>B29.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">B29.8</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">B29.9</ab>
+               <head>B29.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">B29.9</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">B29.10</ab>
+               <head>B29.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">B29.10</ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">B29.11</ab>
+               <head>B29.11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">B29.11</ab>
+               </div>
             </div>
             <div type="entry" n="17" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_2672">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">B29.17a</ab>
-            </div>
-            <div type="entry" n="17" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_2672">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">B29.17b</ab>
-               <ab type="mlgb_catalogueExtract">, 18</ab>
+               <head>B29.17</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">B29.17a</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">B29.17b</ab>
+                  <ab type="mlgb_catalogueExtract">, 18</ab>
+               </div>
             </div>
             <div type="entry" n="29">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">B29.†29</ab>
-               <ab type="mlgb_catalogueExtract">(anon., `allegorias super V.T.')</ab>
+               <head>B29.†29</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">B29.†29</ab>
+                  <ab type="mlgb_catalogueExtract">(anon., `allegorias super V.T.')</ab>
+               </div>
             </div>
             <div type="entry" n="31">
-               <bibl type="identification" corresp="#bibl_14"/>
-               <ab type="mlgb_copyCode">B29.31</ab>
+               <head>B29.31</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_14"/>
+                  <ab type="mlgb_copyCode">B29.31</ab>
+               </div>
             </div>
             <div type="entry" n="32">
-               <bibl type="identification" corresp="#bibl_15"/>
-               <ab type="mlgb_copyCode">B29.32</ab>
+               <head>B29.32</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_15"/>
+                  <ab type="mlgb_copyCode">B29.32</ab>
+               </div>
             </div>
          </div>
 
@@ -89,8 +136,10 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_758">Ps. Democritus </author><title key="mlgbWork_758_1">Liber medicinalis, Latin tr.</title></bibl>
-            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1056">Galen [c129—?199] </author><title key="mlgbWork_1056_5">Antibalomenon, Latin tr.</title></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_758">Ps. Democritus </author><title
+                  key="mlgbWork_758_1">Liber medicinalis, Latin tr.</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1056">Galen [c129—?199] </author><title
+                  key="mlgbWork_1056_5">Antibalomenon, Latin tr.</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_686">Constantinus Africanus OSB
                   [c1015—1087], monk of Monte Cassino </author><title key="mlgbWork_686_8">Liber
                   graduum, existing in several forms; the prologue, `Cum disputationem simplicis
