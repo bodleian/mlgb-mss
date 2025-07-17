@@ -1,5 +1,6 @@
 import module namespace bod = "http://www.bodleian.ox.ac.uk/bdlss" at "lib/msdesc2solr.xquery";
 import module namespace functx = "http://www.functx.com" at "functx.xquery";
+declare namespace map="http://www.w3.org/2005/xpath-functions/map";
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare option saxon:output "indent=yes";
 
@@ -135,6 +136,36 @@ declare function bod:decoTypeLookup($decotype as xs:string) as xs:string
         default return "Other"
 };
 
+(: Current location facet :)
+declare function local:currentlocations($country as xs:string, $settlement as xs:string, $repository as xs:string, $solrfield as xs:string, $solrsuffix as xs:string) as element()* 
+{
+    let $outputnames := map { 
+        "country": 1,
+        "settlement": 2,
+        "repository" : 3
+        }   
+    let $all as element()* := (       
+        let $map := map {
+            'country': $country,
+            'settlement': $settlement,
+            'repository': $repository
+        }
+        for $key in map:keys($map)
+        order by $country, $outputnames($key)    
+        for $val in $map($key)
+        return
+            <field
+                name="{$solrfield}{$key}{$solrsuffix}"
+                type="{$key}">{$val}</field>  
+        )
+    for $type in distinct-values($all/@type)
+    for $t in distinct-values($all[@type = $type]/text())
+    return
+        <field
+            name="{($all[@type = $type]/@name)[1]}">{$t}</field>
+    
+};
+
 <add>
 {
     comment{concat(' Indexing started at ', current-dateTime(), ' using files in ', substring-before(substring-after(base-uri($books[1]), 'file:'), 'collections/books/'), ' ')}
@@ -161,17 +192,19 @@ declare function bod:decoTypeLookup($decotype as xs:string) as xs:string
                 let $decotypes := $deconotes/@type
                 let $repository := normalize-space($ms//tei:msDesc/tei:msIdentifier/tei:repository[1]/text())
                 let $settlement := normalize-space($ms//tei:msDesc/tei:msIdentifier/tei:settlement[1]/text())
-                let $currentLocation := concat(                                    
-                                    $repository, 
-                                    ', ', 
-                                    $settlement                                    
-                                )
+                let $country := normalize-space($ms//tei:msDesc/tei:msIdentifier/tei:country[1]/text())   
+                let $parts := (
+                    if (normalize-space($country)) then $country else (),
+                    if (normalize-space($settlement)) then $settlement else (),
+                    if (normalize-space($repository)) then $repository else ()
+                ),
+                let $currentLocation := string-join($parts, ', ')
+
                 let $title := concat(
-                                    $mainshelfmark, 
-                                    ' (', 
-                                    $currentLocation,
-                                    ')'
-                                )
+                    $currentLocation, 
+                    ', ', 
+                    $mainshelfmark
+                )
 
                 let $latestoriginyear := max(for $dateattr in $ms//tei:origin//tei:origDate[not(@type = ('additions', 'addition'))]/(@when|@notBefore|@notAfter|@from|@to) return functx:get-matches($dateattr, $bod:yearregex)[1])
                 (:
@@ -239,6 +272,7 @@ declare function bod:decoTypeLookup($decotype as xs:string) as xs:string
                     { bod:languages($ms//tei:sourceDesc//tei:textLang, 'lang_sm') }
                     { local:origin($ms//tei:sourceDesc//tei:origPlace/tei:country/@key, 'ms_origin_sm') }
                     { local:workSubjects($ms//tei:msItem/tei:title/@key, 'wk_subjects_sm') }
+                    { local:currentlocations($country, $settlement, $repository, 'ms_currloc_', '_sm') } 
                     { bod:strings2many(local:buildSummaries($ms), 'ms_summary_sm') }
                     { bod:indexHTML($htmldoc, 'ms_textcontent_tni') }
                     { bod:displayHTML($htmldoc, 'display') }
