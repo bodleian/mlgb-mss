@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES</title><title type="mlgb_location">Canterbury-Christ Church</title><title type="mlgb_code">BC7</title><title type="mlgb_booklist">Prior Chillenden's bequest, 1411.</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES</title>
+            <title type="mlgb_location">Canterbury-Christ Church</title>
+            <title type="mlgb_code">BC7</title>
+            <title type="mlgb_booklist">Prior Chillenden's bequest, 1411.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,8 +24,11 @@
          <div type="list">
 
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">BC7.12</ab>
+               <head>BC7.12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">BC7.12</ab>
+               </div>
             </div>
          </div>
 

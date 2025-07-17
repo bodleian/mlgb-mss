@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the Professions</title><title type="mlgb_location">King's Lynn, St John the Baptist</title><title type="mlgb_code">SH19</title><title type="mlgb_booklist">Bequest by Thomas of Lexham, 31 October 1382</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the
+               Professions</title>
+            <title type="mlgb_location">King's Lynn, St John the Baptist</title>
+            <title type="mlgb_code">SH19</title>
+            <title type="mlgb_booklist">Bequest by Thomas of Lexham, 31 October 1382</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,14 +25,20 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SH19.1</ab>
-               <ab type="mlgb_catalogueExtract">(`legendam sanctorum')</ab>
+               <head>SH19.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SH19.1</ab>
+                  <ab type="mlgb_catalogueExtract">(`legendam sanctorum')</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SH19.2</ab>
-               <ab type="mlgb_catalogueExtract">(`et uitam beati Thome martiris')</ab>
+               <head>SH19.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SH19.2</ab>
+                  <ab type="mlgb_catalogueExtract">(`et uitam beati Thome martiris')</ab>
+               </div>
             </div>
          </div>
 
@@ -38,7 +49,8 @@
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_1502">Iacobus de Voragine (Iacopo da
                   Varazze) OP [†1298] </author><title key="mlgbWork_1502_1">Legenda
                aurea</title></bibl>
-            <bibl xml:id="bibl_2"><author key="mlgbAuthor_3592">Thomas Becket </author><title key="mlgbWork_3592_1"/></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_3592">Thomas Becket </author><title
+                  key="mlgbWork_3592_1"/></bibl>
          </listBibl>
       </back>
    </text>

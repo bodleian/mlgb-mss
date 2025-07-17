@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">NEW FRIARS</title><title type="mlgb_location">Oxford-Franciscan</title><title type="mlgb_code">F40</title><title type="mlgb_booklist">Leland, c. 1536-40</title>
+            <title type="mlgb_booklist_Group">NEW FRIARS</title>
+            <title type="mlgb_location">Oxford-Franciscan</title>
+            <title type="mlgb_code">F40</title>
+            <title type="mlgb_booklist">Leland, c. 1536-40</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,10 +24,13 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">F40.1</ab>
-               <ab type="mlgb_catalogueExtract">(`H. liber glosarum secundum hebraicam
-                  etimologiam')</ab>
+               <head>F40.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">F40.1</ab>
+                  <ab type="mlgb_catalogueExtract">(`H. liber glosarum secundum hebraicam
+                     etimologiam')</ab>
+               </div>
             </div>
          </div>
 
@@ -31,7 +38,8 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title key="mlgbWork_1517_124">Liber interpretationis hebraicorum nominum</title></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title
+                  key="mlgbWork_1517_124">Liber interpretationis hebraicorum nominum</title></bibl>
          </listBibl>
       </back>
    </text>

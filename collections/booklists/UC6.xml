@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title><title type="mlgb_location">University</title><title type="mlgb_code">UC6</title><title type="mlgb_booklist">Leland, c. 1535</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title>
+            <title type="mlgb_location">University</title>
+            <title type="mlgb_code">UC6</title>
+            <title type="mlgb_booklist">Leland, c. 1535</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,52 +24,86 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UC6.1</ab>
+               <head>UC6.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UC6.1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UC6.*2</ab>
-               <ab type="mlgb_catalogueExtract">(`H. super euangelia')</ab>
+               <head>UC6.*2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UC6.*2</ab>
+                  <ab type="mlgb_catalogueExtract">(`H. super euangelia')</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">UC6.3</ab>
+               <head>UC6.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">UC6.3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">UC6.4</ab>
+               <head>UC6.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">UC6.4</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">UC6.5</ab>
+               <head>UC6.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">UC6.5</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">UC6.*6</ab>
+               <head>UC6.*6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">UC6.*6</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">UC6.7</ab>
+               <head>UC6.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">UC6.7</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">UC6.8</ab>
-               <ab type="mlgb_catalogueExtract">(`compendium de dictis &amp; factis memorabilibus',
-                  inc.)</ab>
+               <head>UC6.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">UC6.8</ab>
+                  <ab type="mlgb_catalogueExtract">(`compendium de dictis &amp; factis
+                     memorabilibus', inc.)</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">UC6.9</ab>
+               <head>UC6.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">UC6.9</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">UC6.*10</ab>
-               <ab type="mlgb_catalogueExtract">= UC7.*113</ab>
+               <head>UC6.*10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">UC6.*10</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_UC7#113"
+                     >= UC7.*113</ref></ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">UC6.11</ab>
+               <head>UC6.11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">UC6.11</ab>
+               </div>
             </div>
          </div>
 
@@ -97,7 +135,8 @@
                   </author><title key="mlgbWork_319_18">De generatione et corruptione, tr.
                   Andronicus Callistus</title></bibl>
             <bibl xml:id="bibl_10"><author key="mlgbAuthor_2973">Robert Grosseteste, known as
-                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_75">Summa philosophiae, inc. `Philosophantes famosi'</title></bibl>
+                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_75"
+                  >Summa philosophiae, inc. `Philosophantes famosi'</title></bibl>
             <bibl xml:id="bibl_11"><author key="mlgbAuthor_403">Bartholomaeus Fatius [c1400—1457]
                   </author><title key="mlgbWork_403_1">De humanae uitae felicitate</title></bibl>
          </listBibl>

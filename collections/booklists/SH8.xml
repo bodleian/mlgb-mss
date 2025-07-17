@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the Professions</title><title type="mlgb_location">Brough-under-Stainmore grammar school</title><title type="mlgb_code">SH8</title><title type="mlgb_booklist">Inventory of goods, May or June 1546</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the
+               Professions</title>
+            <title type="mlgb_location">Brough-under-Stainmore grammar school</title>
+            <title type="mlgb_code">SH8</title>
+            <title type="mlgb_booklist">Inventory of goods, May or June 1546</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,12 +25,18 @@
          <div type="list">
 
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SH8.¶4</ab>
+               <head>SH8.¶4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SH8.¶4</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SH8.¶5</ab>
+               <head>SH8.¶5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SH8.¶5</ab>
+               </div>
             </div>
          </div>
 
@@ -33,7 +44,8 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1395">Hortus uocabulorum</author><title key="mlgbWork_1395_1"/></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1395">Hortus uocabulorum</author><title
+                  key="mlgbWork_1395_1"/></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_1706">John of Genoa OP [† after 1286]
                   </author><title key="mlgbWork_1706_1">Catholicon</title></bibl>
          </listBibl>

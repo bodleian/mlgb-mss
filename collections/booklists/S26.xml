@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SCOTLAND</title><title type="mlgb_location">St Salvator's College</title><title type="mlgb_code">S26</title><title type="mlgb_booklist">Inventory of service books, late 1th or early 16th cent.</title>
+            <title type="mlgb_booklist_Group">SCOTLAND</title>
+            <title type="mlgb_location">St Salvator's College</title>
+            <title type="mlgb_code">S26</title>
+            <title type="mlgb_booklist">Inventory of service books, late 1th or early 16th
+               cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,8 +25,11 @@
          <div type="list">
 
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">S26.¶7</ab>
+               <head>S26.¶7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">S26.¶7</ab>
+               </div>
             </div>
          </div>
 

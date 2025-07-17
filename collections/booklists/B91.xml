@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title><title type="mlgb_location">St Albans</title><title type="mlgb_code">B91</title><title type="mlgb_booklist">Leland, c. 1536-40</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title>
+            <title type="mlgb_location">St Albans</title>
+            <title type="mlgb_code">B91</title>
+            <title type="mlgb_booklist">Leland, c. 1536-40</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,45 +24,72 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">B91.1</ab>
+               <head>B91.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">B91.1</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">B91.3</ab>
-               <ab type="mlgb_catalogueExtract">(`tractatus Luciani de febribus et de epidimiali
-                  morbo')</ab>
+               <head>B91.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">B91.3</ab>
+                  <ab type="mlgb_catalogueExtract">(`tractatus Luciani de febribus et de epidimiali
+                     morbo')</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">B91.4</ab>
-               <ab type="mlgb_catalogueExtract">(`Oribasius')</ab>
+               <head>B91.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">B91.4</ab>
+                  <ab type="mlgb_catalogueExtract">(`Oribasius')</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">B91.5</ab>
+               <head>B91.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">B91.5</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">B91.6</ab>
+               <head>B91.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">B91.6</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">B91.7</ab>
+               <head>B91.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">B91.7</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">B91.8</ab>
+               <head>B91.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">B91.8</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">B91.9</ab>
+               <head>B91.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">B91.9</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">B91.†10</ab>
-               <ab type="mlgb_catalogueExtract">(`Matthaei Parisiensis . . . pulcherrima
-                  historia')</ab>
+               <head>B91.†10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">B91.†10</ab>
+                  <ab type="mlgb_catalogueExtract">(`Matthaei Parisiensis . . . pulcherrima
+                     historia')</ab>
+               </div>
             </div>
          </div>
 
@@ -69,7 +100,8 @@
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_143">Alexander Nequam OSA [1157—1217],
                   canon of Cirencester </author><title key="mlgbWork_143_1">Commentary on the
                   Athanasian Creed</title></bibl>
-            <bibl xml:id="bibl_2"><author key="mlgbAuthor_2114">Lucian [?] </author><title key="mlgbWork_2114_1">De febribus</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_2114">Lucian [?] </author><title
+                  key="mlgbWork_2114_1">De febribus</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_2429">Oribasius [c320—c400]
                   </author><title key="mlgbWork_2429_1"/></bibl>
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_3642">Warner of Saint-Victor OSA [†1170]

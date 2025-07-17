@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title><title type="mlgb_location">REGISTRUM ANGLIE</title><title type="mlgb_code">R70</title><title type="mlgb_booklist">Union catalogue by author and title, early 14th cent.</title>
+            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title>
+            <title type="mlgb_location">REGISTRUM ANGLIE</title>
+            <title type="mlgb_code">R70</title>
+            <title type="mlgb_booklist">Union catalogue by author and title, early 14th
+               cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,9 +25,12 @@
          <div type="list">
 
             <div type="entry" n="None">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">R70</ab>
-               <ab type="mlgb_catalogueExtract">(2 copies)</ab>
+               <head>R70</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">R70</ab>
+                  <ab type="mlgb_catalogueExtract">(2 copies)</ab>
+               </div>
             </div>
          </div>
 

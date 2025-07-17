@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the Professions</title><title type="mlgb_location">London, Guildhall library</title><title type="mlgb_code">SH49</title><title type="mlgb_booklist">Bequest by John Graunte, 2 March 1516/17</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the
+               Professions</title>
+            <title type="mlgb_location">London, Guildhall library</title>
+            <title type="mlgb_code">SH49</title>
+            <title type="mlgb_booklist">Bequest by John Graunte, 2 March 1516/17</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,8 +25,11 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SH49.1</ab>
+               <head>SH49.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SH49.1</ab>
+               </div>
             </div>
          </div>
 
@@ -29,7 +37,8 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_2231">Medulla grammaticae</author><title key="mlgbWork_2231_1"/></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_2231">Medulla grammaticae</author><title
+                  key="mlgbWork_2231_1"/></bibl>
          </listBibl>
       </back>
    </text>

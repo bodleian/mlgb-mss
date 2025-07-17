@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title><title type="mlgb_location">Donor documents</title><title type="mlgb_code">UC170</title><title type="mlgb_booklist">Will of Adam Wickmer, 4 October 1381; Trinity Hall</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title>
+            <title type="mlgb_location">Donor documents</title>
+            <title type="mlgb_code">UC170</title>
+            <title type="mlgb_booklist">Will of Adam Wickmer, 4 October 1381; Trinity Hall</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,26 +24,38 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UC170.1</ab>
-               <ab type="mlgb_catalogueExtract">(`cum tribus glosis')</ab>
+               <head>UC170.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UC170.1</ab>
+                  <ab type="mlgb_catalogueExtract">(`cum tribus glosis')</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UC170.2</ab>
-               <ab type="mlgb_catalogueExtract">(`cum iiij suis glosis')</ab>
-            </div>
-            <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">UC170.2c</ab>
+               <head>UC170.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UC170.2</ab>
+                  <ab type="mlgb_catalogueExtract">(`cum iiij suis glosis')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">UC170.2c</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">UC170.3</ab>
+               <head>UC170.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">UC170.3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">UC170.4</ab>
+               <head>UC170.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">UC170.4</ab>
+               </div>
             </div>
          </div>
 
@@ -48,7 +64,8 @@
          <listBibl>
 
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_2078">Liber sextus Decretalium, continuing
-                  the Decretals from Gregory IX (1234) to Boniface VIII (1298)</author><title key="mlgbWork_2078_1"/></bibl>
+                  the Decretals from Gregory IX (1234) to Boniface VIII (1298)</author><title
+                  key="mlgbWork_2078_1"/></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_691">Constitutiones Clementinae,
                   collecting the constitutions of Clement V, promulgated by John XXII in
                   1317</author><title key="mlgbWork_691_1"/></bibl>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title><title type="mlgb_location">REGISTRUM ANGLIE</title><title type="mlgb_code">R85</title><title type="mlgb_booklist">Union catalogue by author and title, early 14th cent.</title>
+            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title>
+            <title type="mlgb_location">REGISTRUM ANGLIE</title>
+            <title type="mlgb_code">R85</title>
+            <title type="mlgb_booklist">Union catalogue by author and title, early 14th
+               cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,14 +25,21 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">R85.1</ab>
-               <ab type="mlgb_catalogueExtract">(`de causis') = K490.2</ab>
+               <head>R85.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">R85.1</ab>
+                  <ab type="mlgb_catalogueExtract">(`de causis') <ref target="booklist_K490#2"
+                        >= K490.2</ref></ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">R85.2</ab>
-               <ab type="mlgb_catalogueExtract">= K490.1</ab>
+               <head>R85.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">R85.2</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_K490#1">= K490.1</ref></ab>
+               </div>
             </div>
          </div>
 

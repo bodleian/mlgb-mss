@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title><title type="mlgb_location">Merton College</title><title type="mlgb_code">UO67</title><title type="mlgb_booklist">Leland c. 1535</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title>
+            <title type="mlgb_location">Merton College</title>
+            <title type="mlgb_code">UO67</title>
+            <title type="mlgb_booklist">Leland c. 1535</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,45 +24,74 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UO67.1</ab>
+               <head>UO67.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UO67.1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UO67.2</ab>
+               <head>UO67.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UO67.2</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">UO67.3</ab>
+               <head>UO67.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">UO67.3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">UO67.4</ab>
+               <head>UO67.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">UO67.4</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">UO67.5</ab>
-               <ab type="mlgb_catalogueExtract">(`epistola Rogeri Baconis instar libell ad Clementem
-                  papam', inc.) + 6 (`Bacon de utilitate sciend' diuersas linguas')</ab>
+               <head>UO67.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">UO67.5</ab>
+                  <ab type="mlgb_catalogueExtract">(`epistola Rogeri Baconis instar libell ad
+                     Clementem papam', inc.) + 6 (`Bacon de utilitate sciend' diuersas
+                     linguas')</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">UO67.7</ab>
+               <head>UO67.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">UO67.7</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">UO67.8</ab>
-               <ab type="mlgb_catalogueExtract">?= UO68.*265x</ab>
+               <head>UO67.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">UO67.8</ab>
+                  <ab type="mlgb_catalogueExtract">?<ref target="booklist_UO68#265"
+                        >= UO68.*265x</ref></ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">UO67.9</ab>
-               <ab type="mlgb_catalogueExtract">(`Bacon de utilitate astronomiae', inc. `Post
-                  locorum descriptionem', part)</ab>
+               <head>UO67.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">UO67.9</ab>
+                  <ab type="mlgb_catalogueExtract">(`Bacon de utilitate astronomiae', inc. `Post
+                     locorum descriptionem', part)</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">UO67.10</ab>
+               <head>UO67.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">UO67.10</ab>
+               </div>
             </div>
          </div>
 

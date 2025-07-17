@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title><title type="mlgb_location">Corpus Christi College</title><title type="mlgb_code">UO27</title><title type="mlgb_booklist">List of Grocyn's books in alphabetical order of authors, in or soon after 1520</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title>
+            <title type="mlgb_location">Corpus Christi College</title>
+            <title type="mlgb_code">UO27</title>
+            <title type="mlgb_booklist">List of Grocyn's books in alphabetical order of authors, in
+               or soon after 1520</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,47 +25,74 @@
          <div type="list">
 
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UO27.4</ab>
-               <ab type="mlgb_catalogueExtract">(`Aelius de uita Hadriani')</ab>
+               <head>UO27.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UO27.4</ab>
+                  <ab type="mlgb_catalogueExtract">(`Aelius de uita Hadriani')</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UO27.7a</ab>
-            </div>
-            <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">UO27.7b</ab>
+               <head>UO27.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UO27.7a</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">UO27.7b</ab>
+               </div>
             </div>
             <div type="entry" n="25">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">UO27.¶25</ab>
-               <ab type="mlgb_catalogueExtract">(`concordancie sancti Iacobi')</ab>
+               <head>UO27.¶25</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">UO27.¶25</ab>
+                  <ab type="mlgb_catalogueExtract">(`concordancie sancti Iacobi')</ab>
+               </div>
             </div>
             <div type="entry" n="28">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">UO27.¶28</ab>
+               <head>UO27.¶28</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">UO27.¶28</ab>
+               </div>
             </div>
             <div type="entry" n="36">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">UO27.¶36</ab>
+               <head>UO27.¶36</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">UO27.¶36</ab>
+               </div>
             </div>
             <div type="entry" n="65">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">UO27.¶65</ab>
+               <head>UO27.¶65</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">UO27.¶65</ab>
+               </div>
             </div>
             <div type="entry" n="69">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">UO27.¶69a</ab>
+               <head>UO27.¶69a</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">UO27.¶69a</ab>
+               </div>
             </div>
             <div type="entry" n="72">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">UO27.¶72b</ab>
+               <head>UO27.¶72b</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">UO27.¶72b</ab>
+               </div>
             </div>
             <div type="entry" n="83">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">UO27.¶83</ab>
-               <ab type="mlgb_catalogueExtract">(`Wallensis super psalterium')</ab>
+               <head>UO27.¶83</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">UO27.¶83</ab>
+                  <ab type="mlgb_catalogueExtract">(`Wallensis super psalterium')</ab>
+               </div>
             </div>
          </div>
 
@@ -71,7 +103,8 @@
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_3075">Scriptores historiae
                   Augustae</author><title key="mlgbWork_3075_1"/></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_241">Anselm of Canterbury OSB
-                  [c1033—1109], archbishop of Canterbury </author><title key="mlgbWork_241_26">unspecified works </title></bibl>
+                  [c1033—1109], archbishop of Canterbury </author><title key="mlgbWork_241_26"
+                  >unspecified works </title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_2561">Petrus de Crescentiis (Pietro de'
                   Crescenzi) [c1233—c1320] </author><title key="mlgbWork_2561_1">Ruralia
                   commoda</title></bibl>
@@ -85,8 +118,10 @@
             <bibl xml:id="bibl_7"><author key="mlgbAuthor_2794">M. Fabius Quintilianus [† c100]
                   </author><title key="mlgbWork_2794_2">Institutio oratoria</title></bibl>
             <bibl xml:id="bibl_8"><author key="mlgbAuthor_2684">Pius II (Enea Silvio de'
-                  Piccolomini) [1405—1464, sedit 1458—1464] </author><title key="mlgbWork_2684_11">Epistulae familiares</title></bibl>
-            <bibl xml:id="bibl_9"><author key="mlgbAuthor_2515">Pelbac1435—1502] </author><title key="mlgbWork_2515_3">Sermones pomerii de tempore</title></bibl>
+                  Piccolomini) [1405—1464, sedit 1458—1464] </author><title key="mlgbWork_2684_11"
+                  >Epistulae familiares</title></bibl>
+            <bibl xml:id="bibl_9"><author key="mlgbAuthor_2515">Pelbac1435—1502] </author><title
+                  key="mlgbWork_2515_3">Sermones pomerii de tempore</title></bibl>
             <bibl xml:id="bibl_10"><author key="mlgbAuthor_3394">Thomas Waleys OP [†1350]
                   </author><title key="mlgbWork_3394_6">Expositio super duos nocturnos Psalterii
                   (Pss. 1—38)</title></bibl>

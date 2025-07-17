@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title><title type="mlgb_location">Pembroke College</title><title type="mlgb_code">UC44</title><title type="mlgb_booklist">Leland, c. 1535</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title>
+            <title type="mlgb_location">Pembroke College</title>
+            <title type="mlgb_code">UC44</title>
+            <title type="mlgb_booklist">Leland, c. 1535</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,69 +24,95 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UC44.1</ab>
+               <head>UC44.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UC44.1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UC44.*2</ab>
-               <ab type="mlgb_catalogueExtract">(`uitae Benedicti et Ceolfredi abbatum autore
-                  Beda')</ab>
-            </div>
-            <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">UC44.*2x</ab>
-               <ab type="mlgb_catalogueExtract">?= UC119.7</ab>
-            </div>
-            <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">UC44.*2x</ab>
+               <head>UC44.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UC44.*2</ab>
+                  <ab type="mlgb_catalogueExtract">(`uitae Benedicti et Ceolfredi abbatum autore
+                     Beda')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">UC44.*2x</ab>
+                  <ab type="mlgb_catalogueExtract">?<ref target="booklist_UC119#7"
+                     >= UC119.7</ref></ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">UC44.*2x</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">UC44.*3</ab>
+               <head>UC44.*3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">UC44.*3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">UC44.4</ab>
+               <head>UC44.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">UC44.4</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">UC44.5</ab>
-               <ab type="mlgb_catalogueExtract">(`idem [sc. Proclus] de mixtione elementorum')</ab>
+               <head>UC44.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">UC44.5</ab>
+                  <ab type="mlgb_catalogueExtract">(`idem [sc. Proclus] de mixtione
+                     elementorum')</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">UC44.6a</ab>
-            </div>
-            <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">UC44.6d</ab>
-               <ab type="mlgb_catalogueExtract">= UC47.73</ab>
-            </div>
-            <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">UC44.6e</ab>
-               <ab type="mlgb_catalogueExtract">= UC47.74</ab>
-            </div>
-            <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">UC44.6c</ab>
-            </div>
-            <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">UC44.*6f</ab>
-               <ab type="mlgb_catalogueExtract">= UC47.*72</ab>
-            </div>
-            <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">UC44.6b</ab>
+               <head>UC44.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">UC44.6a</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">UC44.6d</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_UC47#73"
+                     >= UC47.73</ref></ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">UC44.6e</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_UC47#74"
+                     >= UC47.74</ref></ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">UC44.6c</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">UC44.*6f</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_UC47#72"
+                     >= UC47.*72</ref></ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">UC44.6b</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_14"/>
-               <ab type="mlgb_copyCode">UC44.7</ab>
-               <ab type="mlgb_catalogueExtract">(`B. de uita et moribus philosophorum') =
-                  UC47.152</ab>
+               <head>UC44.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_14"/>
+                  <ab type="mlgb_copyCode">UC44.7</ab>
+                  <ab type="mlgb_catalogueExtract">(`B. de uita et moribus philosophorum') <ref
+                        target="booklist_UC47#152">= UC47.152</ref></ab>
+               </div>
             </div>
          </div>
 
@@ -102,10 +132,13 @@
                   590—604] </author><title key="mlgbWork_1193_21">Decretum de libertate monachorum,
                   a confection using extracts from some of Gregory's letters and other
                   sources</title></bibl>
-            <bibl xml:id="bibl_5"><author key="mlgbAuthor_3520">Bede </author><title key="mlgbWork_3520_1"/></bibl>
-            <bibl xml:id="bibl_6"><author key="mlgbAuthor_2748">Proclus [410/12—485] </author><title key="mlgbWork_2748_7">Elementatio theologica, tr. William of
+            <bibl xml:id="bibl_5"><author key="mlgbAuthor_3520">Bede </author><title
+                  key="mlgbWork_3520_1"/></bibl>
+            <bibl xml:id="bibl_6"><author key="mlgbAuthor_2748">Proclus [410/12—485] </author><title
+                  key="mlgbWork_2748_7">Elementatio theologica, tr. William of
                Moerbeke</title></bibl>
-            <bibl xml:id="bibl_7"><author key="mlgbAuthor_2748">Proclus [410/12—485] </author><title key="mlgbWork_2748_11">`De mixtione elementorum'</title></bibl>
+            <bibl xml:id="bibl_7"><author key="mlgbAuthor_2748">Proclus [410/12—485] </author><title
+                  key="mlgbWork_2748_11">`De mixtione elementorum'</title></bibl>
             <bibl xml:id="bibl_8"><author key="mlgbAuthor_3624">Walter Burley [1275—after 1344]
                   </author><title key="mlgbWork_3624_2">Commentary on Aristotle's Analytica
                   posteriora</title></bibl>

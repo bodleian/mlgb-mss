@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title><title type="mlgb_location">Merton College</title><title type="mlgb_code">UO54</title><title type="mlgb_booklist">Electio list of philosophical books, 13 January 1452</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title>
+            <title type="mlgb_location">Merton College</title>
+            <title type="mlgb_code">UO54</title>
+            <title type="mlgb_booklist">Electio list of philosophical books, 13 January 1452</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,55 +24,87 @@
          <div type="list">
 
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UO54.2</ab>
+               <head>UO54.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UO54.2</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UO54.3</ab>
+               <head>UO54.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UO54.3</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">UO54.5</ab>
-               <ab type="mlgb_catalogueExtract">(`Gilbertum')</ab>
+               <head>UO54.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">UO54.5</ab>
+                  <ab type="mlgb_catalogueExtract">(`Gilbertum')</ab>
+               </div>
             </div>
             <div type="entry" n="15">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">UO54.15</ab>
-               <ab type="mlgb_catalogueExtract">= UO65.12</ab>
+               <head>UO54.15</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">UO54.15</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_UO65#12"
+                     >= UO65.12</ref></ab>
+               </div>
             </div>
             <div type="entry" n="18">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">UO54.18</ab>
-               <ab type="mlgb_catalogueExtract">(`pantegni') ?= UO68.*339</ab>
+               <head>UO54.18</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">UO54.18</ab>
+                  <ab type="mlgb_catalogueExtract">(`pantegni') ?<ref target="booklist_UO68#339"
+                        >= UO68.*339</ref></ab>
+               </div>
             </div>
             <div type="entry" n="81">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">UO54.81</ab>
+               <head>UO54.81</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">UO54.81</ab>
+               </div>
             </div>
             <div type="entry" n="88">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">UO54.88</ab>
-               <ab type="mlgb_catalogueExtract">(`Aschinden')</ab>
+               <head>UO54.88</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">UO54.88</ab>
+                  <ab type="mlgb_catalogueExtract">(`Aschinden')</ab>
+               </div>
             </div>
             <div type="entry" n="137">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">UO54.137</ab>
-               <ab type="mlgb_catalogueExtract">(`exposit' logice')</ab>
+               <head>UO54.137</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">UO54.137</ab>
+                  <ab type="mlgb_catalogueExtract">(`exposit' logice')</ab>
+               </div>
             </div>
             <div type="entry" n="148">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">UO54.†148</ab>
-               <ab type="mlgb_catalogueExtract">(`exposit' naturalis philosophie', 2nd fo.)</ab>
-            </div>
-            <div type="entry" n="148">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">UO54.†148</ab>
-               <ab type="mlgb_catalogueExtract">(`exposit' naturalis philosophie', 2nd fo.)</ab>
+               <head>UO54.148</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">UO54.†148</ab>
+                  <ab type="mlgb_catalogueExtract">(`exposit' naturalis philosophie', 2nd fo.)</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">UO54.†148</ab>
+                  <ab type="mlgb_catalogueExtract">(`exposit' naturalis philosophie', 2nd fo.)</ab>
+               </div>
             </div>
             <div type="entry" n="165">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">UO54.165</ab>
+               <head>UO54.165</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">UO54.165</ab>
+               </div>
             </div>
          </div>
 
@@ -79,14 +115,16 @@
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_1701">John of Gaddesden [† by 1349]
                   </author><title key="mlgbWork_1701_1">Rosa medicinae</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_686">Constantinus Africanus OSB
-                  [c1015—1087], monk of Monte Cassino </author><title key="mlgbWork_686_11">Viaticum</title></bibl>
+                  [c1015—1087], monk of Monte Cassino </author><title key="mlgbWork_686_11"
+                  >Viaticum</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_1144">Gilbertus Anglicus [early 13th
                   cent.] </author><title key="mlgbWork_1144_2">Compendium seu Lilium
                   medicinae</title></bibl>
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_615">M. Tullius Cicero [106—43 BC]
                   </author><title key="mlgbWork_615_10">De inuentione</title></bibl>
             <bibl xml:id="bibl_5"><author key="mlgbAuthor_686">Constantinus Africanus OSB
-                  [c1015—1087], monk of Monte Cassino </author><title key="mlgbWork_686_10">Pantegni</title></bibl>
+                  [c1015—1087], monk of Monte Cassino </author><title key="mlgbWork_686_10"
+                  >Pantegni</title></bibl>
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_2631">Petrus Thomae (Pedro
                   Tomac1280—c1340] </author><title key="mlgbWork_2631_1">De esse
                   intelligibili</title></bibl>

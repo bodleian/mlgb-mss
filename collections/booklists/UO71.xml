@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title><title type="mlgb_location">New College</title><title type="mlgb_code">UO71</title><title type="mlgb_booklist">Indenture of books by John Campeden, 27 August 1401</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title>
+            <title type="mlgb_location">New College</title>
+            <title type="mlgb_code">UO71</title>
+            <title type="mlgb_booklist">Indenture of books by John Campeden, 27 August 1401</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,51 +24,72 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UO71.1</ab>
-               <ab type="mlgb_catalogueExtract">(`rosarium super decreta', anon.)</ab>
+               <head>UO71.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UO71.1</ab>
+                  <ab type="mlgb_catalogueExtract">(`rosarium super decreta', anon.)</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UO71.2</ab>
-               <ab type="mlgb_catalogueExtract">(w. Ostiensis)</ab>
-            </div>
-            <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">UO71.2b</ab>
+               <head>UO71.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UO71.2</ab>
+                  <ab type="mlgb_catalogueExtract">(w. Ostiensis)</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">UO71.2b</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">UO71.3b</ab>
-            </div>
-            <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">UO71.3a</ab>
-               <ab type="mlgb_catalogueExtract">(gl.)</ab>
+               <head>UO71.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">UO71.3b</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">UO71.3a</ab>
+                  <ab type="mlgb_catalogueExtract">(gl.)</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">UO71.4b</ab>
-            </div>
-            <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">UO71.4a</ab>
+               <head>UO71.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">UO71.4b</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">UO71.4a</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">UO71.6</ab>
-               <ab type="mlgb_catalogueExtract">(22 vols, `scriptos de una manu in xxij
-                  uoluminibus')</ab>
+               <head>UO71.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">UO71.6</ab>
+                  <ab type="mlgb_catalogueExtract">(22 vols, `scriptos de una manu in xxij
+                     uoluminibus')</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">UO71.7</ab>
-               <ab type="mlgb_catalogueExtract">(2 vols)</ab>
+               <head>UO71.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">UO71.7</ab>
+                  <ab type="mlgb_catalogueExtract">(2 vols)</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">UO71.8</ab>
-               <ab type="mlgb_catalogueExtract">(5 vols)</ab>
+               <head>UO71.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">UO71.8</ab>
+                  <ab type="mlgb_catalogueExtract">(5 vols)</ab>
+               </div>
             </div>
          </div>
 
@@ -73,9 +98,11 @@
          <listBibl>
 
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_1217">Guido de Baysio, known as
-                  Archidiaconus [†1313], archdeacon of Bologna </author><title key="mlgbWork_1217_2">Rosarium seu Apparatus ad Decretum</title></bibl>
+                  Archidiaconus [†1313], archdeacon of Bologna </author><title key="mlgbWork_1217_2"
+                  >Rosarium seu Apparatus ad Decretum</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_1194">Gregory IX (Ugolino da Segni)
-                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1">Decretales</title></bibl>
+                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1"
+                  >Decretales</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_1314">Henricus de Segusio, known as
                   Hostiensis [c1200—1271] </author><title key="mlgbWork_1314_1">Lectura super
                   Decretales</title></bibl>
@@ -83,7 +110,8 @@
                   collecting the constitutions of Clement V, promulgated by John XXII in
                   1317</author><title key="mlgbWork_691_1"/></bibl>
             <bibl xml:id="bibl_5"><author key="mlgbAuthor_2078">Liber sextus Decretalium, continuing
-                  the Decretals from Gregory IX (1234) to Boniface VIII (1298)</author><title key="mlgbWork_2078_1"/></bibl>
+                  the Decretals from Gregory IX (1234) to Boniface VIII (1298)</author><title
+                  key="mlgbWork_2078_1"/></bibl>
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_451">Bernard of Compostella iunior [13th
                   cent.] </author><title key="mlgbWork_451_1">Commentary on the Decretals, inc.
                   `Hactenus ut loquar'</title></bibl>
@@ -95,7 +123,8 @@
             <bibl xml:id="bibl_9"><author key="mlgbAuthor_3340">Thomas Aquinas OP [c1225—1274]
                   </author><title key="mlgbWork_3340_2">Catena aurea in quatuor
                euangelia</title></bibl>
-            <bibl xml:id="bibl_10"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_4">Corpus iuris ciuilis, comprising Justinian's Digestum,
+            <bibl xml:id="bibl_10"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_4">Corpus iuris ciuilis, comprising Justinian's Digestum,
                   Codex, Institutiones, and Nouellae</title></bibl>
          </listBibl>
       </back>

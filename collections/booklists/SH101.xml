@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the Professions</title><title type="mlgb_location">Southampton, Domus Dei</title><title type="mlgb_code">SH101</title><title type="mlgb_booklist">Inventory of goods, 24 June 1415</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the
+               Professions</title>
+            <title type="mlgb_location">Southampton, Domus Dei</title>
+            <title type="mlgb_code">SH101</title>
+            <title type="mlgb_booklist">Inventory of goods, 24 June 1415</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,37 +25,60 @@
          <div type="list">
 
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SH101.10</ab>
-               <ab type="mlgb_catalogueExtract">(I)</ab>
+               <head>SH101.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SH101.10</ab>
+                  <ab type="mlgb_catalogueExtract">(I)</ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SH101.11</ab>
-               <ab type="mlgb_catalogueExtract">(`magister hystoriarum')</ab>
+               <head>SH101.11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SH101.11</ab>
+                  <ab type="mlgb_catalogueExtract">(`magister hystoriarum')</ab>
+               </div>
             </div>
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">SH101.12</ab>
-               <ab type="mlgb_catalogueExtract">(`psalterium glosatum')</ab>
+               <head>SH101.12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">SH101.12</ab>
+                  <ab type="mlgb_catalogueExtract">(`psalterium glosatum')</ab>
+               </div>
             </div>
             <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">SH101.13</ab>
-               <ab type="mlgb_catalogueExtract">?= UO83.10</ab>
+               <head>SH101.13</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">SH101.13</ab>
+                  <ab type="mlgb_catalogueExtract">?<ref target="booklist_UO83#10"
+                     >= UO83.10</ref></ab>
+               </div>
             </div>
             <div type="entry" n="15">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">SH101.15</ab>
+               <head>SH101.15</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">SH101.15</ab>
+               </div>
             </div>
             <div type="entry" n="16">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">SH101.16</ab>
-               <ab type="mlgb_catalogueExtract">(`sermones Ianuensis') = SH102.16</ab>
+               <head>SH101.16</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">SH101.16</ab>
+                  <ab type="mlgb_catalogueExtract">(`sermones Ianuensis') <ref
+                        target="booklist_SH102#16">= SH102.16</ref></ab>
+               </div>
             </div>
             <div type="entry" n="18">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">SH101.18</ab>
+               <head>SH101.18</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">SH101.18</ab>
+               </div>
             </div>
          </div>
 

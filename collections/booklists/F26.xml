@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">NEW FRIARS</title><title type="mlgb_location">London-Carmelite</title><title type="mlgb_code">F26</title><title type="mlgb_booklist">Anonymus Reginensis, early 16th cent.</title>
+            <title type="mlgb_booklist_Group">NEW FRIARS</title>
+            <title type="mlgb_location">London-Carmelite</title>
+            <title type="mlgb_code">F26</title>
+            <title type="mlgb_booklist">Anonymus Reginensis, early 16th cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,72 +24,114 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">F26.1</ab>
+               <head>F26.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">F26.1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">F26.2</ab>
-               <ab type="mlgb_catalogueExtract">(`quaestiones naturales A. per dialogos')</ab>
+               <head>F26.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">F26.2</ab>
+                  <ab type="mlgb_catalogueExtract">(`quaestiones naturales A. per dialogos')</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">F26.4</ab>
-               <ab type="mlgb_catalogueExtract">(`Damascenus de uera fide')</ab>
+               <head>F26.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">F26.4</ab>
+                  <ab type="mlgb_catalogueExtract">(`Damascenus de uera fide')</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">F26.5</ab>
+               <head>F26.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">F26.5</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">F26.†6</ab>
-               <ab type="mlgb_catalogueExtract">(`Alredi Rieuallensis historiola')</ab>
-            </div>
-            <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">F26.†6</ab>
-               <ab type="mlgb_catalogueExtract">(`Alredi Rieuallensis historiola')</ab>
+               <head>F26.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">F26.†6</ab>
+                  <ab type="mlgb_catalogueExtract">(`Alredi Rieuallensis historiola')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">F26.†6</ab>
+                  <ab type="mlgb_catalogueExtract">(`Alredi Rieuallensis historiola')</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">F26.7</ab>
+               <head>F26.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">F26.7</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">F26.8</ab>
+               <head>F26.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">F26.8</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">F26.9</ab>
-               <ab type="mlgb_catalogueExtract">(`geometria Wiberti pseudo apostolici')</ab>
+               <head>F26.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">F26.9</ab>
+                  <ab type="mlgb_catalogueExtract">(`geometria Wiberti pseudo apostolici')</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">F26.†10</ab>
-               <ab type="mlgb_catalogueExtract">(`de iudiciis tabulis et aliis astronomiae
-                  tractatibus')</ab>
+               <head>F26.†10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">F26.†10</ab>
+                  <ab type="mlgb_catalogueExtract">(`de iudiciis tabulis et aliis astronomiae
+                     tractatibus')</ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">F26.11</ab>
+               <head>F26.11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">F26.11</ab>
+               </div>
             </div>
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">F26.12</ab>
+               <head>F26.12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">F26.12</ab>
+               </div>
             </div>
             <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">F26.13</ab>
+               <head>F26.13</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">F26.13</ab>
+               </div>
             </div>
             <div type="entry" n="14">
-               <bibl type="identification" corresp="#bibl_14"/>
-               <ab type="mlgb_copyCode">F26.14</ab>
-               <ab type="mlgb_catalogueExtract">(`Abritius de origine deorum')</ab>
+               <head>F26.14</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_14"/>
+                  <ab type="mlgb_copyCode">F26.14</ab>
+                  <ab type="mlgb_catalogueExtract">(`Abritius de origine deorum')</ab>
+               </div>
             </div>
             <div type="entry" n="15">
-               <bibl type="identification" corresp="#bibl_15"/>
-               <ab type="mlgb_copyCode">F26.15</ab>
+               <head>F26.15</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_15"/>
+                  <ab type="mlgb_copyCode">F26.15</ab>
+               </div>
             </div>
          </div>
 
@@ -114,7 +160,8 @@
             <bibl xml:id="bibl_8"><author key="mlgbAuthor_156">Alfred of Shareshill [fl. 1200]
                   </author><title key="mlgbWork_156_2">De motu cordis</title></bibl>
             <bibl xml:id="bibl_9"><author key="mlgbAuthor_1130">Gerbert of Aurillac (Sylvester II)
-                  [c940—1003, sedit 999—1003] </author><title key="mlgbWork_1130_2">Geometria</title></bibl>
+                  [c940—1003, sedit 999—1003] </author><title key="mlgbWork_1130_2"
+                  >Geometria</title></bibl>
             <bibl xml:id="bibl_10"><author key="mlgbAuthor_2347">Nicholas of Lynn [late 14th cent.]
                   </author><title key="mlgbWork_2347_1">Kalendarium</title></bibl>
             <bibl xml:id="bibl_11"><author key="mlgbAuthor_319">Aristotle [384—322 BC]

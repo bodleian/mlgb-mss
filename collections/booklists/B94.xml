@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title><title type="mlgb_location">Sherborne</title><title type="mlgb_code">B94</title><title type="mlgb_booklist">Leland, c. 1536-40</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title>
+            <title type="mlgb_location">Sherborne</title>
+            <title type="mlgb_code">B94</title>
+            <title type="mlgb_booklist">Leland, c. 1536-40</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,44 +24,74 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">B94.1</ab>
+               <head>B94.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">B94.1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">B94.2</ab>
+               <head>B94.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">B94.2</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">B94.3</ab>
+               <head>B94.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">B94.3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">B94.4</ab>
+               <head>B94.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">B94.4</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">B94.5</ab>
+               <head>B94.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">B94.5</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">B94.6</ab>
+               <head>B94.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">B94.6</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">B94.7</ab>
+               <head>B94.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">B94.7</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">B94.8</ab>
+               <head>B94.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">B94.8</ab>
+               </div>
             </div>
             <div type="entry" n="9" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_5219">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">B94.9</ab>
+               <head>B94.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">B94.9</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">B94.10</ab>
+               <head>B94.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">B94.10</ab>
+               </div>
             </div>
          </div>
 
@@ -88,7 +122,8 @@
             <bibl xml:id="bibl_9"><author key="mlgbAuthor_3814">Wulfstan Cantor OSB [fl. 1000]
                   </author><title key="mlgbWork_3814_2">Narratio metrica de S.
                Swithuno</title></bibl>
-            <bibl xml:id="bibl_10"><author key="mlgbAuthor_3088">Sedulius [fl. 450] </author><title key="mlgbWork_3088_1">Carmen paschale</title></bibl>
+            <bibl xml:id="bibl_10"><author key="mlgbAuthor_3088">Sedulius [fl. 450] </author><title
+                  key="mlgbWork_3088_1">Carmen paschale</title></bibl>
          </listBibl>
       </back>
    </text>

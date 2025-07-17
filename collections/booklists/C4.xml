@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">CARTHUSIANS</title><title type="mlgb_location">London</title><title type="mlgb_code">C4</title><title type="mlgb_booklist">Loans to Hinton, early 16th cent.</title>
+            <title type="mlgb_booklist_Group">CARTHUSIANS</title>
+            <title type="mlgb_location">London</title>
+            <title type="mlgb_code">C4</title>
+            <title type="mlgb_booklist">Loans to Hinton, early 16th cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,30 +24,48 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">C4.¶1</ab>
+               <head>C4.¶1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">C4.¶1</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">C4.¶3</ab>
+               <head>C4.¶3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">C4.¶3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">C4.4</ab>
+               <head>C4.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">C4.4</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">C4.6</ab>
-               <ab type="mlgb_catalogueExtract">(`Gerson de contemptu mundi')</ab>
+               <head>C4.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">C4.6</ab>
+                  <ab type="mlgb_catalogueExtract">(`Gerson de contemptu mundi')</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">C4.¶7a</ab>
+               <head>C4.¶7a</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">C4.¶7a</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">C4.8</ab>
-               <ab type="mlgb_catalogueExtract">(`reuelaciones s. matildis')</ab>
+               <head>C4.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">C4.8</ab>
+                  <ab type="mlgb_catalogueExtract">(`reuelaciones s. matildis')</ab>
+               </div>
             </div>
          </div>
 

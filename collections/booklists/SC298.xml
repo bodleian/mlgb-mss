@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title><title type="mlgb_location">Stoke-by-Clare</title><title type="mlgb_code">SC298</title><title type="mlgb_booklist">Bequest by Richard Lessy, 15 February 1498  </title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title>
+            <title type="mlgb_location">Stoke-by-Clare</title>
+            <title type="mlgb_code">SC298</title>
+            <title type="mlgb_booklist">Bequest by Richard Lessy, 15 February 1498 </title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,13 +24,19 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SC298.¶1</ab>
+               <head>SC298.¶1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SC298.¶1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SC298.¶2</ab>
-               <ab type="mlgb_catalogueExtract">(6 vols)</ab>
+               <head>SC298.¶2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SC298.¶2</ab>
+                  <ab type="mlgb_catalogueExtract">(6 vols)</ab>
+               </div>
             </div>
          </div>
 
@@ -35,7 +45,8 @@
          <listBibl>
 
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_1194">Gregory IX (Ugolino da Segni)
-                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1">Decretales</title></bibl>
+                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1"
+                  >Decretales</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_2365">Nicholaus de Tudeschis, known as
                   Abbas [†1445], archbishop of Palermo </author><title key="mlgbWork_2365_4">Lectura
                   in Decretales</title></bibl>

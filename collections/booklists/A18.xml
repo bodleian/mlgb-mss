@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">AUGUSTINIAN CANONS</title><title type="mlgb_location">Lanthony</title><title type="mlgb_code">A18</title><title type="mlgb_booklist">Leland, c. 1536-40</title>
+            <title type="mlgb_booklist_Group">AUGUSTINIAN CANONS</title>
+            <title type="mlgb_location">Lanthony</title>
+            <title type="mlgb_code">A18</title>
+            <title type="mlgb_booklist">Leland, c. 1536-40</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,17 +24,26 @@
          <div type="list">
 
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">A18.3</ab>
+               <head>A18.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">A18.3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">A18.4</ab>
+               <head>A18.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">A18.4</ab>
+               </div>
             </div>
             <div type="entry" n="5" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_6468">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">A18.*5</ab>
-               <ab type="mlgb_catalogueExtract">= H2.*650</ab>
+               <head>A18.*5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">A18.*5</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_H2#650">= H2.*650</ref></ab>
+               </div>
             </div>
          </div>
 
@@ -41,7 +54,8 @@
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_3285">P. Terentius Afer (Terence)
                   [c195—159 BC] </author><title key="mlgbWork_3285_1">Comoediae</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_3139">C. Sollius Apollinaris Sidonius
-                  [c432—c480], bishop of Clermont-Ferrand </author><title key="mlgbWork_3139_2">Epistulae</title></bibl>
+                  [c432—c480], bishop of Clermont-Ferrand </author><title key="mlgbWork_3139_2"
+                  >Epistulae</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_627">Claudius Taurinensis [† after 827],
                   bishop of Turin </author><title key="mlgbWork_627_1">Commentary on
                Matthew</title></bibl>

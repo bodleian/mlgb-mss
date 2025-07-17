@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title><title type="mlgb_location">REGISTRUM ANGLIE</title><title type="mlgb_code">R59</title><title type="mlgb_booklist">Union catalogue by author and title, early 14th cent.</title>
+            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title>
+            <title type="mlgb_location">REGISTRUM ANGLIE</title>
+            <title type="mlgb_code">R59</title>
+            <title type="mlgb_booklist">Union catalogue by author and title, early 14th
+               cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,19 +25,30 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">R59.1—2</ab>
-               <ab type="mlgb_catalogueExtract">(attrib. Peter of Poitiers, 1 copy) = K441.3—4</ab>
+               <head>R59.1—2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">R59.1—2</ab>
+                  <ab type="mlgb_catalogueExtract">(attrib. Peter of Poitiers, 1 copy) <ref
+                        target="booklist_K441#3">= K441.3—4</ref></ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">R59.1—2</ab>
-               <ab type="mlgb_catalogueExtract">(attrib. Peter of Poitiers, 1 copy) = K441.3—4</ab>
+               <head>R59.1—2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">R59.1—2</ab>
+                  <ab type="mlgb_catalogueExtract">(attrib. Peter of Poitiers, 1 copy) <ref
+                        target="booklist_K441#3">= K441.3—4</ref></ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">R59.3</ab>
-               <ab type="mlgb_catalogueExtract">(2 copies)</ab>
+               <head>R59.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">R59.3</ab>
+                  <ab type="mlgb_catalogueExtract">(2 copies)</ab>
+               </div>
             </div>
          </div>
 

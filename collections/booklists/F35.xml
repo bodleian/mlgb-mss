@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">NEW FRIARS</title><title type="mlgb_location">Oxford-Austin</title><title type="mlgb_code">F35</title><title type="mlgb_booklist">Books noted by Thomas Gascoigne, c. 1430</title>
+            <title type="mlgb_booklist_Group">NEW FRIARS</title>
+            <title type="mlgb_location">Oxford-Austin</title>
+            <title type="mlgb_code">F35</title>
+            <title type="mlgb_booklist">Books noted by Thomas Gascoigne, c. 1430</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,24 +24,36 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">F35.1</ab>
-               <ab type="mlgb_catalogueExtract">= F36.1</ab>
+               <head>F35.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">F35.1</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_F36#1">= F36.1</ref></ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">F35.2</ab>
+               <head>F35.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">F35.2</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">F35.3</ab>
-               <ab type="mlgb_catalogueExtract">(`Alexandri Necham/ Mythologicon')</ab>
+               <head>F35.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">F35.3</ab>
+                  <ab type="mlgb_catalogueExtract">(`Alexandri Necham/ Mythologicon')</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">F35.4</ab>
-               <ab type="mlgb_catalogueExtract">(`Ioannis Waleys commentarii super mythologicon
-                  Fulgentii')</ab>
+               <head>F35.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">F35.4</ab>
+                  <ab type="mlgb_catalogueExtract">(`Ioannis Waleys commentarii super mythologicon
+                     Fulgentii')</ab>
+               </div>
             </div>
          </div>
 

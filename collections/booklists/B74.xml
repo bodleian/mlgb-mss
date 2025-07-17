@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title><title type="mlgb_location">Reading</title><title type="mlgb_code">B74</title><title type="mlgb_booklist">Books kept in Dormitory, 14th cent.</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title>
+            <title type="mlgb_location">Reading</title>
+            <title type="mlgb_code">B74</title>
+            <title type="mlgb_booklist">Books kept in Dormitory, 14th cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,57 +24,93 @@
          <div type="list">
 
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">B74.*7—9</ab>
+               <head>B74.*7—9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">B74.*7—9</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">B74.*7—9</ab>
+               <head>B74.*7—9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">B74.*7—9</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">B74.*7—9</ab>
+               <head>B74.*7—9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">B74.*7—9</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">B74.10</ab>
-               <ab type="mlgb_catalogueExtract">(anon.)</ab>
+               <head>B74.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">B74.10</ab>
+                  <ab type="mlgb_catalogueExtract">(anon.)</ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">B74.11</ab>
+               <head>B74.11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">B74.11</ab>
+               </div>
             </div>
             <div type="entry" n="13" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_4600">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">B74.*13</ab>
+               <head>B74.*13</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">B74.*13</ab>
+               </div>
             </div>
             <div type="entry" n="16">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">B74.16</ab>
+               <head>B74.16</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">B74.16</ab>
+               </div>
             </div>
             <div type="entry" n="17">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">B74.17</ab>
+               <head>B74.17</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">B74.17</ab>
+               </div>
             </div>
             <div type="entry" n="18">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">B74.18</ab>
+               <head>B74.18</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">B74.18</ab>
+               </div>
             </div>
             <div type="entry" n="20">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">B74.20</ab>
-            </div>
-            <div type="entry" n="20">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">B74.20x</ab>
+               <head>B74.20</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">B74.20</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">B74.20x</ab>
+               </div>
             </div>
             <div type="entry" n="21" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_6575">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">B74.*21—2</ab>
+               <head>B74.*21—2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">B74.*21—2</ab>
+               </div>
             </div>
             <div type="entry" n="22">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">B74.*21—2</ab>
+               <head>B74.*21—2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">B74.*21—2</ab>
+               </div>
             </div>
          </div>
 

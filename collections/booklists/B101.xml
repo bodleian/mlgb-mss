@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title><title type="mlgb_location">Thorney</title><title type="mlgb_code">B101</title><title type="mlgb_booklist">Leland, c. 1536-40</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title>
+            <title type="mlgb_location">Thorney</title>
+            <title type="mlgb_code">B101</title>
+            <title type="mlgb_booklist">Leland, c. 1536-40</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,31 +24,46 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">B101.1</ab>
-               <ab type="mlgb_catalogueExtract">(`eglogae aliquot Marci exquaestoris qui floruit
-                  tempore Iustiniani')</ab>
+               <head>B101.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">B101.1</ab>
+                  <ab type="mlgb_catalogueExtract">(`eglogae aliquot Marci exquaestoris qui floruit
+                     tempore Iustiniani')</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">B101.2</ab>
+               <head>B101.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">B101.2</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">B101.3</ab>
-               <ab type="mlgb_catalogueExtract">(`Waleys super quinque libros Mosis')</ab>
+               <head>B101.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">B101.3</ab>
+                  <ab type="mlgb_catalogueExtract">(`Waleys super quinque libros Mosis')</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">B101.4</ab>
-               <ab type="mlgb_catalogueExtract">(`Necham qualis esse debeat uita monachorum carmine.
-                  Quid deceat monachum')</ab>
+               <head>B101.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">B101.4</ab>
+                  <ab type="mlgb_catalogueExtract">(`Necham qualis esse debeat uita monachorum
+                     carmine. Quid deceat monachum')</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">B101.5</ab>
-               <ab type="mlgb_catalogueExtract">(`Ioannes Cornubiensis de uirtute crucis in
-                  sacramento altaris')</ab>
+               <head>B101.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">B101.5</ab>
+                  <ab type="mlgb_catalogueExtract">(`Ioannes Cornubiensis de uirtute crucis in
+                     sacramento altaris')</ab>
+               </div>
             </div>
          </div>
 
@@ -54,7 +73,8 @@
 
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_2163">Marcus Valerius [fl. ?520]
                   </author><title key="mlgbWork_2163_1">Bucolica</title></bibl>
-            <bibl xml:id="bibl_2"><author key="mlgbAuthor_2720">Porphyry [232—302] </author><title key="mlgbWork_2720_2">Isagoge in Categorias Aristotelis, tr.
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_2720">Porphyry [232—302] </author><title
+                  key="mlgbWork_2720_2">Isagoge in Categorias Aristotelis, tr.
                Boethius</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_3394">Thomas Waleys OP [†1350]
                   </author><title key="mlgbWork_3394_7">Moralitates on

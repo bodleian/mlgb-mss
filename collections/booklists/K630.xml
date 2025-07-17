@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">HENRY DE KIRKESTEDE</title><title type="mlgb_location">HENRY DE KIRKESTEDE</title><title type="mlgb_code">K630</title><title type="mlgb_booklist">Catalogus, c. 1360</title>
+            <title type="mlgb_booklist_Group">HENRY DE KIRKESTEDE</title>
+            <title type="mlgb_location">HENRY DE KIRKESTEDE</title>
+            <title type="mlgb_code">K630</title>
+            <title type="mlgb_booklist">Catalogus, c. 1360</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,59 +24,98 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">K630.1</ab>
+               <head>K630.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">K630.1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">K630.2</ab>
+               <head>K630.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">K630.2</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">K630.3</ab>
+               <head>K630.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">K630.3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">K630.4</ab>
+               <head>K630.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">K630.4</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">K630.◊5</ab>
+               <head>K630.◊5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">K630.◊5</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">K630.◊6</ab>
+               <head>K630.◊6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">K630.◊6</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">K630.7</ab>
+               <head>K630.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">K630.7</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">K630.◊8</ab>
-               <ab type="mlgb_catalogueExtract">(attrib. Virgil)</ab>
+               <head>K630.◊8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">K630.◊8</ab>
+                  <ab type="mlgb_catalogueExtract">(attrib. Virgil)</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">K630.9</ab>
+               <head>K630.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">K630.9</ab>
+               </div>
             </div>
             <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">K630.13</ab>
-               <ab type="mlgb_catalogueExtract">(`de uacca Platonis', attrib. Virgil)</ab>
+               <head>K630.13</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">K630.13</ab>
+                  <ab type="mlgb_catalogueExtract">(`de uacca Platonis', attrib. Virgil)</ab>
+               </div>
             </div>
             <div type="entry" n="14">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">K630.14</ab>
-               <ab type="mlgb_catalogueExtract">(`de uiro iusto')</ab>
+               <head>K630.14</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">K630.14</ab>
+                  <ab type="mlgb_catalogueExtract">(`de uiro iusto')</ab>
+               </div>
             </div>
             <div type="entry" n="15">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">K630.15</ab>
+               <head>K630.15</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">K630.15</ab>
+               </div>
             </div>
             <div type="entry" n="16">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">K630.16</ab>
+               <head>K630.16</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">K630.16</ab>
+               </div>
             </div>
          </div>
 
@@ -94,10 +137,12 @@
                   </author><title key="mlgbWork_3467_7">Aetna</title></bibl>
             <bibl xml:id="bibl_7"><author key="mlgbAuthor_3467">P. Vergilius Maro [70—19 BC]
                   </author><title key="mlgbWork_3467_10">Culex</title></bibl>
-            <bibl xml:id="bibl_8"><author key="mlgbAuthor_2738">Priapaea</author><title key="mlgbWork_2738_1"/></bibl>
+            <bibl xml:id="bibl_8"><author key="mlgbAuthor_2738">Priapaea</author><title
+                  key="mlgbWork_2738_1"/></bibl>
             <bibl xml:id="bibl_9"><author key="mlgbAuthor_3467">P. Vergilius Maro [70—19 BC]
                   </author><title key="mlgbWork_3467_11">De est et non</title></bibl>
-            <bibl xml:id="bibl_10"><author key="mlgbAuthor_2691">Plato [429—347 BC] </author><title key="mlgbWork_2691_23">Liber uaccae</title></bibl>
+            <bibl xml:id="bibl_10"><author key="mlgbAuthor_2691">Plato [429—347 BC] </author><title
+                  key="mlgbWork_2691_23">Liber uaccae</title></bibl>
             <bibl xml:id="bibl_11"><author key="mlgbAuthor_3467">P. Vergilius Maro [70—19 BC]
                   </author><title key="mlgbWork_3467_12">De institutione boni</title></bibl>
             <bibl xml:id="bibl_12"><author key="mlgbAuthor_3467">P. Vergilius Maro [70—19 BC]

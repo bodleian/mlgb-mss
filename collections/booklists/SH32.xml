@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the Professions</title><title type="mlgb_location">London, hospital of St Mary Elsing</title><title type="mlgb_code">SH32</title><title type="mlgb_booklist">Bequest of John Brian, 18 May 1361</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the
+               Professions</title>
+            <title type="mlgb_location">London, hospital of St Mary Elsing</title>
+            <title type="mlgb_code">SH32</title>
+            <title type="mlgb_booklist">Bequest of John Brian, 18 May 1361</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,17 +25,23 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SH32.1</ab>
-            </div>
-            <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SH32.1</ab>
-               <ab type="mlgb_catalogueExtract">(` cum glosa')</ab>
+               <head>SH32.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SH32.1</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SH32.1</ab>
+                  <ab type="mlgb_catalogueExtract">(` cum glosa')</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">SH32.2</ab>
+               <head>SH32.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">SH32.2</ab>
+               </div>
             </div>
          </div>
 
@@ -42,9 +53,11 @@
                   [c1270—1348] </author><title key="mlgbWork_1555_5">Apparatus ad
                Sextum</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_2078">Liber sextus Decretalium, continuing
-                  the Decretals from Gregory IX (1234) to Boniface VIII (1298)</author><title key="mlgbWork_2078_1"/></bibl>
+                  the Decretals from Gregory IX (1234) to Boniface VIII (1298)</author><title
+                  key="mlgbWork_2078_1"/></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_1194">Gregory IX (Ugolino da Segni)
-                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1">Decretales</title></bibl>
+                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1"
+                  >Decretales</title></bibl>
          </listBibl>
       </back>
    </text>

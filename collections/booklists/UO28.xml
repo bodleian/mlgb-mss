@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title><title type="mlgb_location">Corpus Christi College</title><title type="mlgb_code">UO28</title><title type="mlgb_booklist">List of Grocyn's books, divided into manuscript and printed, in or soon after 1520</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title>
+            <title type="mlgb_location">Corpus Christi College</title>
+            <title type="mlgb_code">UO28</title>
+            <title type="mlgb_booklist">List of Grocyn's books, divided into manuscript and printed,
+               in or soon after 1520</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,24 +25,36 @@
          <div type="list">
 
             <div type="entry" n="54">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UO28.54</ab>
-               <ab type="mlgb_catalogueExtract">(`Alcabitius membrana')</ab>
+               <head>UO28.54</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UO28.54</ab>
+                  <ab type="mlgb_catalogueExtract">(`Alcabitius membrana')</ab>
+               </div>
             </div>
             <div type="entry" n="55">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UO28.55</ab>
-               <ab type="mlgb_catalogueExtract">(`introductorium Alcabutii cum aliis in
-                  membrana')</ab>
+               <head>UO28.55</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UO28.55</ab>
+                  <ab type="mlgb_catalogueExtract">(`introductorium Alcabutii cum aliis in
+                     membrana')</ab>
+               </div>
             </div>
             <div type="entry" n="64">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">UO28.64</ab>
-               <ab type="mlgb_catalogueExtract">(`A. de uegetabilibus')</ab>
+               <head>UO28.64</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">UO28.64</ab>
+                  <ab type="mlgb_catalogueExtract">(`A. de uegetabilibus')</ab>
+               </div>
             </div>
             <div type="entry" n="65">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">UO28.65</ab>
+               <head>UO28.65</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">UO28.65</ab>
+               </div>
             </div>
          </div>
 
@@ -54,7 +71,8 @@
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_95">Albertus Magnus OP [1193—1280]
                   </author><title key="mlgbWork_95_28">Commentary on Nicholas of Damascus (ps.
                   Aristotle), De uegetabilibus et plantis</title></bibl>
-            <bibl xml:id="bibl_4"><author key="mlgbAuthor_927">Euangelium Nicodemi</author><title key="mlgbWork_927_1"/></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_927">Euangelium Nicodemi</author><title
+                  key="mlgbWork_927_1"/></bibl>
          </listBibl>
       </back>
    </text>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">HENRY DE KIRKESTEDE</title><title type="mlgb_location">HENRY DE KIRKESTEDE</title><title type="mlgb_code">K247</title><title type="mlgb_booklist">Catalogus, c. 1360</title>
+            <title type="mlgb_booklist_Group">HENRY DE KIRKESTEDE</title>
+            <title type="mlgb_location">HENRY DE KIRKESTEDE</title>
+            <title type="mlgb_code">K247</title>
+            <title type="mlgb_booklist">Catalogus, c. 1360</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,39 +24,60 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">K247.*1</ab>
-               <ab type="mlgb_catalogueExtract">(`de taedio huius uitae partim metrice, partim
-                  prosaice', inc., 1 copy)</ab>
+               <head>K247.*1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">K247.*1</ab>
+                  <ab type="mlgb_catalogueExtract">(`de taedio huius uitae partim metrice, partim
+                     prosaice', inc., 1 copy)</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">K247.◊2</ab>
-               <ab type="mlgb_catalogueExtract">(`de exilio suo uersus elegantes', inc.)</ab>
+               <head>K247.◊2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">K247.◊2</ab>
+                  <ab type="mlgb_catalogueExtract">(`de exilio suo uersus elegantes', inc.)</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">K247.*3</ab>
+               <head>K247.*3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">K247.*3</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">K247.*5</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+               <head>K247.*5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">K247.*5</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">K247.*6</ab>
+               <head>K247.*6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">K247.*6</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">K247.7</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+               <head>K247.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">K247.7</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">K247.8</ab>
-               <ab type="mlgb_catalogueExtract">(`de tribus uitiis sc. muliebri amore, auaritia, et
-                  ambitione', 1 copy)</ab>
+               <head>K247.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">K247.8</ab>
+                  <ab type="mlgb_catalogueExtract">(`de tribus uitiis sc. muliebri amore, auaritia,
+                     et ambitione', 1 copy)</ab>
+               </div>
             </div>
          </div>
 
@@ -76,7 +101,8 @@
                   archbishop of Tours </author><title key="mlgbWork_1363_13">Rhythmus de trinitate
                   (carm. minora 55)</title></bibl>
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_1363">Hildebert of Lavardin [1056—1133],
-                  archbishop of Tours </author><title key="mlgbWork_1363_10">Epistolae</title></bibl>
+                  archbishop of Tours </author><title key="mlgbWork_1363_10"
+               >Epistolae</title></bibl>
             <bibl xml:id="bibl_7"><author key="mlgbAuthor_1363">Hildebert of Lavardin [1056—1133],
                   archbishop of Tours </author><title key="mlgbWork_1363_12">Plurima cum soleant
                   mores euertere sacros</title></bibl>

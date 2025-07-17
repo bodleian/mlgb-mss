@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES</title><title type="mlgb_location">Peterborough</title><title type="mlgb_code">BP17</title><title type="mlgb_booklist">Books given by Abbot Robert of Ramsey (1353-61)</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES</title>
+            <title type="mlgb_location">Peterborough</title>
+            <title type="mlgb_code">BP17</title>
+            <title type="mlgb_booklist">Books given by Abbot Robert of Ramsey (1353-61)</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,29 +24,47 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">BP17.1</ab>
-               <ab type="mlgb_catalogueExtract">(2 vols)</ab>
+               <head>BP17.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">BP17.1</ab>
+                  <ab type="mlgb_catalogueExtract">(2 vols)</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">BP17.2</ab>
+               <head>BP17.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">BP17.2</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">BP17.3</ab>
+               <head>BP17.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">BP17.3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">BP17.4</ab>
+               <head>BP17.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">BP17.4</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">BP17.5</ab>
+               <head>BP17.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">BP17.5</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">BP17.6</ab>
+               <head>BP17.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">BP17.6</ab>
+               </div>
             </div>
          </div>
 
@@ -60,7 +82,8 @@
                   [1237—1296], bishop of Mende </author><title key="mlgbWork_3698_5">Speculum
                   iudiciale</title></bibl>
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_1194">Gregory IX (Ugolino da Segni)
-                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1">Decretales</title></bibl>
+                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1"
+                  >Decretales</title></bibl>
             <bibl xml:id="bibl_5"><author key="mlgbAuthor_1432">Hugutio of Pisa [12th cent.]
                   </author><title key="mlgbWork_1432_2">Liber deriuationum</title></bibl>
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_1314">Henricus de Segusio, known as

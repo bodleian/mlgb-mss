@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title><title type="mlgb_location">Norwich</title><title type="mlgb_code">B60</title><title type="mlgb_booklist">Leland, c. 1536-40</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title>
+            <title type="mlgb_location">Norwich</title>
+            <title type="mlgb_code">B60</title>
+            <title type="mlgb_booklist">Leland, c. 1536-40</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,41 +24,65 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">B60.1</ab>
-               <ab type="mlgb_catalogueExtract">= B61.7</ab>
+               <head>B60.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">B60.1</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_B61#7">= B61.7</ref></ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">B60.2</ab>
+               <head>B60.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">B60.2</ab>
+               </div>
             </div>
             <div type="entry" n="3" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_4145">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">B60.3</ab>
+               <head>B60.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">B60.3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">B60.*4</ab>
-               <ab type="mlgb_catalogueExtract">= B61.*3</ab>
+               <head>B60.*4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">B60.*4</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_B61#3">= B61.*3</ref></ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">B60.5</ab>
-               <ab type="mlgb_catalogueExtract">(`pantheon Godefridi Viterbiensis')</ab>
+               <head>B60.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">B60.5</ab>
+                  <ab type="mlgb_catalogueExtract">(`pantheon Godefridi Viterbiensis')</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">B60.6</ab>
-               <ab type="mlgb_catalogueExtract">(`omeliae Radulphi Actonis')</ab>
+               <head>B60.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">B60.6</ab>
+                  <ab type="mlgb_catalogueExtract">(`omeliae Radulphi Actonis')</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">B60.8</ab>
-               <ab type="mlgb_catalogueExtract">= B61.20</ab>
+               <head>B60.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">B60.8</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_B61#20">= B61.20</ref></ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">B60.9</ab>
+               <head>B60.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">B60.9</ab>
+               </div>
             </div>
          </div>
 
@@ -80,7 +108,8 @@
             <bibl xml:id="bibl_7"><author key="mlgbAuthor_3376">Thomas of Monmouth OSB [† after
                   1172] </author><title key="mlgbWork_3376_1">Vita S. Willelmi
                Norwicensis</title></bibl>
-            <bibl xml:id="bibl_8"><author key="mlgbAuthor_1379">Historia Meriadoci</author><title key="mlgbWork_1379_1"/></bibl>
+            <bibl xml:id="bibl_8"><author key="mlgbAuthor_1379">Historia Meriadoci</author><title
+                  key="mlgbWork_1379_1"/></bibl>
          </listBibl>
       </back>
    </text>

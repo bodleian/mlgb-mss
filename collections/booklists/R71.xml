@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title><title type="mlgb_location">REGISTRUM ANGLIE</title><title type="mlgb_code">R71</title><title type="mlgb_booklist">Union catalogue by author and title, early 14th cent.</title>
+            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title>
+            <title type="mlgb_location">REGISTRUM ANGLIE</title>
+            <title type="mlgb_code">R71</title>
+            <title type="mlgb_booklist">Union catalogue by author and title, early 14th
+               cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,10 +25,13 @@
          <div type="list">
 
             <div type="entry" n="None">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">R71</ab>
-               <ab type="mlgb_catalogueExtract">(`contra Euticen et Nestorium', 1 copy) =
-                  K622.1</ab>
+               <head>R71</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">R71</ab>
+                  <ab type="mlgb_catalogueExtract">(`contra Euticen et Nestorium', 1 copy) <ref
+                        target="booklist_K622#1">= K622.1</ref></ab>
+               </div>
             </div>
          </div>
 

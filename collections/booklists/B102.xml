@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title><title type="mlgb_location">Thorney-Deeping</title><title type="mlgb_code">B102</title><title type="mlgb_booklist">Inventory of books, 14th cent.</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title>
+            <title type="mlgb_location">Thorney-Deeping</title>
+            <title type="mlgb_code">B102</title>
+            <title type="mlgb_booklist">Inventory of books, 14th cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,67 +24,106 @@
          <div type="list">
 
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">B102.2</ab>
-            </div>
-            <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">B102.2—3</ab>
+               <head>B102.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">B102.2</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">B102.2—3</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">B102.2—3</ab>
+               <head>B102.2—3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">B102.2—3</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">B102.5</ab>
-               <ab type="mlgb_catalogueExtract">(`gesta britonum')</ab>
-            </div>
-            <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">B102.†5</ab>
-               <ab type="mlgb_catalogueExtract">(`gesta britonum')</ab>
+               <head>B102.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">B102.5</ab>
+                  <ab type="mlgb_catalogueExtract">(`gesta britonum')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">B102.†5</ab>
+                  <ab type="mlgb_catalogueExtract">(`gesta britonum')</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">B102.†6</ab>
+               <head>B102.†6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">B102.†6</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">B102.7b</ab>
+               <head>B102.7b</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">B102.7b</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">B102.9</ab>
+               <head>B102.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">B102.9</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">B102.10</ab>
-               <ab type="mlgb_catalogueExtract">(`Liber tertius historie Eliensis')</ab>
+               <head>B102.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">B102.10</ab>
+                  <ab type="mlgb_catalogueExtract">(`Liber tertius historie Eliensis')</ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">B102.11</ab>
+               <head>B102.11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">B102.11</ab>
+               </div>
             </div>
             <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">B102.13</ab>
+               <head>B102.13</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">B102.13</ab>
+               </div>
             </div>
             <div type="entry" n="14">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">B102.14</ab>
+               <head>B102.14</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">B102.14</ab>
+               </div>
             </div>
             <div type="entry" n="15">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">B102.15</ab>
+               <head>B102.15</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">B102.15</ab>
+               </div>
             </div>
             <div type="entry" n="17">
-               <bibl type="identification" corresp="#bibl_14"/>
-               <ab type="mlgb_copyCode">B102.17</ab>
+               <head>B102.17</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_14"/>
+                  <ab type="mlgb_copyCode">B102.17</ab>
+               </div>
             </div>
             <div type="entry" n="18">
-               <bibl type="identification" corresp="#bibl_15"/>
-               <ab type="mlgb_copyCode">B102.18</ab>
+               <head>B102.18</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_15"/>
+                  <ab type="mlgb_copyCode">B102.18</ab>
+               </div>
             </div>
          </div>
 
@@ -102,11 +145,13 @@
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_2973">Robert Grosseteste, known as
                   Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_20">De
                   confessione (serm. 32)</title></bibl>
-            <bibl xml:id="bibl_7"><author key="mlgbAuthor_2870">Regula S. Benedicti</author><title key="mlgbWork_2870_1"/></bibl>
+            <bibl xml:id="bibl_7"><author key="mlgbAuthor_2870">Regula S. Benedicti</author><title
+                  key="mlgbWork_2870_1"/></bibl>
             <bibl xml:id="bibl_8"><author key="mlgbAuthor_430">Benedict XII (Jacques Fournier OCist)
                   [c1285—1342, sedit 1334—1342] </author><title key="mlgbWork_430_1">Constitutiones
                   ad monachos nigros (`Summi magistri')</title></bibl>
-            <bibl xml:id="bibl_9"><author key="mlgbAuthor_2054">Liber Eliensis</author><title key="mlgbWork_2054_1"/></bibl>
+            <bibl xml:id="bibl_9"><author key="mlgbAuthor_2054">Liber Eliensis</author><title
+                  key="mlgbWork_2054_1"/></bibl>
             <bibl xml:id="bibl_10"><author key="mlgbAuthor_1432">Hugutio of Pisa [12th cent.]
                   </author><title key="mlgbWork_1432_2">Liber deriuationum</title></bibl>
             <bibl xml:id="bibl_11"><author key="mlgbAuthor_3673">William Brito [late 13th cent.]

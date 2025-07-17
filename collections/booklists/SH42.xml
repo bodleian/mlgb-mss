@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the Professions</title><title type="mlgb_location">London, Lincoln's Inn</title><title type="mlgb_code">SH42</title><title type="mlgb_booklist">List of books in the treasury, 1 November 1514</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the
+               Professions</title>
+            <title type="mlgb_location">London, Lincoln's Inn</title>
+            <title type="mlgb_code">SH42</title>
+            <title type="mlgb_booklist">List of books in the treasury, 1 November 1514</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,13 +25,19 @@
          <div type="list">
 
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SH42.2</ab>
+               <head>SH42.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SH42.2</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SH42.¶3</ab>
-               <ab type="mlgb_catalogueExtract">(1, 3—9 Edw. IV)</ab>
+               <head>SH42.¶3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SH42.¶3</ab>
+                  <ab type="mlgb_catalogueExtract">(1, 3—9 Edw. IV)</ab>
+               </div>
             </div>
          </div>
 
@@ -34,7 +45,8 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_525">Britton</author><title key="mlgbWork_525_1"/></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_525">Britton</author><title
+                  key="mlgbWork_525_1"/></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_3816">Xenophon [428/7—354 BC]
                   </author><title key="mlgbWork_3816_8">Year Books, comprising notes made in the
                   courts at Westminster of the arguments made by counsel and points of law

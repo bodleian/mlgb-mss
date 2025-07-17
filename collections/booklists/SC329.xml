@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title><title type="mlgb_location">Winchester College</title><title type="mlgb_code">SC329</title><title type="mlgb_booklist">Bequest by William of Wykeham, 24 July 1404</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title>
+            <title type="mlgb_location">Winchester College</title>
+            <title type="mlgb_code">SC329</title>
+            <title type="mlgb_booklist">Bequest by William of Wykeham, 24 July 1404</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,35 +24,55 @@
          <div type="list">
 
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SC329.2</ab>
-               <ab type="mlgb_catalogueExtract">= SC330.76</ab>
+               <head>SC329.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SC329.2</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_SC330#76"
+                     >= SC330.76</ref></ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SC329.3x</ab>
-               <ab type="mlgb_catalogueExtract">= SC330.77x</ab>
-            </div>
-            <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">SC329.3</ab>
-               <ab type="mlgb_catalogueExtract">= SC330.77</ab>
+               <head>SC329.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SC329.3x</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_SC330#77"
+                     >= SC330.77x</ref></ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">SC329.3</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_SC330#77"
+                     >= SC330.77</ref></ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">SC329.4</ab>
-               <ab type="mlgb_catalogueExtract">= SC330.78</ab>
+               <head>SC329.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">SC329.4</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_SC330#78"
+                     >= SC330.78</ref></ab>
+               </div>
             </div>
             <div type="entry" n="5" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_5813">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">SC329.*5</ab>
-               <ab type="mlgb_catalogueExtract">(`librum de uita sancti Thome uocatum Thomas') =
-                  SC330.*79</ab>
+               <head>SC329.*5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">SC329.*5</ab>
+                  <ab type="mlgb_catalogueExtract">(`librum de uita sancti Thome uocatum Thomas')
+                        <ref target="booklist_SC330#79">= SC330.*79</ref></ab>
+               </div>
             </div>
             <div type="entry" n="6" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_6545">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">SC329.6</ab>
-               <ab type="mlgb_catalogueExtract">(`pars oculi') = SC330.81</ab>
+               <head>SC329.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">SC329.6</ab>
+                  <ab type="mlgb_catalogueExtract">(`pars oculi') <ref target="booklist_SC330#81"
+                        >= SC330.81</ref></ab>
+               </div>
             </div>
          </div>
 

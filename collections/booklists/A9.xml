@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">AUGUSTINIAN CANONS</title><title type="mlgb_location">Cirencester</title><title type="mlgb_code">A9</title><title type="mlgb_booklist">Leland, c. 1536-40</title>
+            <title type="mlgb_booklist_Group">AUGUSTINIAN CANONS</title>
+            <title type="mlgb_location">Cirencester</title>
+            <title type="mlgb_code">A9</title>
+            <title type="mlgb_booklist">Leland, c. 1536-40</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,54 +24,84 @@
          <div type="list">
 
             <div type="entry" n="1" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1772">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">A9.*1</ab>
-            </div>
-            <div type="entry" n="1" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1772">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">A9.*1x</ab>
-            </div>
-            <div type="entry" n="1" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1772">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">A9.*1x</ab>
+               <head>A9.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">A9.*1</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">A9.*1x</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">A9.*1x</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">A9.2</ab>
+               <head>A9.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">A9.2</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">A9.3</ab>
+               <head>A9.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">A9.3</ab>
+               </div>
             </div>
             <div type="entry" n="4" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1754">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">A9.*4</ab>
-               <ab type="mlgb_catalogueExtract">= H2.*619</ab>
+               <head>A9.*4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">A9.*4</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_H2#619">= H2.*619</ref></ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">A9.5</ab>
+               <head>A9.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">A9.5</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">A9.6</ab>
+               <head>A9.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">A9.6</ab>
+               </div>
             </div>
             <div type="entry" n="7" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1739">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">A9.?*7</ab>
+               <head>A9.?*7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">A9.?*7</ab>
+               </div>
             </div>
             <div type="entry" n="8" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1748">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">A9.*8</ab>
+               <head>A9.*8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">A9.*8</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">A9.9</ab>
-               <ab type="mlgb_catalogueExtract">(`de laude gloriosae uirginis')</ab>
+               <head>A9.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">A9.9</ab>
+                  <ab type="mlgb_catalogueExtract">(`de laude gloriosae uirginis')</ab>
+               </div>
             </div>
             <div type="entry" n="10" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1756">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">A9.*10</ab>
+               <head>A9.*10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">A9.*10</ab>
+               </div>
             </div>
          </div>
 

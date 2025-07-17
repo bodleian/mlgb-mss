@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">HENRY DE KIRKESTEDE</title><title type="mlgb_location">HENRY DE KIRKESTEDE</title><title type="mlgb_code">K136</title><title type="mlgb_booklist">Catalogus, c. 1360</title>
+            <title type="mlgb_booklist_Group">HENRY DE KIRKESTEDE</title>
+            <title type="mlgb_location">HENRY DE KIRKESTEDE</title>
+            <title type="mlgb_code">K136</title>
+            <title type="mlgb_booklist">Catalogus, c. 1360</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,16 +24,25 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">K136.1</ab>
+               <head>K136.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">K136.1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">K136.2</ab>
+               <head>K136.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">K136.2</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">K136.3</ab>
+               <head>K136.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">K136.3</ab>
+               </div>
             </div>
          </div>
 
@@ -38,14 +51,16 @@
          <listBibl>
 
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_686">Constantinus Africanus OSB
-                  [c1015—1087], monk of Monte Cassino </author><title key="mlgbWork_686_10">Pantegni</title></bibl>
+                  [c1015—1087], monk of Monte Cassino </author><title key="mlgbWork_686_10"
+                  >Pantegni</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_686">Constantinus Africanus OSB
                   [c1015—1087], monk of Monte Cassino </author><title key="mlgbWork_686_8">Liber
                   graduum, existing in several forms; the prologue, `Cum disputationem simplicis
                   medicinae' has several variants (Thorndike/Kibre 293, 1273, 1303); the text too
                   has several forms</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_686">Constantinus Africanus OSB
-                  [c1015—1087], monk of Monte Cassino </author><title key="mlgbWork_686_11">Viaticum</title></bibl>
+                  [c1015—1087], monk of Monte Cassino </author><title key="mlgbWork_686_11"
+                  >Viaticum</title></bibl>
          </listBibl>
       </back>
    </text>

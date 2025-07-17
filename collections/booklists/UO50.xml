@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title><title type="mlgb_location">Merton College</title><title type="mlgb_code">UO50</title><title type="mlgb_booklist">Electio list of philosophical books, 8 December 1375</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title>
+            <title type="mlgb_location">Merton College</title>
+            <title type="mlgb_code">UO50</title>
+            <title type="mlgb_booklist">Electio list of philosophical books, 8 December 1375</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,41 +24,67 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UO50.1</ab>
+               <head>UO50.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UO50.1</ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UO50.11</ab>
-               <ab type="mlgb_catalogueExtract">?= UO51.*96</ab>
+               <head>UO50.11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UO50.11</ab>
+                  <ab type="mlgb_catalogueExtract">?<ref target="booklist_UO51#96"
+                     >= UO51.*96</ref></ab>
+               </div>
             </div>
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">UO50.12</ab>
-               <ab type="mlgb_catalogueExtract">(`libros Auicenne')</ab>
+               <head>UO50.12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">UO50.12</ab>
+                  <ab type="mlgb_catalogueExtract">(`libros Auicenne')</ab>
+               </div>
             </div>
             <div type="entry" n="17">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">UO50.17</ab>
+               <head>UO50.17</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">UO50.17</ab>
+               </div>
             </div>
             <div type="entry" n="26">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">UO50.26</ab>
-               <ab type="mlgb_catalogueExtract">?= UO68.267</ab>
+               <head>UO50.26</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">UO50.26</ab>
+                  <ab type="mlgb_catalogueExtract">?<ref target="booklist_UO68#267"
+                     >= UO68.267</ref></ab>
+               </div>
             </div>
             <div type="entry" n="64">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">UO50.64</ab>
-               <ab type="mlgb_catalogueExtract">(`expositorem de anima')</ab>
+               <head>UO50.64</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">UO50.64</ab>
+                  <ab type="mlgb_catalogueExtract">(`expositorem de anima')</ab>
+               </div>
             </div>
             <div type="entry" n="83">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">UO50.83</ab>
-               <ab type="mlgb_catalogueExtract">(`methaphisicam Auicenne')</ab>
+               <head>UO50.83</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">UO50.83</ab>
+                  <ab type="mlgb_catalogueExtract">(`methaphisicam Auicenne')</ab>
+               </div>
             </div>
             <div type="entry" n="94">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">UO50.94</ab>
+               <head>UO50.94</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">UO50.94</ab>
+               </div>
             </div>
          </div>
 
@@ -62,7 +92,8 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_905">Euclid [fl. 300 BC] </author><title key="mlgbWork_905_3">Elementa, tr. from Arabic by Adelard of Bath</title></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_905">Euclid [fl. 300 BC] </author><title
+                  key="mlgbWork_905_3">Elementa, tr. from Arabic by Adelard of Bath</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_3093">L. Annaeus Seneca [4 BC—AD 65]
                   </author><title key="mlgbWork_3093_17">Naturales quaestiones</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_373">Avicenna (Abu `Ali al-Husain ibn

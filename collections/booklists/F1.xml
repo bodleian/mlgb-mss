@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">NEW FRIARS</title><title type="mlgb_location">Aylesford-Carmelite</title><title type="mlgb_code">F1</title><title type="mlgb_booklist">Part of catalogue, 1381</title>
+            <title type="mlgb_booklist_Group">NEW FRIARS</title>
+            <title type="mlgb_location">Aylesford-Carmelite</title>
+            <title type="mlgb_code">F1</title>
+            <title type="mlgb_booklist">Part of catalogue, 1381</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,69 +24,105 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">F1.1</ab>
+               <head>F1.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">F1.1</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">F1.3</ab>
+               <head>F1.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">F1.3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">F1.4</ab>
+               <head>F1.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">F1.4</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">F1.5</ab>
+               <head>F1.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">F1.5</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">F1.7</ab>
+               <head>F1.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">F1.7</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">F1.8</ab>
-               <ab type="mlgb_catalogueExtract">(`liber Raymundi')</ab>
+               <head>F1.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">F1.8</ab>
+                  <ab type="mlgb_catalogueExtract">(`liber Raymundi')</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">F1.9a</ab>
-            </div>
-            <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">F1.9c</ab>
-               <ab type="mlgb_catalogueExtract">(anon.)</ab>
-            </div>
-            <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">F1.†9d</ab>
-               <ab type="mlgb_catalogueExtract">(anon.)</ab>
+               <head>F1.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">F1.9a</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">F1.9c</ab>
+                  <ab type="mlgb_catalogueExtract">(anon.)</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">F1.†9d</ab>
+                  <ab type="mlgb_catalogueExtract">(anon.)</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">F1.10</ab>
+               <head>F1.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">F1.10</ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">F1.11</ab>
+               <head>F1.11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">F1.11</ab>
+               </div>
             </div>
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">F1.12</ab>
+               <head>F1.12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">F1.12</ab>
+               </div>
             </div>
             <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">F1.13b</ab>
-               <ab type="mlgb_catalogueExtract">(`vij decretalium')</ab>
-            </div>
-            <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_14"/>
-               <ab type="mlgb_copyCode">F1.13a</ab>
+               <head>F1.13</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">F1.13b</ab>
+                  <ab type="mlgb_catalogueExtract">(`vij decretalium')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_14"/>
+                  <ab type="mlgb_copyCode">F1.13a</ab>
+               </div>
             </div>
             <div type="entry" n="14">
-               <bibl type="identification" corresp="#bibl_15"/>
-               <ab type="mlgb_copyCode">F1.14</ab>
-               <ab type="mlgb_catalogueExtract">(`P. de Vineis de modo dictandi')</ab>
+               <head>F1.14</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_15"/>
+                  <ab type="mlgb_copyCode">F1.14</ab>
+                  <ab type="mlgb_catalogueExtract">(`P. de Vineis de modo dictandi')</ab>
+               </div>
             </div>
          </div>
 
@@ -113,7 +153,8 @@
             <bibl xml:id="bibl_9"><author key="mlgbAuthor_3760">Willelmus Peraldus OP [†1261]
                   </author><title key="mlgbWork_3760_3">Summa de uitiis et uirtutibus</title></bibl>
             <bibl xml:id="bibl_10"><author key="mlgbAuthor_1194">Gregory IX (Ugolino da Segni)
-                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1">Decretales</title></bibl>
+                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1"
+                  >Decretales</title></bibl>
             <bibl xml:id="bibl_11"><author key="mlgbAuthor_2558">Petrus Comestor [†1187]
                   </author><title key="mlgbWork_2558_5">Historia scholastica</title></bibl>
             <bibl xml:id="bibl_12"><author key="mlgbAuthor_1529">Innocent IV (Sinibaldo Fieschi)

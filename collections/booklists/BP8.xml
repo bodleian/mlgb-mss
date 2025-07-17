@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES</title><title type="mlgb_location">Peterborough</title><title type="mlgb_code">BP8</title><title type="mlgb_booklist">Books given by Abbot William de Hotot (1246-9)</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES</title>
+            <title type="mlgb_location">Peterborough</title>
+            <title type="mlgb_code">BP8</title>
+            <title type="mlgb_booklist">Books given by Abbot William de Hotot (1246-9)</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,13 +24,20 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">BP8.1</ab>
-               <ab type="mlgb_catalogueExtract">(abbrev.) = BP21.249a</ab>
+               <head>BP8.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">BP8.1</ab>
+                  <ab type="mlgb_catalogueExtract">(abbrev.) <ref target="booklist_BP21#249"
+                        >= BP21.249a</ref></ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">BP8.3a</ab>
+               <head>BP8.3a</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">BP8.3a</ab>
+               </div>
             </div>
          </div>
 
@@ -38,7 +49,8 @@
                   </author><title key="mlgbWork_3663_2">Summa aurea super quatuor libros
                   Sententiarum</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_2973">Robert Grosseteste, known as
-                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_51">Templum Domini</title></bibl>
+                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_51"
+                  >Templum Domini</title></bibl>
          </listBibl>
       </back>
    </text>

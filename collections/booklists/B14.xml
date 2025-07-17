@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title><title type="mlgb_location">Bury</title><title type="mlgb_code">B14</title><title type="mlgb_booklist">Books read in refectory, 13th cent.</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title>
+            <title type="mlgb_location">Bury</title>
+            <title type="mlgb_code">B14</title>
+            <title type="mlgb_booklist">Books read in refectory, 13th cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,66 +24,111 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">B14.1</ab>
+               <head>B14.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">B14.1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">B14.2</ab>
-               <ab type="mlgb_catalogueExtract">= K281.6</ab>
+               <head>B14.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">B14.2</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_K281#6">= K281.6</ref></ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">B14.4</ab>
+               <head>B14.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">B14.4</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">B14.5</ab>
+               <head>B14.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">B14.5</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">B14.6</ab>
+               <head>B14.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">B14.6</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">B14.7</ab>
+               <head>B14.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">B14.7</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">B14.8</ab>
+               <head>B14.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">B14.8</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">B14.9</ab>
+               <head>B14.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">B14.9</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">B14.10</ab>
+               <head>B14.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">B14.10</ab>
+               </div>
             </div>
             <div type="entry" n="12" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_849">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">B14.12</ab>
-               <ab type="mlgb_catalogueExtract">(attrib. Prosper, 2 copies)</ab>
+               <head>B14.12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">B14.12</ab>
+                  <ab type="mlgb_catalogueExtract">(attrib. Prosper, 2 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">B14.13</ab>
+               <head>B14.13</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">B14.13</ab>
+               </div>
             </div>
             <div type="entry" n="14">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">B14.14</ab>
+               <head>B14.14</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">B14.14</ab>
+               </div>
             </div>
             <div type="entry" n="15">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">B14.15</ab>
+               <head>B14.15</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">B14.15</ab>
+               </div>
             </div>
             <div type="entry" n="16">
-               <bibl type="identification" corresp="#bibl_14"/>
-               <ab type="mlgb_copyCode">B14.16</ab>
+               <head>B14.16</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_14"/>
+                  <ab type="mlgb_copyCode">B14.16</ab>
+               </div>
             </div>
             <div type="entry" n="17">
-               <bibl type="identification" corresp="#bibl_15"/>
-               <ab type="mlgb_copyCode">B14.17</ab>
+               <head>B14.17</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_15"/>
+                  <ab type="mlgb_copyCode">B14.17</ab>
+               </div>
             </div>
          </div>
 
@@ -89,7 +138,8 @@
 
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_1193">Gregory the Great [c540—604, sedit
                   590—604] </author><title key="mlgbWork_1193_2">De cura pastorali</title></bibl>
-            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title key="mlgbWork_1517_199">Liber adhortationum sanctorum patrum</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title
+                  key="mlgbWork_1517_199">Liber adhortationum sanctorum patrum</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_1634">John Chrysostom [c347—407],
                   patriarch of Constantinople </author><title key="mlgbWork_1634_10">De cruce et
                   latrone, tr. ? Annianus</title></bibl>
@@ -120,7 +170,8 @@
                   apophthegmata of the type collected and published by H. Rosweyde and reprinted in
                   PL vols. 73—4. Jerome's Lives of St Paul the Hermit, St Hilarion, and St Malchus
                   (CPL 617—19) also make a frequent appearance. [See also Historia monachorum in
-                  Aegypto; Jerome, Liber adhortationum sanctorum patrum.] </author><title key="mlgbWork_3606_1"/></bibl>
+                  Aegypto; Jerome, Liber adhortationum sanctorum patrum.] </author><title
+                  key="mlgbWork_3606_1"/></bibl>
             <bibl xml:id="bibl_14"><author key="mlgbAuthor_1411">Hugh of Fouilloy OSA [†1172/3],
                   prior of Saint-Laurent-au-Bois, Fouilloy </author><title key="mlgbWork_1411_3">De
                   claustro animae</title></bibl>

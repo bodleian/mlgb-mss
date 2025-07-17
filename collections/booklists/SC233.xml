@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title><title type="mlgb_location">Eton College</title><title type="mlgb_code">SC233</title><title type="mlgb_booklist">Bequest by John Mower, 12 April 1489</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title>
+            <title type="mlgb_location">Eton College</title>
+            <title type="mlgb_code">SC233</title>
+            <title type="mlgb_booklist">Bequest by John Mower, 12 April 1489</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,38 +24,50 @@
          <div type="list">
 
             <div type="entry" n="1" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_2613">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SC233.*1x</ab>
-            </div>
-            <div type="entry" n="1" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_2613">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SC233.*1</ab>
+               <head>SC233.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SC233.*1x</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SC233.*1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">SC233.2</ab>
+               <head>SC233.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">SC233.2</ab>
+               </div>
             </div>
             <div type="entry" n="3" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_2614">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">SC233.*3</ab>
-            </div>
-            <div type="entry" n="3" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_2614">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">SC233.*3x</ab>
-            </div>
-            <div type="entry" n="3" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_2614">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">SC233.*3x</ab>
-            </div>
-            <div type="entry" n="3" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_2614">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">SC233.*3x</ab>
-               <ab type="mlgb_catalogueExtract">(BHL 788)</ab>
+               <head>SC233.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">SC233.*3</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">SC233.*3x</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">SC233.*3x</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">SC233.*3x</ab>
+                  <ab type="mlgb_catalogueExtract">(BHL 788)</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">SC233.4</ab>
-               <ab type="mlgb_catalogueExtract">(`Rabanum ad Lodowicum')</ab>
+               <head>SC233.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">SC233.4</ab>
+                  <ab type="mlgb_catalogueExtract">(`Rabanum ad Lodowicum')</ab>
+               </div>
             </div>
          </div>
 
@@ -64,11 +80,13 @@
                   355—6)</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_352">Augustine [354—430], bishop of Hippo
                   </author><title key="mlgbWork_352_113">Epistulae</title></bibl>
-            <bibl xml:id="bibl_3"><author key="mlgbAuthor_2430">Origen [c185—c254] </author><title key="mlgbWork_2430_25">Homilies 1—8 on Matthew</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_2430">Origen [c185—c254] </author><title
+                  key="mlgbWork_2430_25">Homilies 1—8 on Matthew</title></bibl>
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_352">Augustine [354—430], bishop of Hippo
                   </author><title key="mlgbWork_352_245">Sermones de uerbis Domini et apostoli, a
                   common grouping of ninety-nine sermons on the Gospels and Epistles</title></bibl>
-            <bibl xml:id="bibl_5"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title key="mlgbWork_1517_168">De essentia Dei (ep. supp. 14)</title></bibl>
+            <bibl xml:id="bibl_5"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title
+                  key="mlgbWork_1517_168">De essentia Dei (ep. supp. 14)</title></bibl>
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_2868">Regula S. Augustini ad seruos Dei,
                   inc. `Haec sunt quae obseruetis'</author><title key="mlgbWork_2868_1"/></bibl>
             <bibl xml:id="bibl_7"><author key="mlgbAuthor_3517">Augustinus Hipponensis

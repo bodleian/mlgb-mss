@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">AUGUSTINIAN CANONS</title><title type="mlgb_location">Selborne</title><title type="mlgb_code">A29</title><title type="mlgb_booklist">List of books, 1490</title>
+            <title type="mlgb_booklist_Group">AUGUSTINIAN CANONS</title>
+            <title type="mlgb_location">Selborne</title>
+            <title type="mlgb_code">A29</title>
+            <title type="mlgb_booklist">List of books, 1490</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,12 +24,18 @@
          <div type="list">
 
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">A29.10</ab>
+               <head>A29.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">A29.10</ab>
+               </div>
             </div>
             <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">A29.13</ab>
+               <head>A29.13</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">A29.13</ab>
+               </div>
             </div>
          </div>
 
@@ -34,7 +44,8 @@
          <listBibl>
 
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_1194">Gregory IX (Ugolino da Segni)
-                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1">Decretales</title></bibl>
+                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1"
+                  >Decretales</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_2587">Peter Lombard [c1100—1160]
                   </author><title key="mlgbWork_2587_4">Sententiarum libri IV</title></bibl>
          </listBibl>

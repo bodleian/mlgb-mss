@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title><title type="mlgb_location">Merton College</title><title type="mlgb_code">UO61</title><title type="mlgb_booklist">List of books bequeathed by John Persons, 26 Nov. 1500</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title>
+            <title type="mlgb_location">Merton College</title>
+            <title type="mlgb_code">UO61</title>
+            <title type="mlgb_booklist">List of books bequeathed by John Persons, 26 Nov.
+               1500</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,23 +25,35 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UO61.1</ab>
+               <head>UO61.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UO61.1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UO61.†2</ab>
-               <ab type="mlgb_catalogueExtract">(`constituciones legatinas')</ab>
+               <head>UO61.†2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UO61.†2</ab>
+                  <ab type="mlgb_catalogueExtract">(`constituciones legatinas')</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">UO61.3</ab>
-               <ab type="mlgb_catalogueExtract">(`constituciones prouinciales')</ab>
+               <head>UO61.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">UO61.3</ab>
+                  <ab type="mlgb_catalogueExtract">(`constituciones prouinciales')</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">UO61.4</ab>
-               <ab type="mlgb_catalogueExtract">(`Thomam in opere solenni')</ab>
+               <head>UO61.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">UO61.4</ab>
+                  <ab type="mlgb_catalogueExtract">(`Thomam in opere solenni')</ab>
+               </div>
             </div>
          </div>
 
@@ -46,7 +63,8 @@
 
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_1612">Iohannes de Burgo [† after 1398]
                   </author><title key="mlgbWork_1612_1">Pupilla oculi</title></bibl>
-            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1545">John Acton [†1350] </author><title key="mlgbWork_1545_1">Commentary on the Legatine Constitutions</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1545">John Acton [†1350] </author><title
+                  key="mlgbWork_1545_1">Commentary on the Legatine Constitutions</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_3732">William Lyndwood [†1446]
                   </author><title key="mlgbWork_3732_1">Prouinciale</title></bibl>
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_3340">Thomas Aquinas OP [c1225—1274]

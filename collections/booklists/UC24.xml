@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title><title type="mlgb_location">Corpus Christi College</title><title type="mlgb_code">UC24</title><title type="mlgb_booklist">Books noted in the chapel by Matthew Parker, c. 1544</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title>
+            <title type="mlgb_location">Corpus Christi College</title>
+            <title type="mlgb_code">UC24</title>
+            <title type="mlgb_booklist">Books noted in the chapel by Matthew Parker, c. 1544</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,9 +24,12 @@
          <div type="list">
 
             <div type="entry" n="92">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UC24.¶92</ab>
-               <ab type="mlgb_catalogueExtract">(`repertorium notabilium quaestionum')</ab>
+               <head>UC24.¶92</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UC24.¶92</ab>
+                  <ab type="mlgb_catalogueExtract">(`repertorium notabilium quaestionum')</ab>
+               </div>
             </div>
          </div>
 

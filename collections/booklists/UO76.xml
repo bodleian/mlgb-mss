@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title><title type="mlgb_location">New College</title><title type="mlgb_code">UO76</title><title type="mlgb_booklist">List of books recorded by an Italian visitor to Oxford, early 16th cent.</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF OXFORD</title>
+            <title type="mlgb_location">New College</title>
+            <title type="mlgb_code">UO76</title>
+            <title type="mlgb_booklist">List of books recorded by an Italian visitor to Oxford,
+               early 16th cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,83 +25,123 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UO76.1</ab>
-               <ab type="mlgb_catalogueExtract">(`B. Greg. speculum 3 libri')</ab>
+               <head>UO76.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UO76.1</ab>
+                  <ab type="mlgb_catalogueExtract">(`B. Greg. speculum 3 libri')</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UO76.2</ab>
-               <ab type="mlgb_catalogueExtract">(`Gullielmi Autissiodoren' super ep. Pauli')</ab>
+               <head>UO76.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UO76.2</ab>
+                  <ab type="mlgb_catalogueExtract">(`Gullielmi Autissiodoren' super ep. Pauli')</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">UO76.3</ab>
+               <head>UO76.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">UO76.3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">UO76.4</ab>
-               <ab type="mlgb_catalogueExtract">(`Hugonis de S. V. chronica')</ab>
+               <head>UO76.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">UO76.4</ab>
+                  <ab type="mlgb_catalogueExtract">(`Hugonis de S. V. chronica')</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">UO76.5b</ab>
-               <ab type="mlgb_catalogueExtract">(`de regi Cuntone')</ab>
-            </div>
-            <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">UO76.5a</ab>
-               <ab type="mlgb_catalogueExtract">(`Ghilde historia')</ab>
+               <head>UO76.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">UO76.5b</ab>
+                  <ab type="mlgb_catalogueExtract">(`de regi Cuntone')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">UO76.5a</ab>
+                  <ab type="mlgb_catalogueExtract">(`Ghilde historia')</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">UO76.6</ab>
-               <ab type="mlgb_catalogueExtract">(`epistola Samuelis israelite de longa captiuitate
-                  iudeorum')</ab>
+               <head>UO76.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">UO76.6</ab>
+                  <ab type="mlgb_catalogueExtract">(`epistola Samuelis israelite de longa
+                     captiuitate iudeorum')</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">UO76.7</ab>
-               <ab type="mlgb_catalogueExtract">= UO77.26</ab>
+               <head>UO76.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">UO76.7</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_UO77#26"
+                     >= UO77.26</ref></ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">UO76.9</ab>
-               <ab type="mlgb_catalogueExtract">(`Egidius de naturis motu et significatione
-                  cometarum')</ab>
+               <head>UO76.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">UO76.9</ab>
+                  <ab type="mlgb_catalogueExtract">(`Egidius de naturis motu et significatione
+                     cometarum')</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">UO76.10</ab>
-               <ab type="mlgb_catalogueExtract">(`Alberti Magni de xij experimentis de corio
-                  serpentis')</ab>
+               <head>UO76.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">UO76.10</ab>
+                  <ab type="mlgb_catalogueExtract">(`Alberti Magni de xij experimentis de corio
+                     serpentis')</ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">UO76.11</ab>
-               <ab type="mlgb_catalogueExtract">(`Rogerii Bachonis aggregatorium totius artis
-                  geomantie ad astrologiam reducte', inc.)</ab>
+               <head>UO76.11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">UO76.11</ab>
+                  <ab type="mlgb_catalogueExtract">(`Rogerii Bachonis aggregatorium totius artis
+                     geomantie ad astrologiam reducte', inc.)</ab>
+               </div>
             </div>
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">UO76.12</ab>
+               <head>UO76.12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">UO76.12</ab>
+               </div>
             </div>
             <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">UO76.13a</ab>
-               <ab type="mlgb_catalogueExtract">(`Petrus de Lene de S. Audomaro tractatus de nouo
-                  quadrante')</ab>
-            </div>
-            <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_14"/>
-               <ab type="mlgb_copyCode">UO76.13b</ab>
-               <ab type="mlgb_catalogueExtract">(`eiusdem instrumentum menodia ')</ab>
+               <head>UO76.13</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">UO76.13a</ab>
+                  <ab type="mlgb_catalogueExtract">(`Petrus de Lene de S. Audomaro tractatus de nouo
+                     quadrante')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_14"/>
+                  <ab type="mlgb_copyCode">UO76.13b</ab>
+                  <ab type="mlgb_catalogueExtract">(`eiusdem instrumentum menodia ')</ab>
+               </div>
             </div>
             <div type="entry" n="14">
-               <bibl type="identification" corresp="#bibl_15"/>
-               <ab type="mlgb_copyCode">UO76.14</ab>
-               <ab type="mlgb_catalogueExtract">(`Petri de Palude de potestate ecclesiastica') =
-                  UO77.25</ab>
+               <head>UO76.14</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_15"/>
+                  <ab type="mlgb_copyCode">UO76.14</ab>
+                  <ab type="mlgb_catalogueExtract">(`Petri de Palude de potestate ecclesiastica')
+                        <ref target="booklist_UO77#25">= UO77.25</ref></ab>
+               </div>
             </div>
          </div>
 
@@ -110,27 +155,32 @@
                   </author><title key="mlgbWork_1247_4">Commentary on the Pauline
                Epistles</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_2973">Robert Grosseteste, known as
-                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_52">writings and speeches at the papal curia, Lyon 1250, as collected by Robert
+                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_52"
+                  >writings and speeches at the papal curia, Lyon 1250, as collected by Robert
                   Marsh</title></bibl>
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_1423">Hugh of Saint-Victor OSA
                   [c1096—1141] </author><title key="mlgbWork_1423_5">Chronica de tribus maximis
                   circumstantiis gestorum</title></bibl>
-            <bibl xml:id="bibl_5"><author key="mlgbAuthor_870">Encomium Emmae Reginae</author><title key="mlgbWork_870_1"/></bibl>
+            <bibl xml:id="bibl_5"><author key="mlgbAuthor_870">Encomium Emmae Reginae</author><title
+                  key="mlgbWork_870_1"/></bibl>
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_1155">Gildas [early 6th cent.]
                   </author><title key="mlgbWork_1155_1">De excidio Britanniae</title></bibl>
-            <bibl xml:id="bibl_7"><author key="mlgbAuthor_3066">Samuel Israelita [] </author><title key="mlgbWork_3066_1">Epistola contra iudaeorum errores, tr. Alphonsus Boni
+            <bibl xml:id="bibl_7"><author key="mlgbAuthor_3066">Samuel Israelita [] </author><title
+                  key="mlgbWork_3066_1">Epistola contra iudaeorum errores, tr. Alphonsus Boni
                   Hominis</title></bibl>
             <bibl xml:id="bibl_8"><author key="mlgbAuthor_709">Q. Curtius Rufus [1st cent.]
                   </author><title key="mlgbWork_709_1">Historia Alexandri</title></bibl>
             <bibl xml:id="bibl_9"><author key="mlgbAuthor_1163">Gilles de Lessines OP [† after 1304]
                   </author><title key="mlgbWork_1163_1">De essentia motu et significatione
                   cometarum</title></bibl>
-            <bibl xml:id="bibl_10"><author key="mlgbAuthor_1809">Ioannes Paulinus [] </author><title key="mlgbWork_1809_1">De corio serpentis</title></bibl>
+            <bibl xml:id="bibl_10"><author key="mlgbAuthor_1809">Ioannes Paulinus [] </author><title
+                  key="mlgbWork_1809_1">De corio serpentis</title></bibl>
             <bibl xml:id="bibl_11"><author key="mlgbAuthor_3033">Rolandus Scriptoris []
                   </author><title key="mlgbWork_3033_1">Compilatorium artis geomantiae, inc. `Artem
                   geomancie sub breuibus et claris uerbis compilandam intende'</title></bibl>
             <bibl xml:id="bibl_12"><author key="mlgbAuthor_2973">Robert Grosseteste, known as
-                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_11">Computus correctorius</title></bibl>
+                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_11"
+                  >Computus correctorius</title></bibl>
             <bibl xml:id="bibl_13"><author key="mlgbAuthor_2625">Petrus de S. Audomaro [fl. 1293]
                   </author><title key="mlgbWork_2625_2">Nouus quadrans correctus, building on the
                   recent work of Profatius Iudaeus</title></bibl>

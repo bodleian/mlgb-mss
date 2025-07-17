@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title><title type="mlgb_location">London, St Peter-upon-Cornhill</title><title type="mlgb_code">SC269</title><title type="mlgb_booklist">Inventory of church goods, 22 April 1546 {x} 28 Jan. 1547 </title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title>
+            <title type="mlgb_location">London, St Peter-upon-Cornhill</title>
+            <title type="mlgb_code">SC269</title>
+            <title type="mlgb_booklist">Inventory of church goods, 22 April 1546 {x} 28 Jan. 1547
+            </title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,17 +25,26 @@
          <div type="list">
 
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SC269.¶5</ab>
+               <head>SC269.¶5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SC269.¶5</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SC269.¶7</ab>
-               <ab type="mlgb_catalogueExtract">(3 copies)</ab>
+               <head>SC269.¶7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SC269.¶7</ab>
+                  <ab type="mlgb_catalogueExtract">(3 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">SC269.¶8</ab>
+               <head>SC269.¶8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">SC269.¶8</ab>
+               </div>
             </div>
          </div>
 
@@ -38,10 +52,12 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_2016">Legenda ad usum Sarum</author><title key="mlgbWork_2016_1"/></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_2016">Legenda ad usum Sarum</author><title
+                  key="mlgbWork_2016_1"/></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_2747">Processionale ad usum ecclesiae
                   Sarisburiensis</author><title key="mlgbWork_2747_1"/></bibl>
-            <bibl xml:id="bibl_3"><author key="mlgbAuthor_2016">Legenda ad usum Sarum</author><title key="mlgbWork_2016_1"/></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_2016">Legenda ad usum Sarum</author><title
+                  key="mlgbWork_2016_1"/></bibl>
          </listBibl>
       </back>
    </text>

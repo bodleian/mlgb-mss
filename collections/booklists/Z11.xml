@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">CISTERCIANS</title><title type="mlgb_location">Kirkstead</title><title type="mlgb_code">Z11</title><title type="mlgb_booklist">Lincolnshire list, 1528</title>
+            <title type="mlgb_booklist_Group">CISTERCIANS</title>
+            <title type="mlgb_location">Kirkstead</title>
+            <title type="mlgb_code">Z11</title>
+            <title type="mlgb_booklist">Lincolnshire list, 1528</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,52 +24,74 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">Z11.1</ab>
+               <head>Z11.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">Z11.1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">Z11.2b</ab>
-               <ab type="mlgb_catalogueExtract">(anon.)</ab>
-            </div>
-            <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">Z11.†2a</ab>
-               <ab type="mlgb_catalogueExtract">(`Hugo in cronicis')</ab>
+               <head>Z11.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">Z11.2b</ab>
+                  <ab type="mlgb_catalogueExtract">(anon.)</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">Z11.†2a</ab>
+                  <ab type="mlgb_catalogueExtract">(`Hugo in cronicis')</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">Z11.3</ab>
+               <head>Z11.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">Z11.3</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">Z11.4</ab>
+               <head>Z11.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">Z11.4</ab>
+               </div>
             </div>
             <div type="entry" n="5" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_3361">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">Z11.*5</ab>
-               <ab type="mlgb_catalogueExtract">= H2.*1066</ab>
+               <head>Z11.*5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">Z11.*5</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_H2#1066"
+                     >= H2.*1066</ref></ab>
+               </div>
             </div>
             <div type="entry" n="6" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_3362">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">Z11.*6</ab>
-               <ab type="mlgb_catalogueExtract">= H2.*844</ab>
+               <head>Z11.*6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">Z11.*6</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_H2#844">= H2.*844</ref></ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">Z11.7b</ab>
-            </div>
-            <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">Z11.7c</ab>
-            </div>
-            <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">Z11.7d</ab>
-            </div>
-            <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">Z11.7a</ab>
+               <head>Z11.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">Z11.7b</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">Z11.7c</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">Z11.7d</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">Z11.7a</ab>
+               </div>
             </div>
          </div>
 

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title><title type="mlgb_location">REGISTRUM ANGLIE</title><title type="mlgb_code">R7</title><title type="mlgb_booklist">Union catalogue by author and title, early 14th cent.</title>
+            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title>
+            <title type="mlgb_location">REGISTRUM ANGLIE</title>
+            <title type="mlgb_code">R7</title>
+            <title type="mlgb_booklist">Union catalogue by author and title, early 14th
+               cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,290 +25,480 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">R7.1</ab>
-               <ab type="mlgb_catalogueExtract">(attrib. Bede, 1 copy)</ab>
+               <head>R7.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">R7.1</ab>
+                  <ab type="mlgb_catalogueExtract">(attrib. Bede, 1 copy)</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">R7.2</ab>
-               <ab type="mlgb_catalogueExtract">(8 copies) = K84.42</ab>
+               <head>R7.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">R7.2</ab>
+                  <ab type="mlgb_catalogueExtract">(8 copies) <ref target="booklist_K84#42"
+                        >= K84.42</ref></ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">R7.3</ab>
-               <ab type="mlgb_catalogueExtract">(5 copies) = K84.56</ab>
+               <head>R7.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">R7.3</ab>
+                  <ab type="mlgb_catalogueExtract">(5 copies) <ref target="booklist_K84#56"
+                        >= K84.56</ref></ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">R7.4</ab>
-               <ab type="mlgb_catalogueExtract">(5 copies)</ab>
+               <head>R7.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">R7.4</ab>
+                  <ab type="mlgb_catalogueExtract">(5 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">R7.5</ab>
-               <ab type="mlgb_catalogueExtract">(24 copies) = K84.26</ab>
+               <head>R7.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">R7.5</ab>
+                  <ab type="mlgb_catalogueExtract">(24 copies) <ref target="booklist_K84#26"
+                        >= K84.26</ref></ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">R7.6</ab>
-               <ab type="mlgb_catalogueExtract">(`chronica', 7 copies)</ab>
+               <head>R7.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">R7.6</ab>
+                  <ab type="mlgb_catalogueExtract">(`chronica', 7 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">R7.7</ab>
-               <ab type="mlgb_catalogueExtract">(23 copies, among them B71.103c, B85.14, and
-                  BC4.86a) = K84.14</ab>
+               <head>R7.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">R7.7</ab>
+                  <ab type="mlgb_catalogueExtract">(23 copies, among them B71.103c, B85.14, and
+                     BC4.86a) <ref target="booklist_K84#14">= K84.14</ref></ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">R7.8</ab>
-               <ab type="mlgb_catalogueExtract">(21 copies, among them B13.64, B71.*91, BC4.*91,
-                  H2.*1011)</ab>
+               <head>R7.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">R7.8</ab>
+                  <ab type="mlgb_catalogueExtract">(21 copies, among them B13.64, B71.*91, BC4.*91,
+                     H2.*1011)</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">R7.9</ab>
-               <ab type="mlgb_catalogueExtract">(2 copies) = K84.55</ab>
+               <head>R7.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">R7.9</ab>
+                  <ab type="mlgb_catalogueExtract">(2 copies) <ref target="booklist_K84#55"
+                        >= K84.55</ref></ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">R7.10</ab>
-               <ab type="mlgb_catalogueExtract">(15 copies, among them B85.20, B120.268, and
-                  BC4.89a) = K84.22</ab>
+               <head>R7.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">R7.10</ab>
+                  <ab type="mlgb_catalogueExtract">(15 copies, among them B85.20, B120.268, and
+                     BC4.89a) <ref target="booklist_K84#22">= K84.22</ref></ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">R7.11</ab>
-               <ab type="mlgb_catalogueExtract">(15 copies, among them B39.101 and BC4.*87)</ab>
+               <head>R7.11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">R7.11</ab>
+                  <ab type="mlgb_catalogueExtract">(15 copies, among them B39.101 and BC4.*87)</ab>
+               </div>
             </div>
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">R7.12</ab>
-               <ab type="mlgb_catalogueExtract">(13 copies) = K84.3</ab>
+               <head>R7.12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">R7.12</ab>
+                  <ab type="mlgb_catalogueExtract">(13 copies) <ref target="booklist_K84#3"
+                        >= K84.3</ref></ab>
+               </div>
             </div>
             <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">R7.13</ab>
-               <ab type="mlgb_catalogueExtract">(12 copies), R7.47 (`super mulierem fortem', 2
-                  copies, 1 of which = B71.116)</ab>
+               <head>R7.13</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">R7.13</ab>
+                  <ab type="mlgb_catalogueExtract">(12 copies), R7.47 (`super mulierem fortem', 2
+                     copies, 1 of which = B71.116)</ab>
+               </div>
             </div>
             <div type="entry" n="14">
-               <bibl type="identification" corresp="#bibl_14"/>
-               <ab type="mlgb_copyCode">R7.14</ab>
-               <ab type="mlgb_catalogueExtract">(18 copies, among them B13.*40, B71.94, B85.25, and
-                  BC4.*90) = K84.28</ab>
+               <head>R7.14</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_14"/>
+                  <ab type="mlgb_copyCode">R7.14</ab>
+                  <ab type="mlgb_catalogueExtract">(18 copies, among them B13.*40, B71.94, B85.25,
+                     and BC4.*90) <ref target="booklist_K84#28">= K84.28</ref></ab>
+               </div>
             </div>
             <div type="entry" n="15">
-               <bibl type="identification" corresp="#bibl_15"/>
-               <ab type="mlgb_copyCode">R7.15</ab>
-               <ab type="mlgb_catalogueExtract">(11 copies, among them BC4.*89)</ab>
+               <head>R7.15</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_15"/>
+                  <ab type="mlgb_copyCode">R7.15</ab>
+                  <ab type="mlgb_catalogueExtract">(11 copies, among them BC4.*89)</ab>
+               </div>
             </div>
             <div type="entry" n="16">
-               <bibl type="identification" corresp="#bibl_16"/>
-               <ab type="mlgb_copyCode">R7.16</ab>
-               <ab type="mlgb_catalogueExtract">(2 copies) = K84.16</ab>
+               <head>R7.16</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_16"/>
+                  <ab type="mlgb_copyCode">R7.16</ab>
+                  <ab type="mlgb_catalogueExtract">(2 copies) <ref target="booklist_K84#16"
+                        >= K84.16</ref></ab>
+               </div>
             </div>
             <div type="entry" n="17">
-               <bibl type="identification" corresp="#bibl_17"/>
-               <ab type="mlgb_copyCode">R7.17</ab>
-               <ab type="mlgb_catalogueExtract">(11 copies)</ab>
+               <head>R7.17</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_17"/>
+                  <ab type="mlgb_copyCode">R7.17</ab>
+                  <ab type="mlgb_catalogueExtract">(11 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="18">
-               <bibl type="identification" corresp="#bibl_18"/>
-               <ab type="mlgb_copyCode">R7.18</ab>
-               <ab type="mlgb_catalogueExtract">(`de 30 questionibus', 8 copies) = K84.5</ab>
+               <head>R7.18</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_18"/>
+                  <ab type="mlgb_copyCode">R7.18</ab>
+                  <ab type="mlgb_catalogueExtract">(`de 30 questionibus', 8 copies) <ref
+                        target="booklist_K84#5">= K84.5</ref></ab>
+               </div>
             </div>
             <div type="entry" n="19">
-               <bibl type="identification" corresp="#bibl_19"/>
-               <ab type="mlgb_copyCode">R7.19</ab>
-               <ab type="mlgb_catalogueExtract">(8 copies) = K84.4</ab>
+               <head>R7.19</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_19"/>
+                  <ab type="mlgb_copyCode">R7.19</ab>
+                  <ab type="mlgb_catalogueExtract">(8 copies) <ref target="booklist_K84#4"
+                        >= K84.4</ref></ab>
+               </div>
             </div>
             <div type="entry" n="20">
-               <bibl type="identification" corresp="#bibl_20"/>
-               <ab type="mlgb_copyCode">R7.20</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+               <head>R7.20</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_20"/>
+                  <ab type="mlgb_copyCode">R7.20</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+               </div>
             </div>
             <div type="entry" n="21">
-               <bibl type="identification" corresp="#bibl_21"/>
-               <ab type="mlgb_copyCode">R7.21</ab>
-               <ab type="mlgb_catalogueExtract">(10 copies, among them B13.41b, B120.266, and
-                  BC4.86b—c) = K84.12</ab>
+               <head>R7.21</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_21"/>
+                  <ab type="mlgb_copyCode">R7.21</ab>
+                  <ab type="mlgb_catalogueExtract">(10 copies, among them B13.41b, B120.266, and
+                     BC4.86b—c) <ref target="booklist_K84#12">= K84.12</ref></ab>
+               </div>
             </div>
             <div type="entry" n="23">
-               <bibl type="identification" corresp="#bibl_22"/>
-               <ab type="mlgb_copyCode">R7.23</ab>
-               <ab type="mlgb_catalogueExtract">(20 copies)</ab>
+               <head>R7.23</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_22"/>
+                  <ab type="mlgb_copyCode">R7.23</ab>
+                  <ab type="mlgb_catalogueExtract">(20 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="24">
-               <bibl type="identification" corresp="#bibl_23"/>
-               <ab type="mlgb_copyCode">R7.24</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy) = K84.64</ab>
+               <head>R7.24</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_23"/>
+                  <ab type="mlgb_copyCode">R7.24</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy) <ref target="booklist_K84#64"
+                        >= K84.64</ref></ab>
+               </div>
             </div>
             <div type="entry" n="25">
-               <bibl type="identification" corresp="#bibl_24"/>
-               <ab type="mlgb_copyCode">R7.25</ab>
-               <ab type="mlgb_catalogueExtract">(24 copies, among them B13.99, B71.87, B85.19,
-                  B120.260, and BC4.*85a) = K84.7</ab>
+               <head>R7.25</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_24"/>
+                  <ab type="mlgb_copyCode">R7.25</ab>
+                  <ab type="mlgb_catalogueExtract">(24 copies, among them B13.99, B71.87, B85.19,
+                     B120.260, and BC4.*85a) <ref target="booklist_K84#7">= K84.7</ref></ab>
+               </div>
             </div>
             <div type="entry" n="26">
-               <bibl type="identification" corresp="#bibl_25"/>
-               <ab type="mlgb_copyCode">R7.26</ab>
-               <ab type="mlgb_catalogueExtract">(15 copies) = K84.24</ab>
+               <head>R7.26</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_25"/>
+                  <ab type="mlgb_copyCode">R7.26</ab>
+                  <ab type="mlgb_catalogueExtract">(15 copies) <ref target="booklist_K84#24"
+                        >= K84.24</ref></ab>
+               </div>
             </div>
             <div type="entry" n="27">
-               <bibl type="identification" corresp="#bibl_26"/>
-               <ab type="mlgb_copyCode">R7.27</ab>
-               <ab type="mlgb_catalogueExtract">(`exposiciones ex ortographia eternus etas equitas',
-                  attrib. Bede, 3 copies) = K84.45</ab>
+               <head>R7.27</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_26"/>
+                  <ab type="mlgb_copyCode">R7.27</ab>
+                  <ab type="mlgb_catalogueExtract">(`exposiciones ex ortographia eternus etas
+                     equitas', attrib. Bede, 3 copies) <ref target="booklist_K84#45"
+                     >= K84.45</ref></ab>
+               </div>
             </div>
             <div type="entry" n="28">
-               <bibl type="identification" corresp="#bibl_27"/>
-               <ab type="mlgb_copyCode">R7.*28</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy) = K84.66</ab>
+               <head>R7.*28</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_27"/>
+                  <ab type="mlgb_copyCode">R7.*28</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy) <ref target="booklist_K84#66"
+                        >= K84.66</ref></ab>
+               </div>
             </div>
             <div type="entry" n="29">
-               <bibl type="identification" corresp="#bibl_28"/>
-               <ab type="mlgb_copyCode">R7.29</ab>
-               <ab type="mlgb_catalogueExtract">(2 copies)</ab>
+               <head>R7.29</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_28"/>
+                  <ab type="mlgb_copyCode">R7.29</ab>
+                  <ab type="mlgb_catalogueExtract">(2 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="30">
-               <bibl type="identification" corresp="#bibl_29"/>
-               <ab type="mlgb_copyCode">R7.30</ab>
-               <ab type="mlgb_catalogueExtract">(5 copies)</ab>
+               <head>R7.30</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_29"/>
+                  <ab type="mlgb_copyCode">R7.30</ab>
+                  <ab type="mlgb_catalogueExtract">(5 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="31">
-               <bibl type="identification" corresp="#bibl_30"/>
-               <ab type="mlgb_copyCode">R7.31</ab>
-               <ab type="mlgb_catalogueExtract">(`lamentaciones de die iudicii', 2 copies)</ab>
+               <head>R7.31</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_30"/>
+                  <ab type="mlgb_copyCode">R7.31</ab>
+                  <ab type="mlgb_catalogueExtract">(`lamentaciones de die iudicii', 2 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="32">
-               <bibl type="identification" corresp="#bibl_31"/>
-               <ab type="mlgb_copyCode">R7.32</ab>
-               <ab type="mlgb_catalogueExtract">(7 copies)</ab>
+               <head>R7.32</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_31"/>
+                  <ab type="mlgb_copyCode">R7.32</ab>
+                  <ab type="mlgb_catalogueExtract">(7 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="33">
-               <bibl type="identification" corresp="#bibl_32"/>
-               <ab type="mlgb_copyCode">R7.*33</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy) = K84.68</ab>
+               <head>R7.*33</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_32"/>
+                  <ab type="mlgb_copyCode">R7.*33</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy) <ref target="booklist_K84#68"
+                        >= K84.68</ref></ab>
+               </div>
             </div>
             <div type="entry" n="34">
-               <bibl type="identification" corresp="#bibl_33"/>
-               <ab type="mlgb_copyCode">R7.34</ab>
-               <ab type="mlgb_catalogueExtract">(`florum', 2 copies) = K84.65</ab>
+               <head>R7.34</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_33"/>
+                  <ab type="mlgb_copyCode">R7.34</ab>
+                  <ab type="mlgb_catalogueExtract">(`florum', 2 copies) <ref
+                        target="booklist_K84#65">= K84.65</ref></ab>
+               </div>
             </div>
             <div type="entry" n="35">
-               <bibl type="identification" corresp="#bibl_34"/>
-               <ab type="mlgb_copyCode">R7.35</ab>
-               <ab type="mlgb_catalogueExtract">(4 copies)</ab>
+               <head>R7.35</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_34"/>
+                  <ab type="mlgb_copyCode">R7.35</ab>
+                  <ab type="mlgb_catalogueExtract">(4 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="36">
-               <bibl type="identification" corresp="#bibl_35"/>
-               <ab type="mlgb_copyCode">R7.36</ab>
-               <ab type="mlgb_catalogueExtract">(2 copies) = K84.48</ab>
+               <head>R7.36</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_35"/>
+                  <ab type="mlgb_copyCode">R7.36</ab>
+                  <ab type="mlgb_catalogueExtract">(2 copies) <ref target="booklist_K84#48"
+                        >= K84.48</ref></ab>
+               </div>
             </div>
             <div type="entry" n="37">
-               <bibl type="identification" corresp="#bibl_36"/>
-               <ab type="mlgb_copyCode">R7.37</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+               <head>R7.37</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_36"/>
+                  <ab type="mlgb_copyCode">R7.37</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+               </div>
             </div>
             <div type="entry" n="38">
-               <bibl type="identification" corresp="#bibl_37"/>
-               <ab type="mlgb_copyCode">R7.†38</ab>
-               <ab type="mlgb_catalogueExtract">(`passionarium', 1 copy) = K84.67</ab>
+               <head>R7.†38</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_37"/>
+                  <ab type="mlgb_copyCode">R7.†38</ab>
+                  <ab type="mlgb_catalogueExtract">(`passionarium', 1 copy) <ref
+                        target="booklist_K84#67">= K84.67</ref></ab>
+               </div>
             </div>
             <div type="entry" n="39">
-               <bibl type="identification" corresp="#bibl_38"/>
-               <ab type="mlgb_copyCode">R7.39</ab>
-               <ab type="mlgb_catalogueExtract">(`de nominibus regnorum locorumque in Actibus
-                  apostolorum', 6 copies, among them B9, BC4) = K84.57</ab>
+               <head>R7.39</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_38"/>
+                  <ab type="mlgb_copyCode">R7.39</ab>
+                  <ab type="mlgb_catalogueExtract">(`de nominibus regnorum locorumque in Actibus
+                     apostolorum', 6 copies, among them B9, BC4) <ref target="booklist_K84#57"
+                        >= K84.57</ref></ab>
+               </div>
             </div>
             <div type="entry" n="40">
-               <bibl type="identification" corresp="#bibl_39"/>
-               <ab type="mlgb_copyCode">R7.40</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+               <head>R7.40</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_39"/>
+                  <ab type="mlgb_copyCode">R7.40</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+               </div>
             </div>
             <div type="entry" n="41">
-               <bibl type="identification" corresp="#bibl_40"/>
-               <ab type="mlgb_copyCode">R7.41</ab>
-               <ab type="mlgb_catalogueExtract">(`super epistolas Pauli', 1 copy)</ab>
+               <head>R7.41</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_40"/>
+                  <ab type="mlgb_copyCode">R7.41</ab>
+                  <ab type="mlgb_catalogueExtract">(`super epistolas Pauli', 1 copy)</ab>
+               </div>
             </div>
             <div type="entry" n="42">
-               <bibl type="identification" corresp="#bibl_41"/>
-               <ab type="mlgb_copyCode">R7.42</ab>
-               <ab type="mlgb_catalogueExtract">(`exameron', 2 copies)</ab>
+               <head>R7.42</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_41"/>
+                  <ab type="mlgb_copyCode">R7.42</ab>
+                  <ab type="mlgb_catalogueExtract">(`exameron', 2 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="43">
-               <bibl type="identification" corresp="#bibl_42"/>
-               <ab type="mlgb_copyCode">R7.43</ab>
-               <ab type="mlgb_catalogueExtract">(2 copies, among them B13.6) = K84.1</ab>
+               <head>R7.43</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_42"/>
+                  <ab type="mlgb_copyCode">R7.43</ab>
+                  <ab type="mlgb_catalogueExtract">(2 copies, among them B13.6) <ref
+                        target="booklist_K84#1">= K84.1</ref></ab>
+               </div>
             </div>
             <div type="entry" n="44">
-               <bibl type="identification" corresp="#bibl_43"/>
-               <ab type="mlgb_copyCode">R7.44</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy) = K84.49</ab>
+               <head>R7.44</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_43"/>
+                  <ab type="mlgb_copyCode">R7.44</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy) <ref target="booklist_K84#49"
+                        >= K84.49</ref></ab>
+               </div>
             </div>
             <div type="entry" n="45">
-               <bibl type="identification" corresp="#bibl_44"/>
-               <ab type="mlgb_copyCode">R7.†45</ab>
-               <ab type="mlgb_catalogueExtract">(`de formacionibus signorum', 1 copy) = K84.50</ab>
+               <head>R7.†45</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_44"/>
+                  <ab type="mlgb_copyCode">R7.†45</ab>
+                  <ab type="mlgb_catalogueExtract">(`de formacionibus signorum', 1 copy) <ref
+                        target="booklist_K84#50">= K84.50</ref></ab>
+               </div>
             </div>
             <div type="entry" n="46">
-               <bibl type="identification" corresp="#bibl_45"/>
-               <ab type="mlgb_copyCode">R7.46</ab>
-               <ab type="mlgb_catalogueExtract">(`de vi etatibus', 2 copies) = K84.71</ab>
+               <head>R7.46</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_45"/>
+                  <ab type="mlgb_copyCode">R7.46</ab>
+                  <ab type="mlgb_catalogueExtract">(`de vi etatibus', 2 copies) <ref
+                        target="booklist_K84#71">= K84.71</ref></ab>
+               </div>
             </div>
             <div type="entry" n="47">
-               <bibl type="identification" corresp="#bibl_46"/>
-               <ab type="mlgb_copyCode">R7.47</ab>
+               <head>R7.47</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_46"/>
+                  <ab type="mlgb_copyCode">R7.47</ab>
+               </div>
             </div>
             <div type="entry" n="48">
-               <bibl type="identification" corresp="#bibl_47"/>
-               <ab type="mlgb_copyCode">R7.48</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy) = K84.59</ab>
+               <head>R7.48</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_47"/>
+                  <ab type="mlgb_copyCode">R7.48</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy) <ref target="booklist_K84#59"
+                        >= K84.59</ref></ab>
+               </div>
             </div>
             <div type="entry" n="49">
-               <bibl type="identification" corresp="#bibl_48"/>
-               <ab type="mlgb_copyCode">R7.†49</ab>
-               <ab type="mlgb_catalogueExtract">(`tropographia', 2 copies) = K84.52</ab>
+               <head>R7.†49</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_48"/>
+                  <ab type="mlgb_copyCode">R7.†49</ab>
+                  <ab type="mlgb_catalogueExtract">(`tropographia', 2 copies) <ref
+                        target="booklist_K84#52">= K84.52</ref></ab>
+               </div>
             </div>
             <div type="entry" n="50">
-               <bibl type="identification" corresp="#bibl_49"/>
-               <ab type="mlgb_copyCode">R7.50</ab>
-               <ab type="mlgb_catalogueExtract">(`de figuris gramaticis', 1 copy)</ab>
+               <head>R7.50</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_49"/>
+                  <ab type="mlgb_copyCode">R7.50</ab>
+                  <ab type="mlgb_catalogueExtract">(`de figuris gramaticis', 1 copy)</ab>
+               </div>
             </div>
             <div type="entry" n="51">
-               <bibl type="identification" corresp="#bibl_50"/>
-               <ab type="mlgb_copyCode">R7.†51</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy) = K84.51</ab>
+               <head>R7.†51</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_50"/>
+                  <ab type="mlgb_copyCode">R7.†51</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy) <ref target="booklist_K84#51"
+                        >= K84.51</ref></ab>
+               </div>
             </div>
             <div type="entry" n="52">
-               <bibl type="identification" corresp="#bibl_51"/>
-               <ab type="mlgb_copyCode">R7.52</ab>
-               <ab type="mlgb_catalogueExtract">(`ad †Dicceum presbiterum de equinoctio', 2 copies,
-                  among them BC4.91) = K84.33</ab>
+               <head>R7.52</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_51"/>
+                  <ab type="mlgb_copyCode">R7.52</ab>
+                  <ab type="mlgb_catalogueExtract">(`ad †Dicceum presbiterum de equinoctio', 2
+                     copies, among them BC4.91) <ref target="booklist_K84#33">= K84.33</ref></ab>
+               </div>
             </div>
             <div type="entry" n="53">
-               <bibl type="identification" corresp="#bibl_52"/>
-               <ab type="mlgb_copyCode">R7.53</ab>
-               <ab type="mlgb_catalogueExtract">(`super epistolas Pauli ex operibus Augustini
-                  collectas', 1 copy)</ab>
+               <head>R7.53</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_52"/>
+                  <ab type="mlgb_copyCode">R7.53</ab>
+                  <ab type="mlgb_catalogueExtract">(`super epistolas Pauli ex operibus Augustini
+                     collectas', 1 copy)</ab>
+               </div>
             </div>
             <div type="entry" n="54">
-               <bibl type="identification" corresp="#bibl_53"/>
-               <ab type="mlgb_copyCode">R7.†54</ab>
-               <ab type="mlgb_catalogueExtract">(`de ponderibus et mensuris', 2 copies, one of them
-                  BC4)</ab>
+               <head>R7.†54</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_53"/>
+                  <ab type="mlgb_copyCode">R7.†54</ab>
+                  <ab type="mlgb_catalogueExtract">(`de ponderibus et mensuris', 2 copies, one of
+                     them BC4)</ab>
+               </div>
             </div>
             <div type="entry" n="55">
-               <bibl type="identification" corresp="#bibl_54"/>
-               <ab type="mlgb_copyCode">R7.55</ab>
-               <ab type="mlgb_catalogueExtract">(`ad Etherchum episcopum', 1 copy)</ab>
+               <head>R7.55</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_54"/>
+                  <ab type="mlgb_copyCode">R7.55</ab>
+                  <ab type="mlgb_catalogueExtract">(`ad Etherchum episcopum', 1 copy)</ab>
+               </div>
             </div>
             <div type="entry" n="56">
-               <bibl type="identification" corresp="#bibl_55"/>
-               <ab type="mlgb_copyCode">R7.56</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy) = K84.63</ab>
+               <head>R7.56</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_55"/>
+                  <ab type="mlgb_copyCode">R7.56</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy) <ref target="booklist_K84#63"
+                        >= K84.63</ref></ab>
+               </div>
             </div>
          </div>
 
@@ -387,7 +582,8 @@
             <bibl xml:id="bibl_25"><author key="mlgbAuthor_426">Bede the Venerable [c673—735], monk
                   of Wearmouth—Jarrow </author><title key="mlgbWork_426_36">Homiliae
                   euangelii</title></bibl>
-            <bibl xml:id="bibl_26"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title key="mlgbWork_116_12">De orthographia</title></bibl>
+            <bibl xml:id="bibl_26"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
+                  key="mlgbWork_116_12">De orthographia</title></bibl>
             <bibl xml:id="bibl_27"><author key="mlgbAuthor_426">Bede the Venerable [c673—735], monk
                   of Wearmouth—Jarrow </author><title key="mlgbWork_426_65">Memoria S. Andreae in
                   Scotia</title></bibl>
@@ -419,7 +615,8 @@
                   of Wearmouth—Jarrow </author><title key="mlgbWork_426_70">Commentary on
                   Ecclesiastes</title></bibl>
             <bibl xml:id="bibl_37"><author key="mlgbAuthor_426">Bede the Venerable [c673—735], monk
-                  of Wearmouth—Jarrow </author><title key="mlgbWork_426_44">Martyrologium</title></bibl>
+                  of Wearmouth—Jarrow </author><title key="mlgbWork_426_44"
+               >Martyrologium</title></bibl>
             <bibl xml:id="bibl_38"><author key="mlgbAuthor_426">Bede the Venerable [c673—735], monk
                   of Wearmouth—Jarrow </author><title key="mlgbWork_426_45">Nomina regionum et
                   locorum de Actibus Apostolorum</title></bibl>

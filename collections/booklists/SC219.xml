@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title><title type="mlgb_location">Cobham</title><title type="mlgb_code">SC219</title><title type="mlgb_booklist">Inventory of goods, 25 December 1479 </title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title>
+            <title type="mlgb_location">Cobham</title>
+            <title type="mlgb_code">SC219</title>
+            <title type="mlgb_booklist">Inventory of goods, 25 December 1479 </title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,13 +24,19 @@
          <div type="list">
 
             <div type="entry" n="19">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SC219.†19</ab>
-               <ab type="mlgb_catalogueExtract">(`expositio totius legende et missal'')</ab>
+               <head>SC219.†19</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SC219.†19</ab>
+                  <ab type="mlgb_catalogueExtract">(`expositio totius legende et missal'')</ab>
+               </div>
             </div>
             <div type="entry" n="20">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SC219.20b</ab>
+               <head>SC219.20b</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SC219.20b</ab>
+               </div>
             </div>
          </div>
 

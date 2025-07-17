@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">HENRY DE KIRKESTEDE</title><title type="mlgb_location">HENRY DE KIRKESTEDE</title><title type="mlgb_code">K55</title><title type="mlgb_booklist">Catalogus, c. 1360</title>
+            <title type="mlgb_booklist_Group">HENRY DE KIRKESTEDE</title>
+            <title type="mlgb_location">HENRY DE KIRKESTEDE</title>
+            <title type="mlgb_code">K55</title>
+            <title type="mlgb_booklist">Catalogus, c. 1360</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,22 +24,34 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">K55.1</ab>
+               <head>K55.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">K55.1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">K55.2</ab>
-               <ab type="mlgb_catalogueExtract">(`gesta Alexandri magni metrice', inc.)</ab>
+               <head>K55.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">K55.2</ab>
+                  <ab type="mlgb_catalogueExtract">(`gesta Alexandri magni metrice', inc.)</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">K55.3</ab>
-               <ab type="mlgb_catalogueExtract">(`gesta Alexandri magni', inc.)</ab>
+               <head>K55.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">K55.3</ab>
+                  <ab type="mlgb_catalogueExtract">(`gesta Alexandri magni', inc.)</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">K55.5</ab>
+               <head>K55.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">K55.5</ab>
+               </div>
             </div>
          </div>
 
@@ -43,7 +59,8 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1375">Historia de proeliis</author><title key="mlgbWork_1375_1"/></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1375">Historia de proeliis</author><title
+                  key="mlgbWork_1375_1"/></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_3627">Walter of Châtillon [late 12th
                   cent.] </author><title key="mlgbWork_3627_1">Alexandreis</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_1371">Historia Alexandri magni, tr. Julius

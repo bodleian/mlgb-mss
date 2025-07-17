@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title><title type="mlgb_location">St Albans</title><title type="mlgb_code">B86</title><title type="mlgb_booklist">Books returned from Hertford, 1396 {x} 1420</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES: THE SHORTER CATALOGUES</title>
+            <title type="mlgb_location">St Albans</title>
+            <title type="mlgb_code">B86</title>
+            <title type="mlgb_booklist">Books returned from Hertford, 1396 {x} 1420</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,37 +24,61 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">B86.1</ab>
+               <head>B86.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">B86.1</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">B86.4</ab>
+               <head>B86.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">B86.4</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">B86.6</ab>
+               <head>B86.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">B86.6</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">B86.7b</ab>
-               <ab type="mlgb_catalogueExtract">(` cum Iohanne Crisostomo')</ab>
+               <head>B86.7b</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">B86.7b</ab>
+                  <ab type="mlgb_catalogueExtract">(` cum Iohanne Crisostomo')</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">B86.10</ab>
+               <head>B86.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">B86.10</ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">B86.11</ab>
+               <head>B86.11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">B86.11</ab>
+               </div>
             </div>
             <div type="entry" n="14">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">B86.14a</ab>
+               <head>B86.14a</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">B86.14a</ab>
+               </div>
             </div>
             <div type="entry" n="17" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_4883">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">B86.*17x</ab>
+               <head>B86.*17x</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">B86.*17x</ab>
+               </div>
             </div>
          </div>
 
@@ -68,7 +96,8 @@
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_1634">John Chrysostom [c347—407],
                   patriarch of Constantinople </author><title key="mlgbWork_1634_42">unspecified
                   works </title></bibl>
-            <bibl xml:id="bibl_5"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title key="mlgbWork_1517_27">Epistula ad Amandum de diuersis quaestionibus (ep.
+            <bibl xml:id="bibl_5"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title
+                  key="mlgbWork_1517_27">Epistula ad Amandum de diuersis quaestionibus (ep.
                   55)</title></bibl>
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_1423">Hugh of Saint-Victor OSA
                   [c1096—1141] </author><title key="mlgbWork_1423_67">Soliloquium de arra
@@ -76,7 +105,8 @@
             <bibl xml:id="bibl_7"><author key="mlgbAuthor_615">M. Tullius Cicero [106—43 BC]
                   </author><title key="mlgbWork_615_14">De officiis</title></bibl>
             <bibl xml:id="bibl_8"><author key="mlgbAuthor_2760">Prophetia Sibyllae. The usual
-                  Sibylline prophecy in English manuscripts is Sibylla Tiburtina</author><title key="mlgbWork_2760_1"/></bibl>
+                  Sibylline prophecy in English manuscripts is Sibylla Tiburtina</author><title
+                  key="mlgbWork_2760_1"/></bibl>
          </listBibl>
       </back>
    </text>

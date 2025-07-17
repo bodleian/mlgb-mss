@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title><title type="mlgb_location">Windsor</title><title type="mlgb_code">SC347</title><title type="mlgb_booklist">Excerpts from the Precentors' Rolls, 1363-4 to 1383-4</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title>
+            <title type="mlgb_location">Windsor</title>
+            <title type="mlgb_code">SC347</title>
+            <title type="mlgb_booklist">Excerpts from the Precentors' Rolls, 1363-4 to
+               1383-4</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,9 +25,13 @@
          <div type="list">
 
             <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SC347.13</ab>
-               <ab type="mlgb_catalogueExtract">= SC348.39</ab>
+               <head>SC347.13</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SC347.13</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_SC348#39"
+                     >= SC348.39</ref></ab>
+               </div>
             </div>
          </div>
 

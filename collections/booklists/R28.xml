@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title><title type="mlgb_location">REGISTRUM ANGLIE</title><title type="mlgb_code">R28</title><title type="mlgb_booklist">Union catalogue by author and title, early 14th cent.</title>
+            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title>
+            <title type="mlgb_location">REGISTRUM ANGLIE</title>
+            <title type="mlgb_code">R28</title>
+            <title type="mlgb_booklist">Union catalogue by author and title, early 14th
+               cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,36 +25,58 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">R28.1</ab>
-               <ab type="mlgb_catalogueExtract">(`ad Flauianum episcopum de incarnacione Domini
-                  contra Nestorium et Euticium hereticos', 2 copies)</ab>
+               <head>R28.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">R28.1</ab>
+                  <ab type="mlgb_catalogueExtract">(`ad Flauianum episcopum de incarnacione Domini
+                     contra Nestorium et Euticium hereticos', 2 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">R28.2</ab>
-               <ab type="mlgb_catalogueExtract">(13 copies) = K343.8</ab>
+               <head>R28.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">R28.2</ab>
+                  <ab type="mlgb_catalogueExtract">(13 copies) <ref target="booklist_K343#8"
+                        >= K343.8</ref></ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">R28.3</ab>
-               <ab type="mlgb_catalogueExtract">(5 copies) = K343.7</ab>
+               <head>R28.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">R28.3</ab>
+                  <ab type="mlgb_catalogueExtract">(5 copies) <ref target="booklist_K343#7"
+                        >= K343.7</ref></ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">R28.4</ab>
-               <ab type="mlgb_catalogueExtract">(attrib. Leo, 4 copies)</ab>
+               <head>R28.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">R28.4</ab>
+                  <ab type="mlgb_catalogueExtract">(attrib. Leo, 4 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">R28.5</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy) = K343.2</ab>
+               <head>R28.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">R28.5</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy) <ref target="booklist_K343#2"
+                        >= K343.2</ref></ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">R28.6</ab>
-               <ab type="mlgb_catalogueExtract">(`de constitucione et simbolo Calcedonensis, sinodi
-                  contra heresim Nestorii et Euticii', ?ep. 165, 1 copy) = K343.5</ab>
+               <head>R28.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">R28.6</ab>
+                  <ab type="mlgb_catalogueExtract">(`de constitucione et simbolo Calcedonensis,
+                     sinodi contra heresim Nestorii et Euticii', ?ep. 165, 1 copy) <ref
+                        target="booklist_K343#5">= K343.5</ref></ab>
+               </div>
             </div>
          </div>
 

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title><title type="mlgb_location">REGISTRUM ANGLIE</title><title type="mlgb_code">R42</title><title type="mlgb_booklist">Union catalogue by author and title, early 14th cent.</title>
+            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title>
+            <title type="mlgb_location">REGISTRUM ANGLIE</title>
+            <title type="mlgb_code">R42</title>
+            <title type="mlgb_booklist">Union catalogue by author and title, early 14th
+               cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,66 +25,102 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">R42.1</ab>
-               <ab type="mlgb_catalogueExtract">(7 copies, among them B49.9 and BC9. 42)</ab>
+               <head>R42.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">R42.1</ab>
+                  <ab type="mlgb_catalogueExtract">(7 copies, among them B49.9 and BC9. 42)</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">R42.2</ab>
-               <ab type="mlgb_catalogueExtract">and 6 (up to 9 copies)</ab>
+               <head>R42.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">R42.2</ab>
+                  <ab type="mlgb_catalogueExtract">and 6 (up to 9 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">R42.3</ab>
-               <ab type="mlgb_catalogueExtract">(2 copies)</ab>
+               <head>R42.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">R42.3</ab>
+                  <ab type="mlgb_catalogueExtract">(2 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">R42.4</ab>
-               <ab type="mlgb_catalogueExtract">= K4.8</ab>
-            </div>
-            <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">R42.4</ab>
-               <ab type="mlgb_catalogueExtract">(attrib. Nequam) = K4.8</ab>
+               <head>R42.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">R42.4</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_K4#8">= K4.8</ref></ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">R42.4</ab>
+                  <ab type="mlgb_catalogueExtract">(attrib. Nequam) <ref target="booklist_K4#8"
+                        >= K4.8</ref></ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">R42.5</ab>
-               <ab type="mlgb_catalogueExtract">(3 copies)</ab>
+               <head>R42.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">R42.5</ab>
+                  <ab type="mlgb_catalogueExtract">(3 copies)</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">R42.7</ab>
-               <ab type="mlgb_catalogueExtract">(attrib. Nequam, 3 copies) = K4.14</ab>
+               <head>R42.7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">R42.7</ab>
+                  <ab type="mlgb_catalogueExtract">(attrib. Nequam, 3 copies) <ref
+                        target="booklist_K4#14">= K4.14</ref></ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">R42.8</ab>
-               <ab type="mlgb_catalogueExtract">(`super nouum et uetus testamentum', 1 copy) =
-                  K4.9</ab>
+               <head>R42.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">R42.8</ab>
+                  <ab type="mlgb_catalogueExtract">(`super nouum et uetus testamentum', 1 copy) <ref
+                        target="booklist_K4#9">= K4.9</ref></ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">R42.9</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+               <head>R42.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">R42.9</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+               </div>
             </div>
             <div type="entry" n="10">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">R42.10</ab>
-               <ab type="mlgb_catalogueExtract">(2 copies, one of them = BC4.1256, the other =
-                  B91.1)</ab>
+               <head>R42.10</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">R42.10</ab>
+                  <ab type="mlgb_catalogueExtract">(2 copies, one of them = BC4.1256, the other =
+                     B91.1)</ab>
+               </div>
             </div>
             <div type="entry" n="11">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">R42.11</ab>
-               <ab type="mlgb_catalogueExtract">(`ysagoge', —-) = K4.11</ab>
+               <head>R42.11</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">R42.11</ab>
+                  <ab type="mlgb_catalogueExtract">(`ysagoge', —-) <ref target="booklist_K4#11"
+                        >= K4.11</ref></ab>
+               </div>
             </div>
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">R42.12</ab>
-               <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+               <head>R42.12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">R42.12</ab>
+                  <ab type="mlgb_catalogueExtract">(1 copy)</ab>
+               </div>
             </div>
          </div>
 
@@ -120,7 +161,8 @@
                   canon of Cirencester </author><title key="mlgbWork_143_8">Corrogationes
                   Promethei</title></bibl>
             <bibl xml:id="bibl_12"><author key="mlgbAuthor_143">Alexander Nequam OSA [1157—1217],
-                  canon of Cirencester </author><title key="mlgbWork_143_19">Quaestiones</title></bibl>
+                  canon of Cirencester </author><title key="mlgbWork_143_19"
+               >Quaestiones</title></bibl>
          </listBibl>
       </back>
    </text>

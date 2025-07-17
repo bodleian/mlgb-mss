@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title><title type="mlgb_location">REGISTRUM ANGLIE</title><title type="mlgb_code">R58</title><title type="mlgb_booklist">Union catalogue by author and title, early 14th cent.</title>
+            <title type="mlgb_booklist_Group">REGISTRUM ANGLIE</title>
+            <title type="mlgb_location">REGISTRUM ANGLIE</title>
+            <title type="mlgb_code">R58</title>
+            <title type="mlgb_booklist">Union catalogue by author and title, early 14th
+               cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,42 +25,64 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">R58.1</ab>
-               <ab type="mlgb_catalogueExtract">(13 copies, among them B39.272, B87.47, BC4 and
-                  BD)</ab>
+               <head>R58.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">R58.1</ab>
+                  <ab type="mlgb_catalogueExtract">(13 copies, among them B39.272, B87.47, BC4 and
+                     BD)</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">R58.2</ab>
-               <ab type="mlgb_catalogueExtract">(13 copies, among them B13.176, B39.267, B87, BC4,
-                  BD) = K94.4</ab>
+               <head>R58.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">R58.2</ab>
+                  <ab type="mlgb_catalogueExtract">(13 copies, among them B13.176, B39.267, B87,
+                     BC4, BD) <ref target="booklist_K94#4">= K94.4</ref></ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">R58.3</ab>
-               <ab type="mlgb_catalogueExtract">(`de arismetrica', 5 copies, among them BC4 and BD)
-                  = K94.8</ab>
+               <head>R58.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">R58.3</ab>
+                  <ab type="mlgb_catalogueExtract">(`de arismetrica', 5 copies, among them BC4 and
+                     BD) <ref target="booklist_K94#8">= K94.8</ref></ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">R58.4</ab>
-               <ab type="mlgb_catalogueExtract">(5 copies, among them BC4 and BD)</ab>
+               <head>R58.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">R58.4</ab>
+                  <ab type="mlgb_catalogueExtract">(5 copies, among them BC4 and BD)</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">R58.5</ab>
-               <ab type="mlgb_catalogueExtract">= K94.5</ab>
+               <head>R58.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">R58.5</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_K94#5">= K94.5</ref></ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">R58.6</ab>
-               <ab type="mlgb_catalogueExtract">(`de persona Christi', 1 copy)</ab>
+               <head>R58.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">R58.6</ab>
+                  <ab type="mlgb_catalogueExtract">(`de persona Christi', 1 copy)</ab>
+               </div>
             </div>
             <div type="entry" n="7">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">R58.†7</ab>
-               <ab type="mlgb_catalogueExtract">(`practica de geometrica', 1 copy) = K94.12</ab>
+               <head>R58.†7</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">R58.†7</ab>
+                  <ab type="mlgb_catalogueExtract">(`practica de geometrica', 1 copy) <ref
+                        target="booklist_K94#12">= K94.12</ref></ab>
+               </div>
             </div>
          </div>
 
@@ -82,7 +109,8 @@
                   Severinus [c480—524] </author><title key="mlgbWork_505_15">Liber contra Eutychen
                   et Nestorium</title></bibl>
             <bibl xml:id="bibl_7"><author key="mlgbAuthor_505">Boethius, Anicius Manlius Torquatus
-                  Severinus [c480—524] </author><title key="mlgbWork_505_30">Geometria</title></bibl>
+                  Severinus [c480—524] </author><title key="mlgbWork_505_30"
+               >Geometria</title></bibl>
          </listBibl>
       </back>
    </text>

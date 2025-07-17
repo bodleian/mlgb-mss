@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title><title type="mlgb_location">Donor documents</title><title type="mlgb_code">UC123</title><title type="mlgb_booklist">Will of John Fabe, 10 August 1504; Godshouse</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title>
+            <title type="mlgb_location">Donor documents</title>
+            <title type="mlgb_code">UC123</title>
+            <title type="mlgb_booklist">Will of John Fabe, 10 August 1504; Godshouse</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,13 +24,19 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UC123.1</ab>
+               <head>UC123.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UC123.1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UC123.2</ab>
-               <ab type="mlgb_catalogueExtract">(`opus aureum sancti Thome super euangelia')</ab>
+               <head>UC123.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UC123.2</ab>
+                  <ab type="mlgb_catalogueExtract">(`opus aureum sancti Thome super euangelia')</ab>
+               </div>
             </div>
          </div>
 

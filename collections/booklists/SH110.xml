@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the Professions</title><title type="mlgb_location">Stratford-upon-Avon, guild of Holy Cross</title><title type="mlgb_code">SH110</title><title type="mlgb_booklist">Inventory of goods, 26 July 1456</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the
+               Professions</title>
+            <title type="mlgb_location">Stratford-upon-Avon, guild of Holy Cross</title>
+            <title type="mlgb_code">SH110</title>
+            <title type="mlgb_booklist">Inventory of goods, 26 July 1456</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,31 +25,43 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SH110.¶1</ab>
-            </div>
-            <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SH110.¶1</ab>
-            </div>
-            <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">SH110.¶1</ab>
-               <ab type="mlgb_catalogueExtract">(`with the glose')</ab>
+               <head>SH110.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SH110.¶1</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SH110.¶1</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">SH110.¶1</ab>
+                  <ab type="mlgb_catalogueExtract">(`with the glose')</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">SH110.¶2</ab>
+               <head>SH110.¶2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">SH110.¶2</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">SH110.¶3</ab>
-               <ab type="mlgb_catalogueExtract">(`one Valla')</ab>
+               <head>SH110.¶3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">SH110.¶3</ab>
+                  <ab type="mlgb_catalogueExtract">(`one Valla')</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">SH110.¶4</ab>
-               <ab type="mlgb_catalogueExtract">(`boke intytelide Eneas Siluine poeta')</ab>
+               <head>SH110.¶4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">SH110.¶4</ab>
+                  <ab type="mlgb_catalogueExtract">(`boke intytelide Eneas Siluine poeta')</ab>
+               </div>
             </div>
          </div>
 

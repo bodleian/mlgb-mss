@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the Professions</title><title type="mlgb_location">Boston guild</title><title type="mlgb_code">SH4</title><title type="mlgb_booklist">Inventory of goods, 1523 {x} 1524</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the
+               Professions</title>
+            <title type="mlgb_location">Boston guild</title>
+            <title type="mlgb_code">SH4</title>
+            <title type="mlgb_booklist">Inventory of goods, 1523 {x} 1524</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,28 +25,43 @@
          <div type="list">
 
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SH4.¶2</ab>
+               <head>SH4.¶2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SH4.¶2</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SH4.4</ab>
-               <ab type="mlgb_catalogueExtract">(`decreys wryten')</ab>
+               <head>SH4.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SH4.4</ab>
+                  <ab type="mlgb_catalogueExtract">(`decreys wryten')</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">SH4.5</ab>
-               <ab type="mlgb_catalogueExtract">(`legenda sanctorum wryten')</ab>
+               <head>SH4.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">SH4.5</ab>
+                  <ab type="mlgb_catalogueExtract">(`legenda sanctorum wryten')</ab>
+               </div>
             </div>
             <div type="entry" n="26">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">SH4.26</ab>
-               <ab type="mlgb_catalogueExtract">= SH5.19</ab>
+               <head>SH4.26</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">SH4.26</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_SH5#19">= SH5.19</ref></ab>
+               </div>
             </div>
             <div type="entry" n="199">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">SH4.199</ab>
-               <ab type="mlgb_catalogueExtract">= SH5.13</ab>
+               <head>SH4.199</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">SH4.199</ab>
+                  <ab type="mlgb_catalogueExtract"><ref target="booklist_SH5#13">= SH5.13</ref></ab>
+               </div>
             </div>
          </div>
 
@@ -51,13 +71,15 @@
 
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_1725">Iohannes Herolt OP [†1468]
                   </author><title key="mlgbWork_1725_1">Sermones Discipuli</title></bibl>
-            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1190">Gratian [† by c1160] </author><title key="mlgbWork_1190_1">Decretum</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_1190">Gratian [† by c1160] </author><title
+                  key="mlgbWork_1190_1">Decretum</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_1502">Iacobus de Voragine (Iacopo da
                   Varazze) OP [†1298] </author><title key="mlgbWork_1502_1">Legenda
                aurea</title></bibl>
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_2558">Petrus Comestor [†1187]
                   </author><title key="mlgbWork_2558_5">Historia scholastica</title></bibl>
-            <bibl xml:id="bibl_5"><author key="mlgbAuthor_1970">Justinian [†565] </author><title key="mlgbWork_1970_2">Codex</title></bibl>
+            <bibl xml:id="bibl_5"><author key="mlgbAuthor_1970">Justinian [†565] </author><title
+                  key="mlgbWork_1970_2">Codex</title></bibl>
          </listBibl>
       </back>
    </text>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">CARTHUSIANS</title><title type="mlgb_location">London</title><title type="mlgb_code">C7</title><title type="mlgb_booklist">Loans to Mountgrace, 1519/20</title>
+            <title type="mlgb_booklist_Group">CARTHUSIANS</title>
+            <title type="mlgb_location">London</title>
+            <title type="mlgb_code">C7</title>
+            <title type="mlgb_booklist">Loans to Mountgrace, 1519/20</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,18 +24,27 @@
          <div type="list">
 
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">C7.¶12</ab>
+               <head>C7.¶12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">C7.¶12</ab>
+               </div>
             </div>
             <div type="entry" n="13">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">C7.¶13</ab>
-               <ab type="mlgb_catalogueExtract">(`Ysops fabyllis in printe')</ab>
+               <head>C7.¶13</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">C7.¶13</ab>
+                  <ab type="mlgb_catalogueExtract">(`Ysops fabyllis in printe')</ab>
+               </div>
             </div>
             <div type="entry" n="14">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">C7.¶14</ab>
-               <ab type="mlgb_catalogueExtract">(`directorium aureum in printe')</ab>
+               <head>C7.¶14</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">C7.¶14</ab>
+                  <ab type="mlgb_catalogueExtract">(`directorium aureum in printe')</ab>
+               </div>
             </div>
          </div>
 
@@ -41,7 +54,8 @@
 
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_1980">Kalendar of Shepherdes, tr. from Le
                   compost et Kalendrier des bergeres</author><title key="mlgbWork_1980_1"/></bibl>
-            <bibl xml:id="bibl_2"><author key="mlgbAuthor_63">Aesop [6th cent. BC] </author><title key="mlgbWork_63_3">Fabulae, English tr.</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_63">Aesop [6th cent. BC] </author><title
+                  key="mlgbWork_63_3">Fabulae, English tr.</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_1296">Heinrich Herpf OFM [†1478]
                   </author><title key="mlgbWork_1296_2">Speculum aureum decem praeceptorum
                   Dei</title></bibl>

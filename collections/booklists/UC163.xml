@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title><title type="mlgb_location">Donor documents</title><title type="mlgb_code">UC163</title><title type="mlgb_booklist">Will of John Syclyng, 24 September 1506; Christ's College</title>
+            <title type="mlgb_booklist_Group">UNIVERSITY AND COLLEGE LIBRARIES OF CAMBRIDGE</title>
+            <title type="mlgb_location">Donor documents</title>
+            <title type="mlgb_code">UC163</title>
+            <title type="mlgb_booklist">Will of John Syclyng, 24 September 1506; Christ's
+               College</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,12 +25,18 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">UC163.¶1</ab>
+               <head>UC163.¶1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">UC163.¶1</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">UC163.¶2</ab>
+               <head>UC163.¶2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">UC163.¶2</ab>
+               </div>
             </div>
          </div>
 
@@ -33,9 +44,11 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1190">Gratian [† by c1160] </author><title key="mlgbWork_1190_1">Decretum</title></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_1190">Gratian [† by c1160] </author><title
+                  key="mlgbWork_1190_1">Decretum</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_1194">Gregory IX (Ugolino da Segni)
-                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1">Decretales</title></bibl>
+                  [c1148—1241, sedit 1227—1241] </author><title key="mlgbWork_1194_1"
+                  >Decretales</title></bibl>
          </listBibl>
       </back>
    </text>

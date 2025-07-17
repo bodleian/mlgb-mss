@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">PREMONSTRATENSIANS</title><title type="mlgb_location">Tupholme</title><title type="mlgb_code">P8</title><title type="mlgb_booklist">Lincolnshire list, 1528</title>
+            <title type="mlgb_booklist_Group">PREMONSTRATENSIANS</title>
+            <title type="mlgb_location">Tupholme</title>
+            <title type="mlgb_code">P8</title>
+            <title type="mlgb_booklist">Lincolnshire list, 1528</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,10 +24,13 @@
          <div type="list">
 
             <div type="entry" n="1" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_5509">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">P8.*1</ab>
-               <ab type="mlgb_catalogueExtract">(`concordancia Eusebii super quattuor euangelistas')
-                  = H2.*568</ab>
+               <head>P8.*1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">P8.*1</ab>
+                  <ab type="mlgb_catalogueExtract">(`concordancia Eusebii super quattuor
+                     euangelistas') <ref target="booklist_H2#568">= H2.*568</ref></ab>
+               </div>
             </div>
          </div>
 
@@ -32,7 +39,8 @@
          <listBibl>
 
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_3429">Vnum ex quatuor most commonly refers
-                  to the gospel harmony of Tatian, as translated by Victor of Capua</author><title key="mlgbWork_3429_1"/></bibl>
+                  to the gospel harmony of Tatian, as translated by Victor of Capua</author><title
+                  key="mlgbWork_3429_1"/></bibl>
          </listBibl>
       </back>
    </text>

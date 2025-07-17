@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">NEW FRIARS</title><title type="mlgb_location">Oxford-Carmelite</title><title type="mlgb_code">F36</title><title type="mlgb_booklist">Leland, c. 1536-40</title>
+            <title type="mlgb_booklist_Group">NEW FRIARS</title>
+            <title type="mlgb_location">Oxford-Carmelite</title>
+            <title type="mlgb_code">F36</title>
+            <title type="mlgb_booklist">Leland, c. 1536-40</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,122 +24,194 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">F36.1</ab>
+               <head>F36.1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">F36.1</ab>
+               </div>
             </div>
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">F36.3</ab>
+               <head>F36.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">F36.3</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">F36.5</ab>
-               <ab type="mlgb_catalogueExtract">(`Odo super psalterium')</ab>
+               <head>F36.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">F36.5</ab>
+                  <ab type="mlgb_catalogueExtract">(`Odo super psalterium')</ab>
+               </div>
             </div>
             <div type="entry" n="6">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">F36.6</ab>
-               <ab type="mlgb_catalogueExtract">(`Petrus Blesensis super †Iohannem ang.')</ab>
+               <head>F36.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">F36.6</ab>
+                  <ab type="mlgb_catalogueExtract">(`Petrus Blesensis super †Iohannem ang.')</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">F36.8</ab>
+               <head>F36.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">F36.8</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">F36.9</ab>
-               <ab type="mlgb_catalogueExtract">(`bestiarium Bedae alias dictum speculum
-                  dominarum')</ab>
+               <head>F36.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">F36.9</ab>
+                  <ab type="mlgb_catalogueExtract">(`bestiarium Bedae alias dictum speculum
+                     dominarum')</ab>
+               </div>
             </div>
             <div type="entry" n="12">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">F36.12</ab>
-               <ab type="mlgb_catalogueExtract">(`. . . de mirabilibus Hibernie')</ab>
+               <head>F36.12</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">F36.12</ab>
+                  <ab type="mlgb_catalogueExtract">(`. . . de mirabilibus Hibernie')</ab>
+               </div>
             </div>
             <div type="entry" n="14">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">F36.14</ab>
-               <ab type="mlgb_catalogueExtract">(`liber F. de ortu deorum')</ab>
+               <head>F36.14</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">F36.14</ab>
+                  <ab type="mlgb_catalogueExtract">(`liber F. de ortu deorum')</ab>
+               </div>
             </div>
             <div type="entry" n="15">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">F36.15</ab>
-               <ab type="mlgb_catalogueExtract">(`Rabanus de naturis rerum')</ab>
+               <head>F36.15</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">F36.15</ab>
+                  <ab type="mlgb_catalogueExtract">(`Rabanus de naturis rerum')</ab>
+               </div>
             </div>
             <div type="entry" n="19">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">F36.19</ab>
-               <ab type="mlgb_catalogueExtract">(`rabbi Victoris Prochirii ad Christum conuersi
-                  libri duo partiales')</ab>
+               <head>F36.19</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">F36.19</ab>
+                  <ab type="mlgb_catalogueExtract">(`rabbi Victoris Prochirii ad Christum conuersi
+                     libri duo partiales')</ab>
+               </div>
             </div>
             <div type="entry" n="20">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">F36.†20</ab>
-               <ab type="mlgb_catalogueExtract">(`directorium deuiantium Petri Rauenatis')</ab>
+               <head>F36.†20</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">F36.†20</ab>
+                  <ab type="mlgb_catalogueExtract">(`directorium deuiantium Petri Rauenatis')</ab>
+               </div>
             </div>
             <div type="entry" n="21">
-               <bibl type="identification" corresp="#bibl_12"/>
-               <ab type="mlgb_copyCode">F36.21</ab>
-               <ab type="mlgb_catalogueExtract">(`sententiarum liber abbreuiatus per Gandophilum
-                  doctorem')</ab>
+               <head>F36.21</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_12"/>
+                  <ab type="mlgb_copyCode">F36.21</ab>
+                  <ab type="mlgb_catalogueExtract">(`sententiarum liber abbreuiatus per Gandophilum
+                     doctorem')</ab>
+               </div>
             </div>
             <div type="entry" n="22">
-               <bibl type="identification" corresp="#bibl_13"/>
-               <ab type="mlgb_copyCode">F36.22</ab>
-               <ab type="mlgb_catalogueExtract">(`de imagine uniuersi')</ab>
+               <head>F36.22</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_13"/>
+                  <ab type="mlgb_copyCode">F36.22</ab>
+                  <ab type="mlgb_catalogueExtract">(`de imagine uniuersi')</ab>
+               </div>
             </div>
             <div type="entry" n="23">
-               <bibl type="identification" corresp="#bibl_14"/>
-               <ab type="mlgb_copyCode">F36.23</ab>
+               <head>F36.23</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_14"/>
+                  <ab type="mlgb_copyCode">F36.23</ab>
+               </div>
             </div>
             <div type="entry" n="24">
-               <bibl type="identification" corresp="#bibl_15"/>
-               <ab type="mlgb_copyCode">F36.24</ab>
+               <head>F36.24</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_15"/>
+                  <ab type="mlgb_copyCode">F36.24</ab>
+               </div>
             </div>
             <div type="entry" n="25">
-               <bibl type="identification" corresp="#bibl_16"/>
-               <ab type="mlgb_copyCode">F36.25</ab>
+               <head>F36.25</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_16"/>
+                  <ab type="mlgb_copyCode">F36.25</ab>
+               </div>
             </div>
             <div type="entry" n="29">
-               <bibl type="identification" corresp="#bibl_17"/>
-               <ab type="mlgb_copyCode">F36.29</ab>
-               <ab type="mlgb_catalogueExtract">(`Rogerii Bachon super psalterio usque ad psalmum
-                  Exultate deo salutari nostro')</ab>
+               <head>F36.29</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_17"/>
+                  <ab type="mlgb_copyCode">F36.29</ab>
+                  <ab type="mlgb_catalogueExtract">(`Rogerii Bachon super psalterio usque ad psalmum
+                     Exultate deo salutari nostro')</ab>
+               </div>
             </div>
             <div type="entry" n="30">
-               <bibl type="identification" corresp="#bibl_18"/>
-               <ab type="mlgb_copyCode">F36.30</ab>
+               <head>F36.30</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_18"/>
+                  <ab type="mlgb_copyCode">F36.30</ab>
+               </div>
             </div>
             <div type="entry" n="31">
-               <bibl type="identification" corresp="#bibl_19"/>
-               <ab type="mlgb_copyCode">F36.31</ab>
+               <head>F36.31</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_19"/>
+                  <ab type="mlgb_copyCode">F36.31</ab>
+               </div>
             </div>
             <div type="entry" n="32">
-               <bibl type="identification" corresp="#bibl_20"/>
-               <ab type="mlgb_copyCode">F36.32</ab>
-               <ab type="mlgb_catalogueExtract">(attrib. Ivo)</ab>
+               <head>F36.32</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_20"/>
+                  <ab type="mlgb_copyCode">F36.32</ab>
+                  <ab type="mlgb_catalogueExtract">(attrib. Ivo)</ab>
+               </div>
             </div>
             <div type="entry" n="33">
-               <bibl type="identification" corresp="#bibl_21"/>
-               <ab type="mlgb_copyCode">F36.†33</ab>
-               <ab type="mlgb_catalogueExtract">(`Alanus de floribus doctorum')</ab>
+               <head>F36.†33</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_21"/>
+                  <ab type="mlgb_copyCode">F36.†33</ab>
+                  <ab type="mlgb_catalogueExtract">(`Alanus de floribus doctorum')</ab>
+               </div>
             </div>
             <div type="entry" n="34">
-               <bibl type="identification" corresp="#bibl_22"/>
-               <ab type="mlgb_copyCode">F36.34</ab>
-               <ab type="mlgb_catalogueExtract">(`Isidori liber de numero')</ab>
+               <head>F36.34</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_22"/>
+                  <ab type="mlgb_copyCode">F36.34</ab>
+                  <ab type="mlgb_catalogueExtract">(`Isidori liber de numero')</ab>
+               </div>
             </div>
             <div type="entry" n="35">
-               <bibl type="identification" corresp="#bibl_23"/>
-               <ab type="mlgb_copyCode">F36.35b</ab>
-            </div>
-            <div type="entry" n="35">
-               <bibl type="identification" corresp="#bibl_24"/>
-               <ab type="mlgb_copyCode">F36.35a</ab>
+               <head>F36.35</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_23"/>
+                  <ab type="mlgb_copyCode">F36.35b</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_24"/>
+                  <ab type="mlgb_copyCode">F36.35a</ab>
+               </div>
             </div>
             <div type="entry" n="36">
-               <bibl type="identification" corresp="#bibl_25"/>
-               <ab type="mlgb_copyCode">F36.36</ab>
+               <head>F36.36</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_25"/>
+                  <ab type="mlgb_copyCode">F36.36</ab>
+               </div>
             </div>
          </div>
 
@@ -147,7 +223,8 @@
                   of Wearmouth—Jarrow </author><title key="mlgbWork_426_74">`De naturis
                   bestiarum'</title></bibl>
             <bibl xml:id="bibl_2"><author key="mlgbAuthor_2973">Robert Grosseteste, known as
-                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_43">Hexaemeron</title></bibl>
+                  Lincolniensis [†1253], bishop of Lincoln </author><title key="mlgbWork_2973_43"
+                  >Hexaemeron</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_2388">Odo de Castro Radulphi [†1273]
                   </author><title key="mlgbWork_2388_1">Distinctiones super
                Psalterium</title></bibl>

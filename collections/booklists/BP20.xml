@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES</title><title type="mlgb_location">Peterborough</title><title type="mlgb_code">BP20</title><title type="mlgb_booklist">List of books read in the refectory, 13th cent.</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES</title>
+            <title type="mlgb_location">Peterborough</title>
+            <title type="mlgb_code">BP20</title>
+            <title type="mlgb_booklist">List of books read in the refectory, 13th cent.</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,49 +24,82 @@
          <div type="list">
 
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">BP20.4</ab>
+               <head>BP20.4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">BP20.4</ab>
+               </div>
             </div>
             <div type="entry" n="6" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_150">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">BP20.6</ab>
-               <ab type="mlgb_catalogueExtract">(`tractatus Brenegaldi super apocalipsim')</ab>
+               <head>BP20.6</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">BP20.6</ab>
+                  <ab type="mlgb_catalogueExtract">(`tractatus Brenegaldi super apocalipsim')</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">BP20.8</ab>
+               <head>BP20.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">BP20.8</ab>
+               </div>
             </div>
             <div type="entry" n="9" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_151">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">BP20.9</ab>
+               <head>BP20.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">BP20.9</ab>
+               </div>
             </div>
             <div type="entry" n="22">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">BP20.22</ab>
+               <head>BP20.22</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">BP20.22</ab>
+               </div>
             </div>
             <div type="entry" n="35">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">BP20.35</ab>
+               <head>BP20.35</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">BP20.35</ab>
+               </div>
             </div>
             <div type="entry" n="47">
-               <bibl type="identification" corresp="#bibl_7"/>
-               <ab type="mlgb_copyCode">BP20.47</ab>
+               <head>BP20.47</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_7"/>
+                  <ab type="mlgb_copyCode">BP20.47</ab>
+               </div>
             </div>
             <div type="entry" n="58">
-               <bibl type="identification" corresp="#bibl_8"/>
-               <ab type="mlgb_copyCode">BP20.58</ab>
+               <head>BP20.58</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_8"/>
+                  <ab type="mlgb_copyCode">BP20.58</ab>
+               </div>
             </div>
             <div type="entry" n="65">
-               <bibl type="identification" corresp="#bibl_9"/>
-               <ab type="mlgb_copyCode">BP20.65</ab>
+               <head>BP20.65</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_9"/>
+                  <ab type="mlgb_copyCode">BP20.65</ab>
+               </div>
             </div>
             <div type="entry" n="67">
-               <bibl type="identification" corresp="#bibl_10"/>
-               <ab type="mlgb_copyCode">BP20.67</ab>
+               <head>BP20.67</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_10"/>
+                  <ab type="mlgb_copyCode">BP20.67</ab>
+               </div>
             </div>
             <div type="entry" n="68">
-               <bibl type="identification" corresp="#bibl_11"/>
-               <ab type="mlgb_copyCode">BP20.68</ab>
+               <head>BP20.68</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_11"/>
+                  <ab type="mlgb_copyCode">BP20.68</ab>
+               </div>
             </div>
          </div>
 
@@ -82,14 +119,17 @@
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_426">Bede the Venerable [c673—735], monk
                   of Wearmouth—Jarrow </author><title key="mlgbWork_426_16">Commentary on Catholic
                   Epistles</title></bibl>
-            <bibl xml:id="bibl_5"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title key="mlgbWork_116_11">De fide sanctae et indiuiduae trinitatis</title></bibl>
+            <bibl xml:id="bibl_5"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
+                  key="mlgbWork_116_11">De fide sanctae et indiuiduae trinitatis</title></bibl>
             <bibl xml:id="bibl_6"><author key="mlgbAuthor_1193">Gregory the Great [c540—604, sedit
                   590—604] </author><title key="mlgbWork_1193_13">Moralia in Iob</title></bibl>
-            <bibl xml:id="bibl_7"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title key="mlgbWork_1517_9">Commentary on Isaiah</title></bibl>
+            <bibl xml:id="bibl_7"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title
+                  key="mlgbWork_1517_9">Commentary on Isaiah</title></bibl>
             <bibl xml:id="bibl_8"><author key="mlgbAuthor_1247">Haimo of Auxerre [fl. 840—865]
                   </author><title key="mlgbWork_1247_4">Commentary on the Pauline
                Epistles</title></bibl>
-            <bibl xml:id="bibl_9"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title key="mlgbWork_1517_14">Commentary on Matthew</title></bibl>
+            <bibl xml:id="bibl_9"><author key="mlgbAuthor_1517">Jerome [c347—420] </author><title
+                  key="mlgbWork_1517_14">Commentary on Matthew</title></bibl>
             <bibl xml:id="bibl_10"><author key="mlgbAuthor_426">Bede the Venerable [c673—735], monk
                   of Wearmouth—Jarrow </author><title key="mlgbWork_426_13">Commentary on
                   Mark</title></bibl>

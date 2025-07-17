@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">BENEDICTINES</title><title type="mlgb_location">Peterborough</title><title type="mlgb_code">BP5</title><title type="mlgb_booklist">Books given by Abbot Alexander of Holderness (1222-6)</title>
+            <title type="mlgb_booklist_Group">BENEDICTINES</title>
+            <title type="mlgb_location">Peterborough</title>
+            <title type="mlgb_code">BP5</title>
+            <title type="mlgb_booklist">Books given by Abbot Alexander of Holderness
+               (1222-6)</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,23 +25,35 @@
          <div type="list">
 
             <div type="entry" n="3">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">BP5.3</ab>
-               <ab type="mlgb_catalogueExtract">(`claustrum anime')</ab>
+               <head>BP5.3</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">BP5.3</ab>
+                  <ab type="mlgb_catalogueExtract">(`claustrum anime')</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">BP5.5</ab>
+               <head>BP5.5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">BP5.5</ab>
+               </div>
             </div>
             <div type="entry" n="8">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">BP5.8</ab>
-               <ab type="mlgb_catalogueExtract">(`concilium Lateranense cum aliis rebus')</ab>
+               <head>BP5.8</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">BP5.8</ab>
+                  <ab type="mlgb_catalogueExtract">(`concilium Lateranense cum aliis rebus')</ab>
+               </div>
             </div>
             <div type="entry" n="9">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">BP5.9</ab>
-               <ab type="mlgb_catalogueExtract">(`corrogaciones Promethei')</ab>
+               <head>BP5.9</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">BP5.9</ab>
+                  <ab type="mlgb_catalogueExtract">(`corrogaciones Promethei')</ab>
+               </div>
             </div>
          </div>
 
@@ -47,9 +64,11 @@
             <bibl xml:id="bibl_1"><author key="mlgbAuthor_1411">Hugh of Fouilloy OSA [†1172/3],
                   prior of Saint-Laurent-au-Bois, Fouilloy </author><title key="mlgbWork_1411_3">De
                   claustro animae</title></bibl>
-            <bibl xml:id="bibl_2"><author key="mlgbAuthor_2618">Petrus Riga [†1209] </author><title key="mlgbWork_2618_1">Aurora</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_2618">Petrus Riga [†1209] </author><title
+                  key="mlgbWork_2618_1">Aurora</title></bibl>
             <bibl xml:id="bibl_3"><author key="mlgbAuthor_667">Concilium Lateranense IV, the
-                  Statutes of the Fourth Lateran Council (1215)</author><title key="mlgbWork_667_1"/></bibl>
+                  Statutes of the Fourth Lateran Council (1215)</author><title key="mlgbWork_667_1"
+               /></bibl>
             <bibl xml:id="bibl_4"><author key="mlgbAuthor_143">Alexander Nequam OSA [1157—1217],
                   canon of Cirencester </author><title key="mlgbWork_143_8">Corrogationes
                   Promethei</title></bibl>

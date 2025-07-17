@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title><title type="mlgb_location">Windsor</title><title type="mlgb_code">SC351</title><title type="mlgb_booklist">Inventory of books and church goods, 1409-10</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Secular Colleges</title>
+            <title type="mlgb_location">Windsor</title>
+            <title type="mlgb_code">SC351</title>
+            <title type="mlgb_booklist">Inventory of books and church goods, 1409-10</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,21 +24,27 @@
          <div type="list">
 
             <div type="entry" n="45">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SC351.45</ab>
-               <ab type="mlgb_catalogueExtract">(anon.)</ab>
+               <head>SC351.45</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SC351.45</ab>
+                  <ab type="mlgb_catalogueExtract">(anon.)</ab>
+               </div>
             </div>
             <div type="entry" n="59">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SC351.59b</ab>
-               <ab type="mlgb_catalogueExtract">(`addiciones domini Pauli super sexto et
-                  clementinas')</ab>
-            </div>
-            <div type="entry" n="59">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">SC351.59a</ab>
-               <ab type="mlgb_catalogueExtract">(`addiciones domini Pauli super sexto et
-                  clementinas')</ab>
+               <head>SC351.59</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SC351.59b</ab>
+                  <ab type="mlgb_catalogueExtract">(`addiciones domini Pauli super sexto et
+                     clementinas')</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">SC351.59a</ab>
+                  <ab type="mlgb_catalogueExtract">(`addiciones domini Pauli super sexto et
+                     clementinas')</ab>
+               </div>
             </div>
          </div>
 

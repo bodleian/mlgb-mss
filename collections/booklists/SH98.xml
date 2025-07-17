@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -5,7 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the Professions</title><title type="mlgb_location">Sherburn, hospital</title><title type="mlgb_code">SH98</title><title type="mlgb_booklist">Bequest by Lionel Jackson, 15 October 1514</title>
+            <title type="mlgb_booklist_Group">SECULAR INSTITUTIONS: Hospitals, Towns, and the
+               Professions</title>
+            <title type="mlgb_location">Sherburn, hospital</title>
+            <title type="mlgb_code">SH98</title>
+            <title type="mlgb_booklist">Bequest by Lionel Jackson, 15 October 1514</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -20,31 +25,43 @@
          <div type="list">
 
             <div type="entry" n="1">
-               <bibl type="identification" corresp="#bibl_1"/>
-               <ab type="mlgb_copyCode">SH98.¶1</ab>
-               <ab type="mlgb_catalogueExtract">(`cornucopia')</ab>
+               <head>SH98.¶1</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_1"/>
+                  <ab type="mlgb_copyCode">SH98.¶1</ab>
+                  <ab type="mlgb_catalogueExtract">(`cornucopia')</ab>
+               </div>
             </div>
             <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_2"/>
-               <ab type="mlgb_copyCode">SH98.¶2</ab>
-            </div>
-            <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_3"/>
-               <ab type="mlgb_copyCode">SH98.¶2</ab>
-            </div>
-            <div type="entry" n="2">
-               <bibl type="identification" corresp="#bibl_4"/>
-               <ab type="mlgb_copyCode">SH98.¶2</ab>
-               <ab type="mlgb_catalogueExtract">(`cum commento')</ab>
+               <head>SH98.2</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_2"/>
+                  <ab type="mlgb_copyCode">SH98.¶2</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_3"/>
+                  <ab type="mlgb_copyCode">SH98.¶2</ab>
+               </div>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_4"/>
+                  <ab type="mlgb_copyCode">SH98.¶2</ab>
+                  <ab type="mlgb_catalogueExtract">(`cum commento')</ab>
+               </div>
             </div>
             <div type="entry" n="4">
-               <bibl type="identification" corresp="#bibl_5"/>
-               <ab type="mlgb_copyCode">SH98.¶4</ab>
+               <head>SH98.¶4</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_5"/>
+                  <ab type="mlgb_copyCode">SH98.¶4</ab>
+               </div>
             </div>
             <div type="entry" n="5">
-               <bibl type="identification" corresp="#bibl_6"/>
-               <ab type="mlgb_copyCode">SH98.¶5</ab>
-               <ab type="mlgb_catalogueExtract">(`cum commento')</ab>
+               <head>SH98.¶5</head>
+               <div type="work">
+                  <bibl type="identification" corresp="#bibl_6"/>
+                  <ab type="mlgb_copyCode">SH98.¶5</ab>
+                  <ab type="mlgb_catalogueExtract">(`cum commento')</ab>
+               </div>
             </div>
          </div>
 
