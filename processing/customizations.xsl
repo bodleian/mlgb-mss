@@ -250,13 +250,11 @@
 
     <!-- MLGB Booklists -->
     <xsl:template name="Booklist">
-        <xsl:for-each select="/TEI/text/body//div[@type='entry' and not(ab[@type='mlgb_copyCode'] = preceding-sibling::div[@type='entry']/ab[@type='mlgb_copyCode'])]">
+        <xsl:for-each select="/TEI/text/body//div[@type='entry']">
 
-            <xsl:variable name="biblid" select="substring-after(./bibl/@corresp, '#')"/>
-            <xsl:variable name="copycode" select="./ab[@type='mlgb_copyCode']/text()"/>
+            <xsl:variable name="head" select="./head/text()"/>
             <xsl:variable name="booklink" select="substring-after(./@corresp, 'catalog/')"/>
-            <xsl:variable name="extract" select="./ab[@type='mlgb_catalogueExtract']/text()"/>
-            <xsl:variable name="biblnode" select="/TEI/text/back/listBibl/bibl[@xml:id=$biblid]"/>
+            <xsl:variable name="numworks" select="count(.//div[@type='work'])"/>
 
             <li>
                 <xsl:choose>
@@ -267,21 +265,58 @@
                                 <xsl:text>/catalog/</xsl:text>
                                 <xsl:value-of select="tokenize($booklink, ' ')[1]"/>
                             </xsl:attribute>
-                            <xsl:value-of select="$copycode" />
+                            <xsl:value-of select="$head" />
                         </a>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="$copycode" />
+                        <xsl:value-of select="$head" />
                     </xsl:otherwise>
                 </xsl:choose>
-                <xsl:if test="$extract">
-                    <xsl:text>&#x20;</xsl:text>
-                    <xsl:value-of select="$extract" />
+
+                <!-- only display extract if one div@work -->
+                <xsl:if test="$numworks = 1">
+                    <xsl:variable name="extract" select=".//div[@type='work'][1]/ab[@type='mlgb_catalogueExtract']/text()"/>
+                    <xsl:if test="$extract">
+                        <xsl:text>&#x20;</xsl:text>
+                        <xsl:value-of select="$extract" />
+                    </xsl:if>
                 </xsl:if>
-                <xsl:apply-templates select="$biblnode" />
+
+                <xsl:call-template name="works">
+                    <!-- pass in div@entry -->
+                    <xsl:with-param name="entry" select="." />
+                    <xsl:with-param name="numworks" select="$numworks" />
+                </xsl:call-template>
+
             </li>
 
         </xsl:for-each>
+    </xsl:template>
+
+    <xsl:template name="works">
+        <xsl:param name="entry"/>
+        <xsl:param name="numworks"/>
+
+        <div class="works">
+            <xsl:for-each select="$entry//div[@type='work']">
+
+                <xsl:variable name="biblid" select="substring-after(./bibl/@corresp, '#')"/>
+                <xsl:variable name="copycode" select="./ab[@type='mlgb_copyCode']/text()"/>
+                <xsl:variable name="extract" select="./ab[@type='mlgb_catalogueExtract']/text()"/>
+                <xsl:variable name="biblnode" select="/TEI/text/back/listBibl/bibl[@xml:id=$biblid]"/>
+
+                <!-- only display copycode and extract if more than one div@work -->
+                <xsl:if test="$numworks > 1">
+                    <xsl:value-of select="$copycode" />
+                    <xsl:if test="$extract">
+                        <xsl:text>&#x20;</xsl:text>
+                        <xsl:value-of select="$extract" />
+                    </xsl:if>
+                </xsl:if>
+
+                <xsl:apply-templates select="$biblnode"/>
+            </xsl:for-each>
+        </div>
     </xsl:template>
 
 </xsl:stylesheet>

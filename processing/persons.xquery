@@ -18,10 +18,24 @@ declare variable $allinstances :=
         let $roottei := $instance/ancestor::tei:TEI
         let $shelfmark := ($roottei/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno[@type = "shelfmark"])[1]/text()   
         let $biblidhash := concat("#", $instance/parent::tei:bibl/@xml:id/data())     
-        let $copycode := $instance/ancestor::tei:text/tei:body//tei:div[@type="entry" and tei:bibl[@corresp=$biblidhash]]/tei:ab[@type="mlgb_copyCode"]/text()    
+        let $copycode := $instance/ancestor::tei:text/tei:body//tei:div[@type="work" and tei:bibl[@corresp=$biblidhash]]/tei:ab[@type="mlgb_copyCode"]/text()    
         let $roles := if ($instance/self::tei:author) then ('aut') else tokenize($instance/@role/data(), ' ')
         let $datesoforigin := distinct-values($roottei//tei:origin//tei:origDate/normalize-space())
         let $placesoforigin := distinct-values($roottei//tei:origin//tei:origPlace/normalize-space())
+
+         (: booklist title :)
+        let $titlestmt := $instance/ancestor::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt
+        let $titlegroup := $titlestmt/tei:title[@type="mlgb_booklist_Group"]
+        let $titlelocation := $titlestmt/tei:title[@type="mlgb_location"]
+        let $titlecode := $titlestmt/tei:title[@type="mlgb_code"]
+        let $titlebooklist := $titlestmt/tei:title[@type="mlgb_booklist"]
+        let $booklisttitle := string-join((
+            $titlegroup,
+            concat(": ", $titlelocation),
+            concat(". ", $titlecode),
+            concat(". ", $titlebooklist)
+        ))
+
         return
         <instance>
             <biblidhash>{$biblidhash}</biblidhash>
@@ -34,7 +48,9 @@ declare variable $allinstances :=
                         '/catalog/', 
                         $roottei/@xml:id/data(), 
                         '|', 
-                        $copycode                      
+                        $copycode,
+                        '|',
+                        $booklisttitle                   
                     )
                 }</booklistlink>
             else 
