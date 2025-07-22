@@ -187,7 +187,7 @@ declare variable $allinstances :=
                     return 
                     for $workid in $workids
                         let $url := concat("/catalog/", $workid)
-                        let $linktext := ($worksauthority[@xml:id = $workid]/tei:title[@type = 'uniform'][1])[1]
+                        let $linktext := ($worksauthority[@xml:id = $workid]/tei:title[1])[1]
                         order by $linktext
                         return
                         if (exists($linktext) and exists($workkeys[. = $workid])) then
