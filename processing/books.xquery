@@ -198,7 +198,7 @@ declare function local:currentlocations($country as xs:string, $settlement as xs
                     if (normalize-space($settlement)) then $settlement else (),
                     if (normalize-space($repository)) then $repository else ()
                 ),
-                let $currentLocation := string-join($parts, ', ')
+                $currentLocation := string-join($parts, ', ')
 
                 let $title := concat(
                     $currentLocation, 
