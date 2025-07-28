@@ -136,6 +136,21 @@ declare function bod:decoTypeLookup($decotype as xs:string) as xs:string
         default return "Other"
 };
 
+declare function bod:evidenceLookup($evidence as xs:string) as xs:string
+{
+    switch(lower-case($evidence))
+        case 'b' return "Binding"
+        case 'c' return "Contents"
+        case 'd' return "Copy identifier"
+        case 'e' return "Institutional ex libris"
+        case 'g' return "Genitive name"
+        case 'i' return "Individual inscription"
+        case 'l' return "Liturgy"
+        case 'm' return "Marginalia"
+        case 's' return "Style"
+        default return "Not specified"
+};
+
 (: Current location facet :)
 declare function local:currentlocations($country as xs:string, $settlement as xs:string, $repository as xs:string, $solrfield as xs:string, $solrsuffix as xs:string) as element()* 
 {
@@ -190,11 +205,12 @@ declare function local:currentlocations($country as xs:string, $settlement as xs
                 let $htmldoc := doc(concat('html/books/', $subfolders, '/', $htmlfilename))
                 let $deconotes := $ms//tei:sourceDesc//tei:decoDesc/tei:decoNote[not(@type='none')]
                 let $decotypes := $deconotes/@type
+                let $evidences := $ms//tei:sourceDesc//tei:history/tei:provenance[starts-with(@type, '#')]
+                let $evidencetypes := tokenize(substring-after($evidences/@type, '#'), ' ')
                 let $repository := normalize-space($ms//tei:msDesc/tei:msIdentifier/tei:repository[1]/text())
                 let $settlement := normalize-space($ms//tei:msDesc/tei:msIdentifier/tei:settlement[1]/text())
                 let $country := normalize-space($ms//tei:msDesc/tei:msIdentifier/tei:country[1]/text())   
                 let $parts := (
-                    if (normalize-space($country)) then $country else (),
                     if (normalize-space($settlement)) then $settlement else (),
                     if (normalize-space($repository)) then $repository else ()
                 ),
@@ -224,7 +240,6 @@ declare function local:currentlocations($country as xs:string, $settlement as xs
                     { bod:string2one($title, 'title') }
                     { bod:one2one($ms//tei:titleStmt/tei:title[@type='collection'], 'ms_collection_s') }
                     { bod:one2one($ms//tei:msDesc/tei:msIdentifier/tei:institution, 'institution_sm') }
-                    { bod:string2one($currentLocation, 'ms_repository_s') }
                     { bod:strings2many(bod:shelfmarkVariants($allshelfmarks), 'shelfmarks') (: Non-tokenized field :) }
                     { bod:many2many($oldshelfmarks, 'ms_oldshelfmarks_smni') }
                     { bod:many2many($allshelfmarks, 'ms_shelfmarks_sm') (: Tokenized field :) }
@@ -234,6 +249,7 @@ declare function local:currentlocations($country as xs:string, $settlement as xs
                     { bod:many2one($ms//tei:msIdentifier/tei:msName, 'ms_name_sm') }
                     <field name="filename_s">{ substring-after(base-uri($ms), 'collections/books/') }</field>
                     { bod:materials($ms//tei:msDesc//tei:physDesc//tei:supportDesc[@material], 'ms_materials_sm') }
+                    <field name="ms_print_s">{ if ($ms//tei:sourceDesc//tei:physDesc/tei:typeDesc/tei:p) then 'Yes' else 'No' }</field>
                     {
                     if (not($ms/tei:TEI/@type = 'stub')) then
                         (
@@ -264,7 +280,14 @@ declare function local:currentlocations($country as xs:string, $settlement as xs
                             bod:string2one('Other', 'ms_decotype_sm')
                         else
                             for $decotype in distinct-values($decotypes)
-                                return bod:string2one(bod:decoTypeLookup($decotype), 'ms_decotype_sm')
+                                return bod:string2one(bod:decoTypeLookup($decotype), 'ms_decotype_sm'),
+                        if (count($evidences) eq 0) then
+                            bod:string2one('Not specified', 'ms_evidence_sm')
+                        else if (count($evidencetypes) eq 0) then
+                            bod:string2one('Not specified', 'ms_evidence_sm')
+                        else
+                            for $evidencetype in distinct-values($evidencetypes)
+                                return bod:string2one(bod:evidenceLookup($evidencetype), 'ms_evidence_sm')
                         )
                     else
                         ()
