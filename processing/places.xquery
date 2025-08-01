@@ -57,6 +57,9 @@ declare variable $allinstances :=
         (: Get info in authority entry :)
         let $id := $placeororg/@xml:id/data()
         let $isorg := exists($placeororg/self::tei:org)
+        let $settlement := normalize-space($placeororg/tei:settlement[1]/text())
+        let $county := normalize-space($placeororg/tei:region[@type="county"][1]/text())   
+        
         let $name := 
             if ($isorg) then
                 if ($placeororg/tei:orgName[@type='display']) then normalize-space($placeororg/tei:orgName[@type='display'][1]/string()) else normalize-space($placeororg/tei:orgName[1]/string())
@@ -67,6 +70,14 @@ declare variable $allinstances :=
                 for $v in $placeororg/tei:orgName[not(@type='display')] return normalize-space($v/string())
             else
                 for $v in $placeororg/tei:placeName[not(@type='index')] return normalize-space($v/string())
+
+         let $parts := (
+                    if (normalize-space($settlement)) then $settlement else (),
+                    if (normalize-space($county)) then $county else (),
+                    if (normalize-space($name)) then $name else ()
+                ),
+                $title := string-join($parts, ', ')
+
         let $extrefs := for $r in $placeororg/tei:note[@type="links"]//tei:item/tei:ref return concat($r/@target/data(), '|', bod:lookupAuthorityName(normalize-space($r/tei:title/string())))
         let $extauths := distinct-values(for $r in $placeororg/tei:note[@type='links']//tei:item/tei:ref return normalize-space($r/tei:title/string()))
         let $bibrefs := for $b in $placeororg/tei:bibl return bod:italicizeTitles($b)
@@ -83,8 +94,8 @@ declare variable $allinstances :=
                 <field name="type">place</field>
                 <field name="pk">{ $id }</field>
                 <field name="id">{ $id }</field>
-                <field name="title">{ $name }</field>
-                <field name="alpha_title">{  bod:alphabetize($name) }</field>
+                <field name="title">{ $title }</field>
+                <field name="alpha_title">{  bod:alphabetize($title) }</field>
                 {
                 if ($placeororg/self::tei:place) then
                     if ($placeororg/@type) then 
