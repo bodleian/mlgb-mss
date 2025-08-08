@@ -319,4 +319,75 @@
         </div>
     </xsl:template>
 
+    <!-- Book customisation override to display evidence after orgName -->
+
+    <xsl:template match="orgName">
+        <span>
+            <xsl:attribute name="class">
+                <xsl:value-of select="string-join((name(), @role), ' ')"/>
+            </xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="@key and not(@key='')">
+                    <a>
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="$website-url"/>
+                            <xsl:text>/catalog/</xsl:text>
+                            <xsl:value-of select="@key"/>
+                        </xsl:attribute>
+                        <xsl:apply-templates/>
+                    </a>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </span>
+        <span>
+            <xsl:attribute name="class">
+                <xsl:text>evidence</xsl:text>
+            </xsl:attribute>
+            <xsl:text>&#x3A;&#x20;</xsl:text>
+            <xsl:variable name="evidence" select="parent::provenance[starts-with(@type, '#')]"/>
+            <xsl:choose>
+                <xsl:when test="$evidence">
+                    <xsl:for-each select="tokenize(substring-after($evidence/@type, '#'), ' ')">
+                        <xsl:value-of select="bod:provenanceTypeLookup(.)"/>
+                        <xsl:choose>
+                            <xsl:when test="position() ne last()">
+                                <xsl:text>&#x3B;&#x20;and&#x20;</xsl:text>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <!-- Do not add a full stop if the evidence label ends with a full stop, in this case only 'c' -->
+                                <xsl:if test=". != 'c'">
+                                    <xsl:text>&#x2E;</xsl:text>
+                                </xsl:if>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:for-each>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text>inferred evidence.</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+        </span>
+    </xsl:template>
+
+    <xsl:function name="bod:provenanceTypeLookup" as="xs:string">
+        <xsl:param name="provenanceType"/>
+        <xsl:choose>
+            <xsl:when test="$provenanceType eq 'b'">evidence from binding or elements of a binding typical of a particular library, or pastedowns bearing evidence of provenance</xsl:when>
+            <xsl:when test="$provenanceType eq 'c'">evidence from locally specific contents, including obits, scribbles, etc.</xsl:when>
+            <xsl:when test="$provenanceType eq 'd'">evidence of dicta probatoria, usually a secundo folio</xsl:when>
+            <xsl:when test="$provenanceType eq 'e'">evidence from an ex-libris inscription or note of gift to an institution</xsl:when>
+            <xsl:when test="$provenanceType eq 'g'">evidence from an inscription consisting of a title or, when a pressmark, a personal name in the genitive case</xsl:when>
+            <xsl:when test="$provenanceType eq 'i'">evidence from an inscription of ownership by an individual member of a religious house (which may not, however, be evidence for institutional ownership)</xsl:when>
+            <xsl:when test="$provenanceType eq 'l'">liturgical evidence, often to be found in the kalendar</xsl:when>
+            <xsl:when test="$provenanceType eq 'm'">evidence from marginalia, sometimes distinctive of a particular house or known scribe</xsl:when>
+            <xsl:when test="$provenanceType eq 's'">evidence from the style of script or illumination</xsl:when>
+            <xsl:otherwise>
+                <xsl:text>inferred evidence</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+
 </xsl:stylesheet>
