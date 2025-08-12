@@ -13,6 +13,13 @@ declare variable $allinstances :=
         let $shelfmark := ($roottei/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno[@type = "shelfmark"])[1]/text()
         let $datesoforigin := distinct-values($roottei//tei:origin//tei:origDate/normalize-space())
         let $placesoforigin := distinct-values($roottei//tei:origin//tei:origPlace/normalize-space())
+        let $repository := normalize-space($roottei/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:repository[1]/text())
+        let $settlement := normalize-space($roottei/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:settlement[1]/text())
+        let $parts := (
+            if (normalize-space($settlement)) then $settlement else (),
+            if (normalize-space($repository)) then $repository else ()
+            ),
+            $currentLocation := string-join($parts, ', ')
         return
         <instance>
             { attribute of { if ($instance/self::tei:orgName) then 'org' else 'place' } }
@@ -22,6 +29,10 @@ declare variable $allinstances :=
                         '/catalog/', 
                         $roottei/@xml:id/data(), 
                         '|', 
+                        if($currentLocation) then 
+                            concat($currentLocation, ', ') 
+                        else    
+                        '',
                         $shelfmark,
                         if ($roottei//tei:sourceDesc//tei:surrogates/tei:bibl[@type=('digital-fascimile','digital-facsimile') and @subtype='full']) then
                             ' (Digital facsimile online)'
