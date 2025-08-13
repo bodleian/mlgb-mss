@@ -94,6 +94,7 @@ declare variable $allinstances :=
         let $bibrefs := for $b in $placeororg/tei:bibl return bod:italicizeTitles($b)
         let $notes := for $n in ($placeororg/tei:note[not(@type="links")], $placeororg/ancestor::tei:listPlace/tei:head/tei:note, $placeororg/ancestor::tei:listOrg/tei:head/tei:note) return bod:italicizeTitles($n)
         let $geolocs := $placeororg/tei:location/tei:geo[matches(text(), '^\s*\-?[\d\.]+\s*,\s*\-?[\d\.]+\s*$')]
+        let $religorders := distinct-values($placeororg/tei:orgName/tei:affiliation/text())
         
         (: Get info in all the instances in the book description files :)
         let $instances := $allinstances[key = $id]
@@ -107,6 +108,7 @@ declare variable $allinstances :=
                 <field name="id">{ $id }</field>
                 <field name="title">{ $title }</field>
                 <field name="alpha_title">{  bod:alphabetize($title) }</field>
+                { if ($county) then <field name="county_sm">{ $county }</field> else () }                
                 {
                 if ($placeororg/self::tei:place) then
                     if ($placeororg/@type) then 
@@ -123,6 +125,12 @@ declare variable $allinstances :=
                 for $role in $roles
                     order by $role
                     return <field name="roles_sm">{ $role }</field>
+                }
+                {
+                 (: Religious orders :)
+                for $religorder in $religorders
+                    order by $religorder
+                    return <field name="religorder_sm">{ $religorder }</field>
                 }
                 {
                 (: Alternative names :)
