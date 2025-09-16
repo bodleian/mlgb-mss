@@ -2,65 +2,92 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_K9">
+<TEI xml:id="booklist_K9" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="mlgb_booklist_Group">Henry de Kirkestede</title>
-            <title type="mlgb_location">Henry de Kirkestede</title>
+            <title type="mlgb_location">Abbo Floriacensis</title>
             <title type="mlgb_code">K9</title>
-            <title type="mlgb_booklist">Catalogus, c. 1360</title>
+            <title type="mlgb_booklist">Catalogus, <foreign>c.</foreign>1360</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Cambridge</settlement>
+                  <repository>University Library</repository>
+                  <idno type="shelfmark">MS Add. 3470</idno>
+               </msIdentifier>
+            </msDesc>
+            <listBibl>
+               <biblStruct type="book" xml:id="henryofkirksteadCatalogusLibrisAutenticis2004">
+                  <monogr>
+                     <title level="m">Catalogus de libris autenticis et apocrifis</title>
+                     <idno type="ISBN">978-0-7123-4837-9</idno>
+                     <author>
+                        <name>Henry de Kirkestede</name>
+                     </author>
+                     <editor>
+                        <forename>Richard H.</forename>
+                        <surname>Rouse</surname>
+                     </editor>
+                     <editor>
+                        <forename>Mary A.</forename>
+                        <surname>Rouse</surname>
+                     </editor>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>British Library</publisher>
+                        <date>2004</date>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">Corpus of British Medieval Library Catalogues</title>
+                     <biblScope unit="volume">11</biblScope>
+                  </series>
+                  <citedRange>K9</citedRange>
+               </biblStruct>
+            </listBibl>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="list">
-
-            <div type="entry" n="3">
+            <div n="3" type="entry">
                <head>K9.3</head>
                <div type="work">
-                  <bibl type="identification" corresp="#bibl_1"/>
+                  <bibl corresp="#bibl_1" type="identification"/>
                   <ab type="mlgb_copyCode">K9.3</ab>
                   <ab type="mlgb_catalogueExtract">(—-)</ab>
                </div>
             </div>
-            <div type="entry" n="5">
+            <div n="5" type="entry">
                <head>K9.5</head>
                <div type="work">
-                  <bibl type="identification" corresp="#bibl_2"/>
+                  <bibl corresp="#bibl_2" type="identification"/>
                   <ab type="mlgb_copyCode">K9.5</ab>
-                  <ab type="mlgb_catalogueExtract">(`categoriarum spiritualium de euangeliis liber
-                     unus')</ab>
+                  <ab type="mlgb_catalogueExtract">(`categoriarum spiritualium de euangeliis liber unus')</ab>
                </div>
             </div>
-            <div type="entry" n="14">
+            <div n="14" type="entry">
                <head>K9.14</head>
                <div type="work">
-                  <bibl type="identification" corresp="#bibl_3"/>
+                  <bibl corresp="#bibl_3" type="identification"/>
                   <ab type="mlgb_copyCode">K9.14</ab>
-                  <ab type="mlgb_catalogueExtract">(`super euangelium omelia, Erunt signa in sole
-                     [Lc 21:25]')</ab>
+                  <ab type="mlgb_catalogueExtract">(`super euangelium omelia, Erunt signa in sole [Lc 21:25]')</ab>
                </div>
             </div>
          </div>
-
       </body>
       <back>
          <listBibl>
-
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_5">Abbo of Fleury OSB [c. 945—1004], abbot
-                  of Fleury </author><title key="mlgbWork_5_4">Passio S. Edmundi</title></bibl>
-            <bibl xml:id="bibl_2"><author key="mlgbAuthor_5">Abbo of Fleury OSB [c. 945—1004], abbot
-                  of Fleury </author><title key="mlgbWork_5_5">Super euangelia</title></bibl>
-            <bibl xml:id="bibl_3"><author key="mlgbAuthor_5">Abbo of Fleury OSB [c. 945—1004], abbot
-                  of Fleury </author><title key="mlgbWork_5_5">Super euangelia</title></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_5">Abbo of Fleury OSB [c. 945—1004], abbot of Fleury </author><title key="mlgbWork_5_4">Passio S. Edmundi</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_5">Abbo of Fleury OSB [c. 945—1004], abbot of Fleury </author><title key="mlgbWork_5_5">Super euangelia</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_5">Abbo of Fleury OSB [c. 945—1004], abbot of Fleury </author><title key="mlgbWork_5_5">Super euangelia</title></bibl>
          </listBibl>
       </back>
    </text>

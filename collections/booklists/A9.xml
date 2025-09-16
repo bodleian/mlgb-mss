@@ -2,148 +2,166 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="booklist_A9">
+<TEI xml:id="booklist_A9" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="mlgb_booklist_Group">Augustinian Canons</title>
             <title type="mlgb_location">Cirencester</title>
             <title type="mlgb_code">A9</title>
-            <title type="mlgb_booklist">Leland, c. 1536-40</title>
+            <title type="mlgb_booklist">Select list of works noted by Leland, <foreign>c.</foreign>1536-40</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS Top. gen. c. 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus>p. 266</locus>
+                     <author>John Leland</author>
+                     <title>Collectanea</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate notBefore="1536" notAfter="1540"><foreign>c.</foreign>1536–40</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+            <listBibl>
+               <biblStruct type="book" xml:id="webberLibrariesAugustinianCanons1998">
+                  <monogr>
+                     <title level="m">The libraries of the Augustinian Canons</title>
+                     <idno type="ISBN">978-0-7123-4501-9</idno>
+                     <editor>
+                        <forename>Teresa</forename>
+                        <surname>Webber</surname>
+                     </editor>
+                     <editor>
+                        <forename>Andrew G.</forename>
+                        <surname>Watson</surname>
+                     </editor>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>British Library</publisher>
+                        <date>1998</date>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">Corpus of British medieval library catalogues</title>
+                     <biblScope unit="volume">6</biblScope>
+                  </series>
+                  <citedRange>A9</citedRange>
+               </biblStruct>
+            </listBibl>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="list">
-
-            <div type="entry" n="1" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1772">
+            <div corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1772" n="1" type="entry">
                <head>A9.1</head>
                <div type="work">
-                  <bibl type="identification" corresp="#bibl_1"/>
+                  <bibl corresp="#bibl_1" type="identification"/>
                   <ab type="mlgb_copyCode">A9.*1</ab>
                </div>
                <div type="work">
-                  <bibl type="identification" corresp="#bibl_2"/>
+                  <bibl corresp="#bibl_2" type="identification"/>
                   <ab type="mlgb_copyCode">A9.*1x</ab>
                </div>
                <div type="work">
-                  <bibl type="identification" corresp="#bibl_3"/>
+                  <bibl corresp="#bibl_3" type="identification"/>
                   <ab type="mlgb_copyCode">A9.*1x</ab>
                </div>
             </div>
-            <div type="entry" n="2">
+            <div n="2" type="entry">
                <head>A9.2</head>
                <div type="work">
-                  <bibl type="identification" corresp="#bibl_4"/>
+                  <bibl corresp="#bibl_4" type="identification"/>
                   <ab type="mlgb_copyCode">A9.2</ab>
                </div>
             </div>
-            <div type="entry" n="3">
+            <div n="3" type="entry">
                <head>A9.3</head>
                <div type="work">
-                  <bibl type="identification" corresp="#bibl_5"/>
+                  <bibl corresp="#bibl_5" type="identification"/>
                   <ab type="mlgb_copyCode">A9.3</ab>
                </div>
             </div>
-            <div type="entry" n="4" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1754">
+            <div corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1754" n="4" type="entry">
                <head>A9.*4</head>
                <div type="work">
-                  <bibl type="identification" corresp="#bibl_6"/>
+                  <bibl corresp="#bibl_6" type="identification"/>
                   <ab type="mlgb_copyCode">A9.*4</ab>
                   <ab type="mlgb_catalogueExtract"><ref target="booklist_H2#619">= H2.*619</ref></ab>
                </div>
             </div>
-            <div type="entry" n="5">
+            <div n="5" type="entry">
                <head>A9.5</head>
                <div type="work">
-                  <bibl type="identification" corresp="#bibl_7"/>
+                  <bibl corresp="#bibl_7" type="identification"/>
                   <ab type="mlgb_copyCode">A9.5</ab>
                </div>
             </div>
-            <div type="entry" n="6">
+            <div n="6" type="entry">
                <head>A9.6</head>
                <div type="work">
-                  <bibl type="identification" corresp="#bibl_8"/>
+                  <bibl corresp="#bibl_8" type="identification"/>
                   <ab type="mlgb_copyCode">A9.6</ab>
                </div>
             </div>
-            <div type="entry" n="7" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1739">
+            <div corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1739" n="7" type="entry">
                <head>A9.?*7</head>
                <div type="work">
-                  <bibl type="identification" corresp="#bibl_9"/>
+                  <bibl corresp="#bibl_9" type="identification"/>
                   <ab type="mlgb_copyCode">A9.?*7</ab>
                </div>
             </div>
-            <div type="entry" n="8" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1748">
+            <div corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1748" n="8" type="entry">
                <head>A9.*8</head>
                <div type="work">
-                  <bibl type="identification" corresp="#bibl_10"/>
+                  <bibl corresp="#bibl_10" type="identification"/>
                   <ab type="mlgb_copyCode">A9.*8</ab>
                </div>
             </div>
-            <div type="entry" n="9">
+            <div n="9" type="entry">
                <head>A9.9</head>
                <div type="work">
-                  <bibl type="identification" corresp="#bibl_11"/>
+                  <bibl corresp="#bibl_11" type="identification"/>
                   <ab type="mlgb_copyCode">A9.9</ab>
                   <ab type="mlgb_catalogueExtract">(`de laude gloriosae uirginis')</ab>
                </div>
             </div>
-            <div type="entry" n="10" corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1756">
+            <div corresp="http://mlgb.bodleian.ox.ac.uk/catalog/book_1756" n="10" type="entry">
                <head>A9.*10</head>
                <div type="work">
-                  <bibl type="identification" corresp="#bibl_12"/>
+                  <bibl corresp="#bibl_12" type="identification"/>
                   <ab type="mlgb_copyCode">A9.*10</ab>
                </div>
             </div>
          </div>
-
       </body>
       <back>
          <listBibl>
-
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_143">Alexander Nequam OSA [1157—1217],
-                  canon of Cirencester </author><title key="mlgbWork_143_2">Gloss on the
-                  Psalms</title></bibl>
-            <bibl xml:id="bibl_2"><author key="mlgbAuthor_143">Alexander Nequam OSA [1157—1217],
-                  canon of Cirencester </author><title key="mlgbWork_143_5">Commentary on
-                  Proverbs</title></bibl>
-            <bibl xml:id="bibl_3"><author key="mlgbAuthor_143">Alexander Nequam OSA [1157—1217],
-                  canon of Cirencester </author><title key="mlgbWork_143_11">De muliere
-                  forti</title></bibl>
-            <bibl xml:id="bibl_4"><author key="mlgbAuthor_58">Aelred of Rievaulx OCist [1109—1167],
-                  abbot of Rievaulx </author><title key="mlgbWork_58_4">De Iesu puero
-                  duodenni</title></bibl>
-            <bibl xml:id="bibl_5"><author key="mlgbAuthor_2393">Odo of Morimond OCist [†1161]
-                  </author><title key="mlgbWork_2393_1">Analytica ternarii, the final part of his
-                  Analytica, which circulated separately</title></bibl>
-            <bibl xml:id="bibl_6"><author key="mlgbAuthor_426">Bede the Venerable [c673—735], monk
-                  of Wearmouth—Jarrow </author><title key="mlgbWork_426_7">Commentary on Ezra and
-                  Nehemiah</title></bibl>
-            <bibl xml:id="bibl_7"><author key="mlgbAuthor_1081">Geoffrey Babio du Louroux [†1158],
-                  archbishop of Bordeaux </author><title key="mlgbWork_1081_1">Commentary on
-                  Matthew</title></bibl>
-            <bibl xml:id="bibl_8"><author key="mlgbAuthor_143">Alexander Nequam OSA [1157—1217],
-                  canon of Cirencester </author><title key="mlgbWork_143_16">Laus diuinae
-                  sapientiae</title></bibl>
-            <bibl xml:id="bibl_9"><author key="mlgbAuthor_2965">Robert of Cricklade OSA [† after
-                  1188] </author><title key="mlgbWork_2965_3">Homiliae super
-               Ezechielem</title></bibl>
-            <bibl xml:id="bibl_10"><author key="mlgbAuthor_2965">Robert of Cricklade OSA [† after
-                  1188] </author><title key="mlgbWork_2965_1">De connubio Iacob</title></bibl>
-            <bibl xml:id="bibl_11"><author key="mlgbAuthor_143">Alexander Nequam OSA [1157—1217],
-                  canon of Cirencester </author><title key="mlgbWork_143_4">Commentary on the Song
-                  of Songs</title></bibl>
-            <bibl xml:id="bibl_12"><author key="mlgbAuthor_143">Alexander Nequam OSA [1157—1217],
-                  canon of Cirencester </author><title key="mlgbWork_143_22">Speculum
-                  speculationum</title></bibl>
+            <bibl xml:id="bibl_1"><author key="mlgbAuthor_143">Alexander Nequam OSA [1157—1217], canon of Cirencester </author><title key="mlgbWork_143_2">Gloss on the Psalms</title></bibl>
+            <bibl xml:id="bibl_2"><author key="mlgbAuthor_143">Alexander Nequam OSA [1157—1217], canon of Cirencester </author><title key="mlgbWork_143_5">Commentary on Proverbs</title></bibl>
+            <bibl xml:id="bibl_3"><author key="mlgbAuthor_143">Alexander Nequam OSA [1157—1217], canon of Cirencester </author><title key="mlgbWork_143_11">De muliere forti</title></bibl>
+            <bibl xml:id="bibl_4"><author key="mlgbAuthor_58">Aelred of Rievaulx OCist [1109—1167], abbot of Rievaulx </author><title key="mlgbWork_58_4">De Iesu puero duodenni</title></bibl>
+            <bibl xml:id="bibl_5"><author key="mlgbAuthor_2393">Odo of Morimond OCist [†1161] </author><title key="mlgbWork_2393_1">Analytica ternarii, the final part of his Analytica, which circulated separately</title></bibl>
+            <bibl xml:id="bibl_6"><author key="mlgbAuthor_426">Bede the Venerable [c673—735], monk of Wearmouth—Jarrow </author><title key="mlgbWork_426_7">Commentary on Ezra and Nehemiah</title></bibl>
+            <bibl xml:id="bibl_7"><author key="mlgbAuthor_1081">Geoffrey Babio du Louroux [†1158], archbishop of Bordeaux </author><title key="mlgbWork_1081_1">Commentary on Matthew</title></bibl>
+            <bibl xml:id="bibl_8"><author key="mlgbAuthor_143">Alexander Nequam OSA [1157—1217], canon of Cirencester </author><title key="mlgbWork_143_16">Laus diuinae sapientiae</title></bibl>
+            <bibl xml:id="bibl_9"><author key="mlgbAuthor_2965">Robert of Cricklade OSA [† after 1188] </author><title key="mlgbWork_2965_3">Homiliae super Ezechielem</title></bibl>
+            <bibl xml:id="bibl_10"><author key="mlgbAuthor_2965">Robert of Cricklade OSA [† after 1188] </author><title key="mlgbWork_2965_1">De connubio Iacob</title></bibl>
+            <bibl xml:id="bibl_11"><author key="mlgbAuthor_143">Alexander Nequam OSA [1157—1217], canon of Cirencester </author><title key="mlgbWork_143_4">Commentary on the Song of Songs</title></bibl>
+            <bibl xml:id="bibl_12"><author key="mlgbAuthor_143">Alexander Nequam OSA [1157—1217], canon of Cirencester </author><title key="mlgbWork_143_22">Speculum speculationum</title></bibl>
          </listBibl>
       </back>
    </text>
