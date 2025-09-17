@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="book_8603" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AD">
+               <resp when="2025">Description</resp>
+               <persName>Andrew Dunning</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>UK</country>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">Royal MS 15 C. xii</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <author key="mlgbAuthor_2364">Nicholas Trevet</author>
+                     <title key="mlgbWork_2364_10">Commentary on the elder Seneca’s <title>Declamationes</title></title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg"/>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" cert="low" when="1400"><foreign>c.</foreign>1400</origDate>
+                  </origin>
+                  <provenance cert="low">
+                     <orgName>Bristol, Gloucestershire, Augustinian (Victorine) abbey of St Augustine</orgName>
+                     <p>An erased inscription appears to read, <q>Librum fratrum canonicorum S. Augustini …</q> (fol. 147v). This may refer to the Bristol house.</p>
+                  </provenance>
+                  <provenance type="#rejected">
+                     <orgName>Bridlington, Yorkshire, Augustinian priory of St Mary the Virgin</orgName>
+                     <p>An earlier reading of the inscription’s final word associated the manuscript with Bridlington, rejected in <title>Medieval Libraries</title>.</p>
+                  </provenance>
+                  <provenance>Henry fitz Alan, Earl of Arundel</provenance>
+                  <provenance>John, Lord Lumley</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>N. R. Ker et al., <title>Medieval Libraries of Great Britain</title>, file cards, 1937–2025, Oxford, Bodleian Library.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-09-17">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
