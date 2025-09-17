@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_1364">
+<TEI xml:id="book_1364" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,8 +22,7 @@
                   <settlement>Oxford</settlement>
                   <postCode>OX1 3BG</postCode>
                   <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
                   </addrLine>
                   <addrLine>
                      <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
@@ -37,7 +36,7 @@
                   <country>USA</country>
                   <settlement>New Haven (CT)</settlement>
                   <repository>Beinecke Library</repository>
-                  <idno type="shelfmark">MS (deposit)</idno>
+                  <idno type="shelfmark">Takamiya MS 55</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1364</idno>
                   </altIdentifier>
@@ -45,19 +44,28 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Augustinus, in Psalmos 51--100 (fragm.)</title>
+                     <title>Augustinus, in Psalmos 51–100 (fragm.)</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="110X/111X" notBefore="1100" notAfter="1119" calendar="#gregorian">s. xii in.</origDate>
+                     <origPlace type="#s"><orgName key="mlgbOrg_4" role="fmo">Canterbury, Kent. Benedictine cathedral priory of Holy Trinity or Christ Church</orgName></origPlace>
+                     <origDate calendar="#gregorian" notAfter="1119" notBefore="1100" when-custom="110X/111X">s. xii in.</origDate>
+                     <p>In the same hand as Cambridge, Trinity College, 174.</p>
                   </origin>
-                  <provenance type="#s"><orgName role="fmo" key="mlgbOrg_4">Canterbury, Kent.
-                        Benedictine cathedral priory of Holy Trinity or Christ Church</orgName><p>In the same hand as Cambridge, Trinity College, 174.</p><note type="MLGB3_medievalCatalogueNotes">cat. 325, Ingram 77</note></provenance>
-                  <provenance type="MLGB3_laterOwners">Monsignor David Mc Roberts. Sale of
-                     Sotheby's, 1980.</provenance>
-                  <provenance type="MLGB3_laterOwners">Property of Prof. T. Takamiya</provenance>
+                  <provenance>
+                     <orgName key="mlgbOrg_4" role="fmo">Canterbury, Kent. Benedictine cathedral priory of Holy Trinity or Christ Church</orgName>
+                     <note type="MLGB3_medievalCatalogueNotes">cat. 325, Ingram 77</note>
+                  </provenance>
+                  <provenance type="MLGB3_laterOwners">Monsignor David McRoberts. Sale of Sotheby’s, 1980.</provenance>
+                  <provenance type="MLGB3_laterOwners">Prof. T. Takamiya</provenance>
                </history>
+               <additional>
+                  <surrogates>
+                     <bibl subtype="full" type="digital-facsimile"><ref target="https://collections.library.yale.edu/catalog/16714347"><title>Yale University Library: Digital Collections</title></ref>
+                        <note>(full digital facsimile)</note></bibl>
+                  </surrogates>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
