@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="book_8604" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="AD">
+               <resp when="2025">Description</resp>
+               <persName>Andrew Dunning</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement>New York</settlement>
+                  <repository>Morgan Library and Museum</repository>
+                  <idno type="shelfmark">MS M.766</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title key="mlgbWork_3197_1">Speculum humanae saluationis</title>
+                  </msItem>
+                  <msItem>
+                     <title>Officium de sancto Iohanne de Bridlyntun</title>
+                  </msItem>
+                  <msItem>
+                     <title>Compendium biblie Ioannis Castellensis</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg"/>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace type="#rejected"><orgName key="mlgbOrg_69">Bridlington, Yorkshire, Augustinian priory of St Mary the Virgin</orgName></origPlace>
+                     <origDate calendar="#gregorian" notAfter="1400" notBefore="1380">s. xiv late</origDate>
+                     <p>De Ricci, <title>Census</title>, 2.1499, argued that the book was from Bridlington. Ker, <title>Medieval Libraries</title>, rejected this.</p>
+                  </origin>
+                  <provenance>Purchased from <persName role="fmo">K. W. Hiersemann</persName>, Leipzig, in 1930. Described by him in a special pamphlet.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>N. R. Ker et al., <title>Medieval Libraries of Great Britain</title>, file cards, 1937–2025, Oxford, Bodleian Library.</source>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl subtype="partial" type="digital-facsimile"><ref target="https://www.themorgan.org/manuscript/131050">The Morgan Library and Museum</ref></bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-09-17">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
