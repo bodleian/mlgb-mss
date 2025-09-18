@@ -37,12 +37,13 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS Cotton Faustina B.ix fols. 2-75</idno>
+                  <idno type="shelfmark">MS Cotton Faustina B.ix</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3948</idno>
                   </altIdentifier>
-               </msIdentifier>
-               <msContents>
+               <altIdentifier><idno type="MLGB3">5522</idno>
+                  </altIdentifier></msIdentifier>
+               <msPart><msIdentifier><altIdentifier><idno type="part">MS Cotton Faustina B.ix fols. 2-75</idno></altIdentifier></msIdentifier><msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Chronicon abbatie</title>
@@ -59,11 +60,27 @@
                   <provenance type="MLGB3_laterOwners">Leland -- his hand occurs and see Bale,
                      Index, ed. Poole.</provenance>
                </history>
-            </msDesc>
+            </msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS Cotton Faustina B.ix fols. 76-244</idno></altIdentifier></msIdentifier><msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Chronicon Anglie 1259--1399</title>
+                     <note type="MLGB3_generalNotes">Notes in the MS. are in Leland's hand.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499" calendar="#gregorian">s. xv</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_558">Tynemouth, Northumberland.
+                        Benedictine priory of St Mary the Virgin and St Oswin; cell of St Albans</orgName><p>Leland's extracts 'Ex quodam Chronico Tinemutensis cœnobii'
+                        (Coll. 1. 173--89) are from this MS.</p><p> </p><note type="MLGB3_medievalCatalogueNotes">Leland, Coll., 1.
+                     173</note></provenance>
+               </history>
+            </msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 5522 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

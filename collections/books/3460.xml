@@ -37,12 +37,13 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>Lambeth Palace Library</repository>
-                  <idno type="shelfmark">MS 335 fols. 1-228</idno>
+                  <idno type="shelfmark">MS 335</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3460</idno>
                   </altIdentifier>
-               </msIdentifier>
-               <msContents>
+               <altIdentifier><idno type="MLGB3">177</idno>
+                  </altIdentifier></msIdentifier>
+               <msPart><msIdentifier><altIdentifier><idno type="part">MS 335 fols. 1-228</idno></altIdentifier></msIdentifier><msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Cantica, etc. glo. (5 vols. in 1)</title>
@@ -59,11 +60,30 @@
                         the Cantica glo. has any mark.</p><q type="pressmark">de primo armario 4
                         gradus</q></provenance>
                </history>
-            </msDesc>
+            </msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS 335 fols. 229-277</idno></altIdentifier></msIdentifier><msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Epp. can. glo.</title>
+                     <note type="MLGB3_generalNotes">Lambeth Palace 335 fols. 229--277 and Lambeth
+                        Palace 360 fols. 119--158 appear to have formed one volume.</note>
+                     <msItem>
+                        <title>Canonical Epistles glossed</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219" calendar="#gregorian">s. xiii in.</origDate>
+                  </origin>
+                  <provenance cert="low"><orgName role="fmo" key="mlgbOrg_295">Lanthony (secunda),
+                        Gloucestershire. Augustinian priory of St Mary the Virgin and St John the
+                        Baptist</orgName></provenance>
+               </history>
+            </msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 177 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

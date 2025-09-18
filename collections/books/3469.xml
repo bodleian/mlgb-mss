@@ -37,12 +37,13 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>Lambeth Palace Library</repository>
-                  <idno type="shelfmark">MS 360 fols. 1-118</idno>
+                  <idno type="shelfmark">MS 360</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3469</idno>
                   </altIdentifier>
-               </msIdentifier>
-               <msContents>
+               <altIdentifier><idno type="MLGB3">178</idno>
+                  </altIdentifier></msIdentifier>
+               <msPart><msIdentifier><altIdentifier><idno type="part">MS 360 fols. 1-118</idno></altIdentifier></msIdentifier><msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Note super bibliam, etc.</title>
@@ -66,11 +67,30 @@
                         have a note of contents in the hand of 'Morganus canonicus de Kermerden' (s.
                         xv), who has written his name in many of the books.</p></provenance>
                </history>
-            </msDesc>
+            </msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS 360 fols. 119-158</idno></altIdentifier></msIdentifier><msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Biblia versificata</title>
+                     <note type="MLGB3_generalNotes">Lambeth Palace 335 fols. 229--277 and Lambeth
+                        Palace 360 fols. 119--158 appear to have formed one voluujme</note>
+                     <msItem>
+                        <title>Biblia versificata Injunctions of John Russell, bishop of Lincoln, to
+                           the monks of Peterborough</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="148X/149X" notBefore="1480" notAfter="1499" calendar="#gregorian">s. xv ex</origDate>
+                  </origin>
+                  <provenance type="#c" cert="low"><orgName role="fmo" key="mlgbOrg_2">Peterborough,
+                        Northamptonshire. Benedictine abbey of St Peter, St Paul, and St Andrew</orgName></provenance>
+               </history>
+            </msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 178 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

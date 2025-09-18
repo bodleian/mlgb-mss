@@ -37,12 +37,13 @@
                   <country>England</country>
                   <settlement>Durham</settlement>
                   <repository>Cathedral</repository>
-                  <idno type="shelfmark">MS C.III.1 fols. 1-18</idno>
+                  <idno type="shelfmark">MS C.III.1</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">2276</idno>
                   </altIdentifier>
-               </msIdentifier>
-               <msContents>
+               <altIdentifier><idno type="MLGB3">2277</idno>
+                  </altIdentifier></msIdentifier>
+               <msPart><msIdentifier><altIdentifier><idno type="part">MS C.III.1 fols. 1-18</idno></altIdentifier></msIdentifier><msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Excerpta decretorum</title>
@@ -58,11 +59,24 @@
                   <provenance type="#e"><orgName role="fmo" key="mlgbOrg_189">Durham. Benedictine
                         cathedral priory of St Cuthbert</orgName><note type="MLGB3_medievalCatalogueNotes">cat., pp. 35 K, 112 K</note><q type="pressmark">K, 2a.8i.T</q></provenance>
                </history>
-            </msDesc>
+            </msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS C.III.1 fols. 19-311</idno></altIdentifier></msIdentifier><msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Decretum Gratiani</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299" calendar="#gregorian">s. xii/xiii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_189">Durham. Benedictine
+                        cathedral priory of St Cuthbert</orgName><note type="MLGB3_medievalCatalogueNotes">Cat., p. 46 F</note></provenance>
+               </history>
+            </msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 2277 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>
