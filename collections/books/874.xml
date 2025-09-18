@@ -41,25 +41,35 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">874</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">6350</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Theinredus Doverensis, etc.</title>
+                     <title source="874">Theinredus Doverensis, etc.</title>
+                  <title source="6350">Theinredus Doverensis, etc. (Tractatus de musica)</title>
+                     <note type="MLGB3_generalNotes" source="6350">? Rather too late for the cat.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate when-custom="13XX/14XX" notBefore="1300" notAfter="1499" calendar="#gregorian">s. xiv/xv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_89">Byland, Yorkshire.
+                  <provenance type="#e" source="874"><orgName role="fmo" key="mlgbOrg_89">Byland, Yorkshire.
                         Cistercian abbey of St Mary the Virgin</orgName><p>'Liber fratris Iohannis
                         Gillyng monachi Bellalande, emptus a quodam carpentario nomine Sproxton.
                         Anno domini 1477o. septimo kalendas Iunii'.</p><p>'Liber sancte Marie de
                         Bellalanda'.</p></provenance>
                   <provenance type="MLGB3_laterOwners">'John Prior' (s. xvi).</provenance>
                   <provenance type="MLGB3_laterOwners">'Donum Rich. Roberts'.</provenance>
-               </history>
+               <provenance cert="low" source="6350"><orgName role="fmo" key="mlgbOrg_611">York , Yorkshire. Convent of
+                        Austin friars</orgName><p>This manuscript may be that given to the library
+                        by John Erghome, entered at 645 in the library catalogue of 1372. The
+                        Bodleian SC identifies this manuscript as a copy made from that one at York,
+                        dating the script later than Erghome's time, to the first half of the
+                        fifteenth century.</p><note type="MLGB3_medievalCatalogueNotes">Cf. cat.
+                        645</note></provenance>
+                  </history>
             <additional><surrogates><bibl subtype="full" type="digital-facsimile">
                         <ref target="https://digital.bodleian.ox.ac.uk/objects/ae728674-dd6b-4478-827f-d3134339e790/">
                            <title>Digital Bodleian</title>
@@ -76,7 +86,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 6350 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

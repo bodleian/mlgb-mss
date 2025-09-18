@@ -41,22 +41,25 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">4768</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">5835</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Augustinus</title>
-                     <msItem>
+                     <title source="4768">Augustinus</title>
+                     <msItem source="4768">
                         <author>Augustine</author>
                         <title>De nuptiis et concupiscentia</title>
                      </msItem>
+                  <title source="5835">Augustinus, De nuptiis et concupiscentia, Contra Iulianum</title>
+                     <note type="MLGB3_generalNotes" source="5835">Earlier at Rochester, q. v.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate when-custom="110X/111X" notBefore="1100" notAfter="1119" calendar="#gregorian">s. xii in.</origDate>
                   </origin>
-                  <provenance type="#s"><orgName role="fmo" key="mlgbOrg_469">Rochester, Kent.
+                  <provenance type="#s" source="4768"><orgName role="fmo" key="mlgbOrg_469">Rochester, Kent.
                         Cathedral priory of St Andrew</orgName><p>As well as the identification of
                         this in the medieval catalogue, the script is a Rochester type like that in
                         BL, Royal 5 C. i and 6 C. iv and the binding is similar to another Rochester
@@ -68,12 +71,15 @@
                   <provenance type="MLGB3_laterOwners">There is not any evidence or probability that
                      this manuscript was once at Pembroke, Cambridge, as guessed by M. R.
                      James.</provenance>
+               <provenance source="5835"><orgName role="fmo" key="mlgbOrg_596">Windsor, Berkshire. Royal
+                        collegiate chapel of St George</orgName><p>Medieval binding similar to
+                        that of Bodley 387. Usual chain mark.</p></provenance>
                </history>
             <additional><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_1196">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 5835 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>
