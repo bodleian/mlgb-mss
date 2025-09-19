@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_2176">
+<TEI xml:id="book_2176" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,8 +22,7 @@
                   <settlement>Oxford</settlement>
                   <postCode>OX1 3BG</postCode>
                   <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
                   </addrLine>
                   <addrLine>
                      <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
@@ -42,25 +41,41 @@
                      <idno type="MLGB3">2176</idno>
                   </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Augustinus, De 83 questionibus</title>
-                     <note type="MLGB3_generalNotes">Mynors no. 72.</note>
-                     <note type="MLGB3_generalNotes">There is no evidence that fols. 57--133 (s. xiv
-                        ex.: Mandeville (in French)) are of Durham provenance.</note>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="110X/111X" notBefore="1100" notAfter="1119" calendar="#gregorian">s. xii in.</origDate>
-                  </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_189">Durham. Benedictine
-                        cathedral priory of St Cuthbert</orgName><p>"S".</p><p>"Liber sancti
-                        Cuthberti" (s. xii/xiii).</p><p>"S ... De communi libraria monachorum
-                        Dunelm" (s. xiv ex.).</p><note type="MLGB3_medievalCatalogueNotes">cat., p.
-                        61 S</note><q type="pressmark">S</q></provenance>
-               </history>
+               <msPart>
+                  <msIdentifier>
+                     <idno type="shelfmark">MS B.III.3, fols 1–56</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Augustinus, De 83 questionibus</title>
+                        <note type="MLGB3_generalNotes">Mynors no. 72.</note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" notAfter="1119" notBefore="1100" when-custom="110X/111X">s. xii in.</origDate>
+                     </origin>
+                     <provenance type="#e"><orgName key="mlgbOrg_189" role="fmo">Durham. Benedictine cathedral priory of St Cuthbert</orgName><p>"S".</p><p>"Liber sancti Cuthberti" (s. xii/xiii).</p><p>"S ... De communi libraria monachorum Dunelm" (s. xiv ex.).</p><note type="MLGB3_medievalCatalogueNotes">cat., p. 61 S</note><q type="pressmark">S</q></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <idno type="shelfmark">MS B.III.3, fols 57–133</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="xno">Anglo-Norman</textLang>
+                     <msItem>
+                        <title>Mandeville</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" notAfter="1399" notBefore="1380" when-custom="138X/139X">s. xiv ex.</origDate>
+                        <p>There is no evidence that fols 57–133 are of Durham provenance.</p>
+                     </origin>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
