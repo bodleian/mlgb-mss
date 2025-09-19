@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6778">
+<TEI xml:id="book_6778" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,8 +22,7 @@
                   <settlement>Oxford</settlement>
                   <postCode>OX1 3BG</postCode>
                   <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
                   </addrLine>
                   <addrLine>
                      <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
@@ -37,7 +36,7 @@
                   <country>USA</country>
                   <settlement>New Haven (CT)</settlement>
                   <repository>Beinecke Library</repository>
-                  <idno type="shelfmark">MS Takamiya Deposit 15</idno>
+                  <idno type="shelfmark">Takamiya MS 15</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6778</idno>
                   </altIdentifier>
@@ -46,9 +45,7 @@
                   <textLang mainLang="enm">Middle English</textLang>
                   <msItem>
                      <title>Mirror of Life, etc.</title>
-                     <note type="MLGB3_generalNotes">First recorded in the Supplement at its then
-                        location of Tokyo. Prof. Takamiya deposited this, with other Middle English
-                        manuscripts, at the Beinecke, c.2013.</note>
+                     <note type="MLGB3_generalNotes">First recorded in the Supplement at its then location of Tokyo. Prof. Takamiya deposited this, with other Middle English manuscripts, at the Beinecke, c.2013.</note>
                      <note type="MLGB3_generalNotes"> </note>
                   </msItem>
                </msContents>
@@ -56,19 +53,17 @@
                   <origin>
                      <origDate>s. xv1.</origDate>
                   </origin>
-                  <provenance type="#e" cert="low"><orgName role="fmo" key="mlgbOrg_314">Lichfield,
-                        Staffordshire. Franciscan convent</orgName><p>'Ihesus 1486 Detur iste
-                        liber Conuentui fratrum minorum de lych' super condicione quod dicant [. .
-                        .] missas trigental' sancti Gregorii triginta placebo dirige et totidem
-                        viitem psalmi penitentiales [next four words interlinear:] cum commendac'
-                        animarum xxx pro animabus Alice Iocose et alani et animabus omnium fidelium
-                        defunctorum' (fol. 84v).</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Sold at Sotheby's, 10 December 1969, lot 43
-                     for £22,000; the Catalogue of the sale has a reduced facsimile of one page.
-                     Dawson's Catalogue, 209 (June 1970), item 3 at £38500.</provenance>
-                  <provenance type="MLGB3_laterOwners">Mr. W. F. Hammond of Lymington,
-                     Hants.</provenance>
+                  <provenance type="#e" cert="low"><orgName key="mlgbOrg_314" role="fmo">Lichfield, Staffordshire. Franciscan convent</orgName>
+                     <p><q>Ihesus 1486 Detur iste liber Conuentui fratrum minorum de lych’ super condicione quod dicant […] missas trigental’ sancti Gregorii triginta placebo dirige et totidem viitem psalmi penitentiales [next four words interlinear:] cum commendac’ animarum xxx pro animabus Alice Iocose et alani et animabus omnium fidelium defunctorum</q> (fol. 84v).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Sold at Sotheby’s, 10 December 1969, lot 43 for £22,000; the Catalogue of the sale has a reduced facsimile of one page. Dawson’s Catalogue, 209 (June 1970), item 3 at £38500.</provenance>
+                  <provenance type="MLGB3_laterOwners">Mr. W. F. Hammond of Lymington, Hants.</provenance>
                </history>
+               <additional>
+                  <surrogates>
+                     <bibl subtype="full" type="digital-facsimile"><ref target="https://collections.library.yale.edu/catalog/16037447"><title>Yale University Library: Digital Collections</title></ref>
+                        <note>(full digital facsimile)</note></bibl>
+                  </surrogates>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
