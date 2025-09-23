@@ -41,19 +41,21 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">894</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">7849</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>H. de Gandavo</title>
-                     <note type="MLGB3_generalNotes">Belonged to the Cambridge custody.</note>
+                     <title source="894">H. de Gandavo</title>
+                     <note type="MLGB3_generalNotes" source="894">Belonged to the Cambridge custody.</note>
+                  <title source="7849">Henricus de Gandavo</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate when-custom="128X/129X" notBefore="1280" notAfter="1299" calendar="#gregorian">s. xiii ex</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_94">Cambridge,
+                  <provenance type="#e" source="894"><orgName role="fmo" key="mlgbOrg_94">Cambridge,
                         Cambridgeshire. Franciscan convent</orgName><p>'N.P. ¶ Quolibeta Gandaui
                         [--et est liber custodialis A.D. 1329' (top of fol. 4r).</p><p>'Iste liber
                         custodialis assignatus est fratri . . . capitulo prouinciali sancti Botulphi
@@ -64,7 +66,12 @@
                         custodia. . .'.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Given to Balliol by William Gray, bishop of
                      Ely (d. 1478).</provenance>
-               </history>
+               <provenance type="#e" source="7849"><orgName role="fmo" key="mlgbOrg_426">Oxford, Oxfordshire.
+                        Balliol College (Domus de Balliolo)</orgName><p>‘From the Franciscan
+                        custody of Cambridge [inscriptions]’ (Mynors, Balliol, 210)‘Liber domus de
+                        Balliolo in Oxon’ | ex dono Willelmi Gray Eliensis episcopi’ (verso of
+                        fly-leaf)</p><p>See also under Cambridge Franciscans</p></provenance>
+                  </history>
                <additional>
                   <adminInfo>
                      <recordHist>
@@ -76,7 +83,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 7849 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

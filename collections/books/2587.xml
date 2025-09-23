@@ -41,26 +41,42 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">2587</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">2693</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Decreta pontificum</title>
-                     <note type="MLGB3_generalNotes">MSS. 6, 22, 97, 101 have a common form of
+                     <title source="2587">Decreta pontificum</title>
+                     <note type="MLGB3_generalNotes" source="2587">MSS. 6, 22, 97, 101 have a common form of
                         inscription, s. xv, consisting of the title and secundo folio linked by the
                         words "et incipit in 2o folio".</note>
-                     <note type="MLGB3_generalNotes">Earlier at Exeter, q. v.</note>
+                     <note type="MLGB3_generalNotes" source="2587">Earlier at Exeter, q. v.</note>
+                  <title source="2693">Ps. Isidorus</title>
+                     <note type="MLGB3_generalNotes" source="2693">Measures 17" x 12"¾ and has 370 leaves; the
+                        table of contents header in large capitals, 'Incipit breviarium Canonum
+                        apostolorum comes on fol. 4v.</note>
+                     <msItem source="2693">
+                        <author>Ps. Isidorus (Isidorus Mercator)</author>
+                        <title>Collectio canonum</title>
+                     </msItem>
                   </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate when-custom="11XX" notBefore="1100" notAfter="1199" calendar="#gregorian">s. xii</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_198">Eton, Buckinghamshire. Royal
+                  <provenance source="2587"><orgName role="fmo" key="mlgbOrg_198">Eton, Buckinghamshire. Royal
                         College of the Assumption of Saint Mary the Virgin</orgName><p>"Liber
                         decretorum romanorum pontificum et incipit in 2o folio &lt;-&gt;tes viii"
                         (cf. MS.22).</p></provenance>
-               </history>
+               <provenance type="#m" source="2693"><orgName role="fmo" key="mlgbOrg_1">Exeter, Devon. Cathedral
+                        church of St Peter</orgName><p>Notes in the hand of Bishop John Grandison,
+                        see esp. fol. 137r: 'Nota hic quod papa se purgauit suspicione volens carere
+                        non ex necessitate . . . J Ex'. Identifiable by the opening words of the
+                        first leaf of text (fol. ivv) 'In Italia' with the 'Breviarium Canonum
+                        Apostolorum in magno volumine quod sic incipit In Ytalia pret' ijlib' in the
+                        Exeter Catalogue of 1327 (Oliver, Lives, p. 304).</p><note type="MLGB3_medievalCatalogueNotes">Cat., p. 304</note></provenance>
+                  </history>
                <additional>
                   <adminInfo>
                      <recordHist>
@@ -72,7 +88,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 2693 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

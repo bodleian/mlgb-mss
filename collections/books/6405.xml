@@ -41,20 +41,22 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">6405</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">5237</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Bonaventura, etc.</title>
-                     <note type="MLGB3_generalNotes">The text on fol. 75r-v is signed by the scribe:
+                     <title source="6405">Bonaventura, etc.</title>
+                     <note type="MLGB3_generalNotes" source="6405">The text on fol. 75r-v is signed by the scribe:
                         'Frater Thomas Grene Explicit'.</note>
+                  <title source="5237">Bonaventura, Vita s. Francisci, etc.</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate when-custom="14XX" notBefore="1400" notAfter="1499" calendar="#gregorian">s. xv</origDate>
                   </origin>
-                  <provenance type="#e" cert="low"><orgName role="fmo" key="mlgbOrg_232">Greenwich, Kent.
+                  <provenance type="#e" cert="low" source="6405"><orgName role="fmo" key="mlgbOrg_232">Greenwich, Kent.
                         Franciscan convent</orgName><p>At fol. 2, two erased inscriptions (s.
                         xv/xvi): 'Grenewyhiche' and 'Notum sit omnibus quod presens libellum
                         pertinet conventus fratrum minorum . . . . ex mu[t]uacione Willemi Dengayn';
@@ -64,7 +66,10 @@
                      Southampton (q.v.).</provenance>
                   <provenance type="MLGB3_laterOwners">'Symon Palmer Grenewich' (fol.
                      75v).</provenance>
-               </history>
+               <provenance type="#e" source="5237"><orgName role="fmo" key="mlgbOrg_510">Southampton,
+                        Hampshire. Franciscan convent</orgName><p>'Ad usum fratrum minorum de
+                        Zuythamptona' (fol. 2v), s. xv.</p></provenance>
+                  </history>
                <additional>
                   <adminInfo>
                      <recordHist>
@@ -76,7 +81,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 5237 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

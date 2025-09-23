@@ -41,22 +41,28 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">6504</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">5230</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Hugh of S. Victor</title>
+                     <title source="6504">Hugh of S. Victor</title>
+                  <title source="5230">Hugo de S. Victore, De arca Noe</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate when-custom="1150/1199" notBefore="1150" notAfter="1199" calendar="#gregorian">s. xii 2</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_59">Bordesley, Worcestershire.
+                  <provenance source="6504"><orgName role="fmo" key="mlgbOrg_59">Bordesley, Worcestershire.
                         Cistercian abbey of St Mary the Virgin</orgName><p> </p><p>Evidently made
                         for and at a Cistercian house and ‘Bordesleia [2 words]’ in hand
                         contemporary with text is on cover. Later at Shrewsbury Franciscans
                         (MLGB).</p></provenance>
+               <provenance type="#e" source="5230"><orgName role="fmo" key="mlgbOrg_504">Shrewsbury,
+                        Shropshire. Franciscan convent</orgName><p>'De communitate fratrum minorum
+                        Salopie et registratur hugo a.' (inside cover).</p><q type="pressmark">Hugo
+                        a.</q></provenance>
                </history>
                <additional>
                   <adminInfo>
@@ -69,7 +75,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 5230 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

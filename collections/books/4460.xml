@@ -41,23 +41,32 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">4460</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">7420</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Iacobus de Voragine, Legenda aurea</title>
+                     <title source="4460">Iacobus de Voragine, Legenda aurea</title>
+                  <title source="7420">Legenda aurea</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_456">Ramsey,
+                  <provenance type="#e" source="4460"><orgName role="fmo" key="mlgbOrg_456">Ramsey,
                         Huntingdonshire. Benedictine Abbey of Saint Mary the Virgin and St Benedict</orgName><p>'Legenda sanctorum Ecclesie Rameseye si quis / [...]erit
                         anathema sit' on pasted down side of 2nd pastedown.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Given to Peterhouse by
                      Warkeworth.</provenance>
-               </history>
+               <provenance type="#e" source="7420"><orgName role="fmo" key="mlgbOrg_106">Cambridge,
+                        Cambridgeshire. Peterhouse (Collegium Sancti Petri)</orgName><p>‘Legenda
+                        sanctorum ecclesie Rameseye si quis [alienau]erit anatema sit’ (beneath rear
+                        pastedown)</p><p>‘Liber Collegii Sancti Petri in Cantebr’ ex dono magistri
+                        Iohannis Warkeworth magistri dicti collegii sub interminacione anathematis
+                        nullatenus alienandus a libraria eiusdem collegii’ (fol. iiiv)</p><p>See
+                        also Ramsey Abbey</p></provenance>
+                  </history>
                <additional>
                   <adminInfo>
                      <recordHist>
@@ -69,7 +78,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 7420 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>
