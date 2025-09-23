@@ -37,12 +37,20 @@
                   <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>St John's College</repository>
-                  <idno type="shelfmark">MS 198 fols. 1-175</idno>
+                  <idno type="shelfmark">MS 198</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3555</idno>
                   </altIdentifier>
-               </msIdentifier>
-               <msContents>
+               <altIdentifier><idno type="MLGB3">462</idno>
+                  </altIdentifier></msIdentifier>
+                  <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+               <msPart><msIdentifier><altIdentifier><idno type="part">MS 198 fols. 1-175</idno></altIdentifier></msIdentifier><msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>W. Heytisbury, etc.</title>
@@ -64,11 +72,29 @@
                         inscription is written beneath and later than the table of
                      contents.</p></provenance>
                </history>
-            </msDesc>
+            </msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS 198 fols. 176-183</idno></altIdentifier></msIdentifier><msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Logica</title>
+                     <note type="MLGB3_generalNotes">Another inscription (see under Chichester,
+                        Dominican convent) shows that Claxton belonged to the Boston convent, and
+                        suggests that William Lovent acquired part of the manuscript from him. See
+                        also Leicester, Dominican convent.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="13XX" notBefore="1300" notAfter="1399" calendar="#gregorian">s. xiv</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_60">Boston, Lincolnshire.
+                        Dominican convent</orgName><p>'Iste est quaternus Fratris Iohannis de
+                        Claxton ordinis predicatorum' (fol. 176r).</p><p> </p></provenance>
+               </history>
+            </msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 462 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

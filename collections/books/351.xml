@@ -41,26 +41,39 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">351</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">1717</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Psalterium</title>
-                     <note type="MLGB3_generalNotes">See also under Chichester cathedral.</note>
+                     <title source="351">Psalterium</title>
+                     <note type="MLGB3_generalNotes" source="351">See also under Chichester cathedral.</note>
+                  <title source="1717">Psalterium, with obits</title>
+                     <note type="MLGB3_generalNotes" source="1717">See also under Barnwell priory.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219" calendar="#gregorian">s. xiii in.</origDate>
                   </origin>
-                  <provenance type="#l" cert="low"><orgName role="fmo" key="mlgbOrg_32">Barnwell,
+                  <provenance type="#l" cert="low" source="351"><orgName role="fmo" key="mlgbOrg_32">Barnwell,
                         Cambridgeshire. Augustinian priory of St Giles</orgName></provenance>
+               <provenance type="#i" source="1717"><orgName role="fmo" key="mlgbOrg_139">Chichester, West
+                        Sussex. Cathedral church of Holy Trinity</orgName><p>Contains obits for
+                        bishops of Chichester and cathedral clergy.</p></provenance>
                </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 1717 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

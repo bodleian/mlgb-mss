@@ -41,7 +41,8 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">980</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">1008</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
@@ -52,17 +53,31 @@
                   <origin>
                      <origDate when-custom="1101/1400" notBefore="1101" notAfter="1400" calendar="#gregorian">s. xii--xiv</origDate>
                   </origin>
-                  <provenance type="#e" cert="low"><orgName role="fmo" key="mlgbOrg_100">Cambridge,
+                  <provenance type="#e" cert="low" source="980"><orgName role="fmo" key="mlgbOrg_100">Cambridge,
                         Cambridgeshire. Gonville Hall</orgName><p>A long erased note following the
                         table of contents, fol. 1*v. A reagent has been used. Probably this note
                         accounts for the entry by J. A. Herbert in the class-catalogue that this MS
                         belonged to St Peter's or Gonville Hall in 1474.</p></provenance>
-               </history>
+               <provenance type="#e" cert="low" source="1008"><orgName role="fmo" key="mlgbOrg_106">Cambridge,
+                        Cambridgeshire. Peterhouse (Collegium Sancti Petri)</orgName><p>A long
+                        erased note following table of contents on fol. 1*v. A reagent has been
+                        used.</p><p>Like Egerton 889, this table of contents is numbered and headed
+                        'Contenta in hoc volumine sunt ista', in the hand of Roger
+                        Marchall.</p><p>Fol. 1r: 'Iste liber est scriptus anno domini 1272. .
+                     .'</p></provenance>
+                  </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 1008 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

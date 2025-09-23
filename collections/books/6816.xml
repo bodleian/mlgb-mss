@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6816">
+<TEI xml:id="book_6816" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,6 +10,10 @@
                <resp when="2025">Markup and encoding</resp>
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
+            </respStmt>
+            <respStmt>
+               <resp when="2025">Revision</resp>
+               <persName>Andrew Dunning</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -22,8 +26,7 @@
                   <settlement>Oxford</settlement>
                   <postCode>OX1 3BG</postCode>
                   <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
                   </addrLine>
                   <addrLine>
                      <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
@@ -41,38 +44,85 @@
                      <idno type="MLGB3">6816</idno>
                   </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>(1) Recollecte Gaietani; (2) J. Canonicus</title>
-                     <note type="MLGB3_generalNotes">Binding is by Garrett Godfrey, rolls I and IV;
-                        it includes ms fragments.</note>
-                     <note type="MLGB3_generalNotes">Item (1) is ISTC ig00036000.</note>
-                     <note type="MLGB3_generalNotes">First recorded in the Supplement, with location
-                        untraced and it stated that (2) was detached and appeared at Sotheby's,
-                        London, 14 November 1918, lot 751 (sold to Ellis). Both printings, however,
-                        are recorded as now being in the Countway Library.</note>
-                  </msItem>
-               </msContents>
-               <physDesc> <typeDesc><p>Printed book.</p></typeDesc> </physDesc><history>
-                  <origin>
-                     <origDate when-custom="1516" when="1516" calendar="#gregorian">(1) Venice: Johannes Hertzog; (2) Venice: Giunta, 1516</origDate>
-                  </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_407">Norwich, Norfolk.
-                        Dominican convent</orgName><p>Two printings in one early binding, both
-                        with ownership note of frater Thomas Bryggs; (1) has, in upper margin of
-                        A2r, 'Liber ... ord[in]is p[rae]dica[torum] nortvic. ex dono ff[rat]ris
-                        tho[m]e bryggs'.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Thomas Bryggs, prior of Norwich convent,
-                     1534: see A. B. Emden, A survey of Dominicans in England (London, 1967), p.
-                     289.</provenance>
-                  <provenance type="MLGB3_laterOwners">The volume was in the Sherbrooke sale, 27
-                     June 1912, lot 458.</provenance>
+               <physDesc>
+                  <typeDesc>
+                     <p>Printed book.</p>
+                  </typeDesc>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <p>Garrett Godfrey, rolls I and IV; it includes two fragments of early 13th-century Latin theological manuscripts, probably of English origin.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <provenance type="#e"><orgName key="mlgbOrg_407" role="fmo">Norwich, Norfolk. Dominican convent</orgName>
+                     <p>Two printings in one early binding, both with ownership note of frater Thomas Bryggs, <q>Iste p<ex>er</ex>tinet ad ffr<ex>atrem</ex> Thom<ex>am</ex> Bryggs <ex>con</ex>ue<ex>n</ex>t<ex>us</ex> ort nortviciens<ex>is</ex></q>; part 1 has, in upper margin of A2r, <q>Liber … ord<ex>in</ex>is p<ex>rae</ex>dica<ex>torum</ex> nortvic. ex dono ff<ex>rat</ex>ris tho<ex>m</ex>e bryggs</q>.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Thomas Bryggs, prior of Norwich convent, 1534: see A. B. Emden, <title>A survey of Dominicans in England</title> (London, 1967), p. 289.</provenance>
+                  <provenance type="MLGB3_laterOwners">The volume was in the Sherbrooke sale, 27 June 1912, lot 458.</provenance>
+                  <provenance type="MLGB3_laterOwners">First recorded in the <title>Medieval Libraries Supplement</title> with location untraced; it stated that part 2 was detached and appeared at Sotheby’s, London, 14 November 1918, lot 751 (sold to Ellis). The <ref target="https://id.lib.harvard.edu/alma/990095411880203941/catalog">Harvard Library catalogue</ref> states that the volume contains both parts.</provenance>
                </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno type="part">Ballard 329, part 1</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Recollecte Gaietani</title>
+                        <bibl type="repertory"><ref target="https://data.cerl.org/istc/ig00036000">ISTC ig00036000</ref></bibl>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart"/>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Venice: Johannes Hertzog</origPlace>
+                        <origDate calendar="#gregorian" when="1500" when-custom="1500">1500</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno type="part">Ballard 329, part 2</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <author>John Canonicus</author>
+                        <title>Quaestiones in libros Physicorum Aristotelis</title>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart"/>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Venice: Giunta</origPlace>
+                        <origDate calendar="#gregorian" when="1516" when-custom="1516">1516</origDate>
+                     </origin>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2025-09-09">Updated from Harvard catalogue.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

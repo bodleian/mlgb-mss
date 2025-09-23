@@ -37,12 +37,20 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS Cotton Cleopatra D.ix fols. 5-79</idno>
+                  <idno type="shelfmark">MS Cotton Cleopatra D.ix</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3596</idno>
                   </altIdentifier>
-               </msIdentifier>
-               <msContents>
+               <altIdentifier><idno type="MLGB3">2845</idno>
+                  </altIdentifier></msIdentifier>
+                  <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+               <msPart><msIdentifier><altIdentifier><idno type="part">MS Cotton Cleopatra D.ix fols. 5-79</idno></altIdentifier></msIdentifier><msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Chronicon ad annum 1292, etc.; List of bishops of Lichfield</title>
@@ -58,11 +66,26 @@
                         which is said to be copied from this.</p><p>See H. E. Savage, Magnum
                         Registrum Album, Wm. Salt Arch. Soc. 1924 (1926), p. xvi.</p></provenance>
                </history>
-            </msDesc>
+            </msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS Cotton Cleopatra D.ix fols. 84-88</idno></altIdentifier></msIdentifier><msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Chronicon</title>
+                     <note type="MLGB3_generalNotes">Fols. 80--83 are possibly part of the same
+                        MS.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="13XX" notBefore="1300" notAfter="1399" calendar="#gregorian">s. xiv</origDate>
+                  </origin>
+                  <provenance type="#c" cert="low"><orgName role="fmo" key="mlgbOrg_213">Fineshade,
+                        Northamptonshire. Augustinian priory of St Mary the Virgin</orgName><p>Fineshade memoranda on fol. 88v.</p><p> </p></provenance>
+               </history>
+            </msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 2845 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

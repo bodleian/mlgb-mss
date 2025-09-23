@@ -41,28 +41,42 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">3246</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">3736</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Ivo Carnotensis, Chronicon; Holyrood chronicle</title>
+                     <title source="3246">Ivo Carnotensis, Chronicon; Holyrood chronicle</title>
+                  <title source="3736">Ivo Carnotensis, Chronicon; Holyrood Chronicle</title>
+                     <note type="MLGB3_generalNotes" source="3736">Old binding.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate when-custom="11XX" notBefore="1100" notAfter="1199" calendar="#gregorian">s. xii</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_262">Holyrood, Midlothian.
+                  <provenance type="#c" source="3246"><orgName role="fmo" key="mlgbOrg_262">Holyrood, Midlothian.
                         Augustinian abbey of Holy Cross, St Mary the Virgin and All Saints</orgName><p>"It is most likely that the book was written at Holyrood Abbey"
                         (MRJ). </p></provenance>
                   <provenance type="MLGB3_laterOwners">Later it belonged to St Serf's church,
                      Kinross.</provenance>
+               <provenance type="#e" source="3736"><orgName role="fmo" key="mlgbOrg_329">Loch Leven, Kinross.
+                        Augustinian priory of St Serif</orgName><p>"Liber sancte Marie de sancto
+                        Servano ex dono Willelmi filii Dunecani quondam persone ipsius ecclesie."
+                        (s. xiii in.?, fol. 1r).</p></provenance>
                </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 3736 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

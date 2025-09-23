@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6282">
+<TEI xml:id="book_6282" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,8 +22,7 @@
                   <settlement>Oxford</settlement>
                   <postCode>OX1 3BG</postCode>
                   <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
                   </addrLine>
                   <addrLine>
                      <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
@@ -34,10 +33,10 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <country>Japan</country>
-                  <settlement>Tokyo</settlement>
-                  <repository>Prof. T. Takamiya</repository>
-                  <idno type="shelfmark">MS 14</idno>
+                  <country>USA</country>
+                  <settlement>New Haven (CT)</settlement>
+                  <repository>Beinecke Library</repository>
+                  <idno type="shelfmark">Takamiya MS 14</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6282</idno>
                   </altIdentifier>
@@ -52,16 +51,24 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="12XX/13XX" notBefore="1200" notAfter="1399" calendar="#gregorian">s. xiii/xiv</origDate>
+                     <origDate calendar="#gregorian" notAfter="1399" notBefore="1200" when-custom="12XX/13XX">s. xiii/xiv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_603">Worcester,
-                        Worcestershire. Dominican convent</orgName><p>'Liber conuentus fratrum
-                        predicatorum [W]ygor[nie]' erased, but legible by u. v. light (on pastedwon,
-                        s. xiv).</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Helmingham Hall, 49, at which location it was
-                     recorded in MLGB; this was superseded in the Supplement with the location
-                     recorded here.</provenance>
+                  <provenance type="#e"><orgName key="mlgbOrg_603" role="fmo">Worcester, Worcestershire. Dominican convent</orgName>
+                     <p><q>Liber conuentus fratrum predicatorum [W]ygor[nie]</q> erased, but legible by UV light (on pastedown, s. xiv).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Helmingham Hall, 49, at which location it was recorded in MLGB.</provenance>
+                  <provenance type="MLGB3_laterOwners">Prof. T. Takamiya</provenance>
                </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl subtype="full" type="digital-facsimile"><ref target="https://collections.library.yale.edu/catalog/16157840"><title>Yale University Library: Digital Collections</title></ref>
+                        <note>(full digital facsimile)</note></bibl>
+                  </surrogates>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

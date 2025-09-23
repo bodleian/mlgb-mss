@@ -41,22 +41,26 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">963</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">3703</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Augustinus</title>
-                     <msItem>
+                     <title source="963">Augustinus</title>
+                     <msItem source="963">
                         <author>Augustine</author>
                         <title>Enarrationes in Psalmos</title>
                      </msItem>
+                  <title source="3703">Augustinus in Psalmos 51--150</title>
+                     <note type="MLGB3_generalNotes" source="3703">Given by fr. J. Longsey (?) de Brocklesby
+                        (Lincolnshire) to the Austin friars of Cambridge in 1357, q. v. </note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate when-custom="11XX" notBefore="1100" notAfter="1199" calendar="#gregorian">s. xii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_96">Cambridge,
+                  <provenance type="#e" source="963"><orgName role="fmo" key="mlgbOrg_96">Cambridge,
                         Cambridgeshire. Convent of Austin friars</orgName><p>'Frater Iohannes
                         Longspey de Broklesby ordinis sancti Augustini dedit istum librum scilicet
                         mediam quinquagenam nectaris Aurelii Augustini super psalmos comunitati
@@ -67,12 +71,23 @@
                   <provenance type="MLGB3_laterOwners"> </provenance>
                   <provenance type="MLGB3_laterOwners">Gugliemo Sirleto (1514--1585), cardinal and
                      scholar, his no. 388.</provenance>
-               </history>
+               <provenance type="#e" source="3703"><orgName role="fmo" key="mlgbOrg_318">Lincoln, Lincolnshire.
+                        Convent of Austin friars</orgName><p>(fol. 288r) 'Iste liber constat
+                        communitati fratrum heremitarum ville lingolnie' (s. xiv
+                     in.)</p></provenance>
+                  </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 3703 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>
