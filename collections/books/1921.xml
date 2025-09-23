@@ -37,12 +37,20 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS Cotton Cleopatra A.xii fols. 4-62</idno>
+                  <idno type="shelfmark">MS Cotton Cleopatra A.xii</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1921</idno>
                   </altIdentifier>
-               </msIdentifier>
-               <msContents>
+               <altIdentifier><idno type="MLGB3">1496</idno>
+                  </altIdentifier></msIdentifier>
+                   <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+               <msPart><msIdentifier><altIdentifier><idno type="part">MS Cotton Cleopatra A.xii fols. 4-62</idno></altIdentifier></msIdentifier><msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Chronicon Anglie</title>
@@ -61,18 +69,25 @@
                   <provenance type="MLGB3_laterOwners">Contents list fol. 4v headed "Liber Henrici
                      de silegraue".</provenance>
                </history>
-               <additional>
-                  <adminInfo>
-                     <recordHist>
-                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
-                     </recordHist>
-                  </adminInfo>
-               </additional>
-            </msDesc>
+            </msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS Cotton Cleopatra A.xii fols. 79-144</idno></altIdentifier></msIdentifier><msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Penitentiale</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219" calendar="#gregorian">s. xiii in.</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_122">Canterbury, Kent. Benedictine
+                        abbey of St Augustine (originally of St Peter and St Paul)</orgName><p>"D'
+                        IX Ga I."</p><q type="pressmark">D.ix G.i</q></provenance>
+               </history>
+            </msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 1496 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

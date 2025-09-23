@@ -37,12 +37,20 @@
                   <country>England</country>
                   <settlement>Worcester</settlement>
                   <repository>Cathedral</repository>
-                  <idno type="shelfmark">MS F.4, fols 1-167</idno>
+                  <idno type="shelfmark">MS F.4</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6709</idno>
                   </altIdentifier>
-               </msIdentifier>
-               <msContents>
+               <altIdentifier><idno type="MLGB3">6710</idno>
+                  </altIdentifier></msIdentifier>
+                  <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+               <msPart><msIdentifier><altIdentifier><idno type="part">MS F.4, fols 1-167</idno></altIdentifier></msIdentifier><msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Aristoteles</title>
@@ -66,18 +74,35 @@
                         Benedictine cathedral priory of St Mary the Virgin</orgName><p>Label
                         pasted to fol. 235v.</p></provenance>
                </history>
-               <additional>
-                  <adminInfo>
-                     <recordHist>
-                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
-                     </recordHist>
-                  </adminInfo>
-               </additional>
-            </msDesc>
+            </msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS F.4, fols 168-234</idno></altIdentifier></msIdentifier><msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Aristoteles</title>
+                     <note type="MLGB3_generalNotes">'Pignus Roberti de Sower'(?) pro aula orientale
+                        contra murum' (s. xiii; fol. 168).</note>
+                     <note type="MLGB3_generalNotes">'Caucio Johannis de Sancto Germano impignoratus
+                        in cista communi pro duabus sol', 21 July 1295 (fol. 234). John of St German
+                        and others are referred to in a note about book loans on fol. 234.</note>
+                     <note type="MLGB3_generalNotes">Bound by s. xvi in with MS F.4 fols 1-167, as
+                        appears from the label which covers both volumes.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_601">Worcester, Worcestershire.
+                        Benedictine cathedral priory of St Mary the Virgin</orgName><p>Label
+                        pasted to fol. 235v.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'Pignus Roberti de Sower'(?) pro aula
+                     orientale contra murum' (s. xiii; fol. 168).</provenance>
+                  <provenance type="MLGB3_laterOwners"> </provenance>
+               </history>
+            </msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 6710 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

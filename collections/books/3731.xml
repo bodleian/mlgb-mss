@@ -37,12 +37,20 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>Lambeth Palace Library</repository>
-                  <idno type="shelfmark">MS 380 fols. 1-120</idno>
+                  <idno type="shelfmark">MS 380</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3731</idno>
                   </altIdentifier>
-               </msIdentifier>
-               <msContents>
+               <altIdentifier><idno type="MLGB3">3476</idno>
+                  </altIdentifier></msIdentifier>
+                  <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+               <msPart><msIdentifier><altIdentifier><idno type="part">MS 380 fols. 1-120</idno></altIdentifier></msIdentifier><msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Isidorus, De summo bono, etc.</title>
@@ -62,18 +70,29 @@
                         "canonicus lanthonie prime" in 1463--1464, apparently in the same
                      hand).</p></provenance>
                </history>
-               <additional>
-                  <adminInfo>
-                     <recordHist>
-                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
-                     </recordHist>
-                  </adminInfo>
-               </additional>
-            </msDesc>
+            </msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS 380 fols. 1-120 (pt. i), 121-228 (pt. ii)</idno></altIdentifier></msIdentifier><msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Isidorus, De summo bono, De ecclesiasticis officiis etc.</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="1180/1200" notBefore="1180" notAfter="1200" calendar="#gregorian">s. xii ex.; xii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_295">Lanthony (secunda),
+                        Gloucestershire. Augustinian priory of St Mary the Virgin and St John the
+                        Baptist</orgName><p>On fol. 114v of part i in a neat hand s. xvi: "Hic
+                        liber est scriptus qui composuit sit benedictus quod Amouerley [? apparently
+                        in the same hand as an inscription by Amoverley in Oxford, CCC 83 (same
+                        name)]."</p><p>"Liber lantonie [then an erased word]" (fol.
+                     121r)</p></provenance>
+               </history>
+            </msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 3476 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

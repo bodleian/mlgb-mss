@@ -37,12 +37,20 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS Cotton Faustina A.ii fols. 2-98</idno>
+                  <idno type="shelfmark">MS Cotton Faustina A.ii</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5218</idno>
                   </altIdentifier>
-               </msIdentifier>
-               <msContents>
+               <altIdentifier><idno type="MLGB3">2842</idno>
+                  </altIdentifier></msIdentifier>
+                  <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+               <msPart><msIdentifier><altIdentifier><idno type="part">MS Cotton Faustina A.ii fols. 2-98</idno></altIdentifier></msIdentifier><msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Compotus, etc.</title>
@@ -56,18 +64,31 @@
                         Benedictine abbey of St Mary the Virgin; seat of bishopric until A. D. 1078</orgName><p>Calendar assigned on liturgical evidence; the MS. contains also
                         a Sherborne register.</p></provenance>
                </history>
-               <additional>
-                  <adminInfo>
-                     <recordHist>
-                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
-                     </recordHist>
-                  </adminInfo>
-               </additional>
-            </msDesc>
+            </msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS Cotton Faustina A.ii fols. 99-175</idno></altIdentifier></msIdentifier><msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Paradisus Heraclidis</title>
+                     <note type="MLGB3_generalNotes">30 long lines.</note>
+                     <note type="MLGB3_generalNotes">Hard point ruling.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="114X/115X" notBefore="1140" notAfter="1159" calendar="#gregorian">s. xii med.</origDate>
+                  </origin>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_211">North Ferriby,
+                        Yorkshire. Augustinian priory of St Mary the Virgin</orgName><p>On fol.
+                        175r, added at the end of text, s. xv: "Et pro me Anlaby. dignare preces
+                        fundere. qui hoc speculum sanctorum patrum intuis: et orum vestigia
+                        consequeris"; Thomas Anlaby (Emden, BRUC, p. 13) gave Paradisus in 1454 (cf.
+                        M.R. James, "The Anlaby Cartulary", Yorkshire Arch. Journal 31; and Emden,
+                        BRUC, p. 13).</p></provenance>
+               </history>
+            </msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 2842 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

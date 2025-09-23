@@ -37,12 +37,20 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS Royal 8 C.iv fols. 2-156</idno>
+                  <idno type="shelfmark">MS Royal 8 C.iv</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">781</idno>
                   </altIdentifier>
-               </msIdentifier>
-               <msContents>
+               <altIdentifier><idno type="MLGB3">782</idno>
+                  </altIdentifier></msIdentifier>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+               <msPart><msIdentifier><altIdentifier><idno type="part">MS Royal 8 C.iv fols. 2-156</idno></altIdentifier></msIdentifier><msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>R. Grosseteste, etc.</title>
@@ -61,18 +69,32 @@
                   <provenance type="MLGB3_laterOwners">John Lumley, first Baron Lumley (c.
                      1533--1609).</provenance>
                </history>
-               <additional>
-                  <adminInfo>
-                     <recordHist>
-                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
-                     </recordHist>
-                  </adminInfo>
-               </additional>
+            </msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS Royal 8 C.iv fols. 157-211</idno></altIdentifier></msIdentifier><msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Medica</title>
+                     <note type="MLGB3_generalNotes">Royal 8 C.iv fols. iv, 1 were added when the
+                        two parts (fols. 2--156 and 157--211) were put together in s. xv.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199" calendar="#gregorian">s. xii ex</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_86">Bury St Edmunds,
+                        Suffolk. Benedictine abbey of St Edmund, King and Martyr</orgName><p>'Iste
+                        liber pertinet ad cenobium s. Edmundi et traditus fuit Ade de Hakeford per
+                        dominum Iohannem de Waxingam monacum' (fol. 157r).</p><p>Bound together with
+                        fols. 2--156 before the 15th-cent. table of contents was completed.</p><q type="pressmark">M.35</q></provenance>
+                  <provenance type="MLGB3_laterOwners">John Lumley, first Baron Lumley (c.
+                     1533--1609).</provenance>
+               </history>
+            </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 782 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

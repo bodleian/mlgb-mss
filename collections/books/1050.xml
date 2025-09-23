@@ -37,12 +37,20 @@
                   <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Corpus Christi College</repository>
-                  <idno type="shelfmark">MS 63, fols. 1-198</idno>
+                  <idno type="shelfmark">MS 63</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1050</idno>
                   </altIdentifier>
-               </msIdentifier>
-               <msContents>
+               <altIdentifier><idno type="MLGB3">1051</idno>
+                  </altIdentifier></msIdentifier>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+               <msPart><msIdentifier><altIdentifier><idno type="part">MS 63, fols. 1-198</idno></altIdentifier></msIdentifier><msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Anselmus, etc.</title>
@@ -61,18 +69,26 @@
                   <provenance type="MLGB3_laterOwners">Matthew Parker(1504--1575), archbishop of
                      Canterbury.</provenance>
                </history>
-               <additional>
-                  <adminInfo>
-                     <recordHist>
-                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
-                     </recordHist>
-                  </adminInfo>
-               </additional>
+            </msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS 63, fols. 199-236</idno></altIdentifier></msIdentifier><msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Bernardus</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_4">Canterbury, Kent. Benedictine
+                        cathedral priory of Holy Trinity or Christ Church</orgName><p>On first
+                        leaf, title and usual form of pressmark: D.IIIa gra.XIII.us</p><q type="pressmark">D.iii G.xiii</q></provenance>
+               </history>
+            </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 1051 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>
