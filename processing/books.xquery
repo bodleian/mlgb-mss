@@ -211,8 +211,6 @@ declare function local:currentlocations($country as xs:string, $settlement as xs
                         for $evidence in $evidences
                         return tokenize(substring-after($evidence/@type, '#'), ' ')
                     )
-        
-                (:let $evidencetypes := tokenize(substring-after($evidences/@type, '#'), ' '):)
                 let $repository := normalize-space($ms//tei:msDesc/tei:msIdentifier/tei:repository[1]/text())
                 let $settlement := normalize-space($ms//tei:msDesc/tei:msIdentifier/tei:settlement[1]/text())
                 let $country := normalize-space($ms//tei:msDesc/tei:msIdentifier/tei:country[1]/text())   
