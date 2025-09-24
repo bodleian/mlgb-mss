@@ -37,34 +37,48 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS Arundel 201 fols. 44-97</idno>
+                  <idno type="shelfmark">Arundel MS 201 fols. 44-97</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4835</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">4836</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Carmina, etc.</title>
+                     <title source="4835">Carmina, etc.</title>
+                  <title source="4836">Carmina (in Latin)</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate when-custom="1101/1225" notBefore="1101" notAfter="1225" calendar="#gregorian">s. xii--xiii in.</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_474">St Albans,
+                  <provenance type="#c" cert="low" source="4835"><orgName role="fmo" key="mlgbOrg_474">St Albans,
                         Hertfordshire. Benedictine abbey of St Alban</orgName><p>Verses 'Abbatis
                         Iohannis' added in margins of fols. 50v, 51r (In denc sub spina ...), 68v.
                         Prayer to St Alban and verses on St Orwin added on fol. 96v. Scribble of s.
                         xv--xvi on fol. 77v, 'Noverint universi per presentes me Thomam lothryngham
                         de Wymundham in comitatu Norff. husbondman tenere et firmiter obligere' (s.
                         xvi).</p></provenance>
+               <provenance type="#c" cert="low" source="4836"><orgName role="fmo" key="mlgbOrg_474">St Albans,
+                        Hertfordshire. Benedictine abbey of St Alban</orgName><p>R. M. Thomson,
+                        MSS. from St Albans Abbey 1, p. 90, 'A St Albans origin can be inferred from
+                        the verses in honour of Alban and Oswine, and from the attribution of item 2
+                        to Abbot John de Cella'.</p></provenance>
                </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 4836 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

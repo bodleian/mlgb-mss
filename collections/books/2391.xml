@@ -37,13 +37,21 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS Cotton Vespasian B.x fols. 1-23</idno>
+                  <idno type="shelfmark">Cotton MS Vespasian B.x</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">2391</idno>
                   </altIdentifier>
-               </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+               <altIdentifier><idno type="MLGB3">5953</idno>
+                  </altIdentifier></msIdentifier>
+                   <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+               <msPart><msIdentifier><altIdentifier><idno type="part">MS Cotton Vespasian B.x fols. 1-23</idno></altIdentifier></msIdentifier><msContents>
+                  <textLang mainLang="xno" otherLangs="la">Anglo-Norman and Latin</textLang>
                   <msItem>
                      <title>Vita s. Brendani (in French verse &amp; Latin prose); Vita s.
                         Longini</title>
@@ -62,11 +70,30 @@
                   <provenance type="MLGB3_laterOwners">"Johannes Wherton" (name on fol.
                      23r).</provenance>
                </history>
-            </msDesc>
+            </msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS Cotton Vespasian B.x fols. 31-124</idno></altIdentifier></msIdentifier><msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Ethicus, Cosmographia</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="0901/1100" notBefore="0901" notAfter="1100" calendar="#gregorian">s. x--xi</origDate>
+                  </origin>
+                  <provenance cert="low"><orgName role="fmo" key="mlgbOrg_601">Worcester, Worcestershire.
+                        Benedictine cathedral priory of St Mary the Virgin</orgName><p>Worcester
+                        provenance has been suggested on the ground of John Dee's note (C. H.
+                        Turner, Early Worcester MSS., p. lxxi). Bound with life of St Brandan etc.
+                        by Cotton. </p><p>Leland includes Ethicus among the dozen items he noted in
+                        the Worcester library.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">"Joannes Dee 1565 februarii 21 Wigorniae, ex
+                     dono decani ecclesiae Mr. Peedai" (fol. 31r), s. xvi.</provenance>
+               </history>
+            </msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 5953 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

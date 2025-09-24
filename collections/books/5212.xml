@@ -41,25 +41,33 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">5212</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">5855</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Vitas patrum</title>
+                     <title source="5212">Vitas patrum</title>
+                  <title source="5855">Vitas patrum, etc.</title>
+                     <note type="MLGB3_generalNotes" source="5855">Earlier at Shelford, q. v.</note>
+                     <note type="MLGB3_generalNotes" source="5855">The leaf of a lectionary in the binding was in
+                        use in binding in s. xv as scribbles show.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate when-custom="11XX" notBefore="1100" notAfter="1199" calendar="#gregorian">s. xii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_498">Shelford,
+                  <provenance type="#e" source="5212"><orgName role="fmo" key="mlgbOrg_498">Shelford,
                         Nottinghamshire. Augustinian priory of St Mary the Virgin</orgName><p>'Liber sancte Marie de shelford' in red at head of second col.
                         of fol. 1r (s. xii or xiii) -- inscr. faded so that l and r are not quite
                         certain and f might be s.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Given to Bodley by the Dean and Canons of
                      Windsor in 1612.</provenance>
+               <provenance source="5855"><orgName role="fmo" key="mlgbOrg_596">Windsor, Berkshire. Royal
+                        collegiate chapel of St George</orgName><p>Usual chain marks on medieval
+                        binding (s. xv), which generally resembles Bodl. 192.</p><p> </p></provenance>
                </history>
-            <additional><surrogates><bibl subtype="partial" type="digital-facsimile">
+            <additional><adminInfo><recordHist><source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source></recordHist></adminInfo><surrogates><bibl subtype="partial" type="digital-facsimile">
                         <ref target="https://digital.bodleian.ox.ac.uk/objects/daf87f5f-ad12-4e0f-9534-bff6a7fbf6a4/">
                            <title>Digital Bodleian</title>
                         </ref>
@@ -69,7 +77,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 5855 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

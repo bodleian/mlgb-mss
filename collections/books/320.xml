@@ -37,22 +37,24 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS Royal 9 B.ix</idno>
+                  <idno type="shelfmark">Royal MS 9 B.ix</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">320</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">5442</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>P. Lombardus</title>
+                     <title source="320">P. Lombardus</title>
+                  <title source="5442">Petrus Lombardus, Sententiae</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219" calendar="#gregorian">s. xiii in.</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_29">Bardney, Lincolnshire.
+                  <provenance type="#e" source="320"><orgName role="fmo" key="mlgbOrg_29">Bardney, Lincolnshire.
                         Benedictine abbey of St Peter, St Paul, and St Oswald</orgName><p>Given by
                         Roger de Fuldon, archdeacon of Lincoln (1255/6--77), 'deo et S. Oswaldo et
                         abbati \Petro de Bartona/ et conuentui de Bardoneia' (fol. i verso). Later
@@ -64,12 +66,24 @@
                      brother of Henry, vicar of N. Elkington (Lincs).</provenance>
                   <provenance type="MLGB3_laterOwners">King Henry VIII (Westminster inventory of
                      1542, H2.784)</provenance>
+               <provenance type="#e" source="5442"><orgName role="fmo" key="mlgbOrg_539">Tattershall,
+                        Lincolnshire. Collegiate church of the Holy Trinity and St Mary the Virgin</orgName><p>'Collegium de Tatteshall' (fol. 4r)</p><p>'Hunc librum emit
+                        Gigur de executoribus magistri More [!]' (fol. 1v, s. xv
+                        in.).</p><p>Formerly belonged to Bardney (q. v.) and perhas recovered later
+                        by that house.</p></provenance>
                </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 5442 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

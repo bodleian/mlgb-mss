@@ -41,13 +41,22 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">149</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">224</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Florentius Wigornensis</title>
-                     <msItem>
+                     <title source="149">Florentius Wigornensis</title>
+                     <msItem source="149">
                         <title>John of Worcester, Chronica chronicarum</title>
+                     </msItem>
+                  <title source="224">Florentius Wigornensis, etc.</title>
+                     <note type="MLGB3_generalNotes" source="224">The manuscript contains Peterborough
+                        adaptations of the Bury exemplar (through Abingdon), London, College of
+                        Arms, Arundel 3.</note>
+                     <msItem source="224">
+                        <author>John of Worcester ('Florence of Worcester')</author>
+                        <title>Chronica chronicarum</title>
                      </msItem>
                   </msItem>
                </msContents>
@@ -55,15 +64,27 @@
                   <origin>
                      <origDate when-custom="1180/1400" notBefore="1180" notAfter="1400" calendar="#gregorian">s. xii ex.--xiv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_2">Peterborough,
+                  <provenance type="#e" source="149"><orgName role="fmo" key="mlgbOrg_2">Peterborough,
                         Northamptonshire. Benedictine abbey of St Peter, St Paul, and St Andrew</orgName><p>At top of fol. 1r: 'Liber abbatis et conuentus de Burgo sancti
                         Petri'.</p></provenance>
-               </history>
+               <provenance type="#c" source="224"><orgName role="fmo" key="mlgbOrg_14">Abingdon, Berkshire.
+                        Benedictine abbey of St Mary the Virgin</orgName><p>Later at Peterborough
+                        but written at Abingdon after 1174. See M. Brett in The Writing of History
+                        in the Middle Ages: Essays Presented to Richard William Southern, ed. R. H.
+                        C. Davis &amp; others (Oxford 1981), 108.</p></provenance>
+                  </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 224 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

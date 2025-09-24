@@ -37,15 +37,15 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS Arundel 230</idno>
+                  <idno type="shelfmark">Arundel MS 230</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1842</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                  <textLang mainLang="la" otherLangs="xno">Latin and Anglo-Norman</textLang>
                   <msItem>
-                     <title>Psalterium cum Kalendario (Latin and French), etc.</title>
+                     <title>Psalterium cum Kalendario, etc.</title>
                      <note type="MLGB3_generalNotes">The Psalter has a French version. See further
                         F. Wormald, Engl. Ben. Kalendars after a. d. 1100 1 (HBS 1938) 113.</note>
                   </msItem>
@@ -54,13 +54,20 @@
                   <origin>
                      <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299" calendar="#gregorian">s. xii--xiii</origDate>
                   </origin>
-                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_165">Crowland,
+                  <provenance type="#l" cert="low"><orgName role="fmo" key="mlgbOrg_165">Crowland,
                         Lincolnshire. Benedictine abbey of St Mary the Virgin, St Bartholomew, and
                         St Guthlac</orgName><p>'The Kalendar indicates Croyland by the presence of
                         2 feasts of St Guthlac and a feast of St Bega. The litany on the other hand
                         is apparently for Peterborough. Peter, Oswald, Athelwold all involved twice'
                         (note at front of volume).</p><p> </p></provenance>
                </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

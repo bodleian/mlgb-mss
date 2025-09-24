@@ -41,27 +41,40 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">1220</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">1452</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Psalterium</title>
+                     <title source="1220">Psalterium</title>
+                  <title source="1452">Psalterium (Kalendar March, April, Nov., Dec.)</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
                   </origin>
-                  <provenance type="#l"><orgName role="fmo" key="mlgbOrg_4">Canterbury, Kent.
+                  <provenance type="#l" source="1220"><orgName role="fmo" key="mlgbOrg_4">Canterbury, Kent.
                         Benedictine cathedral priory of Holy Trinity or Christ Church</orgName></provenance>
                   <provenance type="MLGB3_laterOwners">Formerly at St Augustine's, Canterbury,
                      q.v.</provenance>
-               </history>
+               <provenance type="#l" source="1452"><orgName role="fmo" key="mlgbOrg_122">Canterbury, Kent.
+                        Benedictine abbey of St Augustine (originally of St Peter and St Paul)</orgName><p>St Augustine's Kalendar, which passed later to Christ Church,
+                        Canterbury (q.v., and see E. Bishop, Bosworth Psalter, pp. 69n, 145, 171,
+                        177).</p></provenance>
+                  </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 1452 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

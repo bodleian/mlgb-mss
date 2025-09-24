@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6654">
+<TEI xml:id="book_6654" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,8 +22,7 @@
                   <settlement>Oxford</settlement>
                   <postCode>OX1 3BG</postCode>
                   <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
                   </addrLine>
                   <addrLine>
                      <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
@@ -37,7 +36,7 @@
                   <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Trinity College</repository>
-                  <idno type="shelfmark">MS B. 2. 9</idno>
+                  <idno type="shelfmark">MS B. 2. 19</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6654</idno>
                   </altIdentifier>
@@ -50,15 +49,24 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="1140/1160" notBefore="1140" notAfter="1160" calendar="#gregorian">s. xii med</origDate>
+                     <origDate calendar="#gregorian" notAfter="1160" notBefore="1140" when-custom="1140/1160">s. xii med</origDate>
                   </origin>
-                  <provenance type="#s"><orgName role="fmo" key="mlgbOrg_474">St Albans,
-                        Hertfordshire. Benedictine abbey of St Alban</orgName><p>Glosses
-                        throughout written by the scribe of BL MSS Add. Charters 19590, Royal 2 A.x,
-                        and Cambridge, Emmanuel College, 244.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Given to Trinity by Thomas Nevile (c.
-                     1548--1615), dean of Canterbury.</provenance>
+                  <provenance type="#s"><orgName key="mlgbOrg_474" role="fmo">St Albans, Hertfordshire. Benedictine abbey of St Alban</orgName>
+                     <p>Glosses throughout written by the scribe of British Library, Add. Ch. 19590 and Royal MS 2 A. x; and Cambridge, Emmanuel College, MS 244.</p>
+                  </provenance>
+                  <provenance type="MLGB3_laterOwners">Given to Trinity by Thomas Nevile (<foreign>c.</foreign>1548–1615), dean of Canterbury.</provenance>
                </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl subtype="full" type="digital-facsimile"><ref target="https://mss-cat.trin.cam.ac.uk/Manuscript/B.2.19"><title>Trinity College Library Manuscript Catalogue</title></ref>
+                        <note>(full digital facsimile)</note></bibl>
+                  </surrogates>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

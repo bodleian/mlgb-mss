@@ -37,15 +37,23 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS Cotton Domitian viii fols. 30-70</idno>
+                  <idno type="shelfmark">Cotton MS Domitian viii</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1256</idno>
                   </altIdentifier>
-               </msIdentifier>
-               <msContents>
+               <altIdentifier><idno type="MLGB3">2947</idno>
+                  </altIdentifier></msIdentifier>
+                   <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+               <msPart><msIdentifier><altIdentifier><idno type="part">MS Cotton Domitian viii fols. 30-70</idno></altIdentifier></msIdentifier><msContents>
                   <textLang mainLang="la" otherLangs="ang">Latin and Old English</textLang>
                   <msItem>
-                     <title>Chronicon Anglie (in Latin and English)</title>
+                     <title>Chronicon Anglie</title>
                   </msItem>
                </msContents>
                <history>
@@ -57,11 +65,28 @@
                         Chronicle (CCCC 173).</p><note type="MLGB3_medievalCatalogueNotes">Cat.
                         318</note></provenance>
                </history>
-            </msDesc>
+            </msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS Cotton Domitian viii fols. 120-161</idno></altIdentifier></msIdentifier><msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Chronicon Abbatiae</title>
+                     <note type="MLGB3_generalNotes">W. H. Hart (ed.), Historia et Cartularium
+                        Monasterii S. Petri Gloucestriae, vol. 1, RS 33 (London 1863).</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499" calendar="#gregorian">s. xv</origDate>
+                  </origin>
+                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_225">Gloucester,
+                        Gloucestershire. Benedictine abbey of St Peter</orgName><p>Evidence of
+                        provenance from contents.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Sir John Prise.</provenance>
+               </history>
+            </msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 2947 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

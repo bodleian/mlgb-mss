@@ -37,12 +37,20 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS Cotton Vitellius C.viii fols. 4-22</idno>
+                  <idno type="shelfmark">Cotton MS Vitellius C.viii</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4623</idno>
                   </altIdentifier>
-               </msIdentifier>
-               <msContents>
+               <altIdentifier><idno type="MLGB3">2388</idno>
+                  </altIdentifier></msIdentifier>
+                  <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+               <msPart><msIdentifier><altIdentifier><idno type="part">MS Cotton Vitellius C.viii fols. 4-22</idno></altIdentifier></msIdentifier><msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Versus Petri Abaelardi; Finis historie Dareti Frigii; Pars chronici de
@@ -61,11 +69,26 @@
                         libris.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Henry Savile.</provenance>
                </history>
-            </msDesc>
+            </msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS Cotton Vitellius C.viii fols. 85-90</idno></altIdentifier></msIdentifier><msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Epp. Pauli</title>
+                     <note type="MLGB3_generalNotes">Cotton Vit. C.viii fols. 85--90 was part of
+                        Cambridge, Trinity Coll., 216.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="0701/0800" notBefore="0701" notAfter="0800" calendar="#gregorian">s. viii</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="mlgbOrg_189">Durham. Benedictine cathedral
+                        priory of St Cuthbert</orgName><note type="MLGB3_medievalCatalogueNotes">cat., pp. 18 L, 93 L</note><q type="pressmark">L</q></provenance>
+               </history>
+            </msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 2388 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

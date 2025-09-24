@@ -37,15 +37,23 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS Cotton Otho B.x fols. 29, 30</idno>
+                  <idno type="shelfmark">Cotton MS Otho B.x</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5951</idno>
                   </altIdentifier>
-               </msIdentifier>
-               <msContents>
+               <altIdentifier><idno type="MLGB3">3905</idno>
+                  </altIdentifier></msIdentifier>
+                  <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+               <msPart><msIdentifier><altIdentifier><idno type="part">MS Cotton Otho B.x fols. 29, 30</idno></altIdentifier></msIdentifier><msContents>
                   <textLang mainLang="ang">Old English</textLang>
                   <msItem>
-                     <title>Homily (in English), frgm.</title>
+                     <title>Homily, frgm.</title>
                   </msItem>
                </msContents>
                <history>
@@ -62,11 +70,26 @@
                         of s. xiii in. (see C. H. Turner, Early Worcester MSS, p. lvi; N. R. Ker in
                         Leeds Studies in English 7 (1937), p. 28.</p><p> </p><p> </p><p> </p><p> </p></provenance>
                </history>
-            </msDesc>
+            </msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS Cotton Otho B.x fol. 51</idno></altIdentifier></msIdentifier><msContents>
+                  <textLang mainLang="ang">Old English</textLang>
+                  <msItem>
+                     <title>Gospels (in English)</title>
+                     <note type="MLGB3_generalNotes">Otho B.x fol. 51 is a detached leaf of Otho
+                        C.i, pt. 1, bound up wrongly after the fire of 1731.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="10XX" notBefore="1000" notAfter="1099" calendar="#gregorian">s. xi</origDate>
+                  </origin>
+                  <provenance cert="low"><orgName role="fmo" key="mlgbOrg_360">Malmesbury, Wiltshire.
+                        Benedictine Abbey of St Mary the Virgin and St Aldhelm</orgName></provenance>
+               </history>
+            </msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 3905 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

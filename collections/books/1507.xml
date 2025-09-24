@@ -37,12 +37,20 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS Harley 641 fols. 1-115</idno>
+                  <idno type="shelfmark">Harley MS 641</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1507</idno>
                   </altIdentifier>
-               </msIdentifier>
-               <msContents>
+               <altIdentifier><idno type="MLGB3">2913</idno>
+                  </altIdentifier></msIdentifier>
+                   <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+               <msPart><msIdentifier><altIdentifier><idno type="part">MS Harley 641 fols. 1-115</idno></altIdentifier></msIdentifier><msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Chronicon Iohannis Beveri, etc.</title>
@@ -63,11 +71,34 @@
                      (1602--1650), diarist and antiquary.</provenance>
                   <provenance type="MLGB3_laterOwners"> </provenance>
                </history>
-            </msDesc>
+            </msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS Harley 641 fols. 118-206</idno></altIdentifier></msIdentifier><msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Martinus Polonus, Chronicon</title>
+                     <note type="MLGB3_generalNotes">Harley 651, fols. 185--191, was possibly part
+                        of Harley 641, fols. 118--206.</note>
+                     <note type="MLGB3_generalNotes">For John Merylynch, Benedictine monk at St
+                        Mary, Glastonbury, see Harley 651, fols. 185--191 and Oxford, Queen's
+                        College, 304, and Keynes MS. (all in 2 cols. of 50 lines).</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499" calendar="#gregorian">s. xv</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_224">Glastonbury, Somerset.
+                        Benedictine Abbey of Saint Mary the Virgin</orgName><p>'Liber ffratris
+                        Iohannis Merylynch de perquisito eiusdem' (fol. 206v).</p></provenance>
+                  <provenance type="MLGB3_laterOwners"> </provenance>
+                  <provenance type="MLGB3_laterOwners">Sir Simonds D'Ewes, first baronet
+                     (1602--1650), diarist and antiquary.</provenance>
+                  <provenance type="MLGB3_laterOwners"> </provenance>
+               </history>
+            </msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 2913 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

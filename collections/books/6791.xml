@@ -37,12 +37,20 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>Lambeth Palace Library</repository>
-                  <idno type="shelfmark">MS 365, fols 1-119</idno>
+                  <idno type="shelfmark">MS 365</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6791</idno>
                   </altIdentifier>
-               </msIdentifier>
-               <msContents>
+               <altIdentifier><idno type="MLGB3">6792</idno>
+                  </altIdentifier></msIdentifier>
+                  <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+               <msPart><msIdentifier><altIdentifier><idno type="part">MS 365, fols 1-119</idno></altIdentifier></msIdentifier><msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Augustinus</title>
@@ -63,11 +71,30 @@
                         listed is in this manuscript; the rest is in Lambeth 392 (fols 116--31) and
                         431 (fols 161-82).</p></provenance>
                </history>
-            </msDesc>
+            </msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS 365, fols 120-228</idno></altIdentifier></msIdentifier><msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Augustinus</title>
+                     <msItem>
+                        <author>Augustine</author>
+                        <title>De doctrina christiana</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when-custom="11XX" notBefore="1100" notAfter="1199" calendar="#gregorian">s. xii</origDate>
+                  </origin>
+                  <provenance type="#s"><orgName role="fmo" key="mlgbOrg_295">Lanthony (secunda),
+                        Gloucestershire. Augustinian priory of St Mary the Virgin and St John the
+                        Baptist</orgName><p>'The hand is . . . characteristic' (M. R. James). It
+                        may be the same hand as Lambeth 189.</p></provenance>
+               </history>
+            </msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 6792 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

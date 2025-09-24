@@ -37,22 +37,28 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS Cotton Appendix 13</idno>
+                  <idno type="shelfmark">Cotton MS Appendix 13</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">2662</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">5808</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Ambrosius, De officiis; Gemma anime, etc.</title>
+                     <title source="2662">Ambrosius, De officiis; Gemma anime, etc.</title>
+                  <title source="5808">Ambrosius, De officiis, Gemma animae, etc.</title>
+                     <msItem source="5808">
+                        <title>The volume contained also John Beleth, De officiis, in s. xiv (cf.
+                           fol. 1v).</title>
+                     </msItem>
                   </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299" calendar="#gregorian">s. xii--xiii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_199">Evesham,
+                  <provenance type="#e" cert="low" source="2662"><orgName role="fmo" key="mlgbOrg_199">Evesham,
                         Worcestershire. Benedictine abbey of St Mary the Virgin and St Egwin</orgName><p>'Liber sancte Marie et Sancti Egwini de Evesham' (fol. 2r, s.
                         xvi).</p><p>It is possible that the 16th-cent. Evesham inscription is copied
                         from an older inscription now lost.</p></provenance>
@@ -60,12 +66,23 @@
                      q.v., and later to Thomas Dakcombe (1496--c. 1572), rector of St Mary Colebrook
                      and petty canon of Winchester. The likely order of ownership is Evesham to
                      Winchester OP to Dakcombe.</provenance>
-               </history>
+               <provenance type="#e" source="5808"><orgName role="fmo" key="mlgbOrg_594">Winchester, Hampshire.
+                        Dominican convent</orgName><p>"liber fratrum predicatorum Wintonie" (fol.
+                        2r, i. e. recto of first leaf, at top).</p><p>Short booklist (s. xii--xiii)
+                        on fol. 61v.</p><p> </p></provenance>
+                  </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 5808 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

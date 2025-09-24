@@ -41,18 +41,20 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">3988</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">7880</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Miracula BMV; Sermones</title>
+                     <title source="3988">Miracula BMV; Sermones</title>
+                  <title source="7880">Miscellenea</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate when-custom="1101/1325" notBefore="1101" notAfter="1325" calendar="#gregorian">s. xii--xiv in.</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="mlgbOrg_379">Monks Kirby,
+                  <provenance type="#c" source="3988"><orgName role="fmo" key="mlgbOrg_379">Monks Kirby,
                         Warwickshire. Benedictine alien priory of St Nicholas; cell of St Nicholas,
                         Angers</orgName><p>On fol. 55v (dated 1236): "Hii sunt fide iussores
                         plumbi acomodati a priore et monachis de Kirkebi ... [list of
@@ -60,12 +62,24 @@
                         priors-obits from Monks Kirby.</p><q type="pressmark">131</q></provenance>
                   <provenance type="MLGB3_laterOwners">Given to Balliol by Richard Bole, archdeacon
                      of Ely (d. 1477).</provenance>
-               </history>
+               <provenance type="#e" source="7880"><orgName role="fmo" key="mlgbOrg_426">Oxford, Oxfordshire.
+                        Balliol College (Domus de Balliolo)</orgName><p>From the alien priory of
+                        Monks Kirby (Warks.), q.v.</p><p>‘Liber domus de Balliolo in Oxon’ | ex dono
+                        magistri Ricardi Bole Archidiaconi | Eliensis quondam socii eiusdem domus’
+                        (fol. 3v)</p></provenance>
+                  </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 7880 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

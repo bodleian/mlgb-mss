@@ -37,15 +37,16 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS Harley 2409</idno>
+                  <idno type="shelfmark">Harley MS 2409</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4177</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">5331</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="enm">Middle English</textLang>
                   <msItem>
-                     <title>Pistil of love, etc. (in English)</title>
+                     <title>Pistil of love, etc.</title>
                      <note type="MLGB3_generalNotes">Cf. entry for Swine.</note>
                   </msItem>
                </msContents>
@@ -53,17 +54,28 @@
                   <origin>
                      <origDate when-custom="14XX" notBefore="1400" notAfter="1499" calendar="#gregorian">s. xv</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_413">Nun Coton,
+                  <provenance type="#i" source="4177"><orgName role="fmo" key="mlgbOrg_413">Nun Coton,
                         Lincolnshire. Priory of St Mary the Virgin, of Cistercian nuns</orgName><p>"Be yt rememberyd yt dame mold Wade priorys of Swyne has gyven
                         this boke to dame joan hyltoft in Nuncotom" (fol. 78v), s.
                      xv.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Burscough (CMA 7648).</provenance>
-               </history>
+               <provenance type="#i" source="5331"><orgName role="fmo" key="mlgbOrg_535">Swine, Yorkshire.
+                        Priory of St Mary the Virgin, of Cistercian nuns</orgName><p>(fol. 78v)
+                        'Be yt remembryd yt dame mald Wade priorys of Swyne has gyuen yis boke to
+                        dame Joan hyltoft in Noncotom.'</p></provenance>
+                  </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 5331 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

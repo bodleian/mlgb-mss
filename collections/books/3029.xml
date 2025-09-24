@@ -37,11 +37,12 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">MS Harley 622</idno>
+                  <idno type="shelfmark">Harley MS 622</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3029</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <altIdentifier><idno type="MLGB3">4491</idno>
+                  </altIdentifier></msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
@@ -56,7 +57,7 @@
                   <origin>
                      <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="mlgbOrg_245">Haughmond, Shropshire.
+                  <provenance type="#e" source="3029"><orgName role="fmo" key="mlgbOrg_245">Haughmond, Shropshire.
                         Augustinian abbey of St John the Evangelist</orgName><p>"Anno domini
                         millesimo [sic; add: quingentesimo] tricesimo septimo Thomas Abbas
                         acquisiuit istum librum huic monasterio. qui aliquando fuit prioratus de
@@ -68,12 +69,23 @@
                   <provenance type="MLGB3_laterOwners">"per me Johannem Sewell" (fol.
                      156r).</provenance>
                   <provenance type="MLGB3_laterOwners">"Thomas Mawnsell" (fol. 1r).</provenance>
+               <provenance type="#e" source="4491"><orgName role="fmo" key="mlgbOrg_457">Ranton, Staffordshire.
+                        Augustinian priory of St Mary the Virgin</orgName><p>'... aliquando fuit
+                        prioratus de Ronton ...' (see further under Haughmond).</p><p>The use seems
+                        to be Augustinian.</p></provenance>
                </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 4491 merged into this record.</change><change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>
