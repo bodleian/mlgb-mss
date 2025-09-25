@@ -207,7 +207,8 @@
                                                 <xsl:otherwise>
                                                     <xsl:choose>
                                                         <xsl:when test="$isBooklist">
-                                                            <xsl:apply-templates select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc"/>
+                                                            <!-- #96 reinstate post-launch when styling decided -->
+                                                            <!-- <xsl:apply-templates select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc"/> -->
                                                             <div class="citation">
                                                                 <p>This digital edition currently lists only editorial identifications of selected texts referred to in the booklist. For the full text of the booklist with editorial commentary see:</p>
                                                                 <xsl:apply-templates select="/TEI/teiHeader/fileDesc/sourceDesc/bibl/bibl"/>
