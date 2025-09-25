@@ -399,4 +399,28 @@
         </xsl:choose>
     </xsl:function>
 
+    <!-- Book customisation to display Pressmarks and Catalogue Notes -->
+
+    <xsl:template match="q[@type='pressmark']">
+        <div class="tei-pressmark">
+            <span class="tei-label">
+                <xsl:copy-of select="bod:standardText('Pressmark:')"/>
+                <xsl:text>&#x20;</xsl:text>
+            </span>
+            <xsl:text>'</xsl:text>
+            <xsl:apply-templates/>
+            <xsl:text>'</xsl:text>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="note[@type='MLGB3_medievalCatalogueNotes']">
+        <div class="tei-med-cat-notes">
+            <span class="tei-label">
+                <xsl:copy-of select="bod:standardText('Medieval Catalogue Notes:')"/>
+                <xsl:text>&#x20;</xsl:text>
+            </span>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
 </xsl:stylesheet>
