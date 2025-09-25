@@ -28,7 +28,11 @@ declare variable $allinstances :=
             <link>{ concat(
                         '/catalog/', 
                         $roottei/@xml:id/data(), 
-                        '|', 
+                        '|',
+                        if($roottei//tei:sourceDesc/tei:msDesc/tei:history/tei:provenance[@cert='low']) then
+                        '(?) '
+                        else
+                        '', 
                         if($currentLocation) then 
                             concat($currentLocation, ', ') 
                         else    
