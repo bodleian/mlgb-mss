@@ -8,7 +8,7 @@ declare variable $authorityentries := doc("../places.xml")/tei:TEI/tei:text/tei:
 
 (: Find instances in collection description files, building in-memory data structure, to avoid having to search across all files for each authority file entry :)
 declare variable $allinstances :=
-    for $instance in collection('../collections?select=*.xml;recurse=yes')//tei:msDesc//(tei:placeName|tei:country|tei:settlement|tei:region|tei:orgName)[not(ancestor::tei:msIdentifier)]
+    for $instance in collection('../collections?select=*.xml;recurse=yes')//(tei:msDesc|tei:text/ancestor::tei:TEI[starts-with(@xml:id, 'booklist_')])//(tei:placeName|tei:country|tei:settlement|tei:region|tei:orgName)[not(ancestor::tei:msIdentifier)]
         let $roottei := $instance/ancestor::tei:TEI
         let $shelfmark := ($roottei/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno[@type = "shelfmark"])[1]/text()
         let $datesoforigin := distinct-values($roottei//tei:origin//tei:origDate/normalize-space())
@@ -19,35 +19,63 @@ declare variable $allinstances :=
             if (normalize-space($settlement)) then $settlement else (),
             if (normalize-space($repository)) then $repository else ()
             ),
-            $currentLocation := string-join($parts, ', ')
+            $currentLocation := string-join($parts, ', ')        
+        
+        let $booklist := $instance/ancestor::tei:TEI[starts-with(@xml:id, 'booklist_')] 
+        (: booklist title :)
+        let $titlestmt := $booklist/tei:teiHeader/tei:fileDesc/tei:titleStmt
+        let $titlegroup := $titlestmt/tei:title[@type="mlgb_booklist_Group"]
+        let $titlelocation := $titlestmt/tei:title[@type="mlgb_location"]
+        let $titlecode := $titlestmt/tei:title[@type="mlgb_code"]
+        let $titlebooklist := $titlestmt/tei:title[@type="mlgb_booklist"]
+        let $booklisttitle := string-join((
+            $titlegroup,
+            concat(": ", $titlelocation),
+            concat(". ", $titlecode),
+            concat(". ", $titlebooklist)
+        ))
+                                            
         return
         <instance>
             { attribute of { if ($instance/self::tei:orgName) then 'org' else 'place' } }
             { for $key in tokenize(normalize-space($instance/@key), ' ') return <key>{ $key }</key> }
             <name>{ normalize-space($instance/string()) }</name>
-            <link>{ concat(
+            
+            {
+            if ($booklist) then 
+                  <booklistlink>{ concat(
                         '/catalog/', 
                         $roottei/@xml:id/data(), 
                         '|',
-                        if($roottei//tei:sourceDesc/tei:msDesc/tei:history/tei:provenance[@cert='low']) then
-                        '(?) '
-                        else
-                        '', 
-                        if($currentLocation) then 
-                            concat($currentLocation, ', ') 
-                        else    
-                        '',
-                        $shelfmark,
-                        if ($roottei//tei:sourceDesc//tei:surrogates/tei:bibl[@type=('digital-fascimile','digital-facsimile') and @subtype='full']) then
-                            ' (Digital facsimile online)'
-                        else if ($roottei//tei:sourceDesc//tei:surrogates/tei:bibl[@type=('digital-fascimile','digital-facsimile') and @subtype='partial']) then
-                            ' (Selected pages online)'
-                        else
-                            ''
-                        ,'|',
-                        if ($roottei//tei:msPart) then 'Composite manuscript' else string-join(($datesoforigin, $placesoforigin), '; ')
+                        $booklisttitle                
                     )
-            }</link>
+                }</booklistlink>
+            else 
+                <booklink>{ concat(
+                    '/catalog/', 
+                    $roottei/@xml:id/data(), 
+                    '|',
+                    if($roottei//tei:sourceDesc/tei:msDesc/tei:history/tei:provenance[@cert='low']) then
+                    '(?) '
+                    else
+                    '', 
+                    if($currentLocation) then 
+                        concat($currentLocation, ', ') 
+                    else    
+                    '',
+                    $shelfmark,
+                    if ($roottei//tei:sourceDesc//tei:surrogates/tei:bibl[@type=('digital-fascimile','digital-facsimile') and @subtype='full']) then
+                        ' (Digital facsimile online)'
+                    else if ($roottei//tei:sourceDesc//tei:surrogates/tei:bibl[@type=('digital-fascimile','digital-facsimile') and @subtype='partial']) then
+                        ' (Selected pages online)'
+                    else
+                        ''
+                    ,'|',
+                    if ($roottei//tei:msPart) then 'Composite manuscript' else string-join(($datesoforigin, $placesoforigin), '; ')
+                    )
+                }</booklink>
+            }
+            
             { for $role in tokenize($instance/@role/data(), ' ') return <role>{ $role }</role> }
             { if (not($instance/self::tei:placeName or $instance/self::tei:orgName)) then <type>{ local-name($instance) }</type> else () }
             <shelfmark>{ $shelfmark }</shelfmark>
@@ -207,10 +235,17 @@ declare variable $allinstances :=
                 }
                 {
                 (: Links to books containing mentions of the place or organization :)
-                for $link in distinct-values($instances/link/text())
-                    order by tokenize($link, '\|')[2]
+                for $booklink in distinct-values($instances/booklink/text())
+                    order by tokenize($booklink, '\|')[2]
                     return
-                    <field name="link_books_smni">{ $link }</field>
+                    <field name="link_books_smni">{ $booklink }</field>
+                }
+                {
+                (: Links to booklists containing mentions of the place or organization :)
+                for $booklistlink in distinct-values($instances/booklistlink/text())
+                    order by tokenize($booklistlink, '\|')[2]
+                    return
+                    <field name="link_booklists_smni">{ $booklistlink }</field>
                 }
                 {
                 (: Filter on which external authorities, if any, this person has been identified in :)
