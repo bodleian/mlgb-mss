@@ -356,6 +356,9 @@
             <xsl:attribute name="class">
                 <xsl:text>evidence</xsl:text>
             </xsl:attribute>
+            <xsl:if test="parent::provenance[@cert='low']">
+                <xsl:text>&#x20;(?)</xsl:text>
+            </xsl:if>
             <xsl:text>&#x3A;&#x20;</xsl:text>
             <xsl:variable name="evidence" select="parent::provenance[starts-with(@type, '#')]"/>
             <xsl:choose>
