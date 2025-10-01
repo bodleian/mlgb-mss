@@ -106,7 +106,7 @@
         <div class="abbreviations">
             <xsl:processing-instruction name="ni"/>
             <h3>Abbreviations</h3>
-            <p>View <a title="Github" href="https://github.com/bodleian/medieval-mss/wiki/Abbreviations">list of abbreviations</a> and <a title="HathiTrust" href="https://hdl.handle.net/2027/uva.x000937945?urlappend=%3Bseq=12">editorial conventions</a>.
+            <p>View <a title="GitHub" href="https://github.com/bodleian/medieval-mss/wiki/Abbreviations">list of abbreviations</a> and <a title="HathiTrust" href="https://hdl.handle.net/2027/uva.x000937945?urlappend=%3Bseq=12">editorial conventions</a>.
             </p>
             <xsl:processing-instruction name="ni"/>
         </div>
