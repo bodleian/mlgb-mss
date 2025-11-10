@@ -19,7 +19,7 @@
             <bibl>Works identified from the edited booklist: <bibl><title>Registrum Anglie de libris doctorum et auctorum veterum</title>, ed. R. A. B. Mynors, Richard H. Rouse, and Mary A. Rouse, Corpus of British Medieval Library Catalogues, 2 (London, 1991), no. 38</bibl>.</bibl>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
+   <revisionDesc><change when="2025-10-07">Changed author of 1 work according to <ref target="https://github.com/bodleian/mlgb-mss/blob/main/processing/pseudo_authors_update.csv">pseudo_authors_update.csv</ref></change></revisionDesc></teiHeader>
    <text>
       <body>
          <div type="list">
@@ -63,8 +63,7 @@
                <div type="work">
                   <bibl type="identification" corresp="#bibl_5"/>
                   <ab type="mlgb_copyCode">R38.5</ab>
-                  <ab type="mlgb_catalogueExtract">(attrib. Alcuin, 1 copy) <ref
-                        target="booklist_K7#18">= K7.18</ref></ab>
+                  <ab type="mlgb_catalogueExtract">(attrib. Alcuin, 1 copy) <ref target="booklist_K7#18">= K7.18</ref></ab>
                </div>
             </div>
             <div type="entry" n="6">
@@ -104,8 +103,7 @@
                <div type="work">
                   <bibl type="identification" corresp="#bibl_10"/>
                   <ab type="mlgb_copyCode">R38.10</ab>
-                  <ab type="mlgb_catalogueExtract">(`de sapiencia', 1 copy) <ref
-                        target="booklist_K7#26">= K7.26</ref></ab>
+                  <ab type="mlgb_catalogueExtract">(`de sapiencia', 1 copy) <ref target="booklist_K7#26">= K7.26</ref></ab>
                </div>
             </div>
             <div type="entry" n="11">
@@ -113,8 +111,7 @@
                <div type="work">
                   <bibl type="identification" corresp="#bibl_11"/>
                   <ab type="mlgb_copyCode">R38.11</ab>
-                  <ab type="mlgb_catalogueExtract">(attrib. Alcuin, 1 copy) <ref
-                        target="booklist_K7#30">= K7.30</ref></ab>
+                  <ab type="mlgb_catalogueExtract">(attrib. Alcuin, 1 copy) <ref target="booklist_K7#30">= K7.30</ref></ab>
                </div>
             </div>
          </div>
@@ -123,28 +120,18 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
-                  key="mlgbWork_116_15">De uirtutibus et uitiis</title></bibl>
-            <bibl xml:id="bibl_2"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
-                  key="mlgbWork_116_11">De fide sanctae et indiuiduae trinitatis</title></bibl>
-            <bibl xml:id="bibl_3"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
-                  key="mlgbWork_116_15">De uirtutibus et uitiis</title></bibl>
-            <bibl xml:id="bibl_4"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
-                  key="mlgbWork_116_21">Quaestiones in Genesim</title></bibl>
-            <bibl xml:id="bibl_5"><author key="mlgbAuthor_21">Adalbert of Metz [† c. 980]
-                  </author><title key="mlgbWork_21_1">Speculum Gregorii</title></bibl>
-            <bibl xml:id="bibl_6"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
-                  key="mlgbWork_116_11">De fide sanctae et indiuiduae trinitatis</title></bibl>
-            <bibl xml:id="bibl_7"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
-                  key="mlgbWork_116_11">De fide sanctae et indiuiduae trinitatis</title></bibl>
-            <bibl xml:id="bibl_8"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
-                  key="mlgbWork_116_14">De trinitate ad Fredegisum quaestiones</title></bibl>
-            <bibl xml:id="bibl_9"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
-                  key="mlgbWork_116_14">De trinitate ad Fredegisum quaestiones</title></bibl>
-            <bibl xml:id="bibl_10"><author key="mlgbAuthor_116">Alcuin [c735—804] </author><title
-                  key="mlgbWork_116_15">De uirtutibus et uitiis</title></bibl>
-            <bibl xml:id="bibl_11"><author key="mlgbAuthor_425">Basil of Caesarea [c330—379], bishop
-                  of Caesarea </author><title key="mlgbWork_425_10">Admonitio ad filium spiritualem,
+            <bibl xml:id="bibl_1"><author key="person_116">Alcuin [c735—804] </author><title key="work_278">De uirtutibus et uitiis</title></bibl>
+            <bibl xml:id="bibl_2"><author key="person_116">Alcuin [c735—804] </author><title key="work_274">De fide sanctae et indiuiduae trinitatis</title></bibl>
+            <bibl xml:id="bibl_3"><author key="person_116">Alcuin [c735—804] </author><title key="work_278">De uirtutibus et uitiis</title></bibl>
+            <bibl xml:id="bibl_4"><author key="person_116">Alcuin [c735—804] </author><title key="work_284">Quaestiones in Genesim</title></bibl>
+            <bibl xml:id="bibl_5"><author key="person_21">Adalbert of Metz [† c. 980]
+                  </author><title key="work_29">Speculum Gregorii</title></bibl>
+            <bibl xml:id="bibl_6"><author key="person_116">Alcuin [c735—804] </author><title key="work_274">De fide sanctae et indiuiduae trinitatis</title></bibl>
+            <bibl xml:id="bibl_7"><author key="person_116">Alcuin [c735—804] </author><title key="work_274">De fide sanctae et indiuiduae trinitatis</title></bibl>
+            <bibl xml:id="bibl_8"><author key="person_116">Alcuin [c735—804] </author><title key="work_277">De trinitate ad Fredegisum quaestiones</title></bibl>
+            <bibl xml:id="bibl_9"><author key="person_116">Alcuin [c735—804] </author><title key="work_277">De trinitate ad Fredegisum quaestiones</title></bibl>
+            <bibl xml:id="bibl_10"><author key="person_116">Alcuin [c735—804] </author><title key="work_278">De uirtutibus et uitiis</title></bibl>
+            <bibl xml:id="bibl_11"><author key="person_3846">Basil of                                                Caesarea [c330—379], bishop of Caesarea, pseudo</author><title key="work_1428">Admonitio ad filium spiritualem,
                   Latin tr.</title></bibl>
          </listBibl>
       </back>

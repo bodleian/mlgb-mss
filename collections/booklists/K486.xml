@@ -18,7 +18,7 @@
             <bibl>Works identified from the edited booklist: <bibl>Henry of Kirkestede, <title>Catalogus de libris autenticis et apocrifis</title>, ed. Richard H. Rouse and Mary A. Rouse, Corpus of British Medieval Library Catalogues, 11 (London, 2004), no. 486</bibl>.</bibl>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
+   <revisionDesc><change when="2025-10-07">Changed authors of 2 works according to <ref target="https://github.com/bodleian/mlgb-mss/blob/main/processing/pseudo_authors_update.csv">pseudo_authors_update.csv</ref></change></revisionDesc></teiHeader>
    <text>
       <body>
          <div type="list">
@@ -53,13 +53,11 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_319">Aristotle [384—322 BC]
-                  </author><title key="mlgbWork_319_89">Liber de causis, Latin tr.</title></bibl>
-            <bibl xml:id="bibl_2"><author key="mlgbAuthor_3340">Thomas Aquinas OP [c1225—1274]
-                  </author><title key="mlgbWork_3340_17">Commentary on ps. Aristotelian Liber de
+            <bibl xml:id="bibl_1"><author key="person_3838">Aristotle [384—322 BC], pseudo</author><title key="work_818">Liber de causis, Latin tr.</title></bibl>
+            <bibl xml:id="bibl_2"><author key="person_3340">Thomas Aquinas OP [c1225—1274]
+                  </author><title key="work_7427">Commentary on ps. Aristotelian Liber de
                   causis</title></bibl>
-            <bibl xml:id="bibl_3"><author key="mlgbAuthor_319">Aristotle [384—322 BC]
-                  </author><title key="mlgbWork_319_89">Liber de causis, Latin tr.</title></bibl>
+            <bibl xml:id="bibl_3"><author key="person_3838">Aristotle [384—322 BC], pseudo</author><title key="work_818">Liber de causis, Latin tr.</title></bibl>
          </listBibl>
       </back>
    </text>

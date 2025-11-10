@@ -19,7 +19,7 @@
             <bibl>Works identified from the edited booklist: <bibl><title>Registrum Anglie de libris doctorum et auctorum veterum</title>, ed. R. A. B. Mynors, Richard H. Rouse, and Mary A. Rouse, Corpus of British Medieval Library Catalogues, 2 (London, 1991), no. 77</bibl>.</bibl>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
+   <revisionDesc><change when="2025-10-07">Changed author of 1 work according to <ref target="https://github.com/bodleian/mlgb-mss/blob/main/processing/pseudo_authors_update.csv">pseudo_authors_update.csv</ref></change></revisionDesc></teiHeader>
    <text>
       <body>
          <div type="list">
@@ -29,8 +29,7 @@
                <div type="work">
                   <bibl type="identification" corresp="#bibl_1"/>
                   <ab type="mlgb_copyCode">R77</ab>
-                  <ab type="mlgb_catalogueExtract">(3 copies) <ref target="booklist_K361#6"
-                        >= K361.6</ref></ab>
+                  <ab type="mlgb_catalogueExtract">(3 copies) <ref target="booklist_K361#6">= K361.6</ref></ab>
                </div>
             </div>
          </div>
@@ -39,8 +38,7 @@
       <back>
          <listBibl>
 
-            <bibl xml:id="bibl_1"><author key="mlgbAuthor_2248">Methodius [], bishop of Olympus
-                  </author><title key="mlgbWork_2248_2">De initio et fine saeculi</title></bibl>
+            <bibl xml:id="bibl_1"><author key="person_3900">Methodius [], bishop of Olympus, pseudo</author><title key="work_5286">De initio et fine saeculi</title></bibl>
          </listBibl>
       </back>
    </text>

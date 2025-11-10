@@ -1,7 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6436">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6436">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,9 +53,9 @@
                </msContents>
                <physDesc> <typeDesc><p>Printed book.</p></typeDesc> </physDesc><history>
                   <origin>
-                     <origDate when-custom="1483/141484" calendar="#gregorian">[Gouda: Gerard Leeu, 1483 x 1484]</origDate>
+                     <origDate when-custom="1483/1484" notAfter="1484" notBefore="1483" calendar="#gregorian">[Gouda: Gerard Leeu, 1483 x 1484]</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_618">Hounslow, Middlesex.
+                  <provenance type="#i"><orgName role="fmo" key="org_618">Hounslow, Middlesex.
                         Trinitarian convent</orgName><p>'Iste liber constat fratri ^radulpho
                         beckwyth^ (substituted for 'Johanni . . . . . d . .) manet in domo de
                         hondeslow, 148[.]' (at end).</p><p>'Fratri Johanni Sa. .dys [?Sandys] de
@@ -80,7 +77,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>

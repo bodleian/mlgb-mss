@@ -106,7 +106,7 @@
         <div class="abbreviations">
             <xsl:processing-instruction name="ni"/>
             <h3>Abbreviations</h3>
-            <p>View <a title="Github" href="https://github.com/bodleian/medieval-mss/wiki/Abbreviations">list of abbreviations</a> and <a title="HathiTrust" href="https://hdl.handle.net/2027/uva.x002754058?urlappend=%3Bseq=13%3Bownerid=27021597766912622-17">editorial conventions</a>.
+            <p>View <a title="GitHub" href="https://github.com/bodleian/medieval-mss/wiki/Abbreviations">list of abbreviations</a> and <a title="HathiTrust" href="https://hdl.handle.net/2027/uva.x000937945?urlappend=%3Bseq=12">editorial conventions</a>.
             </p>
             <xsl:processing-instruction name="ni"/>
         </div>
@@ -174,6 +174,9 @@
         <!-- For each item in the collection -->
         <xsl:for-each select="collection($path)">
 
+            <!-- Boolean variable: true ⇢ id starts with "booklist_" -->
+            <xsl:variable name="isBooklist" select="starts-with(/TEI/@xml:id, 'booklist_')" />
+
             <xsl:choose>
                 <xsl:when test="string-length(/TEI/@xml:id/string()) eq 0">
 
@@ -195,7 +198,7 @@
                                         <div class="content tei-body" id="{/TEI/@xml:id}">
                                             <xsl:call-template name="Header"/>
                                             <xsl:choose>
-                                                <xsl:when test="/TEI/teiHeader/fileDesc/sourceDesc/msDesc">
+                                                <xsl:when test="/TEI/teiHeader/fileDesc/sourceDesc/msDesc and not($isBooklist) ">
                                                     <xsl:apply-templates select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc"/>
                                                     <xsl:call-template name="Funding"/>
                                                     <xsl:call-template name="AbbreviationsKey"/>
@@ -203,7 +206,13 @@
                                                 </xsl:when>
                                                 <xsl:otherwise>
                                                     <xsl:choose>
-                                                        <xsl:when test="starts-with(/TEI/@xml:id, 'booklist_')">
+                                                        <xsl:when test="$isBooklist">
+                                                            <!-- #96 reinstate post-launch when styling decided -->
+                                                            <!-- <xsl:apply-templates select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc"/> -->
+                                                            <div class="citation">
+                                                                <p>This digital edition currently lists only editorial identifications of selected texts referred to in the booklist. For the full text of the booklist with editorial commentary see:</p>
+                                                                <xsl:apply-templates select="/TEI/teiHeader/fileDesc/sourceDesc/bibl/bibl"/>
+                                                            </div>
                                                             <xsl:call-template name="Booklist"/>
                                                         </xsl:when>
                                                         <xsl:otherwise>
@@ -250,47 +259,48 @@
 
     <!-- MLGB Booklists -->
     <xsl:template name="Booklist">
-        <xsl:for-each select="/TEI/text/body//div[@type='entry']">
+        <ul class="booklist">
+            <xsl:for-each select="/TEI/text/body//div[@type='entry']">
 
-            <xsl:variable name="head" select="./head/text()"/>
-            <xsl:variable name="booklink" select="substring-after(./@corresp, 'catalog/')"/>
-            <xsl:variable name="numworks" select="count(.//div[@type='work'])"/>
+                <xsl:variable name="head" select="./head/text()"/>
+                <xsl:variable name="booklink" select="substring-after(./@corresp, 'catalog/')"/>
+                <xsl:variable name="numworks" select="count(.//div[@type='work'])"/>
 
-            <li>
-                <xsl:choose>
-                    <xsl:when test="$booklink">
-                        <a>
-                            <xsl:attribute name="href">
-                                <xsl:value-of select="$website-url"/>
-                                <xsl:text>/catalog/</xsl:text>
-                                <xsl:value-of select="tokenize($booklink, ' ')[1]"/>
-                            </xsl:attribute>
+                <li>
+                    <xsl:choose>
+                        <xsl:when test="$booklink">
+                            <a>
+                                <xsl:attribute name="href">
+                                    <xsl:value-of select="$website-url"/>
+                                    <xsl:text>/catalog/</xsl:text>
+                                    <xsl:value-of select="tokenize($booklink, ' ')[1]"/>
+                                </xsl:attribute>
+                                <xsl:value-of select="$head" />
+                            </a>
+                        </xsl:when>
+                        <xsl:otherwise>
                             <xsl:value-of select="$head" />
-                        </a>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:value-of select="$head" />
-                    </xsl:otherwise>
-                </xsl:choose>
+                        </xsl:otherwise>
+                    </xsl:choose>
 
-                <!-- only display extract if one div@work -->
-                <xsl:if test="$numworks = 1">
-                    <xsl:variable name="extract" select=".//div[@type='work'][1]/ab[@type='mlgb_catalogueExtract']/text()"/>
-                    <xsl:if test="$extract">
-                        <xsl:text>&#x20;</xsl:text>
-                        <xsl:value-of select="$extract" />
+                    <!-- only display extract if one div@work -->
+                    <xsl:if test="$numworks = 1">
+                        <xsl:variable name="extract" select=".//div[@type='work'][1]/ab[@type='mlgb_catalogueExtract']/text()"/>
+                        <xsl:if test="$extract">
+                            <xsl:text>&#x20;</xsl:text>
+                            <xsl:value-of select="$extract" />
+                        </xsl:if>
                     </xsl:if>
-                </xsl:if>
 
-                <xsl:call-template name="works">
-                    <!-- pass in div@entry -->
-                    <xsl:with-param name="entry" select="." />
-                    <xsl:with-param name="numworks" select="$numworks" />
-                </xsl:call-template>
+                    <xsl:call-template name="works">
+                        <!-- pass in div@entry -->
+                        <xsl:with-param name="entry" select="." />
+                        <xsl:with-param name="numworks" select="$numworks" />
+                    </xsl:call-template>
 
-            </li>
-
-        </xsl:for-each>
+                </li>
+            </xsl:for-each>
+        </ul>
     </xsl:template>
 
     <xsl:template name="works">
@@ -346,6 +356,9 @@
             <xsl:attribute name="class">
                 <xsl:text>evidence</xsl:text>
             </xsl:attribute>
+            <xsl:if test="parent::provenance[@cert='low']">
+                <xsl:text>&#x20;(?)</xsl:text>
+            </xsl:if>
             <xsl:text>&#x3A;&#x20;</xsl:text>
             <xsl:variable name="evidence" select="parent::provenance[starts-with(@type, '#')]"/>
             <xsl:choose>
@@ -389,5 +402,29 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
+
+    <!-- Book customisation to display Pressmarks and Catalogue Notes -->
+
+    <xsl:template match="q[@type='pressmark']">
+        <div class="tei-pressmark">
+            <span class="tei-label">
+                <xsl:copy-of select="bod:standardText('Pressmark:')"/>
+                <xsl:text>&#x20;</xsl:text>
+            </span>
+            <xsl:text>'</xsl:text>
+            <xsl:apply-templates/>
+            <xsl:text>'</xsl:text>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="note[@type='MLGB3_medievalCatalogueNotes']">
+        <div class="tei-med-cat-notes">
+            <span class="tei-label">
+                <xsl:copy-of select="bod:standardText('Medieval Catalogue Notes:')"/>
+                <xsl:text>&#x20;</xsl:text>
+            </span>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
 
 </xsl:stylesheet>

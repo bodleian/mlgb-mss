@@ -1,7 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_2923">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_2923">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,9 +52,9 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="1461/141465" calendar="#gregorian">s. xv med. (1461--1465)</origDate>
+                     <origDate when-custom="1461/1465" notAfter="1465" notBefore="1461" calendar="#gregorian">s. xv med. (1461–1465)</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="mlgbOrg_224">Glastonbury, Somerset.
+                  <provenance type="#i"><orgName role="fmo" key="org_224">Glastonbury, Somerset.
                         Benedictine Abbey of Saint Mary the Virgin</orgName><p>'Hunc librum de
                         laude caluorum domino Petro Weston monacho Glastoniensi dono quem dedit
                         venerabilis pater Iohannes Selwode Abbas Glastoniensis' (on flyleaf, fol.
@@ -65,7 +62,7 @@
                   <provenance type="MLGB3_laterOwners">Julius Palmer, William Lile, Jeremias Warner,
                      Edward Bowton?</provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source></recordHist></adminInfo><surrogates><bibl subtype="partial" type="digital-facsimile">
+            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><surrogates><bibl subtype="partial" type="digital-facsimile">
                         <ref target="https://digital.bodleian.ox.ac.uk/objects/53b69cab-ea33-49cd-958f-a63842f9bd18/">
                            <title>Digital Bodleian</title>
                         </ref>

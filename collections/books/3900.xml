@@ -1,7 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3900">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3900">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,15 +47,15 @@
                         Trinity Coll. 1301, Lambeth Palace 224, Bodleian, Arch. Seld. B.16, Auct.
                         F.3.14, Lincoln Coll., lat. 100, Magdalen Coll., lat. 172, Merton Coll. 181,
                         fol. 230 (binding leaf); Oriel Coll. 42 contain writing in a hand identified
-                        as that of William of Malmesbury; for nos. 3--7 cf. N.R. Ker in E.H.R. 59
-                        (1944), pp. 371--76.</note>
+                        as that of William of Malmesbury; for nos. 3–7 cf. N.R. Ker in E.H.R. 59
+                        (1944), pp. 371–76.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="1180/950" calendar="#gregorian">s. xii ex., ix in.</origDate>
+                     <origDate when-custom="950/1180" notBefore="0950" notAfter="1180" calendar="#gregorian">s. xii ex., ix in.</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="mlgbOrg_360">Malmesbury, Wiltshire.
+                  <provenance><orgName role="fmo" key="org_360">Malmesbury, Wiltshire.
                         Benedictine Abbey of St Mary the Virgin and St Aldhelm</orgName><p>Written
                         in the hand of William of Malmesbury (identification by T.A.M.
                      Bishop).</p></provenance>
@@ -66,7 +63,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Richard Sharpe and James M. W. Willoughby, eds, Medieval Libraries of Great Britain, 2010–15.</source>
+                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
