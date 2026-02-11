@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6970">
+<TEI xml:id="book_6970" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,8 +22,7 @@
                   <settlement>Oxford</settlement>
                   <postCode>OX1 3BG</postCode>
                   <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
                   </addrLine>
                   <addrLine>
                      <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
@@ -35,8 +34,8 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <settlement>Chester</settlement>
-                  <repository>Cheshire Archives and Local Studies</repository>
-                  <idno type="shelfmark">MS EDD 3913 (olim Chester Cathedral, MS 2)</idno>
+                  <repository>Cheshire and Chester Archives and Local Studies Service</repository>
+                  <idno type="shelfmark">MS EDD 3913</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6970</idno>
                   </altIdentifier>
@@ -44,36 +43,45 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Ranulphus Higden</title>
+                     <author key="person_2835">Ranulf Higden</author>
+                     <title key="work_6402">Polychronicon</title>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                        <extent>
+                           <dimensions type="leaf" unit="mm">
+                              <height>410</height>
+                              <width>270</width>
+                           </dimensions>
+                           <secFol>sit molestus</secFol>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate when-custom="144X/145X" notBefore="1440" notAfter="1459" calendar="#gregorian">s. xv med.</origDate>
+                     <origDate calendar="#gregorian" notAfter="1459" notBefore="1440" when-custom="144X/145X">1440s or 1450s</origDate>
                   </origin>
-                  <provenance type="#d"><orgName role="fmo" key="org_299">Leicester,
-                        Leicestershire. Augustinian abbey of St Mary the Virgin de Pratis</orgName><p>The secundo folio, 'sit molestus' (fol. 7r, after the tabula)
-                        is a match for the entry in the library catalogue of the Leicester Austins,
-                        A20.646, where the copy is said to be 'in magno uolumine' and this book is
-                        410 x 270 mm. </p></provenance>
-                  <provenance type="MLGB3_laterOwners">Ralph Seyton, canon of Leicester and student
-                     at Oxford in 1440, who gave the book to his house. (See further BRUO 1676.)
-                     According to the library catalogue he was the donor of ten or eleven other
-                     volumes (A20. 466, 467, 480, 646, 1009, 1042, 1043, 1045, 1330, 1331 and
-                     perhaps 1102 ('per Radulphum')).</provenance>
-                  <provenance type="MLGB3_laterOwners">Humfrey Ridinge, s. xvi. (A kinsman of Hector
-                     Riddinge who had A20.660 in 1503?)</provenance>
-                  <provenance type="MLGB3_laterOwners">Sir Henry Savile of Banke
-                     (1568–1617).</provenance>
-                  <provenance type="MLGB3_laterOwners">Purchased for Chester Cathedral in 1924 or
-                     1925.</provenance>
+                  <provenance type="#d"><orgName key="org_299" role="fmo">Leicester, Leicestershire. Augustinian abbey of St Mary the Virgin de Pratis</orgName>. The secundo folio, <q>sit molestus</q> (fol. 7r, after the tabula) is a match for the entry in the library catalogue of the Leicester Austins, A20.646, where the copy is said to be <q>in magno uolumine</q> (Freeman, 79–80, 119–20, 240–1).</provenance>
+                  <provenance type="MLGB3_laterOwners">Ralph Seyton, canon of Leicester and student at Oxford in 1440, who gave the book to his house (Emden, 1676). According to the library catalogue he was the donor of ten or eleven other volumes (A20. 466, 467, 480, 646, 1009, 1042, 1043, 1045, 1330, 1331 and perhaps 1102 (<q>per Radulphum</q>).</provenance>
+                  <provenance type="MLGB3_laterOwners">Humfrey Ridinge, 16th century. (A kinsman of Hector Riddinge who had A20.660 in 1503?)</provenance>
+                  <provenance type="MLGB3_laterOwners">Sir Henry Savile of Banke (1568–1617).</provenance>
+                  <provenance type="MLGB3_laterOwners">Purchased for Chester Cathedral in 1924 or 1925;  their MS 2.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15). Updated bibliography by Andrew Dunning (Feb. 2026).</source>
                      </recordHist>
                   </adminInfo>
+                  <listBibl>
+                     <bibl>Emden, A. B., <title>A Biographical Register of the University of Oxford to A.D. 1500</title>, 3 vols (Oxford, 1957).</bibl>
+                     <bibl>Freeman, James, ‘<ref target="https://doi.org/10.17863/CAM.31298">The Manuscript Dissemination and Readership of the <title>Polychronicon</title> of Ranulph Higden, <foreign>c.</foreign>1330–<foreign>c.</foreign>1500</ref>’, doctoral thesis, University of Cambridge, 2013.</bibl>
+                     <bibl>Webber, M. Teresa J., and Andrew G. Watson, eds, <title>The Libraries of the Augustinian Canons</title>, Corpus of British Medieval Library Catalogues, 6 (London, 1998).</bibl>
+                  </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
