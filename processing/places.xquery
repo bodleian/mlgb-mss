@@ -55,7 +55,7 @@ declare variable $allinstances :=
                     '/catalog/', 
                     $roottei/@xml:id/data(), 
                     '|',
-                    if($roottei//tei:sourceDesc/tei:msDesc/tei:history/tei:provenance[@cert='low']) then
+                    if($roottei//tei:history/$instance[parent::tei:provenance[@cert='low']]) then
                     '(?) '
                     else
                     '', 
