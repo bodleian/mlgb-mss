@@ -332,6 +332,24 @@
     <!-- Book customisation override to display evidence after orgName -->
 
     <xsl:template match="orgName">
+        <!--#151 Uncertain provenance evidence -->
+        <xsl:if test="parent::provenance[@cert='low']">
+            <span>
+                <xsl:attribute name="class">
+                    <xsl:text>uncertain</xsl:text>
+                </xsl:attribute>
+                <xsl:text>(?)&#x20;</xsl:text>
+            </span>
+        </xsl:if>
+        <!--#151 Rejected provenance evidence -->
+        <xsl:if test="parent::provenance[@type='#rejected']">
+            <span>
+                <xsl:attribute name="class">
+                    <xsl:text>rejected</xsl:text>
+                </xsl:attribute>
+                <xsl:text>(Rejected)&#x20;</xsl:text>
+            </span>
+        </xsl:if>
         <span>
             <xsl:attribute name="class">
                 <xsl:value-of select="string-join((name(), @role), ' ')"/>
@@ -356,11 +374,8 @@
             <xsl:attribute name="class">
                 <xsl:text>evidence</xsl:text>
             </xsl:attribute>
-            <xsl:if test="parent::provenance[@cert='low']">
-                <xsl:text>&#x20;(?)</xsl:text>
-            </xsl:if>
             <xsl:text>&#x3A;&#x20;</xsl:text>
-            <xsl:variable name="evidence" select="parent::provenance[starts-with(@type, '#')]"/>
+            <xsl:variable name="evidence" select="parent::provenance[starts-with(@type, '#') and not(@type='#rejected')]"/>
             <xsl:choose>
                 <xsl:when test="$evidence">
                     <xsl:for-each select="tokenize(substring-after($evidence/@type, '#'), ' ')">

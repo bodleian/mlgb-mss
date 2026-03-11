@@ -56,9 +56,12 @@ declare variable $allinstances :=
                     $roottei/@xml:id/data(), 
                     '|',
                     if($roottei//tei:history/$instance[parent::tei:provenance[@cert='low']]) then
-                    '(?) '
+                    'uncertain'
+                    else if ($roottei//tei:history/$instance[parent::tei:provenance[@type='#rejected']]) then
+                    'rejected'
                     else
-                    '', 
+                    'certain', 
+                    '|',
                     if($currentLocation) then 
                         concat($currentLocation, ', ') 
                     else    
