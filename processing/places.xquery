@@ -133,7 +133,7 @@ declare variable $allinstances :=
         let $roles := distinct-values(for $role in distinct-values($instances/role/text()) return bod:personRoleLookup($role))
         
         (: Output a Solr doc element :)
-        return if (count($instances) gt 0) then
+        return 
             <doc>
                 <field name="type">place</field>
                 <field name="pk">{ $id }</field>
@@ -276,8 +276,6 @@ declare variable $allinstances :=
                     ()
                 }
             </doc>
-        else
-            bod:logging('info', 'Skipping unused authority file entry', ($id, $name))
 }
 {
     (: Log instances without key attributes :)
