@@ -374,29 +374,18 @@
             <xsl:attribute name="class">
                 <xsl:text>evidence</xsl:text>
             </xsl:attribute>
-            <xsl:text>&#x3A;&#x20;</xsl:text>
-            <xsl:variable name="evidence" select="parent::provenance[starts-with(@type, '#') and not(@type='#rejected')]"/>
-            <xsl:choose>
-                <xsl:when test="$evidence">
-                    <xsl:for-each select="tokenize(substring-after($evidence/@type, '#'), ' ')">
-                        <xsl:value-of select="bod:provenanceTypeLookup(.)"/>
-                        <xsl:choose>
-                            <xsl:when test="position() ne last()">
-                                <xsl:text>&#x3B;&#x20;and&#x20;</xsl:text>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <!-- Do not add a full stop if the evidence label ends with a full stop, in this case only 'c' -->
-                                <xsl:if test=". != 'c'">
-                                    <xsl:text>&#x2E;</xsl:text>
-                                </xsl:if>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </xsl:for-each>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:text>inferred evidence.</xsl:text>
-                </xsl:otherwise>
-            </xsl:choose>
+            <xsl:text>: </xsl:text>
+            <xsl:variable name="types" select="tokenize(substring-after(parent::provenance[starts-with(@type,'#') and not(@type='#rejected')]/@type,'#'),' ')" />
+            <xsl:for-each select="$types">
+                <xsl:value-of select="bod:provenanceTypeLookup(.)"/>
+                <xsl:choose>
+                    <xsl:when test="position() lt last()">; and </xsl:when>
+                    <xsl:when test=". ne 'c'">.</xsl:when>
+                </xsl:choose>
+            </xsl:for-each>
+            <xsl:if test="empty($types) and not(parent::provenance[@type='#rejected'])">
+                <xsl:text>inferred evidence.</xsl:text>
+            </xsl:if>
         </span>
     </xsl:template>
 
