@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8616">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>York</settlement>
+                        <repository>York Minster</repository>
+                        <idno type="shelfmark">MS XVI.D.13</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Biblia latina</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1200" notAfter="1299">s.
+                                xiii</origDate>
+                        </origin>
+                        <provenance type="#e"><orgName key="org_940" role="fmo">York, Yorkshire.
+                                Parish church of St Martin, Coney Street.</orgName>
+                            <p><q>Iste librum dedit dominus <persName key="person_3999" role="dnr"
+                                        >Willelmus Rycherdson</persName> ad ecclesiam sancti Martini
+                                    in Conyngstret in Ebor<ex>aco</ex>. Qui quidem Willelmus quondam
+                                    fuit persona in ecclesia cathedrali sancti Petri. Voluit tamen
+                                    ut sit cathenatus in choro sancti Martini predicti ad
+                                        serviend<ex>um</ex> ibi imperpetuum. Qui vero hunc
+                                    alienaverit anathema sit. Dat<ex>um</ex> anno d<ex>omi</ex>ni
+                                    Mᵐᵒ CCCCCᵐᵒ Xᵐᵒ ad festum Nat<ex>ivitatis</ex> domini</q> (ad fin.).
+                                William Richardson was vicar-choral of York Minster at least from
+                                1511 to 1524.</p></provenance>
+                        <provenance type="MLGB3_LaterOwners"><q><persName>Rev. John
+                                    Bridges</persName>, Fulford, near York, 1783. <persName>Rev.
+                                        W<ex>illiam</ex>m Bulmer</persName>
+                                <note type="editorial">[vicar of St Martin's 1803-1829]</note></q>
+                            (front flyleaf).</provenance>
+                        <provenance type="MLGB3_LaterOwners">Given to the Cathedral by
+                                <persName>Rev. H. A. Beckwick</persName>, vicar of St Martin's,
+                            Coney Street, in 1835.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
+                                    card index, Oxford, 1937–2025 (held at Oxford, Bodleian
+                                    Library). Transcribed and encoded by Sian Witherden.</source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Ker, Neil R., ed., <ref
+                                    target="https://hdl.handle.net/2027/uva.x002754058"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, 2nd edn, Royal Historical
+                                Society Guides and Handbooks, 3 (London, 1964).</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0327.jpg, Test 3_0328.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-02-20">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
