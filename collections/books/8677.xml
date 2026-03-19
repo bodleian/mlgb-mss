@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8602">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8677">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title/>
                 <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
                 <respStmt xml:id="SW">
-                    <resp when="2026">Transcription and encoding of index cards</resp>
+                    <resp when="2026">Transcription and encoding of index card</resp>
                     <persName>Sian Witherden</persName>
                 </respStmt>
             </titleStmt>
@@ -34,42 +34,50 @@
             <sourceDesc>
                 <msDesc xml:lang="en">
                     <msIdentifier>
-                        <country>England</country>
-                        <settlement>Oxford</settlement>
-                        <repository>Bodleian Library</repository>
-                        <idno type="shelfmark">MS Don. b. 5</idno>
+                        <country>Wales</country>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno type="shelfmark">MS 492E</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
                         <msItem>
-                            <title>Missal</title>
+                            <title>Missale</title>
+                            <note>Description and facsimile in Report of Friends of the National
+                                Libraries 1932/3.</note>
+                            <note>Described also by D. J. Collins, <title>National Library of Wales
+                                    Journal</title> (1945), pp. 57-60.</note>
                         </msItem>
                     </msContents>
                     <history>
                         <origin>
-                            <origDate calendar="Gregorian" notBefore="1375" notAfter="1400">s. xiv
-                                ex</origDate>
+                            <origDate calendar="Gregorian" notBefore="1400" notAfter="1499">s.
+                                xv</origDate>
                         </origin>
-                        <provenance><orgName role="fmo" key="org_803">Adderbury, Oxfordshire. Parish
-                                church of St Mary</orgName>
-                            <p><q>Dedicacio ecclesie s. Marie de Eadberbury</q> added in Kalendar 1
-                                Dec (late 14th century).</p></provenance>
-                        <provenance><orgName role="fmo" key="org_819">Buckland, Berkshire. Parish
-                                church of St Mary</orgName>
-                            <p>Dedication of the church at July 4, and other notices relating to
-                                it.</p></provenance>
-                        <provenance type="MLGB3_LaterOwners">Quaritch Catalogue 285 (1909) no. 591;
-                            290 (1910), no. 145; 328 (1914), no. 576.</provenance>
-                        <provenance type="MLGB3_LaterOwners">Sothebys, Meade Falkner sale, December
-                            1932, lot 293 to Quaritch (£220) for Sir John Noble, who gve it to the
-                            Bodleian.</provenance>
+                        <provenance cert="low"><orgName role="fmo" key="org_838">Great Easton,
+                                Essex. Parish church of St Giles</orgName>
+                            <p><q>Dedicacio ecclesie sancti Egidii de Eyston ad montem</q> at Aug 4.
+                                Great Easton is now dedicated to St John, but anciently to St
+                                Giles.</p></provenance>
+                        <provenance type="MLGB3_LaterOwners">Given to Oswetry church at the Marian
+                            revival by <persName>Morys Griffith</persName> Rector of Great Easton
+                            (1543-1557?) in 1554. </provenance>
+                        <provenance type="MLGB3_LaterOwners">William Barnes sale 23 June 1822, lot
+                            637.</provenance>
+                        <provenance type="MLGB3_LaterOwners">Sotheby's, Meade Falkner sale (December
+                            1932), lot 296 to Quaritch (£130).</provenance>
+                        <provenance type="MLGB3_LaterOwners">Belonged to
+                                <persName>Maskell</persName> in 1847; in English Church History
+                            exhibition 1905.</provenance>
+                        <provenance type="MLGB3_LaterOwners">Duke of Chandos sale 12 March (1747),
+                            lot 2983 to <persName>Milles</persName>.</provenance>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
-                                    card index, Oxford, 1937–2025 (held at Oxford, Bodleian
-                                    Library). Transcribed and encoded by Sian Witherden.</source>
+                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
+                                    Transcribed and encoded by Sian Witherden.</source>
                             </recordHist>
                         </adminInfo>
                         <listBibl>
@@ -82,7 +90,7 @@
                     </additional>
                 </msDesc>
             </sourceDesc>
-            <!-- Index card images (box 10): Test 3_0005.jpg, Test 3_0006.jpg, Test 3_0043.jpg, Test 3_0044.jpg -->
+            <!-- Index card images (box 10): Test 3_0087.jpg, Test 3_0088.jpg -->
         </fileDesc>
         <revisionDesc>
             <change when="2026-03-18">Record created.</change>

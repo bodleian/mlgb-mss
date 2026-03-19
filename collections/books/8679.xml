@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8602">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8679">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title/>
                 <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
                 <respStmt xml:id="SW">
-                    <resp when="2026">Transcription and encoding of index cards</resp>
+                    <resp when="2026">Transcription and encoding of index card</resp>
                     <persName>Sian Witherden</persName>
                 </respStmt>
             </titleStmt>
@@ -37,39 +37,38 @@
                         <country>England</country>
                         <settlement>Oxford</settlement>
                         <repository>Bodleian Library</repository>
-                        <idno type="shelfmark">MS Don. b. 5</idno>
+                        <idno type="shelfmark">MS Rawlinson C. 88</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
                         <msItem>
-                            <title>Missal</title>
+                            <author key="person_352">Augustinus</author>
+                            <title key="work_1111">Sermones de verbis domini et apostoli</title>
                         </msItem>
                     </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <handNote>Liturgical book hand.</handNote>
+                        </handDesc>
+                    </physDesc>
                     <history>
                         <origin>
-                            <origDate calendar="Gregorian" notBefore="1375" notAfter="1400">s. xiv
-                                ex</origDate>
+                            <origDate calendar="Gregorian" notBefore="1400" notAfter="1499">s.
+                                xv</origDate>
                         </origin>
-                        <provenance><orgName role="fmo" key="org_803">Adderbury, Oxfordshire. Parish
-                                church of St Mary</orgName>
-                            <p><q>Dedicacio ecclesie s. Marie de Eadberbury</q> added in Kalendar 1
-                                Dec (late 14th century).</p></provenance>
-                        <provenance><orgName role="fmo" key="org_819">Buckland, Berkshire. Parish
-                                church of St Mary</orgName>
-                            <p>Dedication of the church at July 4, and other notices relating to
-                                it.</p></provenance>
-                        <provenance type="MLGB3_LaterOwners">Quaritch Catalogue 285 (1909) no. 591;
-                            290 (1910), no. 145; 328 (1914), no. 576.</provenance>
-                        <provenance type="MLGB3_LaterOwners">Sothebys, Meade Falkner sale, December
-                            1932, lot 293 to Quaritch (£220) for Sir John Noble, who gve it to the
-                            Bodleian.</provenance>
+                        <provenance type="#e"><orgName role="fmo" key="org_843">Fenny Bentley,
+                                Derbyshire. Chantry chapel</orgName>
+                            <p><q>pertinent cantarie de fenny bentley</q> (fol. 1, s. xvi
+                            in)</p></provenance>
+                        <provenance type="MLGB3_LaterOwners"><persName>Francis Pole</persName>, no.
+                            1414.</provenance>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
-                                    card index, Oxford, 1937–2025 (held at Oxford, Bodleian
-                                    Library). Transcribed and encoded by Sian Witherden.</source>
+                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
+                                    Transcribed and encoded by Sian Witherden.</source>
                             </recordHist>
                         </adminInfo>
                         <listBibl>
@@ -82,10 +81,10 @@
                     </additional>
                 </msDesc>
             </sourceDesc>
-            <!-- Index card images (box 10): Test 3_0005.jpg, Test 3_0006.jpg, Test 3_0043.jpg, Test 3_0044.jpg -->
+            <!-- Index card images (box 10): Test 3_0105.jpg, Test 3_0106.jpg -->
         </fileDesc>
         <revisionDesc>
-            <change when="2026-03-18">Record created.</change>
+            <change when="2026-03-19">Record created.</change>
         </revisionDesc>
     </teiHeader>
     <text>
