@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8710">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Canterbury</settlement>
+                        <repository>Cathedral Archives</repository>
+                        <idno type="shelfmark">CCA-U53/1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Missale</title>
+                            <note>Graded calendar. Many obits of the Statham family and one of
+                                Sachaverell, s. xv. A memorandum by the rector of Morley dated 1441
+                                at end of temporale. Secundo folio preterquam.</note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1390" notAfter="1410">s.
+                                xiv/xv</origDate>
+                        </origin>
+                        <provenance><orgName role="fmo" key="org_888">Morley, Derbyshire. Parish
+                                church</orgName>
+                            <p><q>Dedicacio ecclesie de Morley</q> added early in red at 13
+                                July.</p></provenance>
+                        <provenance type="MLGB3_LaterOwners">Bought in 1729 by <persName>John
+                                Plumptre</persName>, grandson of <persName>Henry
+                                Sachaverell</persName> of Morley, <q>with the rest of the family
+                                books</q> (fol. iiv). Bookplate of <persName>John
+                            Morley</persName>.</provenance>
+                        <provenance type="MLGB3_LaterOwners">The location on the index card is
+                            listed as J. H. Plumtre (Little Fredville, Nonington, Kent), on deposit
+                            in Canterbury Cathedral since 1966. This is now Canterbury, Cathedral
+                            Archives, CCA-U53/1. For further discussion of the book's later
+                            provenance, see <bibl>Pete Smith, 'Plumtre House, Nottingham: Colen
+                                Campbell and John Plumtre', <title>The Georgian Group
+                                    Journal</title> XXX (2022): 37-70 (especially p.
+                            54).</bibl></provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
+                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
+                                    Transcribed and encoded by Sian Witherden, with updated
+                                    shelfmark and addition of reference to Smith (2022).</source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Ker, Neil R., and Andrew G. Watson, eds, <ref
+                                    target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, supplement to the second
+                                edition, Guides and Handbooks, 15 (London, 1987).</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0217.jpg, Test 3_0218.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-03-25">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>

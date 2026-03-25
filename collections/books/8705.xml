@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8705">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Urbana (IL)</settlement>
+                        <repository>University Library</repository>
+                        <idno type="shelfmark">MS 0139</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Missale ad usum Sarum</title>
+                            <note>The index card is challenging to read, but makes reference to the
+                                Lovett family in relation to fol. 98v.</note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1400" notAfter="1499">s.
+                                xv</origDate>
+                        </origin>
+                        <provenance><orgName role="fmo" key="org_844">Flaunden, Hertfordshire.
+                                Parish church of St Mary Magdalen</orgName>
+                            <p>Kalendar imperfect. On 6 November is added <q>Dedicacio ecclesie
+                                    beate Marie Magdalene de flaunden in crastino die post festum
+                                    sancti Leondardi perpetuis temporibus
+                            duraturis(?)</q></p></provenance>
+                        <provenance type="MLGB3_LaterOwners">Lent to English Church History
+                            Exhibition, St Alban's, 1905 by <persName>Reverend H. G.
+                                Morse</persName> (<title>Catalogue</title>, p. 37).</provenance>
+                        <provenance type="MLGB3_LaterOwners">Sold to <persName>Meade
+                                Falkner</persName> and in the Sotheby's sale of his library, 12
+                            December 1932, lot 298 to <persName>J. H. Whitehouse</persName>
+                            (£32).</provenance>
+                        <provenance type="MLGB3_LaterOwners">Dawson's of Pall Mall, Catalogue 102
+                            (1960), no. 5 with reduced facsimile of first leaf of Sanctorale
+                            (£750).</provenance>
+                        <provenance type="MLGB3_LaterOwners">The MLGB index card initially recorded
+                            the current location of this book as Bembridge (Iowa), J. H. Whitehouse,
+                            Yellowands. This was later changed to Urbana, University of
+                            Illinois.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
+                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
+                                    Transcribed and encoded by Sian Witherden, with additional
+                                    shelfmark information supplied.</source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Ker, Neil R., ed., <ref
+                                    target="https://hdl.handle.net/2027/uva.x002754058"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, 2nd edn, Royal Historical
+                                Society Guides and Handbooks, 3 (London, 1964).</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0107.jpg, Test 3_0108.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-03-25">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
