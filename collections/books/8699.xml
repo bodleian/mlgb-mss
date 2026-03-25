@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8699">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>Untraced</country>
+                        <settlement>Untraced</settlement>
+                        <repository>Untraced</repository>
+                        <idno type="shelfmark">shelfmark not recorded</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Missale</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1400" notAfter="1499">s.
+                                xv</origDate>
+                        </origin>
+                        <provenance type="#e"><orgName role="fmo" key="org_823">Caldbeck,
+                                Cumberland. Parish church of St Kentigern</orgName><p>Fol. 220:
+                                    <q>Orate pro bono salubri statu domini <persName
+                                        key="person_3956">roberti Cooke</persName> et pro anima
+                                    illius cum ab hac luce migraverit ac etiam pro animabus parentum
+                                    suorum fratrum sororum et benefactorum qui dedit ecclesie
+                                    paroch' de Cawlbeck istud missale. Calicem argentum Paxillum
+                                    argent' duo pallia unum pallium lineum et superpellicum. Anno
+                                    domini MDᵒVIᵒ.</q> Added mass for St Kentigern, the patron saint
+                                of Caldbeck. See <bibl>Thomas Lees, <ref
+                                        target="https://doi.org/10.5284/1064503">'S. Kentigern and
+                                        his Dedications in Cumberland'</ref>, <title>Transactions of
+                                        the Cumberland and Westmoreland Antiquarian and
+                                        Archaeological Society</title> VI (1883), 333</bibl>, and
+                                    <bibl>Dom Justin McCann, <ref
+                                        target="http://www.ampleforthjournal.org/V_024.pdf">'A Sarum
+                                        Missal'</ref>, <title>Ampleforth Journal</title> XXIV
+                                    (1918), p. 4 (facsims).</bibl></p></provenance>
+                        <provenance type="MLGB3_LaterOwners">Location recorded in MLGB2 as St Mary's
+                            Catholic Church, Warwick Bridge, Carlisle (on deposit at Ampleforth
+                            Abbey). The manuscript was returned to Carlisle in 2021; see <title><ref
+                                    target="https://www.diocese.cc/FileSystem/11/Public/Publications/20/1491/pages.pdf"
+                                    >The Catholic Voice</ref></title>, issue 334 (November
+                            2021).</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
+                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
+                                    Transcribed and encoded by Sian Witherden.</source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Ker, Neil R., ed., <ref
+                                    target="https://hdl.handle.net/2027/uva.x002754058"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, 2nd edn, Royal Historical
+                                Society Guides and Handbooks, 3 (London, 1964).</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0053.jpg, Test 3_0054.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-03-25">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
