@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8704">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Ushaw</settlement>
+                        <repository>College</repository>
+                        <idno type="shelfmark">MS 5</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Missale</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <bindingDesc>
+                            <binding>
+                                <p>Modern binding.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1450" notAfter="1475">s. xv
+                                3/4</origDate>
+                        </origin>
+                        <provenance type="#e"><orgName role="fmo" key="org_998">Esh Laude, Durham.
+                                Parish church</orgName>
+                            <p><q>Liber capelle parochialis de esche ex dono Magistri <persName
+                                        role="dnr" key="person_3963">Iohannis Rudde</persName> in
+                                    decretis bacallarii quondam decani de Lanchester cuius anime
+                                    propicietur deus amen</q> (p. 204) and (in red) <q>M. I.
+                                    Rudde</q>. John Rudde, Dean of Lanchester 1462-90. <bibl>See A.
+                                    I Doyle, 'Two medieval service-books from the parish of
+                                    Lanchester', <title>Transactions of the Architectural and
+                                        Archaeological Society of Durham and Newcastle</title>, new
+                                    series 6 (1982): 19-22.</bibl> Note that this provenance
+                                evidence was mistakenly listed twice across the printed MLGB
+                                handlists. Ushaw College MS 5 is listed under Esh Laude in MLGB2 (p.
+                                220), but also appears (as a new addition) under Esh in the
+                                Supplement (p. 72). There are also corresponding duplicate index
+                                cards.</p></provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
+                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
+                                    Transcribed and encoded by Sian Witherden, consolidating
+                                    information from duplicate cards.</source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Ker, Neil R., ed., <ref
+                                    target="https://hdl.handle.net/2027/uva.x002754058"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, 2nd edn, Royal Historical
+                                Society Guides and Handbooks, 3 (London, 1964).</bibl>
+                            <bibl>Ker, Neil R., and Andrew G. Watson, eds, <ref
+                                    target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, supplement to the second
+                                edition, Guides and Handbooks, 15 (London, 1987).</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0093.jpg, Test 3_0094.jpg, Test 3_0095.jpg, Test 3_0096.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-03-25">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
