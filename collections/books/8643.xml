@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8643">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno type="shelfmark">MS Additional 2602</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Antiphonale</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1200" notAfter="1299">s.
+                                xiii</origDate>
+                        </origin>
+                        <provenance cert="low"><orgName role="fmo" key="org_918">Springfield, Essex.
+                                Parish church</orgName>
+                            <p>Found in the wall of Springfield church in 1867: see W. H. Frere,
+                                    <title>Antiphonale Sarisburense</title>, introduction pt. 2
+                                (1925), p. 78.</p></provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source><source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’, card index, Oxford, 1937–2025 (held at Oxford, Bodleian Library). Transcribed and encoded by Sian Witherden.</source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Ker, Neil R., and Andrew G. Watson, eds, <ref
+                                    target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, supplement to the second
+                                edition, Guides and Handbooks, 15 (London, 1987).</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0283.jpg, Test 3_0284.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-02-26">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>

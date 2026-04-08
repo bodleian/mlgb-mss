@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8609">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <settlement>Untraced</settlement>
+                        <repository>Untraced</repository>
+                        <idno type="shelfmark">Shelfmark not recorded (formerly Ampleforth Abbey
+                            C.V.221) (pr. bk)</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Missale ad usum Sarum</title>
+                            <note type="MLGB3_generalNotes">Memoranda concerning <persName>Sir
+                                    George Lawson</persName> on (1) sig. v. iiij, that he gave
+                                    <q>huic capelle</q> various gifts <q>ad honorem ih<ex>es</ex>u
+                                        <ex>Christi</ex> et Sancti Georgii</q>, (2) sig. v iijv that
+                                the chaplain <q>huius capelle</q>, would pray for him daily, (3)
+                                sig. v iiijv <q>Pray for the soule of sir George Lawson sumtyme
+                                    tresurer of this town</q>. <persName>Sir George
+                                    Lawson</persName>, Treasurer of Berwick, d. 1543 (cf.
+                                    <title>Letters and Papers of Henry VIII, A.D.
+                                1543</title>)</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <typeDesc>
+                            <p>Printed book.</p>
+                        </typeDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Paris</origPlace>
+                            <origDate calendar="Gregorian" when="1514">1514</origDate>
+                        </origin>
+                        <provenance cert="low" type="#c e"><orgName role="fmo" key="org_809"
+                                >Berwick-upon-Tweed, Northumberland. Chapel (of St
+                                George?)</orgName>
+                            <p>Torn inscription on flyleaf that this <q>boke was geve by ... of the
+                                    citie of London</q>, 18 Henry <note type="editorial"
+                                    >[VIII]</note>
+                                <q>... in Seynt George ...rres of gud and ... havyng the saide
+                                        <persName key="person_3948">Robert</persName> ... your
+                                    Memento.</q></p></provenance>
+                        <provenance type="MLGB3_LaterOwners">Sothebys 12 December 2023, lot
+                            221</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’, card index, Oxford, 1937–2025 (held at Oxford, Bodleian Library). Transcribed and encoded by Sian Witherden, with addition
+                                    of Sothebys reference.</source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Ker, Neil R., and Andrew G. Watson, eds, <ref
+                                    target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, supplement to the second
+                                edition, Guides and Handbooks, 15 (London, 1987).</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0019.jpg, Test 3_0020.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-02-26">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
