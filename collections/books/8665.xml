@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8665">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>London</settlement>
+                        <repository>Lambeth Palace Library</repository>
+                        <idno type="shelfmark">MS 5066</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Missale secundum usum Ebor</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1400" notAfter="1450">early s.
+                                xv</origDate>
+                        </origin>
+                        <provenance type="#c"><orgName role="fmo" key="org_817">Broughton (near
+                                Preston), Lancashire. Parish church of All Hallows</orgName>
+                            <p>Provenance suggested by additional entries about the incumbent (c.
+                                1500) and gifts to the church (1489 etc). Full transcripts and
+                                discussion in <bibl>Francis Carolus Eeles, <title>On a
+                                        fifteenth-century York missal formerly used at
+                                        Broughton-in-Amounderness, Lancashire</title>, Chetham
+                                    Miscellanies, New Series, Volume VI (Manchester: Chetham
+                                    Society, 1935).</bibl></p></provenance>
+                        <provenance><q><persName>J. Butler-Bowden</persName>, Pleasington Hall</q>
+                            (early 19th century bookplate). Location in MLGB2 listed as Mayfield,
+                            Capt. M. Butler-Bowden.</provenance>
+                        <provenance type="MLGB3_LaterOwners">For acquisition by Lambeth Palace
+                            Library (through Maggs), see <ref
+                                target="https://grants.fnl.org.uk/broughton-missal">'The Broughton
+                                Missal'</ref>, Friends of the Nations' Libraries (accessed
+                            18/03/2026), and <ref
+                                target="https://monumentoffame.org/2016/07/01/the-broughton-missal-online/"
+                                >'The Broughton Missal: Online',</ref>
+                            <title>Monument of Fame: The Lambeth Palace Library Blog</title>, posted
+                            on 1st July 2016.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
+                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
+                                    Transcribed and encoded by Sian Witherden, updated to reflect
+                                    acquisition by Lambeth Palace Library.</source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Ker, Neil R., ed., <ref
+                                    target="https://hdl.handle.net/2027/uva.x002754058"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, 2nd edn, Royal Historical
+                                Society Guides and Handbooks, 3 (London, 1964).</bibl>
+                            <bibl>Ker, Neil R., and Andrew G. Watson, eds, <ref
+                                    target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, supplement to the second
+                                edition, Guides and Handbooks, 15 (London, 1987).</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): 0039.jpg, 0040.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-03-18">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>

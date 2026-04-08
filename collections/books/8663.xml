@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8663">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>Christ's College</repository>
+                        <idno type="shelfmark">MS 8</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Horae</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1290" notAfter="1310">near
+                                1300 (M. R. James)</origDate>
+                        </origin>
+                        <provenance type="#e"><orgName role="fmo" key="org_857">Harlaston,
+                                Staffordshire. Parish church</orgName>
+                            <p>In calendar (February 9) <q><persName role="dnr" key="person_3971"
+                                        >Iohannes Vernon</persName> eques auratus, obiit ... anno a
+                                    Christo nato 1545 ... qui(?) Iohannes ecclesie in harlastoune
+                                    istum librum donavit</q>. Other entries in the calendar mostly
+                                refer to de Veres (Earls of Oxford) and Saunfords (of Sanford,
+                                Oxfordshire?), also obits of <persName>Sir Richard Vernon of
+                                    Haddon</persName> (d. 1450), his son <persName>William
+                                    Vernon</persName> (d. 1467), his son <persName>Henry
+                                    Vernon</persName> (d. 1515), his daughter-in-law
+                                    <persName>Anne</persName> (d. 1493), their son <persName>Sir
+                                    John Vernon</persName> of Sudbury, the donor of the book (d.
+                                1545), his son <persName>Sir Henry Vernon of Sudbury</persName> (d.
+                                1569). Harlaston belonged to the Vernons; see <bibl>Shaw, <title>The
+                                        History and Antiquities of Staffordshire ... </title>
+                                    (1798), I, p. 87</bibl>.</p></provenance>
+                        <provenance type="MLGB3_LaterOwners"><q>Mr Walter Grey his book</q> (s.
+                            xvii)</provenance>
+                        <provenance type="MLGB3_LaterOwners">Given to Christs by Simon Every, rector
+                            of Navenby, Lincolnshire in 1718.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
+                                    card index, Oxford, 1937–2025 (held at Oxford, Bodleian
+                                    Library). Transcribed and encoded by Sian Witherden.</source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Ker, Neil R., ed., <ref
+                                    target="https://hdl.handle.net/2027/uva.x002754058"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, 2nd edn, Royal Historical
+                                Society Guides and Handbooks, 3 (London, 1964).</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0135.jpg, Test 3_0136.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-03-18">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
