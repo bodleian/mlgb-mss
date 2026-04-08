@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8602">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8678">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title/>
                 <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
                 <respStmt xml:id="SW">
-                    <resp when="2026">Transcription and encoding of index cards</resp>
+                    <resp when="2026">Transcription and encoding of index card</resp>
                     <persName>Sian Witherden</persName>
                 </respStmt>
             </titleStmt>
@@ -35,41 +35,37 @@
                 <msDesc xml:lang="en">
                     <msIdentifier>
                         <country>England</country>
-                        <settlement>Oxford</settlement>
-                        <repository>Bodleian Library</repository>
-                        <idno type="shelfmark">MS Don. b. 5</idno>
+                        <settlement>Ushaw</settlement>
+                        <repository>College</repository>
+                        <idno type="shelfmark">MS 18</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
                         <msItem>
-                            <title>Missal</title>
+                            <title>Missale</title>
                         </msItem>
                     </msContents>
                     <history>
                         <origin>
-                            <origDate calendar="Gregorian" notBefore="1375" notAfter="1400">s. xiv
-                                ex</origDate>
+                            <origDate calendar="Gregorian" notBefore="1390" notAfter="1410">s.
+                                xiv/xv</origDate>
                         </origin>
-                        <provenance><orgName role="fmo" key="org_803">Adderbury, Oxfordshire. Parish
-                                church of St Mary</orgName>
-                            <p><q>Dedicacio ecclesie s. Marie de Eadberbury</q> added in Kalendar 1
-                                Dec (late 14th century).</p></provenance>
-                        <provenance><orgName role="fmo" key="org_819">Buckland, Berkshire. Parish
-                                church of St Mary</orgName>
-                            <p>Dedication of the church at July 4, and other notices relating to
-                                it.</p></provenance>
-                        <provenance type="MLGB3_LaterOwners">Quaritch Catalogue 285 (1909) no. 591;
-                            290 (1910), no. 145; 328 (1914), no. 576.</provenance>
-                        <provenance type="MLGB3_LaterOwners">Sothebys, Meade Falkner sale, December
-                            1932, lot 293 to Quaritch (£220) for Sir John Noble, who gve it to the
-                            Bodleian.</provenance>
+                        <provenance type="#e"><orgName role="fmo" key="org_839">Eastwell, Kent.
+                                Parish church</orgName>
+                            <p><q>Eastwell Ex dono Reuerendi patris et domini <persName role="dnr"
+                                        key="book_3962">Jacobi Goldwell</persName> quondam episcopi
+                                    Norwicen' Aᵒ domini mᵒ cccccᵒ 4ᵒ</q>.</p> Bishop Goldwell died in
+                            1499. His house was at Great Chart, 4 miles from Eastwell.</provenance>
+                        <provenance type="MLGB3_LaterOwners"><q>Ex bibliotheca Hornbeiana
+                            1812</q></provenance>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
-                                    card index, Oxford, 1937–2025 (held at Oxford, Bodleian
-                                    Library). Transcribed and encoded by Sian Witherden.</source>
+                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
+                                    Transcribed and encoded by Sian Witherden, with new
+                                    bibliography.</source>
                             </recordHist>
                         </adminInfo>
                         <listBibl>
@@ -78,11 +74,14 @@
                                         ><title>Medieval Libraries of Great Britain: A List of
                                         Surviving Books</title></ref>, 2nd edn, Royal Historical
                                 Society Guides and Handbooks, 3 (London, 1964).</bibl>
+                            <bibl>Ker, Neil R. and A. J. Piper, <title>Medieval Manuscripts in
+                                    British Libraries: Volume 4, Paisley-York</title> (Oxford,
+                                1992), pp. 527-529.</bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
-            <!-- Index card images (box 10): Test 3_0005.jpg, Test 3_0006.jpg, Test 3_0043.jpg, Test 3_0044.jpg -->
+            <!-- Index card images (box 10): Test 3_0091.jpg, Test 3_0092.jpg -->
         </fileDesc>
         <revisionDesc>
             <change when="2026-03-18">Record created.</change>
