@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026"/>
+               <persName>Sian Witherden</persName>
+               <note>Expanding record with information from index card</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,31 +50,63 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Missale ad usum Londoniensis (frag.)</title>
+                     <title>Missale ad usum Londoniensis (fragment)</title>
+                     <note>Calendar (May-August). <q>Sancti Ælberti regis et matiris</q> in blue (20
+                        May).</note>
+                     <note>See F. C. Eeles, 'Part of the kalendar of a XIIIth-century service book
+                        once in the church of Writtle', <title>Transactions of the Essex
+                           Archaeological Society</title>, new series 25 (1955), 68-79.</note>
+                     <note>For a description, see <bibl>Neil R. Ker, <title>Medieval Manuscripts in
+                              British Libraries: Volume 3, Lampeter-Oxford </title> (Oxford, 1983),
+                           pp. 212-13.</bibl></note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
+                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                        calendar="#gregorian">s. xiii</origDate>
                   </origin>
-                  <provenance type="#l" cert="low"><orgName role="fmo" key="org_732">Writtle, Essex. Church
-                        or hospital of All Saints</orgName><p>A bifolium assigned to Writtle on
-                        the basis of an obit for Iacobus de Civitate Sancti Angeli (d. 1348), master
-                        of the church (see further Ramsay &amp; Willoughby, Hospitals,
-                     455–6).</p></provenance>
+                  <provenance type="#l" cert="low"><orgName role="fmo" key="org_732">Writtle, Essex.
+                        Church or hospital of All Saints</orgName><p>A bifolium assigned to Writtle
+                        on the basis of an obit for <persName>Iacobus de Civitate Sancti Angeli (d.
+                           1348)</persName>, master of the church: <q>Obitus fratrum Jacobi de
+                           ciuitate sancti angeli custodis ecclesie omnium sanctorum de Writele anno
+                           domini 1348 cuius anime propricietur deus</q> (at 20 May, lined through).
+                        See further at <bibl>Nigel Ramsay and James Willoughby, <title>Hospitals,
+                              towns, and the professions</title> (London, 2009), pp.
+                        455–6.</bibl></p></provenance>
+                  <provenance type="MLGB3_LaterOwners">Tregaskis, Catalogue 1003 (1932), no.
+                     157.</provenance>
+                  <provenance type="MLGB3_LaterOwners">Sotheby's, 4 April 1939, lot
+                     292.</provenance>
+                  <provenance type="MLGB3_LaterOwners">William Porter, Warden of New
+                     College.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0325.jpg, Test 3_0326.jpg -->
       </fileDesc>
       <revisionDesc>
          <change when="2025-05-21">Record created.</change>
+         <change when="2026-04-10">Record expanded by Sian Witherden to add information from
+            corresponding card in Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’, card
+            index, Oxford, 1937–2025 (held at Oxford, Bodleian Library). Additionally, reference to
+            description in Ker (1983) added.</change>
       </revisionDesc>
    </teiHeader>
    <text>

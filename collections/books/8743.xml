@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8743">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Tidmarsh</settlement>
+                        <repository>Parish church</repository>
+                        <idno type="shelfmark">Shelfmark not recorded (pr. bk.)</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Missale</title>
+                            <note>ESTC S111838. For this edition see William Henry James Weale,
+                                    <title>Bibliographia Liturgica</title> (London, 1886), p.
+                                186.</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Printed on vellum</support>
+                            </supportDesc>
+                        </objectDesc>
+                        <typeDesc>
+                            <p>Printed book</p>
+                        </typeDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Antwerp: Apud franciscum byrckman</origPlace>
+                            <origDate calendar="Gregorian" when="1527">28 March 1527</origDate>
+                        </origin>
+                        <provenance type="#e"><orgName role="fmo" key="org_924">Tidmarsh, Berkshire.
+                                Parrish church</orgName>
+                            <p><q>Memorandum that yow pray for the solle of <persName
+                                        key="person_3994" role="dnr">Mr Henry Leyham</persName>
+                                    &amp; his fryndes solles &amp; all crystane solles &amp; for the
+                                    good estate of <persName>Mrs Jane Layham</persName> hys wyffe
+                                    wyche for continuall prayer dyd gyfe thys Boke to the churche of
+                                    tydmarche anno regni henryci octaui xxxvᵒ</q>. Henry Lenham was
+                                lord of the manor of Tidmarsh, his wife Joan was daughter to
+                                    <persName>Sir Thomas Englefield</persName>, speaker of the House
+                                of Commons. <q>Anno domini 1544 Richardus redingus sacrificus huius
+                                    sacerdotii inductione fungetatui dieque mensis maii 2 huius
+                                    parochiae tydmarchae rector est
+                            constitutus.</q></p></provenance>
+                        <provenance type="MLGB3_LaterOwners">Bookplate of <persName role="fmo"
+                                >Thomas Weld</persName> of Lulworth Castle. Acquired in
+                            1935.</provenance>
+                        <provenance type="MLGB3_LaterOwners">In catalogue 304 (1934) of Ellis of New
+                            Bond Street, no. 146, £128.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
+                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
+                                    Transcribed and encoded by Sian Witherden, with ESTC number
+                                    added.</source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Ker, Neil R., ed., <ref
+                                    target="https://hdl.handle.net/2027/uva.x002754058"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, 2nd edn, Royal Historical
+                                Society Guides and Handbooks, 3 (London, 1964).</bibl>
+                            <bibl>Ker, Neil R., and Andrew G. Watson, eds, <ref
+                                    target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, supplement to the second
+                                edition, Guides and Handbooks, 15 (London, 1987).</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0297.jpg, Test 3_0298.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-04-10">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>

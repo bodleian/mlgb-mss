@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8739">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Exeter</settlement>
+                        <repository>Cathedral</repository>
+                        <idno type="shelfmark">MS 3515</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Missale</title>
+                            <note>
+                                <p>2o folio: credendo ut habundetis</p>
+                                <p>Notes by Brightman are kept with the manuscript.</p>
+                                <p>Fols. 162-177 all apparently a supply, since the text follows on
+                                    directly from the early 13th century part.</p>
+                                <p>Three sections:</p>
+                                <p>[1] Fols. 1-134: 16 quires signed II-XII, then four unsigned (so
+                                    the first quire is missing).</p>
+                                <p>[2] Fols: 135-137: 3 leaves </p>
+                                <p>[3] Fols. 138-161: 3 quires signed IX-XI (signatures erased).</p>
+                                <p>This is followed by the supply leaves 162-177 (2 quires).</p>
+                            </note>
+                            <note/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <bindingDesc>
+                            <binding>
+                                <p>Medieval binding of white leather over boards with chemise over.
+                                    Central stap and pin now missing.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1200" notAfter="1499">s. xiii
+                                in (fols. 1-161) - s. xv (fols. 162-177)</origDate>
+                        </origin>
+                        <provenance type="#e"><orgName role="fmo" key="org_840">Exeter, Devon.
+                                Chapel of St Anne (in parish of St Sidwell)</orgName>
+                            <p><q>Dominus <persName key="person_3964" role="dnr">Johannes
+                                        Hyotte</persName> Anniuellarius in Ecclesia Cath' Exon'
+                                    contulit hunc librum missale deo et capelle sancte anne in
+                                    parochia sancte satiuole situat ob honore sancte anne et beati
+                                    Johannes Euangeliste ibidem pro celebrant' quamdiu duraverit
+                                    remansurum</q> (fol. 169). </p><p>(? This is an out of date and
+                                fragmentary Exeter service book, completed (more or less) for John
+                                Hyolte, who then gave it to St Anne's Chapel).</p>
+                            <p>The index card has an incomplete note, indicating that one J. Hyolt
+                                owned Magdalen College [...] and Royal [...]. </p></provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
+                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
+                                    Transcribed and encoded by Sian Witherden, with added
+                                    bibliography for Ker 1977.</source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Ker, Neil R., ed., <ref
+                                    target="https://hdl.handle.net/2027/uva.x002754058"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, 2nd edn, Royal Historical
+                                Society Guides and Handbooks, 3 (London, 1964).</bibl>
+                            <bibl>Ker, Neil R., <title>Medieval Manuscripts in British Libraries:
+                                    Volume II, Abbotsford-Keele</title> (Oxford, 1977), pp.
+                                825-827.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0097.jpg, Test 3_0098.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-04-10">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
