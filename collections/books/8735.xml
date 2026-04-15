@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8734">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cleveland</settlement>
+                        <repository>Cleveland Museum of Art</repository>
+                        <idno type="shelfmark">Jeanne Miles Blackburn Collection, 1999.125 (fragment
+                            of the Iken Psalter)</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Psalterium</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>1 leaf.</extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1290" notAfter="1310">c.
+                                1300</origDate>
+                        </origin>
+                        <provenance type="#l"><orgName role="fmo" key="org_863">Iken, Suffolk.
+                                Parish church of St Botulph</orgName>
+                            <p>In 1987, the Supplement (p. 73) noted the following: <q>Now split up.
+                                    It appeared intact in a Sotheby sale, 10 December 1969, lot 36,
+                                    and in Traylen's catalogue 77 (1972), no. 77, but one leaf
+                                    appeared in Quaritch catalogue 1036 (1984), no. 16 and is now in
+                                    private hands.</q></p><p>The Iken Psalter and its dispersal is
+                                discussed in <bibl>Eric J. Johnson and Scott Gwara, '"The Butcher's
+                                    Bill: Using the Schoenberg Database to Reverse-Engineer Medieval
+                                    and Renaissance Manuscript Books from Constituent Fragments',
+                                        <title>Manuscript Studies</title> 1:2 (2016), pp.
+                                    250-52.</bibl> Johnson and Gwara summarise that <q>the
+                                    manuscript was likely produced between 1290 and 1310; still
+                                    existed in its medieval binding at the time of sale; originally
+                                    consisted of seventy-six folios and included seven historiated
+                                    initials, each itemized; included a “rough but impressive”
+                                    full-page pen drawing of King Edmund the Martyr on a now missing
+                                    flyleaf; contained a flyleaf inscription connecting it to Pond
+                                    Hall and Orfforde in Suffolk; and was possibly written for the
+                                    church of St. Botulph at Iken, also in Suffolk.</q>
+                            </p><p>Johnson and Gwara identified several components, including the
+                                fragment now in the Cleveland Museum of Art. See also the <ref
+                                    target="https://mlgb.bodleian.ox.ac.uk/catalog/book_8733">Ohio
+                                    State University fragment</ref> and the <ref
+                                    target="https://mlgb.bodleian.ox.ac.uk/catalog/book_8734"
+                                    >Cornell University fragment</ref>.</p>
+                        </provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Andrew G. Watson, eds, <ref
+                                        target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                            ><title>Medieval Libraries of Great Britain: A List of
+                                            Surviving Books</title></ref>, supplement to the second
+                                    edition, Guides and Handbooks, 15 (London, 1987), p. 73. This
+                                    record (including the shelfmark and extent) is additionally
+                                    informed by Eric J. Johnson and Scott Gwara, '"The Butcher's
+                                    Bill: Using the Schoenberg Database to Reverse-Engineer Medieval
+                                    and Renaissance Manuscript Books from Constituent Fragments',
+                                        <title>Manuscript Studies</title> 1:2 (2016). Record created
+                                    by Sian Witherden.</source>
+                            </recordHist>
+                        </adminInfo>
+                        <surrogates><bibl subtype="partial" type="digital-facsimile">
+                            <ref
+                                target="https://www.clevelandart.org/art/1999.125">
+                                <title>Cleveland Museum of Art</title>
+                            </ref>
+                        </bibl>
+                    </surrogates>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0149.jpg, Test 3_0150.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-04-10">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
