@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Transcription and encoding of Melbourne index card</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,8 +49,8 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Expo. omeliarum dominicalium (sermons by G. Peraldus, ascribed s. xvi to
-                        N. Waterton (= Aquavilla)</title>
+                     <title>Expositio omeliarum dominicalium (sermons by G. Peraldus, ascribed s.
+                        xvi to N. Waterton (= Aquavilla)</title>
                      <note type="MLGB3_generalNotes">Mr John de Stok' was instituted to Twyford,
                         Bucks. in 1241 (Rot. Rob. Grosseteste, p. 359). A Mr John de Stok' bought
                         Royal MS. 8 A VIII at Hoxne Suffolk in 1246.</note>
@@ -54,34 +58,54 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
+                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                        calendar="#gregorian">s. xiii</origDate>
                   </origin>
                   <provenance type="#e"><orgName role="fmo" key="org_533">Sudbury, Suffolk.
-                        Dominican convent</orgName><p>'Hunc librum contulat [sic] magister
-                        Iohannes de Stok' presbiter et rector ecclesiarum de Twyford et Hunede pro
-                        salute anime sue et omnium parochianorum suorum deo et beate marie et
-                        communitati fratrum predicatorum Sulbirie commorantium: qui fraudulenter
-                        quocunque genere alienacionis a dicta communitate alienaverit vel scripturam
-                        istam quocumque tempore maliciose preter suam conscientiam deleverit ipso
-                        facto anathema est maranata, salvo tamen Iohanni de Hundene sacterdoti et
-                        dicto I. si velit usu dicti libri suo dumtaxat perpetuo. Actum a. d. mo cco
-                        lo sexto duodecimo Kal. marcii' (fol. 227v).</p><p>Inscr. erased at foot of
-                        fol. 1r.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">s. xvi Parish church of Melburn, q. v.
-                  </provenance>
+                        Dominican convent</orgName><p>'Hunc librum contulat [sic] magister Iohannes
+                        de Stok' presbiter et rector ecclesiarum de Twyford et Hunede pro salute
+                        anime sue et omnium parochianorum suorum deo et beate marie et communitati
+                        fratrum predicatorum Sulbirie commorantium: qui fraudulenter quocunque
+                        genere alienacionis a dicta communitate alienaverit vel scripturam istam
+                        quocumque tempore maliciose preter suam conscientiam deleverit ipso facto
+                        anathema est maranata, salvo tamen Iohanni de Hundene sacterdoti et dicto I.
+                        si velit usu dicti libri suo dumtaxat perpetuo. Actum a. d. mo cco lo sexto
+                        duodecimo Kal. marcii' (fol. 227v).</p><p>Inscr. erased at foot of fol.
+                        1r.</p></provenance>
+                  <provenance type="e"><orgName key="org_885">Melbourne, Derbyshire. Parish
+                        church</orgName><q>Iste liber datum <persName role="dnr" key="person_3981"
+                           >Iohanni Reed</persName> vicario de Melburn et successoribus suis in
+                        ecclesia beate marie imperpetuum per venerabilem presbiterum dominum
+                        Iohannem Bredone quondam vicarium de Bredon A.D. 1514. Ita quod semper erit
+                        in custodia vicarii de Melburn ibidem residentis</q> (fol. ii). <p>A note on
+                        the index card records that the church at Melbourne (Derbyshire), a few
+                        miles from Breedon (Leicestershire) is dedicated to St
+                     Michael.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0207.jpg, Test 3_0208.jpg-->
       </fileDesc>
       <revisionDesc>
          <change when="2025-05-21">Record created.</change>
+         <change when="2026-04-17">Melbourne provenance added. Transcribed from corresponding index
+            card in Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’, index, Oxford,
+            1937–2025 (held at Oxford, Bodleian Library).</change>
       </revisionDesc>
    </teiHeader>
    <text>
