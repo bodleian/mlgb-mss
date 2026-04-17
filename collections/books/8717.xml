@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8717">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>London</settlement>
+                        <repository>British Library</repository>
+                        <idno type="shelfmark">Add. MS 41175</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="enm">English</textLang>
+                        <msItem>
+                            <title>Commentaries on Matthew and Mark (in English)</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1390" notAfter="1410">s.
+                                xv/xv</origDate>
+                        </origin>
+                        <provenance type="#e" cert="low"><orgName role="fmo" key="org_753">Pott
+                                Shrigley, Cheshire, Downes Chapel (Chantry chapel of St Mary the
+                                Virgin and Jesus)</orgName>
+                            <p><q>Memorandum quod Maister <persName role="dnr" key="person_3985"
+                                        >Galfridus Downes</persName> vult quod liber iste post
+                                    mortem Maistri(?) <persName>Jacobi Downes</persName> donetur
+                                    capelle de Potte etc in commitatu Schropschyrre.</q> G. Downes,
+                                Fellow of Queens' College Cambridge (1490-4), by will dated 7 June
+                                1492 founded the chapel of Pott Shrigley. <bibl>See Earwacker,
+                                        <title>East Cheshire</title>, ii (1880), pp. 325-332.</bibl>
+                                Note that more recent research casts doubt on whether the book
+                                arrived; see <bibl>James Willoughby, <title>The Libraries of
+                                        Collegiate Churches</title> (London, 2013), p.
+                                406.</bibl></p></provenance>
+                        <provenance type="MLGB3_LaterOwners">Fol. 2: <q>Orate pro anima domini
+                                    <persName>Hugonis Blyth</persName></q> (? Hugh B. Rector of
+                            Roding Abbess, d. 1455).</provenance>
+                        <provenance type="MLGB3_LaterOwners">Fol. 1: <q>Pray for the soule of
+                                Maister John Crowland <note type="editorial">[d. 1493]</note>
+                                ffelowe of the Quenes College of Cambrigge and parson of South
+                                Wokyngton <note type="editorial">[Ockendon]</note> in Essex, Gyver
+                                of this boke."</q></provenance>
+                        <provenance type="MLGB3_LaterOwners">Given by <persName>Lord
+                                Dillon</persName> in 1924.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
+                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
+                                    Transcribed and encoded by Sian Witherden, with the record
+                                    updated to incorporate more recent provenance research
+                                    (Willoughby 2013), and certainty level therefore
+                                    downgraded.</source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Ker, Neil R., ed., <ref
+                                    target="https://hdl.handle.net/2027/uva.x002754058"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, 2nd edn, Royal Historical
+                                Society Guides and Handbooks, 3 (London, 1964).</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0245.jpg, Test 3_0246.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-04-17">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
