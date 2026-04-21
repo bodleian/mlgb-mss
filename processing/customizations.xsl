@@ -329,39 +329,29 @@
         </div>
     </xsl:template>
 
-    <!-- Book customisation override to display evidence after orgName -->
-
+    <!-- Book customisation override to display evidence after orgName
+        Issue 151 - display rejected and uncertain provenance
+        Issue 177 - display text and italise provenance evidence -->
     <xsl:template match="orgName">
-        <!--#151 Uncertain provenance evidence -->
-        <xsl:if test="parent::provenance[@cert='low']">
-            <span>
-                <xsl:attribute name="class">
-                    <xsl:text>uncertain</xsl:text>
-                </xsl:attribute>
-                <xsl:text>(?)&#x20;</xsl:text>
-            </span>
+        <xsl:variable name="prov" select="parent::provenance"/>
+        <xsl:variable name="rejected" select="$prov[@type = '#rejected']"/>
+        <xsl:variable name="types" select="tokenize(substring-after($prov[starts-with(@type,'#') and not(@type='#rejected')]/@type,'#'),' ')" />
+
+        <!-- Uncertain -->
+        <xsl:if test="$prov[@cert='low']">
+            <span class="uncertain">(?) </span>
         </xsl:if>
-        <!--#151 Rejected provenance evidence -->
-        <xsl:if test="parent::provenance[@type='#rejected']">
-            <span>
-                <xsl:attribute name="class">
-                    <xsl:text>rejected</xsl:text>
-                </xsl:attribute>
-                <xsl:text>(Rejected)&#x20;</xsl:text>
-            </span>
+
+        <!-- Rejected -->
+        <xsl:if test="$rejected">
+            <span class="rejected">(Rejected) </span>
         </xsl:if>
-        <span>
-            <xsl:attribute name="class">
-                <xsl:value-of select="string-join((name(), @role), ' ')"/>
-            </xsl:attribute>
+
+        <!-- Name -->
+        <span class="{string-join((name(), @role), ' ')}">
             <xsl:choose>
-                <xsl:when test="@key and not(@key='')">
-                    <a>
-                        <xsl:attribute name="href">
-                            <xsl:value-of select="$website-url"/>
-                            <xsl:text>/catalog/</xsl:text>
-                            <xsl:value-of select="@key"/>
-                        </xsl:attribute>
+                <xsl:when test="@key">
+                    <a href="{$website-url}/catalog/{@key}">
                         <xsl:apply-templates/>
                     </a>
                 </xsl:when>
@@ -370,24 +360,36 @@
                 </xsl:otherwise>
             </xsl:choose>
         </span>
-        <span>
-            <xsl:attribute name="class">
-                <xsl:text>evidence</xsl:text>
-            </xsl:attribute>
+
+        <!-- Evidence -->
+        <span class="evidence italic">
             <xsl:text>: </xsl:text>
-            <xsl:variable name="types" select="tokenize(substring-after(parent::provenance[starts-with(@type,'#') and not(@type='#rejected')]/@type,'#'),' ')" />
-            <xsl:for-each select="$types">
-                <xsl:value-of select="bod:provenanceTypeLookup(.)"/>
-                <xsl:choose>
-                    <xsl:when test="position() lt last()">; and </xsl:when>
-                    <xsl:when test=". ne 'c'">.</xsl:when>
-                </xsl:choose>
-            </xsl:for-each>
-            <xsl:if test="empty($types) and not(parent::provenance[@type='#rejected'])">
-                <xsl:text>inferred evidence.</xsl:text>
+
+            <xsl:if test="not($rejected)">
+                <xsl:text>[Assigned on the basis of </xsl:text>
+            </xsl:if>
+
+            <xsl:choose>
+                <xsl:when test="exists($types)">
+                    <xsl:for-each select="$types">
+                        <xsl:value-of select="bod:provenanceTypeLookup(.)"/>
+                        <xsl:choose>
+                            <xsl:when test="position() lt last()">; and </xsl:when>
+                            <xsl:when test=". ne 'c'">.</xsl:when>
+                        </xsl:choose>
+                    </xsl:for-each>
+                </xsl:when>
+                <xsl:when test="not($rejected)">
+                    <xsl:text>inferred evidence.</xsl:text>
+                </xsl:when>
+            </xsl:choose>
+
+            <xsl:if test="not($rejected)">
+                <xsl:text>]</xsl:text>
             </xsl:if>
         </span>
     </xsl:template>
+
 
     <xsl:function name="bod:provenanceTypeLookup" as="xs:string">
         <xsl:param name="provenanceType"/>
