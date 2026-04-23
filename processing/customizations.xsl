@@ -411,7 +411,9 @@
     <xsl:template match="provenance[@type='MLGB3_laterOwners']">
         <!-- modified. p not span -->
         <p class="{name()}">
-            <xsl:text>[Other provenance]: </xsl:text>
+            <span class="italic">
+                <xsl:text>[Other provenance]: </xsl:text>
+            </span>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
