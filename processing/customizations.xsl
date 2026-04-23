@@ -347,7 +347,7 @@
             <span class="rejected">(Rejected) </span>
         </xsl:if>
 
-        <!-- Name -->
+        <!-- Library -->
         <span class="{string-join((name(), @role), ' ')}">
             <xsl:choose>
                 <xsl:when test="@key">
@@ -360,17 +360,14 @@
                 </xsl:otherwise>
             </xsl:choose>
         </span>
+        <xsl:text>: </xsl:text>
 
         <!-- Evidence -->
         <span class="evidence italic">
-            <xsl:text>: </xsl:text>
-
-            <xsl:if test="not($rejected)">
-                <xsl:text>[Assigned on the basis of </xsl:text>
-            </xsl:if>
-
             <xsl:choose>
                 <xsl:when test="exists($types)">
+                    <xsl:text>[Assigned on the basis of </xsl:text>
+
                     <xsl:for-each select="$types">
                         <xsl:value-of select="bod:provenanceTypeLookup(.)"/>
                         <xsl:choose>
@@ -379,9 +376,11 @@
                         </xsl:choose>
                     </xsl:for-each>
                 </xsl:when>
-                <xsl:when test="not($rejected)">
-                    <xsl:text>inferred evidence.</xsl:text>
-                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:if test="not($rejected)">
+                        <xsl:text>[Type of provenance evidence not specified.</xsl:text>
+                    </xsl:if>
+                </xsl:otherwise>
             </xsl:choose>
 
             <xsl:if test="not($rejected)">
@@ -389,7 +388,6 @@
             </xsl:if>
         </span>
     </xsl:template>
-
 
     <xsl:function name="bod:provenanceTypeLookup" as="xs:string">
         <xsl:param name="provenanceType"/>
@@ -408,6 +406,15 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
+
+    <!-- Issue 177 - add text label -->
+    <xsl:template match="provenance[@type='MLGB3_laterOwners']">
+        <!-- modified. p not span -->
+        <p class="{name()}">
+            <xsl:text>[Other provenance]: </xsl:text>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
 
     <!-- Book customisation to display Pressmarks and Catalogue Notes -->
 
