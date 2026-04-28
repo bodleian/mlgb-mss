@@ -19,7 +19,7 @@
     <text>
         <body>
             <schemaSpec ident="msdescmlgb" source="https://raw.githubusercontent.com/msDesc/consolidated-tei-schema/refs/heads/master/msdesc.compiled.xml" start="TEI" targetLang="en" docLang="en">
-                <moduleRef key="tei"/>
+                <moduleRef key="tei" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
                 <!-- core module -->
                 <moduleRef key="core"/>
                 <!-- figures module -->
@@ -27,14 +27,13 @@
                 <!-- header module -->
                 <moduleRef key="header"/>
                 <!-- linking module -->
-                <moduleRef key="linking" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml" include="ab seg"/>
+                <moduleRef key="linking" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml" include="seg ab"/>
                 <!-- msdescription module -->
                 <moduleRef key="msdescription" except="supportDesc objectDesc"/>
                 <!-- namesdates module -->
                 <moduleRef key="namesdates" />
                 <!-- textstructure module -->
                 <moduleRef key="textstructure" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml" include="TEI body div text back"/>
-
                 <!-- transcr module -->
                 <moduleRef key="transcr"/>
 
