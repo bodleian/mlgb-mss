@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8684">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library</repository>
+                        <idno type="shelfmark">Auct 1. Q 5. 15 (pr. bk.)</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <author>Bartholomaeus de Chaimis, OFM</author>
+                            <title>Confessionale</title>
+                            <note><ref target="https://data.cerl.org/istc/ib00157000">ISTC
+                                    ib00157000</ref>, Bod-inc B 078, Hain 2483, Proctor 116</note>
+                            <note><q>3 <ex>shillings</ex></q> (sig ai)</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <typeDesc>
+                            <p>Printed book</p>
+                        </typeDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Mainz</origPlace>
+                            <origDate calendar="Gregorian" when="1478">1478</origDate>
+                        </origin>
+                        <provenance type="#e"><orgName role="fmo" key="org_853">Hamstall Ridware,
+                                Staffordshire. Parish church of St Michael</orgName>
+                            <p><q>Iste liber pertinet ecclesie de Hampstall' Rydware</q> twice on
+                                first leaf and three times at end (s. xvi1).</p></provenance>
+                        <provenance type="MLGB3_LaterOwners"><q>Magister Antonius ffitzherber'</q>
+                            (at end). This is <persName>Anthony Fitzherbert</persName> (d. 1538, see
+                                <title>Dictionary of National Biography</title>); he married
+                                <persName>Matilda</persName>, daughter of <persName>Richard
+                                Cotton</persName> of Hamstall Ridware. <q>per me Antonium ff</q> is
+                            added to one of the ex-libris inscriptions.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
+                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
+                                    Transcribed and encoded by Sian Witherden, with additional
+                                    references to ISTC and Bod-Inc added.</source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Ker, Neil R., ed., <ref
+                                    target="https://hdl.handle.net/2027/uva.x002754058"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, 2nd edn, Royal Historical
+                                Society Guides and Handbooks, 3 (London, 1964).</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0127.jpg, Test 3_0128.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-03-20">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
