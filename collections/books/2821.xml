@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Transcription and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Transcription and encoding of index card for Laxton parish church</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,31 +50,49 @@
                <msContents>
                   <textLang mainLang="la" otherLangs="xno">Latin and Anglo-Norman</textLang>
                   <msItem>
-                     <title>Commentary on Pss 51–100</title>
+                     <title>Commentary on Psalms 51–100</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
+                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                        calendar="#gregorian">s. xiii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="org_203">Exeter, Devon.
-                        Dominican convent</orgName><p>"Predicatorum Exon." (fol. 1r), erased; s.
-                        xv?</p><p>"F. 1".</p><p>"Liber iste liber est ecclesie de Lexyngtona et qui
-                        eum alienauerit anathema sit."</p><q type="pressmark">F.1</q></provenance>
-                  <provenance type="MLGB3_laterOwners">Westm. invent. of 1542.</provenance>
+                  <provenance type="#e" cert="low"><orgName role="fmo" key="org_868">Laxton,
+                        Nottinghamshire. Parish church</orgName><p><q>Liber iste liber est ecclesie
+                           de Lexyngtona et qui eum alienauerit anathema sit.</q>
+                        <q>Lexhinton</q> also on flyleaf.</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="org_203">Exeter, Devon. Dominican
+                        convent</orgName><p>"Predicatorum Exon." (fol. 1r), erased; s. xv?</p><p/><q
+                        type="pressmark">F.1</q></provenance>
+                  <provenance type="MLGB3_laterOwners">Westminster inventory of 1542. Old Royal
+                     pressmark.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0169.jpg, Test 3_0170.jpg -->
       </fileDesc>
       <revisionDesc>
          <change when="2025-05-21">Record created.</change>
+         <change when="2026-03-26">Record restructured to incorporate a new authority record for
+            Laxton parish church, and with additional content transcribed from the corresponding
+            card in Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’, card index, Oxford,
+            1937–2025 (held at Oxford, Bodleian Library).</change>
       </revisionDesc>
    </teiHeader>
    <text>

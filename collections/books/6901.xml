@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Transcription and encoding of index card for Haddenham parish
+                  church</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -41,46 +46,66 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">6901</idno>
                   </altIdentifier>
-               <altIdentifier><idno type="MLGB3">8494</idno>
-                  </altIdentifier></msIdentifier>
+                  <altIdentifier>
+                     <idno type="MLGB3">8494</idno>
+                  </altIdentifier>
+               </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title source="6901">W. de Montibus, etc.</title>
-                  <title source="8494">Will. de Montibus</title>
+                     <author key="person_3744">William de Monte etc</author>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
+                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                        calendar="#gregorian">s. xiii</origDate>
                   </origin>
-                  <provenance type="#c" source="6901"><orgName role="fmo" key="org_190">Ely, Cambridgeshire.
-                        Benedictine abbey and (1109) cathedral priory of St Peter and St Etheldreda</orgName><p>A/cs + lists of manorial tenants at the end, concerning Ely
-                        Cath. Priory estates, suggest the provenance. Synodal statutes preceding
-                        them are for the diocese of Ely, 1239 × 1256 with additions 1256 × 1276; see
-                        F. M. Powicke and C. R. Cheney, Councils and Synods (Oxford, 1964),
-                        II.i.515–23.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Given to New Coll. by Wm. of
-                     Wykeham</provenance>
-               <provenance type="#e" source="8494"><orgName role="fmo" key="org_436">Oxford, Oxfordshire.
-                        New College (Collegium beate Marie Winton' in Oxonia)</orgName><p>‘Liber
+                  <provenance type="#c" source="6901"><orgName role="fmo" key="org_190">Ely,
+                        Cambridgeshire. Benedictine abbey and (1109) cathedral priory of St Peter
+                        and St Etheldreda</orgName><p>Accounts and lists of manorial tenants at the
+                        end, concerning Ely Cathedral Priory estates, suggest the provenance.
+                        Synodal statutes preceding them are for the diocese of Ely, 1239 × 1256 with
+                        additions 1256 × 1276; see F. M. Powicke and C. R. Cheney, <title>Councils
+                           and Synods</title> (Oxford, 1964), II.i.515–23.</p></provenance>
+                  <provenance type="#c"><orgName role="fmo" key="org_850">Haddenham, Cambridgeshire.
+                        Parish church</orgName>
+                     <p>See Dorothy Owen, 'Two medieval parish books from the diocese of Ely: New
+                        College MS. 98 &amp; Wisbech Museum MS. 1', <title>Reading Medieval
+                           Studies</title> xi (1985), 121-31.</p></provenance>
+                  <provenance type="#e" source="8494"><orgName role="fmo" key="org_436">Oxford,
+                        Oxfordshire. New College (Collegium beate Marie Winton' in
+                        Oxonia)</orgName><p>Given to New College by William of Wykeham: ‘Liber
                         Collegii S. Marie Wyntonie in Oxonia ex dono venerabilis in Christo patris
                         et domini domini Willelmi de Wykeham, episcopi Wyntoniensis, et fundatoris
                         collegii predicti’ (‘Codici praemittitur’, Coxe, Catalogus,
                      s.n.)</p></provenance>
-                  </history>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0119.jpg, Test 3_0120.jpg -->
       </fileDesc>
       <revisionDesc>
-         <change when="2025-09-18">Record 8494 merged into this record.</change><change when="2025-05-21">Record created.</change>
+         <change when="2025-09-18">Record 8494 merged into this record.</change>
+         <change when="2025-05-21">Record created.</change>
+         <change when="2026-03-25">Provenance evidence supplied for Haddenham parish church,
+            transcribed from corresponding card in Neil R. Ker, et al., ‘Medieval Libraries of Great
+            Britain’, card index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).</change>
       </revisionDesc>
    </teiHeader>
    <text>
