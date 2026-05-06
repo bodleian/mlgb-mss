@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9503">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library</repository>
+                        <idno type="shelfmark">Rawl. G. 169</idno>
+                        <altIdentifier type="internal">
+                            <idno type="SCN">14892</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Matthaeus</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1100" notAfter="1199">s.
+                                xii</origDate>
+                        </origin>
+                        <provenance type="rejected"><orgName role="fmo" key="org_1001">Cropthorne,
+                                Worcestershire. Parish church</orgName>
+                            <p>The index card records the following provenance evidence: <q>Iste
+                                    liber est magistri <persName role="fmo">Michael</persName>
+                                    rectoris ecclesie de Cropthorne &amp; traditur <persName
+                                        role="fmo">Ade de Furches</persName> diacono usque ad Festum
+                                    sancti Johannis Baptiste anno Domini mº ccº lxxº nono</q>.
+                                However, this is insufficient grounds for an attribution to the
+                                parish church. Compare the preface to MLGB2, p. viii: 'Books
+                                belonging to the secular clergy [...] are not included'. A later
+                                pencil note on the index card notes: <q>not within scope</q>.</p>
+                            This manuscript is not listed as a rejected parish church book in either
+                            MLGB2 or the Supplement. This might be because the index card was not
+                            filed in the parish church section, but instead in the main sequence
+                            under the letter 'C' (where it was found during data reconciliation work
+                            in 2026).</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
+                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
+                                    Transcribed and encoded by Sian Witherden, with a comment added
+                                    to justify why the manuscript is out of scope.</source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Ker, Neil R., ed., <ref
+                                    target="https://hdl.handle.net/2027/uva.x002754058"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, 2nd edn, Royal Historical
+                                Society Guides and Handbooks, 3 (London, 1964).</bibl>
+                            <bibl>Ker, Neil R., and Andrew G. Watson, eds, <ref
+                                    target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, supplement to the second
+                                edition, Guides and Handbooks, 15 (London, 1987).</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 3): Test 3_0443.jpg, Test 3_0444.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-05-06">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
