@@ -407,23 +407,26 @@
         </xsl:choose>
     </xsl:function>
 
-    <!-- Issue 177 - add text label -->
+    <!-- Issue 177 - Override to add text label -->
     <xsl:template match="provenance[@type='MLGB3_laterOwners']">
-        <!-- modified. p not span -->
-        <p class="{name()}">
-            <span class="italic">
-                <xsl:text>[Other provenance]: </xsl:text>
-            </span>
-            <xsl:apply-templates/>
-        </p>
+        <xsl:if test="normalize-space(.)">
+            <!-- modified. p not span -->
+            <p class="{name()}">
+                <span class="italic">
+                    <xsl:copy-of select="bod:standardText('[Other provenance]:')"/>
+                    <xsl:text>&#x20;</xsl:text>
+                </span>
+                <xsl:apply-templates/>
+            </p>
+        </xsl:if>
     </xsl:template>
 
     <!-- Book customisation to display Pressmarks and Catalogue Notes -->
 
     <xsl:template match="q[@type='pressmark']">
         <div class="tei-pressmark">
-            <span class="tei-label">
-                <xsl:copy-of select="bod:standardText('Pressmark:')"/>
+            <span class="italic">
+                <xsl:copy-of select="bod:standardText('[Pressmark]:')"/>
                 <xsl:text>&#x20;</xsl:text>
             </span>
             <xsl:text>'</xsl:text>
@@ -434,8 +437,8 @@
 
     <xsl:template match="note[@type='MLGB3_medievalCatalogueNotes']">
         <div class="tei-med-cat-notes">
-            <span class="tei-label">
-                <xsl:copy-of select="bod:standardText('Medieval Catalogue Notes:')"/>
+            <span class="italic">
+                <xsl:copy-of select="bod:standardText('[Medieval Catalogue Notes]:')"/>
                 <xsl:text>&#x20;</xsl:text>
             </span>
             <xsl:apply-templates/>
