@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8731">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>New Haven (CT)</settlement>
+                        <repository>Beinecke Library</repository>
+                        <idno type="shelfmark">Takamiya MS 103</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Processionale ad usum Sarum</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1340" notAfter="1359">s. xiv
+                                med</origDate>
+                        </origin>
+                        <provenance type="#e"><orgName role="fmo" key="org_903">Redgrave, Suffolk.
+                                Parish church of St Mary</orgName>
+                            <p>
+                                <q>Iste liber constat de Redgrave</q>; quoted after Raymond Clemens,
+                                Diane Ducharme, and Emily Ulrich, <title>A Gathering of Medieval
+                                    English Manuscripts: The Takamiya Collection at the
+                                    Beinecke</title> (2017), p. 48. See <bibl><title>English
+                                        Manuscript Studies</title> 3 (1992), p.
+                            270.</bibl></p></provenance>
+                        <provenance type="MLGB3_LaterOwners"><persName>William
+                            Wykys</persName></provenance>
+                        <provenance type="MLGB3_LaterOwners"><persName/>John Hemyng</provenance>
+                        <provenance type="MLGB3_LaterOwners">Christie's, 6 December 1989, no. 14,
+                            to Fogg.</provenance>
+                        <provenance type="MLGB3_LaterOwners">Now New Haven (CT), Beinecke Library,
+                            Takamiya MS 103.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
+                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
+                                    Transcribed and encoded by Sian Witherden, with addition of
+                                    current shelfmark, text of inscription, and reference to
+                                    Clemens, Ducharme, and Ulrich 2017.</source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0251.jpg, Test 3_0252.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-04-08">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>

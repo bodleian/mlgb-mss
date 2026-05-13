@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8729">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Ranworth</settlement>
+                        <repository>Parish church of St Helen</repository>
+                        <idno type="shelfmark">Shelfmark not recorded</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Antiphonale</title>
+                            <note><bibl>See V. H. Frere, <title>Antiphonale Sarisburiense</title>,
+                                    Plainsong and Mediaeval Music Society (1901-1924), p.
+                                79.</bibl></note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1400" notAfter="1499">s.
+                                xv</origDate>
+                        </origin>
+                        <provenance type="#c"><orgName role="fmo" key="org_901">Ranworth, Norfolk.
+                                Parish church of St Helen</orgName>
+                            <p>Obits include <persName>Robert Felmyngham</persName> (1505) and
+                                    <persName>Johanna Holdych</persName>, wife of <persName>Robert
+                                    Holdych</persName> (1538). These names (compare <bibl>Francis
+                                    Blomefield, <title>An Essay Towards A Topographical History of
+                                        the County of Norfolk</title> (London, 1810), volume xi, p.
+                                    113)</bibl> and the special office for St Helen (added) point to
+                                Ranworth.</p></provenance>
+                        <provenance type="MLGB3_LaterOwners">Huth sale 15 November 1911, lot 217 to
+                            Ellis (catalogue 140, February 1912), no. 1 (£575). Facsimiles in Huth and
+                            Ellis catalogues.</provenance>
+                        <provenance type="MLGB3_LaterOwners">Purchased in 1911 by <persName
+                                role="dnr">John Cator</persName> for St Helen's Church, as discussed
+                            on the <ref target="https://www.ranworthchurch.com/antiphoner">church
+                                website (including photos)</ref>.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
+                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
+                                    Transcribed and encoded by Sian Witherden, with information
+                                    added relating to acquisition by John Cator.</source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Ker, Neil R., ed., <ref
+                                    target="https://hdl.handle.net/2027/uva.x002754058"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, 2nd edn, Royal Historical
+                                Society Guides and Handbooks, 3 (London, 1964).</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0247.jpg, Test 3_0248.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-04-09">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
