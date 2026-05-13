@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8738">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Coutances</settlement>
+                        <repository>Médiathèque Communautaire</repository>
+                        <idno type="shelfmark">2</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Manuale</title>
+                            <note>Calendar on fols. 1-6. Manuscript described by <bibl>Fierville in
+                                        <title>Revue de Sociétés Savantes</title>, 7 serie, VI
+                                    (1882), pp. 41-48.</bibl></note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1300" notAfter="1399">s.
+                                xiv</origDate>
+                        </origin>
+                        <provenance type="#e"><orgName role="fmo" key="org_841">Exeter, Devon.
+                                Parish church of St Mary Major</orgName>
+                            <p><q>Istud manuale constat <persName key="person_3965">Roberto
+                                        Lyngham</persName>. Quod quidem Manuale, una cum novo
+                                    Missale quod incipit in secundo folio post kalendare <q>Omnes
+                                        albi cum amictibus</q> ad divina dicendum in eisdem ac unum
+                                    superpellicium magistri <note type="editorial">[?]</note>
+                                    <persName>Elias Stoke</persName>, et R[...] Mark, ac dominus
+                                        <persName>Symon Chydlegh</persName>, executores dicti domini
+                                    Roberti, dederunt et concesserunt parochialis ecclesie Beate
+                                    Marie Majoris Exoniensis, remansurum in dicta ecclesia in
+                                    perpetuum, ea videlicet condicione ...</q> on verso of last
+                                leaf. Robert Lingham was rector of St Mary Major in 1427. See
+                                    <bibl>George Oliver, <title>Lives of the Bishops of
+                                        Exeter</title> (Exeter, 1861), p.
+                            266.</bibl></p></provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
+                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
+                                    Transcribed and encoded by Sian Witherden.</source>
+                            </recordHist>
+                        </adminInfo>
+                        <surrogates>
+                            <bibl subtype="partial" type="digital-facsimile">
+                                <ref target="https://initiale.irht.cnrs.fr/codex/11353">
+                                    <title>Initiale: Catalogue de manuscrits enluminé</title>
+                                </ref>
+                            </bibl>
+                        </surrogates>
+                        <listBibl>
+                            <bibl>Ker, Neil R., ed., <ref
+                                    target="https://hdl.handle.net/2027/uva.x002754058"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, 2nd edn, Royal Historical
+                                Society Guides and Handbooks, 3 (London, 1964).</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0101.jpg, Test 3_0102.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-04-10">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
