@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8672">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>London</settlement>
+                        <repository>Lambeth Palace Library</repository>
+                        <idno type="shelfmark">MS 222</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Legenda Aurea</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" when="1356">A. D. 1356</origDate>
+                            <note>Written by <persName role="scr">William Weston</persName>,
+                                perpetual curate of Crich.</note>
+                        </origin>
+                        <provenance type="#e"><orgName role="fmo" key="org_832">Crich, Derbyshire.
+                                Parish church</orgName>
+                            <p>On fol. 1 (s. xv/xvi): <q>I <persName role="dnr" key="person_3960"
+                                        >Richard Bankes</persName> vicar of Cryche geve and bequethe
+                                    this boke to my parysshe C<supplied>h</supplied>urche of Crych
+                                    per me Ricardum Bankes vicarium de Crich</q>. William de Weston,
+                                vicar of 'Cruch', died in 1369. See Rowland Alwyn Wilson,
+                                        <bibl><title>The First Register of Bishop Robert de Stretton
+                                        1358-1385</title>, William Salt Archaeological Society, new
+                                    series, vol. X, part ii (1907), pp.
+                            83-84.</bibl></p></provenance>
+                        <provenance type="MLGB3_LaterOwners">At foot of fol. 1 (s. xvi): <q>Sub: de:
+                                Re: Le: Te: J. N. <note type="editorial">[or H?]</note></q>. Compare
+                                <ref target="https://mlgb.bodleian.ox.ac.uk/catalog/book_1845"
+                                >London, Lambeth Palace Library, MS 145</ref>
+                            <orgName key="org_165">(Crowland)</orgName> for 5 other manuscripts with
+                            this inscription.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
+                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
+                                    Transcribed and encoded by Sian Witherden.</source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Ker, Neil R., ed., <ref
+                                    target="https://hdl.handle.net/2027/uva.x002754058"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, 2nd edn, Royal Historical
+                                Society Guides and Handbooks, 3 (London, 1964).</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0075.jpg, Test 3_0076.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-04-08">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>

@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Transcription and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Transcription and encoding of index card for Hardwick [unidentified]</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,37 +50,57 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Augustinus super Iohannem</title>
+                     <author key="person_352">Augustinus</author>
+                     <title key="work_1125">Super Iohannem</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="11XX" notBefore="1100" notAfter="1199" calendar="#gregorian">s. xii</origDate>
+                     <origDate when-custom="11XX" notBefore="1100" notAfter="1199"
+                        calendar="#gregorian">s. xii</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="org_141">Chicksands,
-                        Bedfordshire. Gilbertine priory of St Mary the Virgin.</orgName><p>At end
-                        (s. xv): "Hic liber attinet ecclesie Sancti Iohannis Baptiste de Hardwyk qui
-                        olim Prioratui de Chycksand pertinebat".</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Added s. xvii: "Et iam tenetur a Guilielmo
-                     Walchero STB ex dono honoratissimi domini D. Russelli Baronis de Thornhaugh
-                     etc."</provenance>
-                  <provenance type="MLGB3_laterOwners">On flyleaf: "Thomas Jolye".</provenance>
-                  <provenance type="MLGB3_laterOwners">Thomas Waystaffe.</provenance>
-                  <provenance type="MLGB3_laterOwners">Thomas Baker (who gave it to St
-                     John's).</provenance>
+                  <provenance type="#e"><orgName role="fmo" key="org_141">Chicksands, Bedfordshire.
+                        Gilbertine priory of St Mary the Virgin.</orgName><p>At end (s. xv): <q>Hic
+                           liber attinet ecclesie Sancti Iohannis Baptiste de Hardwyk qui olim
+                           Prioratui de Chycksand pertinebat</q>.</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="org_855">Hardwick
+                        [unidentified]</orgName><p>At end (s. xv): <q>Hic liber attinet ecclesie
+                           Sancti Iohannis Baptiste de Hardwyk qui olim Prioratui de Chycksand
+                           pertinebat</q></p></provenance>
+                  <provenance type="MLGB3_laterOwners">Added s. xvii: "Et iam tenetur a
+                        <persName>Guilielmo Walchero</persName> STB ex dono honoratissimi domini D.
+                        <persName>Russelli Baronis</persName> de Thornhaugh etc."</provenance>
+                  <provenance type="MLGB3_laterOwners">On flyleaf: <persName>"Thomas
+                        Jolye"</persName>.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName>Thomas
+                     Waystaffe</persName>.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName>Thomas Baker</persName> (who gave
+                     it to St John's).</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0131.jpg, Test 3_0132.jpg -->
       </fileDesc>
       <revisionDesc>
          <change when="2025-05-21">Record created.</change>
+         <change when="2026-04-09">Provenance evidence supplied for Hardwick [unidentified].
+            Transcribed from corresponding card in Neil R. Ker, et al., ‘Medieval Libraries of Great
+            Britain’, card index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).</change>
       </revisionDesc>
    </teiHeader>
    <text>
