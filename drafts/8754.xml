@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8754">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Record creation</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Leeds</settlement>
+                        <repository>University Library</repository>
+                        <idno type="shelfmark">Pre 1850 Additional A001</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="enm">English</textLang>
+                        <msItem>
+                            <title>Cordyal of the four last and final thinges</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origPlace>London: William Caxton</origPlace>
+                            <origDate calendar="Gregorian" when="1479">1479</origDate>
+                        </origin>
+                        <provenance type="#e"><orgName role="fmo" key="org_753">Pott Shrigley,
+                                Cheshire, Downes Chapel (Chantry chapel of St Mary the Virgin and
+                                Jesus)</orgName><p>See Robert J. D. Harding, <q>Given by Lady Joan
+                                    Ingoldisthorpe: The Caxton <title>Cordyal</title> (1479) from a
+                                    Library at Pott Chapel (Pott Shrigley, Cheshire), c. 1493,
+                                    Identified</q>, <title>The Library</title>, 24, no. 4 (2023),
+                                445-53.</p> Harding identifies this book as the copy of <q>þe
+                                Cordyall</q> mentioned on the <ref
+                                target="https://mlgb.bodleian.ox.ac.uk/catalog/booklist_SC284"
+                                >Downes Chapel inventory (SC284)</ref> because of the following
+                            inscription: <q>This boke belongynge to downes chapel in pot Shrygley |
+                                &amp; gevyn by my lady dame <persName role="dnr">Jane
+                                    Ingaltisthorpe</persName></q> (sig. h5v).</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>First added to MLGB in 2026, in light of Robert J. D.
+                                    Harding, ‘Given by Lady Joan Ingoldisthorpe: The Caxton
+                                        <title>Cordyal</title> (1479) from a Library at Pott Chapel
+                                    (Pott Shrigley, Cheshire), c. 1493, Identified’, <title>The
+                                        Library</title>, 24, no. 4 (2023), 445-53. Shelfmark derived
+                                    from ESTC.</source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-04-17">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
