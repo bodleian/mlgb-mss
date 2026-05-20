@@ -37,46 +37,61 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>Dulwich College</repository>
-                  <idno type="shelfmark">MS A.3.f.3 (pr. bk)</idno>
+                  <idno type="shelfmark">A.3.f.3 (pr. bk)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">171</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="MLGB3">6670</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Biblia cum glo. N. de Lyra, III</title>
-                     <msItem>
-                        <title>Biblia Latina with Nicholas of Lyre</title>
-                     </msItem>
-                     <msItem>
-                        <title>Postilla litteralis in uetus et nouum testamentum William
-                           Brito</title>
-                     </msItem>
-                     <msItem>
-                        <title>Expositiones in omnes prologos S. Hieronymi </title>
-                     </msItem>
-                     <msItem>
-                        <title>Additiones to Lyre’s Postills by Paulus Burgensis and Mathias Doering
-                        </title>
-                     </msItem>
-                     <msItem>
-                        <title>Nicholas of Lyre, Contra iudaeum de uerbis euangelii (vols
-                           III–IV)</title>
-                     </msItem>
+                     <author key="person_2348">Nicholas of Lyre OFM</author>
+                     <title key="work_1682">Biblia cum postillis N. de Lyra</title>
+                     <note>Part 3 (Isaiah-Maccabees). <ref
+                           target="https://data.cerl.org/istc/ib00619000">ISTC
+                        ib00619000</ref>. GW 4294(3).</note>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <typeDesc>
+                     <typeNote><p>Printed book.</p></typeNote>
+                  </typeDesc>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <p>Contemporary binding. Border formed by a diaper stamp not in Oldham; the
+                           fringed foliage stamp within the panel is Oldham's I.2.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate when-custom="1497" when="1497" calendar="#gregorian">Nuremberg, 1497</origDate>
+                     <origPlace>Nuremberg</origPlace>
+                     <origDate when-custom="1497" when="1497" calendar="#gregorian">1497</origDate>
                   </origin>
                   <provenance type="#i"><orgName role="fmo" key="org_2">Peterborough,
-                        Northamptonshire. Benedictine abbey of St Peter, St Paul, and St Andrew</orgName></provenance>
+                        Northamptonshire. Benedictine abbey of St Peter, St Paul, and St
+                        Andrew</orgName><p><q>Liber fratris Rogeri Byrd ex dono dompni
+                              <persName>Roberti Kirkton</persName> Abbatis anno domini Mᵒ CCCCCᵒ
+                              xxvjᵒ.</q></p><p><persName>Roger Bird</persName> was one of the last
+                        monks of the abbey and signed in several books. See also <ref
+                           target="https://data.cerl.org/mei/02147024">MEI
+                     02147024</ref>.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -84,6 +99,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2025-05-20">Record 6670 merged into this record. ISTC and MEI references
+            added.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
