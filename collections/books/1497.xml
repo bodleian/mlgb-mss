@@ -37,36 +37,86 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Cotton MS Cleopatra B.xiii fols. 59-90</idno>
+                  <idno type="shelfmark">Cotton MS Cleopatra B.xiii</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1497</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">2710</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Vita s. Dunstani</title>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="100X/101X" notBefore="1000" notAfter="1019" calendar="#gregorian">s. xi in.</origDate>
-                  </origin>
-                  <provenance><orgName role="fmo" key="org_122">Canterbury, Kent. Benedictine
-                        abbey of St Augustine (originally of St Peter and St Paul)</orgName><p>Found at St Augustine's by John Joscelin in 1565 (note on fol.
-                        [??]).</p></provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 1-58</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="ang">Old English</textLang>
+                     <msItem>
+                        <title>Homilies, etc.</title>
+                        <note type="MLGB3_generalNotes">Cotton MS Cleopatra B.xiii, fols. 1–58, and
+                              <ref target="https://mlgb.bodleian.ox.ac.uk/catalog/book_2717">Lambeth
+                              Palace Library, MS 489</ref> perhaps formed one volume.</note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="10XX" notBefore="1000" notAfter="1099"
+                           calendar="#gregorian">s. xi</origDate>
+                     </origin>
+                     <provenance type="#s" cert="low"><orgName role="fmo" key="org_1">Exeter, Devon.
+                           Cathedral church of St Peter</orgName><p>Script suggests
+                        Exeter.</p></provenance>
+                     <provenance type="MLGB3_laterOwners"><persName>John Parker</persName>. Used by
+                           <persName>Matthew Parker</persName>.</provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 59-90</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Vita s. Dunstani</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="100X/101X" notBefore="1000" notAfter="1019"
+                           calendar="#gregorian">s. xi in.</origDate>
+                     </origin>
+                     <provenance><orgName role="fmo" key="org_122">Canterbury, Kent. Benedictine
+                           abbey of St Augustine (originally of St Peter and St
+                           Paul)</orgName><p>Found at St Augustine's by <persName>John
+                              Joscelin</persName> in 1565 (note on fol. [referece not
+                           recorded]).</p></provenance>
+                  </history>
+               </msPart>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-20">Record 2710 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
