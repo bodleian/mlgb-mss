@@ -37,35 +37,88 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Cotton MS Nero C.ix fols. 3-18</idno>
+                  <idno type="shelfmark">Cotton MS Nero C.ix</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1245</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1246</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Martyrologium</title>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
-                  </origin>
-                  <provenance type="#c"><orgName role="fmo" key="org_4">Canterbury, Kent.
-                        Benedictine cathedral priory of Holy Trinity or Christ Church</orgName><p>Obituarium ecclesie Christi Cant.</p></provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 3-18</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Obituarium ecclesie Christi Cant.</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                           calendar="#gregorian">s. xiii</origDate>
+                     </origin>
+                     <provenance type="#c"><orgName role="fmo" key="org_4">Canterbury, Kent.
+                           Benedictine cathedral priory of Holy Trinity or Christ
+                           Church</orgName><p>No other information is recorded on the MLGB index
+                           card.</p></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 19-21</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Obituarium ecclesie Christi Cant. (fragment)</title>
+                        <note type="MLGB3_generalNotes">Cotton Nero C. ix, fols. 19–21, and <ref
+                              target="https://mlgb.bodleian.ox.ac.uk/catalog/book_1283">Lambeth
+                              Palace 430, flyleaves</ref>, are fragments of one volume.</note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="11XX" notBefore="1100" notAfter="1199"
+                           calendar="#gregorian">s. xii</origDate>
+                     </origin>
+                     <provenance type="#c"><orgName role="fmo" key="org_4">Canterbury, Kent.
+                           Benedictine cathedral priory of Holy Trinity or Christ
+                              Church</orgName><p><q>Martirologium nouum (cum regula sancti
+                              Benedicti) D.vii G.ii.</q></p><note
+                           type="MLGB3_medievalCatalogueNotes">James Ancient Libraries no.
+                           292</note><q type="pressmark">D.vii G.ii</q></provenance>
+                     <provenance type="MLGB3_laterOwners">John Lumley, first Baron Lumley (c.
+                        1533–1609), see fol. 20r.</provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-20">Record 1246 merged into this record. Clarified transcription of
+            MLGB index card relating to fols. 3-18.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
