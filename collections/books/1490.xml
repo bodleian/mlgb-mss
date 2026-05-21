@@ -37,40 +37,90 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Cotton MS Vespasian A.ii fols. 11-26</idno>
+                  <idno type="shelfmark">Cotton MS Vespasian A.ii</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1490</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6623</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Rogerus Bacon, Kalendarium, and other scientific pieces; Kalendar of St
-                        Augustine's use</title>
-                  </msItem>
-               </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299" calendar="#gregorian">s. xii, xiii</origDate>
-                  </origin>
-                  <provenance type="#l" cert="low"><orgName role="fmo" key="org_122">Canterbury, Kent.
-                        Benedictine abbey of St Augustine (originally of St Peter and St Paul)</orgName><p>Kalendar of St Augustine's use. See Wormald, English
-                        Benedictine Kalendars after 1100, p. 48.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">John Dee (1527–1609), mathematician,
-                     astrologer, and antiquary, 1555.</provenance>
-                  <provenance type="MLGB3_laterOwners"> </provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">John Dee
+                        (1527–1609)</persName>, mathematician, astrologer, and antiquary,
+                     1555.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 2-10</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <author key="person_3008">Roger Bacon</author>
+                        <title key="work_6886">Kalendarium</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="130X/131X" notBefore="1300" notAfter="1319"
+                           calendar="#gregorian">s. xiv in</origDate>
+                     </origin>
+                     <provenance><orgName role="fmo" key="org_122">Canterbury, Kent. Benedictine
+                           abbey of St Augustine (originally of St Peter and St
+                           Paul)</orgName><p>Originally the front part of a volume with <ref
+                              target="https://mlgb.bodleian.ox.ac.uk/catalog/book_1619">Oxford,
+                              Corpus Christi College, MS 221</ref>, identifiable in the
+                           Catalogue.</p></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 11-26</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Scientific pieces; Kalendar of St Augustine's use</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299"
+                           calendar="#gregorian">s. xii, xiii</origDate>
+                     </origin>
+                     <provenance type="#l" cert="low">
+                        <orgName role="fmo" key="org_122">Canterbury, Kent. Benedictine abbey of St
+                           Augustine (originally of St Peter and St Paul)</orgName>
+                        <p>Kalendar of St Augustine's use. See Wormald, <title>English Benedictine
+                              Kalendars after 1100</title>, p. 48.</p>
+                     </provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-21">Record 6623 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
