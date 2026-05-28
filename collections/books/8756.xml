@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8756">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Stanford</settlement>
+                        <repository>Stanford University Library</repository>
+                        <idno type="shelfmark">MISC 2953 (fragment of the Iken Psalter)</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Psalterium</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>1 leaf.</extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1290" notAfter="1310">c.
+                                1300</origDate>
+                        </origin>
+                        <provenance type="#l"><orgName role="fmo" key="org_863">Iken, Suffolk.
+                                Parish church of St Botulph</orgName>
+                            <p>For this specific fragment of the Iken Psalter, see the <ref
+                                    target="https://searchworks.stanford.edu/view/14432412">Stanford
+                                    catalogue entry for MISC 2953</ref>.</p>
+                            <p>For a discussion of the Iken Psalter more broadly, including the
+                                evidence for the Iken attribution and the context for later
+                                fragmentation and dispersal, see the record for <ref
+                                    target="https://mlgb.bodleian.ox.ac.uk/catalog/book_8733">Ohio
+                                    State University, Thompson Library, MS
+                                    MR.Frag.60.1</ref>. Further
+                                fragments of the Iken Psalter are listed under <ref
+                                    target="https://mlgb.bodleian.ox.ac.uk/catalog/org_863">Iken
+                                    Parish church</ref>.</p></provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Andrew G. Watson, eds, <ref
+                                        target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                            ><title>Medieval Libraries of Great Britain: A List of
+                                            Surviving Books</title></ref>, supplement to the second
+                                    edition, Guides and Handbooks, 15 (London, 1987), p. 73. This
+                                    record is additionally informed by the <ref
+                                        target="https://searchworks.stanford.edu/view/14432412"
+                                        >Stanford catalogue entry for MISC 2953</ref>. We are
+                                    grateful to Elaine Treharne for bringing it to our attention
+                                    (2026).</source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0149.jpg, Test 3_0150.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-05-20">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
