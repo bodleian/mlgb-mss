@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8696">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Hereford</settlement>
+                        <repository>Cathedral</repository>
+                        <idno type="shelfmark">MS P.ix.7</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Breviarium</title>
+                            <note>See W. H. Frere and L. E. G. Brown, <title>Hereford
+                                    Breviary</title>, volume 3 (London, 1915), pp. lv-lxi.</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <bindingDesc>
+                            <binding>
+                                <p>Flyleaf from a twelfth-century responsory (stylus ruling).</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1280" notAfter="1299">s. xiii
+                                ex</origDate>
+                        </origin>
+                        <provenance><orgName role="fmo" key="org_247">Hereford, Herefordshire,
+                                Cathedral church of St Ethelbert</orgName><p>The index card for the
+                                Mordiford parish church provenance (see below) also notes the
+                                following: <q>The manuscript appears to have been in use at the
+                                    cathedral in s. xiii ex to judge from the obits.</q> However, no
+                                dedicated index card for the Hereford provenance was found during
+                                MLGB data reconciliation work in 2026. The Hereford provenance also
+                                appears to have been accidentally omitted from MLGB2 and the
+                                Supplement. Compare <bibl> Michael Gullick, Michael, R. A. B.
+                                    Mynors, and Rodney M. Thomson, <title>Catalogue of the
+                                        Manuscripts of Hereford Cathedral Library</title>
+                                    (Cambridge, 1993), p. 125</bibl>: "Made for Hereford Cathedral,
+                                as the obits in art.3 show. Among the obits in the original hand,
+                                Canon Richard de Monte Garnerii was still alive in 1262, while
+                                Bishop Aquablanca, whose name is an early addition, died in 1268. At
+                                the parish church of Mordiford by s. xv ex." </p></provenance>
+                        <provenance><orgName role="fmo" key="org_887">Mordiford, Herefordshire.
+                                Parish church</orgName>
+                            <p><q>Dedicacio ecclesie parrochialis de mordiford</q> at June 4 (fol.
+                                185v). Obits of the Crikelot family.</p></provenance>
+                        <provenance type="MLGB3_LaterOwners">Purchased in 1834 from Mr
+                                <persName>William Hawes</persName> who had bought it from a stall in
+                            Drury Lane.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
+                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
+                                    Transcribed and encoded by Sian Witherden. Note that the
+                                    shelfmark was listed on the index card as "<del>P.ix.6</del> s.
+                                    n.". It has been changed here to P.ix.7 (to match Gullick,
+                                    Mynors, and Thompson, 1993).</source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Ker, Neil R., ed., <ref
+                                    target="https://hdl.handle.net/2027/uva.x002754058"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, 2nd edn, Royal Historical
+                                Society Guides and Handbooks, 3 (London, 1964).</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0215.jpg, Test 3_216.jpg -->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-03-20">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>

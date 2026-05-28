@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8693">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>Ireland</country>
+                        <settlement>Dublin</settlement>
+                        <repository>Trinity College</repository>
+                        <idno type="shelfmark">MS 194</idno>
+                        <altIdentifier>
+                            <idno>B.3.8</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
+                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
+                                    Transcribed and encoded by Sian Witherden, with updated folio
+                                    reference.</source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Ker, Neil R., ed., <ref
+                                    target="https://hdl.handle.net/2027/uva.x002754058"
+                                        ><title>Medieval Libraries of Great Britain: A List of
+                                        Surviving Books</title></ref>, 2nd edn, Royal Historical
+                                Society Guides and Handbooks, 3 (London, 1964).</bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno type="part">MS 194 fols. 110r-164v (formerly pp.
+                                    217-332)</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents>
+                            <textLang mainLang="la">Latin</textLang>
+                            <msItem>
+                                <title>Kalendarium, etc</title>
+                            </msItem>
+                        </msContents>
+                        <history>
+                            <origin>
+                                <origDate calendar="Gregorian" notBefore="1200" notAfter="1299">s.
+                                    xiii</origDate>
+                            </origin>
+                            <provenance type="#c"><orgName role="fmo" key="org_874">London. Parish
+                                    church of All Hallows the Great</orgName>
+                                <p>Additions to calendar. July 28: <q>Dedicacio ecclesie omnium
+                                        sanctorum ad fenum</q>. May 7: <q>Obitus <persName>Ricardi
+                                                Coleman</persName> quondam Capellani parochialis ecclesie
+                                            omnium sanctorum ad fenum London' anno domini mᵒ cccᵒ lxiᵒ</q>.
+                                    April 2: <q>Obitus domini <persName>Willelmi de Gylling</persName>
+                                        quondam Rectoris ecclesie omnium sanctorum ad fenum. Anno domini
+                                        M cccᵒ tricesimo nono</q>. In the martyrology at v kl. Aug is
+                                    <q>Eodem die dedicacio istius ecclesie</q>. On the name 'ad
+                                    fenum', see <bibl>Richard Newcourt, <title>Repertorium
+                                            ecclesiasticum parochiale Londinense</title> (1708), volume
+                                        1, p. 247.</bibl></p></provenance>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+            <!-- Index card images (box 10): Test 3_0181.jpg, Test 3_0182.jpg-->
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-03-20">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
