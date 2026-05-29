@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4912">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4912">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -34,7 +35,7 @@
                   <country>England</country>
                   <settlement>Stonyhurst</settlement>
                   <repository>College</repository>
-                  <idno type="shelfmark">MS 10</idno>
+                  <idno type="shelfmark">MS 7</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4912</idno>
                   </altIdentifier>
@@ -43,6 +44,12 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Gregorius super Ezechielem</title>
+                     <note type="MLGB3_generalNotes">In MLGB2, the shelfmark was listed as MS 10.
+                        However, this was corrected to MS 7 in the 1987 Supplement (see p. 133). For
+                        a description, see Peter Carlson (ed.), <ref
+                           target="https://resources.finalsite.net/images/v1628074077/stonyhurstacuk/nu9z3volpb9btoojrrss/CatalogueoftheBoardmanCollectionofMediaevalMSSatStonyhurst-July2021final_1.pdf"
+                           >Catalogue of the Boardman collection of mediaeval manuscripts at
+                           Stonyhurst</ref> ([2020]).</note>
                      <note type="MLGB3_generalNotes">Schenkl 4651. </note>
                      <note type="MLGB3_generalNotes">Cf. Hist. MSS. Comm. Rep. 2. 144.</note>
                      <note type="MLGB3_generalNotes">Cambridge, St John's College 183, Trinity Hall
@@ -51,19 +58,28 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="1167/1183" notAfter="1183" notBefore="1167" calendar="#gregorian">s. xii (1167–1183)</origDate>
+                     <origDate when-custom="1167/1183" notAfter="1183" notBefore="1167"
+                        calendar="#gregorian">s. xii (1167–1183)</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="org_474">St Albans,
-                        Hertfordshire. Benedictine abbey of St Alban</orgName><p>'Hunc codicem
-                        fecit dominus Symon abbas, Sancto Albano, quem qui ei abstulerit, aut
-                        titulus deleverit, anathema sit. Amen.'</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="org_474">St Albans, Hertfordshire.
+                        Benedictine abbey of St Alban</orgName><p>'Hunc codicem fecit dominus Symon
+                        abbas, Sancto Albano, quem qui ei abstulerit, aut titulus deleverit,
+                        anathema sit. Amen.'</p></provenance>
                   <provenance type="MLGB3_laterOwners">'Tho. Phillips of Ickford' (Bucks.), by gift
                      from 'Philip Viscount Wenman'.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -71,6 +87,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-29">Shelfmark corrected in light of 1987 supplement, p. 133. Added
+            citation to Carlson (2020).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
