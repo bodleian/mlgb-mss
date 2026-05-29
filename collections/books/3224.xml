@@ -41,36 +41,59 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">3224</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5702</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Petrus Lombardus, Sententiae (comm. Henricus de Gorichem)</title>
-                     <note type="MLGB3_generalNotes">ISTC ip00496000.</note>
-                     <note type="MLGB3_generalNotes">Contemporary stamped binding; for image of this
-                        and discussion of later provenance, see Lost Manuscripts website.</note>
-                     <msItem>
-                        <author>Peter Lombard</author>
-                        <title>Sententiae</title>
-                     </msItem>
+                     <author key="person_2587">Petrus Lombardus</author>
+                     <title key="work_5959">Sententiae comm. Henricus de Gorichem</title>
+                     <note type="MLGB3_generalNotes">ISTC <ref
+                           target="https://data.cerl.org/istc/ip00496000">ip00496000</ref>.</note>
                   </msItem>
                </msContents>
-               <physDesc> <typeDesc><p>Printed book.</p></typeDesc> </physDesc><history>
+               <physDesc>
+                  <typeDesc>
+                     <p>Printed book.</p>
+                  </typeDesc>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <p>Contemporary stamped binding: Oldham 314, 318 and 307 (half stamp
+                           binder). For image of this and discussion of later provenance, see <ref
+                              target="https://www.lostmss.org.uk/index.php/host-volumes/colchester-university-essex-library-harsnett-kf11"
+                              >Lost Manuscripts website</ref>.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
                   <origin>
-                     <origDate when-custom="1498" when="1498" calendar="#gregorian">Basel: Nicholaus Kesler, 1498</origDate>
+                     <origPlace>Basel: Nicholaus Kesler</origPlace>
+                     <origDate when-custom="1498" when="1498" calendar="#gregorian">1498</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="org_259">Holme St Benet's,
-                        Norfolk. Benedictine abbey of St Benedict</orgName><p>"liber dompni Thome
-                        Skothole monachi holmensis ecclesie pr' vs" on title; and at end: "Magister
-                        Sentenciarum. Ex dono dompni Thome Skothole ‘prioris’ monachi cuius anime
-                        propicietur deus amen". </p></provenance>
-                  <provenance type="MLGB3_laterOwners">Belonged subsequently to a monk of Winchcomb,
-                     q. v.</provenance>
+                  <provenance type="#i"><orgName role="fmo" key="org_259">Holme St Benet's, Norfolk.
+                        Benedictine abbey of St Benedict</orgName><p><q>liber dompni <persName>Thome
+                              Skothole</persName> monachi holmensis ecclesie pr' vs</q> on title;
+                        and at end: <q>Magister Sentenciarum. Ex dono dompni Thome Skothole
+                           ‘prioris’ monachi cuius anime propicietur deus amen</q>.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="org_589">Winchcombe,
+                        Gloucestershire. Benedictine abbey of St Kenelm</orgName><p>Belonged
+                        subsequently to a monk of Winchcomb: <q>Liber dompni Roberti Benet Monachi
+                        Wynchelcumbensis</q> on title page, in a fine hand.</p><p></p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -78,6 +101,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-27">Record 5702 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
