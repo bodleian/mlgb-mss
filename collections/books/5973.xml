@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_3002">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_5973">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -37,32 +37,26 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Royal MS 5 A.xii</idno>
+                  <idno type="shelfmark">Royal MS 5 A.xii fols. iii-vi</idno>
                   <altIdentifier type="system">
-                     <idno type="MLGB3">3002</idno>
+                     <idno type="MLGB3">5973</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Iohannes Wallensis, Breviloquium, etc.</title>
-                     <note type="MLGB3_generalNotes">Contains 4 flyleaves from a missal, s.
-                        xi.</note>
+                     <title>Missale</title>
+                     <note type="MLGB3_generalNotes">See K. D. Hartzell, 'An eleventh-century
+                        English missal fragment in the British Library', Anglo-Saxon England 18
+                        (1989), 45–97.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499" calendar="#gregorian">s. xv</origDate>
+                     <origDate when-custom="10XX" notBefore="1000" notAfter="1099" calendar="#gregorian">s. xi</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="org_238">Hailes,
-                        Gloucestershire. Cistercian abbey of St Mary the Virgin</orgName><p>Belonged to Will. Neel, vicar of Blokley, and presented by his
-                        executor Hugh Noryse, al. Spycer of Cirencester to the monastery of Heyles,
-                        26 April 1533 (fol. 248v): "orate pro anima magistri Willelmi Neel olim
-                        vicarii de Blokley possessoris huius libri et pro anima Hugonis Noryse siue
-                        Spycer de Cyrettur executoris eiusdem qui hunc librum dedit huic monasterio
-                        de Heyles xxvi die mensis aprilis anno domini millesimo quingentesimo
-                        tricesimo tercio" (fol. 248v; inscr. in a good textura).</p></provenance>
-                  <provenance type="MLGB3_laterOwners">John Theyer.</provenance>
+                  <provenance type="#e" cert="low"><orgName role="fmo" key="org_601">Worcester,
+                        Worcestershire. Benedictine cathedral priory of St Mary the Virgin</orgName></provenance>
                </history>
                <additional>
                   <adminInfo>
