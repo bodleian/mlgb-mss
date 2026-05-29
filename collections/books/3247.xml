@@ -37,41 +37,74 @@
                   <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Trinity College</repository>
-                  <idno type="shelfmark">MS R. 14. 9 fols. 1-10, 82-88</idno>
+                  <idno type="shelfmark">MS R. 14. 9 (884)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3247</idno>
+                  </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4133</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Dares Phrygius; Nequam; Bestiarium, etc.</title>
+                     <author key="person_730">Dares Phrygius</author>
+                  </msItem>
+                  <msItem>
+                     <author key="person_143">Nequam</author>
+                  </msItem>
+                  <msItem>
+                     <title>Bestiarium</title>
+                     <note>etc.</note>
                   </msItem>
                </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="1101/1500" notBefore="1101" notAfter="1500" calendar="#gregorian">s. xii--xv</origDate>
-                  </origin>
-                  <provenance type="#c" cert="low"><orgName role="fmo" key="org_263">Horsham St Faith,
-                        Norfolk. Benedictine alien priory of St Faith; cell of Conches</orgName><p>Horsham St Faith entries in kalendar.</p><p>The older part of
-                        Cambridge, Trinity College, MS R. 14. 9, fols. 1–10, 82–88, was apparently
-                        at Horsham St Faith in s. xii (cf. annals of 1134 and 1147) before moving to
-                        Norwich (cf. annals of 1172 and 1175) (Christopher Brooke in letter
-                        1971).</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Given to Trinity by Thomas Nevile, dean of
-                     Canterbury (c. 1548–1615).</provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 1-10, 82-88</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <history>
+                     <origin>
+                        <origDate when-custom="1101/1500" notBefore="1101" notAfter="1500"
+                           calendar="#gregorian">s. xii-xv</origDate>
+                     </origin>
+                     <provenance type="#c" cert="low"><orgName role="fmo" key="org_263">Horsham St
+                           Faith, Norfolk. Benedictine alien priory of St Faith; cell of
+                           Conches</orgName><p>Horsham St Faith entries in kalendar.</p><p>The older
+                           part of Cambridge, Trinity College, MS R. 14. 9, fols. 1–10, 82–88, was
+                           apparently at Horsham St Faith in s. xii (cf. annals of 1134 and 1147)
+                           before moving to Norwich (cf. annals of 1172 and 1175) (Christopher
+                           Brooke in letter 13.1.1971).</p></provenance>
+                     <provenance type="#c"><orgName role="fmo" key="org_404">Norwich, Norfolk.
+                           Benedictine cathedral priory of Holy Trinity</orgName><p>See notes above
+                           for Horsham St Faith.</p></provenance>
+                     <provenance type="MLGB3_laterOwners">Given to Trinity by <persName role="dnr"
+                           >Thomas Nevile</persName>, dean of Canterbury (c.
+                        1548–1615).</provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-27">Record 4133 merged into this record. Added date of Christopher
+            Brooke's letter from index card.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
