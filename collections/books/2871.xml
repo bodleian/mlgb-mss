@@ -37,31 +37,90 @@
                   <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS Ashmole 1398, pp. 217-252</idno>
+                  <idno type="shelfmark">MS Ashmole 1398</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">2871</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3892</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Miscellanea theologica</title>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
-                  </origin>
-                  <provenance type="#e"><orgName role="fmo" key="org_219">Fountains, Yorkshire.
-                        Cistercian abbey of St Mary the Virgin</orgName><p>"Sancte Marie de
-                        Fontibus", p. 217, s.xv.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Henry Savile of Banke (cipher on p.
-                     217).</provenance>
-               </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_243">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                              target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_243"
+                              >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Pp. 1-214</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Miscellanea medica, etc.</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                           calendar="#gregorian">s. xiii</origDate>
+                     </origin>
+                     <provenance type="#i"><orgName role="fmo" key="org_356">King's Lynn, Norfolk.
+                           Carmelite convent</orgName><p><q>Hic liber constat fratri
+                                 <persName>Roberto Walton</persName>. ordinis carmelitarum conventus
+                              Lenn. Ex dono et consessione fratris <persName>Rogeri
+                              Roo</persName></q> (p. 187), s. xv in.</p></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Pp. 217-252</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Miscellanea theologica</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                           calendar="#gregorian">s. xiii</origDate>
+                     </origin>
+                     <provenance type="#e"><orgName role="fmo" key="org_219">Fountains, Yorkshire.
+                           Cistercian abbey of St Mary the Virgin</orgName><p><q>Sancte Marie de
+                              Fontibus</q>, p. 217, s.xv.</p></provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">Henry Savile of
+                           Banke</persName> (cipher on p. 217).</provenance>
+                  </history>
+               </msPart>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-28">Record 3892 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
