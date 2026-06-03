@@ -37,36 +37,86 @@
                   <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Magdalen College</repository>
-                  <idno type="shelfmark">MS lat. 182 fols. 1-53, 60-105</idno>
+                  <idno type="shelfmark">MS lat. 182</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4004</idno>
+                  </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">8115</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Tabule astronomice</title>
+                     <title>Astronomica</title>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <note>Four manuscripts now bound together.</note></extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499" calendar="#gregorian">s. xv</origDate>
+                     <origDate when-custom="1400/1550" notBefore="1400" notAfter="1550"
+                        calendar="#gregorian">s. xv in. et xv med.</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="org_384">Muchelney, Somerset.
-                        Benedictine abbey of St Peter and St Paul</orgName><p>Written in part by
-                        Thomas Cory, monk of "Mochelnye" in 1440 and 1459.</p></provenance>
+                  <provenance cert="low"><orgName role="fmo" key="org_434">Oxford, Oxfordshire. St
+                        Mary Magdalen College</orgName><p>Notes in the hand of John Dygon (d. after
+                        1449, recluse of Sheen) appear in one part (fols. 124–139). It is not clear
+                        that the four manuscripts were bound together in the Middle Ages. Part at
+                        least certainly came to the College in the later sixteenth century. <q>Liber
+                           Collegij beatae mariae magdalene ex dono Mr Bolderne</q> (fol. 1, s.
+                        xvi/xvii, referring to <persName role="dnr">John Bolderne</persName> (d.
+                        1577), fellow of Magdalen).</p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 1-53, 60-10</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Tabule astronomice</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="14XX" notBefore="1400" notAfter="1499"
+                           calendar="#gregorian">s. xv</origDate>
+                     </origin>
+                     <provenance type="#i"><orgName role="fmo" key="org_384">Muchelney, Somerset.
+                           Benedictine abbey of St Peter and St Paul</orgName><p>Written in part by
+                              <persName role="scr">Thomas Cory</persName>, monk of <q>Mochelnye</q>
+                           in 1440 and 1459.</p></provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-27">Record 8115 merged into this record. Minor changes in phrasing
+            for clarity.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
