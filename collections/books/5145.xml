@@ -41,28 +41,51 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">5145</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5593</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Paulus Venetus, Summa naturalium Aristotelis</title>
-                     <note type="MLGB3_generalNotes">BL, IB.26227 belonged to a member of the
-                        Dominican convent at Warwick, q. v.</note>
+                     <author key="person_2506">Paulus Venetus</author>
+                     <title key="work_5723">Summa naturalium Aristotelis</title>
+                     <note><ref target="https://data.cerl.org/istc/ip00211000"
+                        >ip00211000</ref></note>
                   </msItem>
                </msContents>
-               <physDesc> <typeDesc><p>Printed book.</p></typeDesc> </physDesc><history>
+               <physDesc>
+                  <typeDesc>
+                     <p>Printed book.</p>
+                  </typeDesc>
+               </physDesc>
+               <history>
                   <origin>
-                     <origDate when-custom="1476" when="1476" calendar="#gregorian">1476, Milan</origDate>
+                     <origPlace>Milan</origPlace>
+                     <origDate when-custom="1476" when="1476" calendar="#gregorian">1476</origDate>
                   </origin>
                   <provenance type="#i"><orgName role="fmo" key="org_486">Salisbury, Wiltshire.
-                        Dominican convent</orgName><p>'Dominicus heskynus me possidet sarum
-                        coenobii Dominicanus [?]'.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">'Johannes Almond pret. iiij s''.</provenance>
+                        Dominican convent</orgName><p><q>Dominicus <persName>heskynus</persName> me
+                           possidet sarum coenobii Dominicanus [?]</q>.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="org_569">Warwick, Warwickshire.
+                        Dominican convent</orgName><p><q>Iste liber constat fratri <persName>Roberto
+                              [Lily?]</persName> ordinis fratrum predicatorum Warwycy conuentus</q>
+                        (fol. 167r).</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><q><persName>Johannes Almond</persName> pret.
+                        iiij s'</q>.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -70,6 +93,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-03">Record 5593 merged into this record. ISTC reference
+            added.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
