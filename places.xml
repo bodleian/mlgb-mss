@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="collections/authority-schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="authority-schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -6804,9 +6804,7 @@
                     <idno type="ChurchHeritageRecord" cert="low">634585</idno>
                 </org>
                 <org xml:id="org_809">
-                    <orgName type="display">Chapel (of St George?)</orgName>
-                    <orgName type="display"><affiliation>Chapel</affiliation> (of St
-                        George?)</orgName>
+                    <orgName type="display"><affiliation>Chapel</affiliation> (of St George?)</orgName>
                     <settlement>Berwick-upon-Tweed (Berwick-on-Tweed)</settlement>
                     <region type="county">Northumberland</region>
                 </org>
