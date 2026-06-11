@@ -37,40 +37,86 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>Lambeth Palace Library</repository>
-                  <idno type="shelfmark">MS 135 pt 1</idno>
+                  <idno type="shelfmark">MS 135</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6595</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6596</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Vita S. Thomae</title>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219" calendar="#gregorian">s. xiii in</origDate>
-                  </origin>
-                  <provenance><orgName role="fmo" key="org_295">Lanthony (secunda),
-                        Gloucestershire. Augustinian priory of St Mary the Virgin and St John the
-                        Baptist</orgName><p>The volume lacks direct evidence of provenance, but is
-                        probably identifiable as 'Vita sancti Thome, magnum volumen' in the Lanthony
-                        catalogue; the fact that Lambeth 135 pt 2 is probably identifiable as the
-                        subsequent entry in the catalogue ('Vita sancti Edmundi archiepiscopi')
-                        strengthens the case.</p></provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Part 1</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Vita S. Thomae</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219"
+                           calendar="#gregorian">s. xiii in</origDate>
+                     </origin>
+                     <provenance><orgName role="fmo" key="org_295">Lanthony (secunda),
+                           Gloucestershire. Augustinian priory of St Mary the Virgin and St John the
+                           Baptist</orgName><p>The volume lacks direct evidence of provenance, but
+                           is probably identifiable as <q>Vita sancti Thome, magnum volumen</q> in
+                           the Lanthony catalogue; the fact that Lambeth 135 pt 2 is probably
+                           identifiable as the subsequent entry in the catalogue (<q>Vita sancti
+                              Edmundi archiepiscopi</q>) strengthens the case.</p></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Part 2</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Vita S. Edmundi</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                           calendar="#gregorian">s. xiii</origDate>
+                     </origin>
+                     <provenance><orgName role="fmo" key="org_295">Lanthony (secunda),
+                           Gloucestershire. Augustinian priory of St Mary the Virgin and St John the
+                           Baptist</orgName><p>See notes above for MS 135 part 1.</p></provenance>
+                  </history>
+               </msPart>
+
+
+
+
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-04">Record 6596 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
