@@ -329,21 +329,29 @@
         </div>
     </xsl:template>
 
-    <!-- Book customisation override to display evidence after orgName -->
-
+    <!-- Book customisation override to display evidence after orgName
+        Issue 151 - display rejected and uncertain provenance
+        Issue 177 - display text and italise provenance evidence -->
     <xsl:template match="orgName">
-        <span>
-            <xsl:attribute name="class">
-                <xsl:value-of select="string-join((name(), @role), ' ')"/>
-            </xsl:attribute>
+        <xsl:variable name="prov" select="parent::provenance"/>
+        <xsl:variable name="rejected" select="$prov[@type = '#rejected']"/>
+        <xsl:variable name="types" select="tokenize(substring-after($prov[starts-with(@type,'#') and not(@type='#rejected')]/@type,'#'),' ')" />
+
+        <!-- Uncertain -->
+        <xsl:if test="$prov[@cert='low']">
+            <span class="uncertain">(?) </span>
+        </xsl:if>
+
+        <!-- Rejected -->
+        <xsl:if test="$rejected">
+            <span class="rejected">(Rejected) </span>
+        </xsl:if>
+
+        <!-- Library -->
+        <span class="{string-join((name(), @role), ' ')}">
             <xsl:choose>
-                <xsl:when test="@key and not(@key='')">
-                    <a>
-                        <xsl:attribute name="href">
-                            <xsl:value-of select="$website-url"/>
-                            <xsl:text>/catalog/</xsl:text>
-                            <xsl:value-of select="@key"/>
-                        </xsl:attribute>
+                <xsl:when test="@key">
+                    <a href="{$website-url}/catalog/{@key}">
                         <xsl:apply-templates/>
                     </a>
                 </xsl:when>
@@ -352,36 +360,32 @@
                 </xsl:otherwise>
             </xsl:choose>
         </span>
-        <span>
-            <xsl:attribute name="class">
-                <xsl:text>evidence</xsl:text>
-            </xsl:attribute>
-            <xsl:if test="parent::provenance[@cert='low']">
-                <xsl:text>&#x20;(?)</xsl:text>
-            </xsl:if>
-            <xsl:text>&#x3A;&#x20;</xsl:text>
-            <xsl:variable name="evidence" select="parent::provenance[starts-with(@type, '#')]"/>
+        <xsl:text>: </xsl:text>
+
+        <!-- Evidence -->
+        <span class="evidence italic">
             <xsl:choose>
-                <xsl:when test="$evidence">
-                    <xsl:for-each select="tokenize(substring-after($evidence/@type, '#'), ' ')">
+                <xsl:when test="exists($types)">
+                    <xsl:text>[Assigned on the basis of </xsl:text>
+
+                    <xsl:for-each select="$types">
                         <xsl:value-of select="bod:provenanceTypeLookup(.)"/>
                         <xsl:choose>
-                            <xsl:when test="position() ne last()">
-                                <xsl:text>&#x3B;&#x20;and&#x20;</xsl:text>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <!-- Do not add a full stop if the evidence label ends with a full stop, in this case only 'c' -->
-                                <xsl:if test=". != 'c'">
-                                    <xsl:text>&#x2E;</xsl:text>
-                                </xsl:if>
-                            </xsl:otherwise>
+                            <xsl:when test="position() lt last()">; and </xsl:when>
+                            <xsl:when test=". ne 'c'">.</xsl:when>
                         </xsl:choose>
                     </xsl:for-each>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:text>inferred evidence.</xsl:text>
+                    <xsl:if test="not($rejected)">
+                        <xsl:text>[Type of provenance evidence not specified.</xsl:text>
+                    </xsl:if>
                 </xsl:otherwise>
             </xsl:choose>
+
+            <xsl:if test="not($rejected)">
+                <xsl:text>]</xsl:text>
+            </xsl:if>
         </span>
     </xsl:template>
 
@@ -403,12 +407,26 @@
         </xsl:choose>
     </xsl:function>
 
+    <!-- Issue 177 - Override to add text label -->
+    <xsl:template match="provenance[@type='MLGB3_laterOwners']">
+        <xsl:if test="normalize-space(.)">
+            <!-- modified. p not span -->
+            <p class="{name()}">
+                <span class="italic">
+                    <xsl:copy-of select="bod:standardText('[Other provenance]:')"/>
+                    <xsl:text>&#x20;</xsl:text>
+                </span>
+                <xsl:apply-templates/>
+            </p>
+        </xsl:if>
+    </xsl:template>
+
     <!-- Book customisation to display Pressmarks and Catalogue Notes -->
 
     <xsl:template match="q[@type='pressmark']">
         <div class="tei-pressmark">
-            <span class="tei-label">
-                <xsl:copy-of select="bod:standardText('Pressmark:')"/>
+            <span class="italic">
+                <xsl:copy-of select="bod:standardText('[Pressmark]:')"/>
                 <xsl:text>&#x20;</xsl:text>
             </span>
             <xsl:text>'</xsl:text>
@@ -419,8 +437,8 @@
 
     <xsl:template match="note[@type='MLGB3_medievalCatalogueNotes']">
         <div class="tei-med-cat-notes">
-            <span class="tei-label">
-                <xsl:copy-of select="bod:standardText('Medieval Catalogue Notes:')"/>
+            <span class="italic">
+                <xsl:copy-of select="bod:standardText('[Medieval Catalogue Notes]:')"/>
                 <xsl:text>&#x20;</xsl:text>
             </span>
             <xsl:apply-templates/>

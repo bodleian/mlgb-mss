@@ -148,6 +148,7 @@ declare function bod:evidenceLookup($evidence as xs:string) as xs:string
         case 'l' return "Liturgy"
         case 'm' return "Marginalia"
         case 's' return "Style"
+        case 'rejected' return "Rejected"
         default return "Not specified"
 };
 
