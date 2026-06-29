@@ -37,37 +37,97 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Cotton MS Claudius A.viii fols. 198-216</idno>
+                  <idno type="shelfmark">Cotton MS Claudius A.viii</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5946</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6772</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Miscellanea liturgica, etc.</title>
-                     <note type="MLGB3_generalNotes">Turner, Lat. 47.</note>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
-                  </origin>
-                  <provenance type="#c" cert="low"><orgName role="fmo" key="org_601">Worcester,
-                        Worcestershire. Benedictine cathedral priory of St Mary the Virgin</orgName><p>List of Worcester feasts on fol. 216r. Constitutions of bp.
-                        Walter de Cantilupe.</p><p> </p></provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 13-65</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Misc. historica</title>
+                        <note>Fol. 66 is an isolated parchment folio giving a list of abbots of
+                           Westminster up to George Norwych (1463–69).</note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="14XX" notBefore="1400" notAfter="1499"
+                           calendar="#gregorian">s. xv</origDate>
+                     </origin>
+                     <provenance type="#i"><orgName role="fmo" key="org_579">Westminster, Middlesex.
+                           Benedictine abbey of St Peter</orgName>
+                        <p><q>Sequitur extraccio et compilacio tocius operis sequentis per fratrem
+                              Ricardum quondam monachum ecclesie Westm. a.d. mcccclo</q> (top of
+                           first page of first work, fol. 16r, s. xv).<q>Compilacio per fratrem
+                                 <persName>[Ricardum Spor]ley</persName> monach[um Westm'] collecta
+                              ex . . .</q> (top of first page of second work, fol. 34r, s. xv). The
+                           heading on fol. 34 in which the hand of the collector has been inserted
+                           by a contemporary or the same hand is partly illegible: parts of words in
+                           brackets are supplied in a post-medieval hand.</p>
+                        <p>
+                           <q>Oro orate pro me <persName>Ihone felix</persName> huius sancti cenobii
+                              Westm' monacho</q> (fol. 65, in a humanist script which also writes
+                           fol. 64v-65). For Sporley and Felix (1524–25), see E. Pearce,
+                              <title>Monks of Westminster</title> (Cambridge,
+                        1916).</p></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 198-216</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Miscellanea liturgica, etc.</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                           calendar="#gregorian">s. xiii</origDate>
+                     </origin>
+                     <provenance type="#c" cert="low"><orgName role="fmo" key="org_601">Worcester,
+                           Worcestershire. Benedictine cathedral priory of St Mary the
+                           Virgin</orgName><p>List of Worcester feasts on fol. 216r. Constitutions
+                           of Bishop Walter de Cantilupe.</p></provenance>
+                     <provenance type="MLGB3_laterOwners"><persName>Turner</persName>, Lat.
+                        47.</provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-04">Record 6772 merged into this record. Additional content
+            transcribed from corresponding MLGB index card for Westminster provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
