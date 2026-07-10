@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Markup and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,39 +42,114 @@
                   <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Pembroke College</repository>
-                  <idno type="shelfmark">MS 85, i</idno>
+                  <idno type="shelfmark">MS 85</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">690</idno>
                   </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Tabula super S. Thomam</title>
-                  </msItem>
-               </msContents>
+               <physDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>Old binding, several volumes together.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
                <history>
-                  <origin>
-                     <origDate when-custom="128X/129X" notBefore="1280" notAfter="1299" calendar="#gregorian">s. xiii ex</origDate>
-                  </origin>
-                  <provenance type="#e"><orgName role="fmo" key="org_86">Bury St Edmunds,
-                        Suffolk. Benedictine abbey of St Edmund, King and Martyr</orgName><p>On
-                        flyleaf (s. xv): 'T .65. Liber S. Edmundi Regis in quo continentur
-                        subscripta, etc.'.</p><p>Old binding, several volumes together.</p><q type="pressmark">T.65</q></provenance>
-                  <provenance type="MLGB3_laterOwners">William Smart (d. 1599), portreeve of
-                     Ipswich, by whom given to Pembroke.</provenance>
+                  <provenance type="#e"><orgName role="fmo" key="org_86">Bury St Edmunds, Suffolk. Benedictine
+                        abbey of St Edmund, King and Martyr</orgName><p>Bury ex libris on table of
+                        contents</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">William Smart</persName>
+                     (d. 1599), portreeve of Ipswich, by whom given to Pembroke.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Part I</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Tabula super S. Thomam</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="128X/129X" notBefore="1280" notAfter="1299"
+                           calendar="#gregorian">s. xiii ex</origDate>
+                     </origin>
+                     <provenance type="#e"><orgName role="fmo" key="org_86">Bury St Edmunds,
+                           Suffolk. Benedictine abbey of St Edmund, King and Martyr</orgName><p>On
+                           flyleaf (s. xv): 'T .65. Liber S. Edmundi Regis in quo continentur
+                           subscripta, etc.'.</p><q type="pressmark">T.65</q></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Part II</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <author key="person_2587">P. Lombardus, etc.</author>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="12XX/13XX" notBefore="1200" notAfter="1399"
+                           calendar="#gregorian">s. xiii/xiv</origDate>
+                     </origin>
+                     <provenance type="#e"><orgName role="fmo" key="org_86">Bury St Edmunds,
+                           Suffolk. Benedictine abbey of St Edmund, King and Martyr</orgName><p>On
+                           flyleaf (s. xv): 'Tercius et quartus sentenciarum cum aliis. P
+                           .92.'.</p><q type="pressmark">P.92</q></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Part III</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <author key="person_441">Berengaudus, etc.</author>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299"
+                           calendar="#gregorian">s. xii/xiii</origDate>
+                     </origin>
+                     <provenance type="#e"><orgName role="fmo" key="org_86">Bury St Edmunds,
+                           Suffolk. Benedictine abbey of St Edmund, King and Martyr</orgName><p>On
+                           flyleaf (s. xv): 'Exposicio super apocalipsim secundum Berengaudum, etc.
+                           B .340.'</p><q type="pressmark">B.340</q></provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Records 691 and 692 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
