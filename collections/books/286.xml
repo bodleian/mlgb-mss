@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Markup and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -44,22 +49,38 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Claudianus</title>
+                     <author key="person_619">Claudianus</author>
+                     <title>Opera</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219" calendar="#gregorian">s. xiii in</origDate>
+                     <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219"
+                        calendar="#gregorian">s. xiii in</origDate>
                   </origin>
                   <provenance type="#e"><orgName role="fmo" key="org_20">Arbroath, Angus.
-                        Benedictine (originally Tironensian) abbey of St Thomas the Martyr</orgName><p>'Liber S. Thome martyris de Aberbrothoc''; 'Liber S. Thome
-                        martyrisde Aber''</p><p>'Pro conuentu fratrum minorum sancti Iohannis, nisi
-                        pro illo missum fuerit de Arbrod'.</p><q type="pressmark">b</q></provenance>
+                        Benedictine (originally Tironensian) abbey of St Thomas the
+                        Martyr</orgName><p>With ex-libris of St Thomas of Arbroath. 'Liber S. Thome
+                        martyris de Aberbrothoc''; 'Liber S. Thome martyrisde
+                     Aber''</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="org_446">Perth, Perthshire.
+                        Franciscan convent</orgName><p>Lent to the Franciscans by the abbey of St
+                        Thomas the martyr, Arbroath. 'Pro conventu fratrum minorum sancti Iohannis,
+                        nisi pro illo missum fuerit de Arbrod.'</p><q type="pressmark"
+                     >F.21</q></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -67,6 +88,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Record 4431 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
