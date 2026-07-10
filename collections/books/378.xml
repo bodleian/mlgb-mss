@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record merge</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -41,30 +46,43 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">378</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">2815</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Constantinus Africanus</title>
-                     <note type="MLGB3_generalNotes">Add. 22719 was later at the cell of EXETER,
-                        q.v.</note>
+                     <author key="person_686">Constantinus Africanus</author>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="11XX" notBefore="1100" notAfter="1199" calendar="#gregorian">s. xii</origDate>
+                     <origDate when-custom="11XX" notBefore="1100" notAfter="1199"
+                        calendar="#gregorian">s. xii</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="org_36">Battle, Sussex. Benedictine abbey
-                        of St Martin</orgName><p>Pressmark evidence. Below in red is 'de Exonia
-                        Nicholai' showing that it was transferred to cell of Battle at Exeter,
-                        q.v.</p><q type="pressmark">CN</q></provenance>
+                  <provenance><orgName role="fmo" key="org_36">Battle, Sussex. Benedictine abbey of
+                        St Martin</orgName><p>Pressmark evidence: CN (fol. 2r, top right, level with
+                        the first line of text).</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="org_200">Exeter, Devon. Benedictine
+                        priory of St Nicholas; cell of Battle</orgName><p>Below the Battle pressmark
+                        is 'de Exonia Nicholai' in red (s. xv), showing that it was transferred to
+                        cell of Battle at Exeter.</p></provenance>
                   <provenance type="MLGB3_laterOwners">John C. Jackson, who sold it to the British
                      Museum 12 March 1859.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -72,6 +90,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Record 2815 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
