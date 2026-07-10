@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Markup and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,40 +42,86 @@
                   <country>England</country>
                   <settlement>Ipswich</settlement>
                   <repository>Central Library</repository>
-                  <idno type="shelfmark">MS 8, i</idno>
+                  <idno type="shelfmark">MS 8</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">744</idno>
                   </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Ric. de S. Victore</title>
-                  </msItem>
-               </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
-                  </origin>
-                  <provenance type="#e"><orgName role="fmo" key="org_86">Bury St Edmunds,
-                        Suffolk. Benedictine abbey of St Edmund, King and Martyr</orgName><p>'B.240. Liber sancti Edmundi Regis in quo continentur Expositio
-                        super psalterium' (fol. 4v).</p><q type="pressmark">B.240</q></provenance>
-                  <provenance type="MLGB3_laterOwners">William Smart (d. 1599), portreeve of
-                     Ipswich.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">William Smart</persName>
+                     (d. 1599), portreeve of Ipswich.</provenance>
                   <provenance type="MLGB3_laterOwners">Erasure on flyleaf '20 Julii 1596' and
                      'Collegium' legible (?cf. Pembroke College, MSS 29 and 41).</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Part I</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <author key="person_2929">Ric. de S. Victore</author>
+                        <title>super Psalmos etc</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                           calendar="#gregorian">s. xiii</origDate>
+                     </origin>
+                     <provenance type="#e"><orgName role="fmo" key="org_86">Bury St Edmunds,
+                           Suffolk. Benedictine abbey of St Edmund, King and
+                           Martyr</orgName><p>B.240. Liber sancti Edmundi Regis in quo continentur
+                           Expositio super psalterium' (fol. 4v).</p><q type="pressmark"
+                        >B.240</q></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Part II</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Josue et Judicum glo.</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299"
+                           calendar="#gregorian">s. xii/xiii</origDate>
+                     </origin>
+                     <provenance type="#e"><orgName role="fmo" key="org_86">Bury St Edmunds,
+                           Suffolk. Benedictine abbey of St Edmund, King and
+                           Martyr</orgName><p>'B.55. Iosue et Iudicum glosati' (fol. iiv, s. xv);
+                           'Iosue et Iudic' glos' monachorum sancti Edmundi. B 55' (fol. 1r).</p><q
+                           type="pressmark">B.55</q></provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Record 745 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
