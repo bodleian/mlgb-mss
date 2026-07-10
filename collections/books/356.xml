@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record merge</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,49 +42,104 @@
                   <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Corpus Christi College</repository>
-                  <idno type="shelfmark">MS 111 pp. 3-6, 9-54</idno>
+                  <idno type="shelfmark">MS 111</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">356</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">357</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Legenda, etc.</title>
-                     <msItem>
-                        <title>Homagium factum priori Bathonensi pro messuagio</title>
-                     </msItem>
-                     <msItem>
-                        <title> Ad parcum de Westberi claudendum Relic list Gospel lections with
-                           collects Genealogy of the kings of England On the kingdoms of the
-                           heptarchy, from John of Worcester Sæwulf's pilgrimage to Jerusalem
-                           1102–1103 Miracles Agreement between Bath Abbey and Matilda of
-                           Bathneston, 1269 Indulgences granted by Theobald of Canterbury for
-                           visiting Bath Abbey Dedication of an oratory in Bath to S. Werburga
-                        </title>
-                     </msItem>
-                  </msItem>
-               </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="1000/1300" notBefore="1000" notAfter="1300" calendar="#gregorian">s. xi--xiii</origDate>
-                  </origin>
-                  <provenance type="#c"><orgName role="fmo" key="org_34">Bath, Somerset.
-                        Benedictine cathedral priory of St Saviour, St Peter, and St Paul</orgName><p>Contents relate to the abbey.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Matthew Parker (1504–1575), archbishop of
-                     Canterbury.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Matthew
+                        Parker</persName> (1504–1575), archbishop of Canterbury.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="shelfmark">Pp. 3-6, 9-54</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Legenda, etc.</title>
+                        <msItem>
+                           <title>Homagium factum priori Bathonensi pro messuagio</title>
+                        </msItem>
+                        <msItem>
+                           <title>Ad parcum de Westberi claudendum Relic list Gospel lections with
+                              collects Genealogy of the kings of England On the kingdoms of the
+                              heptarchy, from John of Worcester Sæwulf's pilgrimage to Jerusalem
+                              1102–1103 Miracles Agreement between Bath Abbey and Matilda of
+                              Bathneston, 1269 Indulgences granted by Theobald of Canterbury for
+                              visiting Bath Abbey Dedication of an oratory in Bath to S. Werburga
+                           </title>
+                        </msItem>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="1000/1300" notBefore="1000" notAfter="1300"
+                           calendar="#gregorian">s. xi-xiii</origDate>
+                     </origin>
+                     <provenance type="#c"><orgName role="fmo" key="org_34">Bath, Somerset.
+                           Benedictine cathedral priory of St Saviour, St Peter, and St
+                           Paul</orgName><p>Contents relate to the abbey.</p></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Pp. 7-8, 55-56</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="ang">Old English</textLang>
+                     <msItem>
+                        <title>Manumissions, etc.</title>
+                        <note type="MLGB3_generalNotes">Pp. 7–8, 55–56 of MS 111 appear to have
+                           belonged to <ref target="https://mlgb.bodleian.ox.ac.uk/catalog/book_358"
+                              >MS 140</ref>.</note>
+                        <msItem>
+                           <title>Anglo-Saxon relic lists and manumissions from Bath </title>
+                        </msItem>
+                        <msItem>
+                           <title>Old English Confraternity agreement between the abbey of Bath and
+                              other houses</title>
+                        </msItem>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="10XX" notBefore="1000" notAfter="1099"
+                           calendar="#gregorian">s. xi</origDate>
+                     </origin>
+                     <provenance type="#c"><orgName role="fmo" key="org_34">Bath, Somerset.
+                           Benedictine cathedral priory of St Saviour, St Peter, and St
+                           Paul</orgName><p>Contents relate to the abbey.</p></provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Record 357 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
