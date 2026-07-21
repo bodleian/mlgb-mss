@@ -45,27 +45,52 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Augustinus, Epistole</title>
+                     <author key="person_352">Augustinus</author>
+                     <title key="work_986">Epistole</title>
+                     <note>ISTC <ref target="https://data.cerl.org/istc/ia01309000"
+                        >ia01309000</ref>. For copy specific information, see ALMA <ref
+                           target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/rl48sd/alma990169749360107026"
+                           >990169749360107026</ref>.</note>
                   </msItem>
                </msContents>
-               <physDesc> <typeDesc><p>Printed book.</p></typeDesc> </physDesc><history>
+               <physDesc>
+                  <typeDesc>
+                     <p>Printed book.</p>
+                  </typeDesc>
+               </physDesc>
+               <history>
                   <origin>
-                     <origDate>s. a., Paris</origDate>
+                     <origPlace>Paris: Ulrich Gering and Berthold Rembolt</origPlace>
+                     <origDate calendar="#gregorian" notBefore="1497" notAfter="1501">[about
+                        1499]</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="org_469">Rochester, Kent.
-                        Cathedral priory of St Andrew</orgName><p>'Iste liber pertinet [...]
-                        monach' Ecclesie Cathedralis Sancti Andree apostoli Rofenc' diocesis precium
-                        huius libri vi s viii d.' The name of the owner and of the place are crossed
-                        through (? whether at two different times) and 'Swythuni Wynton.'
-                        substituted.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">'Iste liber pertined as magistrum
-                     Chersey.'</provenance>
-                  <provenance type="MLGB3_laterOwners">Given by David Pole.</provenance>
+                  <provenance type="#i"><orgName role="fmo" key="org_469">Rochester, Kent. Cathedral
+                        priory of St Andrew</orgName><p><q>Iste liber pertinet [...] monach'
+                           Ecclesie Cathedralis Sancti Andree apostoli Rofenc' diocesis precium
+                           huius libri vi s viii d.</q> The name of the owner and of the place are
+                        crossed through (? whether at two different times) and <q>Swythuni
+                           Wynton.</q> substituted.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="org_437">Winchester, Hampshire.
+                        Benedictine cathedral priory of St Peter, St Paul, and St
+                        Swithun</orgName><p>For provenance evidence, see under
+                     Rochester.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><q>Iste liber pertinet ad magistrum
+                           <persName>Chersey</persName>.</q></provenance>
+                  <provenance type="MLGB3_laterOwners">Given by <persName role="dnr">David
+                        Pole</persName>.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -73,6 +98,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-27">Record 5784 merged into this record. References added to ALMA and
+            ISTC. Imprint details supplied from ISTC. Note added for Winchester: For provenance
+            evidence, see under Rochester.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

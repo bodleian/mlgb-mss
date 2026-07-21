@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Markup and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -41,6 +46,15 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">802</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">803</idno>
+                  </altIdentifier>
+                  <altIdentifier type="system">
+                     <country>England</country>
+                     <settlement>Norwich</settlement>
+                     <repository>Castle Museum</repository>
+                     <idno type="shelfmark">MS 158.926.4g(4)</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
@@ -50,24 +64,34 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499" calendar="#gregorian">s. xv</origDate>
+                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499"
+                        calendar="#gregorian">s. xv</origDate>
                   </origin>
-                  <provenance type="#l"><orgName role="fmo" key="org_86">Bury St Edmunds,
-                        Suffolk. Benedictine abbey of St Edmund, King and Martyr</orgName><p>Long
-                        form for St Edmund (fol. 112r) and his translation (fol. 85r, mentioning the
-                        chapel of St Stephen); also forms in die sancte Sabe (fol. 121r), sancti
-                        Botulphi (fol. 80v), sancti Dionisii (fol. 107r), Die reliquiarum (fol.
-                        108v). There were chapels of Sts Saba, Botulph, Denis and Stephen at the
-                        abbey.</p></provenance>
+                  <provenance type="#l"><orgName role="fmo" key="org_86">Bury St Edmunds, Suffolk.
+                        Benedictine abbey of St Edmund, King and Martyr</orgName><p>Long form for St
+                        Edmund (fol. 112r) and his translation (fol. 85r, mentioning the chapel of
+                        St Stephen); also forms in die sancte Sabe (fol. 121r), sancti Botulphi
+                        (fol. 80v), sancti Dionisii (fol. 107r), Die reliquiarum (fol. 108v). There
+                        were chapels of Sts Saba, Botulph, Denis and Stephen at the
+                     abbey.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Note signed by 'Jo. Cobbes', s.
                      xviii.</provenance>
                   <provenance type="MLGB3_laterOwners">Acquired by Norwich Castle Museum from the
-                     executors of Col. R. E. Patteson.</provenance>
+                     executors of Col. R. E. Patteson. The Supplement (1987) changed the shelfmark
+                     to Norfolk and Norwich Record Office.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -75,6 +99,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Record 803 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
