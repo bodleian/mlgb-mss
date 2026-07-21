@@ -37,30 +37,51 @@
                   <country>England</country>
                   <settlement>Colchester</settlement>
                   <repository>Harsnett Library</repository>
-                  <idno type="shelfmark">K.d.2</idno>
+                  <idno type="shelfmark">K.d.2 (pr. bk.)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3591</idno>
+                  </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5141</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>M. Marulus, Evangelistarium</title>
+                     <author key="person_2159">M. Marulus</author>
+                     <title key="work_5138">Evangelistarium</title>
                   </msItem>
                </msContents>
-               <physDesc> <typeDesc><p>Printed book.</p></typeDesc> </physDesc><history>
+               <physDesc>
+                  <typeDesc>
+                     <p>Printed book.</p>
+                  </typeDesc>
+               </physDesc>
+               <history>
                   <origin>
-                     <origDate when-custom="1529" when="1529" calendar="#gregorian">Cologne, 1529</origDate>
+                     <origPlace>Cologne</origPlace>
+                     <origDate when-custom="1529" when="1529" calendar="#gregorian">1529</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="org_311">Lewes, Sussex.
-                        Franciscan convent</orgName><p>'fratris thome [. . .] lectoris lewes dono
-                        .p. Iohannis Burcham tunc Sarum lectoris' (canc.: the name Cooke has been
-                        written over the illegible name, see under Westminster).</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="org_485">Salisbury, Wiltshire.
+                        Franciscan convent</orgName><p><q>fratris thome [...] lectoris lewes dono
+                           .p. Iohannis Burcham [?] tunc Sarum lectoris</q> (cancelled; the name
+                        Cooke has been written over the illegible name).</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="org_311">Lewes, Sussex. Franciscan
+                        convent</orgName><p>Compare provenance evidence for Salisbury Franciscan
+                        convent above.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -68,6 +89,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-27">Record 5141 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
