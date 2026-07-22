@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record merge</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,35 +42,69 @@
                   <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Trinity College</repository>
-                  <idno type="shelfmark">MS R. 7. 28 pp. 1-73</idno>
+                  <idno type="shelfmark">MS R. 7. 28</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">730</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4931</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Annals of St Neots</title>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199" calendar="#gregorian">s. xii ex</origDate>
-                  </origin>
-                  <provenance type="#c s"><orgName role="fmo" key="org_86">Bury St Edmunds,
-                        Suffolk. Benedictine abbey of St Edmund, King and Martyr</orgName></provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Pp. 1-73</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Annals of St Neots</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199"
+                           calendar="#gregorian">s. xii ex</origDate>
+                     </origin>
+                     <provenance type="#c s"><orgName role="fmo" key="org_86">Bury St Edmunds,
+                           Suffolk. Benedictine abbey of St Edmund, King and Martyr</orgName><p>This
+                           attribution was added in the MLGB Supplement (1987), p. 6. Compare
+                           Gameson, <title>The Manuscripts of Early Norman England (c.
+                              1066-1130)</title> (Oxford, 1999), no. 177.</p></provenance>
+                     <provenance><orgName role="fmo" key="org_482">St Neots, Huntingdonshire.
+                           Benedictine alien priory of St Neot; cell of Bec</orgName><p>A copy of
+                           this work was seen by Leland at St Neots (Leland, Script. Brit., p. 152;
+                           Coll. ed. Hearne 3. 24): this manuscript is the only known copy and
+                           contains many notes in Leland's hand (see W. H. Stevenson, Asser's Life
+                           of King Alfred (1904), p. 96).</p><note
+                           type="MLGB3_medievalCatalogueNotes">Leland, Script. Brit., p.
+                        152</note></provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">Matthew
+                           Parker</persName>.</provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Record 4931 merged into this record. Added reference to Gameson
+            1999.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
