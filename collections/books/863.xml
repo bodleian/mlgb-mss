@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record merge</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,40 +42,90 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Cotton MS Faustina B.iv fols. 180-182</idno>
+                  <idno type="shelfmark">Cotton MS Faustina B.iv</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">863</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3238</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Vita S. Alexis</title>
-                     <note type="MLGB3_generalNotes">Cotton Faustina B.iv fols. 180–182 and
-                        Vespasian E.iv fols. 100–103, 211 are fragments of one volume.</note>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="11XX" notBefore="1100" notAfter="1199" calendar="#gregorian">s. xii</origDate>
-                  </origin>
-                  <provenance type="#e"><orgName role="fmo" key="org_89">Byland, Yorkshire.
-                        Cistercian abbey of St Mary the Virgin</orgName><p>'Liber sancte marie de
-                        beallanda' (fols. 180r and 182v).</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Henry Savile of Banke (1568–1617). [In the
-                     Savile cat. no. 220.]</provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 3-179</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Vite sanctorum</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219"
+                           calendar="#gregorian">s. xiii in.</origDate>
+                     </origin>
+                     <provenance type="#e"><orgName role="fmo" key="org_260">Holme Cultram,
+                           Cumberland. Cistercian abbey of St Mary the Virgin</orgName><p>"Liber
+                           sancte Marie de Holmcoltran." on fol. 3r, i. e. 1st leaf of text; at top,
+                           in caps.</p><p>"liber cxlus" (fol. 3r).</p><q type="pressmark">liber
+                           cxl</q></provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">Henry Savile of
+                           Banke</persName> (1568–1617) (cypher inscription). [In the Savile cat.
+                        no. 64].</provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 180-182</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Vita S. Alexis</title>
+                        <note type="MLGB3_generalNotes">Cotton Faustina B.iv fols. 180–182 and
+                           Vespasian E.iv fols. 100–103, 211 are fragments of one volume.</note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="11XX" notBefore="1100" notAfter="1199"
+                           calendar="#gregorian">s. xii</origDate>
+                     </origin>
+                     <provenance type="#e"><orgName role="fmo" key="org_89">Byland, Yorkshire.
+                           Cistercian abbey of St Mary the Virgin</orgName><p>Cotton Faustina B.iv
+                           fols. 180–182 and Vespasian E.iv fols. 100–103, 211 are fragments of one
+                           volume. 'Liber sancte marie de bellalanda' (fols. 180r and
+                        182v).</p></provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">Henry Savile of
+                           Banke</persName> (1568–1617). [In the Savile cat. no. 220.]</provenance>
+                  </history>
+               </msPart>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Record 3238 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
