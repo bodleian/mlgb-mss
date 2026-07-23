@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record merge</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -36,42 +41,77 @@
                <msIdentifier>
                   <country>Germany</country>
                   <settlement>Berlin</settlement>
-                  <repository>Stiftung Preussischer Kulturbesitz</repository>
-                  <idno type="shelfmark">MS Lat. theol. qu. 297</idno>
+                  <repository>Staatsbibliothek zu Berlin</repository>
+                  <idno type="shelfmark">MS Lat. theol. qu. 297 (formerly untraced)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6430</idno>
+                  </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">2520</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Cassiodorus</title>
-                     <note type="MLGB3_generalNotes">Listed in Supplement, p. 76, as
-                        'Untraced'.</note>
+                     <author key="person_570">Cassiodorus</author>
+                  </msItem>
+                  <msItem>
+                     <author key="person_1947">Isidorus</author>
+                  </msItem>
+                  <msItem>
+                     <author key="person_1423">Hugo, etc</author>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
+                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                        calendar="#gregorian">s. xiii</origDate>
                   </origin>
                   <provenance type="#e"><orgName role="fmo" key="org_189">Durham. Benedictine
-                        cathedral priory of St Cuthbert</orgName></provenance>
-                  <provenance type="MLGB3_laterOwners">Sir Thomas Phillipps, MS 23867; his sale,
-                     Sotheby's, 21–26 March 1895, lot 136 to Quaritch, who sold it to Harrassowitz.
-                     Messrs Quaritch in 1961, who sold it to E. Rossignol, bookseller,
-                     Paris.</provenance>
+                        cathedral priory of St Cuthbert</orgName><p><q>Liber wⁱ Cuthbert ex dono
+                           domini <persName role="fmo">Willelmi Dalton</persName>
+                     monachi</q></p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Sir Thomas
+                        Phillipps</persName>, MS 23867; his sale, Sotheby's, 21–26 March 1895, lot
+                     136 to Quaritch (£25), who sold it to Harrassowitz. Messrs Quaritch in 1961,
+                     who sold it to E. Rossignol, bookseller, Paris. This was the last known
+                     location reported in both MLGB2 (1964), p. 34 and the Supplement (1987), p. 76,
+                     at which point the book was described as untraced.</provenance>
+                  <provenance type="MLGB3_laterOwners">Now in the Staatsbibliothek zu Berlin, with
+                     this location first noted in MLGB3 (2009-2024). Gerard Achten reports that the
+                     Königliche Bibliothek (now the Staatsbibliothek) purchased the manuscript
+                     through Harrassowitz at the 1895 Sotheby's auction (acquisition number
+                     1894,556). He does not mention either Quaritch or Rossignol in his discussion
+                     of provenance. See <title>Die Theologischen Lateinischen Handschriften in
+                        quarto der Staatsbibliothek Preussischer Kulturbesitz Berlin, Teil 2, MS
+                        theol. Lat. Qu. 267-378</title> (1984), p. 66.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0375.jpg, Test 3_0376.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-01">Record 2520 merged into this record. Additional content
+            transcribed from corresponding MLGB index card (ownership inscription; author
+            information; Quaritch price). Data history clarified (location of book as recorded in
+            MLGB2 and the Supplement as compared with MLGB3). Added reference to Achten (1984) and
+            discussion thereof. Edited shelfmark from Stiftung Preussischer Kulturbesitz to
+            Staatsbibliothek zu Berlin.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
