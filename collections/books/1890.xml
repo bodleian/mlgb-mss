@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -36,7 +41,8 @@
                <msIdentifier>
                   <settlement>Untraced</settlement>
                   <repository>Untraced</repository>
-                  <idno type="shelfmark">Shelfmark not recorded</idno>
+                  <idno type="shelfmark">Shelfmark not recorded (last known location: Richard Gough,
+                     s. xix in)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1890</idno>
                   </altIdentifier>
@@ -49,20 +55,33 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate/>
+                     <origDate calendar="#Gregorian" notAfter="1540">[Date not specified]</origDate>
                   </origin>
                   <provenance><orgName role="fmo" key="org_178">Doncaster, Yorkshire. Franciscan
-                        convent</orgName></provenance>
-                  <provenance type="MLGB3_laterOwners">Ralph Thoresby, MS. 104; lot 44 in the 1764
-                     Thoresby sale.</provenance>
-                  <provenance type="MLGB3_laterOwners">Belonged later to Richard Gough, according to
-                     a MS. note in Gough's copy of Thoresby's Ducatus Leodiensis (Bodleian, Gough
-                     Yorks. 60), p. 529.</provenance>
+                        convent</orgName><p>'It belonged to the Friars Minorits at Doncaster'
+                        according to Ralph Thoresby, <title>Ducatus Leodiensis</title> (1715), p.
+                        529.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Ralph Thoresby (d.
+                        1725).</persName> MS 104 in his <title>Ducatus Leodiensis</title>, p. 529.
+                     No. 44 in the Thoresby sale (1764).</provenance>
+                  <provenance type="MLGB3_laterOwners">Belonged later to <persName role="fmo"
+                        >Richard Gough</persName>, according to a mauscript note in Gough's copy of
+                        <title>Ducatus Leodiensis</title>, p. 529 (Oxford, Bodleian Library, Gough
+                     Yorks. 60). First recorded as an untraced book in the first edition of Medieval
+                     Libraries of Great Britain (1941).</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -70,6 +89,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-25">Added further information from the corresponding index card
+            (Thoresby's claim about the Doncaster provenance). Clarified data history.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -36,7 +41,8 @@
                <msIdentifier>
                   <settlement>Untraced</settlement>
                   <repository>Untraced</repository>
-                  <idno type="shelfmark">Shelfmark not recorded</idno>
+                  <idno type="shelfmark">Shelfmark not recorded (last known location: E. Rossignol,
+                     bookseller, 1961)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">2521</idno>
                   </altIdentifier>
@@ -45,21 +51,73 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Biblia</title>
-                     <note type="MLGB3_generalNotes">Messrs Quaritch in 1961 (sold then to E.
-                        Rossignol, bookseller, Paris, who sold to an unknown customer).</note>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <p><secFol>nificat</secFol></p>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>534 leaves.</extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Written space <dimensions type="written" unit="inch">
+                              <height>4</height>
+                              <width>2.5</width>
+                           </dimensions></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <binding notBefore="1900" notAfter="1999">
+                        <p>Rebound, s. xx.</p>
+                     </binding>
+                  </bindingDesc>
+
+               </physDesc>
                <history>
                   <origin>
-                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
+                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                        calendar="#gregorian">s. xiii</origDate>
                   </origin>
                   <provenance type="#i"><orgName role="fmo" key="org_189">Durham. Benedictine
-                        cathedral priory of St Cuthbert</orgName></provenance>
+                        cathedral priory of St Cuthbert</orgName><q>Liber domini <persName
+                           role="fmo">Rogeri Bell</persName> monachi Ecclesie Cath' dunelm'</q>
+                     (front flyleaf, s. xv/xvi. <q>Liber dompni <persName role="fmo">T.
+                           Clyffe</persName> ex dono dompni <persName role="fmo">Georgi
+                           Conforth'</persName></q> (flyleaf at end. s. xv ex(?)).</provenance>
+                  <provenance type="MLGB3_laterOwners"><q><persName role="fmo">Tho.
+                           Ailesbury</persName> 1625.</q></provenance>
+                  <provenance type="MLGB3_laterOwners"><q><persName role="fmo">Thomas
+                           Peery</persName> his boocke 1669</q>.</provenance>
+                  <provenance type="MLGB3_laterOwners"><q>Ex dono <persName role="fmo">Willelmi
+                           Babington</persName></q>.</provenance>
+                  <provenance type="MLGB3_laterOwners"><q><persName role="fmo">C. Reynell</persName>
+                        e Coll. Corp. Christi Oxon. 1730</q>.</provenance>
+                  <provenance type="MLGB3_laterOwners"><q><persName role="fmo">Edmd.
+                           Radcliffe</persName> 1797.</q></provenance>
+                  <provenance type="MLGB3_laterOwners"><q>Given by the <persName role="fmo">Rev. E.
+                           S. Radcliffe</persName> to <persName role="fmo">R. Townley
+                           Parker</persName>.</q></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Hodgson</persName> sale
+                     29 March 1951, lot 221.</provenance>
+                  <provenance type="MLGB3_laterOwners">Collection of <persName role="fmo">A. Cherry
+                        Garrand</persName>, 23 Dorset House, Gloucester Place, NW1. Sold to Messrs
+                     Quaritch in 1961, who sold to E. Rossignol, bookseller, Paris (8 Rue
+                     Bonaparte). Sold by Rossignol to an <q>etranger passant</q>, name unknown. This
+                     is the last known location reported in the second edition of Medieval Libraries
+                     of Great Britain (1964). The book remains untraced.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -67,6 +125,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-19">Additional information transcribed from corresponding Medieval
+            Libraries of Great Britain index card. Record edited to clarify data history.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
