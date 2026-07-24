@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,7 +42,7 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>Mr H. C. Pratt</repository>
-                  <idno type="shelfmark">Shelfmark not recorded</idno>
+                  <idno type="shelfmark">Shelfmark not recorded (formerly untraced)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">805</idno>
                   </altIdentifier>
@@ -45,22 +50,61 @@
                <msContents>
                   <textLang mainLang="enm">Middle English</textLang>
                   <msItem>
-                     <title>Boethius</title>
+                     <author key="person_505">Boethius</author>
+                     <title>De consolatione philosophiae</title>
+                     <note>Metrical translation into English by <persName role="trl">John
+                           Walton</persName>.</note>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <bindingDesc>
+                     <binding notBefore="1949">
+                        <p>According to the Medieval Libraries of Great Britain index card (written
+                           by Neil Ker): "Very decayed medieval binding, about to be redone by
+                           Sangorski May 1949."</p>
+                        <p>According to the Schoenberg Database of Manuscripts <ref
+                              target="https://sdbm.library.upenn.edu/entries/69568"
+                           >SDBM_69568</ref>: "Natural sheep over wooden boards, remains of original
+                           doeskin sides preserved".</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate when-custom="140X/141X" notBefore="1400" notAfter="1419" calendar="#gregorian">s. xv in</origDate>
+                     <origDate when-custom="140X/141X" notBefore="1400" notAfter="1419"
+                        calendar="#gregorian">s. xv in</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="org_86">Bury St Edmunds,
-                        Suffolk. Benedictine abbey of St Edmund, King and Martyr</orgName></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="org_86">Bury St Edmunds, Suffolk.
+                        Benedictine abbey of St Edmund, King and Martyr</orgName><p><q>Iste liber
+                           constat Johanni <note type="editorial">(canc)</note> Thome Hyngham
+                           monachi diui Edmundi de Bury</q> (the first part of the addition is over
+                        erasure)</p></provenance>
                   <provenance type="MLGB3_laterOwners">Sale at Christie's, 25 April 1949, lot 16, to
-                     Maggs Bros.</provenance>
+                     Maggs Bros (Books from the library of the hospital of <persName role="fmo">Sir
+                        William Turner</persName> at Kirkleatham, Yorkshire, founded 1676). This is
+                     the location reported in the second edition of Medieval Libraries of Great
+                     Britain (1964).</provenance>
+                  <provenance type="MLGB3_laterOwners">[Unverified] This manuscript is presumably
+                     identical with Quaritch catalogue 897 (1969), no. 51. Compare Schoenberg
+                     Database of Manuscripts <ref
+                        target="https://sdbm.library.upenn.edu/entries/69568"
+                     >SDBM_69568</ref>.</provenance>
+                  <provenance type="MLGB3_laterOwners">In the supplement to Medieval Libraries of
+                     Great Britain (1987), the location was changed from untraced to Mr H. C.
+                     Pratt.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -68,6 +112,12 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-19">Additional information transcribed from corresponding MLGB index
+            card (inscription details, 1949 binding note, and historic association with Sir William
+            Turner). Additional information supplied through comparison with Schoenberg Database of
+            Manuscripts <ref target="https://sdbm.library.upenn.edu/entries/69568">SDBM_69568</ref>
+            (Quaritch 1969 provenance, binding note). Data history clarified (location reported in
+            different iterations of Medieval Libraries of Great Britain).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

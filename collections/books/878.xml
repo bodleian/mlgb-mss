@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,7 +42,7 @@
                   <country>England</country>
                   <settlement>Wormsley</settlement>
                   <repository>Wormsley Library</repository>
-                  <idno type="shelfmark">MS 12</idno>
+                  <idno type="shelfmark">MS 12 (formerly untraced)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">878</idno>
                   </altIdentifier>
@@ -45,34 +50,72 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Beda</title>
+                     <author key="person_426">Beda</author>
+                     <title key="work_1444">In actus apostolorum</title>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <p>Medieval binding. 'Oak boards, covered with ox-hide, having brass knobs
+                           to protect the hair'</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199" calendar="#gregorian">s. xii ex</origDate>
+                     <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199"
+                        calendar="#gregorian">s. xii ex</origDate>
                   </origin>
                   <provenance type="#e"><orgName role="fmo" key="org_89">Byland, Yorkshire.
-                        Cistercian abbey of St Mary the Virgin</orgName></provenance>
-                  <provenance type="MLGB3_laterOwners">Thomas Bateman (1821–1861); William Bateman;
-                     Bateman Heirlooms sale, Sotheby's, 25 May 1893, lot 259; Robert Hoe III
-                     (1839–1909); his sale, Anderson Galleries, New York, 1–5 May 1911, lot 2115,
-                     to G. D. Smith for Thomas Jefferson Coolidge, Jr.</provenance>
-                  <provenance type="MLGB3_laterOwners">Sir Paul Getty (1932–2003); see The Wormsley
-                     Library: A Personal Selection by Sir Paul Getty, K.B.E., exhibition catalogue,
-                     New York, 1999, no. 3.</provenance>
+                        Cistercian abbey of St Mary the Virgin</orgName><p><q>Liber Sancte Marie de
+                           Bella Landa</q>.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Savile</persName> sale 6
+                     February 1861, lot 24.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Thomas
+                        Bateman</persName> (1821–1861); <persName role="fmo">William
+                        Bateman</persName>; Bateman Heirlooms sale, Sotheby's, 25 May 1893, lot 259
+                     to Quaritch (£21);</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Robert Hoe
+                        III</persName> (1839–1909); his sale, Anderson Galleries, New York, 1–5 May
+                     1911, lot 2115, to G. D. Smith (American bookseller) for <persName role="fmo"
+                        >Thomas Jefferson Coolidge Jr.</persName> according to Seymour de Ricci's
+                     index of sale catatalogues in Paris.</provenance>
+                  <provenance type="MLGB3_laterOwners">This book was recorded as untraced in all of
+                     the printed handlists for Medieval Libraries of Great Britain (1941, 1964,
+                     1987). A later addition to the corresponding Medieval Libraries of Great
+                     Britain index card notes the following: 'Boston (USA), Private collection in
+                     1988 (not recorded in 1987 Supplement)'.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sir Paul Getty (1932–2003); see <title>The
+                        Wormsley Library: A Personal Selection by Sir Paul Getty, K.B.E.</title>,
+                     exhibition catalogue, New York, 1999, no. 3. This was the location reported in
+                     MLGB3 (2010-2015). The manuscript is identical with Schoenberg Database of
+                     Manuscripts <ref target="https://sdbm.library.upenn.edu/manuscripts/5942"
+                        >SDBM_MS_5942</ref>.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0355.jpg, Test 3_0356.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-25">Additional information from corresponding Medieval Libraries of
+            Great Britain index card transcribed and incorporated. Previous status as an untraced
+            book noted. Reference to Schoenberg Database of Manuscripts added.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
