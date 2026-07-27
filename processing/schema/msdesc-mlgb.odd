@@ -19,45 +19,24 @@
     <text>
         <body>
             <schemaSpec ident="msdescmlgb" source="https://raw.githubusercontent.com/msDesc/consolidated-tei-schema/refs/heads/master/msdesc.compiled.xml" start="TEI" targetLang="en" docLang="en">
-                <moduleRef key="tei" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
+                <moduleRef key="tei" />
                 <!-- core module -->
-                <moduleRef key="core" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml" 
-                    include="
-                    abbr add address addrLine author analytic
-                    bibl biblScope biblStruct
-                    choice citedRange cit corr 
-                    date del desc 
-                    editor email expan 
-                    foreign 
-                    gap graphic 
-                    head hi 
-                    imprint item 
-                    l label lb 
-                    lg list listBibl 
-                    measure monogr
-                    name note num 
-                    orig 
-                    p pb postCode publisher pubPlace 
-                    q quote 
-                    ref reg relatedItem resp respStmt 
-                    series sic street 
-                    term textLang title 
-                    unclear 
-                    "/>
+                <moduleRef key="core" />
                 <!-- figures module -->
                 <moduleRef key="figures"/>
                 <!-- header module -->
                 <moduleRef key="header"/>
                 <!-- linking module -->
-                <moduleRef key="linking" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml" include="seg ab"/>
+                <moduleRef key="linking" />
                 <!-- msdescription module -->
                 <moduleRef key="msdescription" except="supportDesc objectDesc"/>
                 <!-- namesdates module -->
                 <moduleRef key="namesdates" />
                 <!-- textstructure module -->
-                <moduleRef key="textstructure" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml" include="TEI body div text back"/>
+                <moduleRef key="textstructure" />
                 <!-- transcr module -->
                 <moduleRef key="transcr"/>
+
 
 
                 <!-- ********************** -->
@@ -69,7 +48,7 @@
                     <constraintSpec scheme="schematron" ident="TEI.xmlid.check" mode="change">
                         <constraint>
                             <sch:rule context="tei:TEI">
-                                <sch:assert test="matches(@xml:id, '^book_\d+$') or matches(@xml:id, '^booklist_[A-Z]\d+$')" role="fatal">
+                                <sch:assert test="matches(@xml:id, '^book_\d+$') or matches(@xml:id, '^booklist_[A-Z]+\d+$')" role="fatal">
                                 The root TEI element must have an @xml:id beginning with "book_" or "booklist_" then a number (books) or alphanumeric ID (booklists) (which must also be unique across the entire catalogue).
                                 </sch:assert>
                             </sch:rule>
