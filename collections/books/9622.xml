@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9622">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="SW">
+               <resp when="2026">Transcription and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Transcription and encoding of index card</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>Scotland</country>
+                  <settlement>Edinburgh</settlement>
+                  <repository>National Library of Scotland</repository>
+                  <idno type="shelfmark">MS 40000 (formerly untraced)</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Missale patrum</title>
+                  </msItem>
+                  <msItem>
+                     <title>Homiliae et lectiones</title>
+                  </msItem>
+                  <msItem>
+                     <title>Collecta dominicarum et feriarium totius anni</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" notBefore="1330" notAfter="1350">c.
+                        1330-1350.</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="org_534">Sweethart or New Abbey,
+                        Kirkcudbrightshire, Cistercian abbey of St Mary the
+                           Virgin</orgName><p><q>Liber S. Marie de dulci corde.</q></p></provenance>
+                  <provenance type="MLGB3_laterOwners">CMA 7610 (<persName role="fmo">Ralph
+                        Thoresby</persName>, Octavo MS 1). Not certainly identifiable in the
+                     Thoresby sale (1764), but perhaps no. 46.</provenance>
+                  <provenance type="MLGB3_laterOwners">Described also in <title>Ducatus
+                        Leodiensis</title> (ed. 1816), cat. p. 90, no. 183. 'Seems to be very
+                     particular in the Scottish saints'.</provenance>
+                  <provenance>This manuscript was reported as untraced in the second edition of
+                     Medieval Libraries of Great Britain (1964). The National Library of Scotland
+                     purchased it in 2016. For further information, see Schoenberg Database of
+                     Manuscripts <ref target="https://sdbm.library.upenn.edu/entries/259616"
+                        >SDBM_259616</ref> and National Library of Scotland <ref
+                        target="https://manuscripts.nls.uk/repositories/2/resources/22160">catalogue
+                        entry</ref>.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description compiled (Sian Witherden, 2026) from the following
+                           sources: <listBibl>
+                              <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’, card
+                                 index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).</bibl>
+                              <bibl>Neil R. Ker, ed., <title>Medieval Libraries of Great Britain: A
+                                    List of Surviving Books</title>, Royal Historical Society Guides
+                                 and Handbooks, 3 (London, <ref
+                                    target="https://hdl.handle.net/2027/uva.x000937945">2nd edn,
+                                    1964</ref>).</bibl>
+                           </listBibl><p>[Additional notes on source material: current location
+                              updated in light of Schoenberg Database of Manuscripts, and reference
+                              to National Library of Scotland catalogue added. Manuscript date
+                              supplied from National Library of Scotland catalogue.]</p></source>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates><bibl subtype="full" type="digital-facsimile">
+                        <ref target="https://view.nls.uk/mirador/235163105">
+                           <title>National Library of Scotland</title>
+                        </ref>
+                        <note>(full digital facsimile)</note>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0447.jpg, Test 3_0448.jpg -->
+      </fileDesc>
+      <revisionDesc>
+         <change when="2026-06-04">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
