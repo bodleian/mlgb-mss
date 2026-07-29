@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,8 +42,7 @@
                   <country>Belgium</country>
                   <settlement>Brussels</settlement>
                   <repository>Bibliothèque royale de Belgique</repository>
-                  <idno type="shelfmark">MS IV.481 (previously Untraced, London, Maggs,
-                     1935)</idno>
+                  <idno type="shelfmark">MS IV.481 (formerly untraced)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5338</idno>
                   </altIdentifier>
@@ -47,29 +51,70 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Psalterium; Litany</title>
-                     <note type="MLGB3_generalNotes">Large square hand like lot 223. First leaf
-                        lost. 18 long lines.</note>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>The original Medieval Libraries of Great Britain index card
+                           describes this as a book with 166 fols. MLGB3 (2009-2015) noted that the
+                           first leaf was lost. For comparison, the Bibliothèque royale de Belgique
+                              <ref target="https://uurl.kbr.be/bib/17067887">catalogue entry</ref>
+                           gives the extent as iii + 253 + v.</extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>The index card gives the following information: 22 lines, 21 x 15
+                           1/2 cm. However, MLGB3 (2009-2015) described the book as having 18 long
+                           lines.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Large square hand like lot 223.</handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote>See provenance for discussion of historiated borders.</decoNote>
+                  </decoDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate when-custom="148X/149X" notBefore="1480" notAfter="1499" calendar="#gregorian">s. xv ex.</origDate>
+                     <origPlace>England</origPlace>
+                     <origDate when-custom="148X/149X" notBefore="1480" notAfter="1499"
+                        calendar="#gregorian">s. xv ex.</origDate>
                   </origin>
                   <provenance type="#l"><orgName role="fmo" key="org_537">Syon, Middlesex.
-                        Bridgettine abbey of St Saviour, St Mary the Virgin, and St Bridget</orgName><p>Bridget follows Anne in the litany, which agrees exactly with
-                        that in the Bridgettine psalter. Prayers at end have female
-                        forms.</p><p> </p></provenance>
-                  <provenance type="MLGB3_laterOwners">Elynor ffeteplace, fol. 258r.</provenance>
+                        Bridgettine abbey of St Saviour, St Mary the Virgin, and St
+                        Bridget</orgName><p>Calendar of Bridgettine use. Bridget follows Anne in the
+                        litany, which agrees exactly with that in the Bridgettine psalter. Prayers
+                        at end have female forms. Seven illuminated borders contain the figure of a
+                        kneeling un, wearing the Bridgettine habit, with a scroll <q>Dignare me
+                           laudare te virgo sacrata da michi</q>.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Elynor
+                        ffeteplace</persName>, fol. 258r.</provenance>
+                  <provenance type="MLGB3_laterOwners">Bookplate of <persName role="fmo">Lord
+                        Arundell of Wardour</persName>.</provenance>
+                  <provenance type="MLGB3_laterOwners">Maggs October 1935. This was the last known
+                     location recorded in the second edition of Medieval Libraries of Great Britain
+                     (1964), at which point the book was untraced.</provenance>
                   <provenance type="MLGB3_laterOwners">Sotheby sale 11 July 1966, lot 224 (property
-                     of Lord Dalhousie).</provenance>
+                     of <persName role="fmo">Lord Dalhousie</persName>).</provenance>
                   <provenance type="MLGB3_laterOwners">Maggs, Bulletin 5 (1967), item
                      9.</provenance>
-                  <provenance type="MLGB3_laterOwners"> </provenance>
+                  <provenance type="MLGB3_laterOwners">Now Brussels, Bibliothèque royale de
+                     Belgique, MS IV.481, as noted in the supplement to Medieval Libraries of Great
+                     Britain (1987).</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -77,6 +122,11 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-26">Additional content transcribed from corresponding Medieval
+            Libraries of Great Britain index card (discussion of historiated initials, transcription
+            of scroll, reference to bookplate, information about extent, layout, and dimensions).
+            Record edited to clarify data history (location reported in different iterations of
+            Medieval Libraries of Great Britain).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

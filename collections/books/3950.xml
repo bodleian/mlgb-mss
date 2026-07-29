@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -36,8 +41,8 @@
                <msIdentifier>
                   <settlement>Untraced</settlement>
                   <repository>Untraced</repository>
-                  <idno type="shelfmark">MS J. S. Hawkin's sale, Fletcher's, 8 May 1843, no.
-                     2</idno>
+                  <idno type="shelfmark">Shelfmark not recorded (last known location: Hawkin's sale,
+                     Fletcher's, 1843)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3950</idno>
                   </altIdentifier>
@@ -50,15 +55,30 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="13XX" notBefore="1300" notAfter="1399" calendar="#gregorian">s. xiv</origDate>
+                     <origDate when-custom="13XX" notBefore="1300" notAfter="1399"
+                        calendar="#gregorian">s. xiv</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="org_373">Merevale,
-                        Warwickshire. Cistercian abbey of St Mary the Virgin</orgName></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="org_373">Merevale, Warwickshire.
+                        Cistercian abbey of St Mary the Virgin</orgName><p>No corresponding Medieval
+                        Libraries of Great Britain index card with supplementary provenance details
+                        was found during data reconciliation work in 2026.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">This was first recorded as an untraced book
+                     in the supplement to Medieval Libraries of Great Britain (1987) p. 49. The
+                     following information was given about the last known location: J. S. Hawkin's
+                     sale, Fletcher's, 8 May 1843, no. 2.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -66,6 +86,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-01">Data history clarified (no index card found; status as an
+            untraced book).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
