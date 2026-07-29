@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9610">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="SW">
+               <resp when="2026">Transcription and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Transcription and encoding of index card</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>Untraced</country>
+                  <settlement>Untraced</settlement>
+                  <repository>Untraced</repository>
+                  <idno type="shelfmark">Shelfmark not recorded (last known location: Henry, Earl of
+                     Clarenden, 1697)</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Liber spiritualis gracie S. Matildis, etc.</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1513">1513</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="org_334">London, London,
+                        Charterhouse of the Salutation of St Mary the Virgin</orgName><p><q>Liber S.
+                           Matildae inscr. Liber spiritualis Gratiae. Speculum Sacerdotum sec.
+                           visionem et exhortationem S. Edwardi Regis et Confessoris. Uterque liber
+                           transcriptus est a <persName role="scr">Joh. Whetham</persName> Monacho
+                           Carth. Londinensi anno 1513. Adjic. Itinerarium Johannis de Hese
+                           Presbyteri Trajectensis Dioc. ab Hierusolyma anno 1489 per diversas mundi
+                           partes. in 4.</q> Description taken from <title>Librorum manuscriptorum
+                           in bibliotheca <persName role="fmo">Jacobi Waraei</persName> equitis Aur.
+                           Catalogus</title> (Dublin 1648), Theol. MS. 12</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName type="fmo">Sir James
+                        Ware</persName> in 1648. Compare citation above.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Henry, Earl of
+                        Clarendon</persName> in 1697. CMA 2.2.110 (where the scribe's name is given
+                     as Joh. Wallam). This was the last known location reported in the second
+                     edition of Medieval Libraries of Great Britain (1964). The book remains
+                     untraced.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description compiled (Sian Witherden, 2026) from the following
+                           sources: <listBibl>
+                              <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’, card
+                                 index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).</bibl>
+                              <bibl>Neil R. Ker, ed., <title>Medieval Libraries of Great Britain: A
+                                    List of Surviving Books</title>, Royal Historical Society Guides
+                                 and Handbooks, 3 (London, <ref
+                                    target="https://hdl.handle.net/2027/uva.x000937945">2nd edn,
+                                    1964</ref>).</bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0399.jpg, Test 3_0400.jpg -->
+      </fileDesc>
+      <revisionDesc>
+         <change when="2026-06-04">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
