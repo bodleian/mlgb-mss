@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9625">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="SW">
+               <resp when="2026">Transcription and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Transcription and encoding of index card</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>Untraced</country>
+                  <settlement>Untraced</settlement>
+                  <repository>Untraced</repository>
+                  <idno type="shelfmark">Shelfmark not recorded (formerly Oxford, Balliol College,
+                     MS 142; lost s. xvii)</idno>
+                  <altIdentifier>
+                     <country>England</country>
+                     <settlement>Oxford</settlement>
+                     <repository>Balliol College</repository>
+                     <idno type="shelfmark">MS 142</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <author>Ovid</author>
+                     <title>Metamorphoses</title>
+                     <note>Beginning at IV 117.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" notAfter="1540">[Date not specified]</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="org_579">Westminster, Middlesex,
+                        Benedictine abbey of St Peter</orgName><p>Langbaine says 'Fuit olim
+                           <persName role="fmo">Richardi Teddyngton</persName> monachi
+                        Westmonasteriensis'.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">'the volume must have disappeared [from
+                     Balliol College] in the second half of the 17th cent.' See R.A.B. Mynors,
+                        <title>Catalogue of the manuscripts of Balliol College, Oxford</title>
+                     (Oxford, 1963), p. 121. It was first listed as an untraced book in the first
+                     edition of Medieval Libraries of Great Britain (1941), and the current location
+                     remains unknown.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description compiled (Sian Witherden, 2026) from the following
+                           sources: <listBibl>
+                              <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’, card
+                                 index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).</bibl>
+                              <bibl> Neil R. Ker, ed., <ref
+                                    target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                       ><title>Medieval Libraries of Great Britain: A List of
+                                       Surviving Books</title></ref>, Royal Historical Society
+                                 Guides and Handbooks, 3 (London, 1941).</bibl>
+                              <bibl>R.A.B. Mynors, <title>Catalogue of the manuscripts of Balliol
+                                    College, Oxford</title> (Oxford, 1963), p. 121.</bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0459.jpg, Test 3_0460.jpg -->
+      </fileDesc>
+      <revisionDesc>
+         <change when="2026-06-04">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

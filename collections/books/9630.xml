@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9630">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record creation</resp>
+               <persName>Sian Witherden</persName>
+               <note>Creation of new record from handlist</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Untraced</settlement>
+                  <repository>Untraced</repository>
+                  <idno type="shelfmark">Shelfmark not recorded (last known location: Barcelona, S.
+                     Babra, 1923)</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <author key="person_905">Euclides</author>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" notBefore="1300" notAfter="1399">s.
+                        xiv</origDate>
+                  </origin>
+                  <provenance type="#i"><orgName role="fmo" key="org_94">Cambridge, Cambridgeshire,
+                        Franciscan convent</orgName><p>No corresponding MLGB index card was found
+                        during data reconciliation work in 2026. The following provenance evidence
+                        to support the attribution has been supplied from <title>Catalogue of very
+                           important illuminated &amp; other manuscripts, the property of the Lord
+                           Mostyn ... which will be sold by auction ... on Tuesday, the 13th of
+                           July, 1920</title> (London, 1920), lot 38: 'In 1487 the MS. was in the
+                        possession of <persName role="fmo">Richard Brynkley</persName>, who has
+                        written his name, and the date in Greek letters, at the end. This Richard
+                        Brynkley was an important official of the Franciscan Order in
+                     England'.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Mostyn sale (Sotheby, 13 July 1920), lot 38
+                     to Maggs, who sold to S. Babra of Barcelona in 1923. This was the last known
+                     location reported in the second edition of Medieval Libraries of Great Britain
+                     (1964), p. 24.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Ker, Neil R., ed., <ref
+                              target="https://hdl.handle.net/2027/uva.x002754058"><title>Medieval
+                                 Libraries of Great Britain: A List of Surviving
+                           Books</title></ref>, 2nd edn, Royal Historical Society Guides and
+                           Handbooks, 3 (London, 1964). Provenance evidence supplied from Sotheby's
+                           catalogue (1920), cited in full above.</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2026-06-24">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
