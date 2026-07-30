@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -36,7 +41,8 @@
                <msIdentifier>
                   <settlement>Untraced</settlement>
                   <repository>Untraced</repository>
-                  <idno type="shelfmark">Shelfmark not recorded</idno>
+                  <idno type="shelfmark">Shelfmark not recorded (last known owner: Bernard Halliday,
+                     1961)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3018</idno>
                   </altIdentifier>
@@ -49,21 +55,34 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="13XX" notBefore="1300" notAfter="1399" calendar="#gregorian">s. xiv</origDate>
+                     <origDate when-custom="13XX" notBefore="1300" notAfter="1399"
+                        calendar="#gregorian">s. xiv</origDate>
                   </origin>
                   <provenance><orgName role="fmo" key="org_240">Haltemprice (or Cottingham),
-                        Yorkshire. Augustinian priory of St Mary the Virgin and Holy Cross</orgName><p>Arms of the priory ( the same arms as those of the founder) on
-                        fols. 42v, 106v, 119v.</p></provenance>
+                        Yorkshire. Augustinian priory of St Mary the Virgin and Holy
+                        Cross</orgName><p>Arms of the priory ( the same arms as those of the
+                        founder) on fols. 42v, 106v, 119v.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Dewick sale Oct. 17, 18 1918, lot
                      26.</provenance>
                   <provenance type="MLGB3_laterOwners">Belonged to Bernard Halliday (R. B. and A. K.
-                     Halliday), 124 New Walk, Leicester, on 31 March 1952 -- and in 1961, now sold
-                     and untraced.</provenance>
+                     Halliday), 124 New Walk, Leicester, on 31 March 1952, and also in 1961.
+                     Halliday was the last known owner according to the second edition of Medieval
+                     Libraries of Great Britain (1964). 'Now sold and untraced' according to the
+                     supplement to Medieval Libraries of Great Britain (1987). The present
+                     whereabouts remain unknown.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -71,6 +90,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-30">Record edited to clarify data history (location reported in
+            different iterations of Medieval Libraries of Great Britain)</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
