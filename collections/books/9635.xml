@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9635">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="SW">
+               <resp when="2026">Transcription and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Transcription and encoding of index card</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement>Pennsylvania</settlement>
+                  <repository>Temple University Libraries</repository>
+                  <idno type="shelfmark">MSS LT 085 (formerly untraced)</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="enm">Middle English</textLang>
+                  <msItem>
+                     <title>Pore Caitif</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" notBefore="1400" notAfter="1499">s.
+                        xv</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="org_338">London, London, Abbey of
+                        St Mary the Virgin and St Francis, without Aldgate, of Franciscan
+                        nuns</orgName><p><q>Md. that I Dame <persName role="fmo">Margaret
+                              Hasley</persName> ladi and sister of the Meneresie of London have be
+                           the licence of my sovren geve this boke to the use of Dame <persName
+                              role="fmo">Anne Bassynburne</persName> sister of the same Priory and
+                           after hir death to the comforte of hir sisters and not to be geve nor
+                           lent without the place aforesaid.</q></p></provenance>
+                  <provenance type="MLGB3_laterOwners">J. &amp; J. Leighton, Catalogue of of MSS.
+                     [no date], no. 252 (£86).</provenance>
+                  <provenance type="MLGB3_laterOwners">Meade Falkner sale Sotheby Dec. 1932, lot 387
+                     to Tregaskis (£46). This was the last known provenance according to the second
+                     edition of Medieval Libraries of Great Britain (1964).</provenance>
+                  <provenance type="MLGB3_laterOwners">Now Pennsylvania, Temple University
+                     Libraries, MSS LT 085. See Joseph R. Kopta (ed.), <title><ref
+                           target="https://www.stellaonline.art/the-art-of-the-book">The Art of the
+                           Book: Treasures from the Special Collections Research Center Temple
+                           University Libraries</ref></title> (2001), pp. 56-57.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description compiled (Sian Witherden, 2026) from the following
+                           sources: <listBibl>
+                              <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’, card
+                                 index, Oxford, 1937–2025 (held at Oxford, Bodleian Library). [Note
+                                 that the word 'comforte' in the inscription does not appear on the
+                                 index card, but has been supplied in light of Kopta 2001, cited in
+                                 full below]</bibl>
+                              <bibl>Neil R. Ker, ed., <title>Medieval Libraries of Great Britain: A
+                                    List of Surviving Books</title>, Royal Historical Society Guides
+                                 and Handbooks, 3 (London, <ref
+                                    target="https://hdl.handle.net/2027/uva.x000937945">2nd edn,
+                                    1964</ref>).</bibl>
+                              <bibl>Joseph R. Kopta (ed.), <title><ref
+                                       target="https://www.stellaonline.art/the-art-of-the-book">The
+                                       Art of the Book: Treasures from the Special Collections
+                                       Research Center Temple University Libraries</ref></title>
+                                 (2001), pp. 56-57 [Current location of manuscript supplied in light
+                                 of this source].</bibl>
+                           </listBibl></source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0403.jpg, Test 3_0404.jpg -->
+      </fileDesc>
+      <revisionDesc>
+         <change when="2026-06-04">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
