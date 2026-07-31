@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2025">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -41,16 +46,17 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">2885</idno>
                   </altIdentifier>
+                  <altIdentifier>
+                     <country>England</country>
+                     <settlement>London</settlement>
+                     <repository>Studley Royal, MR H. Vyner</repository>
+                     <idno type="shelfmark">[VR 6120]</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Libri grammatici; Formulare; Sermones, etc.</title>
-                     <note type="MLGB3_generalNotes">Formerly Studley Royal, Mr H. Vyner, the
-                        second, first, third and fifth MSS. respectively are listed in the 1964 edn.
-                        Fragments of a missal formerly Add. 62129 were identified as pastedowns from
-                        Add. 62132A and are now Add. 62132B. The fourth Vyner MS. was stolen in 1964
-                        and is at present unretraced.</note>
                      <note type="MLGB3_generalNotes">Described by J. R. Walbran, "Memorials of
                         Fountains Abbey", Surtees Soc. 2 (1875) pp. 102–03.</note>
                      <note type="MLGB3_generalNotes">Fols. 228–231 are binding leaves of
@@ -59,25 +65,51 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="13XX/14XX" notBefore="1300" notAfter="1499" calendar="#gregorian">s. xiv--xv</origDate>
+                     <origDate when-custom="13XX/14XX" notBefore="1300" notAfter="1499"
+                        calendar="#gregorian">s. xiv-xv</origDate>
                   </origin>
                   <provenance type="#e"><orgName role="fmo" key="org_219">Fountains, Yorkshire.
-                        Cistercian abbey of St Mary the Virgin</orgName><p>"Liber Sancte Marie de
-                        ffontibus".</p></provenance>
-                  <provenance type="MLGB3_laterOwners">"Christopher Johnson" and his father
-                     William.</provenance>
-                  <provenance type="MLGB3_laterOwners">Sir Henry Ingilby of Ripley Castle (Hist.
-                     MSS. Comm. Rep. 6. 356a). Sold 21 October 1920 (Sotheby lot 124) to Quaritch
-                     (£15.10).</provenance>
-                  <provenance type="MLGB3_laterOwners">W. Lamplough (dead).</provenance>
-                  <provenance type="MLGB3_laterOwners">The copy was on loan to the Archives
-                     Department of Leeds Public Libraries, and was referenced there VR
-                     6120.</provenance>
+                        Cistercian abbey of St Mary the Virgin</orgName><p><q>Liber Sancte Marie de
+                           ffontibus</q>.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><q><persName role="fmo">Christopher
+                           Johnson</persName></q> and his father William.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Sir Henry
+                        Ingilby</persName> of Ripley Castle (Hist. MSS. Comm. Rep. 6. 356a). Sold 21
+                     October 1920 (Sotheby lot 124) to Quaritch (£15.10).</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">W.
+                     Lamplough</persName>.</provenance>
+                  <provenance type="MLGB3_laterOwners">Owned by <persName role="fmo">Henry
+                        Vyner</persName> of Studley Royal and on loan to the Archives Department of
+                     Leeds Public Libraries (referenced there VR 6120). Vyner was listed as the
+                     current owner of this book -- along with four others from Fountains Abbey -- in
+                     the second edition of Medieval Libraries of Great Britain (1964).</provenance>
+                  <provenance type="MLGB3_laterOwners">Purchased by the British Museum on 19
+                     November 1981 from Hofmann and Freeman, along with three of the other Fountains
+                     books previously owned by Vyner. Compare <ref
+                        target="https://mlgb.bodleian.ox.ac.uk/catalog/book_2882">62129</ref>, <ref
+                        target="https://mlgb.bodleian.ox.ac.uk/catalog/book_2883">62130</ref>, and
+                        <ref target="https://mlgb.bodleian.ox.ac.uk/catalog/book_2881">62131</ref>.
+                     Note also that fragments of a missal formerly with Additional MS 62129 were
+                     identified as pastedowns from Additional MS 62132A and are now Additional MS
+                        <ref target="https://mlgb.bodleian.ox.ac.uk/catalog/book_9747">62132B</ref>.
+                     These British Library shelfmarks were reported in the supplement to Medieval
+                     Libraries of Great Britain (1987), but at that point the remaining Vyner book
+                     was untraced. It is now known to be <ref
+                        target="https://mlgb.bodleian.ox.ac.uk/catalog/book_2884">New Haven (CT),
+                        Beinecke Library, MS Osborn fa42</ref>.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -85,6 +117,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-01">British Museum acquisition information supplied from British
+            Library catalogue. Record edited to clarify data history (location reported in different
+            iterations of Medieval Libraries of Great Britain).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
