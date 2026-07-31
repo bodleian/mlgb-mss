@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,66 +42,136 @@
                   <country>USA</country>
                   <settlement>Princeton (NJ)</settlement>
                   <repository>University Library</repository>
-                  <idno type="shelfmark">ChL 1799</idno>
+                  <idno type="shelfmark">PML 784.1-2 (previously untraced)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">8597</idno>
                   </altIdentifier>
+                  <altIdentifier>
+                     <settlement>Princeton (NJ)</settlement>
+                     <repository>University Library</repository>
+                     <idno type="shelfmark">ChL 1799</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="enm">Middle English</textLang>
-                  <msItem>
-                     <title>Walter Hilton, Treatise of Love (English)</title>
-                  </msItem>
-               </msContents>
-               <physDesc> <typeDesc><p>Printed book.</p></typeDesc> </physDesc><history>
-                  <origin>
-                     <origDate when-custom="1492/1493" notBefore="1492" notAfter="1493" calendar="#gregorian">Westminster, A.D. 1492–3</origDate>
-                  </origin>
-                  <provenance type="#i"><orgName role="fmo" key="org_110">Campsey, Suffolk.
-                        Priory of St Mary the Virgin, of Augustinian nuns</orgName><p>The 1744
-                        sale catalogue of the Harley library describes an inscription that was
+               <history>
+                  <provenance type="#i"><orgName role="fmo" key="org_110">Campsey, Suffolk. Priory
+                        of St Mary the Virgin, of Augustinian nuns</orgName><p>The 1744 sale
+                        catalogue of the Harley library describes an inscription that was
                         subsequently washed off: 'On the last Leaf, there is a Memorandum, written
-                        by a Nun of Campesey, named Elyzabeth Wyllowby, That she gives this Book to
-                        Dame Cateryne Symonde, under the Condition, That, in no wise, she sell it,
-                        or give it from the House of Campessey: But she shall give it to one of her
-                        Sisters.' (Catalogus Bibliothecae Harleianae, III, no. 1560.)</p><p>Under
-                        ultra-violet light, 'Elizabeth Willowby' and 'dame Cateryne Symonde' are
-                        more or less legible (sig. H6v). The writing matches that in Cambridge,
-                        Corpus Christi College, MS 268, also once owned by Elizabeth
-                     Willowby.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Elizabeth Wyllowby, nun of Campsey Priory
-                     (Suffolk) to Catherine Symond. </provenance>
-                  <provenance type="MLGB3_laterOwners">Thomas Rawlinson (1681–1725), his sale, part
-                     VIII, 26 April 1727, lot 2072</provenance>
-                  <provenance type="MLGB3_laterOwners">Acquired by Edward Harley (1689–1741), 2nd
-                     earl of Oxford. With other printed books from his library, sold by his widow,
-                     Henrietta Cavendish (1694–1755), in 1743 to Thomas Osborne.</provenance>
-                  <provenance type="MLGB3_laterOwners">George Spencer Churchill (1766-1840), 5th
-                     duke of Marlborough and Marquess of Blandford</provenance>
+                        by a Nun of Campesey, named <persName role="fmo">Elyzabeth
+                           Wyllowby</persName>, That she gives this Book to Dame <persName
+                           role="fmo">Cateryne Symonde</persName>, under the Condition, That, in no
+                        wise, she sell it, or give it from the House of Campessey: But she shall
+                        give it to one of her Sisters.' (<title>Catalogus Bibliothecae
+                           Harleianae</title>, III, no. 1560.) Under ultra-violet light, 'Elizabeth
+                        Willowby' and 'dame Cateryne Symonde' are more or less legible (sig. H6v of
+                           <title>Treatise of Love</title>). The writing matches that in Cambridge,
+                        Corpus Christi College, MS 268, also once owned by Elizabeth Willowby. We
+                        are grateful to John McQuillen for bringing the identification to our
+                        attention (2022). See especially McQuillen <ref
+                           target="https://www.themorgan.org/blog/missing-nuns-reappear">'Missing
+                           Nuns Reappear'</ref>, The Morgan Library &amp; Museum blog, 23 September
+                        2021. This Campsey book was previously untraced; see especially the second
+                        edition of Medieval Libraries of Great Britain (1964).</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Thomas
+                        Rawlinson</persName> (1681–1725), his sale, part VIII, 26 April 1727, lot
+                     2072.</provenance>
+                  <provenance type="MLGB3_laterOwners">Acquired by <persName role="fmo">Edward
+                        Harley</persName> (1689–1741), 2nd earl of Oxford. With other printed books
+                     from his library, sold by his widow, Henrietta Cavendish (1694–1755), in 1743
+                     to Thomas Osborne.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">George Spencer
+                        Churchill</persName> (1766-1840), 5th duke of Marlborough and Marquess of
+                     Blandford.</provenance>
                   <provenance type="MLGB3_laterOwners">White Knights Library sale, Evans, part I, 7
-                     June 1819, lot 970 for £32/11/0 to: </provenance>
-                  <provenance type="MLGB3_laterOwners">Heneage Finch (1786–1859), 5th earl of
-                     Aylesford, for whom the book was rebound (his crest is on the binding), which
-                     is probably when the inscription was removed. </provenance>
+                     June 1819, lot 970 for £32/11/0 to:</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Heneage Finch</persName>
+                     (1786–1859), 5th earl of Aylesford, for whom the book was rebound (his crest is
+                     on the binding), which is probably when the inscription was removed. </provenance>
                   <provenance type="MLGB3_laterOwners">Heneage Finch (1849-1885), 7th earl of
                      Aylesford, his sale, Christie's, 12 March 1888, lot 409, to Quaritch. </provenance>
-                  <provenance type="MLGB3_laterOwners">William Amhurst Tyssen-Amherst, Baron Amherst
-                     (1835–1909), his sale, Sotheby's London, 3 Dec. 1908, lot 180 (purchased prior
-                     to sale) to: Pierpont Morgan (1837–1913).</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">William Amhurst
+                        Tyssen-Amherst</persName>, Baron Amherst (1835–1909), his sale, Sotheby's
+                     London, 3 Dec. 1908, lot 180 (purchased prior to sale) to: Pierpont Morgan
+                     (1837–1913).</provenance>
                   <provenance type="MLGB3_laterOwners">Purchased for Princeton with the Amherst
                      collection, 1908.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">PML 784.1</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="enm">Middle English</textLang>
+                     <msItem>
+                        <title>The Chastising of God’s Children</title>
+                        <note>ISTC <ref target="https://data.cerl.org/istc/ic00430000"
+                              >ic00430000</ref></note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <typeDesc>
+                        <p>Printed book.</p>
+                     </typeDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Westminster</origPlace>
+                        <origDate when-custom="1492/1493" notBefore="1492" notAfter="1493"
+                           calendar="#gregorian">1492–3</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">PML 784.2</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="enm">Middle English</textLang>
+                     <msItem>
+                        <author key="person_3634">Walter Hilton</author>
+                        <title key="work_7945">Treatise of Love (English)</title>
+                        <note>ISTC <ref target="https://data.cerl.org/istc/il00290000"
+                              >il00290000</ref></note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <typeDesc>
+                        <p>Printed book.</p>
+                     </typeDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Westminster</origPlace>
+                        <origDate when-custom="1492/1493" notBefore="1492" notAfter="1493"
+                           calendar="#gregorian">1492–3</origDate>
+                     </origin>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-23">Updated shelfmark. Book structure and data provenance clarified.
+            ISTC references dded.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
