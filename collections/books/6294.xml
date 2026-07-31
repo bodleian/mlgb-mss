@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2025">Transcription and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Transcription and encoding of Tynemouth index card</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,7 +42,7 @@
                   <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS Lat. liturg. g.8</idno>
+                  <idno type="shelfmark">MS Lat. liturg. g.8 (formerly untraced)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6294</idno>
                   </altIdentifier>
@@ -46,29 +51,86 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Kalendarium, Psalter</title>
-                     <note type="MLGB3_generalNotes">The ownership of the last Prior of Tynemouth is
-                        marked, but A. J. Horwood says 'The MS. seems to have been written at
-                        Wymondham Abbey'.</note>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>80 leaves.</extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499" calendar="#gregorian">s. xv</origDate>
+                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499"
+                        calendar="#gregorian">s. xv</origDate>
                   </origin>
                   <provenance><orgName role="fmo" key="org_606">Wymondham, Norfolk. Benedictine
-                        abbey of Saint Mary the Virgin; originally priory and cell of St Albans</orgName><p>The calendar contains the dedication of the church. See under
-                        Tynemouth.</p><p> </p></provenance>
-                  <provenance type="MLGB3_laterOwners">Sir John Lawson, Brough Hallm Yorks., cf.
-                     Hist. MSS. Comm. Rep., 3. 255b.</provenance>
-                  <provenance type="MLGB3_laterOwners">'Dompnus robertus Blakeney huius libri est
-                     possessor' (last prior of Tynemouth).</provenance>
-                  <provenance type="MLGB3_laterOwners">See under Tynemouth (Quaritch
-                     MS.).</provenance>
+                        abbey of Saint Mary the Virgin; originally priory and cell of St
+                        Albans</orgName><p>The calendar contains the dedication of the church (30
+                        March). The ownership of the last prior of Tynemouth is marked (see below),
+                        but A. J. Horwood says 'The MS. seems to have been written at Wymondham
+                        Abbey'.</p></provenance>
+                  <provenance><orgName role="fmo" key="org_558">Tynemouth, Northumberland,
+                        Benedictine priory of St Mary the Virgin and St Oswin; cell of St
+                        Albans</orgName><p><q>Dompnus <persName role="fmo">robertus
+                              Blakeney</persName> huius libri est possessor</q> (flyleaf). Robert
+                        Blakeney was the last prior of Tynemouth.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Sir John
+                        Lawson</persName>, Brough Hall, Yorkshire. Compare Hist. MSS. Comm. Rep. 3
+                     (1872) 255b. This was the last known provenance according to the first edition
+                     of Medieval Libraries of Great Britain (1941).</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Dyson Perrins</persName>
+                     sale at Sotheby's, 11 April 1961, lot 123 to Quaritch. The manuscript was still
+                     intact at this stage, as noted in the second edition of Medieval Libraries of
+                     Great Britain (1964), p. 191, n. 1.</provenance>
+                  <provenance type="MLGB3_laterOwners">Quaritch catalogue 820 (1961), no. 17. Still
+                     with Quartich in 1962 (£600).</provenance>
+                  <provenance type="MLGB3_laterOwners">Sold to <persName role="fmo">Walter
+                        Schatzki</persName>, 153 East 57th Street, New York 22, who dismembered it
+                     before January 1963.</provenance>
+                  <provenance type="MLGB3_laterOwners">The 80 leaves that now constitute MS Lat.
+                     liturg. g.8 were acquired by the Bodleian in 1963 according to the catalogue
+                     entry in <title>Medieval Manuscripts in Oxford Libraries</title> (Typescript
+                     description by Bodleian library staff, revised by Peter Kidd, late 1990s). 'The
+                     remainder of this manuscript, a psalter and canticles on 226 leaves, s. xiv,
+                     has been dismembered, but photographs of the six pages with historiated
+                     initials are at the Bodleian' (second edition of Medieval Libraries of Great
+                     Britain (1964), p. 191, n. 1).</provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_6556">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                              target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_6556"
+                              >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-25">Tynemouth provenance added, using information transcribed from
+            corresponding Medieval Libraries of Great Britain index card. Record edited to clarify
+            data history (location reported in different iterations of Medieval Libraries of Great
+            Britain). Information about Bodleian acquisition supplied through comparison with
+            Medieval Manuscripts in Oxford Libraries (Typescript description by Bodleian library
+            staff, revised by Peter Kidd, late 1990s)</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
