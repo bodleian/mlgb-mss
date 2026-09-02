@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8959">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Carlisle</settlement>
+                        <repository>Tullie House Museum</repository>
+                        <idno type="shelfmark">Shelfmark not recorded</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <author key="person_352">Augustinus</author>
+                            <title>Ep. 139</title>
+                        </msItem>
+                        <msItem>
+                            <author key="person_352">Augustinus</author>
+                            <title key="work_1112">De vita clericorum</title>
+                        </msItem>
+                        <msItem>
+                            <author key="person_352">Augustinus</author>
+                            <title key="work_948">Contra 5 hereses</title>
+                        </msItem>
+                        <msItem>
+                            <author key="person_352">Augustinus</author>
+                            <title key="work_893">Contra adversarium legis et prophetarun</title>
+                            <note>Ending imperfect</note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin><origDate calendar="#Gregorian" notBefore="1200" notAfter="1219">s.
+                                xiii in</origDate></origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_957">Conishead,
+                                Lancashire, Augustinian priory of St Mary the Virgin</orgName>
+                            <p>This attribution was rejected in the second edition of Medieval
+                                Libraries of Great Britain (1964), which did not change in the
+                                Supplement (1987). The corresponding Medieval Libraries of Great
+                                Britain index card records the following information, which was
+                                deemed unsatisfactory for an attribution: 'A ms. formerly belonging
+                                to the monks of the order of St. Augustin at the priory of Conishead
+                                in Furness' (s. xviii, inserted paper leaf).</p></provenance>
+                        <provenance type="MLGB3_laterOwners">H. S. Cowper, <title>Cumberland and
+                                Westmorland Antiquarian and Archaeological Society
+                                Transactions</title>, N.S. XXVII (1927), pp. 48-53 (with a plate -
+                            reduced) contends that it probably remained at Conishead at the
+                            Reformation.</provenance>
+                        <provenance type="MLGB3_laterOwners">Braddyll family s. xviii-xix. <persName
+                                role="fmo">John Braddyll</persName> (d. 1728) m. Sarah Dodding,
+                            heiress of Conishead.</provenance>
+                        <provenance type="MLGB3_laterOwners">At Conishead in 1843. See Jopling,
+                                <title>Sketches of Furness and Cartmel</title> (1843), p. 157, with
+                            another MS; System of Education for Princes and Nobles grounded upon the
+                            Principles of Peripatetic Philosophy.</provenance>
+                        <provenance type="MLGB3_laterOwners">Given by <persName role="fmo">E. R. G.
+                                Braddyll</persName> and his sisters to J. S. Estcourt, 1867.
+                            [Compare note on reverse of index card: But note that <persName
+                                role="fmo">Edward Braddyll</persName> of Whalley owned the Hailes
+                            book now belonging to Mr. C. A. Gordon].</provenance>
+                        <provenance type="MLGB3_laterOwners">Bought from 'a Leicester bookseller'
+                            September 1925 by <persName role="dnr">H. S. Cowper</persName>, who gave
+                            it to the museum.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                        <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                            Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                            Bodleian Library).</bibl>
+                                        <bibl>Neil R. Ker, ed., <title><ref
+                                                  target="https://hdl.handle.net/2027/uva.x000937945"
+                                                  >Medieval Libraries of Great Britain: A List of
+                                                  Surviving Books</ref></title>, Royal Historical
+                                            Society Guides and Handbooks, 3 (London, 2nd edn,
+                                            1964)</bibl>
+                                        <bibl>Neil R. Ker, ed., <title><ref
+                                                  target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                                  >Medieval Libraries of Great Britain: A List of
+                                                  Surviving Books</ref></title>, Royal Historical
+                                            Society Guides and Handbooks, 15 (London, supplement,
+                                            ed. Andrew G. Watson, 1987).</bibl>
+                                    </listBibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!-- Index card images (box 10): Test 3_0969.jpg, Test 3_0970.jpg -->
+        <revisionDesc>
+            <change when="2026-08-21">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
