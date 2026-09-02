@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9006">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace> <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                        >Bodleian Library</ref> </addrLine>
+                    <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address> </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno type="shelfmark">MS Dd.9.5</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <author key="person_241">Anselm</author>
+                            <title>Opera</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin><origDate calendar="#Gregorian" notBefore="1150" notAfter="1199">s.
+                            xii2</origDate></origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_285">Kirkham,
+                            Yorkshire, Augustinian priory of Holy Trinity or Christ Church</orgName>
+                            <p>In the second edition of Medieval Libraries of Great Britain (1964),
+                            Dd.9.5 was not included at all in the section for Kirkham (p. 106).
+                            However, Dd.9.5 was apparently erroneously listed as a Kirkham book in
+                            the index on p. 335 (Dd.9.6 was likely intended instead).</p><p>Later,
+                            in the Supplement to Medieval Libraries of Great Britain (1987), Dd.9.5
+                            was rejected as a Kirkham book (pp. 41, 118).</p><p>The corresponding
+                            Medieval Libraries of Great Britain index card demonstrates some
+                            confusion over the shelfmark, though Dd.9.5 appears to be intended. The
+                            focus of the index card is the following inscription: <q>Liber olim
+                            fratris Merythorp canonici de Kyrkham</q> according to J. O. Halliwell,
+                            <title>Manuscript rarities of the University of Cambridge</title>
+                            (1841), p. 66 (Merethorpe is close to Kirkham). This is queried multiple
+                            times on the card: 'No inscription now; it may have been lost with the
+                            old flyleaves or rebinding in cheap boards, s. xix'; 'But unless Dd.ix.5
+                            &amp; 6 were once bound together this is a mistake, Dd.9.5 for Dd.9.5';
+                            'AEBO thinks Halliwell erred. List as Reject.' The back of the card
+                            additionally records the following information: added to the caucio is
+                            <q>insuff'[...] iiii(...).</q> Punct. Chainmark CFI.</p></provenance>
+                        <provenance type="MLGB3_laterOwners"><persName role="fmo"
+                            >Moore</persName>.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                    <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                        Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                        Bodleian Library).</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/uva.x000937945">Medieval
+                                        Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 3 (London, 2nd edn, 1964)</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        >Medieval Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 15 (London, supplement, ed. Andrew G. Watson,
+                                        1987).</bibl>
+                                    </listBibl> </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!-- Index card images (box 10): Test 3_1187.jpg, Test 3_1188.jpg -->
+        <revisionDesc>
+            <change when="2026-08-21">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
