@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4374">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_4400">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -35,20 +35,11 @@
                   <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MSS Digby 191</idno>
+                  <idno type="shelfmark">MS Digby 190</idno>
                   <altIdentifier type="system">
-                     <idno type="MLGB3">4374</idno>
-                  </altIdentifier>
-                  <altIdentifier>
-                     <idno type="MLGB3">4401</idno>
-                  </altIdentifier>
-                  <altIdentifier type="system">
-                     <idno type="MLGB3">4373</idno>
+                     <idno type="MLGB3">4400</idno>
                   </altIdentifier>
                </msIdentifier>
-               <history>
-                  <provenance type="MLGB3_laterOwners">T. Allen 'A.37' '71'.</provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
@@ -66,7 +57,7 @@
                      <listBibl type="INTERNET">
                         <head>Online resources:</head>
                         <bibl><ref
-                           target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_4311"
+                           target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_4310"
                            >Medieval Manuscripts in Oxford Libraries</ref></bibl>
                      </listBibl>
                   </listBibl>
@@ -74,78 +65,59 @@
                <msPart>
                   <msIdentifier>
                      <altIdentifier>
-                        <idno type="part">Fols. 1-78</idno>
+                        <idno type="part">Fols. 90-127</idno>
                      </altIdentifier>
                   </msIdentifier>
                   <msContents>
                      <textLang mainLang="la">Latin</textLang>
                      <msItem>
-                        <author key="person_905">Euclidis</author>
-                        <title>Geometria</title>
-                        <note>etc.</note>
+                        <author key="person_2938">Richard of Wallingford</author>
+                        <title key="work_6654">Quadripartitum</title>
+                     </msItem>
+                     <msItem>
+                        <title>Treatise on Geometry</title>
                      </msItem>
                   </msContents>
-                  <physDesc>
-                     <p><secFol>hec est conuersa</secFol></p>
-                  </physDesc>
                   <history>
-                     <origin> <origDate when-custom="12XX/13XX" notBefore="1200" notAfter="1399"
-                        calendar="#gregorian">s. xiii-xiv</origDate> </origin>
+                     <origin> <origDate notBefore="1300" notAfter="1399" calendar="#gregorian">s.
+                        xiv</origDate> </origin>
                      <provenance type="#e"><orgName role="fmo" key="org_435">Oxford, Oxfordshire.
-                        Merton College</orgName><p><q>Liber domus scolarium de Merton in Oxonia</q>
-                        (fol. iii recto). Powicke, <title>Books of Merton</title>, no. 522. Digby
-                        191, fols. 1–78 and <ref
-                        target="https://mlgb.bodleian.ox.ac.uk/catalog/book_4400">Digby 190</ref>,
-                        fols. 90–127 formed one volume.</p></provenance>
+                        Merton College</orgName><p>See <ref
+                        target="https://mlgb.bodleian.ox.ac.uk/catalog/book_4374">MS Digby 191</ref>
+                        for provenance evidence (MS Digby 190 fols. 90–127 and MS Digby 191, fols.
+                        1–78 formed one volume).</p></provenance>
                   </history>
                </msPart>
                <msPart>
                   <msIdentifier>
                      <altIdentifier>
-                        <idno type="part">Fols. 79-167</idno>
+                        <idno type="part">Fols. 128-210</idno>
                      </altIdentifier>
                   </msIdentifier>
                   <msContents>
                      <textLang mainLang="la">Latin</textLang>
                      <msItem>
-                        <title>Astronomia Arzachelis, etc.</title>
+                        <title>Tractatus de arithmetica, etc.</title>
                      </msItem>
                   </msContents>
-                  <physDesc>
-                     <objectDesc>
-                        <supportDesc>
-                           <extent>It is noted in the 1375 cat. that this volume consisted of 296
-                              leaves. Folio MS. 36 in Wood F. 26.</extent>
-                        </supportDesc>
-                     </objectDesc>
-                     <bindingDesc>
-                        <binding>
-                           <p>Bound with a volume from Merton College, and other fragments.</p>
-                        </binding>
-                     </bindingDesc>
-                  </physDesc>
                   <history>
                      <origin> <origDate when-custom="13XX" notBefore="1300" notAfter="1399"
                         calendar="#gregorian">s. xiv</origDate> </origin>
-                     <provenance type="#e" source="4401"><orgName role="fmo" key="org_438">Oxford,
-                        Oxfordshire. Oriel College (Domus beate Marie seu Collegium regale
-                        Oxon')</orgName><p><q>Liber domus beate Marie in Oxon.</q> (fol. 79r, top; ?
-                        s. xv). = Cat. of 1375 p. 68. 2o folio '29' agrees (MS. 191, fol.
-                        80r).</p><p>Digby 191, fols. 79-167 and <ref
-                        target="https://mlgb.bodleian.ox.ac.uk/catalog/book_4400">Digby 190</ref>,
-                        fols. 128-210 formed one volume.</p><note
-                        type="MLGB3_medievalCatalogueNotes">Cat., p. 68</note></provenance>
+                     <provenance><orgName role="fmo" key="org_438">Oxford, Oxfordshire. Oriel
+                        College (Domus beate Marie seu Collegium regale Oxon')</orgName><p>See <ref
+                        target="https://mlgb.bodleian.ox.ac.uk/catalog/book_4374">MS Digby 191</ref>
+                        for provenance evidence (MS Digby 190 fols. 128–210 and MS Digby 191, fols.
+                        79–167 formed one volume).</p></provenance>
                   </history>
                </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2026-09-03">Adapted the existing joint record for MSS Digby 190 and 191 into
-            a dedicated record for MS 191. Transferred relevant data into record 4400 for MS Digby
-            190.</change>
-         <change when="2025-09-18">Record 4373 merged into this record.</change>
-         <change when="2025-09-18">Recorad 4401 merged into this record.</change>
+         <change when="2026-09-03">Added Merton College provenance for fols. 90-127 (this component
+            moved here from record 4374). Clarified relationship between MSS Digby 190 and 191.
+            Contents and date for fols. 90-127 supplied from catalogue description in Medieval
+            Manuscripts in Oxford Libraries.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
