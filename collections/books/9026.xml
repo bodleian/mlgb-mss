@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9026">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Philadelphia (PA)</settlement>
+                        <repository>Free Library</repository>
+                        <idno type="shelfmark">MS J. F. Lewis 123</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Homelia super Exodum V</title>
+                        </msItem>
+                        <msItem>
+                            <title>Summa poenitentiae</title>
+                        </msItem>
+                        <msItem>
+                            <title>Super moralibus beati Gregorii</title>
+                        </msItem>
+                        <msItem>
+                            <author key="person_447">Bernard of Clairvaux</author>
+                            <title>Meditationes</title>
+                        </msItem>
+                        <msItem>
+                            <title>Summa de trinitate</title>
+                        </msItem>
+                        <msItem>
+                            <author key="person_3881">[Pseudo] Hugh of Saint-Victor</author>
+                            <title key="work_3545">Speculum ecclesie</title>
+                        </msItem>
+                        <msItem>
+                            <author key="person_1528">Innocent III</author>
+                            <title key="work_3897">De miseria condicionis humane</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin><origPlace>French?</origPlace><origDate calendar="#Gregorian"
+                                notBefore="1380" notAfter="1399">s. xiv ex</origDate></origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_360">Malmesbury,
+                                Wiltshire, Benedictine Abbey of St Mary the Virgin and St
+                                Aldhelm</orgName>
+                            <p>This attribution was rejected in the second edition of Medieval
+                                Libraries of Great Britain (1964), which did not change in the
+                                Supplement (1987). The corresponding Medieval Libraries of Great
+                                Britain index card records the following context for the rejection:
+                                See Edwin Wolf II, <title>Descriptive Catalogue of the John
+                                    Frederick Lewis Collection of European Manuscripts</title>
+                                (Philadelphia, 1937), no. 84. Arms of abbey of Malmesbury in the
+                                illuminated border, fol. 32v, repeated 8 times (gules 2 leopards
+                                argent a chief argent overall an episcopal crozier in pale). These,
+                                however, are not the arms of Malmesbury, which has in chief a mitre
+                                between two croziers.</p></provenance>
+                        <provenance type="MLGB3_laterOwners"><persName role="fmo">George E.
+                                Leighton</persName> of St Louis, sold New York 25 April 1929, n. 83
+                            (facsimile). No. 276 in a French bookseller's catalogue.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                        <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                            Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                            Bodleian Library).</bibl>
+                                        <bibl>Neil R. Ker, ed., <title><ref
+                                                  target="https://hdl.handle.net/2027/uva.x000937945"
+                                                  >Medieval Libraries of Great Britain: A List of
+                                                  Surviving Books</ref></title>, Royal Historical
+                                            Society Guides and Handbooks, 3 (London, 2nd edn,
+                                            1964)</bibl>
+                                        <bibl>Neil R. Ker, ed., <title><ref
+                                                  target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                                  >Medieval Libraries of Great Britain: A List of
+                                                  Surviving Books</ref></title>, Royal Historical
+                                            Society Guides and Handbooks, 15 (London, supplement,
+                                            ed. Andrew G. Watson, 1987).</bibl>
+                                    </listBibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!-- Index card images (box 10): Test 3_1287.jpg, Test 3_1288.jpg -->
+        <revisionDesc>
+            <change when="2026-08-21">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>

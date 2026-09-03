@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9031">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace> <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                        >Bodleian Library</ref> </addrLine>
+                    <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address> </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Cambrai</settlement>
+                        <repository>Bibliothèque communiale </repository>
+                        <idno type="shelfmark">MS 255</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="enm" otherLangs="lat">English and Latin</textLang>
+                        <msItem>
+                            <title>Horologium Sapientiae (in English)</title>
+                            <note>Edited from Douce 114 by Horstmann in <title>Anglia</title> 10,
+                                323.</note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin><origDate calendar="#Gregorian" notBefore="1400" notAfter="1499">s.
+                            xv</origDate></origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_383">Mount Grace
+                            (in East Harsley), Yorkshire, Charterhouse of the Assumption of St Mary
+                            the Virgin</orgName> <p>This attribution was rejected in the second
+                            edition of Medieval Libraries of Great Britain (1964), which did not
+                            change in the Supplement (1987).</p> <p>The corresponding Medieval
+                            Libraries of Great Britain index card is suggestive of Ker's evolving
+                            opinion over time, and he appears to have returned to this card at least
+                            twice to add further notes. The crux of the matter is clearly the
+                            colophon: <q>Scriptum finaliter in Monte gracie ultimo die mensis maii
+                            anno Domini Mᵒ CCCᵒ XIX. Deo gratias Eterna sapientia benedicat et
+                            custodiat corde et corpora vestra</q>. When Ker originally wrote this
+                            index card, this colophon evidently seemed distinctive to him (and
+                            therefore suggestive of Mount Grace provenance). He wrote: 'For other
+                            manuscripts, none of which have this colophon, see J. E. Wells,
+                            <title>Manual</title>, p. 1353. Wells does not notice this
+                            copy.'</p><p>However, Ker's later additions to the index card show that
+                            he learned of other copies with the same colophon, implicitly weakening
+                            a potential Mount Grace attribution for MS 255. For example, he notes:
+                            'The Brogyntyn MS (<title>HMC</title> ii 857) has the same colophon
+                            (letter from the librarian of the National Library of Wales, March
+                            1948)'; 'but compare Ormsay Gore MS (<title>HMC</title> iv 379), no. 19,
+                            which has the same colophon.'</p><p>On this card, Ker also queries the
+                            date in the colophon: 'the date must be miswritten (? read M CCCC XIX)'.
+                            Compare his adjacent note on the card: 'Dom Justin McCann reports that
+                            this [i.e. M CCCC XIX] is the reading of the
+                            manuscript).</p></provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                    <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                        Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                        Bodleian Library).</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/uva.x000937945">Medieval
+                                        Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 3 (London, 2nd edn, 1964)</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        >Medieval Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 15 (London, supplement, ed. Andrew G. Watson,
+                                        1987).</bibl>
+                                    </listBibl> </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!-- Index card images (box 10): Test 3_1297.jpg, Test 3_1298.jpg -->
+        <revisionDesc>
+            <change when="2026-08-21">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
