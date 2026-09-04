@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9066">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace> <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                        >Bodleian Library</ref> </addrLine>
+                    <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address> </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Durham</settlement>
+                        <repository>University of North Carolina Library</repository>
+                        <idno type="shelfmark">MS 103</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <author key="person_1193">Gregory the Great</author>
+                            <title key="work_2990">Moralia books 1-10</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <p><secFol>ait namque</secFol></p>
+                        <objectDesc>
+                            <layoutDesc>
+                                <layout>Small folio, 2 colums, 44 lines.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate calendar="#Gregorian" notBefore="1125" notAfter="1199">s.
+                            xii in - s. xii ex (Ker: 'the first four quires perhaps 2nd quarter or
+                            mid xii, the rest and all the initials late xii')</origDate></origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_458">Reading,
+                            Berkshire, Benedictine abbey of Saint Mary the Virgin</orgName> <p>This
+                            attribution was rejected in the second edition of Medieval Libraries of
+                            Great Britain (1964), which did not change in the Supplement (1987). The
+                            corresponding Medieval Libraries of Great Britain index card provides
+                            the following context for the rejection: A volume with these contents
+                            was described briefly by Bishop Virtue in <title>Proceedings of the
+                            Society of Antiquaries of London</title>, 2nd series, XIV (1891-2), 279,
+                            as discovered by him at Woolhampton Lodge 1884. It had been found with
+                            Reading books at Shinfield near Reading in 1792 (cf. <title>English
+                            Historical Review</title> (1888) III. MS. 8451 [now MS 103] has been
+                            recently rebound, has no mark of provenance, and may not be the one
+                            described by Bishop Virtue.</p></provenance>
+                        <provenance type="MLGB3_LaterOwners"><persName role="fmo">Lord
+                            Fingall</persName>, Shinfield.</provenance>
+                        <provenance type="MLGB3_LaterOwners">Formerly Portsmouth, Roman Catholic
+                            Bishopric,Virtue and Cahill 8451, and listed under this shelfmark in the
+                            second edition (1964). In the Supplement (1987), this was updated to
+                            Durham, University of North Carolina Library, MS 103.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                    <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                        Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                        Bodleian Library).</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/uva.x000937945">Medieval
+                                        Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 3 (London, 2nd edn, 1964)</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        >Medieval Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 15 (London, supplement, ed. Andrew G. Watson,
+                                        1987).</bibl>
+                                    </listBibl> </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!-- Index card images (box 10): Test 3_1475.jpg, Test 3_1476.jpg -->
+        <revisionDesc>
+            <change when="2026-08-21">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
