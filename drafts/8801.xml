@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8616">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8801">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -35,48 +35,45 @@
                 <msDesc xml:lang="en">
                     <msIdentifier>
                         <country>England</country>
-                        <settlement>York</settlement>
-                        <repository>York Minster</repository>
-                        <idno type="shelfmark">MS XVI.D.13</idno>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library</repository>
+                        <idno type="shelfmark">MS Bodley 874</idno>
+                        <altIdentifier type="internal">
+                            <idno type="SCN">2932</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
                         <msItem>
-                            <title>Biblia latina</title>
+                            <author key="person_3008">Roger Bacon</author>
+                            <title key="work_6891">Perspectiva, etc</title>
+                        </msItem>
+                        <msItem>
+                            <author key="person_2849">Razes</author>
+                            <title key="work_6442">Capitula Almansoris</title>
                         </msItem>
                     </msContents>
                     <history>
                         <origin>
-                            <origDate calendar="Gregorian" notBefore="1200" notAfter="1299">s.
-                                xiii</origDate>
+                            <origDate calendar="Gregorian" notBefore="1400" notAfter="1410">Early
+                                15th century</origDate>
                         </origin>
-                        <provenance type="#e"><orgName key="org_940" role="fmo">York, Yorkshire.
-                                Parish church of St Martin, Coney Street.</orgName>
-                            <p><q>Iste librum dedit dominus <persName key="person_3999" role="dnr"
-                                        >Willelmus Rycherdson</persName> ad ecclesiam sancti Martini
-                                    in Conyngstret in Ebor<ex>aco</ex>. Qui quidem Willelmus quondam
-                                    fuit persona in ecclesia cathedrali sancti Petri. Voluit tamen
-                                    ut sit cathenatus in choro sancti Martini predicti ad
-                                        serviend<ex>um</ex> ibi imperpetuum. Qui vero hunc
-                                    alienaverit anathema sit. Dat<ex>um</ex> anno d<ex>omi</ex>ni
-                                    Mᵐᵒ CCCCCᵐᵒ Xᵐᵒ ad festum Nat<ex>ivitatis</ex> domini</q> (ad fin.).
-                                William Richardson was vicar-choral of York Minster at least from
-                                1511 to 1524.</p></provenance>
-                        <provenance type="MLGB3_laterOwners"><q><persName>Rev. John
-                                    Bridges</persName>, Fulford, near York, 1783. <persName>Rev.
-                                        W<ex>illiam</ex>m Bulmer</persName>
-                                <note type="editorial">[vicar of St Martin's 1803-1829]</note></q>
-                            (front flyleaf).</provenance>
-                        <provenance type="MLGB3_laterOwners">Given to the Cathedral by
-                                <persName>Rev. H. A. Beckwick</persName>, vicar of St Martin's,
-                            Coney Street, in 1835.</provenance>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_14">Abingdon,
+                                Berkshire, Benedictine abbey of St Mary the Virgin</orgName>
+                            <p>The index card records the following information, which was deemed
+                                insufficient for a firm attribution: <q>Abendoun</q> in medieval
+                                hand (retouched) at head of fol. 2 (1st leaf of
+                            text).</p></provenance>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
                                     card index, Oxford, 1937–2025 (held at Oxford, Bodleian
-                                    Library). Transcribed and encoded by Sian Witherden.</source>
+                                    Library). Transcribed and encoded by Sian Witherden, with date
+                                    and summary of contents supplied from the catalogue entry in
+                                        <title>Medieval Manuscripts in Oxford
+                                    Libraries</title>.</source>
                             </recordHist>
                         </adminInfo>
                         <listBibl>
@@ -89,10 +86,10 @@
                     </additional>
                 </msDesc>
             </sourceDesc>
-            <!-- Index card images (box 10): Test 3_0327.jpg, Test 3_0328.jpg -->
+            <!-- Index card images (box 10): Test 3_0555.jpg, Test 3_0556.jpg-->
         </fileDesc>
         <revisionDesc>
-            <change when="2026-02-20">Record created.</change>
+            <change when="2026-03-04">Record created.</change>
         </revisionDesc>
     </teiHeader>
     <text>

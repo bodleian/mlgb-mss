@@ -37,36 +37,57 @@
                   <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS Bodley 419, fols 1–105</idno>
+                  <idno type="shelfmark">MS Bodley 419</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5446</idno>
+                  </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6542</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Willelmi de Montibus, Distinctiones, etc.</title>
+                     <author key="person_3744">Willelmi de Montibus</author>
+                     <title key="work_8123">Distinctiones</title>
+                     <note>etc.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="12XX/13XX" notBefore="1200" notAfter="1399" calendar="#gregorian">s. xiii--xiv</origDate>
+                     <origDate when-custom="12XX/13XX" notBefore="1200" notAfter="1399"
+                        calendar="#gregorian">s. xiii-xiv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="org_539">Tattershall,
-                        Lincolnshire. Collegiate church of the Holy Trinity and St Mary the Virgin</orgName><p>'Collegium de Tateshall' (s. xvi).</p><note type="MLGB3_medievalCatalogueNotes">Leland</note></provenance>
-                  <provenance type="MLGB3_laterOwners">Henry VIII.</provenance>
-                  <provenance type="MLGB3_laterOwners">Charles Howard, Earl of Nottingham,
-                     1604.</provenance>
-                  <provenance type="MLGB3_laterOwners">(fol. 208r) 'liber Iohannes Smyth' (s. xv),
-                     cancelled.</provenance>
-                  <provenance type="MLGB3_laterOwners">(fol. 208r) 'liber [...] Gigur emtus de
-                     Iohanne Smyth de Conygsby'. John Gigur, warden; cf. Royal 8 G.ii; 9
-                     B.ix.</provenance>
+                  <provenance type="#e"><orgName role="fmo" key="org_539">Tattershall, Lincolnshire.
+                        Collegiate church of the Holy Trinity and St Mary the
+                           Virgin</orgName><p><q>Collegium de Tateshall'</q> (s. xvi). <q>liber [M.
+                           Iohannis] Gigur emptus de <persName role="fmo">Iohanne Smyth</persName>
+                           de Conygsby</q>, <q>precium dimidium marce</q> (fol. 208r). <persName
+                           role="dnr">John Gygour</persName> (d. 1504) was master of the college and
+                        the donor of several other surviving books (Cf. <ref
+                           target="https://mlgb.bodleian.ox.ac.uk/catalog/book_5440">Royal 8
+                           G.ii</ref>; <ref target="https://mlgb.bodleian.ox.ac.uk/catalog/book_320"
+                           >9 B.ix</ref>). Visible in the list of the Lincolnshire visitor to
+                        Tattershall.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Fol. 208r: <q>liber Iohannes Smyth</q> (s.
+                     xv), cancelled.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">King Henry
+                        VIII</persName>.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Charles
+                        Howard</persName>, Earl of Nottingham, 1604.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -74,6 +95,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-04">Record 6542 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

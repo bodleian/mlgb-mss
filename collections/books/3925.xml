@@ -22,7 +22,8 @@
                   <settlement>Oxford</settlement>
                   <postCode>OX1 3BG</postCode>
                   <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
                   </addrLine>
                   <addrLine>
                      <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
@@ -36,37 +37,77 @@
                   <country>USA</country>
                   <settlement>New Haven (CT)</settlement>
                   <repository>Beinecke Library</repository>
-                  <idno type="shelfmark">Takamiya MS 14</idno>
+                  <idno type="shelfmark">Takamiya MS 14 (formerly Helmingham Hall 49)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3925</idno>
+                  </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6282</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Compendium theologice veritatis</title>
-                     <note type="MLGB3_generalNotes">Octavo. Old binding of greenish leather, rebacked.</note>
-                     <note type="MLGB3_generalNotes">Fine hand, 2 cols.</note>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <layoutDesc>
+                        <layout><p>2 columns.</p></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fine hand.</handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>Octavo. Old binding of greenish leather, rebacked.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" notAfter="1399" notBefore="1200" when-custom="12XX/13XX">s. xiii/xiv</origDate>
+                     <origDate calendar="#gregorian" notAfter="1399" notBefore="1200"
+                        when-custom="12XX/13XX">s. xiii/xiv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName key="org_361" role="fmo">Great Malvern, Worcestershire. Benedictine Abbey of Saint Mary the Virgin and St Michael; cell of Westminster</orgName>
-                     <p>At end: <q>[…]em <unclear>E T</unclear>, lego hunc librum prioratui de maluyrn maiori</q> (s. xv/xvi).</p></provenance>
-                  <provenance type="MLGB3_laterOwners">"Master Roger Walle of Lychffeld Chanone" at end of pastedown, not autograph.</provenance>
-                  <provenance type="MLGB3_laterOwners">Formerly Helmingham Hall, Lord Tollemache, 49; belonged earlier to Worcester Dominican convent, q. v.</provenance>
-                  <provenance type="MLGB3_laterOwners">Prof. T. Takamiya</provenance>
+                  <provenance type="#e"><orgName key="org_603" role="fmo">Worcester, Worcestershire.
+                        Dominican convent</orgName>
+                     <p><q>Liber conuentus fratrum predicatorum
+                              <supplied>W</supplied>ygor<supplied>nie</supplied></q> erased, but
+                        legible by UV light (on pastedown, s. xiv).</p></provenance>
+                  <provenance type="#e"><orgName key="org_361" role="fmo">Great Malvern,
+                        Worcestershire. Benedictine Abbey of Saint Mary the Virgin and St Michael;
+                        cell of Westminster</orgName>
+                     <p>Later at Great Malvern. At end: <q><supplied>…</supplied>em <supplied>E
+                              T</supplied>, lego hunc librum prioratui de maluyrn maiori</q> (s.
+                        xv/xvi).</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><q>Master <persName>Roger Walle</persName> of
+                        Lychffeld Chanone</q> at end of pastedown, not autograph.</provenance>
+                  <provenance type="MLGB3_laterOwners">Formerly Helmingham Hall, <persName
+                        role="fmo">Lord Tollemache</persName>, 49, at which location it was recorded
+                     in MLGB2.</provenance>
+                  <provenance type="MLGB3_laterOwners">Professor <persName role="fmo">T.
+                        Takamiya</persName></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                   <surrogates>
-                     <bibl subtype="full" type="digital-facsimile"><ref target="https://collections.library.yale.edu/catalog/16157840"><title>Yale University Library: Digital Collections</title></ref>
+                     <bibl subtype="full" type="digital-facsimile"><ref
+                           target="https://collections.library.yale.edu/catalog/16157840"
+                              ><title>Yale University Library: Digital Collections</title></ref>
                         <note>(full digital facsimile)</note></bibl>
                   </surrogates>
                </additional>
@@ -74,6 +115,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-27">Record 6282 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

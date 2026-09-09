@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Markup and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,39 +42,81 @@
                   <country>Italy</country>
                   <settlement>Rome</settlement>
                   <repository>Biblioteca Apostolica Vaticana</repository>
-                  <idno type="shelfmark">MS Ottobon. lat. 352 fols. 1-86</idno>
+                  <idno type="shelfmark">MS Ottobon. lat. 352</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">307</idno>
+                  </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">901</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Isidorus, etc.</title>
+                     <author key="person_1947">Isidorus, etc.</author>
                   </msItem>
                </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="13XX" notBefore="1300" notAfter="1399" calendar="#gregorian">s. xiv</origDate>
-                  </origin>
-                  <provenance type="#e" cert="low"><orgName role="fmo" key="org_27">Babwell (Bury St
-                        Edmunds), Suffolk. Franciscan convent</orgName><p>'[ ](?)minorum Babwell'
-                        (erased, foot of fol. 1r, s. xiv). A partially erased inscription on fol.
-                        86v (end of original volume), s. xiv, seems to read: 'de alm[?ariis fratrum
-                        de] Babwell' de [?dono] fratr[is ] de Creyk''.</p><p>At a later date, it
-                        certainly belonged to the Cambridge Franciscans (q.v.)</p></provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 1-86</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <history>
+                     <origin>
+                        <origDate when-custom="13XX" notBefore="1300" notAfter="1399"
+                           calendar="#gregorian">s. xiv</origDate>
+                     </origin>
+                     <provenance type="#e" cert="low"><orgName role="fmo" key="org_27">Babwell (Bury
+                           St Edmunds), Suffolk. Franciscan convent</orgName><p>'[ ](?)minorum
+                           Babwell' (erased, foot of fol. 1r, s. xiv). A partially erased
+                           inscription on fol. 86v (end of original volume), s. xiv, seems to read:
+                           'de alm[?ariis fratrum de] Babwell' de [?dono] fratr[is ] de
+                        Creyk''.</p></provenance>
+                     <provenance type="#e"><orgName role="fmo" key="org_94">Cambridge,
+                           Cambridgeshire. Franciscan convent</orgName><p>At a later date, it
+                           certainly belonged to the Cambridge Franciscans. Below the Babwell
+                           inscription in the same hand is: 'Precium 8 s' et dixit in vita sua quod
+                           communitas'; followed by an erasure, over which is written in a
+                           15th-cent. hand: 'fratrum minorum cantebr' haberet ex eius collatione de
+                           licentia rev. fratris <persName>T. Radnor</persName> ministri'. Probably
+                           the same 15th-c. hand writes at top of fol. 1r: 'fratris <persName>Thome
+                              Trumpyton</persName> sacre theologie doctoris'. A partially erased
+                           inscription on fol. 86v (end of the original volume), s. xiv, seems to
+                           read: 'de alm[ariis fratrum de] Babwell' de [?dono] fratr[is? . .] de
+                           Creyk''.</p><p>The rest of the volume is earlier and may not have been
+                           bound together in the middle ages: witness the chain or clasp marks on
+                           fol. 87.</p><p>Thomas Trumpington STP was president of the Minoresses of
+                           Denny, 1465.</p></provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">Marcello
+                           Cervini</persName> (1501–1555), cardinal, his no. 869.</provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">Gugliemo
+                           Sirleto</persName> (1514–1585), cardinal and scholar, his no.
+                        38.</provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">Duke Giovanni Angelo
+                           di Altempo</persName>.</provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Record 901 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Markup and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -41,6 +46,9 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">303</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3223</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
@@ -50,18 +58,47 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499" calendar="#gregorian">s. xv</origDate>
+                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499"
+                        calendar="#gregorian">s. xv</origDate>
                   </origin>
-                  <provenance type="#i" cert="low"><orgName role="fmo" key="org_25">Axholme, Lincolnshire.
-                        Charterhouse of the Visitation of the Blessed Virgin Mary</orgName><p>'D.
-                        Joh' Chamberlayne' (fol. 106r); John Chamberlain was a monk at Axholme at
-                        the surrender, 1538, and was also apparently at Hinton charterhouse at the
-                        surrender, 1539.</p></provenance>
+                  <provenance type="#i" cert="low"><orgName role="fmo" key="org_25">Axholme,
+                        Lincolnshire. Charterhouse of the Visitation of the Blessed Virgin
+                        Mary</orgName><p>'D. Joh' Chamberlayne' (fol. 106r); <persName role="fmo"
+                           >John Chamberlain</persName> was a monk at Axholme at the surrender,
+                        1538.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="org_258">Hinton, Somerset.
+                        Charterhouse of St Mary the Virgin, St John the Baptist and All
+                        Saints</orgName><p>John Chamberlain (see inscription above) was also
+                        apparently at Hinton charterhouse at the surrender, 1539.</p></provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_9050">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                              target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_9050"
+                              >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Record 3223 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8616">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8803">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -35,41 +35,36 @@
                 <msDesc xml:lang="en">
                     <msIdentifier>
                         <country>England</country>
-                        <settlement>York</settlement>
-                        <repository>York Minster</repository>
-                        <idno type="shelfmark">MS XVI.D.13</idno>
+                        <settlement>Cambridge</settlement>
+                        <repository>Trinity College</repository>
+                        <idno type="shelfmark">MS B. 4. 29</idno>
+                        <altIdentifier>
+                            <idno>143</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
                         <msItem>
-                            <title>Biblia latina</title>
+                            <author key="person_1517">Hieronymus</author>
+                            <title key="work_3710">Epistolae etc</title>
                         </msItem>
                     </msContents>
                     <history>
                         <origin>
-                            <origDate calendar="Gregorian" notBefore="1200" notAfter="1299">s.
+                            <origDate calendar="Gregorian" notBefore="1100" notAfter="1299">s. xii,
                                 xiii</origDate>
                         </origin>
-                        <provenance type="#e"><orgName key="org_940" role="fmo">York, Yorkshire.
-                                Parish church of St Martin, Coney Street.</orgName>
-                            <p><q>Iste librum dedit dominus <persName key="person_3999" role="dnr"
-                                        >Willelmus Rycherdson</persName> ad ecclesiam sancti Martini
-                                    in Conyngstret in Ebor<ex>aco</ex>. Qui quidem Willelmus quondam
-                                    fuit persona in ecclesia cathedrali sancti Petri. Voluit tamen
-                                    ut sit cathenatus in choro sancti Martini predicti ad
-                                        serviend<ex>um</ex> ibi imperpetuum. Qui vero hunc
-                                    alienaverit anathema sit. Dat<ex>um</ex> anno d<ex>omi</ex>ni
-                                    Mᵐᵒ CCCCCᵐᵒ Xᵐᵒ ad festum Nat<ex>ivitatis</ex> domini</q> (ad fin.).
-                                William Richardson was vicar-choral of York Minster at least from
-                                1511 to 1524.</p></provenance>
-                        <provenance type="MLGB3_laterOwners"><q><persName>Rev. John
-                                    Bridges</persName>, Fulford, near York, 1783. <persName>Rev.
-                                        W<ex>illiam</ex>m Bulmer</persName>
-                                <note type="editorial">[vicar of St Martin's 1803-1829]</note></q>
-                            (front flyleaf).</provenance>
-                        <provenance type="MLGB3_laterOwners">Given to the Cathedral by
-                                <persName>Rev. H. A. Beckwick</persName>, vicar of St Martin's,
-                            Coney Street, in 1835.</provenance>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_951">Alcester
+                                (Alencestria), Warwickshire. Benedictine abbey of St Mary the Virgin
+                                and St John the Baptist</orgName>
+                            <p>The index card records the following information, which was deemed
+                                insufficient for a firm attribution: At foot of last leaf: <q>Liber
+                                        s<supplied>ancte M</supplied>arie de al... ster ...</q>. M.
+                                R. James suggests <q>Alencestre.</q></p></provenance>
+                        <provenance type="MLGB3_LaterOwners">13th century scribbles: Mazel Thomas
+                            Baker, John Nassone.</provenance>
+                        <provenance type="MLGB3_LaterOwners">Given to Trinity by
+                            Whitgift.</provenance>
                     </history>
                     <additional>
                         <adminInfo>
@@ -89,10 +84,10 @@
                     </additional>
                 </msDesc>
             </sourceDesc>
-            <!-- Index card images (box 10): Test 3_0327.jpg, Test 3_0328.jpg -->
+            <!-- Index card images (box 10): Test 3_0561.jpg, Test 3_0562.jpg-->
         </fileDesc>
         <revisionDesc>
-            <change when="2026-02-20">Record created.</change>
+            <change when="2026-03-04">Record created.</change>
         </revisionDesc>
     </teiHeader>
     <text>

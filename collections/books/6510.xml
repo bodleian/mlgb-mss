@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Markup and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,29 +42,44 @@
                   <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Trinity College</repository>
-                  <idno type="shelfmark">MS B. 1. 6</idno>
+                  <idno type="shelfmark">MS B.1.6</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6510</idno>
+                  </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6511</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Epp. S. Pauli</title>
-                     <note type="MLGB3_generalNotes"> </note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="1160~" notBefore="1160" notAfter="1160" calendar="#gregorian">c. AD 1160</origDate>
+                     <origDate when-custom="1160~" notBefore="1160" notAfter="1160"
+                        calendar="#gregorian">c. 1160</origDate>
                   </origin>
                   <provenance type="#c"><orgName role="fmo" key="org_83">Buildwas, Shropshire.
-                        Savigniac and (1147) Cistercian abbey of St Mary the Virgin and St Chad</orgName></provenance>
+                        Savigniac and (1147) Cistercian abbey of St Mary the Virgin and St
+                        Chad</orgName><p>This attribution was added during MLGB3 (2009-2024).
+                        Compare Jennifer Sheppard, <title>The Buildwas books: book production,
+                           acquisition and use at an English Cistercian monastery,
+                           1165-c.1400</title> (Oxford, 1997), p. 250-53.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -67,6 +87,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Record 6511 merged into this record. Note on data history added,
+            along with new reference to Sheppard 1997.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

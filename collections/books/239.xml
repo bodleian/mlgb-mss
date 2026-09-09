@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Markup and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,35 +42,83 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Cotton MS Vitellius A.xiii fols. 83-90</idno>
+                  <idno type="shelfmark">Cotton MS Vitellius A. xiii</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">239</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4668</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Historia Abbendonie</title>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219" calendar="#gregorian">s. xiii in</origDate>
-                  </origin>
-                  <provenance type="#c"><orgName role="fmo" key="org_14">Abingdon, Berkshire.
-                        Benedictine abbey of St Mary the Virgin</orgName></provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols 83-90</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Historia Abbendonie</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219"
+                           calendar="#gregorian">s. xiii in</origDate>
+                     </origin>
+                     <provenance type="#c"><orgName role="fmo" key="org_14">Abingdon, Berkshire.
+                           Benedictine abbey of St Mary the Virgin</orgName><p>No further
+                           information recorded on the corresponding MLGB index
+                        card.</p></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols 91–100</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <author>Nennius, etc.</author>
+                        <note type="MLGB3_generalNotes">Cotton Vitellius A. xiii, fols 91–100, was
+                           part of <ref target="https://mlgb.bodleian.ox.ac.uk/catalog/book_4038"
+                              >Royal MS 5 B. xi</ref>.</note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219"
+                           calendar="#gregorian">s. xiii in.</origDate>
+                     </origin>
+                     <provenance><orgName role="fmo" key="org_469">Rochester, Kent. Cathedral priory
+                           of St Andrew</orgName><p>No further information recorded on the
+                           corresponding MLGB index card.</p></provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Record 4668 merged into this record. Notes added to clarify
+            content on corresponding MLGB index cards.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

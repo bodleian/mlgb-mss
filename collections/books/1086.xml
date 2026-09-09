@@ -37,37 +37,85 @@
                   <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>St John's College</repository>
-                  <idno type="shelfmark">MS A.5 (5), i</idno>
+                  <idno type="shelfmark">MS A.5 (5)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1086</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4926</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Ambrosius</title>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="11XX" notBefore="1100" notAfter="1199" calendar="#gregorian">s. xii</origDate>
-                  </origin>
-                  <provenance type="#d"><orgName role="fmo" key="org_4">Canterbury, Kent.
-                        Benedictine cathedral priory of Holy Trinity or Christ Church</orgName><p> </p><p>Identifiable in Christ Church catalogues. Christ Church
-                        hand. </p><p> </p><note type="MLGB3_medievalCatalogueNotes">Cat. 51 or 52,
-                        Ingram 138</note><q type="pressmark">.V.</q></provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Part i</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <author key="person_193">Ambrosius</author>
+                        <note>James, ALCD, p. 21 no. 51 and p. 157 no. 138.</note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="11XX" notBefore="1100" notAfter="1199"
+                           calendar="#gregorian">s. xii</origDate>
+                     </origin>
+                     <provenance type="#d"><orgName role="fmo" key="org_4">Canterbury, Kent.
+                           Benedictine cathedral priory of Holy Trinity or Christ
+                           Church</orgName><p> </p><p>Identifiable in Christ Church catalogues.
+                           Christ Church hand. </p><p> </p><note type="MLGB3_medievalCatalogueNotes"
+                           >Cat. 51 or 52, Ingram 138</note><q type="pressmark">.V.</q></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Part ii</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <author key="person_913">Eusebius</author>
+                        <title key="work_2497">Historia ecclesiastica (tr. Rufinus)</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219"
+                           calendar="#gregorian">s. xiii in.</origDate>
+                     </origin>
+                     <provenance type="#c"><orgName role="fmo" key="org_478">St Dogmells,
+                           Pembrokeshire. Benedictine (orig. Tironensian) abbey of Saint Mary the
+                           Virgin (?)</orgName><p>Contains documents relating to St
+                        Dogmells.</p></provenance>
+                     <provenance type="MLGB3_laterOwners">Given to St John's by <persName role="dnr"
+                           >Thomas Wriothesley</persName>, Earl of Southampton.</provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-20">Record 4926 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

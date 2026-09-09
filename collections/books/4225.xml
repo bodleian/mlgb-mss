@@ -37,31 +37,93 @@
                   <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS Digby 11, fols. 1-91</idno>
+                  <idno type="shelfmark">MS Digby 11</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4225</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5307</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Liber Suda, etc.</title>
-                     <note type="MLGB3_generalNotes">Cf. H. H. E. Craster in BLR 3 , p. 51, and 4
-                        (1953), p. 243.</note>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="130X/131X" notBefore="1300" notAfter="1319" calendar="#gregorian">s. xiv in.</origDate>
-                  </origin>
-                  <provenance cert="low"><orgName role="fmo" key="org_420">Oxford, Oxfordshire. Franciscan
-                        convent</orgName></provenance>
-                  <provenance type="MLGB3_laterOwners">Thos. Allen 7 16mo and A. 163.</provenance>
-               </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_4232">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                              target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_4232"
+                              >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 1-91</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Liber Suda, etc.</title>
+                        <note type="MLGB3_generalNotes">Cf. H. H. E. Craster in BLR 3, p. 51, and 4
+                           (1953), p. 243.</note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="130X/131X" notBefore="1300" notAfter="1319"
+                           calendar="#gregorian">s. xiv in.</origDate>
+                     </origin>
+                     <provenance cert="low"><orgName role="fmo" key="org_420">Oxford, Oxfordshire.
+                           Franciscan convent</orgName></provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">Thomas
+                           Allen</persName> 7 16mo and A. 163.</provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 149-189</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Chronicon de Stanley</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="128X/129X" notBefore="1280" notAfter="1299"
+                           calendar="#gregorian">s. xiii ex.</origDate>
+                     </origin>
+                     <provenance type="#c" cert="low"><orgName role="fmo" key="org_525">Stanley,
+                           Wiltshire. Cistercian abbey of St Mary the Virgin</orgName><p>Provenance
+                           inferred from contents, cf. fol. 186v, etc. Cf. Hardy, Cat. Mat., 3.
+                           259.</p></provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">Thomas
+                           Allen</persName> A. 163.</provenance>
+                  </history>
+
+               </msPart>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-27">Record 5307 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
