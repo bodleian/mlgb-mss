@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,7 +42,7 @@
                   <country>England</country>
                   <settlement>Canterbury</settlement>
                   <repository>Cathedral</repository>
-                  <idno type="shelfmark">MS Add. 392</idno>
+                  <idno type="shelfmark">MS Add. 392 (formerly untraced)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6428</idno>
                   </altIdentifier>
@@ -46,41 +51,54 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Biblia</title>
-                     <note type="MLGB3_generalNotes">First noted in the Supplement, at which time it
-                        was untraced.</note>
+                     <note type="MLGB3_generalNotes">First noted in the supplement to Medieval
+                        Libraries of Great Britain (1987), at which time it was untraced.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate/>
+                     <origDate calendar="#Gregorian" notBefore="1200" notAfter="1299">s.
+                        xiii</origDate>
                   </origin>
                   <provenance type="#i"><orgName role="fmo" key="org_4">Canterbury, Kent.
-                        Benedictine cathedral priory of Holy Trinity or Christ Church</orgName><p>At fol. i, two inscriptions: the first being 'Bibblia magistri
-                        Thome Trussell [space] Eccl[es]ie xpi cantuarie' (s. xiv) and the later
-                        'Bibblia dompni Will[el]mi Lighfyld monachi eccl[esi]e x. cant.' (s.
-                        xv/xvi). All but the first four words of the earlier inscription have been
-                        erased but legible under U.V. light.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Magister Thomas Trussel, Middlesex (1331) and
-                     Northamptonshire (1344). </provenance>
-                  <provenance type="MLGB3_laterOwners">For William Litchfield (1513), see Searle, p.
-                     194.</provenance>
-                  <provenance type="MLGB3_laterOwners">'Liber dompni William Cockes clerici' (fol.
-                     i, s.xvi). </provenance>
-                  <provenance type="MLGB3_laterOwners">Henry Munster (s.xix). </provenance>
-                  <provenance type="MLGB3_laterOwners">J. Poyner. </provenance>
+                        Benedictine cathedral priory of Holy Trinity or Christ Church</orgName><p>At
+                        fol. i, two inscriptions: the first being <q>Bibblia magistri <persName
+                              role="fmo">Thome Trussell</persName>
+                           <note type="editorial">[space]</note> Eccl[es]ie xpi cantuarie</q> (s.
+                        xiv) and the later <q>Bibblia dompni Will[el]mi Lighfyld monachi eccl[esi]e
+                           x. cant.</q> (s. xv/xvi). All but the first four words of the earlier
+                        inscription have been erased but legible under U.V. light. The monk is
+                        William Lychefeld, adm. 1510; cf. Searle, p. 194.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Magister <persName role="fmo">Thomas
+                        Trussel</persName>, Middlesex (1331) and Northamptonshire (1344). </provenance>
+                  <provenance type="MLGB3_laterOwners"><q>Liber dompni William Cockes clerici</q>
+                     (fol. i, s.xvi). </provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Henry Munster</persName>
+                     (s.xix). </provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">J.
+                     Poyner</persName>.</provenance>
                   <provenance type="MLGB3_laterOwners">Sold at Sotheby's, 12 December 1967, lot 19
-                     to Sanders, Oxford for £850, from whom it was bought by Hon. C. A.
-                     Lennox-Boyd.</provenance>
+                     to Sanders, Oxford for £850, from whom it was bought by <persName role="fmo"
+                        >Hon. C. A. Lennox-Boyd</persName>.</provenance>
                   <provenance type="MLGB3_laterOwners">Sold at Christie's, 9 December 1981, lot 231,
-                     to Heribert Tenschert, Rotthalmünster, from whom it was bought by Martin
-                     Schøyen. It was no. 15 in his collection.</provenance>
+                     to <persName role="fmo">Heribert Tenschert</persName>, Rotthalmünster, from
+                     whom it was bought by <persName role="fmo">Martin Schøyen</persName>. It was
+                     no. 15 in his collection.</provenance>
                   <provenance type="MLGB3_laterOwners">Sold at Dreweatts, 10 July 2018, lot 81 (as
                      'The Canterbury "Trussel" Bible'), to Canterbury Cathedral.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -88,6 +106,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-19">Additional information transcribed from corresponding Medieval
+            Libraries of Great Britain index card (manuscript date).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
