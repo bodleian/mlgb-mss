@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,7 +42,13 @@
                   <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>University Library</repository>
-                  <idno type="shelfmark">5000.c.25</idno>
+                  <idno type="shelfmark">5000.c.25 (formerly Winchester, The Presbytery)</idno>
+                  <altIdentifier>
+                     <country>England</country>
+                     <settlement>Winchester</settlement>
+                     <repository>The Presbytery</repository>
+                     <idno type="shelfmark">Shelfmark not recorded (pr. bk.)</idno>
+                  </altIdentifier>
                   <altIdentifier type="system">
                      <idno type="MLGB3">452</idno>
                   </altIdentifier>
@@ -45,25 +56,53 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Ricardus de Mediavilla</title>
+                     <author>R. de Mediavilla</author>
+                     <title>In quartum librum sententiarum</title>
+                     <note>S. von Gültlingen, <title>Livres imprimés à Lyon</title>, II, p.
+                        56-7.</note>
                   </msItem>
                </msContents>
-               <physDesc> <typeDesc><p>Printed book.</p></typeDesc> </physDesc><history>
+               <physDesc>
+                  <typeDesc>
+                     <p>Printed book.</p>
+                  </typeDesc>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <p>Binding by <persName role="bnd">Nicholas Spierinck</persName> Spierinck
+                           of Cambridge, probably not later than 1533. MS pastedowns for a s. xiii
+                           ms: one of the two leaves is from Alanus de Insulis, <title>De sex alis
+                              cherubim</title>.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
                   <origin>
-                     <origDate when-custom="1517" when="1517" calendar="#gregorian">[Lyon 1517]</origDate>
+                     <origPlace>[Lyon]</origPlace>
+                     <origDate when-custom="1517" when="1517" calendar="#gregorian">1517</origDate>
                   </origin>
                   <provenance type="#i"><orgName role="fmo" key="org_57">Bodmin, Cornwall.
-                        Franciscan convent</orgName><p>At end, 'Possessor huius libri gregorius
-                        basseytt nominatur cornubiensis de conuentu bodminie fratrum minorum [. . .
-                        . .] accademie cantabrigie litterarum diuinarum studens'.</p><p>Binding by
-                        Nicholas Spierinck of Cambridge, probably not later than 1533.</p><p> </p></provenance>
-                  <provenance type="MLGB3_laterOwners">Ownership in 1964 was The Presbytery,
-                     Winchester; sold by 1987.</provenance>
+                        Franciscan convent</orgName><p>At end, <q>Possessor huius libri <persName
+                              role="fmo">gregorius basseytt</persName> nominatur cornubiensis de
+                           conuentu bodminie fratrum minorum [. . . . .] accademie cantabrigie
+                           litterarum diuinarum studens</q>.</p></provenance>
+                  <provenance type="MLGB_laterOwners">In the second edition of Medieval Libraries of
+                     Great Britain (1964), the shelfmark was given as Winchester, The Presbytery.
+                     This was updated in the supplement to Medieval Libraries of Great Britain
+                     (1987): 'now sold and untraced'. MLGB3 (2010-2015) supplied the shelfmark of
+                     Cambridge, University Library, 5000.c.25.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -71,6 +110,11 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-01">Additional information transcribed from corresponding Medieval
+            Libraries of Great Britain index card (title; details of pastedowns). Record edited to
+            clarify data history (location reported in different iterations of Medieval Libraries of
+            Great Britain). Citation to Gültlingen supplied from Cambridge University Library
+            catalogue.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
