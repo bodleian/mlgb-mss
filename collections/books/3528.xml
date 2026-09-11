@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -36,8 +41,8 @@
                <msIdentifier>
                   <settlement>Untraced</settlement>
                   <repository>Untraced</repository>
-                  <idno type="shelfmark">MS MS penes Henricum Parry (Tanner, Bibl. Brit., p.
-                     641)</idno>
+                  <idno type="shelfmark">Shelfmark not recorded (last known owner: Henry Parry, s.
+                     xvii)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3528</idno>
                   </altIdentifier>
@@ -45,23 +50,43 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Rog. Sarisberiensis</title>
-                     <note type="MLGB3_generalNotes">Unless this is Bodleian, Hatton 37 (S.C. 4091),
-                        rebound.</note>
+                     <author key="person_3023">Rogeri Sarisberiensis</author>
+                     <title key="work_6932">Verborum significationes super librum sententiarum
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <author key="person_3023">Rogeri Sarisberiensis</author>
+                     <title>Sermones de dominicis diebus</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate/>
+                     <origDate calendar="#Gregorian" notAfter="1540">[Date not specified]</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="org_295">Lanthony (secunda),
-                        Gloucestershire. Augustinian priory of St Mary the Virgin and St John the
-                        Baptist</orgName></provenance>
+                  <provenance><orgName role="fmo" key="org_295">Lanthony (secunda), Gloucestershire.
+                        Augustinian priory of St Mary the Virgin and St John the
+                           Baptist</orgName><p><q>MS olim in bibl. Prior Lathoniensis, postea penes
+                           Henry Parry</q> (Tanner Bibl. Brit., p. 64).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Parry was the last known owner according to
+                     all three of the printed handlists for Medieval Libraries of Great Britain
+                     (1941, 1964, 1987). The book remains untraced, unless this is <ref
+                        target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_6062">Bodleian
+                        Library, MS Hatton 37</ref> (S.C. 4091), rebound. This possibility was
+                     suggested in the second edition of Medieval Libraries of Great Britain (1964),
+                     p. 112, n. 3.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -69,6 +94,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-19">Additional information transcribed from corresponding Medieval
+            Libraries of Great Britain index card. Data history clarified.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
