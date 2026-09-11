@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record merge</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -41,6 +46,9 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">535</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6517</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
@@ -50,20 +58,33 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299" calendar="#gregorian">s. xii--xiii</origDate>
+                     <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299"
+                        calendar="#gregorian">s. xii-xiii</origDate>
                   </origin>
                   <provenance type="#m"><orgName role="fmo" key="org_83">Buildwas, Shropshire.
-                        Savigniac and (1147) Cistercian abbey of St Mary the Virgin and St Chad</orgName><p>For reasons for identifying as a Buildwas book, see J. M.
-                        Sheppard, The Buildwas Books: book production, acquisition and use at an
-                        English Cistercian monastery, 1165--c.1400, Oxford Bibliographical Society
-                        3rd ser. 2 (1997), ??.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Given to Trinity by John Whitgift, archbishop
-                     of Canterbury (1530/31?--1604).</provenance>
+                        Savigniac and (1147) Cistercian abbey of St Mary the Virgin and St
+                        Chad</orgName><p>'There seems to be no mark. Probably from B' (M. R. James).
+                        For reasons for identifying as a Buildwas book, see more recently
+                           <title>Transactions of the Cambridge Bibliographical Society</title> IX/3
+                        (1988), 281-8 and J. M. Sheppard, <title>The Buildwas Books: book
+                           production, acquisition and use at an English Cistercian monastery,
+                           1165-c.1400</title>, Oxford Bibliographical Society 3rd ser. 2 (1997),
+                        no. 36, pp. 185-9.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Given to Trinity by <persName role="fmo">John
+                        Whitgift</persName>, archbishop of Canterbury (1530/31?-1604).</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -71,6 +92,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Record 6517 merged into this record. Additional information
+            transcribed from corresponding MLGB index card (reference to M. R. James, and reference
+            to <title>Transactions of the Cambridge Bibliographical Society</title> 1988).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
