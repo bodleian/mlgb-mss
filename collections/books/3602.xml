@@ -37,42 +37,92 @@
                   <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>Corpus Christi College</repository>
-                  <idno type="shelfmark">MS 339, vol. 2</idno>
+                  <idno type="shelfmark">MS 339</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3602</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5730</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>P. de Ickham</title>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="13XX" notBefore="1300" notAfter="1399" calendar="#gregorian">s. xiv</origDate>
-                  </origin>
-                  <provenance type="#c" cert="low"><orgName role="fmo" key="org_315">Lilleshall,
-                        Shropshire. Augustinian priory of St Mary the Virgin</orgName><p>A note at
-                        the end suggests the provenance (fol. 91r):</p><p>'rex iste Ric' versus
-                        Salop' itinerans pro fine parliamenti faciendo infra Monasterium de
-                        Lilleshull' in festo Conuersionis sancti Paule viz. nocte precedente et die
-                        illo nocteque sequente qui tunc dies veneris fuit perendi- (fol. 91v) nauit
-                        cum Regina sua filia regis ffrancie'. After the king's departure: 'Dux vero
-                        Lancastrie finito parliamento captus febre cum uxore sua Katerina ad
-                        monasterium de Lilleshull reuersus est'.</p></provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Vol. i</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Annals of Winchester</title>
+                     </msItem>
+                     <msItem>
+                        <title>Chronicle of Richard of Devizes</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299"
+                           calendar="#gregorian">s. xii/xiii</origDate>
+                     </origin>
+                     <provenance type="#c" cert="low"><orgName role="fmo" key="org_437">Winchester,
+                           Hampshire. Benedictine cathedral priory of St Peter, St Paul, and St
+                           Swithun</orgName><p>Provenance suggested by contents. In same hand as
+                              <ref target="https://mlgb.bodleian.ox.ac.uk/catalog/book_3264">London,
+                              British Library, Cotton MS Domitian A.xiii</ref> fols.
+                        70–87.</p></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Vol. ii</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <author key="person_2577">P. de Ickham</author>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="13XX" notBefore="1300" notAfter="1399"
+                           calendar="#gregorian">s. xiv</origDate>
+                     </origin>
+                     <provenance type="#c" cert="low"><orgName role="fmo" key="org_315">Lilleshall,
+                           Shropshire. Augustinian priory of St Mary the Virgin</orgName><p>A note
+                           at the end (compare James, Cat.) suggests the provenance (fol. 91r):
+                              <q>rex iste Ric' versus Salop' itinerans pro fine parliamenti faciendo
+                              infra Monasterium de Lilleshull' in festo Conuersionis sancti Paule
+                              viz. nocte precedente et die illo nocteque sequente qui tunc dies
+                              veneris fuit perendi- (fol. 91v) nauit cum Regina sua filia regis
+                              ffrancie</q>. After the king's departure: <q>Dux vero Lancastrie
+                              finito parliamento captus febre cum uxore sua Katerina ad monasterium
+                              de Lilleshull reuersus est</q>.</p></provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-27">Record 5730 merged into this record. Cross reference to Domitian
+            xiii corrected to Domitian A.xiii</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
