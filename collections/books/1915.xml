@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record merge</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -41,48 +46,121 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">1915</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">329</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Vite s. Wingualei (fols. 1–80), Aethelburge, Hildelithe, Ædwardi regis
-                        et martyris, Ædgithe, ...</title>
-                     <msItem>
-                        <title>Vita SS. Wingualei (fols. 1–80), Aethelburge, Hildelithe, Ædwardi
-                           regis et martyris, Ædgithe, Davidis; Historia metrica Hildeberti; Vita
-                           beati abbatis Ebrulfi.</title>
-                     </msItem>
-                  </msItem>
-               </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219" calendar="#gregorian">s. xiii in.</origDate>
-                  </origin>
-                  <provenance><orgName role="fmo" key="org_3">Dover, Kent. Benedictine priory of
-                        St Mary the Virgin and St Martin; cell of Canterbury cathedral priory</orgName><p>': D : VII : Vita sancti Wingualei ... forma egergium ... 88
-                        ...' (fol. 2r, s. xiv).</p><p>Pressmark identifies the first item of this
-                        with James, ALCD, p. 460 (no. 169). See description in Hist. MSS. Comm.
-                        Rep., Various Collections 2 (1903), pp. 24–27 and in Cardiff Public
-                        Libraries. Catalogue of manuscripts ... etc. relating to St. David (Cardiff
-                        1927), pp. 1–5 (descr. by J. A. Herbert). The lives of Æthelburga, etc. are
-                        not from Dover.</p><p>Wilmart, Anal. Boll. 56 (fasc. 3–4), pp. 24–25 n.
-                        suggests that they were written at St Augustine's, Canterbury. Evidence
-                        inconclusive. The volume was one in s. xv.</p><q type="pressmark">D.VII.6</q></provenance>
-                  <provenance type="MLGB3_laterOwners">'Ro. Cotton, 1601'.</provenance>
-                  <provenance type="MLGB3_laterOwners">Sir Geo. Wombwell, Bart. Newburgh Priory.
-                     Sold at Sotheby's, Apr. 14–15, 1924, lot 136 (Wombwell sale).</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Sir Robert Bruce
+                        Cotton</persName> (1571–1631).</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Sir George
+                        Wombwell</persName>, Bart. Newburgh Priory. Sold at Sotheby's, April 14–15,
+                     1924, lot 136 (Wombwell sale).</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 1-80</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem n="1">
+                        <title>Life of Saint Winwaloe</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219"
+                           calendar="#gregorian">s. xiii in.</origDate>
+                     </origin>
+                     <provenance><orgName role="fmo" key="org_3">Dover, Kent. Benedictine priory of
+                           St Mary the Virgin and St Martin; cell of Canterbury cathedral
+                           priory</orgName><p>': D : VII : Vita sancti Wingualei ... forma egergium
+                           ... 88 ...' (fol. 2r, s. xiv).</p><p>Pressmark identifies the first item
+                           of this with James, ALCD, p. 460 (no. 169). See description in Hist. MSS.
+                           Comm. Rep., Various Collections 2 (1903), pp. 24–27 and in Cardiff Public
+                           Libraries. Catalogue of manuscripts ... etc. relating to St. David
+                           (Cardiff 1927), pp. 1–5 (descr. by J. A. Herbert). The lives of
+                           Æthelburga, etc. are not from Dover.</p><q type="pressmark"
+                        >D.VII.6</q></provenance>
+                     <provenance type="MLGB3_laterOwners">'<persName role="fmo">Ro.
+                           Cotton</persName>, 1601'.</provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 81-146</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem n="1">
+                        <title>Life of St Ethelburga</title>
+                     </msItem>
+                     <msItem n="2">
+                        <title>Lections for St Hildelitha</title>
+                     </msItem>
+                     <msItem n="3">
+                        <title>Life of Edward, King and Martyr</title>
+                     </msItem>
+                     <msItem n="4">
+                        <title>Life of St Edith</title>
+                     </msItem>
+                     <msItem n="5">
+                        <title>Life of St David</title>
+                     </msItem>
+                     <msItem n="6">
+                        <title>Metrical life of St Mary of Egypt</title>
+                     </msItem>
+                     <msItem n="7">
+                        <title>Life of St Ebrulfus</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="1100/1250" notBefore="1100" notAfter="1250"
+                           calendar="#gregorian">s. xii in.-xii med.</origDate>
+                     </origin>
+                     <provenance type="#rejected"><orgName role="fmo" key="org_122">Canterbury,
+                           Kent, Benedictine abbey of St Augustine (originally of St Peter and St
+                           Paul)</orgName><p>Wilmart, <title>Analecta Bollandiana</title> 56 (fasc.
+                           3–4), pp. 24–25 n. suggests that they were written at St Augustine's,
+                           Canterbury. His suggestion on grounds of writing of the life of St Edith
+                           seems quite inconclusive. The volume was one in s. xv.</p></provenance>
+                     <provenance type="#c m" cert="low"><orgName role="fmo" key="org_30">Barking,
+                           Essex. Abbey of St Mary the Virgin and St Ethelburga, of Benedictine
+                           nuns</orgName><p>Marginalia and foliation are in the same unusual hand,
+                           s. xvi in., as in Cardiff MS 3.833.</p></provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">Sir Robert Bruce
+                           Cotton</persName> (1571–1631), 1600.</provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Record 329 merged into this record. Expanded the rejected
+            provenance for Canterbury, St Augustine's, with additional content transcribed from the
+            corresponding MLGB index card. Description of contents adapted with reference to Ker,
+               <title>Medieval Manuscripts in British Libraries</title>, volume 2 (1992), p.
+            347-48.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

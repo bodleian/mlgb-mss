@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9628">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="SW">
+               <resp when="2026">Transcription and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Transcription and encoding of index card</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>Untraced</country>
+                  <settlement>Untraced</settlement>
+                  <repository>Untraced</repository>
+                  <idno type="shelfmark">Shelfmark not recorded (last known location: New York,
+                     1980)</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <author key="person_1970">Justinian</author>
+                     <title key="work_4877">Codex</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote><p>Written in Italy, glossed apparently in England.</p></handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote>Decorated apparently in England.</decoNote>
+                  </decoDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Italy and England</origPlace>
+                     <origDate calendar="#gregorian" notBefore="1250" notAfter="1299">s.
+                        xiii2</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="org_611">York, Yorkshire, Convent
+                        of Austin friars</orgName><p><q>Iste Liber est <persName role="fmo"
+                                 >frat<supplied>is Johannis-</supplied>
+                              Erg<supplied>hom</supplied></persName> F pm[?]</q> on verso of fly
+                        leaf facing 1st leaf of text (<q>Frat</q> and <q>Erg.</q> read by B.
+                        Schofield under u.v. lamp; Witten under u.v. satisfied that he can read the
+                        rest). See Cat. 411. Compare inscriptions in <ref
+                           target="https://mlgb.bodleian.ox.ac.uk/catalog/book_6349">London, College
+                           of Arms, MS Arundel 6</ref> and in <ref
+                           target="https://mlgb.bodleian.ox.ac.uk/catalog/book_6351">Oxford, Corpus
+                           Christi College, MS 81</ref>.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Constat <persName role="fmo">Galfrido
+                        Aphull[?]</persName> s xvi, at end.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Dalhousie</persName>
+                     sale Sept 1957 at Dowell, lot [not specified] to Maggs Bros, who sold in Oct
+                     1957 to Laurence Witten, bookseller, 282 York Street, New Haven 11,
+                     Connecticut.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sold by Th. Marston 1961 to 'Vennor'. This
+                     was the last known location according to the second edition of Medieval
+                     Libraries of Great Britain (1964).</provenance>
+                  <provenance type="MLGB3_laterOwners">The book was 'briefly seen in New York in
+                     1980 but now again untraced' according to the supplement to Medieval Libraries
+                     of Great Britain (1987).</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description compiled (Sian Witherden, 2026) from the following
+                           sources: <listBibl>
+                              <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’, card
+                                 index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).</bibl>
+                              <bibl>Neil R. Ker, ed., <title>Medieval Libraries of Great Britain: A
+                                    List of Surviving Books</title>, Royal Historical Society Guides
+                                 and Handbooks, 3 (London, <ref
+                                    target="https://hdl.handle.net/2027/uva.x000937945">2nd edn,
+                                    1964</ref>) <ref
+                                    target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                    >supplement, ed. Andrew G. Watson, 1987</ref>).</bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0475.jpg, Test 3_0476.jpg -->
+      </fileDesc>
+      <revisionDesc>
+         <change when="2026-06-04">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

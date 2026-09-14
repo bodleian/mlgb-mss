@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record merge</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -41,60 +46,125 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">4516</idno>
                   </altIdentifier>
-               <altIdentifier><idno type="MLGB3">5954</idno>
-                  </altIdentifier></msIdentifier>
-                  <additional>
+                  <altIdentifier>
+                     <idno type="MLGB3">5954</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="MLGB3">862</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
-               <msPart><msIdentifier><altIdentifier><idno type="part">MS Cotton Vespasian E.iv fols. 104-202</idno></altIdentifier></msIdentifier><msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Annales, etc.</title>
-                     <note type="MLGB3_generalNotes">Cf. EHR 49 (1934), pp. 85ff.</note>
-                     <note type="MLGB3_generalNotes"> </note>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="128X/129X" notBefore="1280" notAfter="1299" calendar="#gregorian">s. xiii ex.</origDate>
-                  </origin>
-                  <provenance type="#c"><orgName role="fmo" key="org_458">Reading, Berkshire.
-                        Benedictine abbey of Saint Mary the Virgin</orgName><p>Additions in a
-                        contemporary hand record at 1199 the translation of abbot Hugh of Reading to
-                        Cluny 'Cui successit bone memorie helyas camerarius vir per omnia
-                        laudabilis', and at 1200 'Helyas abbas Radyng'
-                     benedicitur'.</p></provenance>
-               </history>
-            </msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS Cotton Vespasian E.iv fols. 203-210</idno></altIdentifier></msIdentifier><msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Epistole, etc.</title>
-                     <note type="MLGB3_generalNotes">Cotton App. 56, fols. 1–4 (and possibly fols.
-                        5–61 also) and Cotton Vesp. E.iv fols. 203–210, are fragments of one
-                        volume.</note>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="110X/111X" notBefore="1100" notAfter="1119" calendar="#gregorian">s. xii in.</origDate>
-                  </origin>
-                  <provenance type="#c"><orgName role="fmo" key="org_601">Worcester,
-                        Worcestershire. Benedictine cathedral priory of St Mary the Virgin</orgName><p>Three of the documents relate to Worcester.</p><p>Cotton
-                        Appendix 56 fols. 1–4 (and possibly fols. 5–61 also) and Vespasian E.iv
-                        fols. 203–210 (same hand as Vesp. fol. 203 which contains the prologue to
-                        De Doctrina christiana), are fragments of one volume.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Savile. Cat. ed. J. P. Gilson in Trans. Bibl.
-                     Soc., no. 158.</provenance>
-               </history>
-            </msPart></msDesc>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 100-103, 211</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <author key="person_1193">Gregorius</author>
+                        <title key="work_2979">Cura pastoralis</title>
+                     </msItem>
+                     <msItem>
+                        <title>Vita sancte Euphrosyne</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="11XX" notBefore="1100" notAfter="1199"
+                           calendar="#gregorian">s. xii</origDate>
+                     </origin>
+                     <provenance><orgName role="fmo" key="org_89">Byland, Yorkshire. Cistercian
+                           abbey of St Mary the Virgin</orgName><p>Fragments of a manuscript, other
+                           leaves of which are Cotton MS Faustina B.iv, fols.
+                        180–182.</p></provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">Henry Savile of
+                           Banke</persName> (1568–1617). J. P. Gilson, 'The library of Henry Savile, of
+                        Banke', <title>Transactions of the Bibliographical Society</title> 9
+                        (1906-8), 126-210 (p. 203, cat. no. 215).</provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 104-202</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Annales, etc.</title>
+                        <note type="MLGB3_generalNotes">Cf. EHR 49 (1934), pp. 85ff.</note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="128X/129X" notBefore="1280" notAfter="1299"
+                           calendar="#gregorian">s. xiii ex.</origDate>
+                     </origin>
+                     <provenance type="#c"><orgName role="fmo" key="org_458">Reading, Berkshire.
+                           Benedictine abbey of Saint Mary the Virgin</orgName><p>Additions in a
+                           contemporary hand record at 1199 the translation of abbot Hugh of Reading
+                           to Cluny <q>Cui successit bone memorie helyas camerarius vir per omnia
+                              laudabilis</q>, and at 1200 <q>Helyas abbas Radyng'
+                           benedicitur</q>.</p></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 203-210</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Epistole, etc.</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="110X/111X" notBefore="1100" notAfter="1119"
+                           calendar="#gregorian">s. xii in.</origDate>
+                     </origin>
+                     <provenance type="#c"><orgName role="fmo" key="org_601">Worcester,
+                           Worcestershire. Benedictine cathedral priory of St Mary the
+                           Virgin</orgName><p>Three of the documents relate to
+                           Worcester.</p><p>Cotton Appendix 56 fols. 1–4 (and possibly fols. 5–61
+                           also) and Cotton MS Vespasian E.iv fols. 203–210 (same hand as Vesp. fol.
+                           203 which contains the prologue to <title>De Doctrina
+                           christiana</title>), are fragments of one volume.</p></provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">Savile</persName>.
+                        See J. P. Gilson, 'The library of Henry Savile, of
+                        Banke', <title>Transactions of the Bibliographical Society</title> 9
+                        (1906-8), 126-210 (cat no. 158).</provenance>
+                  </history>
+               </msPart>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-09-18">Record 5954 merged into this record.</change><change when="2025-05-21">Record created.</change>
+         <change when="2026-07-09">Record 862 merged into this record. Additional information
+            transcribed from corresponding MLGB index card for Byland provenance (details of
+            contents, Savile catalogue number, <title>Transactions of the Bibliographical
+               Society</title> reference).</change>
+         <change when="2025-09-18">Record 5954 merged into this record.</change>
+         <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

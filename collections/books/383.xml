@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record merge</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,42 +42,86 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Cotton MS Nero D. ii fols. 238-241</idno>
+                  <idno type="shelfmark">Cotton MS Nero D.ii</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">383</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3226</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Annales</title>
-                     <note type="MLGB3_generalNotes">Nero D. ii fols. 238–41 was originally part of
-                        the same volume as Tiberius B. v, part i, fols. 2–73, 77–88.</note>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299" calendar="#gregorian">s. xii--xiii</origDate>
-                  </origin>
-                  <provenance type="#c"><orgName role="fmo" key="org_36">Battle, Sussex.
-                        Benedictine abbey of St Martin</orgName><p>Contains Annals of Battle
-                        Abbey. See further Tiberius B. v.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Sir Robert Bruce Cotton
-                     (1571–1631).</provenance>
-                  <provenance type="MLGB3_laterOwners">John Lumley, first Baron Lumley (c.
-                     1533–1609).</provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 215-237</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <author>Iohannes de Oxenedes</author>
+                        <title>Chronica</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="13XX" notBefore="1300" notAfter="1399"
+                           calendar="#gregorian">s. xiv</origDate>
+                     </origin>
+                     <provenance type="#c" cert="low"><orgName role="fmo" key="org_259">Holme St
+                           Benet's, Norfolk. Benedictine abbey of St Benedict</orgName></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 238-241</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Annales</title>
+                        <note type="MLGB3_generalNotes">Cotton MS Nero D.ii fols. 238–41 was
+                           originally part of the same volume as Cotton MS Tiberius B.v, part i,
+                           fols. 2–73, 77–88.</note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299"
+                           calendar="#gregorian">s. xii-xiii</origDate>
+                     </origin>
+                     <provenance type="#c"><orgName role="fmo" key="org_36">Battle, Sussex.
+                           Benedictine abbey of St Martin</orgName><p>Contains Annals of Battle
+                           Abbey. See further under Cotton MS Tiberius B.v.</p></provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">Sir Robert Bruce
+                           Cotton</persName> (1571–1631).</provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">John
+                           Lumley</persName>, first Baron Lumley (c. 1533–1609).</provenance>
+                  </history>
+               </msPart>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Record 3226 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

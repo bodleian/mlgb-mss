@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record merge</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,41 +42,114 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Cotton MS Claudius A.v fols. 2-45</idno>
+                  <idno type="shelfmark">Cotton MS Claudius A.v</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">167</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">419</idno>
+                  </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3236</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Chronicon</title>
-                     <msItem>
-                        <title>Chronicle, 654 to 1368, Chronicon Angliae Petriburgense</title>
-                     </msItem>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="138X/139X" notBefore="1380" notAfter="1399" calendar="#gregorian">s. xiv ex</origDate>
-                  </origin>
-                  <provenance type="#e"><orgName role="fmo" key="org_2">Peterborough,
-                        Northamptonshire. Benedictine abbey of St Peter, St Paul, and St Andrew</orgName><p>'Iste liber pertinet ad monasterium de burgo sancti Petri anno
-                        domini DCliiij. Amen' (s. xv). The chronicle begins in the year AD
-                     654.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Thomas Harris (s. xvi).</provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 2-45</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Chronicon</title>
+                        <msItem>
+                           <title>Chronicle, 654 to 1368, Chronicon Angliae Petriburgense</title>
+                        </msItem>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="138X/139X" notBefore="1380" notAfter="1399"
+                           calendar="#gregorian">s. xiv ex</origDate>
+                     </origin>
+                     <provenance type="#e"><orgName role="fmo" key="org_2">Peterborough,
+                           Northamptonshire. Benedictine abbey of St Peter, St Paul, and St
+                           Andrew</orgName><p>'Iste liber pertinet ad monasterium de burgo sancti
+                           Petri anno domini DCliiij. Amen' (s. xv). The chronicle begins in the
+                           year AD 654.</p></provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">Thomas
+                           Harris</persName> (s. xvi).</provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 46-134a</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <author key="person_3735">W. Malmesburiensis</author>
+                        <title key="work_8099">Gesta Pontificum</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="11XX" notBefore="1100" notAfter="1199"
+                           calendar="#gregorian">s. xii</origDate>
+                     </origin>
+                     <provenance type="#e"><orgName role="fmo" key="org_48">Belvoir, Lincolnshire.
+                           Benedictine priory of St Mary the Virgin; cell of St
+                           Albans</orgName><p>'Hic est liber sancte marie de beluere quem qui
+                           alienauerit anathema sit' (fol. 86v, s. xv).</p><p>Erased inscriptions on
+                           fol. 46r.</p></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 135-199</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Vite sanctorum Erkenwaldi, Wenfrede, Neoti, Wulstani</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299"
+                           calendar="#gregorian">s. xii/xiii</origDate>
+                     </origin>
+                     <provenance type="#s"><orgName role="fmo" key="org_260">Holme Cultram,
+                           Cumberland. Cistercian abbey of St Mary the Virgin</orgName><p>"Liber
+                           cciij' primus".</p><p>Script and decoration very like Faustina B.iv fols.
+                           3–179.</p><q type="pressmark">liber cciii primus</q></provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Records 419 and 3236 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

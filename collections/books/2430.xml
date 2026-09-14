@@ -14,22 +14,16 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -37,40 +31,101 @@
                   <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS Digby 81, fols. 133-140</idno>
+                  <idno type="shelfmark">MS Digby 81</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">2430</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5451</idno>
+                  </altIdentifier>
+                  <altIdentifier type="internal">
+                     <idno type="SCN">1682</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Miscellanea computistica (Tabulae et regulae variae paschales)</title>
-                     <note type="MLGB3_generalNotes">(fol. 134r) Hymnus Bedae de circulo magno
-                        (irrelevant).</note>
-                     <note type="MLGB3_generalNotes">Mynors no. 24.</note>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="100X/101X" notBefore="1000" notAfter="1019" calendar="#gregorian">s. xi in.</origDate>
-                  </origin>
-                  <provenance type="#e"><orgName role="fmo" key="org_189">Durham. Benedictine
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates><bibl subtype="partial" type="digital-facsimile"> <ref
+                     target="https://digital.bodleian.ox.ac.uk/objects/b17e93d3-aa72-415c-a07c-2e3d3f2b4b0f/"
+                     > <title>Digital Bodleian</title> </ref> <note>(1 image from 35mm
+                     slides)</note> </bibl> </surrogates>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                           target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_4421"
+                           >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 67-88</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Chronica</title>
+                        <note type="MLGB3_generalNotes">Bound with distinct works mostly of a late
+                           date (see Quarto Cat.) but including chronological tables, etc., of c.
+                           1000.</note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin> <origDate when-custom="124X/125X" notBefore="1240" notAfter="1259"
+                        calendar="#gregorian">s. xiii med.</origDate> </origin>
+                     <provenance type="#c" cert="low"><orgName role="fmo" key="org_541">Tavistock,
+                        Devon. Benedictine Abbey of St Mary the Virgin and St Rumon</orgName><p>A
+                        very scrappy series of chronological notes -- accessions and deaths of kings
+                        and bishops, chiefly -- ending 1256. The dates of the abbots of Tavistock
+                        are given.</p><p> </p></provenance>
+                     <provenance type="MLGB3_laterOwners">Th. Allen.</provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 133-140</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Miscellanea computistica (Tabulae et regulae variae
+                           paschales)</title>
+                        <note type="MLGB3_generalNotes">(fol. 134r) Hymnus Bedae de circulo magno
+                           (irrelevant).</note>
+                        <note type="MLGB3_generalNotes">Mynors no. 24.</note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin> <origDate when-custom="100X/101X" notBefore="1000" notAfter="1019"
+                        calendar="#gregorian">s. xi in.</origDate> </origin>
+                     <provenance type="#e"><orgName role="fmo" key="org_189">Durham. Benedictine
                         cathedral priory of St Cuthbert</orgName><p>At top of fol. 133r (s. xv):
-                        "·c·" and "splendement".</p><q type="pressmark">C</q></provenance>
-                  <provenance type="MLGB3_laterOwners">"Christopher Watson, Dunelmensis, 1573, etat.
-                     27." (cf. Laud Misc. 207, Vesp. A.vi, Tit. A.ii).</provenance>
-               </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><surrogates><bibl subtype="partial" type="digital-facsimile">
-                        <ref target="https://digital.bodleian.ox.ac.uk/objects/b17e93d3-aa72-415c-a07c-2e3d3f2b4b0f/">
-                           <title>Digital Bodleian</title>
-                        </ref>
-                        <note>(1 image from 35mm slides)</note>
-                     </bibl>
-                  </surrogates><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_4421">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+                        <q>·c·</q> and <q>spendement</q>.</p><q type="pressmark">C</q></provenance>
+                     <provenance type="MLGB3_laterOwners"><q>Christopher Watson, Dunelmensis, 1573,
+                        etat. 27.</q> (cf. Laud Misc. 207, Vesp. A.vi, Tit. A.ii).</provenance>
+                  </history>
+               </msPart>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-27">Record 5451 merged into this record. Spelling error on index card
+            corrected (splendement > spendement).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record merge</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,40 +42,85 @@
                   <country>England</country>
                   <settlement>Cambridge</settlement>
                   <repository>University Library</repository>
-                  <idno type="shelfmark">MS Ff.1.27 pp. 253-642</idno>
+                  <idno type="shelfmark">MS Ff.1.27</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">588</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5147</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Misc. historica</title>
-                     <note type="MLGB3_generalNotes">Cambridge, UL, MS Ff.1.27 pp. 253–642 and
-                        Corpus Christi College, MS 66 pt 2 formed one volume.</note>
-                  </msItem>
-               </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="13XX" notBefore="1300" notAfter="1399" calendar="#gregorian">s. xiv</origDate>
-                  </origin>
-                  <provenance><orgName role="fmo" key="org_86">Bury St Edmunds, Suffolk.
-                        Benedictine abbey of St Edmund, King and Martyr</orgName></provenance>
-                  <provenance type="MLGB3_laterOwners">Matthew Parker (1504–1575), archbishop of
-                     Canterbury.</provenance>
-                  <provenance type="MLGB3_laterOwners"> </provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Matthew
+                        Parker</persName> (1504–1575), archbishop of Canterbury.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Pp. 1-40, 73-252</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Miscellanea historica (Gildas, etc.)</title>
+                        <note type="MLGB3_generalNotes"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="1101/1400" notBefore="1101" notAfter="1400"
+                           calendar="#gregorian">s. xii-xiv</origDate>
+                     </origin>
+                     <provenance><orgName role="fmo" key="org_487">Sawley, Yorkshire. Cistercian
+                           abbey of St Mary the Virgin</orgName><p>Cambridge, Corpus Christi
+                           College, MS 66, pp. 1–114 was part of Cambridge, University Library, MS
+                           Ff.1.27, pp. 1–40, 73–252.</p></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Pp. 253-642</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Misc. historica</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="13XX" notBefore="1300" notAfter="1399"
+                           calendar="#gregorian">s. xiv</origDate>
+                     </origin>
+                     <provenance><orgName role="fmo" key="org_86">Bury St Edmunds, Suffolk.
+                           Benedictine abbey of St Edmund, King and Martyr</orgName><p>Cambridge,
+                           University Library, MS Ff.1.27 pp. 253–642 and Cambridge, Corpus Christi
+                           College, MS 66 part 2 formed one volume</p></provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Record 5147 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

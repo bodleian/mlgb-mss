@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record merge and addition of rejected provenance</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge and addition of rejected provenance</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,59 +42,177 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Cotton MS Tiberius B. v, part i, fols. 2-73,
-                     77-88</idno>
+                  <idno type="shelfmark">Cotton MS Tiberius B.v</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">382</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">2707</idno>
+                  </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5749</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Kalendarium, etc.</title>
-                     <note type="MLGB3_generalNotes">Nero D. ii fols. 238–41 was originally part of
-                        the same volume as Tiberius B. v, part i, fols. 2–73, 77–88.</note>
-                     <msItem>
-                        <title>Kalendarium martyrologicum</title>
-                     </msItem>
-                     <msItem>
-                        <title>Tabulae</title>
-                     </msItem>
-                     <msItem>
-                        <author>Bede</author>
-                        <title>De temporibus</title>
-                     </msItem>
-                     <msItem>
-                        <title>Mirabilia Orientis Latine et Anglice</title>
-                     </msItem>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="0990/1010" notBefore="0990" notAfter="1010" calendar="#gregorian">s. x/xi</origDate>
-                  </origin>
-                  <provenance type="#c"><orgName role="fmo" key="org_36">Battle, Sussex.
-                        Benedictine abbey of St Martin</orgName><p>Tib. B. v, fol. 88r, contains
-                        an 'annotatio ecclesiarum dotalium Ecclesie de Bello' of 1154, and Nero D.
-                        ii contains Battle Abbey annals. The earlier part of the MS includes a list
-                        of the abbots of GLASTONBURY. In a list of bishops [S]UUIÐHUN is in
-                        capitals.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Sir Robert Bruce Cotton (1571–1631),
-                     1598.</provenance>
-                  <provenance type="MLGB3_laterOwners">John Lumley, first Baron Lumley (c.
-                     1533–1609).</provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Part i, fols. 2-73, 77-88</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la" otherLangs="ang">Latin and Old English</textLang>
+                     <msItem>
+                        <title>Kalendarium, etc.</title>
+                        <msItem>
+                           <title>Kalendarium martyrologicum</title>
+                        </msItem>
+                        <msItem>
+                           <title>Tabulae</title>
+                        </msItem>
+                        <msItem>
+                           <author key="person_426">Bede</author>
+                           <title>De temporibus</title>
+                           <note>In English</note>
+                        </msItem>
+                        <msItem>
+                           <title>Mirabilia Orientis</title>
+                           <note>In Latin and English</note>
+                        </msItem>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="0990/1010" notBefore="0990" notAfter="1010"
+                           calendar="#gregorian">s. x/xi</origDate>
+                     </origin>
+                     <provenance type="#c"><orgName role="fmo" key="org_36">Battle, Sussex.
+                           Benedictine abbey of St Martin</orgName><p>MS Tiberius B.v, part I, fols.
+                           2–73, 77–88 was originally part of the same volume as MS Nero D.ii fols.
+                           238–41. MS Tiberius B.v, fol. 88r, contains an 'annotatio ecclesiarum
+                           dotalium Ecclesie de Bello' of 1154, and MS Nero D.ii contains Battle
+                           Abbey annals.</p></provenance>
+                     <provenance type="#c" cert="low"><orgName role="fmo" key="org_437">Winchester,
+                           Hampshire. Benedictine cathedral priory of St Peter, St Paul, and St
+                           Swithun</orgName><p>For provenance, compare contents. '[S]UUIÐHUN' in
+                           capitals in a list of bishops.</p></provenance>
+                     <provenance type="#rejected"><orgName role="fmo" key="org_224">Glastonbury,
+                           Somerset, Benedictine Abbey of Saint Mary the Virgin</orgName><p>Contains
+                           Glastonbury material, for example the earlier part of the manuscript
+                           includes a list of the abbots, but Winchester, St Swithun's seems on the
+                           whole more likely (see above).</p></provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">Sir Robert Bruce
+                           Cotton</persName> (1571–1631), 1598.</provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">John
+                           Lumley</persName>, first Baron Lumley (c. 1533–1609). Occurs in the
+                        Lumley catalogue.</provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Part i, fol. 74</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="ang">Old English</textLang>
+                     <msItem>
+                        <title>Blank leaf of a gospel book, containing added documents in Old
+                           English</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" notBefore="0980" notAfter="0999">s. x
+                           ex</origDate>
+                     </origin>
+                     <provenance type="#rejected"><orgName role="fmo" key="org_190">Ely,
+                           Cambridgeshire, Benedictine abbey and (1109) cathedral priory of St Peter
+                           and St Etheldreda</orgName><p>An Ely attribution was initially accepted
+                           in MLGB2 (1964), p. 78. The corresponding MLGB index card provided the
+                           following information in support of the attribution: 'Two Ely documents,
+                           one of which begins "Her is on þysse crystes bec". Probably once part of
+                           C.U.L. KK.1.24 from which Tib B.v fol. 76 (containing a probable Ely
+                           document) certainly comes.' However, the Supplement (1987), p. 35
+                           rejected the Ely attribution for Tiberius B.v fol. 76 and Cambridge,
+                           University Library, MS KK.1.24 on the basis that the documents related
+                           instead to Ramsey abbey. The Supplement did not change the status of
+                           folio 74 to rejected, but this seems to have been an accidental
+                           omission.</p></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Part i, fol. 75</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la" otherLangs="ang">Latin and Old English</textLang>
+                     <msItem>
+                        <title>Evangelium (and documents in English)</title>
+                        <note type="MLGB3_generalNotes">CLA 190.</note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="0700/999" notBefore="0700" notAfter="0999"
+                           calendar="#gregorian">s. viii-x</origDate>
+                     </origin>
+                     <provenance type="#c"><orgName role="fmo" key="org_1">Exeter, Devon. Cathedral
+                           church of St Peter</orgName><p>Exeter documents in Old English, added in
+                           blank spaces.</p></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Part i, fol. 76</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Evangelia</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" notBefore="0700" notAfter="0799">s.
+                           viii</origDate>
+                     </origin>
+                     <provenance type="#rejected"><orgName role="fmo" key="org_190">Ely,
+                           Cambridgeshire, Benedictine abbey and (1109) cathedral priory of St Peter
+                           and St Etheldreda</orgName><p>An Ely attribution was initially accepted
+                           in MLGB2 (1964), p. 78, albeit with a question mark. The corresponding
+                           MLGB index card recorded the following evidence to support the
+                           attribution: 'Formerly part of Cambridge University Library, MS Kk.1.24.
+                           Contains document relating to Hatfield, Herts CLA ii no. 138.' However,
+                           the Supplement (1987), p. 35 rejected the Ely attribution on the basis
+                           that the documents related instead to Ramsey abbey.</p></provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Records 2707 and 5749 merged into this record. Also added
+            rejected provenance for Ely (Part I, fols 74 and 76) and Glastonbury (for Part i, fols.
+            2-73, 77-88), with information transcribed from corresponding MLGB index cards.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
