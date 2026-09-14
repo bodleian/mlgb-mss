@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8832">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Bristol</settlement>
+                        <repository>Bristol Archives</repository>
+                        <idno type="shelfmark">P.AS/B/15 (pr. bk.; formerly Bristol, All Saints'
+                            Church, 7)</idno>
+                        <altIdentifier>
+                            <country>England</country>
+                            <settlement>Bristol</settlement>
+                            <repository>All Saints' Church</repository>
+                            <idno type="shelfmark">7 (pr. bk.)</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <author>Guillermus de Vorrillong</author>
+                            <title>Super IV libros sententiarum</title>
+                            <note><ref target="https://data.cerl.org/istc/iv00373000">ISTC
+                                    iv00373000.</ref> BMC V 564.</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <typeDesc>
+                            <p>Printed book.</p>
+                        </typeDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace>Venice: [Pentius], imp. Lazari de Soardis. Jacobus de
+                                Leucho</origPlace><origDate calendar="#Gregorian" when="1496"
+                                >1496</origDate></origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_635">Bristol,
+                                Gloucestershire, Guild of Kalendars in the church of All
+                                Saints</orgName>
+                            <p>This attribution was rejected in the second edition of Medieval
+                                Libraries of Great Britain (1964), which did not change in the
+                                Supplement (1987). The corresponding Medieval Libraries of Great
+                                Britain index card records the following information, which was
+                                deemed unsatisfactory for an attribution: The ascription in
+                                    <title>Transactions of the Bristol and Glocestershire
+                                    Archaeological Society</title> XXXI (1908) 88-9 seems very
+                                dubious.</p></provenance>
+                        <provenance type="MLGB3_laterOwners">In 1964, Ker reported the location of
+                            this book as Bristol, All Saints' Church. It is now in the Bristol
+                            Archives.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                        <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                            Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                            Bodleian Library).</bibl>
+                                        <bibl>Neil R. Ker, ed., <title><ref
+                                                  target="https://hdl.handle.net/2027/uva.x000937945"
+                                                  >Medieval Libraries of Great Britain: A List of
+                                                  Surviving Books</ref></title>, Royal Historical
+                                            Society Guides and Handbooks, 3 (London, 2nd edn,
+                                            1964)</bibl>
+                                        <bibl>Neil R. Ker, ed., <title><ref
+                                                  target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                                  >Medieval Libraries of Great Britain: A List of
+                                                  Surviving Books</ref></title>, Royal Historical
+                                            Society Guides and Handbooks, 15 (London, supplement,
+                                            ed. Andrew G. Watson, 1987).</bibl>
+                                    </listBibl>Note: Shelfmark updated to reflect current location,
+                                    and ISTC number supplied. </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl type="WRAPPER">
+                            <listBibl type="INTERNET">
+                                <head>Online resources:</head>
+                                <bibl><ref
+                                        target="https://archives.bristol.gov.uk/records/P.AS/B/15"
+                                        >Bristol Archives catalogue</ref></bibl>
+                            </listBibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!-- Index card images (box 10): Test 3_0613.jpg, Test 3_0614.jpg -->
+        <revisionDesc>
+            <change when="2026-08-21">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>

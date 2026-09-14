@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Added rejected provenance</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -36,8 +41,15 @@
                <msIdentifier>
                   <country>England</country>
                   <settlement>Bristol</settlement>
-                  <repository>Bristol Record Office</repository>
-                  <idno type="shelfmark">P.AS/B/13 (olim Bristol, All Saints, 5)</idno>
+                  <repository>Bristol Archives</repository>
+                  <idno type="shelfmark">P.AS/B/13 (pr. bk.; formerly Bristol, All Saints' Church,
+                     5)</idno>
+                  <altIdentifier>
+                     <country>England</country>
+                     <settlement>Bristol</settlement>
+                     <repository>All Saints' Church</repository>
+                     <idno type="shelfmark">5 (pr. bk.)</idno>
+                  </altIdentifier>
                   <altIdentifier type="system">
                      <idno type="MLGB3">2824</idno>
                   </altIdentifier>
@@ -45,37 +57,79 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Thomas Aquinas super epistulas Pauli</title>
-                     <note type="MLGB3_generalNotes">Contemporary binding of stamped leather over
-                        boards.</note>
-                     <note type="MLGB3_generalNotes">On fore-edge: "Sanctus thomas super epistolas
-                        pauli".</note>
-                     <note type="MLGB3_generalNotes">Miles Sallay became abbot of Eynsham in [?],
-                        held the abbey in commendam with Llandaft from 1500 until his death in 1516.
-                        This book is part of a small collection supposed to have belonged to the
-                        Kalendars' Gild of Bristol (Trans. Bristol &amp; Glos. Archaeol. Soc. 31
-                        (1908), pp. 88–89).</note>
+                     <author key="person_3340">Thomas Aquinas</author>
+                     <title>Super epistulas Pauli</title>
+                     <note>'Per me Petrum de bergomo'. <ref
+                           target="https://data.cerl.org/istc/it00233000">ISTC it00233000</ref>.
+                        Hain 1338.</note>
                   </msItem>
                </msContents>
-               <physDesc> <typeDesc><p>Printed book.</p></typeDesc> </physDesc><history>
+               <physDesc>
+                  <typeDesc>
+                     <p>Printed book.</p>
+                  </typeDesc>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <p>Contemporary English binding: on foreedge <q>Sanctus thomas super
+                              epistolas Pauli</q></p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
                   <origin>
-                     <origDate when-custom="1481" when="1481" calendar="#gregorian">Bologna (Iohann Schreiber) 1481</origDate>
+                     <origPlace>Bologna: Iohann Schreiber</origPlace>
+                     <origDate when-custom="1481" when="1481" calendar="#gregorian">1481</origDate>
                   </origin>
                   <provenance type="#i"><orgName role="fmo" key="org_205">Eynsham, Oxfordshire.
-                        Benedictine abbey of St Mary the Virgin, St Benedict and All Saints</orgName><p>"Liber milonis abbatis Egonyshamie et landavensis episcopi" (at
-                        beginning).</p><p>"Liber milonis Abbatis de eynesham."</p></provenance>
+                        Benedictine abbey of St Mary the Virgin, St Benedict and All
+                        Saints</orgName><p><q>Liber milonis abbatis Egonyshamie et landavensis
+                           episcopi</q> (at beginning).<q>Liber milonis Abbatis de eynesham.</q></p>
+                     <persName role="fmo">Miles Sallay</persName> became abbot of Eynsham in [?],
+                     held the abbey in commendam with Llandaft from 1500 until his death in
+                     1516.</provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_635">Bristol,
+                        Gloucestershire, Guild of Kalendars in the church of All
+                        Saints</orgName><p>This attribution was rejected in the second edition of
+                        Medieval Libraries of Great Britain (1964), which did not change in the
+                        Supplement (1987). The corresponding Medieval Libraries of Great Britain
+                        index card records the following information, which was deemed
+                        unsatisfactory for an attribution: The ascription to the Gild in
+                           <title>Transactions of the Bristol and Glocestershire Archaeological
+                           Society</title> XXXI (1908) 88-9 seems very dubious.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">In 1964, Ker reported the location of this
+                     book as Bristol, All Saints' Church. It is now in the Bristol
+                     Archives.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref target="https://archives.bristol.gov.uk/records/P.AS/B/13"
+                              >Bristol Archives catalogue</ref></bibl>
+                     </listBibl>
+                  </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-08-25">Record adapted to incorporate rejected provenance for Bristol
+            Guild of Kalendars (transcribed information from the corresponding Medieval Libraries of
+            Great Britain index card; contextualized data history with reference to printed
+            handlists). ISTC reference supplied. Comment added to clarify changed location.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
