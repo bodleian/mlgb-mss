@@ -37,46 +37,123 @@
                   <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Merton College</repository>
-                  <idno type="shelfmark">B.8.G.17 (pr. bk.)</idno>
+                  <idno type="shelfmark">110.C.6 (formerly B8/G17) (pr. bk.)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4031</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1825</idno>
+                  </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6029</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Antonius Andreas in Aristotelem, etc.</title>
-                     <note type="MLGB3_generalNotes">For another inscr. see Worcester.</note>
-                     <note type="MLGB3_generalNotes"> </note>
-                     <note type="MLGB3_generalNotes"> </note>
-                  </msItem>
-               </msContents>
-               <physDesc> <typeDesc><p>Printed book.</p></typeDesc> </physDesc><history>
-                  <origin>
-                     <origDate when-custom="1496" when="1496" calendar="#gregorian">Venice, 1496</origDate>
-                  </origin>
+               <physDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>Stamped binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <provenance type="#i"><orgName role="fmo" key="org_601">Worcester, Worcestershire.
+                        Benedictine cathedral priory of St Mary the Virgin</orgName><p><q>Liber
+                           Willelmi More monachi Wigornie cuius precium iii s iiii d</q> (<persName
+                           role="fmo">William More</persName>, prior 1518–1536).</p></provenance>
                   <provenance type="#i"><orgName role="fmo" key="org_392">Newcastle-upon-Tyne,
-                        Northumberland. Carmelite convent</orgName><p>"Iste liber pertinet ad
-                        fratrem Wyllelmum [...] fratrem domus carmelitarum conventus Novi Castri"
-                        (all but last 3 words cancelled); then in another hand: "nec non [or nunc
-                        vero?] conventrie".</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Scribbles include names of John Watkins and
-                     Thomas Symons as owner, the latter "testibus E. danyello, Burfordo cum
-                     reliquis" (s. xvi).</provenance>
-                  <provenance type="MLGB3_laterOwners">Given to Merton by Robert Barnes.
-                  </provenance>
+                        Northumberland. Carmelite convent</orgName><p><q>Iste liber pertinet ad
+                           fratrem <persName>Wyllelmum [...]</persName> fratrem domus carmelitarum
+                           conventus Novi Castri</q> (all but last 3 words cancelled); then in
+                        another hand: <q>nec non [or nunc vero?] conventrie</q>.</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="org_161">Coventry, Warwickshire.
+                        Carmelite convent</orgName><p>Belonged to a Carmelite who was earlier at the
+                        Newcastle convent (see above).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Scribbles include names of <persName
+                        role="fmo">John Watkins</persName> and <persName role="fmo">Thomas
+                        Symons</persName> as owner, the latter <q>testibus E. danyello, Burfordo cum
+                        reliquis</q> (s. xvi).</provenance>
+                  <provenance type="MLGB3_laterOwners"><p>Given to Merton College by <persName
+                           role="dnr">Robert Barnes</persName>.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Item 1</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <author>Antonius Andreas</author>
+                        <title>super tota arte veteri Aristotelis</title>
+                        <note>ISTC <ref target="https://data.cerl.org/istc/ia00593000"
+                              >ia00593000</ref>. For this copy, see MEI <ref
+                              target="https://data.cerl.org/mei/02129255">02129255</ref>.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <typeDesc>
+                        <p>Printed book.</p>
+                     </typeDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Venice</origPlace>
+                        <origDate when-custom="1496" when="1496" calendar="#gregorian"
+                           >1496</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Item 2</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <author>Scotus</author>
+                        <title>Super universalibus</title>
+                        <note>ISTC <ref target="https://data.cerl.org/istc/id00390000"
+                              >id00390000</ref>. For this copy, see MEI <ref
+                              target="https://data.cerl.org/mei/02129256">02129256</ref>.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <typeDesc>
+                        <p>Printed book.</p>
+                     </typeDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Venice</origPlace>
+                        <origDate notBefore="1492" notAfter="1493" calendar="#gregorian"
+                           >1492/93</origDate>
+                     </origin>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-20">Records 1825 and 6029 merged into this record. Shelfmark updated.
+            Imprint date for item 2 supplied. ISTC and MEI references added.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -34,10 +39,17 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <country>England</country>
-                  <settlement>Bristol</settlement>
-                  <repository>Baptist College</repository>
-                  <idno type="shelfmark">MS Z.e.38</idno>
+                  <country>Untraced</country>
+                  <settlement>Untraced</settlement>
+                  <repository>Untraced</repository>
+                  <idno type="shelfmark">Shelfmark not recorded (formerly Bristol, Baptist College,
+                     MS Z.e.38)</idno>
+                  <altIdentifier>
+                     <country>England</country>
+                     <settlement>Bristol</settlement>
+                     <repository>Baptist College</repository>
+                     <idno type="shelfmark">MS Z.e.38</idno>
+                  </altIdentifier>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1835</idno>
                   </altIdentifier>
@@ -46,24 +58,40 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Biblia</title>
-                     <note type="MLGB3_generalNotes">Now sold and untraced.</note>
+                     <note>Small octavo.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
+                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                        calendar="#gregorian">s. xiii</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="org_165">Crowland, Lincolnshire.
-                        Benedictine abbey of St Mary the Virgin, St Bartholomew, and St Guthlac</orgName><p>'Ric' Slefurth' Monachus Croyla[n]die' (c.
+                  <provenance type="#i"><orgName role="fmo" key="org_165">Crowland, Lincolnshire.
+                        Benedictine abbey of St Mary the Virgin, St Bartholomew, and St
+                        Guthlac</orgName><p>At end: <q><persName role="fmo">Ric'
+                              Slefurth'</persName> Monachus Croyla[n]die</q> (c.
                      1500).</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Andrew Gifford (d. 1784) dono
-                     dedit.</provenance>
-                  <provenance type="MLGB3_laterOwners">John Curcon, a. d. 1552.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Andrew
+                        Gifford</persName> (d. 1784) dono dedit.</provenance>
+                  <provenance type="MLGB3_laterOwners">John Curcon, a.d. 1552.</provenance>
+                  <provenance type="MLGB3_laterOwners">Bristol, Baptist College, MS Z.e.38. This was
+                     the location reported in the second edition of Medieval Libraries of Great
+                     Britain (1964).</provenance>
+                  <provenance type="MLGB3_laterOwners">'Now sold and untraced' according to the
+                     supplement to Medieval Libraries of Great Britain (1987).</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -71,6 +99,10 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-25">Added additional information from corresponding Medieval
+            Libraries of Great Britain index card (book format, location of inscription). Record
+            edited to clarify data history (location reported in different iterations of Medieval
+            Libraries of Great Britain).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

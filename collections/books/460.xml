@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -36,7 +41,8 @@
                <msIdentifier>
                   <settlement>Untraced</settlement>
                   <repository>Untraced</repository>
-                  <idno type="shelfmark">Shelfmark not recorded</idno>
+                  <idno type="shelfmark">Shelfmark not recorded (last known owner: Abednego Seller,
+                     1697)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">460</idno>
                   </altIdentifier>
@@ -44,21 +50,37 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Martyrologium, etc.</title>
+                     <title>Martyrologium in usum Mon. de Bordesley Ad. calc. Regula S.
+                        Benedicti</title>
+                     <note>Imperfect</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate/>
+                     <origDate calendar="#Gregorian" notAfter="1540">[Date not specified]</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="org_59">Bordesley, Worcestershire.
-                        Cistercian abbey of St Mary the Virgin</orgName><p>Abednego Seller
-                        (Bernard, Catalogi (1697), 2. 96, no. 3772).</p></provenance>
+                  <provenance><orgName role="fmo" key="org_59">Bordesley, Worcestershire. Cistercian
+                        abbey of St Mary the Virgin</orgName></provenance>
+                  <provenance type="MLGB3_laterOwners"><note><persName role="fmo">Abednego
+                           Seller</persName> (Bernard, Catalogi (1697), 2. 96, no. 3772). This was
+                        the last known provenance according to all three of the printed handlists
+                        for Medieval Libraries of Great Britain (1941, 1964, 1987). Compare also the
+                        Schoenberg Database of Manuscripts <ref
+                           target="https://sdbm.library.upenn.edu/sources/152"
+                        >SDBM_SOURCE_152</ref>.</note></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -66,6 +88,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-19">Additional title content transcribed from corresponding Medieval
+            Libraries of Great Britain index card. Note added to clarify that date of manuscript is
+            not specified. Data history clarified.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
