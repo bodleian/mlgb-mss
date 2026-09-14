@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -36,7 +41,8 @@
                <msIdentifier>
                   <settlement>Untraced</settlement>
                   <repository>Untraced</repository>
-                  <idno type="shelfmark">Shelfmark not recorded</idno>
+                  <idno type="shelfmark">Shelfmark not recorded (last known owner: Dr. P. F.
+                     Slawson, 1987)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6696</idno>
                   </altIdentifier>
@@ -44,47 +50,64 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Beda super Tobiam etc.</title>
-                     <msItem>
-                        <title>John Cassian, Collationes</title>
-                     </msItem>
-                     <msItem>
-                        <title>Bede, Super Tobiam</title>
-                     </msItem>
-                     <msItem>
-                        <title>Richard of St-Victor, commentaries on Psalms 28, 2, and 25, and
-                           Matthew 2:13.</title>
-                     </msItem>
+                     <author key="person_426">Beda</author>
+                     <title key="work_1438">Super Tobiam</title>
+                  </msItem>
+                  <msItem>
+                     <author key="person_1627">John Cassian</author>
+                     <title key="work_4079">Collationes</title>
+                  </msItem>
+                  <msItem>
+                     <author key="person_2929">Richard of St-Victor</author>
+                     <title>Commentaries on Psalms 28, 2, and 25, and Matthew 2:13</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="11XX" notBefore="1100" notAfter="1199" calendar="#gregorian">s. xii</origDate>
+                     <origDate when-custom="11XX" notBefore="1100" notAfter="1199"
+                        calendar="#gregorian">s. xii</origDate>
                   </origin>
                   <provenance type="#e"><orgName role="fmo" key="org_285">Kirkham, Yorkshire.
-                        Augustinian priory of Holy Trinity or Christ Church</orgName><p> 'Liber
-                        s(an)c(t) T(ri)nitatis de Kirkeha(m) / In hoc volumi(n)e (con)tinent(ur) vii
-                        libri. / Joh(anne)s heremita de .x. coll(ati)o(n)ib(us) / ... ',
-                        flyleaf.</p></provenance>
+                        Augustinian priory of Holy Trinity or Christ Church</orgName><p><q>Liber
+                           s(an)c(t) T(ri)nitatis de Kirkeha(m) / In hoc volumi(n)e (con)tinent(ur)
+                           vii libri. / Joh(anne)s heremita de .x. coll(ati)o(n)ib(us) / ... </q>,
+                        above list of contents on flyleaf.</p></provenance>
                   <provenance type="MLGB3_laterOwners">? John Nettleton (d. 1597) of Hutton
                      Cranswick, collector of manuscripts from Yorkshire monasteries; inscribed 'dono
                      nettelton'.</provenance>
                   <provenance type="MLGB3_laterOwners">Sir John Savile (1545–1607), brother of Sir
                      Henry Savile; sold at Sotheby's, 6 February 1861, lot 42.</provenance>
-                  <provenance type="MLGB3_laterOwners">Sir Thomas Phillipps (1792–1872); sold at
-                     Sotheby's, 17 May 1897, lot 38.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sir Thomas Phillipps (1792–1872); his 25421,
+                     sold at Sotheby's, 17 May 1897, lot 38 to Ellis (£24.10.0). This was the last
+                     known provenance according to the first edition of Medieval Libraries of Great
+                     Britain (1941), p. 59.</provenance>
                   <provenance type="MLGB3_laterOwners">Sir John Arthur Brooke; sold at Sotheby's, 25
-                     May 1921, lot 840, bought by Davis &amp; Orioli (listed as 'untraced' in MLGB2,
-                     p. 106).</provenance>
+                     May 1921, lot 840, bought by Davis and Orioli. This was the last known
+                     provenance according to the second edition of Medieval Libraries of Great
+                     Britain (1964), p. 106.</provenance>
                   <provenance type="MLGB3_laterOwners">Laurence W. Hodson, with his
                      book-label.</provenance>
                   <provenance type="MLGB3_laterOwners">'The property of a Gentleman', sold at
-                     Sotheby's, 8 December 1981, lot 89 (with plate).</provenance>
+                     Sotheby's, 8 December 1981, lot 89 (with plate). Compare also Schoenberg
+                     Database of Manuscripts <ref
+                        target="https://sdbm.library.upenn.edu/manuscripts/844"
+                     >SDBM_MS_844</ref></provenance>
+                  <provenance type="MLGB3_laterOwners">'Now Los Angeles, Dr P. F. Slawson' according
+                     the supplement to Medieval Libraries of Great Britain (1987), p. 41. In MLGB3
+                     (2009-2015), the book reverted to being untraced.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -92,6 +115,10 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-26">Additional information transcribed from corresponding Medieval
+            Libraries of Great Britain index card (Phillips number, Ellis price).Record edited to
+            clarify data history (location reported in different iterations of Medieval Libraries of
+            Great Britain). Reference to Schoenberg Database of Manuscripts added.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
