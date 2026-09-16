@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9028">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace> <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                        >Bodleian Library</ref> </addrLine>
+                    <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address> </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>London</settlement>
+                        <repository>British Library</repository>
+                        <idno type="shelfmark">Egerton MS 1066</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Psalterium cum canticis et kalendario</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin><origDate calendar="#Gregorian" notBefore="1200" notAfter="1299">s.
+                            xiii</origDate></origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_795">Mettingham,
+                            Suffolk, Collegiate church of St Mary the Virgin</orgName> <p>This
+                            attribution was rejected in the second edition of Medieval Libraries of
+                            Great Britain (1964), which did not change in the Supplement (1987). The
+                            corresponding Medieval Libraries of Great Britain index card records the
+                            following information, which was deemed unsatisfactory for an
+                            attribution: <q>Ex dono <persName role="dnr">Willelmi Pepyr</persName>
+                            quondam vicarii de Metyngham cuius anime propicietur deus Amen</q> (fol.
+                            10v, early s. xv). The kalendar has the dedication of Norwich cathedral
+                            as an early addition (fo. 4r) and the later addition of William Pepyr's
+                            obit (fo. 7v). Blomefield notes that William Pepyr was instituted vicar
+                            in 1377 (fo. 10v).</p></provenance>
+                        <provenance type="MGLB3_laterOwners">Kalendar contains in original hand in
+                            red <q>Obitus magistri Johannis de Holebrok militis a.d. Mᵒ CCᵐᵒ
+                            nono</q> (fol. 3v).</provenance>
+                        <provenance type="MGLB3_laterOwners"><q><persName role="fmo">Fran:
+                            Blomfield</persName> Coll.: Gon: Caii Camb: 17--</q> nuper de Fersfield
+                            Com: Norf: (fol. 2r). Also notes by him and his bookplate
+                            1736.</provenance>
+                        <provenance type="MGLB3_laterOwners">Thomas Martin sale 18-21 March 1774,
+                            lot 247.</provenance>
+                        <provenance type="MGLB3_laterOwners">George Scott sale Sotheby 12 March 1781
+                            lot 90 to Jackson (67/).</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                    <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                        Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                        Bodleian Library).</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/uva.x000937945">Medieval
+                                        Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 3 (London, 2nd edn, 1964)</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        >Medieval Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 15 (London, supplement, ed. Andrew G. Watson,
+                                        1987).</bibl>
+                                    </listBibl> </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!-- Index card images (box 10): Test 3_1295.jpg, Test 3_1296.jpg -->
+        <revisionDesc>
+            <change when="2026-08-21">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
