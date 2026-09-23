@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -45,29 +43,69 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Cassiodorus</title>
+                     <author key="person_570">Cassiodorus</author>
+                     <title key="work_1876">Historia tripartita</title>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <p>Medieval binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
                <history>
-                  <origin>
-                     <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199" calendar="#gregorian">s. xii ex</origDate>
-                  </origin>
-                  <provenance type="#e"><orgName role="fmo" key="org_59">Bordesley,
-                        Worcestershire. Cistercian abbey of St Mary the Virgin</orgName><p>'Liber
-                        sancte Marie de Bord'' (s. xiv, on flyleaf facing first leaf of
-                        text).</p><p>Medieval binding.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Thomas Peinton's name at end.</provenance>
+                  <origin> <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199"
+                     calendar="#gregorian">s. xii ex</origDate> </origin>
+                  <provenance type="#e"><orgName role="fmo" key="org_59">Bordesley, Worcestershire.
+                     Cistercian abbey of St Mary the Virgin</orgName><p><q>Liber sancte Marie de
+                     Bord'</q> (s. xiv, on flyleaf facing first leaf of text).</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Thomas
+                     Peinton's</persName> name at end.</provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_217">Ford, Devon,
+                     Cistercian abbey of St Mary the Virgin</orgName> <p>This attribution was
+                     rejected in the second edition of Medieval Libraries of Great Britain (1964),
+                     which did not change in the Supplement (1987). The corresponding Medieval
+                     Libraries of Great Britain index card, which was originally written by R. A. B.
+                     Mynors, records the inscription as follows: <q>Liber Sancte Marie de Ford</q>
+                     [following the Summary Catalogue]. However, Ker later added a note to this
+                     index card identifying a transcription error and thereby reassigning the
+                     provenance: 'But the inscription is <q>Liber sancte Marie de
+                     Bord<ex>esley</ex></q>'.</p></provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><surrogates><bibl subtype="partial" type="digital-facsimile">
-                        <ref target="https://digital.bodleian.ox.ac.uk/objects/03f03f27-cbed-4b5f-a342-63dd6b7c42e3/">
-                           <title>Digital Bodleian</title>
-                        </ref>
-                        <note>(22 images from 35mm slides)</note>
-                     </bibl>
-                  </surrogates><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_7399">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates><bibl subtype="partial" type="digital-facsimile"> <ref
+                     target="https://digital.bodleian.ox.ac.uk/objects/03f03f27-cbed-4b5f-a342-63dd6b7c42e3/"
+                     > <title>Digital Bodleian</title> </ref> <note>(22 images from 35mm
+                     slides)</note> </bibl> </surrogates>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                           target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_7399"
+                           >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1097.jpg, Test 3_1098.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

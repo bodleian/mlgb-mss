@@ -12,29 +12,23 @@
                <note>Conversion from database to TEI</note>
             </respStmt>
             <respStmt xml:id="SW">
-               <resp when="2026">Record merge</resp>
+               <resp when="2026">Record merge; addition of rejected attribution</resp>
                <persName>Sian Witherden</persName>
                <note>Record merge</note>
             </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -57,13 +51,12 @@
                   <adminInfo>
                      <recordHist>
                         <source>Neil R. Ker, ed., <ref
-                              target="https://hdl.handle.net/2027/uiug.30112113075359"
-                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
-                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
-                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
-                              >2nd edn, 1964</ref>; <ref
-                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
-                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
                            James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
@@ -84,17 +77,15 @@
                      </msItem>
                   </msContents>
                   <history>
-                     <origin>
-                        <origDate when-custom="138X/139X" notBefore="1380" notAfter="1399"
-                           calendar="#gregorian">s. xiv ex</origDate>
-                     </origin>
+                     <origin> <origDate when-custom="138X/139X" notBefore="1380" notAfter="1399"
+                        calendar="#gregorian">s. xiv ex</origDate> </origin>
                      <provenance type="#e"><orgName role="fmo" key="org_2">Peterborough,
-                           Northamptonshire. Benedictine abbey of St Peter, St Paul, and St
-                           Andrew</orgName><p>'Iste liber pertinet ad monasterium de burgo sancti
-                           Petri anno domini DCliiij. Amen' (s. xv). The chronicle begins in the
-                           year AD 654.</p></provenance>
+                        Northamptonshire. Benedictine abbey of St Peter, St Paul, and St
+                        Andrew</orgName><p>'Iste liber pertinet ad monasterium de burgo sancti Petri
+                        anno domini DCliiij. Amen' (s. xv). The chronicle begins in the year AD
+                        654.</p></provenance>
                      <provenance type="MLGB3_laterOwners"><persName role="fmo">Thomas
-                           Harris</persName> (s. xvi).</provenance>
+                        Harris</persName> (s. xvi).</provenance>
                   </history>
                </msPart>
                <msPart>
@@ -111,15 +102,19 @@
                      </msItem>
                   </msContents>
                   <history>
-                     <origin>
-                        <origDate when-custom="11XX" notBefore="1100" notAfter="1199"
-                           calendar="#gregorian">s. xii</origDate>
-                     </origin>
+                     <origin> <origDate when-custom="11XX" notBefore="1100" notAfter="1199"
+                        calendar="#gregorian">s. xii</origDate> </origin>
                      <provenance type="#e"><orgName role="fmo" key="org_48">Belvoir, Lincolnshire.
-                           Benedictine priory of St Mary the Virgin; cell of St
-                           Albans</orgName><p>'Hic est liber sancte marie de beluere quem qui
-                           alienauerit anathema sit' (fol. 86v, s. xv).</p><p>Erased inscriptions on
-                           fol. 46r.</p></provenance>
+                        Benedictine priory of St Mary the Virgin; cell of St Albans</orgName><p>'Hic
+                        est liber sancte marie de beluere quem qui alienauerit anathema sit' (fol.
+                        86v, s. xv).</p><p>Erased inscriptions on fol. 46r.</p></provenance>
+                     <provenance type="#rejected"><orgName role="fmo" key="org_69">Bridlington,
+                        Yorkshire, Augustinian priory of St Mary the Virgin</orgName> <p>This
+                        attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card records the
+                        following context for the rejection: Assigned to Bridlington by Stubbs Gesta
+                        Pont. It is from Belvoir.</p></provenance>
                   </history>
                </msPart>
                <msPart>
@@ -135,20 +130,21 @@
                      </msItem>
                   </msContents>
                   <history>
-                     <origin>
-                        <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299"
-                           calendar="#gregorian">s. xii/xiii</origDate>
-                     </origin>
+                     <origin> <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299"
+                        calendar="#gregorian">s. xii/xiii</origDate> </origin>
                      <provenance type="#s"><orgName role="fmo" key="org_260">Holme Cultram,
-                           Cumberland. Cistercian abbey of St Mary the Virgin</orgName><p>"Liber
-                           cciij' primus".</p><p>Script and decoration very like Faustina B.iv fols.
-                           3–179.</p><q type="pressmark">liber cciii primus</q></provenance>
+                        Cumberland. Cistercian abbey of St Mary the Virgin</orgName><p>"Liber cciij'
+                        primus".</p><p>Script and decoration very like Faustina B.iv fols.
+                        3–179.</p><q type="pressmark">liber cciii primus</q></provenance>
                   </history>
                </msPart>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0599.jpg, Test 3_600.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2026-07-09">Records 419 and 3236 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>

@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -45,30 +43,45 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>P. Comestor</title>
+                     <author key="person_2558">P. Comestor</author>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
-                  </origin>
+                  <origin> <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                     calendar="#gregorian">s. xiii</origDate> </origin>
                   <provenance type="#e"><orgName role="fmo" key="org_68">Bridgwater, Somerset.
-                        Franciscan convent</orgName><p>'Historie scolastice date communitati
-                        Minorum Brugg' de dono mag. J. de Middelton' (fol. 2v).</p><q type="pressmark">[M:23 altered to A:18]</q></provenance>
+                     Franciscan convent</orgName><p>'Historie scolastice date communitati Minorum
+                     Brugg' de dono mag. J. de Middelton' (fol. 2v).</p><q type="pressmark">[M:23
+                     altered to A:18]</q></provenance>
                   <provenance type="MLGB3_laterOwners">John Theyer (1663), antiquary (bap. 1598, d.
                      1673).</provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_954">Bridgnorth,
+                     Shropshire, Franciscan convent</orgName> <p>This attribution was rejected in
+                     the second edition of Medieval Libraries of Great Britain (1964), which did not
+                     change in the Supplement (1987). The corresponding Medieval Libraries of Great
+                     Britain index card simply notes: 'See Bridgwater'.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0597.jpg, Test 3_598.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
