@@ -11,25 +11,24 @@
                     <resp when="2026">Transcription and encoding of index card</resp>
                     <persName>Sian Witherden</persName>
                 </respStmt>
+                <respStmt>
+                    <resp when="2026">Addition of rejected provenance</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <publisher>Bodleian Library</publisher>
-                <pubPlace>
-                    <address>
-                        <addrLine>Department of Special Collections</addrLine>
-                        <addrLine>Bodleian Library</addrLine>
-                        <street>Broad Street</street>
-                        <settlement>Oxford</settlement>
-                        <postCode>OX1 3BG</postCode>
-                        <addrLine>
-                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
-                                >Bodleian Library</ref>
-                        </addrLine>
-                        <addrLine>
-                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                        </addrLine>
-                    </address>
-                </pubPlace>
+                <pubPlace> <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                        >Bodleian Library</ref> </addrLine>
+                    <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address> </pubPlace>
             </publicationStmt>
             <sourceDesc>
                 <msDesc xml:lang="en">
@@ -56,15 +55,19 @@
                         </bindingDesc>
                     </physDesc>
                     <history>
-                        <origin>
-                            <origDate calendar="Gregorian" notBefore="1400" notAfter="1499">s.
-                                xv</origDate>
-                        </origin>
+                        <origin> <origDate calendar="Gregorian" notBefore="1400" notAfter="1499">s.
+                            xv</origDate> </origin>
                         <provenance cert="low"><orgName role="fmo" key="org_822">Bury St Edmunds,
-                                Suffolk. Parish church of St Mary</orgName>
-                            <p>Kalendar has in red St Wynwaloy, St Benedict, St Erkenwald.
-                                    <q>Dedicacio ecclesie beate Marie de Bury S
-                            Edm'</q></p></provenance>
+                            Suffolk. Parish church of St Mary</orgName> <p>Kalendar has in red St
+                            Wynwaloy, St Benedict, St Erkenwald. <q>Dedicacio ecclesie beate Marie
+                            de Bury S Edm'</q></p></provenance>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_86">Bury St
+                            Edmunds, Suffolk, Benedictine abbey of St Edmund, King and
+                            Martyr</orgName><p>This attribution was rejected in the second edition
+                            of Medieval Libraries of Great Britain (1964), which did not change in
+                            the Supplement (1987). No corresponding Medieval Libraries of Great
+                            Britain index card was found during data reconciliation work undertaken
+                            in 2026.</p></provenance>
                     </history>
                     <additional>
                         <adminInfo>
@@ -76,10 +79,10 @@
                         </adminInfo>
                         <listBibl>
                             <bibl>Ker, Neil R., ed., <ref
-                                    target="https://hdl.handle.net/2027/uva.x002754058"
-                                        ><title>Medieval Libraries of Great Britain: A List of
-                                        Surviving Books</title></ref>, 2nd edn, Royal Historical
-                                Society Guides and Handbooks, 3 (London, 1964).</bibl>
+                                target="https://hdl.handle.net/2027/uva.x002754058"><title>Medieval
+                                Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                                2nd edn, Royal Historical Society Guides and Handbooks, 3 (London,
+                                1964).</bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -87,6 +90,8 @@
             <!-- Index card images (box 10): Test 3_0049.jpg, Test 3_0050.jpg -->
         </fileDesc>
         <revisionDesc>
+            <change when="2026-09-18">Record edited (Sian Witherden, 2026) to add rejected
+                provenance.</change>
             <change when="2026-03-25">Record created.</change>
         </revisionDesc>
     </teiHeader>

@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt>
+               <resp when="2026">Addition of rejected provenance</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -45,28 +43,42 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Bernardus, In Cantica canticorum</title>
+                     <author key="person_447">Bernardus</author>
+                     <title key="work_1589">In Cantica canticorum</title>
                      <note type="MLGB3_generalNotes">Cf. Oxford, St John's Coll., 65.</note>
-                     <note type="MLGB3_generalNotes">[The columns of the MS. are lettered a.b.c etc.
-                        and the lines numbered. Cf. Royal 6 D.iii and 8 G.iv (from Evesham)].</note>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199" calendar="#gregorian">s. xii ex.</origDate>
-                  </origin>
+                  <origin> <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199"
+                     calendar="#gregorian">s. xii ex.</origDate> </origin>
                   <provenance type="#i"><orgName role="fmo" key="org_569">Warwick, Warwickshire.
-                        Dominican convent</orgName><p>'Precium huius libri quod solvit frater
-                        Nicholaus Stremer apud Euysham a. d. 1488 tunc tursor. [sic] London. ibidem
-                        fuit in summa ...' (fol. 204r).</p><p>'Stremer ordinis predicatorum
-                        conventus warrwici' (fol. i recto).</p></provenance>
+                     Dominican convent</orgName><p>'Precium huius libri quod solvit frater Nicholaus
+                     Stremer apud Euysham a. d. 1488 tunc tursor. [sic] London. ibidem fuit in summa
+                     ...' (fol. 204r).</p><p>'Stremer ordinis predicatorum conventus warrwici' (fol.
+                     i recto).</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_199">Evesham,
+                     Worcestershire, Benedictine abbey of St Mary the Virgin and St
+                     Egwin</orgName><p>This attribution was rejected in the second edition of
+                     Medieval Libraries of Great Britain (1964), which did not change in the
+                     Supplement (1987). No corresponding Medieval Libraries of Great Britain index
+                     card was found during data reconciliation work undertaken in 2026. For
+                     comparison, the following information about the manuscript was added in MLGB3
+                     (2010-2015): The columns of the MS. are lettered a.b.c etc. and the lines
+                     numbered. Cf. Royal 6 D.iii and 8 G.iv (from Evesham).</p></provenance>
                   <provenance type="MLGB3_laterOwners">Archbp. Cranmer.</provenance>
                   <provenance type="MLGB3_laterOwners">Lumley.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -74,6 +86,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-18">Record edited (Sian Witherden, 2026) to add rejected provenance
+            and clarify data history.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

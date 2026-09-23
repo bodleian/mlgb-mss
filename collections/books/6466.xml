@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt>
+               <resp when="2026">Addition of rejected provenance</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -49,23 +47,45 @@
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate/>
-                  </origin>
-                  <provenance><orgName role="fmo" key="org_189">Durham. Benedictine cathedral
-                        priory of St Cuthbert</orgName></provenance>
+                  <origin> <origDate calendar="#Gregorian" notBefore="1450" notAfter="1499"
+                     >s.xv²</origDate> </origin>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_189">Durham, Durham,
+                     Benedictine cathedral priory of St Cuthbert</orgName><p>This attribution was
+                     accepted in the second edition of Medieval Libraries of Great Britain (1964).
+                     However, the attribution was later rejected in the Supplement (1987), at which
+                     point Durham books were thoroughly revisited. Apparently erroneously, this book
+                     was listed under Durham in MLGB3 (2010-2015). No corresponding Medieval
+                     Libraries of Great Britain index card was found during data reconciliation work
+                     undertaken in 2026.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref target="https://searcharchives.bl.uk/catalog/040-001612931"
+                           >British Library Archives and Manuscripts Catalogue</ref></bibl>
+                     </listBibl>
+                  </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-18">Record edited (Sian Witherden, 2026) to reject Durham attribution
+            in line with the Supplement (1987), and to clarify data history. Link to British Library
+            catalogue entry added, and manuscript date supplied from this description.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

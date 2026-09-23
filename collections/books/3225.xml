@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt>
+               <resp when="2026">Addition of rejected provenance</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -46,24 +44,35 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Psalterium</title>
-                     <note type="MLGB3_generalNotes">Cf. N.P.S. 1, pls. 14–16, preferring this
-                        identification to the one with Bury.</note>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="130X/131X" notBefore="1300" notAfter="1319" calendar="#gregorian">s. xiv in.</origDate>
-                  </origin>
-                  <provenance type="#i" cert="low"><orgName role="fmo" key="org_259">Holme St Benet's,
-                        Norfolk. Benedictine abbey of St Benedict</orgName><p>"Psalterium dompni
-                        Iohannis abbatis ex dono domini Thome vicarii de Gorleston" (flyleaf), s.
-                        xiv in.</p></provenance>
+                  <origin> <origDate when-custom="130X/131X" notBefore="1300" notAfter="1319"
+                     calendar="#gregorian">s. xiv in.</origDate> </origin>
+                  <provenance type="#i" cert="low"><orgName role="fmo" key="org_259">Holme St
+                     Benet's, Norfolk. Benedictine abbey of St Benedict</orgName><p><q>Psalterium
+                     dompni Iohannis abbatis ex dono domini Thome vicarii de Gorleston</q>
+                     (flyleaf), s. xiv in. Cf. N.P.S. 1, pls. 14–16, preferring this identification
+                     to the one with Bury.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_86">Bury St Edmunds,
+                     Suffolk, Benedictine abbey of St Edmund, King and Martyr</orgName><p>This
+                     rejected attribution first appeared in the Supplement to Medieval Libraries of
+                     Great Britain (1987). No corresponding Medieval Libraries of Great Britain
+                     index card was found during data reconciliation work undertaken in
+                     2026.</p></provenance>
                   <provenance type="MLGB3_laterOwners">English College at Douai.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -71,6 +80,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-18">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
