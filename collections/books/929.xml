@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -49,35 +47,54 @@
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="138X/139X" notBefore="1380" notAfter="1399" calendar="#gregorian">s. xiv ex</origDate>
-                  </origin>
-                  <provenance type="#i"><orgName role="fmo" key="org_96">Cambridge,
-                        Cambridgeshire. Convent of Austin friars</orgName><p>Copied by Adam de
-                        Stockton, lector in the Austin convent at Cambridge c. 1375: 'scriptus a
-                        fratre Adam de Stocton lectore in conuentu Cantebrigie a.d. mccc
-                        septuagesimo septimus' (p. 361), and in other places in the MS in other
-                        years (BRUC 557).</p><p>'Liber iste pertinet fratri Roberto Mendham anno
-                        domini MoCCCC nonagesimo vijo' (at end). [i.e. Robert Mendham OESA,
-                        Cambridge convent in 1470–71; in 1508; BRUC 401–2.]</p><p>'Liber iste
-                        pertinet fratri Thome Swyllyngton anno domini moccccco vo ita est per me
-                        prescript'' (at end). [i.e. Thomas Swillington OP, Cambridge convent in
-                        1408; BRUC 571.]</p><p>Also 'conuentus . . . . brigie', erased.</p><p> </p></provenance>
-                  <provenance type="MLGB3_laterOwners">John Dee (1527–1609), mathematician,
-                     astrologer, and antiquary: 'Ioannes Dee 1561 Bostoniae' (fol. 5r). Dee's cat.
-                     C, no. 7.</provenance>
+                  <origin> <origDate when-custom="138X/139X" notBefore="1380" notAfter="1399"
+                     calendar="#gregorian">s. xiv ex</origDate> </origin>
+                  <provenance type="#i"><orgName role="fmo" key="org_96">Cambridge, Cambridgeshire.
+                     Convent of Austin friars</orgName><p>Copied by Adam de Stockton, lector in the
+                     Austin convent at Cambridge c. 1375: 'scriptus a fratre Adam de Stocton lectore
+                     in conuentu Cantebrigie a.d. mccc septuagesimo septimus' (p. 361), and in other
+                     places in the MS in other years (BRUC 557).</p><p>'Liber iste pertinet fratri
+                     Roberto Mendham anno domini MoCCCC nonagesimo vijo' (at end). [i.e. Robert
+                     Mendham OESA, Cambridge convent in 1470–71; in 1508; BRUC 401–2.]</p><p>'Liber
+                     iste pertinet fratri Thome Swyllyngton anno domini moccccco vo ita est per me
+                     prescript'' (at end). [i.e. Thomas Swillington OP, Cambridge convent in 1408;
+                     BRUC 571.]</p><p>Also 'conuentus . . . . brigie', erased.</p><p>
+                     </p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_94">Cambridge,
+                     Cambridgeshire, Franciscan convent</orgName> <p>This attribution was rejected
+                     in the second edition of Medieval Libraries of Great Britain (1964), which did
+                     not change in the Supplement (1987). The corresponding Medieval Libraries of
+                     Great Britain index card offers the following context for the
+                     rejection:</p>Conjecture of provenance by James, <title>Library of Dr John
+                     Dee.</title> But see Esposito in <title>EHR</title> XXXIII (1918), 359-66, and
+                     Tanner's <title>Biblioteca</title>, from which it appears that Adam de Stockton
+                     was lector in the Augustinian convent at Cambridge.<p/></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">John Dee</persName>
+                     (1527–1609), mathematician, astrologer, and antiquary: <q>Ioannes Dee 1561
+                     Bostoniae</q> (fol. 5r). Dee's cat. C, no. 7. Compare Oxford, Corpus Christi
+                     College, MS 228.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0769.jpg, Test 3_770.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

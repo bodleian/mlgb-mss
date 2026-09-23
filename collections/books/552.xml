@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -41,52 +39,91 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">552</idno>
                   </altIdentifier>
-               <altIdentifier><idno type="MLGB3">3837</idno>
-                  </altIdentifier></msIdentifier>
+                  <altIdentifier>
+                     <idno type="MLGB3">3837</idno>
+                  </altIdentifier>
+                  <altIdentifier type="internal">
+                     <idno type="SCN">2709</idno>
+                  </altIdentifier>
+               </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title source="552">J. Cassianus</title>
-                  <title source="3837">J. Cassianus, Collationes</title>
-                     <note type="MLGB3_generalNotes" source="3837">Erased inscription, s. xii--xiii on fol. ii
-                        verso in green and black inks, 'Liber sancte marie [...]' (v.
-                        Buildwas).</note>
-                     <note type="MLGB3_generalNotes" source="3837">Medeval binding; bookmarks on front cover
-                        (corners and centre); flaps project above headbands.</note>
-                     <note type="MLGB3_generalNotes" source="3837">As Oxford, Trinity College, MS 58, and
-                        Cambridge, St John's I.15, given to the London Carmel by Thomas Netter of
-                        Walden. Leland (Collectanea 4. 52) says that he gave many more.</note>
+                     <author key="person_1627">J. Cassianus</author>
+                     <title key="work_4079">Collationes</title>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <p>Medieval binding; bookmarks on front cover (corners and centre); flaps
+                           project above headbands.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
                <history>
-                  <origin>
-                     <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199" calendar="#gregorian">s. xii ex</origDate>
-                  </origin>
-                  <provenance type="#b s" cert="low" source="552"><orgName role="fmo" key="org_83">Buildwas, Shropshire.
-                        Savigniac and (1147) Cistercian abbey of St Mary the Virgin and St Chad</orgName><p>Medieval binding, with nailmarks for bosses at each corner and
-                        in centre of front cover (cf. Bodley 371, 395); style of initials (cf.
-                        Bodley 395) suggests provenance; inscription in alternate green and black
-                        words 'Liber sancte marie [. . . .]' at foot of verso of flyleaf facing
-                        first leaf of text.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Later belonged to the London Carmelites
-                     (q.v.).</provenance>
-               <provenance type="#e" source="3837"><orgName role="fmo" key="org_340">London. Carmelite
-                        convent</orgName><p>'Conventus Carmelitorum Londonie ex assignacione
-                        fratris Thome Walden.' (fol. 1r, at top). This is Thomas Netter of Walden
-                        (1370–1440), prior provincial of the Carmelite order in England.</p><p>I
-                        66m (fol. 1r, at top, above right side of 1st col.).</p><q type="pressmark">I.66m</q></provenance>
+                  <origin> <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199"
+                     calendar="#gregorian">s. xii ex</origDate> </origin>
+                  <provenance type="#b s" cert="low" source="552"><orgName role="fmo" key="org_83"
+                     >Buildwas, Shropshire. Savigniac and (1147) Cistercian abbey of St Mary the
+                     Virgin and St Chad</orgName><p>Medieval binding, with nailmarks for bosses at
+                     each corner and in centre of front cover (cf. Bodley 371, 395); style of
+                     initials (cf. Bodley 395) suggests provenance; inscription in alternate green
+                     and black words 'Liber sancte marie [. . . .]' at foot of verso of flyleaf
+                     facing first leaf of text in a late s. xii hand, same as that of table of
+                     contents on the same page above.</p></provenance>
+                  <provenance type="#e" source="3837"><orgName role="fmo" key="org_340">London.
+                     Carmelite convent</orgName><p>Later belonged to the London Carmelites.
+                     <q>Conventus Carmelitorum Londonie ex assignacione fratris Thome Walden.</q>
+                     (fol. 1r, at top). This is Thomas Netter of Walden (1370–1440), prior
+                     provincial of the Carmelite order in England. Netter also gave Oxford, Trinity
+                     College, MS 58, and Cambridge, St John's I.15. Leland (Collectanea 4. 52) says
+                     that he gave many more.</p><p>I 66m (fol. 1r, at top, above right side of 1st
+                     col.).</p><q type="pressmark">I.66m</q></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_458">Reading, Berkshire,
+                     Benedictine abbey of Saint Mary the Virgin</orgName> <p>This attribution was
+                     rejected in the second edition of Medieval Libraries of Great Britain (1964),
+                     which did not change in the Supplement (1987). The corresponding Medieval
+                     Libraries of Great Britain index card originally offered the following
+                     interpretation of the erased inscription: <q>Liber sancte Marie <supplied>de
+                     Radyngia</supplied></q>. However, the supplied phrase 'de Radyngia' was later
+                     crossed out, and a note added above: ?Buildwas.</p></provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><surrogates><bibl subtype="partial" type="digital-facsimile">
-                        <ref target="https://digital.bodleian.ox.ac.uk/objects/854264b4-301c-490a-997c-7ab3e17feac0/">
-                           <title>Digital Bodleian</title>
-                        </ref>
-                        <note>(14 images from 35mm slides)</note>
-                     </bibl>
-                  </surrogates><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_1720">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates><bibl subtype="partial" type="digital-facsimile"> <ref
+                     target="https://digital.bodleian.ox.ac.uk/objects/854264b4-301c-490a-997c-7ab3e17feac0/"
+                     > <title>Digital Bodleian</title> </ref> <note>(14 images from 35mm
+                     slides)</note> </bibl> </surrogates>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                           target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_1720"
+                           >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1473.jpg, Test 3_1474.jpg -->
       </fileDesc>
       <revisionDesc>
-         <change when="2025-09-18">Record 3837 merged into this record.</change><change when="2025-05-21">Record created.</change>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
+         <change when="2025-09-18">Record 3837 merged into this record.</change>
+         <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>
