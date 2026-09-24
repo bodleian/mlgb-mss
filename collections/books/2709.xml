@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record editing</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,45 +41,88 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Cotton MS Vitellius A.vii fols. 1-112</idno>
+                  <idno type="shelfmark">Cotton MS Vitellius A.vii</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">2709</idno>
                   </altIdentifier>
-               <altIdentifier><idno type="MLGB3">4469</idno>
-                  </altIdentifier></msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Pontificale</title>
-                     <note type="MLGB3_generalNotes">Perhaps the "i liber Leofrici primi Exonensis
-                        [sic] Episcopi ..." in 1506 Cat. (Oliver, Lives, p. 351).</note>
-                  </msItem>
-               </msContents>
+                  <altIdentifier>
+                     <idno type="MLGB3">4469</idno>
+                  </altIdentifier>
+               </msIdentifier>
                <history>
-                  <origin>
-                     <origDate when-custom="1050/1075" notBefore="1050" notAfter="1075" calendar="#gregorian">s. xi 3/4</origDate>
-                  </origin>
-                  <provenance type="#s" source="2709"><orgName role="fmo" key="org_1">Exeter, Devon. Cathedral
-                        church of St Peter</orgName><p>Exeter script; see E. M. Drage, Bishop
-                        Leofric and Exeter Cathedral Chapter (1050–1072), Oxford DPhil thesis,
-                        1978.</p></provenance>
-               <provenance type="#l" cert="low" source="4469"><orgName role="fmo" key="org_456">Ramsey,
-                        Huntingdonshire. Benedictine Abbey of Saint Mary the Virgin and St Benedict</orgName><p>Certainly East Anglian. Ivo, Æthelred, Ælthelbirht, Ægelflæd in
-                        the longer litany, and Ægelflæd in the shorter litany suggestt
-                     Ramsey.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_470">Romsey, Hampshire,
+                        Abbey of Saint Mary the Virgin and St Elfleda, of Benedictine
+                        nuns</orgName><p>The Romsey attribution was rejected in the second edition
+                        of Medieval Libraries of Great Britain (1964), with no folio references
+                        specified. No changes to the Romsey attribution were made in the Supplement
+                        (1987). During data reconciliation in 2026, no corresponding index card was
+                        found. It is worth noting, though, that the rejected Romsey card for London,
+                        British Library, Additional MS 28188 has the following note at the top:
+                        'Reject, and reject also Cotton Vit. A. vii'.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 1-112</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Pontificale</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="1050/1075" notBefore="1050" notAfter="1075"
+                           calendar="#gregorian">s. xi 3/4</origDate>
+                     </origin>
+                     <provenance type="#s" source="2709"><orgName role="fmo" key="org_1">Exeter,
+                           Devon. Cathedral church of St Peter</orgName><p>Exeter script; see E. M.
+                           Drage, Bishop Leofric and Exeter Cathedral Chapter (1050–1072), Oxford
+                           DPhil thesis, 1978. Perhaps the "i liber Leofrici primi Exonensis [sic]
+                           Episcopi ..." in 1506 Cat. (Oliver, <title>Lives</title>, p.
+                        351).</p></provenance>
+                     <provenance type="#rejected"><orgName role="fmo" key="org_456">Ramsey,
+                           Huntingdonshire. Benedictine Abbey of Saint Mary the Virgin and St
+                           Benedict</orgName><p>The Ramsey attribution was accepted (albeit with a
+                           query) in both the first and second editions of Medieval Libraries of
+                           Great Britain (1941, 1964). However, Ramsey was later rejected in favour
+                           of Exeter in the Supplement (1987). In MLGB3 (2010-2015), the Ramsey
+                           attribution was once again accepted with a query, but apparently in
+                           error. Note the evidence that was provided in MLGB3: "Certainly East
+                           Anglian; Ivo, Æthelred, Ælthelbirht, Ægelflæd in the longer litany, and
+                           Ægelflæd in the shorter litany suggest Ramsey." This is a direct
+                           transcription of the corresponding Medieval Libraries of Great Britain
+                           index card for the Ramsey attribution. This card was written by Ker
+                           around the 1930s, and it was never updated to reflect the 1987
+                           rejection.</p></provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-09-18">Record 4469 merged into this record.</change><change when="2025-05-21">Record created.</change>
+         <change when="2026-09-23">Record edited (Sian Witherden, 2026) to incorporate rejected
+            attributions and to clarify data history. Ramsey attribution changed from uncertain to
+            rejected.</change>
+         <change when="2025-09-18">Record 4469 merged into this record.</change>
+         <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>
