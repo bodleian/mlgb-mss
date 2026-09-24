@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -49,17 +47,39 @@
                   <adminInfo>
                      <recordHist>
                         <source>Neil R. Ker, ed., <ref
-                              target="https://hdl.handle.net/2027/uiug.30112113075359"
-                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
-                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
-                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
-                              >2nd edn, 1964</ref>; <ref
-                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
-                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
                            James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 1-167</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>Flores historiarum</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin><origDate notBefore="1300" notAfter="1399" calendar="#gregorian">s.
+                        xiv</origDate></origin>
+                     <provenance type="#rejected"><orgName role="fmo" key="org_330">London, London,
+                        Cathedral church of St Paul</orgName> <p>This attribution was rejected in
+                        the second edition of Medieval Libraries of Great Britain (1964), which did
+                        not change in the Supplement (1987). The corresponding Medieval Libraries of
+                        Great Britain index card records the following information, which was deemed
+                        unsatisfactory for an attribution: <q>Possibly may be from St Paul's</q> (M.
+                        R. James).</p></provenance>
+                  </history>
+               </msPart>
                <msPart>
                   <msIdentifier>
                      <altIdentifier>
@@ -73,21 +93,19 @@
                      </msItem>
                   </msContents>
                   <history>
-                     <origin>
-                        <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
-                           calendar="#gregorian">s. xiii</origDate>
-                     </origin>
+                     <origin> <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                        calendar="#gregorian">s. xiii</origDate> </origin>
                      <provenance type="#m" cert="low"><orgName role="fmo" key="org_1">Exeter, Devon.
-                           Cathedral church of St Peter</orgName><p>The corresponding MLGB index
-                           card for this provenance records the following evidence: <q>Formerly part
-                              of Lambeth Palace 104, fols. i, 1– (Exeter) (see MS. Tanner 268). A
-                              note in Bishop Grandisson's hand on fol 170v.</q> However, this was
-                           questioned in MLGB3: <q>MLGB2 states that Lambeth Palace 188, fols.
-                              168–174, was part of <ref
-                                 target="https://mlgb.bodleian.ox.ac.uk/catalog/book_2714">Lambeth
-                                 Palace 104</ref>, fols. i, 1–208. But this is not obvious and nor
-                              does the supposed hand of Grandisson resemble the bishop's normal hand
-                              (James Willoughby).</q></p></provenance>
+                        Cathedral church of St Peter</orgName><p>The corresponding Medieval
+                        Libraries of Great Britain index card for this provenance records the
+                        following evidence: <q>Formerly part of Lambeth Palace 104, fols. i, 1–
+                        (Exeter) (see MS. Tanner 268). A note in Bishop Grandisson's hand on fol
+                        170v.</q> However, this was questioned in MLGB3 (2010-2015): <q>MLGB2 states
+                        that Lambeth Palace 188, fols. 168–174, was part of <ref
+                        target="https://mlgb.bodleian.ox.ac.uk/catalog/book_2714">Lambeth Palace
+                        104</ref>, fols. i, 1–208. But this is not obvious and nor does the supposed
+                        hand of Grandisson resemble the bishop's normal hand (James
+                        Willoughby).</q></p></provenance>
                   </history>
                </msPart>
                <msPart>
@@ -106,27 +124,28 @@
                      </msItem>
                   </msContents>
                   <history>
-                     <origin>
-                        <origDate when-custom="13XX/14XX" notBefore="1300" notAfter="1499"
-                           calendar="#gregorian">s. xiv-xv</origDate>
-                     </origin>
+                     <origin> <origDate when-custom="13XX/14XX" notBefore="1300" notAfter="1499"
+                        calendar="#gregorian">s. xiv-xv</origDate> </origin>
                      <provenance type="#c"><orgName role="fmo" key="org_404">Norwich, Norfolk.
-                           Benedictine cathedral priory of Holy Trinity</orgName>
-                        <p>Lambeth Palace 188 fols. 175–179, has been detached apparently from <ref
-                              target="https://mlgb.bodleian.ox.ac.uk/catalog/book_4136">London,
-                              British Library, Additional MS 15759</ref>. On verso of 1st (blank)
-                           leaf: "O. xcviij".<q type="pressmark">O.xcviii</q>
-                        </p></provenance>
+                        Benedictine cathedral priory of Holy Trinity</orgName> <p>Lambeth Palace 188
+                        fols. 175–179, has been detached apparently from <ref
+                        target="https://mlgb.bodleian.ox.ac.uk/catalog/book_4136">London, British
+                        Library, Additional MS 15759</ref>. On verso of 1st (blank) leaf: "O.
+                        xcviij".<q type="pressmark">O.xcviii</q> </p></provenance>
                      <provenance type="MLGB3_laterOwners"><persName role="fmo">Roger
-                           Gorst</persName> (also in <ref
-                           target="https://mlgb.bodleian.ox.ac.uk/catalog/book_4149">Lambeth
-                           192</ref>), s. xvi.</provenance>
+                        Gorst</persName> (also in <ref
+                        target="https://mlgb.bodleian.ox.ac.uk/catalog/book_4149">Lambeth
+                        192</ref>), s. xvi.</provenance>
                   </history>
                </msPart>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1247.jpg, Test 3_1248.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected provenance,
+            with folio references for part 1 of the manuscript supplied from James's
+            catalogue.</change>
          <change when="2026-05-28">Record 4147 merged into this record. Transcription of index card
             for fols. 168-174 clarified.</change>
          <change when="2025-05-21">Record created.</change>

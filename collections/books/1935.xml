@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Clarification of data history</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -41,36 +39,72 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">1935</idno>
                   </altIdentifier>
+                  <altIdentifier type="internal">
+                     <idno type="SCN">3888</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la" otherLangs="gd">Latin and Scottish Gaelic</textLang>
                   <msItem>
-                     <title>J. Fordun Chronicle of Scotland to 1435</title>
-                     <note type="MLGB3_generalNotes">Recorded in MLGB2 as rejected, this was listed
-                        (thanks to the advice of John Durkan) in the 1987 Supplement.</note>
+                     <title>Liber Pluscardensis</title>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="1489" when="1489" calendar="#gregorian">1489</origDate>
-                  </origin>
+                  <origin> <origDate when-custom="1489" when="1489" calendar="#gregorian"
+                     >1489</origDate> </origin>
                   <provenance type="#b"><orgName role="fmo" key="org_183">Dunfermline, Fife.
-                        Benedictine abbey of the Holy Trinity</orgName><p>Binding leaves (not
-                        mentioned in Summary Catalogue no. 3888) are from Dunfermline abbey
-                        accounts.</p><p> </p></provenance>
+                     Benedictine abbey of the Holy Trinity</orgName><p>This attribution was rejected
+                     in the second edition of Medieval Libraries of Great Britain (1964). The
+                     corresponding Medieval Libraries of Great Britain index card recorded the
+                     following evidence, at that stage with some skepticism:</p> <p>'Fol. 203:
+                     Protest by Adam Forman, prior of Dunfermline, against a sentence of
+                     excommunication, 3 May 1525. Transcript of lost original written at Pluscarden
+                     (cell of Dunfermline) for Richard Bothwell, abobt of Dunfermline. Skene
+                     apparently attributes the manuscript to Dunfermline purely on the strength of
+                     the document above.'</p> <p>However, the Dunfermline attribution was later
+                     accepted in the Medieval Libraries of Great Britain Supplement (1987). MLGB3
+                     (2010-2015) clarified that this attribution was listed thanks to the advice of
+                     John Durkan, and noted: 'the binding leaves (not mentioned in Summary Catalogue
+                     no. 3888) are from Dunfermline abbey accounts.'</p></provenance>
                   <provenance type="MLGB3_laterOwners">'I Spend luffe' at fol. 80: one of this name
                      was a monk of Dunfermline, s. xv ex.</provenance>
+                  <provenance type="MLGB3_laterOwners">Family of Drummond of Hawthornden. <q>Mr
+                     James Drummond 1650. Gifted theis book to Coronall Fairfax the 17 of December,
+                     Anno 1650.</q></provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><surrogates><bibl subtype="partial" type="digital-facsimile">
-                        <ref target="https://digital.bodleian.ox.ac.uk/objects/f40a0c4e-653b-46b7-8c01-08dd8d42598d/">
-                           <title>Digital Bodleian</title>
-                        </ref>
-                        <note>(1 image from 35mm slides)</note>
-                     </bibl>
-                  </surrogates><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_4869">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates><bibl subtype="partial" type="digital-facsimile"> <ref
+                     target="https://digital.bodleian.ox.ac.uk/objects/f40a0c4e-653b-46b7-8c01-08dd8d42598d/"
+                     > <title>Digital Bodleian</title> </ref> <note>(1 image from 35mm
+                     slides)</note> </bibl> </surrogates>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                           target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_4869"
+                           >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0997.jpg, Test 3_998.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to clarify data history and
+            transcribe additional information from corresponding index card.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
