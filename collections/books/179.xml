@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -45,30 +43,56 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Willelmus Peraldus</title>
                      <msItem>
-                        <title>Willelmus Peraldus, Summa de uitiis</title>
+                        <author key="person_3760">Willelmus Peraldus</author>
+                        <title key="work_8183">Summa de uitiis</title>
                      </msItem>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="128X/129X" notBefore="1280" notAfter="1299" calendar="#gregorian">s. xiii ex</origDate>
-                  </origin>
+                  <origin> <origDate when-custom="128X/129X" notBefore="1280" notAfter="1299"
+                     calendar="#gregorian">s. xiii ex</origDate> </origin>
                   <provenance type="#c"><orgName role="fmo" key="org_2">Peterborough,
-                        Northamptonshire. Benedictine abbey of St Peter, St Paul, and St Andrew</orgName></provenance>
+                     Northamptonshire. Benedictine abbey of St Peter, St Paul, and St
+                     Andrew</orgName><p>Notes of obits of Robert Wermyngton, John Rychemund, Robert
+                     Keteryng, monks 'monasterii apostolorum Petri et' (sic), and names of other
+                     persons scribbled at the end (cf. MS 9). Warmington and Kettering were
+                     Peterborough estates.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_62">Bourne,
+                     Lincolnshire, Augustinian abbey of St Peter and St Paul</orgName> <p>This
+                     attribution was rejected in the second edition of Medieval Libraries of Great
+                     Britain (1964), which did not change in the Supplement (1987). The
+                     corresponding Medieval Libraries of Great Britain index card records the
+                     following information, which was deemed unsatisfactory for an attribution (this
+                     evidence relates instead to Peterbourgh):</p> <p>On last page: <q>iii idus
+                     marcii obiit dompnus <persName>Robertus wermyngton</persName> sacerdos viiiº
+                     id. mayi ob. <persName>Joh. Rychemund</persName> iiijº id. jan. ob.
+                     <persName>Robertus keteryng</persName> monachi et professi monasterii
+                     apostolorum Petri et [etc].</q> M. R. James suggests Bourne. Cf. Lambeth Palace
+                     Library MSS 9, 327.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0589.jpg, Test 3_590.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected Bourne
+            provenance. Additional content transcribed from corresponding card for Peterborough
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
