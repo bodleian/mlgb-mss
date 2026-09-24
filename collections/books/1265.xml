@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt>
+               <resp when="2026">Addition of rejected provenance</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -49,19 +47,32 @@
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="100X/101X" notBefore="1000" notAfter="1019" calendar="#gregorian">s. xi in.</origDate>
-                  </origin>
+                  <origin> <origDate when-custom="100X/101X" notBefore="1000" notAfter="1019"
+                     calendar="#gregorian">s. xi in.</origDate> </origin>
                   <provenance><orgName role="fmo" key="org_4">Canterbury, Kent. Benedictine
-                        cathedral priory of Holy Trinity or Christ Church</orgName><p>A convincing
-                        case for transferring this MS. from St Augustine's Abbey, Canterbury, to
-                        Christ Church, is made by Janet Backhouse, BLJ 10 (1984)
-                     97–113.</p></provenance>
+                     cathedral priory of Holy Trinity or Christ Church</orgName><p>A convincing case
+                     for transferring this MS. from St Augustine's Abbey, Canterbury, to Christ
+                     Church, is made by Janet Backhouse, BLJ 10 (1984) 97–113.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_122">Canterbury, Kent,
+                     Benedictine abbey of St Augustine (originally of St Peter and St
+                     Paul)</orgName><p>This attribution was accepted (albeit with a query) in the
+                     second edition of Medieval Libraries of Great Britain (1964). However, the
+                     attribution was transferred to Christ Church in the Supplement (1987); see
+                     further above. Note that no corresponding Medieval Libraries of Great Britain
+                     index card was found for either attribution during data reconciliation work
+                     undertaken in 2026.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -69,6 +80,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-18">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
