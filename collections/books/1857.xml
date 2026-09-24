@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -49,21 +47,51 @@
                   <adminInfo>
                      <recordHist>
                         <source>Neil R. Ker, ed., <ref
-                              target="https://hdl.handle.net/2027/uiug.30112113075359"
-                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
-                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
-                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
-                              >2nd edn, 1964</ref>; <ref
-                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
-                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
                            James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref target="https://searcharchives.bl.uk/catalog/040-001103889"
+                           >British Library Archives and Manuscripts Catalogue</ref></bibl>
+                     </listBibl>
+                  </listBibl>
                </additional>
                <msPart>
                   <msIdentifier>
                      <altIdentifier>
-                        <idno type="part">Part 1, fols. 41-94</idno>
+                        <idno type="part">Part I, fols. 2-40</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>Vita Meriadoci; De ortu Waluuanii</title>
+                        <note>Ed. J. D. Bruce, <title>PMLA</title> XIII (1898), XV (1900).</note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <provenance type="#rejected"><orgName role="fmo" key="org_404">Norwich,
+                        Norfolk, Benedictine cathedral priory of Holy Trinity</orgName> <p>This
+                        attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card records the
+                        following context for the rejection: Leland, <title>Coll.</title>, IV, 28,
+                        has extracts Ex historia de Meriadoco, from a Norwich manuscript. This is
+                        the only extant manuscript, but it contains nothing to associate it with
+                        Norwich or Leland.</p></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Part I, fols. 41-94</idno>
                      </altIdentifier>
                   </msIdentifier>
                   <msContents>
@@ -73,19 +101,17 @@
                      </msItem>
                   </msContents>
                   <history>
-                     <origin>
-                        <origDate when-custom="13XX" notBefore="1300" notAfter="1399"
-                           calendar="#gregorian">s. xiv</origDate>
-                     </origin>
+                     <origin> <origDate when-custom="13XX" notBefore="1300" notAfter="1399"
+                        calendar="#gregorian">s. xiv</origDate> </origin>
                      <provenance type="#c"><orgName role="fmo" key="org_166">Croxden, Staffordshire.
-                           Cistercian abbey of St Mary the Virgin</orgName><p>Ref. to Collectanea
-                           topographia et genealogia 2, pp. 297 and following.</p></provenance>
+                        Cistercian abbey of St Mary the Virgin</orgName><p>Ref. to Collectanea
+                        topographia et genealogia 2, pp. 297 and following.</p></provenance>
                   </history>
                </msPart>
                <msPart>
                   <msIdentifier>
                      <altIdentifier>
-                        <idno type="part">Part 1, fols. 95, 98-100</idno>
+                        <idno type="part">Part I, fols. 95, 98-100</idno>
                      </altIdentifier>
                   </msIdentifier>
                   <msContents>
@@ -95,32 +121,32 @@
                      </msItem>
                   </msContents>
                   <history>
-                     <origin>
-                        <origDate when-custom="110X/111X" notBefore="1100" notAfter="1119"
-                           calendar="#gregorian">s. xii in.</origDate>
-                     </origin>
+                     <origin> <origDate when-custom="110X/111X" notBefore="1100" notAfter="1119"
+                        calendar="#gregorian">s. xii in.</origDate> </origin>
                      <provenance><orgName role="fmo" key="org_4">Canterbury, Kent. Benedictine
-                           cathedral priory of Holy Trinity or Christ Church</orgName><p><ref
-                              target="https://mlgb.bodleian.ox.ac.uk/catalog/book_6933">London,
-                              British Library, Cotton MS Tiberius A.ii</ref>, <ref
-                              target="https://mlgb.bodleian.ox.ac.uk/catalog/book_1238">Cotton MS
-                              Claudius A.iii (ff. 2–7 and 7*)</ref>, and Cotton MS Faustina B.vi,
-                           pt. I (ff. 95 and 98–100) were formerly a single MS.</p><p><q>Volumen hoc
-                              euangelii AEÐELSTAN anglorum basyleos <note type="editorial"
-                                 >...</note> dorobernensis cathedre primatui tribuit ecclesie dicate
-                                 <note type="editorial">...</note></q> (<ref
-                              target="https://mlgb.bodleian.ox.ac.uk/catalog/book_6933">British
-                              Library Cotton MS Tiberius A.ii, f. 14v</ref>, s. x).</p><p>For the
-                           scattered fragments see N.R. Ker in Brit. Mus. Quarterly (1938), pp.
-                           130–1.</p><p>Probably given to <persName>Aethelstan</persName> by the
-                              <persName>Emperor Otto (936–973)</persName>: see Ancient Manuscripts
-                           in BM, p. 35.</p></provenance>
+                        cathedral priory of Holy Trinity or Christ Church</orgName><p><ref
+                        target="https://mlgb.bodleian.ox.ac.uk/catalog/book_6933">London, British
+                        Library, Cotton MS Tiberius A.ii</ref>, <ref
+                        target="https://mlgb.bodleian.ox.ac.uk/catalog/book_1238">Cotton MS Claudius
+                        A.iii (ff. 2–7 and 7*)</ref>, and Cotton MS Faustina B.vi, pt. I (ff. 95 and
+                        98–100) were formerly a single MS.</p><p><q>Volumen hoc euangelii AEÐELSTAN
+                        anglorum basyleos <note type="editorial">...</note> dorobernensis cathedre
+                        primatui tribuit ecclesie dicate <note type="editorial">...</note></q> (<ref
+                        target="https://mlgb.bodleian.ox.ac.uk/catalog/book_6933">British Library
+                        Cotton MS Tiberius A.ii, f. 14v</ref>, s. x).</p><p>For the scattered
+                        fragments see N.R. Ker in Brit. Mus. Quarterly (1938), pp.
+                        130–1.</p><p>Probably given to <persName>Aethelstan</persName> by the
+                        <persName>Emperor Otto (936–973)</persName>: see Ancient Manuscripts in BM,
+                        p. 35.</p></provenance>
                   </history>
                </msPart>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1351.jpg, Test 3_1352.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected provenance,
+            with folio range for this item supplied from British Library catalogue entry.</change>
          <change when="2026-05-20">Record 1259 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>

@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -45,31 +43,52 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Philosophia monachorum</title>
+                     <title>Philosophia monachorum, etc</title>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="13XX" notBefore="1300" notAfter="1399" calendar="#gregorian">s. xiv</origDate>
-                  </origin>
+                  <origin> <origDate when-custom="13XX" notBefore="1300" notAfter="1399"
+                     calendar="#gregorian">s. xiv</origDate> </origin>
                   <provenance type="#e"><orgName role="fmo" key="org_4">Canterbury, Kent.
-                        Benedictine cathedral priory of Holy Trinity or Christ Church</orgName><p>'De claustro ecclesie Christi Cant'' and 'Philosophia
-                        monachorum eccl' Chr' Cant'' (fol. iir, at top, also on fols. 2r and
-                        82r).</p><p>Christ Church marginal markings.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Matthew Parker(1504–1575), archbishop of
-                     Canterbury.</provenance>
+                     Benedictine cathedral priory of Holy Trinity or Christ Church</orgName><p><q>De
+                     claustro ecclesie Christi Cant'</q> and <q>Philosophia monachorum eccl' Chr'
+                     Cant'</q> (fol. iir, at top, also on fols. 2r and 82r). Christ Church marginal
+                     markings.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_537">Syon, Middlesex,
+                     Bridgettine abbey of St Saviour, St Mary the Virgin, and St Bridget</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                     Great Britain (1964), which did not change in the Supplement (1987). The
+                     corresponding Medieval Libraries of Great Britain index card provides the
+                     following context for the rejection:</p><p>From Christ Church Canterbury; but
+                     on fol. iiᵛ is <q>Qui me renouauit Altissimus eum benedicat <note
+                     type="editorial">[interlocking J and S]</note></q>, said by H. E. Allen,
+                     <title>Writings ascribed to Richard Rolle</title>, p. 216 note, to be for
+                     <persName>Joanna Sewell</persName>, nun of Syon (professed in 1500).
+                     </p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Matthew
+                     Parker</persName> (1504–1575), archbishop of Canterbury.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1545.jpg, Test 3_1546.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

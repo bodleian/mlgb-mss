@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -46,31 +44,46 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Missale</title>
+                     <note>Alterations for the use of Laon, s. xiii.</note>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="110X/111X" notBefore="1100" notAfter="1119" calendar="#gregorian">s. xii in.</origDate>
-                  </origin>
-                  <provenance type="#l s" cert="low"><orgName role="fmo" key="org_86">Bury St Edmunds,
-                        Suffolk. Benedictine abbey of St Edmund, King and Martyr</orgName><p>Shows
-                        affinities with the Winchester book Bodley 775 according to Leroquais, Les
-                        sacramentaires et les missels, 1. 219. The sanctorale suggests East Anglia
-                        (Jurmin and Botolph). Alterations for the use of Laon, s.
-                     xiii.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Cathedral of Laon.</provenance>
+                  <origin> <origDate when-custom="110X/111X" notBefore="1100" notAfter="1119"
+                     calendar="#gregorian">s. xii in.</origDate> </origin>
+                  <provenance type="#l s" cert="low"><orgName role="fmo" key="org_86">Bury St
+                     Edmunds, Suffolk. Benedictine abbey of St Edmund, King and
+                     Martyr</orgName><p>The sanctorale suggests East Anglia (Jurmin and
+                     Botolph).</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_437">Winchester,
+                     Hampshire, Benedictine cathedral priory of St Peter, St Paul, and St Swithun
+                     (Old Minster)</orgName> <p>This attribution was rejected in the second edition
+                     of Medieval Libraries of Great Britain (1964), which did not change in the
+                     Supplement (1987). The rejected evidence was as follows: the book shows
+                     affinities with the <q>Winchester Troper</q> (Oxford, Bodleian Library, MS Bodley 775) according to Leroquais,
+                     <title>Les sacramentaires et les missels</title>, 1.219.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Cathedral of Laon. </provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1629.jpg, Test 3_1630.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected provenance
+            and clarify data.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
