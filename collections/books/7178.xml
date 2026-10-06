@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -49,28 +47,47 @@
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="12XX/13XX" notBefore="1200" notAfter="1399" calendar="#gregorian">s. xiii–xiv</origDate>
-                  </origin>
-                  <provenance><orgName role="fmo" key="org_102">Cambridge, Cambridgeshire.
-                        King's College (Collegium regale Beate Marie et Sancti Nicholai)</orgName><p>Near the end (the folio number is not given by James, King’s,
-                        40) is ‘Constat m. Rogero Marchall’. Marshall’s obit was observed at King’s
-                        because ‘peregregiis nostram librariam ditauit libris’ (CBMLC 10, 718). This
-                        MS may be one of those so given.</p></provenance>
+                  <origin> <origDate when-custom="12XX/13XX" notBefore="1200" notAfter="1399"
+                     calendar="#gregorian">s. xiii–xiv</origDate> </origin>
+                  <provenance><orgName role="fmo" key="org_102">Cambridge, Cambridgeshire. King's
+                     College (Collegium regale Beate Marie et Sancti Nicholai)</orgName><p>Near the
+                     end (the folio number is not given by James, King’s, 40) is <q>Constat m.
+                     Rogero Marchall</q>. Marshall’s obit was observed at King’s because
+                     <q>peregregiis nostram librariam ditauit libris</q> (<title>CBMLC</title> 10,
+                     718). This MS may be one of those so given.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_86">Bury St Edmunds,
+                     Suffolk, Benedictine abbey of St Edmund, King and Martyr</orgName> <p>This
+                     attribution was rejected in the second edition of Medieval Libraries of Great
+                     Britain (1964), which did not change in the Supplement (1987). The
+                     corresponding Medieval Libraries of Great Britain index card records the
+                     following information, which was deemed unsatisfactory for an attribution:
+                     First 4 leaves closely resemble (M. R. James) the Nequam from Bury in St
+                     James's Library, Bury. M. R. James has 'very little doubt, judging from
+                     appearances' that it comes from Bury.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Perhaps Roger Marshall (d. 1477), fellow of
-                     Peterhouse and physician to Edward IV</provenance>
+                     Peterhouse and physician to Edward IV.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0661.jpg, Test 3_662.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

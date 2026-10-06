@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -45,24 +43,59 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Lethbertus super psalmos; Sermones, etc.</title>
+                     <author key="person_2038">Lethbert</author>
+                     <title key="work_5002">Super psalmos</title>
                      <note type="MLGB3_generalNotes">Reference on fols. 157v, 158r to a 'Liber
-                        sermonum cum littera E 9', i. e. 'Sermones magistri ade prioris', etc.,
+                        sermonum cum littera E 9', i.e. 'Sermones magistri ade prioris', etc.,
                         according to the medieval catalogue.</note>
+                  </msItem>
+                  <msItem>
+                     <title>Sermones, etc.</title>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="1175/1300" notBefore="1175" notAfter="1300" calendar="#gregorian">s. xii ex.--xiii</origDate>
-                  </origin>
+                  <origin> <origDate when-custom="1175/1300" notBefore="1175" notAfter="1300"
+                     calendar="#gregorian">s. xii ex.-xiii</origDate> </origin>
                   <provenance><orgName role="fmo" key="org_552">Titchfield, Hampshire.
-                        Premonstratensian abbey of the Assumption of St Mary and St John the
-                        Evangelist</orgName><p>'.B.XXII.' at foot of the first leaf.</p><q type="pressmark">.B.XXII.</q></provenance>
+                     Premonstratensian abbey of the Assumption of St Mary and St John the
+                     Evangelist</orgName><p>'.B.XXII.' at foot of the first leaf.</p><q
+                     type="pressmark">.B.XXII.</q></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_86">Bury St Edmunds,
+                     Suffolk, Benedictine abbey of St Edmund, King and Martyr</orgName> <p>This
+                     attribution was rejected in the second edition of Medieval Libraries of Great
+                     Britain (1964), which did not change in the Supplement (1987). The
+                     corresponding Medieval Libraries of Great Britain index card clarifies that the
+                     pressmark is from Titchfield.</p></provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_7155">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                           target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_7155"
+                           >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0745.jpg, Test 3_746.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
