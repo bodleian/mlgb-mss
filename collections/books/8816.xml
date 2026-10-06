@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8816">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Record creation</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace> <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                        >Bodleian Library</ref> </addrLine>
+                    <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address> </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Winchester</settlement>
+                        <repository>College Library</repository>
+                        <idno type="shelfmark">MS 22</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <author key="person_3751">William of Nottingham</author>
+                            <title key="work_8153">Harmonia evangeliorum</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin><origDate calendar="Gregorian" notBefore="1400" notAfter="1419">s.
+                            xv in</origDate></origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_268">Hyde (Hida,
+                            formerly New Minster, Winchester), Hampshire, Benedictine abbey of Holy
+                            Trinity, St Mary the Virgin, and St Peter</orgName> <p>This attribution
+                            was rejected in the second edition of Medieval Libraries of Great
+                            Britain (1964), which did not change in the Supplement (1987). The
+                            corresponding Medieval Libraries of Great Britain index card records the
+                            following context for the rejection:</p><p>Written in Hyde abbey (no. 54
+                            in catalogue for an exhibition in Winchester College library, 31 March -
+                            8 April 1936). This is chiefly conjectured chiefly because of the close
+                            resemblance of the decoration to that of the Liber de Hyda. But there is
+                            no reason to suppose that this was executed at Hyde and not by
+                            professional Winchester decorators.</p></provenance>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_595">Winchester,
+                            Hampshire, College of St Mary the Virgin of Winchester</orgName> <p>This
+                            attribution was rejected in the second edition of Medieval Libraries of
+                            Great Britain (1964), which did not change in the Supplement (1987). The
+                            corresponding Medieval Libraries of Great Britain index card records the
+                            following context for the rejection: There seems to be no reason to
+                            identify this book with the manuscript referred to in Bursar accounts
+                            for 1436-7. Compare Oakeshott, <title>The Library</title>, 5th series ix
+                            (1954), pp. 15-16.</p></provenance>
+                        <provenance type="MLGB3_laterOwners">[Information from index card for
+                            rejected Hyde attribution; text partially obscured by hole]:
+                            Traditionally the book is one of those taken from the Cathedral library
+                            in the Civil Wars and given to the College Library. Most not were
+                            restored later but not apparently the Concordantia. See the list [...]
+                            in the College Benefactors book.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                    <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                        Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                        Bodleian Library).</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/uva.x000937945">Medieval
+                                        Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 3 (London, 2nd edn, 1964)</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        >Medieval Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 15 (London, supplement, ed. Andrew G. Watson,
+                                        1987).</bibl>
+                                    </listBibl></source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!-- Index card images (box 10): Test 3_1657.jpg, Test 3_1658.jpg, Test 3_1177.jpg, Test 3_1178.jpg -->
+        <revisionDesc>
+            <change when="2026-09-24">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
