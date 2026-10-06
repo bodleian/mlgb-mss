@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -41,30 +39,66 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">2891</idno>
                   </altIdentifier>
+                  <altIdentifier type="internal">
+                     <idno type="SCN">2605</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>S. Langton on Ecclesiasticus</title>
-                     <note type="MLGB3_generalNotes">Given later (s. xv) by the Carmelite provincial
-                        John Mylverton to -- (inscr. on a piece of parchment pasted to fol. ii
-                        recto).</note>
+                     <author key="person_3235">S. Langton</author>
+                     <title key="work_7242">Commentary on Ecclesiasticus</title>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
-                  </origin>
-                  <provenance type="#e"><orgName role="fmo" key="org_222">Garendon,
-                        Leicestershire. Cistercian abbey of Saint Mary the Virgin</orgName><p>"Liber sancte marie [...]r[.]ld[...] si quis alienauerit
-                        anathema sit" (s. xiv) on verso of flyleaf, facing the 1st page of text,
-                        near top. The 4th letter is e or o, the first might be G. "Geroldonie" seems
-                        certain.</p></provenance>
+                  <origin> <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                     calendar="#gregorian">s. xiii</origDate> </origin>
+                  <provenance type="#e"><orgName role="fmo" key="org_222">Garendon, Leicestershire.
+                     Cistercian abbey of Saint Mary the Virgin</orgName><p><q>Liber sancte marie
+                     [...]r[.]ld[...] si quis alienauerit anathema sit</q> (s. xiv) on verso of
+                     flyleaf, facing the 1st page of text, near top. The 4th letter is e or o, the
+                     first might be G. <q>Geroldonie</q> seems certain.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_422">Oxford,
+                     Oxfordshire, Carmelite convent</orgName> <p>This attribution was rejected in
+                     the second edition of Medieval Libraries of Great Britain (1964), which did not
+                     change in the Supplement (1987). The corresponding Medieval Library of Great
+                     Britain Index card records that the source for this rejected attribution was
+                     the <title>Summary Catalogue</title> II, i, 448-9. The relevant passage is:
+                     <q>Pasted on fol. ii is a small piece of parchment regarding the gift of this
+                     volume <q>per reuerendum magistrum fratrem Johannem Myluerton quondam
+                     Prouincialem Anglie</q>, probably the Carmelite who was an Oxford doctor of
+                     divinity in 1452: the volume may therefore have belonged to the library of the
+                     Carmelites at Oxford earlier in the 15th century.</q></p></provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_1696">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                           target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_1696"
+                           >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1395.jpg, Test 3_1396.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to incorporate rejected
+            provenance. Quotation from <title>Summary Catalogue</title> added for clarity.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
