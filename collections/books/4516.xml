@@ -12,9 +12,8 @@
                <note>Conversion from database to TEI</note>
             </respStmt>
             <respStmt xml:id="SW">
-               <resp when="2026">Record merge</resp>
+               <resp when="2026">Record merge, addition of rejected provenance</resp>
                <persName>Sian Witherden</persName>
-               <note>Record merge</note>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -94,8 +93,8 @@
                            leaves of which are Cotton MS Faustina B.iv, fols.
                         180–182.</p></provenance>
                      <provenance type="MLGB3_laterOwners"><persName role="fmo">Henry Savile of
-                           Banke</persName> (1568–1617). J. P. Gilson, 'The library of Henry Savile, of
-                        Banke', <title>Transactions of the Bibliographical Society</title> 9
+                           Banke</persName> (1568–1617). J. P. Gilson, 'The library of Henry Savile,
+                        of Banke', <title>Transactions of the Bibliographical Society</title> 9
                         (1906-8), 126-210 (p. 203, cat. no. 215).</provenance>
                   </history>
                </msPart>
@@ -109,7 +108,6 @@
                      <textLang mainLang="la">Latin</textLang>
                      <msItem>
                         <title>Annales, etc.</title>
-                        <note type="MLGB3_generalNotes">Cf. EHR 49 (1934), pp. 85ff.</note>
                      </msItem>
                   </msContents>
                   <history>
@@ -123,6 +121,14 @@
                            to Cluny <q>Cui successit bone memorie helyas camerarius vir per omnia
                               laudabilis</q>, and at 1200 <q>Helyas abbas Radyng'
                            benedicitur</q>.</p></provenance>
+                     <provenance type="#rejected"><orgName role="fmo" key="org_571">Waverley,
+                           Surrey, Cistercian abbey of St Mary the Virgin</orgName>
+                        <p>This attribution was rejected in the second edition of Medieval Libraries
+                           of Great Britain (1964), which did not change in the Supplement (1987).
+                           The corresponding Medieval Libraries of Great Britain index card records
+                           the following information, which was deemed unsatisfactory for an
+                           attribution: Cf. <title>English Historical Review</title> 49 (1934), pp.
+                           85ff.</p></provenance>
                   </history>
                </msPart>
                <msPart>
@@ -150,15 +156,18 @@
                            203 which contains the prologue to <title>De Doctrina
                            christiana</title>), are fragments of one volume.</p></provenance>
                      <provenance type="MLGB3_laterOwners"><persName role="fmo">Savile</persName>.
-                        See J. P. Gilson, 'The library of Henry Savile, of
-                        Banke', <title>Transactions of the Bibliographical Society</title> 9
-                        (1906-8), 126-210 (cat no. 158).</provenance>
+                        See J. P. Gilson, 'The library of Henry Savile, of Banke',
+                           <title>Transactions of the Bibliographical Society</title> 9 (1906-8),
+                        126-210 (cat no. 158).</provenance>
                   </history>
                </msPart>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1601.jpg, Test 3_1602.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2026-07-09">Record 862 merged into this record. Additional information
             transcribed from corresponding MLGB index card for Byland provenance (details of
             contents, Savile catalogue number, <title>Transactions of the Bibliographical
