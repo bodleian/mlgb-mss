@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,66 +41,117 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Additional MS 34652 , fol. 2</idno>
+                  <idno type="shelfmark">Additional MS 34652</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5271</idno>
                   </altIdentifier>
-               <altIdentifier><idno type="MLGB3">5740</idno>
-                  </altIdentifier></msIdentifier>
-               <msContents>
-                  <textLang mainLang="ang">Old English</textLang>
-                  <msItem>
-                     <title>Genealogy</title>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="0901/1025" notBefore="0901" notAfter="1025" calendar="#gregorian">s. x--xi in.</origDate>
-                  </origin>
-                  <provenance source="5271"><orgName role="fmo" key="org_514">Southwick, Hampshire.
-                        Augustinian priory of St Mary the Virgin</orgName><p>London, BL MSS Cotton
-                        Otho B.xi, Add. 34652 (fol. 2), and Cotton Otho B.x (fols. 55, 58, and 62)
-                        were originally one volume.</p><p>A Southwick inscription stretched across
-                        pp. 18–19 of the unburnt MS (see Wanley in Bodleian, Gough London
-                        54).</p><p>Part of another inscription occurs at the foot of fol. 28:
-                        'fecerit quo minus eiusdem Ecclesie sit seu qui hunc titulum dolo [...]
-                        deleuerit. nisi condigne eidem [...] Amen. Amen' (s. xiii).</p><p>Seen by
-                        Th. Rudborne at Southwick in s. xv (see Wharton, Anglia Sacra, i,
-                        183).</p><p>Seen by Leland at Southwick (CBMLC A31.3).</p><p>The Bede is in
-                        the same script as the Parker Chronicle (CCCC 173) for the years 924–55,
-                        which was at Winchester. The Chronicle is a copy of the Parker Chronicle to
-                        the year 1001.</p><p>Now much burnt.</p><p>BL MS Add. 43703 is a copy of s.
-                        xvi (except of the leaf in Add.). Add. 34652 belonged to Tanner and Th.
-                        Astle.</p><p>See Ker, Cat. of MSS containing Anglo-Saxon,
-                     230–234.</p></provenance>
-               <provenance cert="low" source="5740"><orgName role="fmo" key="org_437">Winchester, Hampshire.
-                        Benedictine cathedral priory of St Peter, St Paul, and St Swithun</orgName><p>London, BL MSS Cotton Otho B.xi, Add. 34652 (fol. 2), and
-                        Cotton Otho B.x (fols. 55, 58, and 62) were originally one volume.</p><p>A
-                        Southwick inscription stretched across pp. 18–19 of the unburnt MS (see
-                        Wanley in Bodleian, Gough London 54).</p><p>Part of another inscription
-                        occurs at the foot of fol. 28: 'fecerit quo minus eiusdem Ecclesie sit seu
-                        qui hunc titulum dolo [...] deleuerit. nisi condigne eidem [...] Amen. Amen'
-                        (s. xiii).</p><p>Seen by Th. Rudborne at Southwick in s. xv (see Wharton,
-                        Anglia Sacra, i, 183).</p><p>Seen by Leland at Southwick (CBMLC
-                        A31.3).</p><p>The Bede is in the same script as the Parker Chronicle (CCCC
-                        173) for the years 924–55, which was at Winchester. The Chronicle is a copy
-                        of the Parker Chronicle to the year 1001.</p><p>Now much burnt.</p><p>BL MS
-                        Add. 43703 is a copy of s. xvi (except of the leaf in Add.). Add. 34652
-                        belonged to Tanner and Th. Astle.</p><p>See Ker, Cat. of MSS containing
-                        Anglo-Saxon, 230–234.</p></provenance>
-               </history>
+                  <altIdentifier>
+                     <idno type="MLGB3">5740</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="MLGB3">6898</idno>
+                  </altIdentifier>
+               </msIdentifier>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                              ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                                 target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                                 ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fol. 2</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="ang">Old English</textLang>
+                     <msItem>
+                        <title>Genealogy</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="0901/1025" notBefore="0901" notAfter="1025"
+                           calendar="#gregorian">s. x-xi in.</origDate>
+                     </origin>
+                     <provenance source="5271"><orgName role="fmo" key="org_514">Southwick,
+                           Hampshire. Augustinian priory of St Mary the Virgin</orgName><p>London,
+                           BL MSS Cotton Otho B.xi, Add. 34652 (fol. 2), and Cotton Otho B.x (fols.
+                           55, 58, and 62) were originally one volume.</p><p>A Southwick inscription
+                           stretched across pp. 18–19 of the unburnt MS (see Wanley in Bodleian,
+                           Gough London 54).</p><p>Part of another inscription occurs at the foot of
+                           fol. 28: 'fecerit quo minus eiusdem Ecclesie sit seu qui hunc titulum
+                           dolo [...] deleuerit. nisi condigne eidem [...] Amen. Amen' (s.
+                           xiii).</p><p>Seen by Th. Rudborne at Southwick in s. xv (see Wharton,
+                           Anglia Sacra, i, 183).</p><p>Seen by Leland at Southwick (CBMLC
+                           A31.3).</p><p>The Bede is in the same script as the Parker Chronicle
+                           (CCCC 173) for the years 924–55, which was at Winchester. The Chronicle
+                           is a copy of the Parker Chronicle to the year 1001.</p><p>Now much
+                           burnt.</p><p>BL MS Add. 43703 is a copy of s. xvi (except of the leaf in
+                           Add.). Add. 34652 belonged to Tanner and Th. Astle.</p><p>See Ker, Cat.
+                           of MSS containing Anglo-Saxon, 230–234.</p></provenance>
+                     <provenance cert="low" source="5740"><orgName role="fmo" key="org_437"
+                           >Winchester, Hampshire. Benedictine cathedral priory of St Peter, St
+                           Paul, and St Swithun</orgName><p>A detached leaf of Cotton Otho
+                        B.xi.</p></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 11-12</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <author key="person_3139">Sidonius Apollinaris</author>
+                        <title key="work_7088">Epistulae</title>
+                        <note>Bifolia. End of fol. 1v (2nd letter of Sidonius).<q>si in convivium
+                              venitur quod quidem [diebus profestis simile...]</q></note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate calendar="#Gregorian" notBefore="1200" notAfter="1299">s.
+                           xiii</origDate></origin>
+                     <provenance type="#e"><orgName role="fmo" key="org_341">London. Convent of
+                           Austin friars</orgName><p>fos. 11 and 12</p><p><q>Pro noua libraria
+                              London' p m fr' Johannem Lowe</q> (fo. 11). A bifolium, perhaps used
+                           formerly as a wrapper. See also Oxford, Bodleian Library MS Lat. misc.
+                           d.80.</p></provenance>
+                     <provenance type="#rejected"><orgName role="fmo" key="org_330">London, London,
+                           Cathedral church of St Paul</orgName>
+                        <p>This attribution was rejected in the second edition of Medieval Libraries
+                           of Great Britain (1964), which did not change in the Supplement (1987).
+                           The corresponding Medieval Libraries of Great Britain index card shows
+                           that the false attribution to St Paul's was based on the same inscription
+                           quoted above in relation to London, Austin Friars.</p></provenance>
+                     <provenance type="MLGB3_laterOwners">Part of a collection of fragments of MSS
+                        belonging to <persName role="fmo">P. Astle</persName> bought at Putticks 19
+                        June, 1894, lot 121. </provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1245.jpg, Test 3_1246.jpg -->
       </fileDesc>
       <revisionDesc>
-         <change when="2025-09-18">Record 5740 merged into this record.</change><change when="2025-05-21">Record created.</change>
+         <change when="2026-09-17">Record edited (Sian Witherden) in the following ways: (1)
+            rejected provenance added; (2) record 6898 merged into this record; (3) supporting
+            evidence for Winchester attribution edited to remove duplication with Southwick
+            attribution; (4) information transcribed from index card for Winchester.</change>
+         <change when="2025-09-18">Record 5740 merged into this record.</change>
+         <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>
