@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,37 +49,63 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Richard Rolle, etc.</title>
+                     <author key="person_2927">Richard Rolle, etc.</author>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499" calendar="#gregorian">s. xv</origDate>
+                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499"
+                        calendar="#gregorian">s. xv</origDate>
                   </origin>
                   <provenance type="#m"><orgName role="fmo" key="org_496">Sheen, Surrey.
-                        Charterhouse of Jesus of Bethlehem</orgName><p>Cambridge, Emmanuel Coll.
-                        35, Trinity Coll. 345, and the Hilton in Philadelphia contain notes in the
-                        hand of James Grenehalgh (professed 1495, see H. E. Allen). Grenehalgh also
+                        Charterhouse of Jesus of Bethlehem</orgName><p>Cambridge, Emmanuel Coll. 35,
+                        Trinity Coll. 345, and the Hilton in Philadelphia contain notes in the hand
+                        of James Grenehalgh (professed 1495, see H. E. Allen). Grenehalgh also
                         annotated Bodleian, Douce 262 (see under London, Charterhouse), BL, Royal 5
                         A.v (see under Coventry, Charterhouse) and his monogram is in BL, Add. 24461
                         and 37790 and probably Harley 2373 (see under Mount Grace).</p><p>The
                         character of the notes in this copy suggest that Greenhalgh owned
                      it.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Geo. Davenport 1652.</provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_537">Syon, Middlesex,
+                        Bridgettine abbey of St Saviour, St Mary the Virgin, and St
+                        Bridget</orgName>
+                     <p>A Syon attribution was rejected in the second edition of Medieval Libraries
+                        of Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card records the
+                        following information, which was deemed unsatisfactory for an attribution:
+                           <q>See Miss H. E. Allen, <title>Writings ascribed to Richard
+                              Rolle</title>, p. 47, 217, etc.</q> The same index card (i.e. for the
+                        rejected Syon attribution) also originally included the following note:
+                           <q>Previously belonged to John Newton, treasurer or York Minster
+                           (d.1414).</q> However, Ker later added several question marks beside
+                        this, writing: <q><q>Tabula huius libri additur per mag. Joh. Neuton</q> is
+                           the only mention of J. N. in James's catalogue.</q></p></provenance>
                   <provenance type="MLGB3_laterOwners">The names Michael and Anna Purefey and Thomas
                      Fawnte are scribbled on fols. 191r, 192r.</provenance>
+                  <provenance type="MLGB3_laterOwners">Geo. Davenport 1652.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1547.jpg, Test 3_1548.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
