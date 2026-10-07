@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -51,22 +55,46 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate/>
+                     <origDate calendar="#Gregorian" notBefore="1200" notAfter="1299">s.
+                        xiii</origDate>
                   </origin>
                   <provenance type="#m"><orgName role="fmo" key="org_83">Buildwas, Shropshire.
-                        Savigniac and (1147) Cistercian abbey of St Mary the Virgin and St Chad</orgName></provenance>
+                        Savigniac and (1147) Cistercian abbey of St Mary the Virgin and St
+                        Chad</orgName><p>This attribution was rejected in both the first and second
+                        editions of Medieval Libraries of Great Britain (1941, 1964). There were no
+                        relevant change in the Supplement (1987). The corresponding Medieval
+                        Libraries of Great Britain index card originally recorded just the following
+                        evidence, which was deemed unsatisfactory for an attribution: <q>probably
+                           from Buildwas</q> (M. R. James).</p><p>However, the attribution was later
+                        accepted in MLGB3 (2010-2015). Compare the following revision to the index
+                        card (dated 1989): For reason for identifying as a Buildwas book, see
+                           <title>Transactions of the Cambridge Bibliographical Society</title> IX/3
+                        (1988), 281-8.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Given by <persName role="dnr"
+                        >Whitgift</persName>.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0631.jpg, Test 3_632.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add clarify data
+            history.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
