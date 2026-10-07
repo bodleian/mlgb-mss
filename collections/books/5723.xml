@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,32 +49,67 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Iacobus de Voragine, Legenda aurea</title>
-                     <note type="MLGB3_generalNotes">On fol. 1r at foot in hand like that of the
-                        text (chancery type): "Memoriale fratris iohannis de Draytone monachi. cuius
-                        anime propicietur deus amen".</note>
+                     <author key="person_1502">Iacobus de Voragine</author>
+                     <title key="work_3669">Legenda aurea</title>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation>Medieval paging.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote>Initials blue with red ornament.</decoNote>
+                  </decoDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate when-custom="12XX/13XX" notBefore="1200" notAfter="1399" calendar="#gregorian">s. xiii/xiv</origDate>
+                     <origDate when-custom="12XX/13XX" notBefore="1200" notAfter="1399"
+                        calendar="#gregorian">s. xiii/xiv</origDate>
                   </origin>
                   <provenance type="#e"><orgName role="fmo" key="org_437">Winchester, Hampshire.
-                        Benedictine cathedral priory of St Peter, St Paul, and St Swithun</orgName><p>"Iste liber [...] Swithuni Wyntone" s. xiii/xiv, erased at foot
-                        of fol. 2r. A reagent has been used, but the first two and last two words
-                        are legible by u. v. light.</p></provenance>
+                        Benedictine cathedral priory of St Peter, St Paul, and St
+                           Swithun</orgName><p><q>Iste liber [...] Swithuni Wyntone</q> s. xiii/xiv,
+                        erased at foot of fol. 2r. A reagent has been used, but the first two and
+                        last two words are legible by u. v. light.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_404">Norwich, Norfolk,
+                        Benedictine cathedral priory of Holy Trinity</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card has a summative
+                        note at the top: <q>Reject - from Winchester</q>.</p><p> The card records
+                        the following information, which was deemed unsatisfactory for a Norwich
+                        attribution: <q>Memoriale fratris iohannis de Draytone monachi cuius anime
+                           propicietur deus amen</q> (at foot of first leaf, in a contemporary
+                        hand).</p>
+                     <p>M. R. James p. 93.</p>
+                     <p>? = CMA 8713, = CMA 9778.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Moore</persName>
+                     592.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1315.jpg, Test 3_1316.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

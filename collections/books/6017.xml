@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6017">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6017">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -8,25 +9,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -38,39 +37,88 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">6017</idno>
                   </altIdentifier>
+                  <altIdentifier type="internal">
+                     <idno type="SCN">4117</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Collectio canonum, etc.</title>
-                     <note type="MLGB3_generalNotes">Medieval binding.</note>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <p>Medieval binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
                <history>
-                  <origin>
-                     <origDate when-custom="0800/999" notBefore="0800" notAfter="999" calendar="#gregorian">s. ix--x</origDate>
-                  </origin>
-                  <provenance type="#s"><orgName role="fmo" key="org_601">Worcester,
-                        Worcestershire. Benedictine cathedral priory of St Mary the Virgin</orgName><note type="MLGB3_medievalCatalogueNotes">Young
-                     221</note></provenance>
-                  <provenance type="MLGB3_laterOwners">Used by Matthew Parker and John
-                     Joscelyn.</provenance>
-                  <provenance type="MLGB3_laterOwners">At Worcester in s. xi as appears from the
-                     hand of corrections near the end; this hand occurs in other Worcester
-                     MSS.</provenance>
+                  <origin> <origDate when-custom="0800/999" notBefore="0800" notAfter="0999"
+                     calendar="#gregorian">s. ix-x</origDate> </origin>
+                  <provenance type="#s"><orgName role="fmo" key="org_601">Worcester, Worcestershire.
+                     Benedictine cathedral priory of St Mary the Virgin</orgName><p>Catalogue of s.
+                     xvii in no. 221: <q>Ex synodis excerpta ... Initium Synodorum exemplarium
+                     innumerositatem ... Canones Adomani Initium Marina animalia ... vetus fol. bon.
+                     </q></p><p>At Worcester in s. xi as appears from the hand of corrections near
+                     the end; this hand occurs in other Worcester MSS.</p><note
+                     type="MLGB3_medievalCatalogueNotes">Young 221</note></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_224">Glastonbury,
+                     Somerset, Benedictine Abbey of Saint Mary the Virgin</orgName> <p>This
+                     attribution was rejected in the second edition of Medieval Libraries of Great
+                     Britain (1964), which did not change in the Supplement (1987). The
+                     corresponding Medieval Libraries of Great Britain index card records the
+                     following information, which was deemed unsatisfactory for an attribution:
+                     <q>Liber sancti Dunstani</q>.</p> <p>Compare the catalogue entry in
+                     <title>Medieval Manuscripts in Oxford Libraries</title> (linked below): <q>A
+                     Glastonbury provenance was suggested in the <title>Summary Catalogue</title>,
+                     based mainly on an inscription on the former spine (now preserved on the lower
+                     pastedown) read as <q>Liber Sc Dunsani</q> and understood as referring to St
+                     Dunstan. Bruce Barker-Benfield (<ref
+                     target="https://doi.org/10.1093/nq/40-4-431"
+                     >https://doi.org/10.1093/nq/40-4-431</ref>) argued that the correct reading was
+                     ‘Liber S' Ƿufsani’, identified as Wulfstan II of Worcester (d.
+                     1095).</q></p></provenance>
+                  <provenance type="MLGB3_laterOwners">Used by <persName>Matthew Parker</persName>
+                     and <persName>John Joscelyn</persName>.</provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><surrogates><bibl type="digital-facsimile" subtype="full">
-                        <ref target="https://digital.bodleian.ox.ac.uk/objects/8128e855-26cb-4228-b763-a50a05ce7fb6/">
-                           <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
-                     </bibl>
-                     <bibl type="digital-facsimile" subtype="partial">
-                        <ref target="https://digital.bodleian.ox.ac.uk/objects/95b14178-6c18-4ee8-b4ad-8591cb307ba5/">
-                           <title>Digital Bodleian</title></ref> <note>(1 image of binding from 35mm slides)</note>
-                     </bibl>
-                  </surrogates><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_6067">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates><bibl type="digital-facsimile" subtype="full"> <ref
+                     target="https://digital.bodleian.ox.ac.uk/objects/8128e855-26cb-4228-b763-a50a05ce7fb6/"
+                     > <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
+                     </bibl> <bibl type="digital-facsimile" subtype="partial"> <ref
+                     target="https://digital.bodleian.ox.ac.uk/objects/95b14178-6c18-4ee8-b4ad-8591cb307ba5/"
+                     > <title>Digital Bodleian</title></ref> <note>(1 image of binding from 35mm
+                     slides)</note> </bibl> </surrogates>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                           target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_6067"
+                           >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1117.jpg, Test 3_1118.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

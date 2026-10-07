@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -50,30 +54,52 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="12XX/13XX" notBefore="1200" notAfter="1399" calendar="#gregorian">s. xiii--xiv</origDate>
+                     <origDate when-custom="12XX/13XX" notBefore="1200" notAfter="1399"
+                        calendar="#gregorian">s. xiii-xiv</origDate>
                   </origin>
-                  <provenance type="#c" cert="low"><orgName role="fmo" key="org_575">Wendling, Norfolk.
-                        Premonstratensian abbey of St Mary the Virgin</orgName><p>On fol. 148r a
-                        letter from William bp. of Norwich dilectis filiis abbati et conventui de
-                        Wengling about the churches at Wesyngham [Weasenham], which belonged to
-                        W.</p><p>Another deed inserted between fols. 80 and 81, see under
-                        Durham.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Top of fol. 106r: 'Liber magistri Henrici de
-                     Lutebyr [?]'.</provenance>
-                  <provenance type="MLGB3_laterOwners">Given to Jesus by Mr. Thomas Man, c.
-                     1685.</provenance>
+                  <provenance type="#c" cert="low"><orgName role="fmo" key="org_575">Wendling,
+                        Norfolk. Premonstratensian abbey of St Mary the Virgin</orgName><p>On fol.
+                        148r a letter from <persName>William bishop of Norwich</persName> dilectis
+                        filiis abbati et conventui de Wengling about the churches at Wesyngham
+                        [Weasenham], which belonged to Wendling.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_189">Durham, Durham,
+                        Benedictine cathedral priory of St Cuthbert</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card provides the
+                        following context for the rejection:</p><p>
+                        <q>M. R. James (1895) says <q>Provenance: Durham (?)</q>. But on fol. 148 is
+                           a letter of William bishop of Norwich [...] [see above], and in between
+                           fols. 80 and 81 is stitched a document of <persName>Oliver
+                              Sutton</persName>, bishop of Lincoln 1280-99, mentioning a rector of
+                           Haverhill (Essex).</q></p></provenance>
+                  <provenance type="MLGB3_laterOwners">Top of fol. 106r: <q>Liber magistri <persName
+                           role="fmo">Henrici de Lutebyr</persName> [?]</q>.</provenance>
+                  <provenance type="MLGB3_laterOwners">Given to Jesus by <persName role="dnr">Mr.
+                        Thomas Man</persName>, c. 1685.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1019.jpg, Test 3_1020.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

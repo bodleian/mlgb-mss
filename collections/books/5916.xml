@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,29 +49,52 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Hieronymus, etc.</title>
+                     <author key="person_1517">Hieronymus, etc.</author>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="110X/111X" notBefore="1100" notAfter="1119" calendar="#gregorian">s. xii in.</origDate>
+                     <origDate when-custom="110X/111X" notBefore="1100" notAfter="1119"
+                        calendar="#gregorian">s. xii in.</origDate>
                   </origin>
-                  <provenance type="#s"><orgName role="fmo" key="org_601">Worcester,
-                        Worcestershire. Benedictine cathedral priory of St Mary the Virgin</orgName><p>Contains writing in the same hand as occurs in Oxford, Bodl.,
-                        Auct. F. 1. 9 and Oxford, CCC, 157, probably that of John of Worcester. For
-                        this hand, see New Palaeographical Society, 2, pl. 87b.</p></provenance>
+                  <provenance type="#s"><orgName role="fmo" key="org_601">Worcester, Worcestershire.
+                        Benedictine cathedral priory of St Mary the Virgin</orgName><p>Contains
+                        writing in the same hand as occurs in Oxford, Bodl., Auct. F. 1. 9 and
+                        Oxford, CCC, 157, probably that of John of Worcester. For this hand, see
+                           <title>New Palaeographical Society</title>, 2, pl. 87b.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_360">Malmesbury,
+                        Wiltshire, Benedictine Abbey of St Mary the Virgin and St Aldhelm</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card records the
+                        following information, which was deemed unsatisfactory for an attribution:
+                        William of Malmesbury's collections for biblical and early church history.
+                        See W. Levison, <title>Neues Archiv</title> 35 [1910], 336ff, esp. 422f; M.
+                        R. James, <title>Two Ancient English Scholars</title>, p.
+                     21.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1281.jpg, Test 3_1282.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
