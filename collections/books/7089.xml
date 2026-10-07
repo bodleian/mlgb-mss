@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -41,8 +45,10 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">7089</idno>
                   </altIdentifier>
-               <altIdentifier><idno type="MLGB3">7545</idno>
-                  </altIdentifier></msIdentifier>
+                  <altIdentifier>
+                     <idno type="MLGB3">7545</idno>
+                  </altIdentifier>
+               </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
@@ -51,30 +57,53 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="1201/1400" notBefore="1201" notAfter="1400" calendar="#gregorian">s. xiii et xiv</origDate>
+                     <origDate when-custom="1201/1400" notBefore="1201" notAfter="1400"
+                        calendar="#gregorian">s. xiii et xiv</origDate>
                   </origin>
-                  <provenance cert="low" source="7089"><orgName role="fmo" key="org_100">Cambridge, Cambridgeshire.
-                        Gonville Hall</orgName><p>‘Probably given by R. Marchall. The list of
-                        contents in the cover seems to be in his hand.’ (James, Gonville and Caius,
-                        183)</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Perhaps Roger Marshall (d. 1477), fellow of
-                     Peterhouse and physician to Edward IV</provenance>
-               <provenance source="7545"><orgName role="fmo" key="org_106">Cambridge, Cambridgeshire.
-                        Peterhouse (Collegium Sancti Petri)</orgName><p>Part II of this MS is
-                        perhaps UC48.392</p></provenance>
+                  <provenance source="7545"><orgName role="fmo" key="org_106">Cambridge,
+                        Cambridgeshire. Peterhouse (Collegium Sancti Petri)</orgName><p>Part II of
+                        this MS is perhaps UC48.392</p></provenance>
+                  <provenance cert="low" source="7089"><orgName role="fmo" key="org_100">Cambridge,
+                        Cambridgeshire. Gonville Hall</orgName><p>‘Probably given by R. Marchall.
+                        The list of contents in the cover seems to be in his hand.’ (James,
+                           <title>Gonville and Caius</title>, 183).</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_189">Durham, Durham,
+                        Benedictine cathedral priory of St Cuthbert</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card records the
+                        following information, which was deemed unsatisfactory for an attribution:
+                        Contains s. xiv episcopal documents relating to Kepier Hospital, Durham;
+                        Northallerton etc. Name <persName role="fmo">J. Barker </persName> s.
+                        xiii/xiv on p. 16.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Perhaps <persName role="fmo">Roger
+                        Marshall</persName> (d. 1477), fellow of Peterhouse and physician to Edward
+                     IV.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1011.jpg, Test 3_1012.jpg -->
       </fileDesc>
       <revisionDesc>
-         <change when="2025-09-18">Record 7545 merged into this record.</change><change when="2025-05-21">Record created.</change>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to incorporate rejected
+            provenance.</change>
+         <change when="2025-09-18">Record 7545 merged into this record.</change>
+         <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

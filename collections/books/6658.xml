@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -34,9 +38,15 @@
          <sourceDesc>
             <msDesc xml:lang="en">
                <msIdentifier>
-                  <settlement>Mount Stuart</settlement>
-                  <repository>Marquess of Bute</repository>
-                  <idno type="shelfmark">Shelfmark not recorded</idno>
+                  <country>England</country>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <idno type="shelfmark">Add. MS 62777</idno>
+                  <altIdentifier>
+                     <settlement>Mount Stuart</settlement>
+                     <repository>Marquess of Bute</repository>
+                     <idno type="shelfmark">Shelfmark not recorded</idno>
+                  </altIdentifier>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6658</idno>
                   </altIdentifier>
@@ -49,26 +59,58 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="13XX/14XX" notBefore="1300" notAfter="1499" calendar="#gregorian">s. xiv--xv</origDate>
+                     <origDate when-custom="13XX/14XX" notBefore="1300" notAfter="1499"
+                        calendar="#gregorian">s. xiv-xv</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="org_474">St Albans,
-                        Hertfordshire. Benedictine abbey of St Alban</orgName><p>Provenance
-                        inferred from contents. Also the familiar mark: 'De studio domini
-                        abbatis'.</p><q type="pressmark">De studio domini abbatis</q></provenance>
-                  <provenance type="MLGB3_laterOwners">Perhaps the copy in the Sebright sale, 6
-                     April 1807, lot 1142 (bought by Stace for £8 15. 0.).</provenance>
+                  <provenance type="#c"><orgName role="fmo" key="org_474">St Albans, Hertfordshire.
+                        Benedictine abbey of St Alban</orgName><p>Provenance inferred from contents.
+                        Also the familiar mark: <q>De studio domini abbatis</q>.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_456">Ramsey,
+                        Huntingdonshire, Benedictine Abbey of Saint Mary the Virgin and St
+                        Benedict</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card records the
+                        following information, which was deemed unsatisfactory for an attribution:
+                           <q>see Macray, <title>Chronicon Abbatiae Ramesiensis</title>, p.
+                           xlviii</q>. The card was later crossed through.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Perhaps the copy in the <persName role="fmo"
+                        >Sebright</persName> sale, 6 April 1807, lot 1142 (bought by Stace for £8
+                     15. 0.).</provenance>
+                  <provenance type="MLGB3_laterOwners">Mount Stuart, Marquess of Bute. Recorded at
+                     this location in the second edition of Medieval Libraries of Great Britain
+                     (1964). The shelfmark was updated in the Supplement (1987) to London, British
+                     Library, Add MS 62777.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref target="https://searcharchives.bl.uk/catalog/032-001963277"
+                              >British Library Archives and Manuscripts Catalogue</ref></bibl>
+                     </listBibl>
+                  </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1449.jpg, Test 3_1450.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to incorporate rejected
+            provenance, and update shelfmark.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
