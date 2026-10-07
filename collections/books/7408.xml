@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -45,31 +43,61 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>S. Langton etc.</title>
+                     <author key="person_3235">Langton</author>
+                     <note>Companion to MS 112 (q.v.).</note>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299" calendar="#gregorian">s. xii/xiii</origDate>
-                  </origin>
+                  <origin> <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299"
+                     calendar="#gregorian">s. xii/xiii</origDate> </origin>
                   <provenance><orgName role="fmo" key="org_106">Cambridge, Cambridgeshire.
-                        Peterhouse (Collegium Sancti Petri)</orgName><p>From Hereford</p><p>Notes
-                        in the hand of William Dyngley, fol. 1r</p><p>‘On the verso of the last stub
-                        can be read ‘[...]ebrig’’, s. xiv, doubtless the end of a Peterhouse ex
-                        libris.’ (Thomson, Peterhouse, 69)</p><p>Companion to MS 112
-                     (q.v.)</p></provenance>
+                     Peterhouse (Collegium Sancti Petri)</orgName><p>Notes in the hand of <persName
+                     role="fmo">William Dyngley</persName>, fol. 1r. </p><p><q>On the verso of the
+                     last stub can be read <q>[...]ebrig'</q>, s. xiv, doubtless the end of a
+                     Peterhouse ex libris.</q> (Thomson, <title>Peterhouse</title>, 69).</p><p> In
+                     the Peterhouse catalogue of 1418.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_247">Hereford,
+                     Herefordshire, Cathedral church of St Ethelbert</orgName> <p>A Hereford
+                     Cathedral attribution was rejected for MS 119 in the second edition of Medieval
+                     Libraries of Great Britain (1964), which did not change in the Supplement
+                     (1987). MLGB3 (2010-2015) recorded no relevant changes.</p> <p>The original
+                     Medieval Libraries of Great Britain index card covers both MSS 112 and 119, and
+                     gives an insight into the reasons for rejection in 1964. At first, the
+                     following was written on the card: <q>Contains copy of a letter from R.
+                     precentor Hereford to Stephen Abbot of Dore, also a pencil inscription
+                     containing the words <q>thoma vicar de Wenford herefordens, nomine
+                     pensionis</q></q>.</p><p>This was evidently considered unsatisfactory as
+                     evidence for an attribution, and the following two notes were later added on
+                     the card: <q>No Winford in Hereford diocese - Winforton and Wentnor, both
+                     rectories</q>; <q>Dore seems equally likely. Rejected.</q></p> <p>Compare the
+                     more recent assessment in Thomson, <title>Peterhouse</title>, 68: <q>Apparently
+                     at Hereford Cathedral early on (see art. 3). On the front pastedown is a
+                     pencilled inscription (s. xiii), of which <q>Thoma uicar de Wans[…]
+                     Herefordens' nomine pensionis</q> was read by MRJ; it is not legible now. At
+                     the head of f. 23, s. xiii in., <q>Iste liber [erased est De? ? de ? ? S?
+                     Crestre]</q></q>.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1151.jpg, Test 3_1152.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to incorporate rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

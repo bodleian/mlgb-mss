@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,32 +49,72 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Gregorius, Dialogi</title>
+                     <author key="person_1193">Gregorius</author>
+                     <title key="work_2982">Dialogi</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="100X/101X" notBefore="1000" notAfter="1019" calendar="#gregorian">s. xi in.</origDate>
+                     <origDate when-custom="100X/101X" notBefore="1000" notAfter="1019"
+                        calendar="#gregorian">s. xi in.</origDate>
                   </origin>
                   <provenance type="#c" cert="low"><orgName role="fmo" key="org_601">Worcester,
-                        Worcestershire. Benedictine cathedral priory of St Mary the Virgin</orgName><p>Papal letter to Roger, bp. of Worcester (s. xii) added on the
-                        originally blank recto of the first leaf (fol. 1r).</p><p>Fol. 1v has the
-                        note ":9 et est liber dialogorum Gregorii [pape] 2o fo. in monasterio et con
-                        prec xiii s viii d" (s. xiv).</p><p>Letter and book list on fol. 190r
-                        printed by Bannister in EHR 3,2 (1917), p. 387.</p><p> </p></provenance>
-                  <provenance type="MLGB3_laterOwners">Given to Tanner by Hugh Lloyd, Vicar of Mold,
-                     in 1735.</provenance>
+                        Worcestershire. Benedictine cathedral priory of St Mary the
+                        Virgin</orgName><p>Papal letter to Roger, bishop of Worcester (s. xii) added
+                        on the originally blank recto of the first leaf (fol. 1r).</p><p>Fol. 1v has
+                        the note <q>:9 et est liber dialogorum Gregorii [pape] 2o fo. in monasterio
+                           et con prec xiii s viii d</q> (s. xiv).</p><p>Letter and book list on
+                        fol. 190r printed by Bannister in <title>EHR</title> 3,2 (1917), p.
+                        387.</p><p> </p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_278">Keynsham, Somerset,
+                        Augustinian abbey of St Mary the Virgin, St Peter, and St Paul</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card records only
+                        the library and the shelfmark, and provides no further context for the
+                        rejection.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Given to <persName role="dnr"
+                        >Tanner</persName> by <persName role="fmo">Hugh Lloyd</persName>, Vicar of
+                     Mold, in 1735.</provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><surrogates><bibl subtype="partial" type="digital-facsimile">
-                        <ref target="https://digital.bodleian.ox.ac.uk/objects/0b3e27fc-e48b-450c-9570-0822a6307c56/">
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates><bibl subtype="partial" type="digital-facsimile">
+                        <ref
+                           target="https://digital.bodleian.ox.ac.uk/objects/0b3e27fc-e48b-450c-9570-0822a6307c56/">
                            <title>Digital Bodleian</title>
                         </ref>
                         <note>(1 image from 35mm slides)</note>
                      </bibl>
-                  </surrogates><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_9000">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+                  </surrogates>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                              target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_9000"
+                              >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1185.jpg, Test 3_1186.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

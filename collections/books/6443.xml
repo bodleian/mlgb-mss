@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -45,28 +43,49 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Augustinus</title>
-                     <note type="MLGB3_generalNotes">Supplement: 'see M. Lapidge, Studia Celtica,
-                        viii/ix (1973–74), 70–6.' According to Parkerweb's summary of this
-                        article: 'The article is on the Welsh-Latin Poetry linked with Sulien
-                        (1011-91), Bishop of St. David's and Ieuan (d. 1137) the younger of Sulian's
-                        two sons. CCCC MS 199 was written at Llanbadarn Fawr and contains Ieuan's
-                        poem, Carmen de vita et familia Sulgeni and two others by him. There is an
-                        edition of these texts with English translation and extensive notes. The
-                        other text in the ms, Augustine, De Trinitate is written in Ieuan's own
-                        hand'.</note>
+                     <author>Sulien</author>
+                  </msItem>
+                  <msItem>
+                     <author key="person_352">Augustinus</author>
+                     <title key="work_975">De trinitate</title>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="10XX" notBefore="1000" notAfter="1099" calendar="#gregorian">s. xi</origDate>
-                  </origin>
-                  <provenance><orgName role="fmo" key="org_614">Cardiganshire. Llanbadarn Fawr</orgName></provenance>
+                  <origin> <origDate when-custom="10XX" notBefore="1000" notAfter="1099"
+                     calendar="#gregorian">s. xi</origDate> </origin>
+                  <provenance><orgName role="fmo" key="org_969">Dyfed, Llanbadarn Fawr. 'Celtic'
+                     monastery, later Benedictine priory, cell of Gloucester</orgName><p>This
+                     attribution was first added in the Medieval Libraries of Great Britain
+                     Supplement (1987), along with the following footnote: <q>see M. Lapidge,
+                     <title>Studia Celtica</title>, viii/ix (1973–74), 70–6.</q> According to
+                     Parkerweb's summary of this article: <q>The article is on the Welsh-Latin
+                     Poetry linked with Sulien (1011-91), Bishop of St. David's and Ieuan (d. 1137)
+                     the younger of Sulian's two sons. CCCC MS 199 was written at Llanbadarn Fawr
+                     and contains Ieuan's poem, <title>Carmen de vita et familia Sulgeni</title> and
+                     two others by him. There is an edition of these texts with English translation
+                     and extensive notes. The other text in the ms, Augustine, <title>De
+                     Trinitate</title> is written in Ieuan's own hand</q>.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_477">St David's,
+                     Pembrokeshire, Cathedral church of St David</orgName> <p>This attribution was
+                     accepted (albeit with a query) in the second edition of Medieval Libraries of
+                     Great Britain (1964). However, the attribution was later rejected in the
+                     Supplement (1987). The corresponding Medieval Libraries of Great Britain index
+                     card records the following information, which was deemed unsatisfactory for an
+                     attribution: Written by John, son of Sulgen and brother of Ricemarch, bishop of
+                     St David's 1088-96. Said to have contained at end two letters to Matthew Parker
+                     from Bishop Davies of St David's.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -74,6 +93,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to incorporate rejected
+            provenance. Additionally, record edited to expand manuscript contents, and to correct
+            authority record citation for Llanbadarn Fawr.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
