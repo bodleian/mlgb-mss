@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8944">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Record creation</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace> <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>London</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                        >Bodleian Library</ref> </addrLine>
+                    <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address> </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>London</settlement>
+                        <repository>British Library</repository>
+                        <idno type="shelfmark">Cotton MS Vitellius A.iii</idno>
+                    </msIdentifier>
+                    <history>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_4">Canterbury,
+                            Kent, Benedictine cathedral priory of Holy Trinity or Christ
+                            Church</orgName> <p>This attribution was rejected in the second edition
+                            of Medieval Libraries of Great Britain (1964), with no folio range
+                            specified. There were no relevant changes in the Supplement (1987). No
+                            corresponding Medieval Libraries of Great Britain index card was found
+                            during data reconciliation work in 2026. The source of the attribution
+                            was likely M. R. James, <title>The Ancient Libraries of Canterbury and
+                            Dover</title> (Cambridge, 1903), p. 525: <q>contains: Decreta minora
+                            Odonis de Doura (cent. xii.), which should be a Canterbury
+                            book.</q></p></provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                    <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                        Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                        Bodleian Library) [no card found for this attribution in
+                                        2026].</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/uva.x000937945">Medieval
+                                        Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 3 (London, 2nd edn, 1964)</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        >Medieval Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 15 (London, supplement, ed. Andrew G. Watson,
+                                        1987).</bibl>
+                                    <bibl>M. R. James, <title>The Ancient Libraries of Canterbury
+                                        and Dover</title> (Cambridge, 1903).</bibl>
+                                    <bibl>Online catalogue entry, British Library Archives and
+                                        Manuscripts (linked below) [dates and contents supplied from
+                                        this source].</bibl>
+                                    </listBibl> </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl type="WRAPPER">
+                            <listBibl type="INTERNET">
+                                <head>Online resources:</head>
+                                <bibl><ref
+                                    target="https://searcharchives.bl.uk/catalog/040-001102933"
+                                    >British Library Archives and Manuscripts Catalogue</ref></bibl>
+                            </listBibl>
+                        </listBibl>
+                    </additional>
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno type="part">Fols. 1-110</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents>
+                            <textLang mainLang="la">Latin</textLang>
+                            <msItem>
+                                <author key="person_1978">Ivo of Chartres</author>
+                                <title key="work_4900">Panormia</title>
+                            </msItem>
+                        </msContents>
+                        <history>
+                            <origin><origDate calendar="#Gregorian" notBefore="1150" notAfter="1175"
+                                >s. xii 3/4</origDate></origin>
+                        </history>
+                    </msPart>
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno type="part">Fols. 111-227</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents>
+                            <textLang mainLang="la">Latin</textLang>
+                            <msItem>
+                                <author>Odo of Dover</author>
+                                <title>Decreta minora</title>
+                                <note>Imperfect.</note>
+                            </msItem>
+                            <msItem>
+                                <author key="person_1190">Gratian</author>
+                                <title key="work_2975">Decretum</title>
+                                <note>Imperfect.</note>
+                            </msItem>
+                        </msContents>
+                        <history>
+                            <origin><origDate calendar="#Gregorian" notBefore="1175" notAfter="1199"
+                                >s. xii 4/4</origDate></origin>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-10-07">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
