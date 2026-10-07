@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -41,45 +45,106 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">4768</idno>
                   </altIdentifier>
-               <altIdentifier><idno type="MLGB3">5835</idno>
-                  </altIdentifier></msIdentifier>
+                  <altIdentifier>
+                     <idno type="MLGB3">5835</idno>
+                  </altIdentifier>
+                  <altIdentifier type="internal">
+                     <idno type="SCN">1898</idno>
+                  </altIdentifier>
+               </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title source="4768">Augustinus</title>
-                     <msItem source="4768">
-                        <author>Augustine</author>
-                        <title>De nuptiis et concupiscentia</title>
+                     <msItem>
+                        <author key="person_352">Augustine</author>
+                        <title key="work_960">De nuptiis et concupiscentia</title>
                      </msItem>
-                  <title source="5835">Augustinus, De nuptiis et concupiscentia, Contra Iulianum</title>
-                     <note type="MLGB3_generalNotes" source="5835">Earlier at Rochester, q. v.</note>
+                     <msItem>
+                        <author key="person_352">Augustine</author>
+                        <title key="work_905">Contra Iulianum</title>
+                     </msItem>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="110X/111X" notBefore="1100" notAfter="1119" calendar="#gregorian">s. xii in.</origDate>
+                     <origDate when-custom="110X/111X" notBefore="1100" notAfter="1119"
+                        calendar="#gregorian">s. xii in.</origDate>
                   </origin>
-                  <provenance type="#s" source="4768"><orgName role="fmo" key="org_469">Rochester, Kent.
-                        Cathedral priory of St Andrew</orgName><p>As well as the identification of
-                        this in the medieval catalogue, the script is a Rochester type like that in
-                        BL, Royal 5 C. i and 6 C. iv and the binding is similar to another Rochester
-                        manuscript, Bodley 387, and like that has the words 'S Wigorniae' on one of
-                        the endleaves (s. xvi). A strip has been cut from the bottom of fol. 1,
-                        which is the usual position for a Rochester inscription.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Said to have been given to Bodley by the Dean
-                     and Canons of Windsor in 1612; see under Windsor also.</provenance>
-                  <provenance type="MLGB3_laterOwners">There is not any evidence or probability that
-                     this manuscript was once at Pembroke, Cambridge, as guessed by M. R.
-                     James.</provenance>
-               <provenance source="5835"><orgName role="fmo" key="org_596">Windsor, Berkshire. Royal
-                        collegiate chapel of St George</orgName><p>Medieval binding similar to
+                  <provenance type="#s" source="4768"><orgName role="fmo" key="org_469">Rochester,
+                        Kent. Cathedral priory of St Andrew</orgName><p>As well as the
+                        identification of this in the medieval catalogue, the script is a Rochester
+                        type like that in BL, Royal 5 C. i and 6 C. iv and the binding is similar to
+                        another Rochester manuscript, Bodley 387, and like that has the words 'S
+                        Wigorniae' on one of the endleaves (s. xvi). A strip has been cut from the
+                        bottom of fol. 1, which is the usual position for a Rochester
+                        inscription.</p></provenance>
+                  <provenance source="5835"><orgName role="fmo" key="org_596">Windsor, Berkshire.
+                        Royal collegiate chapel of St George</orgName><p>Medieval binding similar to
                         that of Bodley 387. Usual chain mark.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_105">Cambridge,
+                        Cambridgeshire, Pembroke College (Aula Valence S. Marie)</orgName>This
+                     attribution was never formally considered in any of the published handlists for
+                     Medieval Libraries of Great Britain (i.e. 1941, 1964, 1987). Later, during
+                     MLGB3 (2010-2015), the attribution was effectively rejected via the following
+                     note: <q>There is not any evidence or probability that this manuscript was once
+                        at Pembroke, Cambridge, as guessed by M. R. James.</q> Compare the
+                        <title>Summary Catalogue</title>: <q>It was no. 190 = 2118 in Pembroke
+                        College (Cambridge) library</q>.</provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_4">Canterbury, Kent,
+                        Benedictine cathedral priory of Holy Trinity or Christ Church</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card paraphrases the
+                        the <title>Summary Catalogue</title>, which was deemed unsatisfactory for an
+                        attribution: <q>considered by M. R. James to be probably from Christ
+                           Church.</q></p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_601">Worcester,
+                        Worcestershire, Benedictine cathedral priory of St Mary the Virgin</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card records the
+                        following information, which was deemed unsatisfactory for an attribution:
+                           <q>Wignorie</q> (fol. 209v); C. H. Turner treats the name as
+                           <q>presumptive evidence that the book belongs to Worcester at some moment
+                           in the later Middle Ages</q> (<title>Early Worcester Manuscripts</title>,
+                        p. lxvi).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Said to have been given to Bodley by the Dean
+                     and Canons of Windsor in 1612.</provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_1196">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                              target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_1196"
+                              >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1681.jpg, Test 3_1682.jpg -->
+         <!-- Index card images (box 10): Test 3_0895.jpg, Test 3_896.jpg -->
       </fileDesc>
       <revisionDesc>
-         <change when="2025-09-18">Record 5835 merged into this record.</change><change when="2025-05-21">Record created.</change>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to incorporate rejected
+            provenance. Data history clarified with respect to Cambridge Pembroke
+            attribution.</change>
+         <change when="2025-09-18">Record 5835 merged into this record.</change>
+         <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

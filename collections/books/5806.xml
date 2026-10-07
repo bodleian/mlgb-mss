@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -49,26 +53,53 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="140X/141X" notBefore="1400" notAfter="1419" calendar="#gregorian">s. xv in.</origDate>
+                     <origDate when-custom="140X/141X" notBefore="1400" notAfter="1419"
+                        calendar="#gregorian">s. xv in.</origDate>
                   </origin>
                   <provenance type="#c"><orgName role="fmo" key="org_592">Winchester, Hampshire.
-                        Abbey of St Mary the Virgin, of Benedictine nuns (Nunnaminster)</orgName><p>Obits (details in Quaritch cat. and in H. G. D. Liveing,
-                        Records of Romsey Abbey (1906), p. 299) show the provenance quite certainly,
-                        but the book was perhaps written for Romsey, q. v.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Quaritch cat. 168 (1897) no.
-                     367.</provenance>
+                        Abbey of St Mary the Virgin, of Benedictine nuns
+                        (Nunnaminster)</orgName><p>Obits (details in Quaritch cat. and in H. G. D.
+                        Liveing, <title>Records of Romsey Abbey</title> (1906), p. 299) show the
+                        provenance quite certainly.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_470">Romsey, Hampshire,
+                        Abbey of Saint Mary the Virgin and St Elfleda, of Benedictine nuns</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card records the
+                        following information, which was deemed unsatisfactory for an attribution:
+                           <q>Provenance indicated by liturgical details. Cf. H. G. D. Liveing,
+                              <title>Records of Romsey Abbey</title> (1906), pp.
+                     286-97.</q></p></provenance>
+                  <provenance type="MLGB3_laterOwners">? <q><persName>T. H. Lloyd</persName></q> (s.
+                     xix).</provenance>
+                  <provenance type="MLGB3_laterOwners">Quaritch cat. 168 (1897) no. 367 (£18).
+                     Bought for the church from Quaritch c. 1900. Exhibited at English Church
+                     History exhibition, St Albans, 1905; see <title>Catalogue</title> p.
+                     37.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1497.jpg, Test 3_1498.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to incorporate rejected
+            provenance. Also, additional information about later provenance added from card
+            index.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

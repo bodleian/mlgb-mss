@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -41,28 +45,69 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">5827</idno>
                   </altIdentifier>
+                  <altIdentifier type="internal">
+                     <idno type="SCN">2116</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Esaias glo.</title>
-                     <note type="MLGB3_generalNotes">Not from Robertsbridge, rejected.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219" calendar="#gregorian">s. xiii in.</origDate>
+                     <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219"
+                        calendar="#gregorian">s. xiii in.</origDate>
                   </origin>
-                  <provenance type="#b"><orgName role="fmo" key="org_596">Windsor, Berkshire.
-                        Royal collegiate chapel of St George</orgName><p>Medieval binding with the
-                        usual Windsor chain-staple mark and characteristic endband
-                        stitching.</p><p>A handsome MS from the same scriptorium as Auct. D. 2.
-                        11.</p></provenance>
+                  <provenance type="#b"><orgName role="fmo" key="org_596">Windsor, Berkshire. Royal
+                        collegiate chapel of St George</orgName><p>Medieval binding with the usual
+                        Windsor chain-staple mark and characteristic endband stitching.</p><p>A
+                        handsome MS from the same scriptorium as Auct. D. 2. 11.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_467">Robertsbridge,
+                        Sussex, Cistercian abbey of St Mary the Virgin</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        attribution would depend on the following transcription (per the
+                           <title>Summary Catalogue</title>): <q>Cuiusdam sacerdotis Pontis[?]
+                           Roberti et fuit de istis[?] monachis</q>. However, Neil Ker later added a
+                        note to the card indicating his skepticism: <q><q>Pontis</q> very doubtful
+                           [...] and <q>istis monachis</q> loks to me more like <q>Northfolchia</q>;
+                           anyway only a scribble and no evidence for
+                     provenance.</q></p></provenance>
+                  <provenance type="MLGB3_laterOwners">Given by Dean and Canons of Windsor
+                     1612.</provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_422">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                              target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_422"
+                              >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1485.jpg, Test 3_1486.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
