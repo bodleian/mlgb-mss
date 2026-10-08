@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected provenance</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -47,22 +45,36 @@
                   <msItem>
                      <title>Leges Anglie</title>
                      <note type="MLGB3_generalNotes">See Liebermann in E.H.R. 28, p. 732. Quires
-                        i--xi, the rest of the MS., is BL, Add. 14252, q. v.</note>
+                        i-xi, the rest of the MS., is BL, Add. 14252, q. v.</note>
                      <note type="MLGB3_generalNotes">Copied, perhaps not directly, in Cotton
                         Claudius D.ii, q. v.</note>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219" calendar="#gregorian">s. xiii in.</origDate>
-                  </origin>
-                  <provenance><orgName role="fmo" key="org_351">London. Guildhall</orgName><p>BL, Add. 14252, amd Rylands, lat. 155, formed one
-                     volume.</p></provenance>
+                  <origin> <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219"
+                     calendar="#gregorian">s. xiii in.</origDate> </origin>
+                  <provenance><orgName role="fmo" key="org_351">London. Guildhall</orgName><p>BL,
+                     Add. 14252, and Rylands, lat. 155, formed one volume.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_122">Canterbury, Kent,
+                     Benedictine abbey of St Augustine (originally of St Peter and St
+                     Paul)</orgName><p>This attribution was rejected in the second edition of
+                     Medieval Libraries of Great Britain (1964), which did not change in the
+                     Supplement (1987). The corresponding Medieval Libraries of Great Britain index
+                     card records the following context for the rejection: <q>For M. R. James's
+                     reasons for suggesting a St Augustine's provenance, see
+                     <title>Catalogue</title>, 269-270, but very doubtful.</q></p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -70,6 +82,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-10-08">Record edited (Sian Witherden) to incorporate rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
