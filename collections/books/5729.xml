@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected provenance</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -46,29 +44,80 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Vite sanctorum</title>
-                     <note type="MLGB3_generalNotes">The first vol. is in a Christ Church Canterbury
-                        hand.</note>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="1000/1250" notBefore="1000" notAfter="1250" calendar="#gregorian">s. xi &amp; xii in.</origDate>
-                  </origin>
+                  <origin> <origDate when-custom="1000/1250" notBefore="1000" notAfter="1250"
+                     calendar="#gregorian">s. xi &amp; xii in.</origDate> </origin>
                   <provenance type="#e"><orgName role="fmo" key="org_437">Winchester, Hampshire.
-                        Benedictine cathedral priory of St Peter, St Paul, and St Swithun</orgName><p>At foot of first page in a large hand of s. xiii/xiv: "Liber
-                        ecclesie sancti Swythuni Wyntonie" (p. i) and title.</p></provenance>
+                     Benedictine cathedral priory of St Peter, St Paul, and St
+                     Swithun</orgName><p>At foot of first page in a large hand of s. xiii/xiv:
+                     <q>Liber ecclesie sancti Swythuni Wyntonie</q> (p. i) and
+                     title.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Part i</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Vita Dunstani</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin><origDate calendar="#gregorian" notBefore="1000" notAfter="1099">s.
+                        xi</origDate></origin>
+                     <provenance type="#rejected"><orgName role="fmo" key="org_4">Canterbury, Kent,
+                        Benedictine cathedral priory of Holy Trinity or Christ Church</orgName><p>A
+                        Canterbury Christ Church attribution was rejected for MS 328 (part i) in the
+                        second edition of Medieval Libraries of Great Britain (1964). There were no
+                        relevant changes in the Supplement (1987). The corresponding Medieval
+                        Libraries of Great Britain index card records the following information,
+                        which was deemed unsatisfactory for an attribution: <q>In a Christ Church
+                        hand</q>. </p></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Part ii</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Vitae Odonis, Maioli, Odilonis</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin> <origDate notBefore="1200" notAfter="1250" calendar="#gregorian">s.
+                        xii in.</origDate> </origin>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-10-08">Record edited (Sian Witherden) to incorporate rejected
+            provenance. Encoding adapted to accomodate multipart manuscript structure, with contents
+            of part i and ii supplied from the James catalogue.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected provenance</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -46,22 +44,46 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Vitae sanctorum</title>
-                     <note type="MLGB3_generalNotes">"A Cluniac house in Kent, possibly Faversham"
-                        (Morgan, Early Gothic MSS., 1. 6, q. v.).</note>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="1200~" notBefore="1200" notAfter="1200" calendar="#gregorian">c. 1200</origDate>
-                  </origin>
-                  <provenance type="#c" cert="low"><orgName role="fmo" key="org_207">Faversham, Kent.
-                        Benedictine abbey of St Saviour</orgName></provenance>
-                  <provenance type="MLGB3_laterOwners">John Twyne Parker.</provenance>
+                  <origin> <origDate when-custom="1200~" notBefore="1200" notAfter="1200"
+                     calendar="#gregorian">c. 1200</origDate> </origin>
+                  <provenance type="#c" cert="low"><orgName role="fmo" key="org_207">Faversham,
+                     Kent. Benedictine abbey of St Saviour</orgName><p><q>A Cluniac house in Kent,
+                     possibly Faversham</q> (Morgan, <title>Early Gothic MSS.</title>, 1. 6, q.
+                     v.).</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_4">Canterbury, Kent,
+                     Benedictine cathedral priory of Holy Trinity or Christ Church</orgName><p>This
+                     attribution was rejected in the second edition of Medieval Libraries of Great
+                     Britain (1964), which did not change in the Supplement (1987). The
+                     corresponding Medieval Libraries of Great Britain index card suggests that the
+                     book's association with John Twyne was the reason for positing a potential
+                     Christ Church attribution. Compare Andrew Watson's later article, 'John Twyne
+                     of Canterbury (d. 1581) as a collector of medieval manuscripts: a preliminary
+                     investigation', <title>The Library</title> (1986), pp. 133-151. Watson includes
+                     MS 161 in his list of manuscripts owned by John Twyne, but it is not in the
+                     subsection entitled <q>From Christ Church Cathedral Priory, Canterbury</q>.
+                     Instead, Watson includes the manuscript in the subsection entitled <q>From
+                     various sources (known)</q>, with the following details: <q><q>Twyne</q> in
+                     Parkerian red chalk on a flyleaf probably indicates that the book came to
+                     Archbishop Parker from John Twyne [...] The contents suggest that it was
+                     earlier at a Cluniac house in Kent, perhaps Faversham</q> (p.
+                     150).</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">John Twyne</persName>;
+                     <persName role="fmo">Parker</persName> (cf. above).</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -69,6 +91,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-10-08">Record edited (Sian Witherden) to incorporate rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
