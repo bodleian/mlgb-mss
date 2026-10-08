@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -41,40 +45,63 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">6562</idno>
                   </altIdentifier>
-               <altIdentifier><idno type="MLGB3">3574</idno>
-                  </altIdentifier></msIdentifier>
+                  <altIdentifier>
+                     <idno type="MLGB3">3574</idno>
+                  </altIdentifier>
+               </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title source="6562">Gregorius</title>
-                  <title source="3574">Gregorius, Moralia, III</title>
+                     <author key="person_1193">Gregorius</author>
+                     <title key="work_2990">Moralia, III</title>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <p>Medieval binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199" calendar="#gregorian">s. xii ex</origDate>
+                     <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199"
+                        calendar="#gregorian">s. xii ex</origDate>
                   </origin>
-                  <provenance type="#e" cert="low" source="6562"><orgName role="fmo" key="org_307">Lessness or Westwood,
-                        Kent. Augustinian abbey of St Thomas the Martyr</orgName><p>'Dompnus Eudo
-                        de Mere fecit scribere hunc librum et dedit domui beati Thome martiris.
-                        Anima eius et anima patris eius Geruasii et omnium fidelium anime etc.
-                        r.i.p.</p><p>Medieval binding.</p></provenance>
-               <provenance type="#e" cert="low" source="3574"><orgName role="fmo" key="org_308">Stafford. Augustinian
-                        priory of St Thomas the Martyr</orgName><p>'Dompnus Eudo de Mere fecit
-                        scribere hunc librum et dedit domui beati thome martyris. Anima eius et
-                        anima patris eius Gervasii et omnium fidelium anime per misericordiam dei
-                        requiescat in pace. Amen'.</p><p>MRJ suggested that this was the abbey of St
-                        Thomas of Lesnes (called also Westwood) near Woolwich. Listed under Lessness
-                        in MLGB 2nd edn (1964) on basis of ex dono inscription to house of St Thomas
-                        the Martyr, but Stafford is perhaps more likely: see N. R. Ker, 'The English
-                        manuscripts of the Moralia of Gregory the Great', in Kunsthistorische
-                        Forschungen Otto Pächt zu seinem 70. Geburtstag (Salzburg 1972), pp.
-                        77–89.</p><p>Medieval binding.</p><p> </p></provenance>
-                  </history>
+                  <provenance type="#e" cert="low" source="3574"><orgName role="fmo" key="org_308"
+                        >Stafford. Augustinian priory of St Thomas the Martyr</orgName><p>
+                        <q>Dompnus Eudo de Mere fecit scribere hunc librum et dedit domui beati
+                           thome martyris. Anima eius et anima patris eius Gervasii et omnium
+                           fidelium anime per misericordiam dei requiescat in pace. Amen</q>. M. R.
+                        James suggested that this was the abbey of St Thomas of Lessness (called
+                        also Westwood) near Woolwich, but Stafford is perhaps more likely: see Neil
+                        R. Ker, 'The English manuscripts of the Moralia of Gregory the Great', in
+                           <title>Kunsthistorische Forschungen Otto Pächt zu seinem 70.
+                           Geburtstag</title> (Salzburg 1972), pp. 77–89. In light of this, the
+                        attribution for MS O. 4. 5 was transferred from Lessness to Stafford in the
+                        Medieval Libraries of Great Britain Supplement (1987).</p><p
+                     > </p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_307">Lessness or
+                        Westwood, Kent, Augustinian abbey of St Thomas the Martyr</orgName>
+                     <p>The Lessness attribution was accepted (albeit with a query) in the second
+                        edition of Medieval Libraries of Great Britain (1964). However, this
+                        attribution was later rejected in the Supplement (1987): <q>Cancel entry and
+                           transfer to Stafford</q>. MLGB3 (2010-2015) accepted the Lessness
+                        attribution with a query, but this appears to have been a
+                     mistake.</p></provenance>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -82,7 +109,10 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-09-18">Record 3574 merged into this record.</change><change when="2025-05-21">Record created.</change>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to incorporate rejected
+            provenance and to clarify data history.</change>
+         <change when="2025-09-18">Record 3574 merged into this record.</change>
+         <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>
