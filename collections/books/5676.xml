@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record merge; addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -52,22 +50,24 @@
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
-                        calendar="#gregorian">s. xiii</origDate>
-                  </origin>
-                  <provenance type="#l" cert="low"><orgName role="fmo" key="org_212">Finchale,
-                        Durham. Benedictine priory of St John the Baptist and St Godric; cell of
-                        Durham</orgName><p>The addition to the calendar (s. xiii-xiv, fol. 3r) of
-                           <q>Dedicacio ecclesie de Emyldon</q> suggest Finchale, taken in
-                        conjunction with the feasts written originally in the calendar.
-                     </p></provenance>
+                  <origin> <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                     calendar="#gregorian">s. xiii</origDate> </origin>
                   <provenance type="#e"><orgName role="fmo" key="org_582">Whalley, Lancashire.
-                        Cistercian abbey of St Mary the Virgin</orgName><p>Later, the book passed to
-                        the Lee family and in 1479 to Whalley: <q>Obitus Tristremi Lee anno domini
-                           millesimo ccccmo lxxix et ille dedit istud psalterium abbato <note
-                              type="editorial">[sic]</note> et conventui beate Marie de Whalley</q>
-                        (fol. 4r), s. xv. Includes obits for the Lee family.</p></provenance>
+                     Cistercian abbey of St Mary the Virgin</orgName><p><q>Obitus Tristremi Lee anno
+                     domini millesimo ccccmo lxxix et ille dedit istud psalterium abbato <note
+                     type="editorial">[sic]</note> et conventui beate Marie de Whalley</q> (fol.
+                     4r), s. xv. Includes obits for the Lee family.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_212">Finchale, Durham,
+                     Benedictine priory of St John the Baptist and St Godric; cell of
+                     Durham</orgName> <p>A Finchale attribution -- i.e. predating the Whalley
+                     provenance -- was accepted (albeit with a query) in the second edition of
+                     Medieval Libraries of Great Britain (1964). However, the attribution was later
+                     rejected in the Supplement (1987). The corresponding Medieval Libraries of
+                     Great Britain index card was never updated to reflect the 1987 rejection. It
+                     records the following information: The addition to the calendar (s. xiii-xiv,
+                     fol. 3r) of <q>Dedicacio ecclesie de Emyldon</q> suggest Finchale, taken in
+                     conjunction with the feasts written originally in the
+                     calendar.</p></provenance>
                   <provenance type="MLGB3_laterOwners">? <q><persName>Cristofer Smyth</persName></q>
                      (fol. 1r), s. xvi.</provenance>
                   <provenance type="MLGB3_laterOwners"><persName>Ashburnham</persName> (Appendix no.
@@ -77,13 +77,12 @@
                   <adminInfo>
                      <recordHist>
                         <source>Neil R. Ker, ed., <ref
-                              target="https://hdl.handle.net/2027/uiug.30112113075359"
-                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
-                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
-                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
-                              >2nd edn, 1964</ref>; <ref
-                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
-                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
                            James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
@@ -92,8 +91,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2026-06-04">Record 6449 merged into this record. Additional content
-            transcribed from corresponding MLGB index card for Finchale.</change>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to reflect 1987 rejection of
+            Finchale provenance.</change>
+         <change when="2026-06-04">Record 6449 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
