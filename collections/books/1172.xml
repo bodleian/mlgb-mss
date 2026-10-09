@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Clarification of data history for Canterbury Christ Church attribution</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,22 +50,44 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Prosper, etc.</title>
+                     <author key="person_2763">Prosper, etc.</author>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="098X/099X" notBefore="0980" notAfter="0999" calendar="#gregorian">s. x ex</origDate>
+                     <origDate when-custom="098X/099X" notBefore="0980" notAfter="0999"
+                        calendar="#gregorian">s. x ex</origDate>
                   </origin>
                   <provenance type="#s"><orgName role="fmo" key="org_4">Canterbury, Kent.
-                        Benedictine cathedral priory of Holy Trinity or Christ Church</orgName><p>Christ Church hands. A scribe in common with Trinity B.14.3 and
-                        six scribes in common with Trinity B.4.27. There are several Prospers in the
-                        earliest catalogue from Christ Church.</p><p> </p></provenance>
+                        Benedictine cathedral priory of Holy Trinity or Christ
+                        Church</orgName><p>This attribution was rejected in both the first and
+                        second editions of Medieval Libraries of Great Britain (1941, 1964). It was
+                        later accepted in the Supplement (1987). There are two corresponding
+                        Medieval Libraries of Great Britain index cards: one for the original
+                        rejection, and one for the later acceptance.</p>
+                     <p>The earlier card reads: <q>Assigned by M. R. James to Canterbury on the
+                           ground of hand and ornament, <q>but may be from Ely</q>. Cf. James,
+                              <title>ALCD</title>, p. 11 nos. 156-58.</q></p>
+                     <p>The later card reads: <q>Previously in reject list. Cf. T. A. M. Bishop in
+                              <title>Transactions of the Cambridge Bibliographical Society</title>
+                           iii 414 (a scribe in common with Trinity 289 [B.14.3] and six scribes in
+                           common with Trinity 141 [B.4.27]). Cf. cat. 1 nos. 156-8.</q></p>
+                     <p>MLGB3 (2010-2015) added(?) the following: <q>There are several Prospers in
+                           the earliest catalogue from Christ Church.</q>
+                     </p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -68,6 +95,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-10-08">Record edited (Sian Witherden) to clarify data history.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

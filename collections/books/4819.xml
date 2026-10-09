@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected provenance</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,25 +49,55 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>R. Grosseteste; De x mandatis</title>
+                     <author key="person_2973">Grosseteste</author>
+                     <title key="work_6740">De x mandatis</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499" calendar="#gregorian">s. xv</origDate>
+                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499"
+                        calendar="#gregorian">s. xv</origDate>
                   </origin>
-                  <provenance cert="low"><orgName role="fmo" key="org_474">St Albans, Hertfordshire.
-                        Benedictine abbey of St Alban</orgName><p>'De Studio. Abbatis' on
-                        flyleaf.</p><p>Cf. the inscription in Bodl. MS Laud Misc. 264, etc., but
-                        this is of later date (s. xv instead of s. xiv).</p><q type="pressmark">de
-                        studio abbatis</q></provenance>
-                  <provenance type="MLGB3_laterOwners">Given to Trinity by Thomas Nevile, dean of
-                     Canterbury (c. 1548–1615).</provenance>
+                  <provenance cert="low">
+                     <orgName role="fmo" key="org_474">St Albans, Hertfordshire. Benedictine abbey
+                        of St Alban</orgName>
+                     <p><q>De Studio. Abbatis</q> on flyleaf.</p>
+                     <p>Compare the inscription in Oxford, Bodleian Library, MS Laud Misc. 264,
+                        etc., but this is of later date (s. xv instead of s. xiv).</p>
+                     <q type="pressmark">de studio abbatis</q>
+                  </provenance>
+                  <provenance type="#rejected">
+                     <orgName role="fmo" key="org_4">Canterbury, Kent, Benedictine cathedral priory
+                        of Holy Trinity or Christ Church</orgName>
+                     <p>Attributions for both Christ Church and St Augustine's were rejected in the
+                        second edition of Medieval Libraries of Great Britain (1964). There were no
+                        relevant changes in the Supplement (1987). The corresponding Medieval
+                        Libraries of Great Britain index card for Christ Church records the
+                        following information, which was deemed unsatisfactory for an attribution:
+                           <q>M. R. James says <q>From Canterbury?</q> in the catalogue, and indexes
+                           it under Christ Church; but in <title>ALCD</title> assigns it to St
+                           Augustine's.</q></p>
+                  </provenance>
+                  <provenance type="#rejected">
+                     <orgName role="fmo" key="org_122">Canterbury, Kent, Benedictine abbey of St
+                        Augustine (originally of St Peter and St Paul)</orgName>
+                     <p>Compare the note for the rejected Christ Church attribution.</p>
+                  </provenance>
+                  <provenance type="MLGB3_laterOwners">Given to Trinity by <persName role="dnr"
+                        >Thomas Nevile</persName>, dean of Canterbury (c. 1548–1615).</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -71,6 +105,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-10-08">Record edited (Sian Witherden) to incorporate rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
