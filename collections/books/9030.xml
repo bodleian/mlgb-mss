@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9030">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Record creation</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace> <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                        >Bodleian Library</ref> </addrLine>
+                    <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address> </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>Wales</country>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno type="shelfmark">Brogyntyn MS II.5 (formerly Porkington MS 19)</idno>
+                        <altIdentifier>
+                            <country>Wales</country>
+                            <settlement>Aberystwyth</settlement>
+                            <repository>National Library of Wales</repository>
+                            <idno type="shelfmark">Porkington MS 19</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="emm">Middle English</textLang>
+                        <msItem>
+                            <title>The Tretyse of þe Seven Poyntes of Trewe Love and Everlastynge
+                                Wisdame</title>
+                            <note>Translated from the Latin <title>Horologium
+                                Sapientiae</title>.</note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin><origDate calendar="#Gregorian" notBefore="1440" notAfter="1459">s.
+                            xv med</origDate></origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_383">Mount Grace
+                            (in East Harsley), Yorkshire, Charterhouse of the Assumption of St Mary
+                            the Virgin</orgName> <p>This attribution was first rejected in the
+                            Medieval Libraries of Great Britain Supplement (1987). No corresponding
+                            Medieval Libraries of Great Britain index card was found during data
+                            reconciliation work in 2026, though there is a relevant cross reference
+                            on the rejected card for <ref
+                            target="https://mlgb.bodleian.ox.ac.uk/catalog/book_9031">MS Cambrai
+                            255</ref>. See also the National Library of Wales finding aid for the
+                            Brogyntyn manuscripts: <q>The Latin colophon on f. 90, referring to
+                            Mount Grace, is probably derivative; it appears at the end of the same
+                            text in MS Cambrai 255 (see <title>Catalogue générale des manuscrits des
+                            bibliothèques publiques de France</title>, vol. 17 (Paris, 1891), p.
+                            88</q>.</p></provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                    <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                        Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                        Bodleian Library).</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        >Medieval Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 15 (London, supplement, ed. Andrew G. Watson,
+                                        1987).</bibl>
+                                    <bibl>National Library of Wales Finding Aid - Brogyntyn
+                                        manuscripts (GB 0210 MSBROG), as linked below [date,
+                                        contents, and comment on attribution supplied from this
+                                        source].</bibl>
+                                    </listBibl> </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl type="WRAPPER">
+                            <listBibl type="INTERNET">
+                                <head>Online resources:</head>
+                                <bibl><ref
+                                    target="https://archives.library.wales/downloads/brogyntyn-manuscripts.pdf"
+                                    >National Library of Wales Finding Aid - Brogyntyn manuscripts
+                                    (GB 0210 MSBROG) </ref></bibl>
+                            </listBibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-10-09">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
