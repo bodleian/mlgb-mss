@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -46,32 +44,47 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Missale</title>
-                     <note type="MLGB3_generalNotes">Ed. D.H. Turner, The Missal of the New Minster,
-                        Winchester, HBS 93 (1962); reduced facs. of fol. 62r, see pp. viii--xiiii.
-                        Turner says "Stowe 2 and Le Havre 330 seem to have a scribe or scribes in
-                        common" (p. xi).</note>
-                     <note type="MLGB3_generalNotes">For older literature, see L. Delisle and C.
-                        Fierville in Rev. des sociétés savantes, 7eme série, 6 (1882) p. 33, with
-                        facsimiles; Mémoires de la Soc. havraise d'études diverses (1880–1881), pp.
-                        401–546, and V. Leroquais, Les sacramentaires et les Milssels, 1. 190.
-                        These suggest that the liturgy points to either Winchester (St Swithun) or
-                        Hyde and, in MLGB2, this manuscript was attributed to Winchester, but that
-                        was rejected and the volume re-assigned to Hyde in the Supplement.</note>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="104X/105X" notBefore="1040" notAfter="1059" calendar="#gregorian">s. xi med.</origDate>
-                  </origin>
-                  <provenance type="#l"><orgName role="fmo" key="org_268">Hyde (Hida, formerly
-                        New Minster, Winchester), Hampshire. Benedictine abbey of Holy Trinity, St
-                        Mary the Virgin, and St Peter</orgName></provenance>
+                  <origin> <origDate when-custom="104X/105X" notBefore="1040" notAfter="1059"
+                     calendar="#gregorian">s. xi med.</origDate> </origin>
+                  <provenance type="#l"><orgName role="fmo" key="org_268">Hyde (Hida, formerly New
+                     Minster, Winchester), Hampshire. Benedictine abbey of Holy Trinity, St Mary the
+                     Virgin, and St Peter</orgName><p>This attribution was first added in the
+                     Medieval Libraries of Great Britain Supplement (1987), having been transferred
+                     here from Winchester (St Swithun). The corresponding Medieval Libraries of
+                     Great Britain index card records the following information: <q>Ed. D. H.
+                     Turner, <title>The Missal of the New Minster, Winchester</title>, Henry
+                     Bradshaw Society 93 (1962); reduced facsimile of fol. 62r, see pp. viii-xiiii.
+                     Turner says <q>Stowe 2 and Le Havre 330 seem to have a scribe or scribes in
+                     common</q>.</q></p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_437">Winchester,
+                     Hampshire, Benedictine cathedral priory of St Peter, St Paul, and St Swithun
+                     (Old Minster)</orgName> <p>This attribution was accepted in the second edition
+                     of Medieval Libraries of Great Britain (1964). However, in the Supplement
+                     (1987), the attribution was rejected in favour of Hyde. The corresponding
+                     Medieval Libraries of Great Britain index card for Winchester (St Swithun)
+                     originally cited the following older literature, which was later deemed
+                     unsatisfactory for an attribution: <q>Cf. L. Delisle and C. Fierville in
+                     <title>Rev. des sociétés savantes</title>, 7eme série, 6 (1882) p. 33, with
+                     facsimiles; <title>Mémoires de la Soc. havraise d'études diverses</title>
+                     (1880–1881), pp. 401–546, and V. Leroquais, <title>Les sacramentaires et les
+                     Milssels</title>, 1. 190. Liturgy points to Winchester (St Swithun) or
+                     Hyde.</q></p></provenance>
                   <provenance type="MLGB3_laterOwners">Abbey of St Wandrille, no. 61.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -79,6 +92,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to incorporate rejected
+            provenance and clarify data history.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
