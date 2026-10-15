@@ -11,25 +11,24 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Addition of rejected provenance</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -46,29 +45,75 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Regula sancti Benedicti</title>
-                     <note type="MLGB3_generalNotes">The name "Thomas Bryne" (s. xvi in.) on fol.
-                        9r.</note>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="0701/0800" notBefore="0701" notAfter="0800" calendar="#gregorian">s. viii</origDate>
-                  </origin>
+                  <origin> <origDate when-custom="0701/0800" notBefore="0701" notAfter="0800"
+                     calendar="#gregorian">s. viii</origDate> </origin>
                   <provenance type="#m b"><orgName role="fmo" key="org_601">Worcester,
-                        Worcestershire. Benedictine cathedral priory of St Mary the Virgin</orgName><p>The end flyleaf is in Worcester script of s. xi2.</p><note type="MLGB3_medievalCatalogueNotes">Young 216</note></provenance>
+                     Worcestershire. Benedictine cathedral priory of St Mary the
+                     Virgin</orgName><p>The end flyleaf is in Worcester script of s. xi2.</p><note
+                     type="MLGB3_medievalCatalogueNotes">Young 216</note></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_122">Canterbury, Kent,
+                     Benedictine abbey of St Augustine (originally of St Peter and St
+                     Paul)</orgName><p>Attributions for both St Augustine's and Christ Church were
+                     rejected in the second edition of Medieval Libraries of Great Britain (1964).
+                     There were no relevant changes in the Supplement (1987). There is one Medieval
+                     Libraries of Great Britain index card to cover both attributions. The card
+                     originally noted the following citation: E. A. Lowe, <title>Specimina codicis
+                     reg. S. Ben.</title> (1929), pp. 12-13. However, Ker later added the following
+                     note: <q>But the entry <q>Regula Benedicti Ausculta o fili praecepta Magistri
+                     liber scriptus maiusculis characteribus, vetus fol. bon</q> in the Worcester
+                     catalogue of s. xvii1 and the script of the flyleaf show that the MS was at
+                     Worcester in the middle ages.</q> See also Neil R. Ker, 'The Provenance of the
+                     Oldest Manuscript of the Rule of St. Benedict', <title>Bodleian Library
+                     Record</title> 2, no. 7 (1941): 28–29.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_4">Canterbury, Kent,
+                     Benedictine cathedral priory of Holy Trinity or Christ Church</orgName><p>See
+                     Canterbury St Augustine's above.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Thomas Bryne</persName>
+                     (early s. xvi, fol. 9)</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Christopher Lord
+                     Hatton</persName> (d. 1670).</provenance>
+                  <provenance type="MLGB3_laterOwners">Bought for the Bodleian from <persName
+                     role="fmo">Robert Scott</persName> 1671.</provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><surrogates><bibl type="digital-facsimile" subtype="full">
-                        <ref target="https://digital.bodleian.ox.ac.uk/objects/ce827512-d440-4833-bdba-f4f4f079d2cd/">
-                           <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
-                     </bibl>
-                     <bibl subtype="partial" type="digital-facsimile">
-                        <ref target="https://digital.bodleian.ox.ac.uk/objects/89572a39-b6c0-469c-a370-d3b51e01d1de/">
-                           <title>Digital Bodleian</title></ref> <note>(83 images from 35mm slides)</note>
-                     </bibl>
-                  </surrogates><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_6072">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates><bibl type="digital-facsimile" subtype="full"> <ref
+                     target="https://digital.bodleian.ox.ac.uk/objects/ce827512-d440-4833-bdba-f4f4f079d2cd/"
+                     > <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
+                     </bibl> <bibl subtype="partial" type="digital-facsimile"> <ref
+                     target="https://digital.bodleian.ox.ac.uk/objects/89572a39-b6c0-469c-a370-d3b51e01d1de/"
+                     > <title>Digital Bodleian</title></ref> <note>(83 images from 35mm
+                     slides)</note> </bibl> </surrogates>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                           target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_6072"
+                           >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-10-08">Record edited (Sian Witherden) to incorporate rejected
+            provenance. Added reference to Ker, <title>BLR</title> (1941). Added later provenance
+            from joint Canterbury index card.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
