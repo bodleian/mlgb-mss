@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,35 +49,50 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Osbernus Gloucestrensis, etc.</title>
-                     <note type="MLGB3_generalNotes">Cf. Leland in Royal App. 69 (EHR 54. 90). The
-                        catalogue ascription of this MS. to Gloucester is due to a misunderstanding
-                        of what Leland says in Collectanea 4. 159.</note>
-                     <msItem>
-                        <title>Osbernus Gloucestrensis, Questiones (on the Pentateuch and Judges),
-                           etc.</title>
-                     </msItem>
+                     <author key="person_2436">Osbernus Gloucestrensis, etc.</author>
+                     <title key="work_5613">Questiones (on the Pentateuch and Judges), etc</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299" calendar="#gregorian">s. xii/xiii</origDate>
+                     <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299"
+                        calendar="#gregorian">s. xii/xiii</origDate>
                   </origin>
                   <provenance><orgName role="fmo" key="org_322">Lincoln, Lincolnshire. Carmelite
-                        convent</orgName><note type="MLGB3_medievalCatalogueNotes">Leland</note></provenance>
+                        convent</orgName><p>Cf. Leland in Royal App. 69 (EHR 54. 90).</p><note
+                        type="MLGB3_medievalCatalogueNotes">Leland</note></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_225">Gloucester,
+                        Gloucestershire, Benedictine abbey of St Peter</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). Compare
+                        the following note from the Medieval Libraries of Great Britain card index:
+                           <q>The catalogue ascription of this MS. to Gloucester is due to a
+                           misunderstanding of what Leland says in Collectanea 4.
+                     159.</q></p></provenance>
                   <provenance type="MLGB3_laterOwners">Old Royal pressmark 'no. 1240'.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1123.jpg, Test 3_1124.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
