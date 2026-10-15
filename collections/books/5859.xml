@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -41,6 +45,9 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">5859</idno>
                   </altIdentifier>
+                  <altIdentifier type="internal">
+                     <idno type="SCN">2402</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
@@ -48,19 +55,60 @@
                      <title>Martinus Polonus; Annales 1095–1118</title>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <p>Medieval binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate when-custom="13XX/14XX" notBefore="1300" notAfter="1499" calendar="#gregorian">s. xiv--xv</origDate>
+                     <origDate when-custom="13XX/14XX" notBefore="1300" notAfter="1499"
+                        calendar="#gregorian">s. xiv-xv</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="org_596">Windsor, Berkshire. Royal
-                        collegiate chapel of St George</orgName><p>"K.C" at top of binding leaf
-                        (fol. ii verso).</p><p>Medieval binding. Title on back-board. At top of
-                        back-board a mark "Y[?] [...]".</p><q type="pressmark">KC</q></provenance>
+                  <provenance><orgName role="fmo" key="org_596">Windsor, Berkshire. Royal collegiate
+                        chapel of St George</orgName><p><q>K.C</q> at top of binding leaf (fol. ii
+                        verso).</p><p>Medieval binding. Title on back-board. At top of back-board a
+                        mark <q>Y[?] [...]</q>.</p><q type="pressmark">KC</q></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_570">Warwick,
+                        Warwickshire, Collegiate church of St Mary the Virgin and All
+                        Saints</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card is mostly
+                        blank, providing no further context for the rejection.</p></provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_1486">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                              target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_1486"
+                              >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1599.jpg, Test 3_1600.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
