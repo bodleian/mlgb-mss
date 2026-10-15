@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -46,42 +50,80 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Sacramentarium (frgm.)</title>
-                     <note type="MLGB3_generalNotes">The dating of the manuscript revised from that
-                        in MLGB2 fits the fact that the main body of the sacramentary includes
-                        borrowings from the Romano-Germanic Pontifical. </note>
+                     <note type="MLGB3_generalNotes"><q>The dating of the manuscript revised from
+                           that in the second edition of Medieval Libraries of Great Britain (1964)
+                           fits the fact that the main body of the sacramentary includes borrowings
+                           from the Romano-Germanic Pontifical.</q> [This note was added in MLGB3, a
+                        project that was predominantly active between 2010-2015; however, at least
+                        parts of this record were evidently updated in 2016 or later].</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="1050/1075" notBefore="1050" notAfter="1075" calendar="#gregorian">s. xi 3/4</origDate>
+                     <origDate when-custom="1050/1075" notBefore="1050" notAfter="1075"
+                        calendar="#gregorian">s. xi 3/4</origDate>
                   </origin>
-                  <provenance type="#c" cert="low"><orgName role="fmo" key="org_437">Winchester, Hampshire.
-                        Benedictine cathedral priory of St Peter, St Paul, and St Swithun</orgName><p>Saints culted at both Old and New Minsters are in the text, but
-                        the provision of an 'Oratio in noui monasterii ecclesia' would suggest the
-                        New Minster. The immediately preceding entry, with prayer addressed to the
-                        Virgin and all her virgins, probably relates to the new tower of the New
-                        Minster that was erected in the 980s, probably at the north-west end of the
-                        building, and which included at ground level a porticus dedicated to the
-                        Virgin. The processional route that is here outlined seems to be from the
-                        Old Minster to the church of St Gregory (at the south-west corner of New
-                        Minster), the procession then moving from the porticus chapel of St Mary
-                        into the main body of the New Minster.</p><p>(This pers. comm. from Derek
-                        Keene, 2016; discussion to appear in the Historic Town Atlas volume on
-                        Winchester, and text and discussion to appear in Winchester Studies vol.
-                        4/1.)</p><p> Normal 0 false false false MicrosoftInternetExplorer4 </p><q type="pressmark"> Normal 0 false false false MicrosoftInternetExplorer4
-                     </q></provenance>
+                  <provenance type="#c" cert="low"><orgName role="fmo" key="org_437">Winchester,
+                        Hampshire. Benedictine cathedral priory of St Peter, St Paul, and St
+                        Swithun</orgName><p>This attribution was accepted in the second edition of
+                        Medieval Libraries of Great Britain (1964), which did not change in the
+                        Supplement. However, there were relevant changes during MLGB3 (see note on
+                        date above). Specifically, a query was added to the attribution, along with
+                        the following note:</p>
+                     <p><q>Saints culted at both Old and New Minsters are in the text, but the
+                           provision of an 'Oratio in noui monasterii ecclesia' would suggest the
+                           New Minster. The immediately preceding entry, with prayer addressed to
+                           the Virgin and all her virgins, probably relates to the new tower of the
+                           New Minster that was erected in the 980s, probably at the north-west end
+                           of the building, and which included at ground level a porticus dedicated
+                           to the Virgin. The processional route that is here outlined seems to be
+                           from the Old Minster to the church of St Gregory (at the south-west
+                           corner of New Minster), the procession then moving from the porticus
+                           chapel of St Mary into the main body of the New Minster. (This pers.
+                           comm. from Derek Keene, 2016; discussion to appear in the Historic Town
+                           Atlas volume on Winchester, and text and discussion to appear in
+                           Winchester Studies vol. 4/1.).</q></p></provenance>
+                  <provenance type="#c" cert="low"><orgName role="fmo" key="org_268">Hyde (Hida,
+                        formerly New Minster, Winchester), Hampshire, Benedictine abbey of Holy
+                        Trinity, St Mary the Virgin, and St Peter</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), though the corresponding dagger was inadvertently
+                        omitted in the index (see pp. 104, 394). There were no relevant changes in
+                        the Supplement (1987). The corresponding Medieval Libraries of Great Britain
+                        index card records the following information, which (originally) was deemed
+                        unsatisfactory for an attribution: The <q>Newminster Missal</q>. Contains an
+                           <q>oratio in noui monasterii ecclesia</q>, invoking St Peter, Paul,
+                        Judoc, and Grimbald. This evidence was evidently reconsidered in MLGB3
+                        (2010-2015), as seen above from the notes under Winchester Benedictine
+                        Cathedral priory. With this in mind, the attribution has now (i.e. in 2026)
+                        been changed from rejected to accepted (with a query).</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><q>John More monk</q> (fol. i, s.
+                     xvi).</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1179.jpg, Test 3_1180.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden) to clarify data history and to
+            incorporate Hyde attribution. As outlined in the record, the Hyde attribution was once
+            rejected, but has here been accepted with a query in line with the rest of the
+            pre-existing MLGB3 record).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
