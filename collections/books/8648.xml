@@ -8,7 +8,7 @@
                 <title/>
                 <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
                 <respStmt xml:id="SW">
-                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <resp when="2026">Record creation; addition of rejected provenance</resp>
                     <persName>Sian Witherden</persName>
                 </respStmt>
             </titleStmt>
@@ -43,6 +43,7 @@
                         <textLang mainLang="la">Latin</textLang>
                         <msItem>
                             <title>Miscellanea</title>
+                            <note/>
                         </msItem>
                     </msContents>
                     <history>
@@ -52,16 +53,50 @@
                         </origin>
                         <provenance><orgName role="fmo" key="org_913">Sompting, Sussex. Parish
                                 church</orgName>
-                            <p>April 17 in calendar: <q>Dedicacio ecclesie de Sonting' a. d. m°.
-                                    cc°. xlvi.</q></p></provenance>
+                            <p>Calendar contains the dedication of the church at 17 April:
+                                    <q>Dedicacio ecclesie de Sonting' a. d. m°. cc°. xlvi.</q>
+                                [Calendar for March and April only; 3 April Richard Ep. C. in
+                                black.]</p></provenance>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_139">Chichester,
+                                Sussex, Cathedral church of Holy Trinity</orgName>
+                            <p>This attribution was rejected in the second edition of Medieval
+                                Libraries of Great Britain (1964), which did not change in the
+                                Supplement (1987). The corresponding Medieval Libraries of Great
+                                Britain index card records the following information, which was
+                                deemed unsatisfactory for an attribution: <q>Probably from
+                                    Chichester</q> (M. R. James).</p></provenance>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_484">Salisbury,
+                                Wiltshire, Cathedral church of St Mary the Virgin; see removed from
+                                Sherborne in 1078</orgName>
+                            <p>This attribution was rejected in the second edition of Medieval
+                                Libraries of Great Britain (1964), which did not change in the
+                                Supplement (1987). The corresponding Medieval Libraries of Great
+                                Britain index card records the following information, which was
+                                deemed unsatisfactory for an attribution: Has a list on flyleaf of
+                                altars and tombs in Salisbury cathedral (s. xv?).</p></provenance>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’,
-                                    index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).
-                                    Transcribed and encoded by Sian Witherden, with certainty level
-                                    updated to match listing in MLGB2.</source>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                        <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                            Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                            Bodleian Library).</bibl>
+                                        <bibl>Neil R. Ker, ed., <title><ref
+                                                  target="https://hdl.handle.net/2027/uva.x000937945"
+                                                  >Medieval Libraries of Great Britain: A List of
+                                                  Surviving Books</ref></title>, Royal Historical
+                                            Society Guides and Handbooks, 3 (London, 2nd edn,
+                                            1964)</bibl>
+                                        <bibl>Neil R. Ker, ed., <title><ref
+                                                  target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                                  >Medieval Libraries of Great Britain: A List of
+                                                  Surviving Books</ref></title>, Royal Historical
+                                            Society Guides and Handbooks, 15 (London, supplement,
+                                            ed. Andrew G. Watson, 1987).</bibl>
+                                    </listBibl>
+                                </source>
                             </recordHist>
                         </adminInfo>
                         <listBibl>
@@ -74,9 +109,11 @@
                     </additional>
                 </msDesc>
             </sourceDesc>
-            <!-- Index card images (box 10): Test 3_0273.jpg, Test 3_0274.jpg-->
+            <!-- Index card images (box 10): Test 3_0273.jpg, Test 3_0274.jpg, Test 3_0957.jpg, Test 3_958.jpg, Test 3_1527.jpg, Test 3_1528.jpg -->
         </fileDesc>
         <revisionDesc>
+            <change when="2026-09-17">Record edited (Sian Witherden, 2026) to incorporate rejected
+                provenance and update record sources.</change>
             <change when="2026-02-25">Record created.</change>
         </revisionDesc>
     </teiHeader>

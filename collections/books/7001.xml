@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,29 +49,52 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Hugo Ripelinus</title>
+                     <author key="person_1420">Hugo Ripelinus</author>
+                     <title key="work_3467"> Compendium ueritatis theologicae</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499" calendar="#gregorian">s. xv</origDate>
+                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499"
+                        calendar="#gregorian">s. xv</origDate>
                   </origin>
                   <provenance><orgName role="fmo" key="org_99">Cambridge, Cambridgeshire. Corpus
                         Christi College (formerly often called Benet College)</orgName></provenance>
-                  <provenance type="MLGB3_laterOwners">Thomas Markaunt (d. 1439), fellow of Corpus
-                     Christi College</provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_404">Norwich, Norfolk,
+                        Benedictine cathedral priory of Holy Trinity</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card records the
+                        following information, which was deemed unsatisfactory for an attribution:
+                           <q>On f. 1 is a penmark [sic] - older than Parker's time, but seemingly
+                           of cent. xv-xvi - C. 23, possibly a late Norwich mark</q> (M. R.
+                        James).</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Thomas
+                        Markaunt</persName> (d. 1439), fellow of Corpus Christi
+                     College.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1337.jpg, Test 3_1338.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
