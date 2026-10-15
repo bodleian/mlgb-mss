@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected provenance</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -49,22 +47,37 @@
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="110X/111X" notBefore="1100" notAfter="1119" calendar="#gregorian">s. xii in.</origDate>
-                  </origin>
+                  <origin> <origDate when-custom="110X/111X" notBefore="1100" notAfter="1119"
+                     calendar="#gregorian">s. xii in.</origDate> </origin>
                   <provenance type="#s c"><orgName role="fmo" key="org_469">Rochester, Kent.
-                        Cathedral priory of St Andrew</orgName><p>First leaves gone. On verso of
-                        flyleaf, partly cut off, are two lines of verse in the hand Th. Whybam (?),
-                        monk and subprior of Rochester: '[Qui servare libris preciosis nescit]
-                        honorem illius a manibus sit procul iste liber' (cf. Trinity College, MS O.
-                        2. 24, BL MS Royal 15 A. xxii &amp; others). Erasure at foot of fol.
-                        1r.</p><note type="MLGB3_medievalCatalogueNotes">Cf. cat.
-                     II.186</note></provenance>
+                     Cathedral priory of St Andrew</orgName><p>First leaves gone. On verso of
+                     flyleaf, partly cut off, are two lines of verse in the hand Th. Whybam (?),
+                     monk and subprior of Rochester: '[Qui servare libris preciosis nescit] honorem
+                     illius a manibus sit procul iste liber' (cf. Trinity College, MS O. 2. 24, BL
+                     MS Royal 15 A. xxii &amp; others). Erasure at foot of fol. 1r.</p><note
+                     type="MLGB3_medievalCatalogueNotes">Cf. cat. II.186</note></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_4">Canterbury, Kent,
+                     Benedictine cathedral priory of Holy Trinity or Christ Church</orgName><p>This
+                     attribution was rejected in the second edition of Medieval Libraries of Great
+                     Britain (1964), which did not change in the Supplement (1987). The
+                     corresponding Medieval Libraries of Great Britain index card records the
+                     following information, which was deemed unsatisfactory for an attribution:
+                     Christ Church hand (M. R. James is <q>fairly confident</q>). Cf. James,
+                     <title>ALCD</title>, p. 55 nos. 427-30.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Given to Trinity College by <persName
+                     role="fmo">William Greaves</persName> in 1705.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -72,6 +85,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+
+         <change when="2026-10-08">Record edited (Sian Witherden) to incorporate rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
