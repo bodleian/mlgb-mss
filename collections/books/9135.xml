@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9135">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Record creation</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library</repository>
+                        <idno type="shelfmark">Gough Missals 33 (pr. bk.)</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Missale</title>
+                            <note>Weale-Bohatta no 1388.</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <typeDesc>
+                            <p>Printed book.</p>
+                        </typeDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Basel</origPlace>
+                            <origDate calendar="#Gregorian" notBefore="1485" notAfter="1494">c.
+                                1489</origDate></origin>
+                        <provenance type="#e" cert="low"><orgName role="fmo" key="org_199">Evesham,
+                                Worcestershire. Benedictine abbey of St Mary the Virgin and St
+                                Egwin</orgName><p>Gough Missals 33 was listed under Evesham abbey
+                                (with a query) in the second edition of Medieval Libraries of Great
+                                Britain (1964), with a footnote indicating that the book belonged to
+                                the Chapel of the Battle Well. There were no relevant changes in the
+                                Supplement (1987). The Evesham abbey attribution was not included in
+                                MLGB3 (2010-2015). The corresponding Medieval Libraries of Great
+                                Britain index card records the following information:</p><p>
+                                <q>Orate pro bono statum magistri Johannis More decretorum doctoris
+                                    qui hunc librum contulit capelle de le Batell welle</q> on the
+                                verso of Te igitur leaf (fol. [C1]), pasted over. There is another
+                                inscription on fol. [C4], similarly pased over. Liturgically
+                                Evesham. For the Battle well see George May, <title>History of
+                                    Evesham</title> (1845). I find no mention of the
+                            chapel.</p></provenance>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_1014">South
+                                Littleton, Worcestershire. Parish church</orgName>
+                            <p>This attribution was rejected in the second edition of Medieval
+                                Libraries of Great Britain (1964), which did not change in the
+                                Supplement (1987). The corresponding Medieval Libraries of Great
+                                Britain index card records the following information, which was
+                                deemed unsatisfactory for an attribution:</p>
+                            <p>
+                                <q>Missale sarum ecclesiae de South Littleton</q> (flyeaf i, s.
+                                xvii?). Early s. xvi documents at end and annotations to text show
+                                that it belonged early to South Littleton Church (compare
+                                    <title>Summary Catalogue</title> after 18345). Fol. 184v margin:
+                                    <q>De sancto Kanuto rege et martire require ...</q>. After 185
+                                are two leaves containing the form <q>In translacione sancti Egwini
+                                    officium</q>. Fols. 237v, 238 margin is <q>Missa de reliquis
+                                    officium sapienciam ... pro sanctorum tuorum egwini wistani
+                                    Oswaldi Odulfi atque Credani merita gloriosa et aliorum
+                                    sanctorum quorum reliquiarum in presenti requiescent ecclesia
+                                    ...</q></p></provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                        <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                            Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                            Bodleian Library).</bibl>
+                                        <bibl>Neil R. Ker, ed., <title><ref
+                                                  target="https://hdl.handle.net/2027/uva.x000937945"
+                                                  >Medieval Libraries of Great Britain: A List of
+                                                  Surviving Books</ref></title>, Royal Historical
+                                            Society Guides and Handbooks, 3 (London, 2nd edn,
+                                            1964)</bibl>
+                                        <bibl>Neil R. Ker, ed., <title><ref
+                                                  target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                                  >Medieval Libraries of Great Britain: A List of
+                                                  Surviving Books</ref></title>, Royal Historical
+                                            Society Guides and Handbooks, 15 (London, supplement,
+                                            ed. Andrew G. Watson, 1987).</bibl>
+                                    </listBibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!-- Index card images (box 10): Test 3_1715.jpg, Test 3_1716.jpg -->
+        <revisionDesc>
+            <change when="2026-08-21">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
