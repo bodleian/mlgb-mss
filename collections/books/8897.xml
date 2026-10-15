@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8897">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Record creation</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace> <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>London</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                        >Bodleian Library</ref> </addrLine>
+                    <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address> </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>London</settlement>
+                        <repository>British Library</repository>
+                        <idno type="shelfmark">Cotton MS Galba A.i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Chronicle for 1303-42, etc</title>
+                            <note>Burnt.</note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin><origDate calendar="#Gregorian" notBefore="1300" notAfter="1499"> s.
+                            xiv and s. xv</origDate></origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_122">Canterbury,
+                            Kent, Benedictine abbey of St Augustine (originally of St Peter and St
+                            Paul)</orgName> <p>This attribution was rejected in the second edition
+                            of Medieval Libraries of Great Britain (1964), which did not change in
+                            the Supplement (1987). No corresponding Medieval Libraries of Great
+                            Britain index card was found during data reconciliation work in
+                            2026.</p><p>See the rejected entry for this manuscript in B. C.
+                            Barker-Benfield (ed.), <title>St. Augustine's Abbey, Canterbury</title>,
+                            CMBLC 13, 3 vols (London, 2008), vol. 3, p. 1828: <q>Compared by
+                            <title>ALCD</title> p. 521 with BA 1.1539-40, doubtless on the basis of
+                            its sixth item as listed by Smith, <title>Cotton Cat.</title> (1696), 61
+                            <q>Ubi sepeliuntur Sanctorum corpora in Anglia</q>. This could well ahve
+                            been the same text as that in Cotton Vitellius A. II, fols. 3r-5v [...]
+                            but its two-step destruction in the fires of 1731 (Cotton) and 1865
+                            (British Museum bindery) leaves no way of telling whether it was the
+                            specifically StA version, and unlike Vitellius A.II it does not seem to
+                            have been accompanied by other StA texts.</q></p></provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                    <bibl>B. C. Barker-Benfield (ed.), <title>St. Augustine's Abbey,
+                                        Canterbury</title>, CMBLC 13, 3 vols (London, 2008) [with
+                                        manuscript date and contents supplied from this
+                                        source].</bibl>
+                                    <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                        Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                        Bodleian Library) [no card found for this attribution in
+                                        2026].</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/uva.x000937945">Medieval
+                                        Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 3 (London, 2nd edn, 1964)</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        >Medieval Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 15 (London, supplement, ed. Andrew G. Watson,
+                                        1987).</bibl>
+                                    </listBibl> </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-10-07">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
