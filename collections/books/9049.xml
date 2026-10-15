@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9049">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace> <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                        >Bodleian Library</ref> </addrLine>
+                    <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address> </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Baltimore (MD)</settlement>
+                        <repository>Walters Art Museum</repository>
+                        <idno type="shelfmark">MS W.15</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <locus>1r–2v</locus>
+                            <title>Sermons</title>
+                            <msItem>
+                                <author key="person_2564">Peter Damian</author>
+                                <title key="work_5926">Sermones</title>
+                                <bibl>no. 47</bibl>
+                                <incipit xml:lang="la">Spirituum societas reparatur</incipit>
+                            </msItem>
+                            <msItem>
+                                <author key="person_447">Bernard of Clairvaux</author>
+                                <title key="work_1581">Sermones</title>
+                                <bibl>no. 62</bibl>
+                            </msItem>
+                            <msItem>
+                                <author key="person_2564">Peter Damian</author>
+                                <title key="work_5926">Sermones</title>
+                                <bibl>nos 9, 48</bibl>
+                            </msItem>
+                            <msItem>
+                                <title type="desc">Sermon on John</title>
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <title type="desc">Glossed Matthew</title>
+                            <msItem>
+                                <locus>fols 3r–4v</locus>
+                                <title type="desc">Preface to Matthew</title>
+                                <incipit xml:lang="la">Nomen libri euangelium grece bonum
+                                    nuncium</incipit>
+                            </msItem>
+                            <msItem>
+                                <locus>fols 5r–5v</locus>
+                                <title type="desc">Glossed prologue to Matthew</title>
+                            </msItem>
+                            <msItem>
+                                <locus>fols 5v–79r</locus>
+                                <title type="desc">Glossed Matthew</title>
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <locus>fols 79v–81v</locus>
+                            <title type="desc">Canon law formularies</title>
+                            <incipit xml:lang="la">H. dei gratia abbas illius loci B. clerico
+                                salutem</incipit>
+                            <note>Five leaves with law formularies, which contain models for
+                                letters, sentences, donations, etc.; integral to the quire
+                                containing the end of the text of Matthew.</note>
+                            <note>References to Oxford and its churches (St Frideswide, St Peter,
+                                Mary, Osney, and Thame); dates 1193, 1194, 1199, and 1203; Kings
+                                Richard and John as well as Pope Innocent III are mentioned.</note>
+                            <bibl>Extracts printed in Salter, Pantin, and Richardson
+                                (273–277).</bibl>
+                        </msItem>
+                        <msItem>
+                            <title type="desc">Glossed Mark and Luke</title>
+                            <msItem>
+                                <locus>fols 82r–82v</locus>
+                                <title type="desc">Preface to Mark</title>
+                            </msItem>
+                            <msItem>
+                                <locus>fols 82r–82v</locus>
+                                <title type="desc">Glossed prologue to Mark</title>
+                            </msItem>
+                            <msItem>
+                                <locus>fols 83r–135r</locus>
+                                <title type="desc">Glossed Mark</title>
+                            </msItem>
+                            <msItem>
+                                <locus>fol. 125v</locus>
+                                <title type="desc">Preface to Luke</title>
+                            </msItem>
+                            <msItem>
+                                <locus>fols 126r–204v</locus>
+                                <title type="desc">Glossed Luke</title>
+                                <note>Incomplete: begins with Luke 1:9.</note>
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <locus from="205r" to="209v">fols 205r–209v</locus>
+                            <title type="work">Sermons for the liturgy</title>
+                            <note>Sermons for Christmas day, Easter, Pentecost, and the beginning of
+                                Lent.</note>
+                            <note>Nos. 3 and 5–7 below occur in a similar grouping in Oxford,
+                                Balliol College, MS 240.</note>
+                            <msItem n="1">
+                                <locus>fol. 205r</locus>
+                                <rubric xml:lang="la">De natiuitate diuino.</rubric>
+                                <incipit xml:lang="la"><supplied>H</supplied>odie fratres karissimi
+                                    redemptor noster ad nos uenit per uterum intermerate uirginis.
+                                    et fieri dignatus est homo ut hominem redimeret.</incipit>
+                                <explicit xml:lang="la">Et ideo fratres karissimi mundemus illi
+                                    corda nostra ut hodie cum ad nostram salutem uenerit recipi
+                                    mereamur. et cum ipso intrare in gaudium eternum. Quod ipse
+                                    prestare dignetur cui est honor et gloria in secula seculorum.
+                                    Amen.</explicit>
+                                <note>Also found in Troyes, Médiathèque, ms. 1771, fol. 118v;
+                                    Zürich, Zentralbibliothek, Rh. 90, p. 60; Padova, Biblioteca
+                                    Antoniana, MS 473, fols 167v–168r.</note>
+                            </msItem>
+                            <msItem n="2">
+                                <locus>fols 205r–206r</locus>
+                                <rubric>Die sancti pasche.</rubric>
+                                <incipit xml:lang="la"><supplied>P</supplied>ascha nostrum immolatus
+                                    est cristus. <note>1 Cor. 5:7</note> Si igitur pascha cristus
+                                    est pensandum nobis est quid de pascha lex loquitur. ut uiteatur
+                                    subtilius quomodo de cristo dictum uideatur.</incipit>
+                                <explicit xml:lang="la">Nemini imple reliceat⹎ quod male inchoat⹎ ne
+                                    ad amorem dei pigri simus adiuuet ipse quod amamus ihesus
+                                    cristus dominus noster. qui uiuit et regnat.</explicit>
+                                <note>Other manuscripts listed in Hauréau (131).</note>
+                            </msItem>
+                            <msItem n="3">
+                                <locus>fols 206r–207r</locus>
+                                <author key="person_2228">Maximus of Turin</author>
+                                <title key="work_5254">Sermones</title>
+                                <bibl>81</bibl>
+                                <rubric>Sermo in die rogationis.</rubric>
+                                <incipit xml:lang="la"><supplied>L</supplied>egimus in prophetis.
+                                    Cum niniue ciuitatis subuersio imineret. et iuxta sententiam dei
+                                    destruendam illam tempus irrueret⹎ quod consistentes in ea aliud
+                                    non habuisse praesidium nisi ut <locus>(fol. 206v)</locus>
+                                    abiectis copiosis epulis. ieiunia continuata susciperent. et
+                                    diuitiarum ambitione deposita paupertate induerent et
+                                    humilitate.</incipit>
+                                <explicit>De quo nos dominus per prophetam ortatur et amonet dicens.
+                                    Frange esurienti panem tuum etc. <note>Is. 58:7</note> Quod in
+                                    nobis implete dignetur saluator mundi. qui cum deo patre.
+                                    etc.</explicit>
+                                <bibl type="repertory">CPL 219a</bibl>
+                                <note>Schneyer, <title>Repertorium</title>, ix, 72, no. 39.</note>
+                            </msItem>
+                            <msItem n="4">
+                                <locus>fol. 207r–v</locus>
+                                <author key="person_1081">Geoffroy Babion</author>
+                                <title key="work_2800">Sermones</title>
+                                <bibl>no. 32</bibl>
+                                <rubric>In die pentecostes.</rubric>
+                                <incipit><supplied>V</supplied>erbo domini celi firmati sunt. et
+                                    spiritu oris eius omnis uirtus eorum. <note>Ps. 32:6</note>
+                                    Fratres karissimi scire debetis que et quanta sit sollempnitas
+                                    ista et quare per omnes ecclesias uniuersaliter
+                                    celebratur.</incipit>
+                                <explicit>Contra ergo talem consolatorem cordis hospicia preparemus
+                                    uirtutibus ornemus. a uiciis mundemus ut eum digne suscipere
+                                    mereamur. Qui uiuit et regnat.</explicit>
+                                <note>Schneyer, <title>Repertorium</title>, ii, 153 and vii,
+                                    800.</note>
+                            </msItem>
+                            <msItem n="5">
+                                <locus>fol. 208r–v</locus>
+                                <author key="person_546">Caesarius of Arles</author>
+                                <title key="work_1839">Sermones</title>
+                                <bibl>146</bibl>
+                                <rubric>Sermo in capite ieiunii.</rubric>
+                                <incipit><supplied>P</supplied>recauendum in omnibus bona opera
+                                    exercentibus fratres karissimi quod dominus dicit in euangelio.
+                                    Attendite ne iustitiam uestram <sic>eorum</sic> hominibus etc.
+                                    <note>Matt. 6:1</note> Hec lectio sancti euangelii fratres
+                                    karissimi uidetur michi quod secundum litteras non potest
+                                    intellegi. et ideo deo auxiliante requiramus qualiter ad eius
+                                    sensum spiritualem peruenire possimus.</incipit>
+                                <explicit>Sed pro dei amore et desiderio eterne uite beatitudinis
+                                    faciamus. Quod nobis prestare.</explicit>
+                                <bibl type="repertory">CPL 1008.146</bibl>
+                                <note>Schneyer, <title>Repertorium</title>, ix, 70, no. 19.</note>
+                            </msItem>
+                            <msItem n="6">
+                                <locus>fols 208v–209r</locus>
+                                <author key="person_3841">Pseudo-Augustine</author>
+                                <title key="work_1188">Sermones ad fratres in eremo
+                                    commorantes</title>
+                                <bibl>no. 64</bibl>
+                                <incipit><supplied>A</supplied>udite filioli mei et intelligite
+                                    quomodo sacra scriptura nos ammonet ad regna celorum innitat et
+                                    uiam ostendit quomodo mala mundi huius euadere possimus et ad
+                                    uitam eternam cristo adiuuante peruenire.</incipit>
+                                <explicit>Hec precepta implendi uirtutem nobis prestare dignetur.
+                                    saluator mundi qui cum patre. et spiritu sancto. etc.</explicit>
+                                <bibl>PL 40.1347</bibl>
+                                <note>Schneyer, <title>Repertorium</title>, ix, 70, no. 20.</note>
+                            </msItem>
+                            <msItem n="7">
+                                <locus>fol. 209r–v</locus>
+                                <incipit><supplied>P</supplied>rimum omnium. <note>Mark 12:29</note>
+                                    tria quedam unicuique homini pernecessaria sunt. fides. spes.
+                                    caritas.</incipit>
+                                <explicit>Tercia delinquante corrigere et errantes⹎ reducere in uia
+                                    ueritatis. Hec in nobis implere dignetur saluator mundi⹎ qui cum
+                                    deo patre et spiritu sancto uiuit et regnat.</explicit>
+                                <note>Schneyer, <title>Repertorium</title>, ix, 71, no. 22.</note>
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <locus>fols 210r–256r</locus>
+                            <title type="desc">Glossed John</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin><origDate calendar="#Gregorian" notBefore="1180" notAfter="1220">s.
+                            xii ex / s. xiii in</origDate></origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_419">Oxford,
+                            Oxfordshire, Augustinian priory of St Frideswide</orgName> <p>This
+                            rejected attribution first appeared in the Supplement to Medieval
+                            Libraries of Great Britain (1987). The corresponding Medieval Libraries
+                            of Great Britain index card recorded the following information: <q>St.
+                            Frideswide, Oxford suggested as provenance in Quaritch catalogue on
+                            strength of formulary documents at end.</q> There is also a
+                            cross-reference on the card to <title>Oxford formularies</title>, p.
+                            273.</p> As the details on the index card are brief, it is helpful here
+                            to provide further context. Quaritch (no. 49) argued, <q>the original
+                            scribe has added a large number of ecclesiastical forms, citations,
+                            deeds of bequest, etc., and although intended to be blank forms a large
+                            number of them have been copied from original charters of S. Frideswide,
+                            Oxford (now Christ Church), S. Frideswide Oseney and S. Peter’s in the
+                            East, Oxford. The forms belonging to first named church are in the
+                            majority, and therefore I think that the volume probably emanated from
+                            the monastery attached to S. Frideswide, Oxford.</q> <p>Ker and Watson
+                            evidently rejected this on the basis that the documents do not in
+                            themselves prove the book’s origin or provenance. For reference,
+                            Campbell (35–6) was unaware of the earlier attribution and in 2019 made
+                            a similar case for associating the book with the Augustinian priory of
+                            St Frideswide or Osney Abbey on the basis of the number of regular
+                            canons featuring in its formulary, viewing the former as more likely
+                            because there is more evidence of the priors of St Frideswide’s serving
+                            as papal judge-delegates.</p></provenance>
+                        <provenance type="MLGB3_laterOwners"><q><persName>J.
+                            Reynoldes</persName></q> (or <q>D. S. Reynoldes</q>?), seventeenth
+                            century; his ownership inscription, left pastedown and fol.
+                            3r.</provenance>
+                        <provenance type="MLGB3_laterOwners"><persName>Thomas Fitton of
+                            Siddington</persName> (d. 1599): inscribed, fol. 3r.</provenance>
+                        <provenance type="MLGB3_laterOwners"><persName>Rowland
+                            Clegg-Hill</persName>, Third Viscount of Hawkstone Park, Shropshire
+                            (1833–1895); his ex libris and pencil notation on left
+                            pastedown.</provenance>
+                        <provenance type="MLGB3_laterOwners">Bernard Quaritch, booksellers, London,
+                            catalogue 344 (1916), no. 49.</provenance>
+                        <provenance type="MLGB3_laterOwners">Guiseppe Martini, booksellers, New York
+                            (later Lugano), catalogue 13 (1916), no. 11.</provenance>
+                        <provenance type="MLGB3_laterOwners"><persName>Henry Walters</persName>,
+                            Baltimore, acquired before 1931.</provenance>
+                        <provenance type="MLGB3_laterOwners">Walters Art Museum, 1931, by Henry
+                            Walters’ bequest.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Andrew Dunning and Sian Witherden,
+                                    2026) from the following sources:<listBibl>
+                                    <bibl>Bernard Quaritch, <ref
+                                        target="https://archive.org/details/quaritchcatalogue344"
+                                        ><title>A Catalogue of English Manuscripts, Historical
+                                        Documents and Autographs Forming the Second Supplement to a
+                                        Catalogue of Books in English Literature and
+                                        History</title></ref>, Sale Catalogues, 344 (London,
+                                        1916).</bibl>
+                                    <bibl>Campbell, William H., ‘<ref
+                                        target="https://doi.org/10.1080/13660691.2019.1662552"
+                                        >Monastic Preaching to the Laity in Thirteenth-Century
+                                        England</ref>’, <title>Medieval Sermon Studies</title>, 63/1
+                                        (2019), 30–41.</bibl>
+                                    <bibl>Hauréau, Barthélemy, ‘Notice sur les sermons attribués à
+                                        Hildebert de Lavardin’, <ref
+                                        target="https://archive.org/details/NoticesEtExtraits321"
+                                        ><title>Notices et extraits des manuscrits de la
+                                        Bibliothèque nationale et autres
+                                        bibliothèques</title></ref>, 32 (1886), 107–66.</bibl>
+                                    <bibl>Ker, Neil R., et al., ‘Medieval Libraries of Great
+                                        Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                        Bodleian Library).</bibl>
+                                    <bibl>Ker, Neil R., ed., <title><ref
+                                        target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        >Medieval Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 15 (London, supplement, ed. Andrew G. Watson,
+                                        1987).</bibl>
+                                    <bibl>Salter, H. E., W. A. Pantin, and H. G. Richardson, eds,
+                                        <title>Formularies Which Bear on the History of Oxford,
+                                        c.1204–1420</title>, Oxford Historical Society, new ser.,
+                                        4–5 (Oxford, 1942).</bibl>
+                                    <bibl>Schneyer, Johannes Baptist, <title>Repertorium der
+                                        lateinischen Sermones des Mittelalters für die Zeit von
+                                        1150–1350</title>, 11 vols, Beiträge zur Geschichte der
+                                        Philosophie und Theologie des Mittelalters, Texte und
+                                        Untersuchungen, 43 (Münster, 1969).</bibl>
+                                    </listBibl></source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!-- Index card images (box 10): Test 3_1391.jpg, Test 3_1392.jpg -->
+        <revisionDesc>
+            <change when="2026-09-10">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
