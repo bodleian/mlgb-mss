@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9638">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="SW">
+               <resp when="2026">Transcription and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Transcription and encoding of index card</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>Untraced</country>
+                  <settlement>Untraced</settlement>
+                  <repository>Untraced</repository>
+                  <idno type="shelfmark">Shelfmark not recorded (fragment of the Shere
+                     Missal)</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Missale</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" notBefore="1400" notAfter="1419">s. xv
+                        in</origDate>
+                  </origin>
+                  <!-- Check if person_3988 is live-->
+                  <provenance type="#e"><orgName role="fmo" key="org_910">Shere, Surrey. Chantry
+                        chapel</orgName><p>The missal was donated in 1477 by <persName
+                           key="person_3988" role="dnr">Johannes Cantmell</persName>, 'capellanus
+                        cantarie de S.' See the list of donors in the second edition of Medieval
+                        Libraries of Great Britain (1964), p. 324.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Helmington Hall, <persName role="fmo">Lord
+                        Tollemache</persName>, 72. This was the current location as reported in the
+                     second edition (1964).</provenance>
+                  <provenance type="MLGB3_laterOwners">'Acquired, split up and sold by Duschnes, New
+                     York' according to the supplement to Medieval Libraries of Great Britain
+                     (1987), p. 74. The book appeared in the index of untraced manuscripts and
+                     printed books with a footnote: 'some fragments traced' (p. 140). No further
+                     details were given.</provenance>
+                  <provenance type="MLGB3_laterOwners">A fragment was sold by Charles Edwin Puckett
+                     (Inventory# IM-13620, <ref
+                        target="https://www.cepuckett.com/inventory/index.php?no_cache=20260731052548&amp;main_page=product_info&amp;products_id=4007"
+                        >online description</ref> accessed 31 July 2026). The vendor refers to
+                     another leaf in a different bookseller's catalogue, also now untraced: " A
+                     sister leaf with a nearly identical large illuminated initial is pictured &amp;
+                     described in Rendell, <title>The Medieval World</title>, 1979, item 81."
+                     Compare Schoenberg Database of Manuscripts <ref
+                        target="https://sdbm.library.upenn.edu/entries/3532"
+                     >SDBM_3532</ref>.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description (Sian Witherden, 2026) based primarily on Neil R. Ker,
+                           ed., <title>Medieval Libraries of Great Britain: A List of Surviving
+                              Books</title>, Royal Historical Society Guides and Handbooks, 3
+                           (London, <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd
+                              edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>), with comparative reference to the
+                           Schoenberg Database of Manuscripts and the website of bookseller Charles
+                           Edwin Puckett. </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2026-06-04">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

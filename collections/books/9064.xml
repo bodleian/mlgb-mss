@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9064">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge (MA)</settlement>
+                        <repository>Harvard University, Law Library</repository>
+                        <idno type="shelfmark">MS 64</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <author key="person_1190">Gratian</author>
+                            <title key="work_2975">Decretum</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin><origDate calendar="#Gregorian" notBefore="1200" notAfter="1299">s.
+                                xiii</origDate></origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_458">Reading,
+                                Berkshire, Benedictine abbey of Saint Mary the Virgin</orgName>
+                            <p>This attribution was accepted (with a query) in the second edition of
+                                Medieval Libraries of Great Britain (1964). However, it was later
+                                rejected in the Supplement (1987). The corresponding Medieval
+                                Libraries of Great Britain index card records the following
+                                information, which was ultimately deemed unsatisfactory for an
+                                attribution:</p><p>Lacks fol. 1. Phillipps catalogue says <q>Ex
+                                    Bibl. Abbatiae de Reading.</q> De Ricci, <title>Census</title>,
+                                I, 1035, says <q>probably from Reading Abbey</q> - assumption based
+                                on J. Bowen's ownership.</p></provenance>
+                        <provenance type="MLGB3_laterOwners"><q><persName role="fmo">James Bowen
+                                </persName>anno 1745 no. 9.</q></provenance>
+                        <provenance type="MLGB3_laterOwners"><persName role="fmo"
+                                >Phillipps</persName> 22066 and 3625. Sold (Sotheby lot 353) 21
+                            March 1895.</provenance>
+                        <provenance type="MLGB3_laterOwners">Quaritch cat. 180 (1898), no. 17; cat.
+                            211 (1902) no. 27.</provenance>
+                        <provenance type="MLGB3_laterOwners">Dunn I, no. 74.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                        <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                            Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                            Bodleian Library).</bibl>
+                                        <bibl>Neil R. Ker, ed., <title><ref
+                                                  target="https://hdl.handle.net/2027/uva.x000937945"
+                                                  >Medieval Libraries of Great Britain: A List of
+                                                  Surviving Books</ref></title>, Royal Historical
+                                            Society Guides and Handbooks, 3 (London, 2nd edn,
+                                            1964)</bibl>
+                                        <bibl>Neil R. Ker, ed., <title><ref
+                                                  target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                                  >Medieval Libraries of Great Britain: A List of
+                                                  Surviving Books</ref></title>, Royal Historical
+                                            Society Guides and Handbooks, 15 (London, supplement,
+                                            ed. Andrew G. Watson, 1987).</bibl>
+                                    </listBibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-10-14">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>

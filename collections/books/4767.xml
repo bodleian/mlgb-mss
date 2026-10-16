@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected provenance</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -49,21 +47,37 @@
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="10XX/11XX" notBefore="1000" notAfter="1199" calendar="#gregorian">s. xi/xii</origDate>
-                  </origin>
+                  <origin> <origDate when-custom="10XX/11XX" notBefore="1000" notAfter="1199"
+                     calendar="#gregorian">s. xi/xii</origDate> </origin>
                   <provenance type="#e s"><orgName role="fmo" key="org_469">Rochester, Kent.
-                        Cathedral priory of St Andrew</orgName><p>('A slip is cut off the bottom
-                        of fol. 1r, on which was evidently a press-mark. The position of this
-                        suggests the probability that the book may have belonged to Rochester, where
-                        many books in the Christ Church hand were to be found' MRJ Cat.
-                     193).</p></provenance>
+                     Cathedral priory of St Andrew</orgName><p><q>A slip is cut off the bottom of
+                     fol. 1r, on which was evidently a press-mark. The position of this suggests the
+                     probability that the book may have belonged to Rochester, where many books in
+                     the Christ Church hand were to be found</q> M. R. James Cat.
+                     193.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_4">Canterbury, Kent,
+                     Benedictine cathedral priory of Holy Trinity or Christ Church</orgName><p>This
+                     attribution was rejected in the second edition of Medieval Libraries of Great
+                     Britain (1964), which did not change in the Supplement (1987). The
+                     corresponding Medieval Libraries of Great Britain index card shows that the
+                     reason for a potential attribution was M. R. James's assessmentof the hand
+                     (quoted above at the Rochester attribution). The card also cites
+                     <title>ALCD</title>, p. 530.</p></provenance>
                   <provenance type="MLGB3_laterOwners">Crawford 126.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName>Maurice Johnson</persName> of
+                     Spalding.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -71,6 +85,10 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+
+         <change when="2026-10-08">Record edited (Sian Witherden) to incorporate rejected
+            provenance. Also, added later owner (Maurice Johnson) from Christ Church index
+            card.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

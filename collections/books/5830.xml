@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -41,6 +45,9 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">5830</idno>
                   </altIdentifier>
+                  <altIdentifier type="internal">
+                     <idno type="SCN">2111</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
@@ -48,20 +55,69 @@
                      <title>Exodus, glo.</title>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <p>Medieval binding, much repaired.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
+                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                        calendar="#gregorian">s. xiii</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="org_596">Windsor, Berkshire. Royal
-                        collegiate chapel of St George</orgName><p>Medieval binding, much
-                        repaired. "AD" at head of fol. i verso and an older mark "15".</p><p>"liber
-                        s. [...]" on the end pastedown, s. xii/xiii?</p><q type="pressmark">AD</q></provenance>
+                  <provenance><orgName role="fmo" key="org_596">Windsor, Berkshire. Royal collegiate
+                        chapel of St George</orgName><p><q>AD</q> at head of fol. i verso and an
+                        older mark <q>15</q>.</p><q type="pressmark">AD</q></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_83">Buildwas,
+                        Shropshire, Savigniac and (1147) Cistercian abbey of St Mary the Virgin and
+                        St Chad</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card records the
+                        following information, which was deemed unsatisfactory for an
+                        attribution:</p><p><q>liber sancte Marie ...</q> (s. xiii/xiv; erased on
+                        back cover). For evidence of provenance compare James, <title>The
+                           Library</title>, N.S. XIII 71 - apparently a pure conjecture based on
+                           <q>sancte Marie</q>.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Presented by the Dean and Canons of Windsor
+                     in 1612.</provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><surrogates><bibl subtype="partial" type="digital-facsimile"><ref target="https://digital.bodleian.ox.ac.uk/objects/bd82f5d9-43e4-4d68-bd4d-7412ef3da720/"><title>Digital Bodleian</title></ref>
-                        <note>(2 images from 35mm slides)</note></bibl></surrogates><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_444">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates><bibl subtype="partial" type="digital-facsimile"><ref
+                           target="https://digital.bodleian.ox.ac.uk/objects/bd82f5d9-43e4-4d68-bd4d-7412ef3da720/"
+                              ><title>Digital Bodleian</title></ref>
+                        <note>(2 images from 35mm slides)</note></bibl></surrogates>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                              target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_444"
+                              >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0637.jpg, Test 3_638.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

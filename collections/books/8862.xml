@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8862">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>Scotland</country>
+                        <settlement>Glasgow</settlement>
+                        <repository>University Library</repository>
+                        <idno type="shelfmark">MS Hunter 7</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <author key="person_1712">John Gower</author>
+                            <title key="work_4351">Confessio Amantis</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin><origDate calendar="#Gregorian" notBefore="1400" notAfter="1425">s.
+                                xv 1/4</origDate></origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_86">Bury St
+                                Edmunds, Suffolk, Benedictine abbey of St Edmund, King and
+                                Martyr</orgName>
+                            <p>This attribution has had a complex history in Medieval Libraries of
+                                Great Britain.</p>
+                            <p>In the first edition (1941), there is no reference to MS Hunter 7 in
+                                connection with Bury.</p>
+                            <p>In the second edition (1964), the shelfmark is listed with a positive
+                                Bury attribution in the index of manuscripts (p. 350). However, the
+                                manuscript is <hi rend="italic">not</hi> included in the main Bury
+                                section of the 'List of Surviving Books' in the second edition (pp.
+                                16-22).</p>
+                            <p>Between the publication of the second edition (1964) and the
+                                Supplement (1987), see for comparison R. M. Thompson, 'The Library
+                                of Bury St. Edmunds Abbey [...]', <title>Speculum</title> 47 (1972),
+                                p. 618 n. 3: <q>a number of Bury MSS have been <hi rend="italic"
+                                        >added</hi> to Ker's 1964 list, which for the sake of
+                                    convenience I list here [...] Glasgow, University Library MS
+                                    Hunterian 7(?)</q> [italics in this quotation supplied here for
+                                emphasis].</p>
+                            <p>In the Supplement (1987), MS Hunter 7 is rejected under Bury in the
+                                'List of Surviving Books' and the index of manuscripts (pp. 7, 122).
+                                In both locations, the attribution is presented as new rather than
+                                revised. In other words, the Supplement does not reflect the fact
+                                that a Bury attribution was previously accepted in 1964 (or, more
+                                specifically, was accepted in the <hi rend="italic">index only</hi>
+                                in 1964).</p>
+                            <p>No corresponding Medieval Libraries of Great Britain index card was
+                                found during data reconciliation work in 2026. In all likelihood,
+                                the card would once have cited the following passage from John Young
+                                and Patrick Henderson Aitken, <title>A catalogue of the manuscripts
+                                    in the Library of the Hunterian Museum in the University of
+                                    Glasgow</title> (Glasgow, 1908), p. 11:</p>
+                            <p><q>On iii, 2 rᵒ in the same hand [xvii century]: <q>John Gower | De
+                                        Confessione Amantis. Imprinted at London in Flete strete |
+                                        by Thomas Berthelette the | xii daie of Marche. An MDLIIII.
+                                        | Cum Privilegio | This Book as I was told by the Gent: who
+                                        presented it to me did originally belong to the Abby of Bury
+                                        in Suffolk.</q> Prof. G. C. Macaulay (Clarendon Press
+                                    Edition of John Gower's Complete Works, Oxford, 1901), remarks
+                                    on this: <q>If so, the <title>Confessio Amantis</title> was
+                                        probably the copy read by Lydgate.</q></q></p>
+                            <p>Compare, more recently, Linne Mooney and Derek Pearsall, <title>A
+                                    descriptive catalogue of the English manuscripts of John Gower's
+                                    Confessio amantis</title> (Cambridge, 2021), p. 74: <q>None of
+                                    the additions to the MS provide evidence of provenance</q>.</p>
+                        </provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                        <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                            Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                            Bodleian Library).</bibl>
+                                        <bibl>Neil R. Ker, ed., <title><ref
+                                                  target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                                  >Medieval Libraries of Great Britain: A List of
+                                                  Surviving Books</ref></title>, Royal Historical
+                                            Society Guides and Handbooks, 3 (London, 1941).</bibl>
+                                        <bibl>Neil R. Ker, ed., <title><ref
+                                                  target="https://hdl.handle.net/2027/uva.x000937945"
+                                                  >Medieval Libraries of Great Britain: A List of
+                                                  Surviving Books</ref></title>, Royal Historical
+                                            Society Guides and Handbooks, 3 (London, 2nd edn,
+                                            1964).</bibl>
+                                        <bibl>Neil R. Ker, ed., <title><ref
+                                                  target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                                  >Medieval Libraries of Great Britain: A List of
+                                                  Surviving Books</ref></title>, Royal Historical
+                                            Society Guides and Handbooks, 15 (London, supplement,
+                                            ed. Andrew G. Watson, 1987).</bibl>
+                                        <bibl>Linne Mooney and Derek Pearsall, <title>A descriptive
+                                                catalogue of the English manuscripts of John Gower's
+                                                Confessio amantis</title> (Cambridge, 2021) [with
+                                            date of manuscript following this source]</bibl>
+                                        <bibl>R. M. Thompson, 'The Library of Bury St. Edmunds Abbey
+                                            in the Eleventh and Twelfth Centuries',
+                                                <title>Speculum</title> 47 (1972), 617-645.</bibl>
+                                        <bibl>John Young and Patrick Henderson Aitken, <title>A
+                                                catalogue of the manuscripts in the Library of the
+                                                Hunterian Museum in the University of
+                                                Glasgow</title> (Glasgow, 1908).</bibl>
+                                    </listBibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-10-14">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>

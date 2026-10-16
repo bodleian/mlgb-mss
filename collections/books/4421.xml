@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,31 +49,57 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Ailredus Rievallensis, Vita s. Eduardi</title>
+                     <author key="person_58">Ailredus Rievallensis</author>
+                     <title key="work_95">Vita s. Eduardi</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
+                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                        calendar="#gregorian">s. xiii</origDate>
                   </origin>
                   <provenance type="#i" cert="low"><orgName role="fmo" key="org_444">Pershore,
                         Worcestershire. Benedictine abbey of St Edburga (originally of St Mary the
-                        Virgin, St Peter, and St Paul)</orgName><p>'Dan Rycharde Beerley owyth
-                        thys booke' (he was a monk of Pershore at the time of the Suppression) (fol.
-                        ir)</p><p>From Westminster?</p></provenance>
-                  <provenance type="MLGB3_laterOwners">? Robert Hare.</provenance>
+                        Virgin, St Peter, and St Paul)</orgName><p><q>Dan Rycharde Beerley owyth
+                           thys booke</q> (fol. ir). He was a monk of Pershore at the time of the
+                        Suppression.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_579">Westminster,
+                        Middlesex, Benedictine abbey of St Peter</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card suggests a
+                        state of some confusion about the basis for an attribution. The following
+                        note has been copied down (fol. iiiᵛ, s. xvi): <q>This booke was left by
+                           Islip as he was visiting the Lands of his owne monastery in
+                           Glocestershire, with Thomas Seabrooke, then abbot of Glocester [etc]</q>.
+                        The phrase <q>what about it?</q> was later added to the index card in
+                        pencil. Presumably the original reason for suggesting a Winchester
+                        provenance was the fact that John Islip was Abbot of Westminster (d. 1532),
+                        though the index card does not make this clear.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Robert Hare (?)</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1621.jpg, Test 3_1622.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -45,32 +43,55 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Petrus Comestor, Historia scholastica (excerpts); Honorius
-                        Augustodunensis, Gemma animae</title>
-                     <note type="MLGB3_generalNotes">MRJ ascribed this MS to St Alban's.</note>
+                     <author key="person_2558">Petrus Comestor</author>
+                     <title key="work_5901">Historia scholastica</title>
+                     <note>(excerpts)</note>
+                  </msItem>
+                  <msItem>
+                     <author key="person_1389">Honorius Augustodunensis</author>
+                     <title key="work_3391">Gemma animae</title>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="1100/1300" notBefore="1100" notAfter="1300" calendar="#gregorian">s. xiii, xii</origDate>
-                  </origin>
+                  <origin> <origDate when-custom="1100/1300" notBefore="1100" notAfter="1300"
+                     calendar="#gregorian">s. xiii, xii</origDate> </origin>
                   <provenance type="#e"><orgName role="fmo" key="org_307">Lessness or Westwood,
-                        Kent. Augustinian abbey of St Thomas the Martyr</orgName><p>'Hic liber
-                        [...Tho]me martiris [de Liesnes] quem qui ei abstulerit uel fraudem ei
-                        fecerit nisi eidem ecclesie plene satisfacerit (sic) anathema sit maranatha
-                        Amen' (erased at bottom of fol. 1r).</p></provenance>
+                     Kent. Augustinian abbey of St Thomas the Martyr</orgName><p>'Hic liber
+                     [...Tho]me martiris [de Liesnes] quem qui ei abstulerit uel fraudem ei fecerit
+                     nisi eidem ecclesie plene satisfacerit (sic) anathema sit maranatha Amen'
+                     (erased at bottom of fol. 1r).</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_474">St Albans,
+                     Hertfordshire, Benedictine abbey of St Alban</orgName> <p>This attribution was
+                     rejected in the second edition of Medieval Libraries of Great Britain (1964),
+                     which did not change in the Supplement (1987). The corresponding Medieval
+                     Libraries of Great Britain index card indicates that M. R. James was the source
+                     of this attribution. In James's words: <q>Possibly St Albans (or possibly
+                     Belvoir) is the source of the volume; the inscription is conceived on just the
+                     same lines as in St Alban's books</q>. Neil Ker added a note to the index card
+                     refuting James's theory and redirecting to Lessness: <q>But maranatha is <emph>not</emph> found in St Albans books; from
+                     Lessness.</q></p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1503.jpg, Test 3_1504.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to incorporate rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

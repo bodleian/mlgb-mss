@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8825">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library</repository>
+                        <idno type="shelfmark">MS Lat. th. f. 8</idno>
+                        <altIdentifier type="internal">
+                            <idno type="SCN">34476</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <author key="person_3732">William Lyndwood</author>
+                            <title key="work_8089">Provinciale</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin><origDate calendar="#Gregorian" notBefore="1400" notAfter="1499">s.
+                                xv</origDate></origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_952">Bisham
+                                (Bustleham), Berkshire, Augustinian priory and (1536) abbey of St
+                                Saviour and St Mary the Virgin, or of Holy Trinity</orgName>
+                            <p>This attribution was rejected in the second edition of Medieval
+                                Libraries of Great Britain (1964), which did not change in the
+                                Supplement (1987). The corresponding Medieval Libraries of Great
+                                Britain index card records the following information, which was
+                                deemed unsatisfactory for an attribution: <q>This book originally
+                                    belonged to the library of Busleham [i.e. Bisham]</q> (s. xix
+                                century note).</p></provenance>
+                        <provenance type="MLGB3_laterOwners"><q>It was bequeath'd to <persName
+                                    role="fmo">the Revd J. Jeans</persName> by <persName role="fmo"
+                                    >Lady Hobbey Mill</persName> late of Eling [d. 1792, owner of
+                                estate in Bisham]</q> = <title>CMA</title> ii (no. 3804) (MS of
+                                <persName role="fmo">John Hoby</persName>).</provenance>
+                        <provenance type="MLGB3_laterOwners"><persName role="fmo">H. T.
+                                Wake</persName> cat. 421 art. 72 bought 1901.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                        <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                            Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                            Bodleian Library).</bibl>
+                                        <bibl>Neil R. Ker, ed., <title><ref
+                                                  target="https://hdl.handle.net/2027/uva.x000937945"
+                                                  >Medieval Libraries of Great Britain: A List of
+                                                  Surviving Books</ref></title>, Royal Historical
+                                            Society Guides and Handbooks, 3 (London, 2nd edn,
+                                            1964)</bibl>
+                                        <bibl>Neil R. Ker, ed., <title><ref
+                                                  target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                                  >Medieval Libraries of Great Britain: A List of
+                                                  Surviving Books</ref></title>, Royal Historical
+                                            Society Guides and Handbooks, 15 (London, supplement,
+                                            ed. Andrew G. Watson, 1987).</bibl>
+                                    </listBibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl type="WRAPPER">
+                            <listBibl type="INTERNET">
+                                <head>Online resources:</head>
+                                <bibl><ref
+                                        target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_6820"
+                                        >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                            </listBibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-10-14">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>

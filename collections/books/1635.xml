@@ -37,42 +37,93 @@
                   <country>England</country>
                   <settlement>Hereford</settlement>
                   <repository>Cathedral</repository>
-                  <idno type="shelfmark">MS P.v.10 fols. 80-124</idno>
+                  <idno type="shelfmark">MS P.v.10</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1635</idno>
+                  </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3187</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>T. Gallus, etc.</title>
-                     <note type="MLGB3_generalNotes">(fols. 80–124) four quires.</note>
-                     <note type="MLGB3_generalNotes">Title: "Pseudo-Dionysius de celesti Ierarchia,
-                        etc.; Commentum Thome [Gallonis] abbatis Vercellensis super iv libros beati
-                        Dyonisii; Excerpta naturalis historie librorum plinii secundi".</note>
+                     <author>Pseudo-Dionysius</author>
+                     <title>De celesti Ierarchia, etc.</title>
+                  </msItem>
+                  <msItem>
+                     <title key="work_7536">Commentum Thome [Gallonis] abbatis Vercellensis super iv
+                        libros beati Dyonisii</title>
+                  </msItem>
+                  <msItem>
+                     <author key="person_2965">Robert of Cricklade</author>
+                     <title key="work_6705">Defloratio Plinii</title>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
-                  </origin>
-                  <provenance type="#e"><orgName role="fmo" key="org_124">Canterbury, Kent.
-                        Franciscan convent</orgName><p>"Dyonisius F. 4" (back of
-                        binding).</p><p>"F. 4 Dyonisius" (inside cover).</p><p>"Iste liber est de
-                        communitate fratrum minorum Heref' excepto scripto Abbatis Vercellensis quod
-                        est de communitate Cantuarie" (fol. i recto).</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="org_251">Hereford, Herefordshire.
+                        Franciscan convent</orgName><p>"From the Hereford Franciscans, [fols.
+                        80-124v] having earlier belonged to the Grey Friars at Canterbury", as
+                        described in R.A.B. Mynors and R.M. Thomson, with a contribution on the
+                        bindings by Michael Gullick, <title>Catalogue of the manuscripts of Hereford
+                           Cathedral Library</title> (Cambridge: D.S. Brewer, 1993), p.
+                           100.</p><p><q>Iste liber est de communitate fratrum minorum Heref'
+                           excepto scripto Abbatis Vercellensis quod est de communitate
+                           Cantuarie</q> (fol. i recto).</p><p><q>Dyonisius F. 4</q> (back of
+                        binding).</p><p><q>F. 4 Dyonisius</q> (inside cover).</p><p><q
+                           type="pressmark">F.4m</q></p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 80-124</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>4 quires.</extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <msContents>
+                     <msItem>
+                        <author key="person_3362">T. Gallus</author>
+                        <title key="work_7536">Extractio de Libris Beati Dionysii</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                           calendar="#gregorian">s. xiii</origDate>
+                     </origin>
+                     <provenance type="#e"><orgName role="fmo" key="org_124">Canterbury, Kent.
+                           Franciscan convent</orgName><p>See notes above for Hereford
+                           Franciscans.</p></provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-20">Record 3187 merged into this record. Additional note on
+            provenance supplied from Mynors, Thomson, and Gullick (1993), and contents description
+            also improved in light of this source (full citation in record).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

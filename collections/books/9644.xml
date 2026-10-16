@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9644">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="SW">
+               <resp when="2026">Transcription and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Transcription and encoding of index card</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement>New Haven (CT)</settlement>
+                  <repository>Beinecke Library</repository>
+                  <idno type="shelfmark">Takamiya MS 7 (formerly untraced)</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <author key="person_570">Cassiodorus</author>
+                     <title>In cantica canticorum</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" notBefore="1200" notAfter="1299">s.
+                        xiii</origDate>
+                  </origin>
+                  <provenance type="#e"><orgName role="fmo" key="org_971">Spinney (Wicken),
+                        Cambridgeshire. Augustinian priory of St Mary the Virgin and the Holy Cross
+                           </orgName><p><q>Liber monasterii sancte Marie ...
+                     <unclear>Wikune</unclear></q></p></provenance>
+                  <provenance type="MLGB3_laterOwners">Virtue and Cahill Library.</provenance>
+                  <provenance type="MLGB3_laterOwners">Dawson catalogue 200 (1969), no. 2. This was
+                     the last known provenance according to the supplement to Medieval Libraries of
+                     Great Britain (1987).</provenance>
+                  <provenance type="MLGB3_laterOwners">[The following information was supplied in
+                     2026 through comparison to <ref
+                        target="https://sdbm.library.upenn.edu/manuscripts/1645"
+                     >SDBM_MS_1645</ref>]: Formerly Japan, Toshiyuki Takamiya Collection, MS 7. Now
+                     in the Beinecke Library. See Raymond Clemens, Diane Ducharme, and Emily Ulrich,
+                        <title>A Gathering of Medieval English Manuscripts: The Takamiya Collection
+                        at the Beinecke</title> (2017), pp. 34-35.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description compiled (Sian Witherden, 2026) from the following
+                           sources: <listBibl>
+                              <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’, card
+                                 index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).</bibl>
+                              <bibl>Neil R. Ker, ed., <title>Medieval Libraries of Great Britain: A
+                                    List of Surviving Books</title>, Royal Historical Society Guides
+                                 and Handbooks, 3 (London, <ref
+                                    target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                    >supplement, ed. Andrew G. Watson, 1987</ref>).</bibl>
+                           </listBibl>[Additional note on source material: Current location,
+                           Takamiya provenance, and reference to Clemens and others (2017) supplied
+                           via comparison to the Schoenberg Database of Manuscripts.]</source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0445.jpg, Test 3_0446.jpg -->
+      </fileDesc>
+      <revisionDesc>
+         <change when="2026-06-25">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

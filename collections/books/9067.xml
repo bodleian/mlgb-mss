@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9067">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace> <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                        >Bodleian Library</ref> </addrLine>
+                    <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address> </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library</repository>
+                        <idno type="shelfmark">MS Bodley 186</idno>
+                        <altIdentifier type="internal">
+                            <idno type="SCN">2088</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <title>Lexica and grammatica</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin><origDate calendar="#Gregorian" notBefore="1190" notAfter="1210"
+                            >c.1200</origDate></origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_458">Reading,
+                            Berkshire, Benedictine abbey of Saint Mary the Virgin</orgName> <p>This
+                            attribution was rejected in the second edition of Medieval Libraries of
+                            Great Britain (1964), which did not change in the Supplement (1987). The
+                            corresponding Medieval Libraries of Great Britain index card records no
+                            further context for the rejection.</p><p>Compare the following
+                            discussion from Vivien Law and James P. Carley, ‘Grammar and Arithmetic
+                            in Two Thirteenth-Century English Monastic Collections: Cambridge,
+                            Sidney Sussex College, MS 75 and Oxford, Bodleian Library, MS Bodley 186
+                            (S.C. 2088)’, <title>Journal of Medieval Latin</title>, 1 (1991), 146:
+                            "[Bodley MS 186] is ... one of a group of thirty-one manuscripts given
+                            to Sir Thomas Bodley by William Burdett of Sonning in 1608. Of these
+                            manuscripts twenty can be shown on internal grounds to be Reading
+                            manuscripts and Liddell was tempted to attribute nine more -- of which
+                            [Bodley MS 186] is one -- to the same source, even though there is no
+                            conclusive proof of the provenances for these nine; hence Ker's
+                            subsequent rejection. Here the matter has rested ever since. Some
+                            jottings in medieval hands on a front flyleaf of [Bodley MS 186],
+                            hitherto overlooked, offer valuable corroborative evidence for Liddell's
+                            assumption. One of them, in a late fifteenth-century hand, gives the
+                            name "Clemens Braye." Now, one <persName>Clement Braye</persName>, a
+                            monk of Reading, participated in the election of John Thome II as abbot
+                            in 1486, and one can postulate, therefore, that this represents his
+                            signature. [Bodley MS 186], then, must have been at Reading in the late
+                            fifteenth century when Clement Braye scribbled in it
+                            ...".</p></provenance>
+                        <provenance type="MLGB3_laterOwners"><persName role="dnr">William
+                            Burdet</persName> of Sonning, 1608.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                    <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                        Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                        Bodleian Library).</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/uva.x000937945">Medieval
+                                        Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 3 (London, 2nd edn, 1964)</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        >Medieval Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 15 (London, supplement, ed. Andrew G. Watson,
+                                        1987).</bibl>
+                                    <bibl>Vivien Law and James P. Carley, ‘Grammar and Arithmetic in
+                                        Two Thirteenth-Century English Monastic Collections:
+                                        Cambridge, Sidney Sussex College, MS 75 and Oxford, Bodleian
+                                        Library, MS Bodley 186 (S.C. 2088)’, <title>Journal of
+                                        Medieval Latin</title>, 1 (1991), 140–67.</bibl>
+                                    </listBibl> </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl type="WRAPPER">
+                            <listBibl type="INTERNET">
+                                <head>Online resources:</head>
+                                <bibl><ref
+                                    target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_1243"
+                                    >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                            </listBibl>
+                        </listBibl>
+
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!-- Index card images (box 10): Test 3_1463.jpg, Test 3_1464.jpg -->
+        <revisionDesc>
+            <change when="2026-08-21">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>

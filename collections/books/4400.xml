@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -37,30 +35,89 @@
                   <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS Digby 190, fols. 128-210</idno>
+                  <idno type="shelfmark">MS Digby 190</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4400</idno>
                   </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Tractatus de arithmetica, etc.</title>
-                     <note type="MLGB3_generalNotes">Digby 190 fols. 128–210 and Digby 191, fols.
-                        79–167, formed one volume.</note>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="13XX" notBefore="1300" notAfter="1399" calendar="#gregorian">s. xiv</origDate>
-                  </origin>
-                  <provenance><orgName role="fmo" key="org_438">Oxford, Oxfordshire. Oriel
-                        College (Domus beate Marie seu Collegium regale Oxon')</orgName></provenance>
-               </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_4310">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                           target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_4310"
+                           >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 90-127</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <author key="person_2938">Richard of Wallingford</author>
+                        <title key="work_6654">Quadripartitum</title>
+                     </msItem>
+                     <msItem>
+                        <title>Treatise on Geometry</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin> <origDate notBefore="1300" notAfter="1399" calendar="#gregorian">s.
+                        xiv</origDate> </origin>
+                     <provenance type="#e"><orgName role="fmo" key="org_435">Oxford, Oxfordshire.
+                        Merton College</orgName><p>See <ref
+                        target="https://mlgb.bodleian.ox.ac.uk/catalog/book_4374">MS Digby 191</ref>
+                        for provenance evidence (MS Digby 190 fols. 90–127 and MS Digby 191, fols.
+                        1–78 formed one volume).</p></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 128-210</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Tractatus de arithmetica, etc.</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin> <origDate when-custom="13XX" notBefore="1300" notAfter="1399"
+                        calendar="#gregorian">s. xiv</origDate> </origin>
+                     <provenance><orgName role="fmo" key="org_438">Oxford, Oxfordshire. Oriel
+                        College (Domus beate Marie seu Collegium regale Oxon')</orgName><p>See <ref
+                        target="https://mlgb.bodleian.ox.ac.uk/catalog/book_4374">MS Digby 191</ref>
+                        for provenance evidence (MS Digby 190 fols. 128–210 and MS Digby 191, fols.
+                        79–167 formed one volume).</p></provenance>
+                  </history>
+               </msPart>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-03">Added Merton College provenance for fols. 90-127 (this component
+            moved here from record 4374). Clarified relationship between MSS Digby 190 and 191.
+            Contents and date for fols. 90-127 supplied from catalogue description in Medieval
+            Manuscripts in Oxford Libraries.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

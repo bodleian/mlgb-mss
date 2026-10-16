@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9617">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="SW">
+               <resp when="2026">Transcription and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Transcription and encoding of index card</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>Untraced</country>
+                  <settlement>Untraced</settlement>
+                  <repository>Untraced</repository>
+                  <idno type="shelfmark">Shelfmark not recorded (last known location: Leipzig, Otto
+                     Harrassowitz, bookseller, after 1895)</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Questiones super Genesim ab Orosio proposite</title>
+                  </msItem>
+                  <msItem>
+                     <title>Sermones Hilduni ad presbiteros</title>
+                  </msItem>
+                  <msItem>
+                     <author key="person_426">Beda</author>
+                     <title>De muliere forti, etc.</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" notBefore="1100" notAfter="1199">s.
+                        xii</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="org_458">Reading, Berkshire, Benedictine
+                        abbey of Saint Mary the Virgin</orgName><p>From the scriptorium of Reading
+                        (sale catalogue; see below).</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo"
+                     >Reynolds</persName>.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo"
+                     >Fylton</persName>.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Phillipps</persName>
+                     sold (Sotheby's lot 420) March 1895 to Quaritch.</provenance>
+                  <provenance type="MLGB3_laterOwners">Otto Harrassowitz, Leipzig. This was the last
+                     known provenance according to the second edition of Medieval Libraries of Great
+                     Britain (1964). The book remains untraced.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description compiled (Sian Witherden, 2026) from the following
+                           sources: <listBibl>
+                              <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’, card
+                                 index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).</bibl>
+                              <bibl>Neil R. Ker, ed., <title>Medieval Libraries of Great Britain: A
+                                    List of Surviving Books</title>, Royal Historical Society Guides
+                                 and Handbooks, 3 (London, <ref
+                                    target="https://hdl.handle.net/2027/uva.x000937945">2nd edn,
+                                    1964</ref>).</bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0431.jpg, Test 3_0432.jpg -->
+      </fileDesc>
+      <revisionDesc>
+         <change when="2026-06-04">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

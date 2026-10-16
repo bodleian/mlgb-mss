@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,24 +49,70 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Iacobus de Cessolis</title>
-                     <note type="MLGB3_generalNotes">List of books at end headed 'M CCCC LXXXIX hec
-                        infra scripta in studiis scolarium Wintonie Oxon. reperta sunt ...'.</note>
+                     <author key="person_1460">Iacobus de Cessolis</author>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499" calendar="#gregorian">s. xv</origDate>
+                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499"
+                        calendar="#gregorian">s. xv</origDate>
                   </origin>
-                  <provenance type="#c" cert="low"><orgName role="fmo" key="org_437">Winchester, Hampshire.
-                        Benedictine cathedral priory of St Peter, St Paul, and St Swithun</orgName></provenance>
-                  <provenance type="MLGB3_laterOwners">'liber domini Thome Dakomb'.</provenance>
-                  <provenance type="MLGB3_laterOwners">Name 'Willelmus Manwode' at end.</provenance>
+                  <provenance type="#c" cert="low"><orgName role="fmo" key="org_437">Winchester,
+                        Hampshire. Benedictine cathedral priory of St Peter, St Paul, and St
+                        Swithun</orgName><p>This attribution was added in the Medieval Libraries of
+                        Great Britain Supplement (1987), with the following explanation in a
+                        footnote (p. 68, n. 1): 'In 1964 edn. listed under Oxford, New Coll. On fo.
+                        188 is a list of books at New College in 1489 ... which is as likely to have
+                        been written in Winchester as in Oxford. The book belonged to Wm. Manwode,
+                        presumably the deacon of that name ord. Winchester 1484 (see Hampshire
+                        Record Society vii (1892), 478, and was certainly at St Swithun's in the
+                        1530s, when it was owned by Thomas Dackombe, monk and later minor
+                        canon.'</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_436">Oxford,
+                        Oxfordshire, New College (Collegium beate Marie Winton' in Oxonia)</orgName>
+                     <p>This attribution was accepted (albeit with a query) in the second edition of
+                        Medieval Libraries of Great Britain (1964). However, the attribution was
+                        later rejected in the Supplement (1987) in favour of Winchester Benedictine
+                        cathedral priory. The corresponding Medieval Libraries of Great Britain
+                        index card for the New College attribution (which was never updated to
+                        reflect the 1987 rejection) noted the list of books at the end: <q>M CCCC
+                           LXXXIX hec infra scripta in studiis scolarium Wintonie Oxon. reperta sunt
+                           ...</q> (compare entry for Winchester above). </p></provenance>
+                  <provenance type="MLGB3_laterOwners"><q>liber domini Thome
+                     Dakomb</q>.</provenance>
+                  <provenance type="MLGB3_laterOwners">Name <q>Willelmus Manwode</q> at
+                     end.</provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_4367">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                              target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_4367"
+                              >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected provenance,
+            and to add the text of the footnote about the Winchester attribution from the Supplement
+            (1987).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

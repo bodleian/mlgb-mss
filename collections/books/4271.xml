@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,41 +49,67 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>J. Gadesden, Rosa medicine</title>
-                     <note type="MLGB3_generalNotes">'J. Grenstede me scripsit' (fol. 239v), in the
-                        main hand.</note>
+                     <author key="person_1701">J. Gadesden</author>
+                     <title key="work_4295">Rosa medicinae</title>
+                     <note type="MLGB3_generalNotes"><q>J. Grenstede me scripsit</q> (fol. 239v), in
+                        the main hand.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="138X/139X" notBefore="1380" notAfter="1399" calendar="#gregorian">s. xiv ex.</origDate>
+                     <origDate when-custom="138X/139X" notBefore="1380" notAfter="1399"
+                        calendar="#gregorian">s. xiv ex.</origDate>
                   </origin>
-                  <provenance type="#b"><orgName role="fmo" key="org_425">Oxford, Oxfordshire.
-                        All Souls' College</orgName><p>2o folio 'illo sanguine' identifies the MS.
-                        probably with Rosa medicine 2o folio 'io sanguine' recorded in All Souls
-                        catalogues in the Vellum Inventory (s. xv ex., a. d. 1576; see e. g. fol.
-                        25r); possibly no. 12 in T. James' list, a. d. 1600.</p><p>Binding of white
-                        leather over boards, perhaps s. xvi; the clasping is like All Souls work.
-                        </p><note type="MLGB3_medievalCatalogueNotes">Cat. 209, 134; inv. fol.
+                  <provenance type="#b"><orgName role="fmo" key="org_425">Oxford, Oxfordshire. All
+                        Souls' College</orgName><p>2o folio <q>illo sanguine</q> identifies the MS.
+                        probably with Rosa medicine 2o folio <q>iᵒ sanguine</q> recorded in All
+                        Souls catalogues in the Vellum Inventory (s. xv ex., a. d. 1576; see e. g.
+                        fol. 25r); possibly no. 12 in T. James' list, a. d. 1600.</p><p>Binding of
+                        white leather over boards, perhaps s. xvi; the clasping is like All Souls
+                        work. </p><note type="MLGB3_medievalCatalogueNotes">Cat. 209, 134; inv. fol.
                         25</note></provenance>
-                  <provenance type="MLGB3_laterOwners">'John Woolton' and 'Ricardus Ackworth' (s.
-                     xvii). Given by John Mongwell, Senior, January, 1658.</provenance>
-                  <provenance type="MLGB3_laterOwners">'Caucio magistri Thome Mordon [LLB Cantab.,
-                     a. d. 1405] exposita ciste de Derlyngton. pro iij h. in festo sancti Leonardi
-                     et habet tria suplementa ysiderum [sic] cum aliis manipulum florum et zonam
-                     argenteam'.</provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_1">Exeter, Devon,
+                        Cathedral church of St Peter</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card originally
+                        highlighted a copy of <title>Rosa medicinae</title> with secundo folio
+                           <q>Que fuit</q>, as reported in Oliver, <title>Lives of the Bishops of
+                           Exeter</title> (London, 1861), p. 309; the card also suggested a possible
+                        identification with Botfield 18 or 22. However, the Oliver reference was
+                        later crossed out, and the correct secundo folio for MS 3506 noted (iᵒ
+                        sanguine). This secundo folio corresponds to the All Souls copy (see further
+                        above), hence the rejection of the Exeter attribution.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><q>Caucio magistri Thome Mordon [LLB Cantab.,
+                        a. d. 1405] exposita ciste de Derlyngton. pro iij h. in festo sancti
+                        Leonardi et habet tria suplementa ysiderum [sic] cum aliis manipulum florum
+                        et zonam argenteam</q>.</provenance>
+                  <provenance type="MLGB3_laterOwners"><q>John Woolton</q> and <q>Ricardus
+                        Ackworth</q> (s. xvii). Given by John Mongwell, Senior, January,
+                     1658.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1069.jpg, Test 3_1070.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

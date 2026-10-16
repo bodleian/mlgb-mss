@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -36,37 +41,62 @@
                <msIdentifier>
                   <settlement>Untraced</settlement>
                   <repository>Untraced</repository>
-                  <idno type="shelfmark">Shelfmark not recorded</idno>
+                  <idno type="shelfmark">Shelfmark not recorded (formerly Dublin, Chester Beatty
+                     Library, W.45)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">2983</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <country>Ireland</country>
+                     <settlement>Dublin</settlement>
+                     <repository>Chester Beatty Library</repository>
+                     <idno type="shelfmark">W.45</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Cassidorus, Historia ecclesiastica tripartita</title>
+                     <author key="person_570">Cassidorus</author>
+                     <title key="work_1876">Historia ecclesiastica tripartita</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199" calendar="#gregorian">s. xii ex.</origDate>
+                     <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199"
+                        calendar="#gregorian">s. xii ex.</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="org_235">Guisborough,
-                        Yorkshire. Augustinian priory of St Mary the Virgin</orgName><p>"Liber
-                        sancte Marie de Giseburn'" (fol. 2r), s. xii.</p><p>"Historia iia" (fol.
-                        1v), s. xiv.</p><q type="pressmark">Historia ii</q></provenance>
-                  <provenance type="MLGB3_laterOwners">Jonathan Peckover (fol. i
-                     recto).</provenance>
-                  <provenance type="MLGB3_laterOwners">Algerina Peckover of Sibald's Holme, Wisbech,
-                     sale, Sotheby's, 12. 12. 1927, lot 56.</provenance>
-                  <provenance type="MLGB3_laterOwners">Formery Dublin, Chester Beatty Libr., W.45:
-                     now sold and untraced: Sotheby sale 3 Dec. 1968, lot 10, to
-                     Traylen.</provenance>
+                  <provenance type="#e"><orgName role="fmo" key="org_235">Guisborough, Yorkshire.
+                        Augustinian priory of St Mary the Virgin</orgName><p><q>Liber sancte Marie
+                           de Giseburn'</q> (fol. 2r, s. xii). <q>Historia iia</q> (fol. 1v, s.
+                        xiv).</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Jonathan
+                        Peckover</persName> (fol. i recto).</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Algerina
+                        Peckover</persName> of Sibald's Holme, Wisbech, sale, Sotheby's, 12. 12.
+                     1927, lot 56.</provenance>
+                  <provenance type="MLGB3_laterOwners">Dublin, Chester Beatty Library, W.45. This
+                     was the location reported in the second edition of Medieval Libraries of Great
+                     Britain (1964), p. 94.</provenance>
+                  <provenance type="MLGB3_laterOwners">Now sold and untraced [...] Sotheby sale 3
+                     Dec. 1968, lot 10, to Traylen.' This update was provided in the supplement to
+                     Medieval Libraries of Great Britain (1987), p. 38.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sotheby's sale, 7 July 2009, lot 20, as shown
+                     by the Schoenberg Database of Manuscripts <ref
+                        target="https://sdbm.library.upenn.edu/manuscripts/1545"
+                     >SDBM_MS_1545</ref>.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -74,6 +104,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-25"> Record edited to clarify data history (location reported in
+            different iterations of Medieval Libraries of Great Britain). Added reference to
+            Sotheby's 2009 sale in light of the Schoenberg Database of Manuscripts.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

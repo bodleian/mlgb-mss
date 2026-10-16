@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -36,42 +41,69 @@
                <msIdentifier>
                   <settlement>Untraced</settlement>
                   <repository>Untraced</repository>
-                  <idno type="shelfmark">Shelfmark not recorded</idno>
+                  <idno type="shelfmark">Shelfmark not recorded (formerly Newbury, Prof. H. A.
+                     Ormerod)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">5151</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <country>England</country>
+                     <settlement>Newbury</settlement>
+                     <repository>Prof. H. A. Ormerod</repository>
+                     <idno type="shelfmark">Shelfmark not recorded</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>W. Brito, Expositio super prologos biblie, Expositio vocabulorum
-                        difficilium biblie</title>
-                     <note type="MLGB3_generalNotes">Olim the late Prof. H. A. Ormerod; the MS has
-                        not been traced.</note>
+                     <author key="person_3673">W. Brito</author>
+                     <title key="work_8011">Expositio super prologos biblie</title>
+                  </msItem>
+                  <msItem>
+                     <author key="person_3673">W. Brito</author>
+                     <title key="work_8012"> Expositio vocabulorum difficilium biblie</title>
                   </msItem>
                </msContents>
-               <physDesc> <typeDesc><p>Printed book.</p></typeDesc> </physDesc><history>
+               <physDesc>
+                  <typeDesc>
+                     <p>Printed book.</p>
+                  </typeDesc>
+               </physDesc>
+               <history>
                   <origin>
-                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299" calendar="#gregorian">s. xiii</origDate>
+                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                        calendar="#gregorian">s. xiii</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="org_488">Scarborough, Yorkshire. Grange
-                        or 'domus' dependent on the abbey of Cîteaux</orgName><p>'Liber Cistercii'
+                  <provenance><orgName role="fmo" key="org_488">Scarborough, Yorkshire. Grange or
+                        'domus' dependent on the abbey of Cîteaux</orgName><p>'Liber Cistercii'
                         (fols. 1r, 110r, 208v).</p><p>Letters on fols. 77v–78r show that the book
                         was temporarily brought to Scarborough, a cell of Citeaux, by Hugh, monk of
                         Citeaux c. 1295, and that it was a short time at the Cistercian Rewley abbey
-                        near Oxford. See A. H. Thompson, Proc. Leeds Phil. Soc. (Lit. and Hist.
-                        Section), 1 (1928) 23(?)8–258.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Phillips 3590; sale 17 May 1897 lot
-                     51.</provenance>
-                  <provenance type="MLGB3_laterOwners">Dr Caton, pro-Chancellor of Liverpool
-                     University.</provenance>
-                  <provenance type="MLGB3_laterOwners">Prof. H. A. Ormerod, who married Caton's
-                     daughter.</provenance>
+                        near Oxford. See A. H. Thompson, <title>Proc. Leeds Phil. Soc.</title> (Lit.
+                        and Hist. Section), 1 (1928) 238–258.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Phillips</persName>
+                     3590; sale 17 May 1897 lot 51.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Dr Caton</persName>,
+                     pro-Chancellor of Liverpool University.</provenance>
+                  <provenance type="MLGB3_laterOwners">Newbury, <persName role="fmo">Prof. H. A.
+                        Ormerod</persName>, who married Caton's daughter. This was the current
+                     location according to the second edition of Medieval Libraries of Great Britain
+                     (1964). The supplement to Medieval Libraries of Great Britain (1987) provided
+                     the following update: 'Prof. Ormerod is deceased and the MS cannot now be
+                     traced'.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -79,6 +111,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-26">Record edited to clarify data history (location reported in
+            different iterations of Medieval Libraries of Great Britain).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

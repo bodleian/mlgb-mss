@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record merge</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,35 +42,110 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Cotton MS Claudius C.ix, fols. 105-202</idno>
+                  <idno type="shelfmark">Cotton MS Claudius C.ix</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">236</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">5947</idno>
+                  </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">6500</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Cartularium et consuetudinarium</title>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199" calendar="#gregorian">s. xii ex</origDate>
-                  </origin>
-                  <provenance type="#c"><orgName role="fmo" key="org_14">Abingdon, Berkshire.
-                        Benedictine abbey of St Mary the Virgin</orgName></provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 4-17</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Annales to 1171</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199"
+                           calendar="#gregorian">s. xii ex.</origDate>
+                     </origin>
+                     <provenance type="#c" cert="low"><orgName role="fmo" key="org_601">Worcester,
+                           Worcestershire. Benedictine cathedral priory of St Mary the
+                           Virgin</orgName><p>Worcester interest in added annals at 680, 689, 693,
+                           1062, 1095: see Liebermann, <title>Anglo-Normannische
+                              Geschichtsquellen</title>, p. 32.</p></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 18-103</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <author key="person_3735">Williamm of Malmesbury</author>
+                        <title key="work_8100">Gesta regum</title>
+                        <note type="MLGB3_generalNotes">Ex info. Julian Harrison</note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="120X/124X" notBefore="1200" notAfter="1249"
+                           calendar="#gregorian">s. xiii 1</origDate>
+                     </origin>
+                     <provenance><orgName role="fmo" key="org_36">Battle, Sussex. Benedictine abbey
+                           of St Martin</orgName></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 105-202</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Cartularium et consuetudinarium</title>
+                        <note>Printed in <title>Chronicon monasterii de Abingdon</title>, ed. J.
+                           Stevenson (Rolls series), 1858.</note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199"
+                           calendar="#gregorian">s. xii ex</origDate>
+                     </origin>
+                     <provenance type="#c"><orgName role="fmo" key="org_14">Abingdon, Berkshire.
+                           Benedictine abbey of St Mary the Virgin</orgName></provenance>
+                  </history>
+               </msPart>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Records 5947 and 6500 merged into this record. Additional
+            information transcribed from corresponding MLGB index card for Abingdon provenance
+            (Stevenson 1858 reference).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

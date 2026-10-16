@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record merge</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -41,27 +46,70 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">380</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">473</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Relatio de Willelmo conquestore</title>
-                     <note type="MLGB3_generalNotes">Hereford P. V. 1 and Bodleian, e Mus. 93,
-                        formed one volume later at the cell of BRECON, q.v. See N. R. Ker, 'Sir John
-                        Prise', The Library, 5th ser. 10 (1955), 7.</note>
+                     <title>Breuis relatio de Guillelmo nobilissimo comite Normannorum</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="11XX" notBefore="1100" notAfter="1199" calendar="#gregorian">s. xii</origDate>
+                     <origDate when-custom="11XX" notBefore="1100" notAfter="1199"
+                        calendar="#gregorian">s. xii</origDate>
                   </origin>
-                  <provenance cert="low"><orgName role="fmo" key="org_36">Battle, Sussex. Benedictine abbey
-                        of St Martin</orgName></provenance>
+                  <provenance cert="low"><orgName role="fmo" key="org_36">Battle, Sussex.
+                        Benedictine abbey of St Martin</orgName><p>Hereford, Cathedral, MS P. V. 1
+                        and Bodleian, e Mus. 93, formed one volume, earlier probably at
+                     Battle.</p></provenance>
+                  <provenance><orgName role="fmo" key="org_66">Brecon, Brecknockshire. Benedictine
+                        priory of St John the Evangelist</orgName><p>Later at the cell of Brecon.
+                        Formerly contained also Gildas according to a note at the end of MS P. v. 1
+                        in Sir John Prise's hand. Prise found it 'in Brechonia Demetarum . . . urbe
+                        . . . ex coenobio Monachorum, quod ibidem erat Benedictini, quem vocant,
+                        ordine desumptum' (Prise, <title>Historiae Brytanniae Defensio</title>,
+                        1573, p. 114). See N. R. Ker, 'Sir John Prise', <title>The Library</title>,
+                        5th ser. 10 (1955), 7.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Sir John
+                        Prise</persName> (d. 1555).</provenance>
+                  <provenance type="MLGB3_laterOwners">e Mus. 93 belonged to <persName role="fmo"
+                        >Silas Taylor</persName> in 1658, for whose dealings with Hereford library
+                     see Wood, <title>Athenae</title>, 3. 1175. It formed part of the Hereford MS in
+                     s. xvi (see Cambridge, CCC MS 101, pp. 132–133).</provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_9171">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                              target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_9171"
+                              >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Record 473 merged into this record. Additional information
+            transcribed from corresponding MLGB index card for Brecon (further contents; notes about
+            Gildas in Hereford MS P. v. 1).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

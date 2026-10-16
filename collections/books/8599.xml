@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,7 +42,7 @@
                   <country>Italy</country>
                   <settlement>Rome</settlement>
                   <repository>Biblioteca nazionale centrale Vittorio Emanuele II</repository>
-                  <idno type="shelfmark">MS Vitt.Em. 827</idno>
+                  <idno type="shelfmark">MS Vitt.Em. 827 (formerly untraced)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">8599</idno>
                   </altIdentifier>
@@ -45,44 +50,66 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Epp. Jeronimi</title>
-                     <note type="MLGB3_generalNotes">The manuscript is reported by M. M.
-                        Breccia-Fratadocchi, 'Da York a Roma: per la storia del codice Vitt. Em. 827
-                        della Biblioteca Nazionale Centrale', Archivio della Società Romana di
-                        Storia Patria 117 (1994), 97–111.</note>
+                     <author key="person_1517">Jerome</author>
+                     <title key="work_3710">Epistulae</title>
+                     <note>The manuscript is reported by M. M. Breccia-Fratadocchi, 'Da York a Roma:
+                        per la storia del codice Vitt. Em. 827 della Biblioteca Nazionale Centrale',
+                           <title>Archivio della Società Romana di Storia Patria</title> 117 (1994),
+                        97–111.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="115X/1175" notBefore="1150" notAfter="1175" calendar="#gregorian">s. xii 3/4</origDate>
+                     <origDate when-custom="115X/1175" notBefore="1150" notAfter="1175"
+                        calendar="#gregorian">s. xii 3/4</origDate>
                   </origin>
                   <provenance type="#e"><orgName role="fmo" key="org_608">York, Yorkshire.
-                        Benedictine abbey of Saint Mary the Virgin</orgName><p>On fol. 1r is the
-                        ex libris 'Liber monasterii Beate Marie Ebor'' (s. xiv).</p><p>On the same
-                        page is the abbey's press-mark: 'In ff.18'. (Note that this should not be
-                        taken to be the press-mark of Hereford OFM, as was assumed in New
-                        Paleographical Society, First series, II (London, 1903–12), table 17, n.
-                        6.)</p><q type="pressmark">In ff.18</q></provenance>
-                  <provenance type="MLGB3_laterOwners">Joseph Barrois, with the catalog number
-                     '345'.</provenance>
-                  <provenance type="MLGB3_laterOwners">Purchased in 1849 by Bertram Ashburnham, 4th
-                     earl of Ashburnham (1797–1878), with other MSS from the Barrois collection;
-                     his catalogue number '271' on the inner front board.</provenance>
-                  <provenance type="MLGB3_laterOwners">Sold at Sotheby's, 10 June 1901, to Charles
-                     Fairfax Murray (1849–1919).</provenance>
-                  <provenance type="MLGB3_laterOwners">Quickly thence to George Dunn, fol. i verso:
-                     'STB G.D. may 1905'; also bookplate: 'From the library of George Dunn of
-                     Woolley Hall near Maidenhead".</provenance>
-                  <provenance type="MLGB3_laterOwners">Sold at Sotheby's, 11 February 1913, to the
-                     London bookseller John Leighton.</provenance>
-                  <provenance type="MLGB3_laterOwners">Sold to the Italian book dealer Basilio
-                     Benedetti, between 1913 and 1916, and finally purchased by the Biblioteca
-                     Nazionale Centrale di Roma, in 1916, for 3000 lire.</provenance>
+                        Benedictine abbey of Saint Mary the Virgin</orgName><p>On fol. 1r is the ex
+                        libris <q>Liber monasterii Beate Marie Ebor'</q> (s. xiv). On the same page
+                        is the abbey's press-mark: 'In ff.18'. (Note that this should not be taken
+                        to be the press-mark of Hereford OFM, as was assumed in New Paleographical
+                        Society, First series, II (London, 1903–12), table 17, n.
+                     6.)</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Advertised for sale by Bohn. Sale list of
+                     Foreign Theology (1839), p. 14 (1842), no. 35.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Joseph
+                        Barrois</persName>, with the catalog number '345'.</provenance>
+                  <provenance type="MLGB3_laterOwners">Purchased in 1849 by <persName role="fmo"
+                        >Bertram Ashburnham</persName>, 4th earl of Ashburnham (1797–1878), with
+                     other MSS from the Barrois collection; his catalogue number '271' on the inner
+                     front board.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sotheby's, 10 June 1901, lot 271 to <persName
+                        role="fmo">Charles Fairfax Murray</persName> (1849–1919). [This information
+                     about the 1901 sale -- as reported in MLGB3 (2009-2024) -- contradicts the
+                     original Medieval Libraries of Great Britain index card. The latter states that
+                     lot 271 was sold to Quaritch for £89].</provenance>
+                  <provenance type="MLGB3_laterOwners">Quickly thence to <persName role="fmo">George
+                        Dunn</persName>, fol. i verso: 'STB G.D. may 1905'; also bookplate: 'From
+                     the library of George Dunn of Woolley Hall near Maidenhead".</provenance>
+                  <provenance type="MLGB3_laterOwners">Sold at Sotheby's, 11 February 1913, lot 511
+                     to the London bookseller John Leighton (£61). This was the last known
+                     provenance according to the second edition of Medieval Libraries of Great
+                     Britain (1964), p. 217. The book was likewise recorded as untraced in the
+                     Supplement (1987), p. 140.</provenance>
+                  <provenance type="MLGB3_laterOwners">The following information was supplied in
+                     MLGB3 (2009-2024): Sold to the Italian book dealer Basilio Benedetti, between
+                     1913 and 1916, and finally purchased by the Biblioteca Nazionale Centrale di
+                     Roma, in 1916, for 3000 lire. Compare also <ref
+                        target="https://sdbm.library.upenn.edu/manuscripts/3374"
+                     >SDBM_MS_3374</ref>.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -90,6 +117,12 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-26">Added additional information from corresponding Medieval
+            Libraries of Great Britain index card (Bohn references; contradictory information
+            relating to Sothebys 1901 sale; lot number and price paid in Sotheby 1913 sale). Record
+            edited to clarify data history (location reported in different iterations of Medieval
+            Libraries of Great Britain). Reference to Schoenberg Database of Manuscripts
+            added.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

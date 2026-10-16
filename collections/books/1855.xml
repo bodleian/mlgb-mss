@@ -37,31 +37,59 @@
                   <country>Ireland</country>
                   <settlement>Dublin</settlement>
                   <repository>Archbishop Marsh's Library</repository>
-                  <idno type="shelfmark">Q.4.16</idno>
+                  <idno type="shelfmark">Q.4.16 (pr. bk.)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1855</idno>
+                  </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3234</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Robertus Holcot in Sententias</title>
+                     <author key="person_2977">Robertus Holcot</author>
+                     <title key="work_6796">in Sententias</title>
                   </msItem>
                </msContents>
-               <physDesc> <typeDesc><p>Printed book.</p></typeDesc> </physDesc><history>
+               <physDesc>
+                  <typeDesc>
+                     <p>Printed book.</p>
+                  </typeDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>Rebound.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
                   <origin>
-                     <origDate when-custom="1497" when="1497" calendar="#gregorian">Lyon, 1497</origDate>
+                     <origPlace>Lyon</origPlace>
+                     <origDate when-custom="1497" when="1497" calendar="#gregorian">1497</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="org_166">Croxden,
-                        Staffordshire. Cistercian abbey of St Mary the Virgin</orgName><p>At the
-                        end: 'Iste liber est vallis sancte marie de Crokesden emptus per fratrem
-                        Thomam Chalner scolarem eiusdem. precium ij s'.</p><p>Belonged also to Holme
-                        Cultram (q.v.).</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="org_166">Croxden, Staffordshire.
+                        Cistercian abbey of St Mary the Virgin</orgName><p>At the end: <q>Iste liber
+                           est vallis sancte marie de Crokesden emptus per fratrem <persName
+                              role="fmo">Thomam Chalner</persName> scolarem eiusdem. precium ij
+                           s</q>.</p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="org_260">Holme Cultram, Cumberland.
+                        Cistercian abbey of St Mary the Virgin</orgName><p>At beginning: <q>Liber
+                           beate marie de holmcoltrane</q> crossed through.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Bp.
+                        Stillingfleet.</persName></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -69,6 +97,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-20">Record 3234 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

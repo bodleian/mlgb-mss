@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,7 +42,7 @@
                   <country>Wales</country>
                   <settlement>Aberystwyth</settlement>
                   <repository>National Library of Wales</repository>
-                  <idno type="shelfmark">MS 21878E</idno>
+                  <idno type="shelfmark">MS 21878E (formerly untraced)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6440</idno>
                   </altIdentifier>
@@ -46,27 +51,45 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Biblia</title>
-                     <note type="MLGB3_generalNotes">Brought to our attention by Peter Kidd.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="13XX" notBefore="1300" notAfter="1399" calendar="#gregorian">s. xiv</origDate>
+                     <origDate when-custom="13XX" notBefore="1300" notAfter="1399"
+                        calendar="#gregorian">s. xiv</origDate>
                   </origin>
                   <provenance type="#e"><orgName role="fmo" key="org_404">Norwich, Norfolk.
-                        Benedictine cathedral priory of Holy Trinity</orgName><p>'E XXIII Radulfi
-                        de Elingham', s xii ex.</p><p>‘Liber ecclesie cath’ norwicens’ quemque
-                        alienaverit anathemae sit amen quod Robertus N.’, s. xiv/xv</p><p>memorandum
-                        quod Edmundus Derham Est [ ] istius Biblie’, s. xv2</p><q type="pressmark">E.xxiii</q></provenance>
+                        Benedictine cathedral priory of Holy Trinity</orgName><p><q>E XXIII
+                              <persName role="fmo">Radulfi de Elingham</persName></q>, s xii ex.
+                        [cellarer 1279]. <q>Liber ecclesie cath’ norwicens’ quemque alienaverit
+                           anathemae sit amen quod Robertus N.</q>, s. xiv/xv. <q>Memorandum quod
+                           Edmundus Derham Est [ ] istius Biblie</q>, s. xv2. This manuscript is
+                        identifiable with no. 97 in M. R. James's list (<title>Norfolk
+                           Archaeology</title> XIX, p. 102).</p><q type="pressmark"
+                     >E.xxiii</q></provenance>
                   <provenance type="MLGB3_laterOwners">Joseph Charles Hypollite Crosse (1828–1898),
-                     his sale, Catalogue de la bibliothèque et des collections de feu Crosse,
-                     directeur du Journal de conchyliologie dont la vente aux enchères publiques ...
-                     du 20 au 30 novembre 1899 ... Paris, lot 27 on p. 32.</provenance>
+                     his sale, <title>Catalogue de la bibliothèque et des collections de feu Crosse,
+                        directeur du Journal de conchyliologie dont la vente aux enchères publiques
+                        ... du 20 au 30 novembre 1899 ... Paris</title>, lot 27 on p.
+                     32.</provenance>
+                  <provenance type="MLGB3_laterOwners">Quaritch catalogue 196 (1900), no. 3417. This
+                     was the last known provenance according to the second edition of Medieval
+                     Libraries of Great Britain (1964). The National Library of Wales shelfmark was
+                     added in MLGB3 (2009-2024), with the following note: brought to our attention
+                     by Peter Kidd.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -74,6 +97,11 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-01">Additional information transcribed from corresponding Medieval
+            Libraries of Great Britain index card (Quaritch reference; M. R. James reference;
+            information relating to Elingham as cellarer). Record edited to clarify data history
+            (location reported in different iterations of Medieval Libraries of Great
+            Britain)</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

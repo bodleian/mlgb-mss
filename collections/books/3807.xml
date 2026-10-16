@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,40 +49,58 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Ricardus de Mediavilla in III Sententiarum</title>
-                     <note type="MLGB3_generalNotes">On Andrew Bavard see Kingsford, Grey Friars of
-                        London, BSFS 6, pp. 23, 60 etc.</note>
-                     <note type="MLGB3_generalNotes">K. assumes that the library in the above
-                        inscription is that of the Cambridge Franciscans. Bavard's later
-                        associations are with the London house -- Guardian early s. xvi; d.
-                        1508.</note>
-                     <note type="MLGB3_generalNotes">The London Franciscans had such a book Leland,
-                        Collect., 4. 51.</note>
+                     <author key="person_2921">Ricardus de Mediavilla</author>
+                     <title>In III Sententiarum</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate/><!-- not given MLGB2 -->
+                     <origDate calendar="#Gregorian" notAfter="1468">[Date not recorded]</origDate>
                   </origin>
-                  <provenance><orgName role="fmo" key="org_337">London. Franciscan convent</orgName><p>"Istum librum fecit ligari frater Andreas Bavard custos
-                        librarie a. d. 1468 de communibus elemosinis prefate librarie collatis"
-                        (fol. 8v).</p><note type="MLGB3_medievalCatalogueNotes">?
-                     Leland</note></provenance>
-                  <provenance type="MLGB3_laterOwners">Cardinal Sirleto (d. 1575) no.
-                     355.</provenance>
-                  <provenance type="MLGB3_laterOwners">Duke Giov. Angelo di Altemps.</provenance>
+                  <provenance><orgName role="fmo" key="org_337">London. Franciscan
+                           convent</orgName><p><q>Istum librum fecit ligari frater Andreas Bavard
+                           custos librarie a. d. 1468 de communibus elemosinis prefate librarie
+                           collatis</q> (fol. 8v). The London Franciscans had such a book Leland,
+                        Collect., 4. 51.</p><note type="MLGB3_medievalCatalogueNotes">?
+                        Leland</note></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_94">Cambridge,
+                        Cambridgeshire, Franciscan convent</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card records the
+                        following context for the rejection:</p><p>On Andrew Bavard see Kingsford,
+                           <title>Grey Friars of London</title>, BSFS 6, pp. 23, 60 etc., where it
+                        is assumed that the library in question is at Cambridge. Bavard's later
+                        associations are with the London Franciscans. London convent 1460, Oxford
+                        convent 1478, London convent 1494 till death (1508) according to Emden,
+                           <title>BRUO</title>, p. 133.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Cardinal
+                        Sirleto</persName> (d. 1575) no. 355.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Duke Giov. Angelo di
+                        Altemps</persName>.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0773.jpg, Test 3_774.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to incorporate rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

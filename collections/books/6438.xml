@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -22,7 +27,8 @@
                   <settlement>Oxford</settlement>
                   <postCode>OX1 3BG</postCode>
                   <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
                   </addrLine>
                   <addrLine>
                      <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
@@ -36,7 +42,7 @@
                   <country>USA</country>
                   <settlement>Cambridge (MA)</settlement>
                   <repository>Harvard University, Houghton Library</repository>
-                  <idno type="shelfmark">MS Inc. 8948</idno>
+                  <idno type="shelfmark">MS Inc. 8948 (formerly untraced)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6438</idno>
                   </altIdentifier>
@@ -45,21 +51,43 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Speculum exemplorum</title>
-                     <note type="MLGB3_generalNotes">First recorded in the Supplement as untraced with author given as Aegidius Aurifaber (a now rejected attribution); <ref target="https://data.cerl.org/istc/is00651000">ISTC is00651000</ref> records the likely author as Johannes Busch. The location was supplied by Dr A. B. Wathey, April 1989.</note>
+                     <note>In the supplement to Medieval Libraries of Great Britain (1987), the
+                        author was given as Aegidius Aurifaber (a now rejected attribution). ISTC
+                           <ref target="https://data.cerl.org/istc/is00651000">is00651000</ref>
+                        records the likely author as Johannes Busch.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" when="1481" when-custom="1481">Deventer: Ricardus Parfaet, A.D. 1481</origDate>
+                     <origPlace>Deventer: Ricardus Parfaet</origPlace>
+                     <origDate calendar="#gregorian" when="1481" when-custom="1481">1481</origDate>
                   </origin>
-                  <provenance type="#i"><orgName key="org_407" role="fmo">Norwich, Norfolk. Dominican convent</orgName>
-                     <p><q>conventus Norwici</q> (cf. London, Middle Temple, 54.7).</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Sherbrooke sale, Sotheby’s, London, 27 June 1912; P. M. Barnard, Catalogue 64 (1912), no. 98</provenance>
+                  <provenance type="#i"><orgName key="org_407" role="fmo">Norwich, Norfolk.
+                        Dominican convent</orgName>
+                     <p><q>conventus Norwici</q> and <q>ff. <persName role="fmo">W.
+                              Wodhows</persName></q>(compare the inscription in London, Middle
+                        Temple, 54.7.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Sherbrooke</persName>
+                     sale, Sotheby’s, London, 27 June 1912</provenance>
+                  <provenance type="MLGB3_laterOwners">P. M. Barnard, Catalogue 64 (1912), no. 98.
+                     This was the last known provenance according to the supplement to Medieval
+                     Libraries of Great Britain (1987).</provenance>
+                  <provenance type="MLGB3_laterOwners">Now Cambridge (MA), Harvard University,
+                     Houghton Library, MS Inc. 8948. The updated location was supplied by Dr A. B.
+                     Wathey, April 1989.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -67,6 +95,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-25">Additional information supplied from corresponding Medieval
+            Libraries of Great Britain index card (Wodhows quotation). Record edited to clarify data
+            history.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

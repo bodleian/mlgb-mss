@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9621">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="SW">
+               <resp when="2026">Transcription and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Transcription and encoding of index card</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>Untraced</country>
+                  <settlement>Untraced</settlement>
+                  <repository>Untraced</repository>
+                  <idno type="shelfmark">Shelfmark not recorded (last known location: Society of
+                     Bollandists, s. xvii)</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <author>Herebutus de Losigna</author>
+                     <title>Epistolae</title>
+                     <note>See Simon Keynes, 'A lost cartulary of St Albans Abbey',
+                           <title>Anglo-Saxon England</title> 22 (1993), 253-279.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" notAfter="1540">[Date not specified]</origDate>
+                  </origin>
+                  <provenance><orgName role="fmo" key="org_474">St Albans, Hertfordshire,
+                        Benedictine abbey of St Alban</orgName><p>In Brussels, Bibl. Royale 7965-73
+                        (s. xvii) (3723, Cat. VI, p. 89) fol. 243 <q>Ex MS. S. Albani. Habemus etiam
+                           autographum codicem signatum [cross] ms. 73, pag.
+                     108.</q></p></provenance>
+                  <provenance type="MLGB3_laterOwners">Society of Bollandists, s. xvii. This was the
+                     last known provenance according to the second edition of Medieval Libraries of
+                     Great Britain (1964). For comparison, the corresponding Medieval Libraries of
+                     Great Britain index card contains the following note in Richard Hunt's
+                     handwriting: 'Ce MS. autographe ne fait pas partie de nos collections. Il se
+                     trouvait jadis dans la bibliothèque des anciens Bollandistes, mais on ne sait
+                     pas ce qu'il est devenu.' (Letter of M. Camille Gaspar, conservateur des
+                     manuscrits (Brussels, Bibl. Royal), April 1937.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description compiled (Sian Witherden, 2026) from the following
+                           sources (with addition of reference to Keynes 1993): <listBibl>
+                              <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’, card
+                                 index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).</bibl>
+                              <bibl>Neil R. Ker, ed., <title>Medieval Libraries of Great Britain: A
+                                    List of Surviving Books</title>, Royal Historical Society Guides
+                                 and Handbooks, 3 (London, <ref
+                                    target="https://hdl.handle.net/2027/uva.x000937945">2nd edn,
+                                    1964</ref>).</bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0443.jpg, Test 3_0444.jpg -->
+      </fileDesc>
+      <revisionDesc>
+         <change when="2026-06-04">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

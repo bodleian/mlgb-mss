@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9098">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace> <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                        >Bodleian Library</ref> </addrLine>
+                    <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address> </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>London</settlement>
+                        <repository>British Library</repository>
+                        <idno type="shelfmark">Additional MS 44949</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la" otherLangs="frm">Latin and French</textLang>
+                        <msItem>
+                            <title>Psalterium</title>
+                            <note>Described by Oliver, <title>Monasticon Diocesis
+                                Exoniensis</title>, p. 36: 'A splendid psaltery', '301
+                                folios'.</note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin><origDate calendar="#Gregorian" notBefore="1380" notAfter="1399">s.
+                            xiv ex</origDate></origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_770">Tywardreath,
+                            Cornwall, Benedictine alien priory of St Andrew</orgName> <p>This
+                            rejected attribution first appeared in the Supplement to Medieval
+                            Libraries of Great Britain (1987). The corresponding Medieval Libraries
+                            of Great Britain index card cites Oliver, <title>Monasticon Diocesis
+                            Exoniensis</title>, p. 36. There, Oliver claims that 'a splendid
+                            psaltery [...] formerly belonged to this priory [i.e. Tywardreath]'.
+                            Ker, however, disagreed with the attribution, noting on the card: 'From
+                            the diocese of Durham; no evidence whatever for Tywardreath'.</p>
+                            <p>Compare, more recently, the British Library <ref
+                            target="https://searcharchives.bl.uk/catalog/032-002017548">catalogue
+                            entry</ref>: 'the otherwise unsupported 18th-19th cent. attribution of
+                            medieval ownership to Tywardreath Priory in Cornwall (see the title on
+                            the spine and pencil note at f. 2b) suggests that it may have come to
+                            this family through the marriage of Charles, 6th Baron Clifford, with
+                            Eleanor Mary, daughter of Henry, 8th Baron Arundell of Wardour Castle,
+                            see the references to other material from Tywardreath at Wardour in
+                            <title>Hist. MSS. Commission, Second Report</title>, 1870, App., pp.
+                            33-36.'</p></provenance>
+                        <provenance type="MLGB3_laterOwners">Belonged to <persName role="fmo">Lord
+                            Clifford</persName> of Chudleigh at Ugbrooke Park, Devon in Oliver's
+                            time.</provenance>
+                        <provenance type="MLGB3_laterOwners">Now British Library Additional MS
+                            44949. See E. G. Millar in <title>Archaeologia</title> 87 (1937),
+                            1.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                    <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                        Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                        Bodleian Library).</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        >Medieval Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 15 (London, supplement, ed. Andrew G. Watson,
+                                        1987).</bibl>
+                                    <bibl>George Oliver, <title>Monasticon Diocesis
+                                        Exoniensis</title> (Exeter and London, 1846), p. 36.</bibl>
+                                    <bibl>Online catalogue entry for Additional MS 44949, British
+                                        Library Archives and Manuscripts Catalogue (linked
+                                        below).</bibl>
+                                    </listBibl> </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl type="WRAPPER">
+                            <listBibl type="INTERNET">
+                                <head>Online resources:</head>
+                                <bibl><ref
+                                    target="https://searcharchives.bl.uk/catalog/032-002017548"
+                                    >British Library Archives and Manuscripts Catalogue</ref></bibl>
+                            </listBibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!-- Index card images (box 10): Test 3_1579.jpg, Test 3_1580.jpg -->
+        <revisionDesc>
+            <change when="2026-08-21">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>

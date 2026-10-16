@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record merge</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -36,7 +41,8 @@
                <msIdentifier>
                   <settlement>Untraced</settlement>
                   <repository>Untraced</repository>
-                  <idno type="shelfmark">Shelfmark not recorded</idno>
+                  <idno type="shelfmark">Shelfmark not recorded (last known owner: Hall,
+                     1856)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6503</idno>
                   </altIdentifier>
@@ -44,23 +50,40 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Gratian, Decretum aureum</title>
+                     <author key="person_1190">Gratian</author>
+                     <title key="work_2975">Decretum</title>
+                     <note>Commences at sig. A2.</note>
                   </msItem>
                </msContents>
-               <physDesc> <typeDesc><p>Printed book.</p></typeDesc> </physDesc><history>
+               <physDesc>
+                  <typeDesc>
+                     <p>Printed book.</p>
+                  </typeDesc>
+               </physDesc>
+               <history>
                   <origin>
-                     <origDate when-custom="1501" when="1501" calendar="#gregorian">Paris, AD 1501</origDate>
+                     <origPlace>Paris: Gering and Rembolt</origPlace>
+                     <origDate when-custom="1501" when="1501" calendar="#gregorian">1501</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="org_49">Bermondsey, Surrey.
-                        Cluniac priory and (from 1399) abbey of St Saviour</orgName><p> </p><p>Sotheby sale 14 June 1856 lot 308 to Hall. </p><p>Sale cat. states
-                        that ‘A MS. note at end states this Copy to belong to the Monastery of St.
-                        Saviour’s Bermondsey, near London, and that it was purchased by William
-                        Church.’ [ex ino. Nigel Ramsay]</p></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="org_49">Bermondsey, Surrey. Cluniac
+                        priory and (from 1399) abbey of St Saviour</orgName><p>Sotheby sale 14 June
+                        1856 lot 308 to <persName role="fmo">Hall</persName> (2s 6d). Sale catalogue
+                        states that ‘A MS. note at end states this copy to belong to the monastery
+                        of St. Saviour’s Bermondsey, near London, and that it was presented[?] by
+                        William Church.’ [ex info. Nigel Ramsay, November 1991].</p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -68,6 +91,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-23">Record 430 merged into this record. Extra information transcribed
+            from corresponding Medieval Libraries of Great Britain index card, and some minor
+            corrections made.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

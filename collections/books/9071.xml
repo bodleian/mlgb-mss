@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9071">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Record creation</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace> <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                        >Bodleian Library</ref> </addrLine>
+                    <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address> </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library</repository>
+                        <idno type="shelfmark">MS Digby 221</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem n="1">
+                            <author key="person_82">Alberic of London (?)</author>
+                            <title key="work_143">Poetarius siue Scintillarium poetarum</title>
+                            <note>etc.</note>
+                        </msItem>
+                        <msItem n="2">
+                            <author key="person_143">Alexander Nequam</author>
+                            <title key="work_349">Commentary on Martianus Capella</title>
+                        </msItem>
+                        <msItem n="3">
+                            <author key="person_1335">'Hermes'</author>
+                            <title key="work_3257">De sex rerum principiis</title>
+                        </msItem>
+                        <msItem n="4">
+                            <title>Mythographical treatise (De natura deorum)</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin><origDate calendar="#Gregorian" notBefore="1300" notAfter="1399">s.
+                            xiv</origDate></origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_459">Reading,
+                            Berkshire, Franciscans</orgName> <p>This attribution was rejected in the
+                            second edition of Medieval Libraries of Great Britain (1964), which did
+                            not change in the Supplement (1987). No corresponding Medieval Libraries
+                            of Great Britain index card was found during data reconciliation work in
+                            2026. Compare Quarto Catalogue (addenda), p. 96, <q>Bale,
+                            <title>Index</title>, 27, records from Leland a manuscript from the
+                            Reading Franciscans containing arts. 2 and 3: see CBMLC,
+                            <title>Friars</title>, F10. 2-3.</q></p></provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                    <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                        Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                        Bodleian Library).</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/uva.x000937945">Medieval
+                                        Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 3 (London, 2nd edn, 1964)</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        >Medieval Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 15 (London, supplement, ed. Andrew G. Watson,
+                                        1987).</bibl>
+                                    <bibl>Online catalogue entry, Medieval Manuscripts in Oxford
+                                        Libraries (linked below) [contents, date, and reference to
+                                        Quarto Catalogue (addenda) supplied from this
+                                        source].</bibl>
+                                    </listBibl> </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl type="WRAPPER">
+                            <listBibl type="INTERNET">
+                                <head>Online resources:</head>
+                                <bibl><ref
+                                    target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_4343"
+                                    >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                            </listBibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-10-09">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>

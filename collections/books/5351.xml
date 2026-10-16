@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -50,26 +54,52 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="150X/151X" notBefore="1500" notAfter="1519" calendar="#gregorian">s. xvi in.</origDate>
+                     <origDate when-custom="150X/151X" notBefore="1500" notAfter="1519"
+                        calendar="#gregorian">s. xvi in.</origDate>
                   </origin>
-                  <provenance type="#i" cert="low"><orgName role="fmo" key="org_537">Syon, Middlesex.
-                        Bridgettine abbey of St Saviour, St Mary the Virgin, and St Bridget</orgName><p>On flyleaf: 'Elisabeth Arychley off Syon 13 Ian anno
-                     1521'.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Owned by 'Jasper Fyloll of the blacke freers
-                     in London' (fol. 1v); the name 'Fylow' appears in Syon catalogue as of a
-                     donor.</provenance>
+                  <provenance type="#i" cert="low"><orgName role="fmo" key="org_537">Syon,
+                        Middlesex. Bridgettine abbey of St Saviour, St Mary the Virgin, and St
+                        Bridget</orgName><p>On flyleaf: <q><persName role="fmo">Elisabeth
+                              Arychley</persName> off Syon 13 Ian anno 1521</q>.</p><p>[Note on data
+                        history: it appears that this Syon attribution was erroneously labelled as a
+                        reject in the index to the second edition of Medieval Libraries of Great
+                        Britain (1964), p. 341; compare the main entry on p. 185].</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_333">London, London,
+                        Dominican convent</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card recorded the
+                        following information, which was deemed unsatisfactory for an attribution
+                        [and there is a later question mark above the word <q>freers</q>]:</p>
+                     <p><q>Jasper Fyloll of the blacke freers in London oweth this booke [etc]</q>.
+                        [M. R. James compares the Romance of Alexander, MS Bodley 264, fol.
+                        1v].</p><p> Fyllol was an agent of Thomas Cromwell (cf. Wright,
+                           <title>Letters relating to the Suppresion</title>, p. 67). One Fillow
+                        appears among donors in the Syon catalogue: but this is probably too early
+                        for him to be Jasper.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1257.jpg, Test 3_1258.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

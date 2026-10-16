@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,7 +42,7 @@
                   <country>USA</country>
                   <settlement>New Haven (CT)</settlement>
                   <repository>Yale University</repository>
-                  <idno type="shelfmark">MS Osbern fa44</idno>
+                  <idno type="shelfmark">MS Osbern fa44 (formerly untraced)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3885</idno>
                   </altIdentifier>
@@ -46,42 +51,39 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Chronicon abbatie de Parco Lude</title>
-                     <note type="MLGB3_generalNotes">Partially printed by E. Venables, Chronicon
-                        abbatiae de Parco Lude, Lincoln Record Society 1 (1891), siglum V;
-                        identification of this manuscript, now in a public collection, as V was made
-                        by T. Russell Smith in The Library, 7th ser. 21 (2020), 98–101.</note>
+                     <note type="MLGB3_generalNotes">Partially printed by E. Venables,
+                           <title>Chronicon abbatiae de Parco Lude</title>, Lincoln Record Society 1
+                        (1891), siglum V; identification of this manuscript, now in a public
+                        collection, as V was made by T. Russell Smith in <title>The Library</title>,
+                        7th ser. 21 (2020), 98–101.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499" calendar="#gregorian">s. xv</origDate>
+                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499"
+                        calendar="#gregorian">s. xv</origDate>
                   </origin>
-                  <provenance type="#c"><orgName role="fmo" key="org_352">Louth Park,
-                        Lincolnshire. Cistercian abbey of St Mary the Virgin</orgName><p>Provenance inferred from contents: Chronicon abbatie de Parco
-                        Lude.</p></provenance>
-                  <provenance type="MLGB3_laterOwners"> Normal 0 false false false EN-GB X-NONE
-                     X-NONE /* Style Definitions */ table.MsoNormalTable {mso-style-name:"Table
-                     Normal"; mso-tstyle-rowband-size:0; mso-tstyle-colband-size:0;
-                     mso-style-noshow:yes; mso-style-priority:99; mso-style-parent:"";
-                     mso-padding-alt:0cm 5.4pt 0cm 5.4pt; mso-para-margin:0cm;
-                     mso-para-margin-bottom:.0001pt; mso-pagination:widow-orphan; font-size:12.0pt;
-                     font-family:"Garamond",serif; mso-font-kerning:1.0pt;
-                     mso-ligatures:standardcontextual; mso-number-form:oldstyle;
-                     mso-number-spacing:proportional; mso-contextual-alternates:yes;
-                     mso-fareast-language:EN-US;} </provenance>
-                  <provenance type="MLGB3_laterOwners">Owned by Henry Harrod, antiquary, at his
-                     death on 24 January 1871. Acquired by William Allison of Louth, 1891, described
-                     in the Lincs Rec. Soc. edition of that year as owner of the abbey
+                  <provenance type="#c"><orgName role="fmo" key="org_352">Louth Park, Lincolnshire.
+                        Cistercian abbey of St Mary the Virgin</orgName><p>Provenance inferred from
+                        contents: Chronicon abbatie de Parco Lude.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Owned by <persName role="fmo">Henry
+                        Harrod</persName>, antiquary, at his death on 24 January 1871. Acquired by
+                        <persName role="fmo">William Allison</persName> of Louth, 1891, described in
+                     the Lincs Rec. Soc. edition of that year as owner of the abbey
                      site.</provenance>
                   <provenance type="MLGB3_laterOwners">March 1940 in possession of Mr J. N. Allison,
-                     129 Dorset Road, Bexhill on Sea; but owned by his nephew Major W. W. Allison,
-                     Flackwell Heath (Bucks).</provenance>
-                  <provenance type="MLGB3_laterOwners">In March 1962 in possession of Mr R. W.
-                     Allison, Two Trees Links Rd., but owned by his father Brigadier W. W. Allison,
-                     Lambricks, Tregoney, Truro, Cornwall.</provenance>
-                  <provenance type="MLGB3_laterOwners">20 October 1991, bought by Martin Schøyen
-                     through Jeremy Griffiths, becoming Oslo and London, Schøyen Collection, MS
-                     1373. </provenance>
+                     129 Dorset Road, Bexhill on Sea; but owned by his nephew Major <persName
+                        role="fmo">W. W. Allison</persName>, Flackwell Heath (Bucks).</provenance>
+                  <provenance type="MLGB3_laterOwners">In March 1962 in possession of <persName
+                        role="fmo">Mr R. W. Allison</persName>, Two Trees Links Rd., but owned by
+                     his father Brigadier W. W. Allison, Lambricks, Tregoney, Truro, Cornwall.
+                     Allison was listed as the owner in the second edition of Medieval Libraries of
+                     Great Britain (1964). The book had become untraced by the time that the
+                     supplement to Medieval Libraries of Great Britain (1987) was
+                     published.</provenance>
+                  <provenance type="MLGB3_laterOwners">20 October 1991, bought by <persName
+                        role="fmo">Martin Schøyen</persName> through Jeremy Griffiths, becoming Oslo
+                     and London, Schøyen Collection, MS 1373.</provenance>
                   <provenance type="MLGB3_laterOwners">14 April 2005, purchased from the Schøyen
                      Collection through Bernard Quaritch Ltd, becoming New Haven, Yale University,
                      MS Osbern fa44.</provenance>
@@ -89,7 +91,15 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -97,6 +107,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-25">Record edited to clarify data history (location reported in
+            different iterations of Medieval Libraries of Great Britain)</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

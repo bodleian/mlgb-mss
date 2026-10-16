@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record merge</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,44 +42,136 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Cotton MS Julius A. xi fols. 3-112</idno>
+                  <idno type="shelfmark">Cotton MS Julius A.xi</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">165</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">864</idno>
+                  </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">3190</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Gesta Henrici II etc.</title>
-                     <msItem>
-                        <title>Roger of Howden (attrib.), Gesta regis Henrici secundi (once falsely
-                           attributed to Benedict of Peterborough)</title>
-                     </msItem>
-                  </msItem>
-               </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299" calendar="#gregorian">s. xii/xiii</origDate>
-                  </origin>
-                  <provenance type="#g"><orgName role="fmo" key="org_2">Peterborough,
-                        Northamptonshire. Benedictine abbey of St Peter, St Paul, and St Andrew</orgName><p>'Gesta Regis H. secundi Benedicti abbatis' at head of fol. 3r,
-                        s. xiii. One of the books given or procured for Peterborough by Abbot
-                        Benedict (d. 1193). The work has at times been attributed to Abbot Benedict
-                        in error, on the basis of this inscription.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">William Cecil, 1st Baron Burghley
-                     (1520–1598).</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Sir Robert Bruce
+                        Cotton</persName>, first baronet (1571–1631).</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 3-112</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Gesta Henrici II etc.</title>
+                        <msItem>
+                           <title>Roger of Howden (attrib.), Gesta regis Henrici secundi (once
+                              falsely attributed to Benedict of Peterborough)</title>
+                        </msItem>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299"
+                           calendar="#gregorian">s. xii/xiii</origDate>
+                     </origin>
+                     <provenance type="#g"><orgName role="fmo" key="org_2">Peterborough,
+                           Northamptonshire. Benedictine abbey of St Peter, St Paul, and St
+                           Andrew</orgName><p>'Gesta Regis H. secundi Benedicti abbatis' at head of
+                           fol. 3r, s. xiii. M R. James, <title>Peterborough Abbey Library</title>,
+                           p. 21. One of the books given or procured for Peterborough by Abbot
+                           Benedict (d. 1193). The work has at times been attributed to Abbot
+                           Benedict in error, on the basis of this inscription.</p></provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">William
+                           Cecil</persName>, 1st Baron Burghley (1520–1598).</provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fol. 114</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Versus de contemptu mundi</title>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>A single leaf <dimensions type="leaf" unit="mm">
+                                 <height>180</height>
+                                 <width>115</width>
+                              </dimensions></extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>In twenty long lines.</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199"
+                           calendar="#gregorian">s. xii ex</origDate>
+                     </origin>
+                     <provenance type="#e"><orgName role="fmo" key="org_89">Byland, Yorkshire.
+                           Cistercian abbey of St Mary the Virgin</orgName><p>'Liber s. Marie de
+                           Bellalanda' (fol. 114v, s. xii).</p></provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">Henry
+                           Savile</persName> of Banke (1568–1617). Given by Savile to Cotton in
+                        November 1609.</provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 115-152</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Vita T. Becket</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299"
+                           calendar="#gregorian">s. xii-xiii</origDate>
+                     </origin>
+                     <provenance type="#e"><orgName role="fmo" key="org_251">Hereford,
+                           Herefordshire. Franciscan convent</orgName><p>"Vita beati thome
+                           archiepiscopi et martiris de communitate fratrum minorum herford" (fol.
+                           115r), s. xiv.</p></provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Records 864 and 3190 merged into this record. Additional
+            information transcribed from corresponding MLGB index card for Peterborough provenance
+            (M. R. James citation).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,7 +42,7 @@
                   <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS Lat. liturg. e.39</idno>
+                  <idno type="shelfmark">MS Lat. liturg. e. 39</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1672</idno>
                   </altIdentifier>
@@ -46,33 +51,82 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Breviarium</title>
-                     <note type="MLGB3_generalNotes">In MLGB2, this was recorded as untraced and the
-                        ownership of Francis Edwards recorded. Its present location was noted in the
-                        1987 Supplement.</note>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>160 leaves. <dimensions type="leaf" unit="mm">
+                              <height>208</height>
+                              <width>130</width>
+                           </dimensions></extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>2 columns, 32 lines</layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate when-custom="130X/131X" notBefore="1300" notAfter="1319" calendar="#gregorian">s. xiv in</origDate>
+                     <origDate when-custom="130X/131X" notBefore="1300" notAfter="1319"
+                        calendar="#gregorian">s. xiv in</origDate>
                   </origin>
                   <provenance type="#l"><orgName role="fmo" key="org_133">Chertsey, Surrey.
                         Benedictine abbey of St Peter</orgName><p>The major part of the sanctorale
-                        of a Chertsey breviary. Bodl. Lat. liturg. d.42, e.6, e.37 and e.39 are
-                        portions of one manuscript; see BLR 9 (1974) 72–4, 78–80.</p><p> </p></provenance>
+                        of a Chertsey breviary. Bodl. Lat. liturg. d.42, e.6 (10 leaves, bought in
+                        1898), e.37 (154 leaves) and e.39 are portions of one manuscript; see
+                           <title>Bodleian Library Record</title> 9 (1974) 72–4, 78–80.</p><p
+                     > </p></provenance>
                   <provenance type="MLGB3_laterOwners">Alexander James Beresford Hope
                      (1820–1887).</provenance>
                   <provenance type="MLGB3_laterOwners">Sotheby's sale 29 July 1946, lot 108, to
-                     Francis Edwards.</provenance>
+                     Francis Edwards (£58). This was the last known provenance according to the
+                     second edition of Medieval Libraries of Great Britain (1964).</provenance>
                   <provenance type="MLGB3_laterOwners">Alexander Fraser, Lord Saltoun
                      (1886-1979).</provenance>
                   <provenance type="MLGB3_laterOwners">Sotheby's sale 10 July 1967, lot 86; bought
-                     by J. R. Abbey and acquired in that year from him by the Bodleian.</provenance>
+                     by J. R. Abbey and acquired in that year from him by the Bodleian. The present
+                     location was first noted in the supplement to Medieval Libraries of Great
+                     Britain (1987). Compare also Schoenberg Database of Manuscripts <ref
+                        target="https://sdbm.library.upenn.edu/manuscripts/1636"
+                     >SDBM_MS_1636</ref>.</provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><surrogates><bibl subtype="partial" type="digital-facsimile"><ref target="https://digital.bodleian.ox.ac.uk/objects/f1faf05e-23db-427b-80ad-50b424a7c5dc/"><title>Digital Bodleian</title></ref>
-                        <note>(10 images from 35mm slides)</note></bibl></surrogates><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_6502">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates><bibl subtype="partial" type="digital-facsimile"><ref
+                           target="https://digital.bodleian.ox.ac.uk/objects/f1faf05e-23db-427b-80ad-50b424a7c5dc/"
+                              ><title>Digital Bodleian</title></ref>
+                        <note>(10 images from 35mm slides)</note></bibl></surrogates>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                              target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_6502"
+                              >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-19">Additional information added from corresponding Medieval
+            Libraries of Great Britain index card (including extent, dimensions, layout, price for
+            Francis Edwards). Reference to Schoenberg Database of Manuscripts added. Record edited
+            to clarify data history (location reported in different iterations of Medieval Libraries
+            of Great Britain).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

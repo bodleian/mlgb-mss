@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6436">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_6436">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -7,6 +8,11 @@
                <resp when="2025">Markup and encoding</resp>
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
+            </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -33,7 +39,7 @@
                <msIdentifier>
                   <settlement>Gouda, The Netherlands</settlement>
                   <repository>Stichting Openbare Bibliotheek</repository>
-                  <idno type="shelfmark">Shelfmark not recorded</idno>
+                  <idno type="shelfmark">Shelfmark not recorded (formerly untraced)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6436</idno>
                   </altIdentifier>
@@ -41,43 +47,71 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Michael de Insulis</title>
-                     <note type="MLGB3_generalNotes">Rebound.</note>
-                     <note type="MLGB3_generalNotes">ISTC if00297500.</note>
-                     <msItem>
-                        <author>Michael Francisci de Insulis</author>
-                        <title>Quodlibet de veritate fraternitatis rosarii seu psalterii B. M.
-                           Virginis conventus coloniensis O.P. </title>
-                     </msItem>
+                     <author key="person_2254">Michael Francisci de Insulis</author>
+                     <title>Quodlibet de veritate fraternitatis rosarii seu psalterii B. M. Virginis
+                        conventus coloniensis O.P.</title>
+                     <note>ISTC <ref target="https://data.cerl.org/istc/if00297500"
+                        >if00297500</ref>. Campbell 759. Copinger 2577.</note>
                   </msItem>
                </msContents>
-               <physDesc> <typeDesc><p>Printed book.</p></typeDesc> </physDesc><history>
+               <physDesc>
+                  <typeDesc>
+                     <p>Printed book.</p>
+                  </typeDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>Rebound.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
                   <origin>
-                     <origDate when-custom="1483/1484" notAfter="1484" notBefore="1483" calendar="#gregorian">[Gouda: Gerard Leeu, 1483 x 1484]</origDate>
+                     <origPlace>[Gouda: Gerard Leeu]</origPlace>
+                     <origDate when-custom="1483/1484" notAfter="1484" notBefore="1483"
+                        calendar="#gregorian">[1483 x 1484]</origDate>
                   </origin>
                   <provenance type="#i"><orgName role="fmo" key="org_618">Hounslow, Middlesex.
-                        Trinitarian convent</orgName><p>'Iste liber constat fratri ^radulpho
-                        beckwyth^ (substituted for 'Johanni . . . . . d . .) manet in domo de
-                        hondeslow, 148[.]' (at end).</p><p>'Fratri Johanni Sa. .dys [?Sandys] de
-                        hondeslow in Con'' (at beginning).</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Thomas Rawlinson (1681-1725).</provenance>
-                  <provenance type="MLGB3_laterOwners">Thomas Martin.</provenance>
-                  <provenance type="MLGB3_laterOwners">Francis Blomefield (d. 1752).</provenance>
-                  <provenance type="MLGB3_laterOwners">C. Hunt of Wicksworth, 1820 (sale, Sotheby's,
-                     3 May 1853).</provenance>
-                  <provenance type="MLGB3_laterOwners">E. Waterton, 1855.</provenance>
-                  <provenance type="MLGB3_laterOwners">D. A. Cruse, 1896.</provenance>
+                        Trinitarian convent</orgName><p><q>Iste liber constat fratri ^radulpho
+                           beckwyth^ [substituted for 'Johanni . . . . . d . .] manet in domo de
+                           hondeslow, 148[.]</q> (at end).</p><p><q>Fratri Johanni Sa. .dys
+                           [?Sandys] de hondeslow in Con'</q> (at beginning).</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Thomas
+                        Rawlinson</persName> (1681-1725).</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Thomas
+                     Martin</persName>.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Francis
+                        Blomefield</persName> (d. 1752).</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">C. Hunt</persName> of
+                     Wicksworth, 1820 (sale, Sotheby's, 3 May 1853).</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">E. Waterton</persName>,
+                     1855.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">D. A. Cruse</persName>,
+                     1896.</provenance>
                   <provenance type="MLGB3_laterOwners">Anonymous sale, Sotheby's, 27 November 1945,
-                     lot 357, from where bought by Francis Edwards Ltd, who put it up for sale at
-                     £100 in January 1946; it remained in their hands, appearing in catalogue 700
-                     (1950), no. 323.</provenance>
-                  <provenance type="MLGB3_laterOwners">Sold at auction by J. L. Beijers, Utrecht, 21
-                     April 1959, lot 487. To Gouda town library.</provenance>
+                     lot 357.</provenance>
+                  <provenance type="MLGB3_laterOwners">Francis Edwards Ltd put it up for sale at
+                     £100 in January 1946. It remained in their hands, appearing in catalogue 700
+                     (1950), no. 323. This was the last known provenance according to the second
+                     edition of Medieval Libraries of Great Britain (1964).</provenance>
+                  <provenance type="MLGB3_laterOwners">The book remained untraced in the supplement
+                     to Medieval Libraries of Great Britain (1987), but with a more recent
+                     observation: J. L. Beijers auction, Utrecht, 21 April 1959, lot
+                     487.</provenance>
+                  <provenance type="MLGB3_laterOwners">MLGB3 (2009-2024) recorded that that the book
+                     went to Gouda town library.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -85,6 +119,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-26">Record edited to clarify data history (location reported in
+            different iterations of Medieval Libraries of Great Britain). Additional information
+            transcribed from index card (Campbell and Copinger references).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

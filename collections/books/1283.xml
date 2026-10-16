@@ -37,40 +37,90 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>Lambeth Palace Library</repository>
-                  <idno type="shelfmark">MS 430 (flyleaves)</idno>
+                  <idno type="shelfmark">MS 430</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1283</idno>
+                  </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">1556</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Fragments of Kalendar or Obituary of Christ Church, Canterbury</title>
-                     <note type="MLGB3_generalNotes">Main MS. comes from St. Augustine's,
-                        Canterbury.</note>
-                     <note type="MLGB3_generalNotes">Cotton Nero C.ix fols. 19–21, and Lambeth
-                        Palace 430, flyleaves, are fragments of one volume; see EHR 50 (1935), p.
-                        294.</note>
+                     <author key="person_1193">Gregorius IX.</author>
+                     <title>Decretales</title>
+                     <note>James, ALCD, p. 390, no 1651.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="11XX" notBefore="1100" notAfter="1199" calendar="#gregorian">s. xii</origDate>
+                     <origDate when-custom="12XX" notBefore="1200" notAfter="1299"
+                        calendar="#gregorian">s. xiii</origDate>
                   </origin>
-                  <provenance type="#l"><orgName role="fmo" key="org_4">Canterbury, Kent.
-                        Benedictine cathedral priory of Holy Trinity or Christ Church</orgName></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="org_122">Canterbury, Kent.
+                        Benedictine abbey of St Augustine (originally of St Peter and St
+                        Paul)</orgName><p><q>Nove decretales cum C. D. XIIII Gra. iiii. Liber Sancti
+                           Augustini Cant.</q> (fol. ii recto)</p><p><q>Liber monasterii Sancti
+                           Augustini Anglorum apostoli.</q> (foot of fol. 1r).</p><q
+                        type="pressmark">D.xiiii G.iiii</q></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName>Matthew Parker
+                        (1504–1575)</persName>, archbishop of Canterbury (has name Johannes Parker
+                     and TW in red chalk).</provenance>
+                  <provenance type="MLGB3_laterOwners">On fol. ii verso: "<persName>Ricardi
+                        Cosin</persName> ex dono Iohannis Parker 29o Marcii 1596 stylo
+                     Angliae."</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Flyleaves</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Fragments of Kalendar or Obituary of Christ Church,
+                           Canterbury</title>
+                        <note type="MLGB3_generalNotes">Main MS. comes from St. Augustine's,
+                           Canterbury.</note>
+                        <note type="MLGB3_generalNotes"><ref
+                              target="https://mlgb.bodleian.ox.ac.uk/catalog/book_1245">Cotton Nero
+                              C.ix fols. 19–21</ref>, and Lambeth Palace 430, flyleaves, are
+                           fragments of one volume; see EHR 50 (1935), p. 294.</note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="11XX" notBefore="1100" notAfter="1199"
+                           calendar="#gregorian">s. xii</origDate>
+                     </origin>
+                     <provenance type="#l"><orgName role="fmo" key="org_4">Canterbury, Kent.
+                           Benedictine cathedral priory of Holy Trinity or Christ
+                        Church</orgName></provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-20">Record 1556 merged into this record. Additonal citation
+            transcribed from MLGB index card for Canterbury ownership of main textblock.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

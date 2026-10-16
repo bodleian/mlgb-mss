@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,32 +49,71 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Robertus Cowton</title>
+                     <author key="person_2964">Robertus Cowton</author>
+                     <title key="work_6703">Super IV libros sententiarum</title>
+                     <note><q>Qui scripsit carmen sit benedictus amen. <persName>W.
+                              Trengof</persName></q> (fol. 144v) and at end of table <q>Explicit
+                           tabula super Robertum Cowton abbreviatum quod P. Pdix (fol. 151v) =
+                              <persName>?Peter Partrich?</persName></q>.</note>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <p><secFol>domum tamen</secFol></p>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <p>Medieval binding, rebound; old pastedowns and flyleaves preserved.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499" calendar="#gregorian">s. xv</origDate>
+                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499"
+                        calendar="#gregorian">s. xv</origDate>
                   </origin>
                   <provenance type="#b"><orgName role="fmo" key="org_137">Chester, Cheshire.
-                        Franciscan convent</orgName><p>The medieval binding and style of binding
-                        furniture is the same on Gray's Inn, MSS 1–9, 11–12, and 23, identifiably
-                        deriving from the same library. MSS 1, 2, 5, 7, 11, 12 contain ex libris
-                        inscriptions.</p></provenance>
+                        Franciscan convent</orgName><p>This attribution has a complex evolution
+                        within the history of Medieval Libraries of Great Britain, which can be
+                        summarized as follows:</p>
+                     <p>In the first edition (1941), the attribution was accepted, albeit with a
+                        question mark.</p>
+                     <p>Conversely, in the second edition (1964), the attribution was rejected.</p>
+                     <p>This downgrade is reflected on the corresponding Medieval Libraries of Great
+                        Britain index card. The card originally had the following note:
+                           <q>Provenance inferred from others in the same collection</q>. However,
+                        this note was later crossed out, and the following summative comment added
+                        instead: <q>Should be rejected. No evidence</q>.</p>
+                     <p>There were no relevant changes in the Supplement (1987). During MLGB3
+                        (2010-2015), the attribution was once again accepted (though now without a
+                        question mark). The folllowing reason was given: The medieval binding and
+                        style of binding furniture is the same on Gray's Inn, MSS 1–9, 11–12, and
+                        23, identifiably deriving from the same library. MSS 1, 2, 5, 7, 11, 12
+                        contain ex libris inscriptions.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Volumen 7ᵐ (s. xvii) on flyleaf.</provenance>
                   <provenance type="MLGB3_laterOwners">The Bostock family of Tattenhall
                      (Cheshire).</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0953.jpg, Test 3_954.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to clarify data history and
+            to add additional content from corresponding index card.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

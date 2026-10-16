@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -36,7 +41,7 @@
                <msIdentifier>
                   <settlement>Untraced</settlement>
                   <repository>Untraced</repository>
-                  <idno type="shelfmark">Shelfmark not recorded</idno>
+                  <idno type="shelfmark">Shelfmark not recorded (formerly Elmstone Rectory)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6841</idno>
                   </altIdentifier>
@@ -44,28 +49,56 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Augustinus in Psalmos (2 fos)</title>
-                     <note type="MLGB3_generalNotes">42 long lines. 365 x 260mm. Headings in bright
-                        green and red. Psalm numbers 40 and 42 in place of foliation.</note>
+                     <author key="person_352">Augustinus</author>
+                     <title key="work_984">in Psalmos</title>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>2 fols. <dimensions type="leaf" unit="mm">
+                              <height>365</height>
+                              <width>260</width>
+                           </dimensions></extent>
+                        <foliation>Psalm numbers 40 and 42 in place of foliation.</foliation>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>42 long lines. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote><p>Headings in bright green and red.</p></decoNote>
+                  </decoDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate when-custom="10XX/11XX" notBefore="1000" notAfter="1199" calendar="#gregorian">s. xi/xii</origDate>
+                     <origDate when-custom="10XX/11XX" notBefore="1000" notAfter="1199"
+                        calendar="#gregorian">s. xi/xii</origDate>
                   </origin>
                   <provenance type="#s"><orgName role="fmo" key="org_122">Canterbury, Kent.
-                        Benedictine abbey of St Augustine (originally of St Peter and St Paul)</orgName><p>W. Urry rightly says that this fragment is by 'exactly the same
-                        hand' as Canterbury Cathedral Lit. A. 8 (68), q.v.</p></provenance>
+                        Benedictine abbey of St Augustine (originally of St Peter and St
+                        Paul)</orgName><p>W. Urry rightly says that this fragment is by 'exactly the
+                        same hand' as <ref target="https://mlgb.bodleian.ox.ac.uk/catalog/book_1447"
+                           >Canterbury Cathedral Lit. A. 8 (68)</ref>.</p></provenance>
                   <provenance type="MLGB3_laterOwners">This is a bifolium, used as a wrapper for the
-                     parish register (starting in 1552) of Elmstone, Kent. In the 1964 edition of
-                     MLGB, it was recorded as held at Elmstone Rectory, but by 1985, the Rectory had
-                     been sold and was in lay hands, and the fragment could not be traced. Thus, in
-                     the 1987 Supplement, it is recorded as untraced.</provenance>
+                     parish register (starting in 1552) of Elmstone, Kent. Elmstone Rectory was
+                     listed as the current location in the second edition of Medieval Libraries of
+                     Great Britain (1964). By 1985, the Rectory had been sold and was in lay hands.
+                     The fragment could not be traced, as indicated in the supplement
+                     (1987).</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>

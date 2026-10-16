@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8823">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace> <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                        >Bodleian Library</ref> </addrLine>
+                    <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address> </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno type="shelfmark">MS Ff.3.35</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <author key="person_2743">Priscianus</author>
+                            <title key="work_6247">In maiori</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin><origPlace>German?</origPlace> <origDate calendar="#Gregorian"
+                            notBefore="1100" notAfter="1199">s. xii </origDate> </origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_36">Battle,
+                            Sussex, Benedictine abbey of St Martin</orgName> <p>This attribution was
+                            rejected in the second edition of Medieval Libraries of Great Britain
+                            (1964), which did not change in the Supplement (1987). The corresponding
+                            Medieval Libraries of Great Britain index card, which was originally
+                            compiled by Richard Hunt, recorded the following evidence: <q>M G [red]
+                            Priscianus Cesariensis in maiori</q> (on vellum strip on front cover, s.
+                            xv). The implicit rationale here is that the labelling might point to
+                            Battle Abbey -- though Hunt clearly had his doubts, as indicated by his
+                            question mark at the top right hand of the card. Ker later rejected the
+                            attribution outright, adding the following note to the card: <q>Reject.
+                            Continental binding and title. Clasps fasten from second cover to
+                            first.</q></p><p>Compare, more recently, the discussion of MS Ff.3.35 in
+                            Paul Binski and Patrick Zutshi, <title>Western Illuminated
+                            Manuscripts</title> (Cambridge, 2011), p. 384: </p> <p><q>The red
+                            capitals MG (s. xiii) on the label resemble marks found on the first
+                            page of manuscripts from the Benedictine Abbey of St Martin, Battle,
+                            Sussex (cf. Kk.6.15), but the attribution has been rejected
+                            (<title>MLGB</title>, p. 8; Connolly, p. 121). Similar systems have been
+                            recorded in other medieval libraries, for instance at Windsor, and
+                            Priscian's <title>Grammar</title> is not among the Battle Abbey books
+                            listed by the Oxford Franciscans and John Leland (R. H. and M. A. Rouse,
+                            eds. <title>Registrum Anglie</title>, pp. 251-2; R. Sharpe and others,
+                            eds. <title>English Benedictine Libraries</title>, pp. 18-22).</q> [For
+                            the Connolly citation, see record sources below].</p></provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                    <bibl>Paul Binski and Patrick Zutshi, <title>Western Illuminated
+                                        Manuscripts A Catalogue of the Collection in Cambridge
+                                        University Library</title> (Cambridge, 2011).</bibl>
+                                    <bibl>Margaret Connolly, 'Books Connected with Battle Abbey
+                                        before the Dissolution: Some New Discoveries', <title>The
+                                        Library</title> 1 (2000), pp. 119-32.</bibl>
+                                    <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                        Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                        Bodleian Library).</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/uva.x000937945">Medieval
+                                        Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 3 (London, 2nd edn, 1964)</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        >Medieval Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 15 (London, supplement, ed. Andrew G. Watson,
+                                        1987).</bibl>
+
+                                    </listBibl> </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!-- Index card images (box 10): Test 3_0575.jpg, Test 3_0576.jpg -->
+        <revisionDesc>
+            <change when="2026-08-21">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>

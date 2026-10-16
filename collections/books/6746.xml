@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -36,7 +41,8 @@
                <msIdentifier>
                   <settlement>Untraced</settlement>
                   <repository>Untraced</repository>
-                  <idno type="shelfmark">Shelfmark not recorded</idno>
+                  <idno type="shelfmark">Shelfmark not recorded (last known location: London,
+                     Sotheby's, auctioneers, 1969, to Traylen)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6746</idno>
                   </altIdentifier>
@@ -44,10 +50,11 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>J. Chrysostomus</title>
+                     <author key="person_1634">J. Chrysostomus</author>
+                     <title>Omelie Lxxxii super evangelio Iohannis</title>
                      <note type="MLGB3_generalNotes">John Whetham notes the length of time he
-                        occupied in writing the book: on him, see E. M. Thompson, Carthusian Order
-                        in England, p. 329.</note>
+                        occupied in writing the book: on him, see E. M. Thompson, <title>Carthusian
+                           Order in England</title>, p. 329.</note>
                   </msItem>
                </msContents>
                <history>
@@ -55,37 +62,50 @@
                      <origDate when-custom="1496" when="1496" calendar="#gregorian">1496</origDate>
                   </origin>
                   <provenance type="#e"><orgName role="fmo" key="org_496">Sheen, Surrey.
-                        Charterhouse of Jesus of Bethlehem</orgName><p>'Liber domus Jhesu de
-                        bethleem de scheene ordinis carthusiensis quem scripsit domnus Johannes
-                        Whetham monachus professus domus londoniensis eiusdem ordinis pro venerabili
-                        patre d. Radulpho Tracy tunc priore dicte domus de Scheene, ad instancias
-                        Reverendi patris &amp; domini J. yngylby tunc episcopi Landavensis, qui
-                        etiam quondam fuit prior de scheene &amp; predecessor immediatus predicti
-                        patris Radulphi Tracy a. d. 1496 Ad laudem dei. Amen.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Duke of Sussex (d. 1843). Sold 31 July 1844
-                     as lot 203: see J. Pettigrew, Bibliotheca Sussexiana, lat. 49.</provenance>
+                        Charterhouse of Jesus of Bethlehem</orgName><p><q>Liber domus Jhesu de
+                           bethleem de scheene ordinis carthusiensis quem scripsit domnus <persName
+                              role="scr">Johannes Whetham</persName> monachus professus domus
+                           londoniensis eiusdem ordinis pro venerabili patre d. <persName>Radulpho
+                              Tracy</persName> tunc priore dicte domus de Scheene, ad instancias
+                           Reverendi patris &amp; domini <persName>J. yngylby</persName> tunc
+                           episcopi Landavensis, qui etiam quondam fuit prior de scheene &amp;
+                           predecessor immediatus predicti patris Radulphi Tracy a. d. 1496 Ad
+                           laudem dei. Amen.</q></p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Duke of
+                        Sussex</persName> (d. 1843). Sold 31 July 1844 as lot 203: see J. Pettigrew,
+                        <title>Bibliotheca Sussexiana</title>, lat. 49.</provenance>
                   <provenance type="MLGB3_laterOwners">Ashburnham: see Historical MSS Commission
                      Report, 8, iii.104, no. 78: sold at Ashburnham sale, 1899, lot. 61. Bought by
-                     H. W. Underdown.</provenance>
+                        <persName role="fmo">H. W. Underdown</persName>.</provenance>
                   <provenance type="MLGB3_laterOwners">Sotheby's, 20 June 1927, lot
                      459.</provenance>
                   <provenance type="MLGB3_laterOwners">Tregaskis, Catalogue, 1000 (1931), no. 117,
                      with facsimile, and Catalogue, 1022.</provenance>
                   <provenance type="MLGB3_laterOwners">Sotheby's, 26-29 April 1937, lot 252, sold to
                      Maggs for £21.</provenance>
-                  <provenance type="MLGB3_laterOwners">Rt. Hon. John Burns, sold on his death at
-                     Sotheby's, 24 April 1944, lot 424. Subsequenlty owned b A. G. Hinds of
-                     Richmond, and then by W. L. Wood of Chandlers Cross. It is in this location
-                     that it is recorded in MLGB.</provenance>
-                  <provenance type="MLGB3_laterOwners">Sotheby's, 10 December 1969, lot 80
-                     (Schoenberg 3007). Bought by the dealer Traylen, Catalogue, 81 (1970?), no.
-                     11.</provenance>
-                  <provenance type="MLGB3_laterOwners"> </provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Rt. Hon. John
+                        Burns</persName>, sold on his death at Sotheby's, 24 April 1944, lot 424.
+                     Subsequenlty owned b <persName role="fmo">A. G. Hinds</persName> of Richmond,
+                     and then by W. L. Wood of Chandlers Cross. This was the location reported in
+                     the second edition of Medieval Libraries of Great Britain (1964).</provenance>
+                  <provenance type="MLGB3_laterOwners">Sotheby's, 10 December 1969, lot 80 (<ref
+                        target="https://sdbm.library.upenn.edu/entries/3007">Schoenberg 3007</ref>).
+                     Bought by the dealer Traylen, Catalogue, 81 (1970?), no. 11. This was the last
+                     known provenance according to the supplement to Medieval Libraries of Great
+                     Britain (1987). The book remains untraced.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -93,6 +113,10 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-01">Additional information transcribed from corresponding Medieval
+            Libraries of Great Britain index card (title of work). Record edited to clarify data
+            history (location reported in different iterations of Medieval Libraries of Great
+            Britain)</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

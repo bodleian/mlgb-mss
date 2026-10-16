@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -49,24 +47,58 @@
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="1275/1500" notBefore="1275" notAfter="1500" calendar="#gregorian">s. xiii ex.--xv</origDate>
-                  </origin>
-                  <provenance type="#l" cert="low"><orgName role="fmo" key="org_290">Lacock, Wiltshire.
-                        Abbey of St Mary the Virgin and St Bernard, of Augustinian nuns</orgName><p>The additions s. xv are for an abbey of Augustinian nuns; the
-                        prominence of St Bernard and St. Cyriac (to whom the parish church of Lacock
-                        was dedicated) suggests Lacock.</p></provenance>
+                  <origin> <origDate when-custom="1275/1500" notBefore="1275" notAfter="1500"
+                     calendar="#gregorian">s. xiii ex.-xv</origDate> </origin>
+                  <provenance type="#l" cert="low"><orgName role="fmo" key="org_290">Lacock,
+                     Wiltshire. Abbey of St Mary the Virgin and St Bernard, of Augustinian
+                     nuns</orgName><p>The additions s. xv are for an abbey of Augustinian nuns; the
+                     prominence of St Bernard and St. Cyriac (to whom the parish church of Lacock
+                     was dedicated) suggests Lacock.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_15">Aconbury,
+                     Herefordshire, Priory of Holy Cross, of Augustinian nuns</orgName> <p>This
+                     attribution was rejected in the second edition of Medieval Libraries of Great
+                     Britain (1964), which did not change in the Supplement (1987). The
+                     corresponding Medieval Libraries of Great Britain index card records the
+                     following information, which was deemed unsatisfactory for an attribution:
+                     Liturgical details suggest provenance.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Dr Edward
+                     Baskerville</persName> (s. xvi).</provenance>
+                  <provenance type="MLGB3_laterOwners">Given by <persName role="dnr">Laud</persName>
+                     in 1633.</provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><surrogates><bibl subtype="partial" type="digital-facsimile">
-                        <ref target="https://digital.bodleian.ox.ac.uk/objects/5a4fb726-f1ee-4486-9843-a04e89f71afa/">
-                           <title>Digital Bodleian</title>
-                        </ref>
-                        <note>(24 images from 35mm slides)</note>
-                     </bibl>
-                  </surrogates><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_7578">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates><bibl subtype="partial" type="digital-facsimile"> <ref
+                     target="https://digital.bodleian.ox.ac.uk/objects/5a4fb726-f1ee-4486-9843-a04e89f71afa/"
+                     > <title>Digital Bodleian</title> </ref> <note>(24 images from 35mm
+                     slides)</note> </bibl> </surrogates>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                           target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_7578"
+                           >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0559.jpg, Test 3_560.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

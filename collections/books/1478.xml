@@ -37,35 +37,94 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Cotton MS Tiberius A.ix fols. 107-80</idno>
+                  <idno type="shelfmark">Cotton MS Tiberius A.ix</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">1478</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">4190</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Chronica T. Sprott</title>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="13XX" notBefore="1300" notAfter="1399" calendar="#gregorian">s. xiv</origDate>
-                  </origin>
-                  <provenance type="#c"><orgName role="fmo" key="org_122">Canterbury, Kent.
-                        Benedictine abbey of St Augustine (originally of St Peter and St Paul)</orgName></provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 2-102</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Annals of Osney, etc.</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="12XX/13XX" notBefore="1200" notAfter="1399"
+                           calendar="#gregorian">s. xiii-xiv</origDate>
+                     </origin>
+                     <provenance type="#c"><orgName role="fmo" key="org_416">Osney, Oxfordshire.
+                           Augustinian abbey of St Mary the Virgin</orgName><p>Provenance inferred
+                           from contents. Fols. 52r ff. published as 'Annales de Oseneia' by H. R.
+                           Luard in Annales monastici, 5 vols, RS 36 (1864–9), 4. 1–352 (cf. pp.
+                           xv-xvi). </p><p>Fol. 2r has <q>Liber <persName>Iohannis
+                                 Gunthorp</persName> decani ecclesie cathedralis Wellensis emptus
+                              apud Westm. viii Jun <note type="editorial">[...]</note> anno domini
+                              14 [..] de <persName>J. Barett</persName> librario pro x s.
+                              solutis.</q></p></provenance>
+                     <provenance type="MLGB3_laterOwners">The index card originally recorded
+                           <persName>Thomas Allen</persName> as a previous owner (signature fol.
+                        104). However, this was queried by a later note on the index card: 'but this
+                        refers to article 11'. A third note adds to the discussion: ? the copy which
+                        Allen found in possession of <persName>Henry Ferrers</persName>, see MS Wood
+                        D. 18.</provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 107-80</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <author key="person_3387">T. Sprott</author>
+                        <title key="work_7568">Chronicle of St Augustine's abbey</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="13XX" notBefore="1300" notAfter="1399"
+                           calendar="#gregorian">s. xiv</origDate>
+                     </origin>
+                     <provenance type="#c"><orgName role="fmo" key="org_122">Canterbury, Kent.
+                           Benedictine abbey of St Augustine (originally of St Peter and St
+                           Paul)</orgName><p>James, Ancient Libraries, no. 931. Cf. Holtzman,
+                           Papsturkunden, 1, 75 and Hardy, Descr. Cat. Materials, III, 125. Secundo
+                           folio agrees.</p></provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-05-20">Record 4190 merged into this record. Additional information
+            transcribed from both corresponding index cards.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

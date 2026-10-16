@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected provenance</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -45,24 +43,40 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Palladius, Vitae SS patrum</title>
-                     <note type="MLGB3_generalNotes">J. M. Sheppard, The Buildwas Books: Book
-                        Production, Acquisition and Use at an English Cistercian Monastery,
-                        1165-c.1400, Oxford Bibliographical Society Publications 3rd ser. 2 (Oxford,
-                        1997), no. 17, pp. 86-90 + fig. 20</note>
+                     <author key="person_2456">Palladius</author>
+                     <title>Vitae SS patrum</title>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199" calendar="#gregorian">s. xii ex.</origDate>
-                  </origin>
+                  <origin> <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199"
+                     calendar="#gregorian">s. xii ex.</origDate> </origin>
                   <provenance type="#s"><orgName role="fmo" key="org_83">Buildwas, Shropshire.
-                        Savigniac and (1147) Cistercian abbey of St Mary the Virgin and St Chad</orgName></provenance>
+                     Savigniac and (1147) Cistercian abbey of St Mary the Virgin and St
+                     Chad</orgName><p>J. M. Sheppard, <title>The Buildwas Books: Book Production,
+                     Acquisition and Use at an English Cistercian Monastery, 1165-c.1400</title>,
+                     Oxford Bibliographical Society Publications 3rd ser. 2 (Oxford, 1997), no. 17,
+                     pp. 86-90 + fig. 20</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_4">Canterbury, Kent,
+                     Benedictine cathedral priory of Holy Trinity or Christ Church</orgName><p>This
+                     attribution was rejected in the second edition of Medieval Libraries of Great
+                     Britain (1964), which did not change in the Supplement (1987). The
+                     corresponding Medieval Libraries of Great Britain index card records the
+                     following information, which was deemed unsatisfactory for an attribution:
+                     <q>Possibly from Christ Church</q> (M. R. James).</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo"
+                     >Whitgift</persName>.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -70,6 +84,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-10-08">Record edited (Sian Witherden) to incorporate rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt>
+               <resp when="2026">Addition of rejected provenance</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -41,8 +39,10 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">3410</idno>
                   </altIdentifier>
-               <altIdentifier><idno type="MLGB3">4881</idno>
-                  </altIdentifier></msIdentifier>
+                  <altIdentifier>
+                     <idno type="MLGB3">4881</idno>
+                  </altIdentifier>
+               </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
@@ -50,25 +50,41 @@
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299" calendar="#gregorian">s. xii/xiii</origDate>
-                  </origin>
-                  <provenance type="#m" source="3410"><orgName role="fmo" key="org_295">Lanthony (secunda),
-                        Gloucestershire. Augustinian priory of St Mary the Virgin and St John the
-                        Baptist</orgName><p>Chapter numbering at foot of pages in pencil and ink
-                        in the usual style.</p><p>Cf. M.R. James: "It may be from L." [no. 19 in the
-                        Catalogue], but the hand and ornament "strongly suggest" St.
-                        Albans.</p><p>See N. R. Ker, in E. G. W. Bill, A Catalogue of Manuscripts in
-                        Lambeth Palace Library, MSS. 1222–1860 (Oxford 1972), p. 11, n. 1.</p><note type="MLGB3_medievalCatalogueNotes">Cf. cat. 19</note></provenance>
-               <provenance type="#s" cert="low" source="4881"><orgName role="fmo" key="org_474">St Albans,
-                        Hertfordshire. Benedictine abbey of St Alban</orgName><p>'The writing and
-                        ornament strongly suggest to me St. Albans as the place of production'
-                        (MRJ).</p></provenance>
+                  <origin> <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299"
+                     calendar="#gregorian">s. xii/xiii</origDate> </origin>
+                  <provenance type="#m" source="3410"><orgName role="fmo" key="org_295">Lanthony
+                     (secunda), Gloucestershire. Augustinian priory of St Mary the Virgin and St
+                     John the Baptist</orgName><p>Chapter numbering at foot of pages in pencil and
+                     ink in the usual style. See N. R. Ker, in E. G. W. Bill, <title>A Catalogue of
+                     Manuscripts in Lambeth Palace Library, MSS. 1222–1860</title> (Oxford 1972), p.
+                     11, n. 1: "I did not know of this Lanthony marking in time for the second
+                     edition of Medieval Libraries of Great Britain (1964). It numbers books,
+                     chapters, psalms, and sometimes leaves, and is always at the foot of the pages
+                     in pencil or ink and sometimes in both pencil and ink."</p><p>Cf. M.R. James:
+                     "It may be from L." [no. 19 in the Catalogue], but the hand and ornament
+                     "strongly suggest" St. Albans..</p><p/><note
+                     type="MLGB3_medievalCatalogueNotes">Cf. cat. 19</note></provenance>
+                  <provenance type="#s" cert="low" source="4881"><orgName role="fmo" key="org_474"
+                     >St Albans, Hertfordshire. Benedictine abbey of St Alban</orgName><p>This
+                     attribution was accepted (albeit with a query) in the second edition of
+                     Medieval Libraries of Great Britain (1964). The attribution was later rejected
+                     in the Supplement (1987). The attribution was, once again, included with a
+                     query in MLGB3 (2010-2015). MLGB3 cited the following evidence, which mirrors
+                     the corresponding card in the original Medieval Libraries of Great Britain card
+                     index: 'The writing and ornament strongly suggest to me St. Albans as the place
+                     of production' (M. R. James).</p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -76,7 +92,11 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2025-09-18">Record 4881 merged into this record.</change><change when="2025-05-21">Record created.</change>
+         <change when="2026-09-18">Record edited (Sian Witherden, 2026) to contextualize data
+            history of St Albans attribution. Added further detail to the Ker and Bill (1972)
+            citation.</change>
+         <change when="2025-09-18">Record 4881 merged into this record.</change>
+         <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

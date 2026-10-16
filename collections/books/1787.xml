@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -49,29 +47,45 @@
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="13XX" notBefore="1300" notAfter="1399" calendar="#gregorian">s. xiv</origDate>
-                  </origin>
+                  <origin> <origDate when-custom="13XX" notBefore="1300" notAfter="1399"
+                     calendar="#gregorian">s. xiv</origDate> </origin>
                   <provenance type="#c"><orgName role="fmo" key="org_149">Colchester, Essex.
-                        Benedictine abbey of St John the Baptist</orgName><p>Many local St John's
-                        Colchester entries: see Liebermann, Anglo-Normannische Geschichtsquellen, p.
-                        156. MS. begins imperfect at 231, ends imperfect at 1193. The only
-                        marginalia are a Colchester entry at 1120 (see Liebermann, loc. cit., p.
-                        162), and "Fundacio ecclesie de Snap'" at 1155.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Le Neve 1693, who says it belonged to John
+                     Benedictine abbey of St John the Baptist</orgName><p>Many local St John's
+                     Colchester entries: see Liebermann, <title>Anglo-Normannische Geschichtsquellen</title>, p.
+                     156. MS. begins imperfect at 231, ends imperfect at 1193. The only marginalia
+                     are a Colchester entry under the year 1120 (see Liebermann, p. 162), and
+                     <q>Fundacio ecclesie de Snap’</q> under the year 1155.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_86">Bury St Edmunds,
+                     Suffolk, Benedictine abbey of St Edmund, King and Martyr</orgName> <p>This
+                     attribution was rejected in the second edition of Medieval Libraries of Great
+                     Britain (1964), which did not change in the Supplement (1987). The
+                     corresponding Medieval Libraries of Great Britain index card records the
+                     following context: Ascribed to Bury by James - corrected by Liebermann,
+                     <title>Anglo-Normannische Geschichtsquellen</title>, p. 156.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Le Neve (1693) says it belonged to John
                      Foxe (1516/17–1587) the Martyrologist.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0715.jpg, Test 3_716.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

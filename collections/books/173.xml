@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -45,31 +43,59 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Nicholas de Lyra</title>
                      <msItem>
-                        <title>Nicholas of Lyre, Postilla litteralis in uetus et nouum
+                        <author key="person_2348">Nicholas of Lyre</author>
+                        <title key="work_5421">Postilla litteralis in uetus et nouum
                            testamentum</title>
                      </msItem>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="13XX/14XX" notBefore="1300" notAfter="1499" calendar="#gregorian">s. xiv/xv</origDate>
-                  </origin>
+                  <origin> <origDate when-custom="13XX/14XX" notBefore="1300" notAfter="1499"
+                     calendar="#gregorian">s. xiv/xv</origDate> </origin>
                   <provenance type="#c"><orgName role="fmo" key="org_2">Peterborough,
-                        Northamptonshire. Benedictine abbey of St Peter, St Paul, and St Andrew</orgName></provenance>
+                     Northamptonshire. Benedictine abbey of St Peter, St Paul, and St
+                     Andrew</orgName><p>Scribble at end records obit of a monk 'monasterii
+                     apostolorum Petri et Pauli de burgo'. Cf. 473. The last word 'burgo' is legible
+                     by ultra-violet light.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_62">Bourne,
+                     Lincolnshire, Augustinian abbey of St Peter and St Paul</orgName> <p>This
+                     attribution was rejected in the second edition of Medieval Libraries of Great
+                     Britain (1964), which did not change in the Supplement (1987).</p> <p>When the
+                     corresponding Medieval Libraries of Great Britain index card was originally
+                     written, it recorded the following information: "Scribbled on last page: <q>vº
+                     kl Febr o' ffr' ioh' monachus sac et profess' monasterii Apostolorum petri et
+                     Pauli de bur[..]</q>; M. R. James says 'Petri and Pauli' <hi rend="italic"
+                     >might</hi> be St Augustine's Canterbury, but 'more probably perhaps Bourne as
+                     in Lambeth 327 and 473.'"</p>Later additions to the index card show that Ker
+                     made closer examination of the inscription under uv light ('b in the last word
+                     legible by u.v. light') and ultimately connected the inscription to
+                     Peterborough ('i.e. Peterborough').</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo"
+                     >Sancroft</persName>.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0587.jpg, Test 3_588.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected provenance,
+            and to transcribe additional information from Medieval Libraries of Great Britain index
+            card for Peterborough attribution.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -41,28 +45,65 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">4378</idno>
                   </altIdentifier>
+                  <altIdentifier type="internal">
+                     <idno type="SCN">6565</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Miscellanea geometria</title>
-                     <note type="MLGB3_generalNotes">= no. 22 in Electio of c. 1410 at Merton
-                        College (Powicke, Books of Merton, p. 68).</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="128X/129X" notBefore="1280" notAfter="1299" calendar="#gregorian">s. xiii ex.</origDate>
+                     <origDate when-custom="128X/129X" notBefore="1280" notAfter="1299"
+                        calendar="#gregorian">s. xiii ex.</origDate>
                   </origin>
                   <provenance type="#e"><orgName role="fmo" key="org_435">Oxford, Oxfordshire.
-                        Merton College</orgName><p>'Liber domus scolarium de merton in
-                        oxon.'</p><note type="MLGB3_medievalCatalogueNotes">Cat. D.22; electio 1519,
-                        Barlow 11</note></provenance>
+                        Merton College</orgName><p><q>Liber domus scolarium de merton in oxon.</q> =
+                        no. 22 in Electio of c. 1410 at Merton College (Powicke, <title>Books of
+                           Merton</title>, p. 68).</p>
+                     <p><note type="MLGB3_medievalCatalogueNotes">Cat. D.22; electio 1519, Barlow
+                           11</note></p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_178">Doncaster,
+                        Yorkshire, Franciscan convent</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card records the
+                        following information, which was deemed unsatisfactory for an attribution
+                        (and later crossed out): <q>binding like Savile 20</q>.</p></provenance>
                </history>
-            <additional><adminInfo><recordHist><source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source></recordHist></adminInfo><listBibl type="WRAPPER"><listBibl type="INTERNET"><head>Online resources:</head><bibl><ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_8816">Medieval Manuscripts in Oxford Libraries</ref></bibl></listBibl></listBibl></additional></msDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                              target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_8816"
+                              >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0993.jpg, Test 3_994.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

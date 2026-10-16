@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,7 +42,7 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Harley MS 6579</idno>
+                  <idno type="shelfmark">Harley MS 6579 (previously untraced)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3775</idno>
                   </altIdentifier>
@@ -45,22 +50,43 @@
                <msContents>
                   <textLang mainLang="enm">Middle English</textLang>
                   <msItem>
-                     <title>W. Hilton, Scale of Perfection (English)</title>
+                     <author key="person_3634">Walter Hilton</author>
+                     <title key="work_7945">Scale of Perfection</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499" calendar="#gregorian">s. xv</origDate>
+                     <origDate when-custom="14XX" notBefore="1400" notAfter="1499"
+                        calendar="#gregorian">s. xv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="org_334">London. Charterhouse
-                        of the Salutation of St Mary the Virgin</orgName><p>"liber domus matris
-                        dei Ordinis Cartusien' prope london'" (fol. 1r, at foot); s.
+                  <provenance type="#e"><orgName role="fmo" key="org_334">London. Charterhouse of
+                        the Salutation of St Mary the Virgin</orgName><p><q>liber domus matris dei
+                           Ordinis Cartusien' prope london'</q> (fol. 1r, at foot); s.
                      xv.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Described by <persName>Thomas
+                        Hearne</persName> as belonging to Mr <persName role="fmo">John
+                        Murray</persName>. It contained a 'Mortuary Bill containing petitions for
+                     the souls of some persons'. Hearne, <title>Collections</title>, Oxford
+                     Historical Society VII ([1722]), 339, 388, 389. John Murray loaned it to
+                     Hearne.</provenance>
+                  <provenance type="MLGB3_laterOwners">In the second edition of Medieval Libraries
+                     of Great Britain (1964), this book was listed as untraced, but with the
+                     following footnote: 'perhaps identical with Harley 6579' (p. 122, n. 4). In
+                     MLGB3 (2009-2015), the s. xv inscription was supplied, and the book was listed
+                     under Harley MS 6579 rather than as untraced.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -68,6 +94,10 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-25">Additional information transcribed from corresponding Medieval
+            Libraries of Great Britain index card (references to Hearne and Murray). Record edited
+            to clarify data history (location reported in different iterations of Medieval Libraries
+            of Great Britain).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

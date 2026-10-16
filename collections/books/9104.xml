@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9104">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Transcription and encoding of index card</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace> <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                        >Bodleian Library</ref> </addrLine>
+                    <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address> </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Oxford</settlement>
+                        <repository>University College</repository>
+                        <idno type="shelfmark">MS 4</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la" otherLangs="enm">Latin and English</textLang>
+                        <msItem>
+                            <title>Ars moriendi, etc. (partly in English)</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <bindingDesc>
+                            <binding>
+                                <p>A binding leaf is part of a s. xv will containing bequests to
+                                    individuals at Beverley and to the prior and monks of the
+                                    Carthusian house at London and Hull. Another leaf is part of a
+                                    receipt roll of a church at Beverley (s. xv) and a third is from
+                                    the inventory of William Burgenoun of Tempsford.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate calendar="#Gregorian" notBefore="1400" notAfter="1499">s.
+                            xv</origDate></origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_567">Warden,
+                            Bedfordshire, Cistercian abbey of St Mary the Virgin</orgName> <p>This
+                            rejected attribution first appeared in the Supplement to Medieval
+                            Libraries of Great Britain (1987).</p><p> The corresponding Medieval
+                            Libraries of Great Britain index card was originally written by Ker. He
+                            recorded the following quotation: <q>[...] artem moriendi | [..]s
+                            constat Willelmo | [... do]mpni Iohannes | [.....]s de Wardon</q> on a
+                            torn flyleaf (fol. 2).</p><p> Ker also added the following notes: John
+                            [...] was abbot of Warden 1428. John Fraunceys was abbot 1447 and 1454
+                            (<title>VCH</title>).</p> <p>Presumably it was when Andrew Watson was
+                            preparing the Supplement that he added the word <q>reject</q> to the
+                            card, along with the following note: <q>No certainty that it was at
+                            Warden</q>. </p></provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                    <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                        Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                        Bodleian Library).</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        >Medieval Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 15 (London, supplement, ed. Andrew G. Watson,
+                                        1987).</bibl>
+                                    </listBibl> </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl type="WRAPPER">
+                            <listBibl type="INTERNET">
+                                <head>Online resources:</head>
+                                <bibl><ref
+                                    target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_13000"
+                                    >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                            </listBibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!-- Index card images (box 10): Test 3_1591.jpg, Test 3_1592.jpg -->
+        <revisionDesc>
+            <change when="2026-08-21">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>

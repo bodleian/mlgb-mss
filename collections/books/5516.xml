@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -41,41 +39,58 @@
                   <altIdentifier type="system">
                      <idno type="MLGB3">5516</idno>
                   </altIdentifier>
-               <altIdentifier><idno type="MLGB3">7194</idno>
-                  </altIdentifier></msIdentifier>
+                  <altIdentifier>
+                     <idno type="MLGB3">7194</idno>
+                  </altIdentifier>
+               </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title source="5516">Beda, Historia Anglorum</title>
-                  <title source="7194">Beda</title>
+                     <author key="person_426">Beda</author>
+                     <title key="work_1460">Historia Anglorum</title>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="11XX" notBefore="1100" notAfter="1199" calendar="#gregorian">s. xii</origDate>
-                  </origin>
+                  <origin> <origDate when-custom="11XX" notBefore="1100" notAfter="1199"
+                     calendar="#gregorian">s. xii</origDate> </origin>
                   <provenance type="#c" source="5516"><orgName role="fmo" key="org_558">Tynemouth,
-                        Northumberland. Benedictine priory of St Mary the Virgin and St Oswin; cell
-                        of St Albans</orgName><p>Contains names of bishops of Lindisfarne, and
-                        notes mentioning Tynemouth; also 'Trine deus da ne dicar tua gratia vane
-                        Iohannes de Westwyk [the donor of Laud Misc. 657 to
-                        Tynemouth]'.</p><p>[Perhaps later at Bury; but may be the book] seen at
-                        Pembroke by Leland [before the gift of their Bury MSS.].</p></provenance>
-               <provenance cert="low" source="7194"><orgName role="fmo" key="org_105">Cambridge, Cambridgeshire.
-                        Pembroke College (Aula Valence S. Marie)</orgName></provenance>
+                     Northumberland. Benedictine priory of St Mary the Virgin and St Oswin; cell of
+                     St Albans</orgName><p>Contains names of bishops of Lindisfarne, and notes
+                     mentioning Tynemouth; also <q>Trine deus da ne dicar tua gratia vane Iohannes
+                     de Westwyk [the donor of Laud Misc. 657 to Tynemouth]</q>.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_86">Bury St Edmunds,
+                     Suffolk, Benedictine abbey of St Edmund, King and Martyr</orgName> <p>This
+                     attribution was rejected in the second edition of Medieval Libraries of Great
+                     Britain (1964), which did not change in the Supplement (1987). The Medieval
+                     Libraries of Great Britain index card index provides the following further
+                     context: [Perhaps later at Bury; but may be the book] seen at Pembroke by
+                     Leland [before the gift of their Bury MSS.].</p></provenance>
+                  <provenance cert="low" source="7194"><orgName role="fmo" key="org_105">Cambridge,
+                     Cambridgeshire. Pembroke College (Aula Valence S. Marie)</orgName></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0673.jpg, Test 3_674.jpg -->
       </fileDesc>
       <revisionDesc>
-         <change when="2025-09-18">Record 7194 merged into this record.</change><change when="2025-05-21">Record created.</change>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
+         <change when="2025-09-18">Record 7194 merged into this record.</change>
+         <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
    <text>

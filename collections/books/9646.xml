@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9646">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="SW">
+               <resp when="2026">Transcription and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Transcription and encoding of index card</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>Untraced</country>
+                  <settlement>Untraced</settlement>
+                  <repository>Untraced</repository>
+                  <idno type="shelfmark">Shelfmark not recorded (pr. bk.) (last known location:
+                     Oxford, A. Rosenthal Ltd., bookseller, 1943)</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <author key="person_1502">Jacobus de Voragine</author>
+                     <title key="work_3669">Legenda Aurea</title>
+                     <note>ISTC <ref target="https://data.cerl.org/istc/ij00123000"
+                        >ij00123000</ref>.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <typeDesc>
+                     <p>Printed.</p>
+                  </typeDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Cologne </origPlace>
+                     <origDate calendar="#gregorian" when="1490">1490</origDate>
+                  </origin>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_22">Arundel, Sussex,
+                        Collegiate church of Holy Trinity</orgName><p>The Medieval Libraries of
+                        Great Britain index card records the following information, explaining why
+                        the attribution was deemed unsatisfactory: Bears name of Forster, 'subprior
+                        of Coll. of A., 1531, in the second year of his office.' No prior or
+                        subprior was, however, on establishment: see VCH Sussex ii,
+                     108.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">A. Rosenthal Ltd. (Oxford), Catalogue 4
+                     (1943), no. 994. This was the last known provenance according to the supplement
+                     to Medieval Libraries of Great Britain (1987). The book remains
+                     untraced.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description compiled (Sian Witherden, 2026) from the following
+                           sources (and with title of work and ISTC number supplied): <listBibl>
+                              <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’, card
+                                 index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).</bibl>
+                              <bibl>Neil R. Ker, ed., <title>Medieval Libraries of Great Britain: A
+                                    List of Surviving Books</title>, Royal Historical Society Guides
+                                 and Handbooks, 3 (London, <ref
+                                    target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                    >supplement, ed. Andrew G. Watson, 1987</ref>).</bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0339.jpg, Test 3_0340.jpg -->
+      </fileDesc>
+      <revisionDesc>
+         <change when="2026-06-25">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

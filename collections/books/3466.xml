@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -37,43 +35,90 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>Lambeth Palace Library</repository>
-                  <idno type="shelfmark">MS 345 fols. 97-227</idno>
+                  <idno type="shelfmark">MS 345</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3466</idno>
                   </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Gregorius, Registrum</title>
-                  </msItem>
-               </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="11XX" notBefore="1100" notAfter="1199" calendar="#gregorian">s. xii</origDate>
-                  </origin>
-                  <provenance type="#m"><orgName role="fmo" key="org_295">Lanthony (secunda),
-                        Gloucestershire. Augustinian priory of St Mary the Virgin and St John the
-                        Baptist</orgName><p>London, BL, Royal 2 C.x; Lambeth Palace 30; 80, fols.
-                        168–244; 101; 138, fols. 1–44; 148; 153, fols. 156–179; 165, fols.
-                        102–190; 195; 200, fols. 114–163; 208; 215; 218, fols. 1–89; 227; 231;
-                        345, fols. 97–227; 360, fols. 1–118; 365, fols. 1–119; 377; 378, fols. i,
-                        ii, 1–56, 125–165; 390; 394; 397; 398; 409; 449; 452; 481; Oxford, Bodl.
-                        Bodley 839, Hatton 49, Corpus Christi Coll. 33, 43; Trinity Coll. 39 have a
-                        note of contents in the hand of 'Morganus canonicus de Kermerden' (s. xv),
-                        who has written his name in many of the books.</p></provenance>
+                  <origin> <origDate notBefore="1100" notAfter="1499" calendar="#gregorian">s.
+                     xii-xiii and s. xv</origDate> </origin>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo"
+                     >Sancroft.</persName></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 1-96</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <author key="person_1193">Gregory the Great</author>
+                        <title key="work_2987">Homiliae</title>
+                        <note>etc.</note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <provenance type="#rejected"><orgName role="fmo" key="org_962">Prittlewell,
+                        Essex, Cluniac priory of St Mary the Virgin; cell of Lewes</orgName> <p>This
+                        attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card records the
+                        following information, which was deemed unsatisfactory for an
+                        attribution:</p> <p> At foot of fol. 9v (s. xv) is: <q>Iste liber est
+                        fratris Joh. de Claketon ... post cuius decessum ad conventum fratrum pr ...
+                        llie pertinebit</q>, with a black pressmark <q>apparently 2Q or QQ</q>. M.
+                        R. James suggests the Cluniac Priory of Prittlewell in Essex, but think the
+                        bulk of the manuscript is from Lanthony.</p></provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 97-227</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <author key="person_1193">Gregory the Great</author>
+                        <title key="work_2991">Registrum</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <provenance type="#m"><orgName role="fmo" key="org_295">Lanthony (secunda),
+                        Gloucestershire. Augustinian priory of St Mary the Virgin and St John the
+                        Baptist</orgName><p>London, BL, Royal 2 C.x; Lambeth Palace 30; 80, fols.
+                        168–244; 101; 138, fols. 1–44; 148; 153, fols. 156–179; 165, fols. 102–190;
+                        195; 200, fols. 114–163; 208; 215; 218, fols. 1–89; 227; 231; 345, fols.
+                        97–227; 360, fols. 1–118; 365, fols. 1–119; 377; 378, fols. i, ii, 1–56,
+                        125–165; 390; 394; 397; 398; 409; 449; 452; 481; Oxford, Bodl. Bodley 839,
+                        Hatton 49, Corpus Christi Coll. 33, 43; Trinity Coll. 39 have a note of
+                        contents in the hand of 'Morganus canonicus de Kermerden' (s. xv), who has
+                        written his name in many of the books.</p></provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1443.jpg, Test 3_1444.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

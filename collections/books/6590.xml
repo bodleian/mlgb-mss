@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,27 +49,60 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Aelredus Rievallensis</title>
+                     <author key="person_58">Aelredus Rievallensis</author>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219" calendar="#gregorian">s. xiii in</origDate>
+                     <origDate when-custom="120X/121X" notBefore="1200" notAfter="1219"
+                        calendar="#gregorian">s. xiii in</origDate>
                   </origin>
-                  <provenance type="#d"><orgName role="fmo" key="org_299">Leicester,
-                        Leicestershire. Augustinian abbey of St Mary the Virgin de Pratis</orgName><p>Identifiable in the catalogue by second folio.</p></provenance>
+                  <provenance type="#d"><orgName role="fmo" key="org_299">Leicester, Leicestershire.
+                        Augustinian abbey of St Mary the Virgin de Pratis</orgName><p>Identifiable
+                        in the catalogue by second folio.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_85">Burton-upon-Trent,
+                        Staffordshire, Benedictine abbey of St Mary the Virgin and St
+                        Modwenna</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card, which was
+                        written by Neil Ker, records the following context for the rejection:</p>
+                     <p>Compare R. A. B. Mynors, <title>Catalogue of the manuscripts of Balliol
+                           College, Oxford</title>, p. 261; but the evidence seems
+                     insufficient.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Ector Rydyng</persName>,
+                     vicar of Ratcliffe on soar, s. xv.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">William
+                        Martial</persName>, s. xvi.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Mostyn</persName> MS
+                     260. Mostyn sale 1920, lot 1.</provenance>
+                  <provenance type="MLGB3_laterOwners">Formerly belonged to <persName role="fmo"
+                        >Professor Francis Wormald</persName>, and recorded at this location in the
+                     second edition (1964). The manuscript later became London, British Library,
+                     Add. MS 57533, as noted in the Supplement (1987).</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0641.jpg, Test 3_642.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected provenance
+            and later owners.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

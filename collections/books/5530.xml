@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,32 +49,67 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Petrus de Aquila, Libri IV in Sententias</title>
+                     <author key="person_2531">Petrus de Aquila</author>
+                     <title key="work_5783">Libri IV in Sententias</title>
+                     <note>ISTC <ref target="https://data.cerl.org/istc/ip00447000"
+                        >ip00447000</ref></note>
                   </msItem>
                </msContents>
-               <physDesc> <typeDesc><p>Printed book.</p></typeDesc> </physDesc><history>
+               <physDesc>
+                  <typeDesc>
+                     <p>Printed book.</p>
+                  </typeDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>Rebound: part of the old stamped leather inset.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
                   <origin>
-                     <origDate>s. a., Speyer (Petrus Drach)</origDate>
+                     <origPlace>Speyer: Petrus Drach</origPlace>
+                     <origDate calendar="#Gregorian" notAfter="1486">[not after 17 Oct.
+                        1486]</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="org_558">Tynemouth,
-                        Northumberland. Benedictine priory of St Mary the Virgin and St Oswin; cell
-                        of St Albans</orgName><p>'ex dono domini Roberti Blakeney, prioris de
-                        Tynmoth'.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Belonged to Durham, according to
-                     Raine.</provenance>
-                  <provenance type="MLGB3_laterOwners">Adam Holiday (fol. 1r), s. xvi.</provenance>
+                  <provenance type="#i"><orgName role="fmo" key="org_558">Tynemouth, Northumberland.
+                        Benedictine priory of St Mary the Virgin and St Oswin; cell of St
+                        Albans</orgName><p><q>ex dono domini <persName role="dnr">Roberti
+                              Blakeney</persName>, prioris de Tynmoth</q>.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_189">Durham, Durham,
+                        Benedictine cathedral priory of St Cuthbert</orgName>
+                     <p>This attribution was rejected in the second edition of Medieval Libraries of
+                        Great Britain (1964), which did not change in the Supplement (1987). The
+                        corresponding Medieval Libraries of Great Britain index card records the
+                        following context for the rejection: <q>Raine states that this came from
+                           Durham. Why?</q>.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Adam Holiday</persName>
+                     (fol. 1r), s. xvi. One of the early prebendaries of Durham.</provenance>
+                  <provenance type="MLGB3_laterOwners">Given by <persName role="dnr">Mrs
+                        Mathew</persName>.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1041.jpg, Test 3_1042.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected provenance
+            and further information on later owners. Additionally, ISTC reference supplied, and
+            imprint date edited to match ISTC.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

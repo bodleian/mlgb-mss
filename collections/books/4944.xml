@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record merge; addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -49,13 +47,12 @@
                   <adminInfo>
                      <recordHist>
                         <source>Neil R. Ker, ed., <ref
-                              target="https://hdl.handle.net/2027/uiug.30112113075359"
-                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
-                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
-                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
-                              >2nd edn, 1964</ref>; <ref
-                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
-                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
                            James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
@@ -73,14 +70,18 @@
                      </msItem>
                   </msContents>
                   <history>
-                     <origin>
-                        <origDate when-custom="11XX" notBefore="1100" notAfter="1199"
-                           calendar="#gregorian">s. xii</origDate>
-                     </origin>
-                     <provenance cert="low"><orgName role="fmo" key="org_484">Salisbury, Wiltshire.
-                           Cathedral church of St Mary the Virgin; see removed from Sherborne in
-                           1078</orgName><p>'Vol. ii at least seems to be from Salisbury' (MRJ. --
-                           why?).</p></provenance>
+                     <origin> <origDate when-custom="11XX" notBefore="1100" notAfter="1199"
+                        calendar="#gregorian">s. xii</origDate> </origin>
+                     <provenance type="#rejected"><orgName role="fmo" key="org_484">Salisbury,
+                        Wiltshire, Cathedral church of St Mary the Virgin; see removed from
+                        Sherborne in 1078</orgName> <p>A Salisbury attribution for fols. 44-71 was
+                        accepted (albeit with a query) in the second edition of Medieval Libraries
+                        of Great Britain (1964). However, this attribution was later rejected in the
+                        Supplement (1987) [i.e. this cancellation affected fols. 44-71 only]. The
+                        corresponding Medieval Libraries of Great Britain index card was never
+                        updated to reflect the 1987 rejection. It records the following information:
+                        'Vol. ii at least seems to be from Salisbury' (M. R. James;
+                        why?).</p></provenance>
                      <provenance type="MLGB3_laterOwners"><persName>John Jewell</persName>, bishop
                         of Salisbury.</provenance>
                      <provenance type="MLGB3_laterOwners"><persName>Matthew Parker</persName>
@@ -101,24 +102,22 @@
                      </msItem>
                   </msContents>
                   <history>
-                     <origin>
-                        <origDate when-custom="0990/1010" notBefore="0990" notAfter="1010"
-                           calendar="#gregorian">s. x/xi</origDate>
-                     </origin>
+                     <origin> <origDate when-custom="0990/1010" notBefore="0990" notAfter="1010"
+                        calendar="#gregorian">s. x/xi</origDate> </origin>
                      <provenance cert="low"><orgName role="fmo" key="org_484">Salisbury, Wiltshire.
-                           Cathedral church of St Mary the Virgin; see removed from Sherborne in
-                           1078</orgName><p>Note probably by one of Parker's scribes: <q>Hic ipsus
-                              est liber quem Alwredus Rex misit ad ecclesiam Syreburnensem</q>. From
-                           this, M. R. James deduced that 'it may perhaps be fair to conclude that
-                           the book came to Parker from Sherborne'. However, there is a letter from
-                           Bishop Jewel to accompany the gift to Parker of an Anglo-Saxon manuscript
-                           from Salisbury which is bound up with the Anglo-Saxon Pastoral Care which
-                           is now <ref target="https://mlgb.bodleian.ox.ac.uk/catalog/book_2681"
-                              >Cambridge University Library MS Ii.2.4</ref>. However, that
-                           manuscript is in an Exeter script and is too big a book for the volume
-                           'as thick as the Communion booke' that Jewel describes. The presence of
-                           the Parkerian note in this manuscript suggests this is the one Jewel sent
-                           from Salisbury.</p></provenance>
+                        Cathedral church of St Mary the Virgin; see removed from Sherborne in
+                        1078</orgName><p>Note probably by one of Parker's scribes: <q>Hic ipsus est
+                        liber quem Alwredus Rex misit ad ecclesiam Syreburnensem</q>. From this, M.
+                        R. James deduced that 'it may perhaps be fair to conclude that the book came
+                        to Parker from Sherborne'. However, there is a letter from Bishop Jewel to
+                        accompany the gift to Parker of an Anglo-Saxon manuscript from Salisbury
+                        which is bound up with the Anglo-Saxon Pastoral Care which is now <ref
+                        target="https://mlgb.bodleian.ox.ac.uk/catalog/book_2681">Cambridge
+                        University Library MS Ii.2.4</ref>. However, that manuscript is in an Exeter
+                        script and is too big a book for the volume 'as thick as the Communion
+                        booke' that Jewel describes. The presence of the Parkerian note in this
+                        manuscript suggests this is the one Jewel sent from
+                        Salisbury.</p></provenance>
                      <provenance type="MLGB3_laterOwners"><persName>Matthew Parker</persName>
                         (1504–1575).</provenance>
                   </history>
@@ -127,6 +126,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2026-05-27">Record 6758 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>

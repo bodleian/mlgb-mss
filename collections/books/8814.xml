@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_8814">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Record creation</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace> <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                        >Bodleian Library</ref> </addrLine>
+                    <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address> </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Maidstone</settlement>
+                        <repository>Museum</repository>
+                        <idno type="shelfmark">All Saints A.13</idno>
+                        <altIdentifier>
+                            <country>England</country>
+                            <settlement>Maidstone</settlement>
+                            <repository>Museum</repository>
+                            <idno type="shelfmark">2</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="enm">English</textLang>
+                        <msItem>
+                            <title>Miscellanea, including 'Proverbs of Alfred' in Middle
+                                English</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <foliation>Medieval foliation.</foliation>
+                            </supportDesc>
+                        </objectDesc>
+                        <bindingDesc>
+                            <binding>
+                                <p>Medieval binding.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate calendar="#gregorian" notBefore="1200" notAfter="1299">s.
+                            xiii</origDate></origin>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_462">Revesby,
+                            Lincolnshire, Cistercian abbey of St Mary the Virgin and St
+                            Lawrence</orgName> <p>This attribution was rejected in the second
+                            edition of Medieval Libraries of Great Britain (1964). The shelfmark was
+                            corrected from 2 to All Saints A.13 in the Supplement (1987), but no
+                            other relevant changes were made.</p><p>The corresponding Medieval
+                            Libraries of Great Britain index card has the word 'Reject' and the date
+                            8.X.49. The card also records the following information, which was
+                            deemed unsatisfactory for an attribution: Apparently put together 'not
+                            later than 1250, at Revesby Abbey, but ... by the end of the thirteenth
+                            century it had become the property of the Priory of St Andrew at
+                            Northampton'; see Carleton Brown, 'A thirteenth-century manuscript at
+                            Maidstone', <title>Modern Languages Review</title>, xxi (1926),
+                            1-12.</p></provenance>
+                        <provenance type="#rejected"><orgName role="fmo" key="org_401">Northampton,
+                            Northamptonshire, Cluniac priory of St Andrew</orgName> <p>This
+                            attribution was rejected in the second edition of Medieval Libraries of
+                            Great Britain (1964). For a relevant shelfmark change in the Supplement
+                            (1987), and for details on the rejected evidence, see Revesby
+                            above.</p></provenance>
+                        <provenance type="MLGB3_laterOwners">At All Saints Church, Maidstone, late
+                            s. xix; case in the Chapel no. 5. A.13.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                    <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                        Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                        Bodleian Library).</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/uva.x000937945">Medieval
+                                        Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 3 (London, 2nd edn, 1964)</bibl>
+                                    <bibl>Neil R. Ker, ed., <title><ref
+                                        target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                        >Medieval Libraries of Great Britain: A List of Surviving
+                                        Books</ref></title>, Royal Historical Society Guides and
+                                        Handbooks, 15 (London, supplement, ed. Andrew G. Watson,
+                                        1987).</bibl>
+                                    </listBibl></source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!-- Index card images (box 10): Test 3_1477.jpg, Test 3_1478.jpg, Test 3_1305.jpg, Test 3_1306.jpg -->
+        <revisionDesc>
+            <change when="2026-09-24">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>

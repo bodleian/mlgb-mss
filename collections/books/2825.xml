@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -45,29 +43,49 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Beda super epistolas Canonicas</title>
+                     <author key="person_426">Beda</author>
+                     <title key="work_1445">Super epistolas Canonicas</title>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="10XX/11XX" notBefore="1000" notAfter="1199" calendar="#gregorian">s. xi/xii</origDate>
-                  </origin>
+                  <origin> <origDate when-custom="10XX/11XX" notBefore="1000" notAfter="1199"
+                     calendar="#gregorian">s. xi/xii</origDate> </origin>
                   <provenance cert="low"><orgName role="fmo" key="org_205">Eynsham, Oxfordshire.
-                        Benedictine abbey of St Mary the Virgin, St Benedict and All Saints</orgName><p>"D.XX" in red, middle top of first page of text.</p><q type="pressmark">D.XX</q></provenance>
+                     Benedictine abbey of St Mary the Virgin, St Benedict and All
+                     Saints</orgName><p>"D.XX" in red, middle top of first page of text.</p><q
+                     type="pressmark">D.XX</q></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_404">Norwich, Norfolk,
+                     Benedictine cathedral priory of Holy Trinity</orgName> <p>This attribution was
+                     rejected in the second edition of Medieval Libraries of Great Britain (1964),
+                     which did not change in the Supplement (1987). The corresponding Medieval
+                     Libraries of Great Britain index card records the following information, which
+                     was deemed unsatisfactory for an attribution: M. R. James, p.
+                     93.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><q>Rotheram</q> 150.</provenance>
                   <provenance type="MLGB3_laterOwners">Belonged to Cambridge UL in 1556/57 (cat. no.
                      54).</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
+         <!-- Index card images (box 10): Test 3_1319.jpg, Test 3_1320.jpg -->
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record edited (Sian Witherden, 2026) to add rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -37,7 +35,7 @@
                   <country>England</country>
                   <settlement>Oxford</settlement>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MSS Digby 190-1</idno>
+                  <idno type="shelfmark">MSS Digby 191</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">4374</idno>
                   </altIdentifier>
@@ -45,104 +43,107 @@
                      <idno type="MLGB3">4401</idno>
                   </altIdentifier>
                   <altIdentifier type="system">
-                  <idno type="MLGB3">4373</idno>
-               </altIdentifier>
+                     <idno type="MLGB3">4373</idno>
+                  </altIdentifier>
                </msIdentifier>
+               <history>
+                  <provenance type="MLGB3_laterOwners">T. Allen 'A.37' '71'.</provenance>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                           target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_4311"
+                           >Medieval Manuscripts in Oxford Libraries</ref></bibl>
+                     </listBibl>
+                  </listBibl>
                </additional>
                <msPart>
                   <msIdentifier>
                      <altIdentifier>
-                        <idno type="part">MS Digby 190, fols. 90-127 (+ Digby 191, fols.
-                           1-78)</idno>
+                        <idno type="part">Fols. 1-78</idno>
                      </altIdentifier>
                   </msIdentifier>
                   <msContents>
                      <textLang mainLang="la">Latin</textLang>
                      <msItem>
-                        <title>Euclidis Geometria; Ricardus de Wallingford, etc.</title>
-                        <note type="MLGB3_generalNotes">Digby 190 fols. 90–127, was formerly part
-                           of Digby 191, fols. 1–78.</note>
-                        <note type="MLGB3_generalNotes">2o folio: 'hec est conuersa'. Powicke, Books
-                           of Merton, no. 522.</note>
-                        <note type="MLGB3_generalNotes"> </note>
-                        <note type="MLGB3_generalNotes"> </note>
+                        <author key="person_905">Euclidis</author>
+                        <title>Geometria</title>
+                        <note>etc.</note>
                      </msItem>
                   </msContents>
+                  <physDesc>
+                     <p><secFol>hec est conuersa</secFol></p>
+                  </physDesc>
                   <history>
-                     <origin>
-                        <origDate when-custom="12XX/13XX" notBefore="1200" notAfter="1399"
-                           calendar="#gregorian">s. xiii--xiv</origDate>
-                     </origin>
-                     <provenance type="#e"><orgName role="fmo" key="org_435">Oxford,
-                           Oxfordshire. Merton College</orgName><p>'Liber domus scolarium de Merton
-                           in Oxonia' (fol. iii recto).</p></provenance>
+                     <origin> <origDate when-custom="12XX/13XX" notBefore="1200" notAfter="1399"
+                        calendar="#gregorian">s. xiii-xiv</origDate> </origin>
+                     <provenance type="#e"><orgName role="fmo" key="org_435">Oxford, Oxfordshire.
+                        Merton College</orgName><p><q>Liber domus scolarium de Merton in Oxonia</q>
+                        (fol. iii recto). Powicke, <title>Books of Merton</title>, no. 522. Digby
+                        191, fols. 1–78 and <ref
+                        target="https://mlgb.bodleian.ox.ac.uk/catalog/book_4400">Digby 190</ref>,
+                        fols. 90–127 formed one volume.</p></provenance>
                   </history>
-                  <additional>
-                     <listBibl type="WRAPPER">
-                        <listBibl type="INTERNET">
-                           <head>Online resources:</head>
-                           <bibl><ref
-                                 target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_4310"
-                                 >Medieval Manuscripts in Oxford Libraries</ref></bibl>
-                        </listBibl>
-                     </listBibl>
-                  </additional>
                </msPart>
                <msPart>
                   <msIdentifier>
                      <altIdentifier>
-                        <idno type="part">MS Digby 191, fols. 79-167 (+ Digby 190 fols.
-                           128-210)</idno>
+                        <idno type="part">Fols. 79-167</idno>
                      </altIdentifier>
                   </msIdentifier>
                   <msContents>
                      <textLang mainLang="la">Latin</textLang>
                      <msItem>
                         <title>Astronomia Arzachelis, etc.</title>
-                        <note type="MLGB3_generalNotes">= Cat. of 1375 p. 68. 2o folio '29' agrees
-                           (MS. 191, fol. 80r).</note>
-                        <note type="MLGB3_generalNotes">Bound with a volume from Merton Coll. (see
-                           above), and other fragments.</note>
-                        <note type="MLGB3_generalNotes">It is noted in the 1375 cat. that this
-                           volume consisted of 296 leaves.</note>
-                        <note type="MLGB3_generalNotes">Folio MS. 36 in Wood F. 26.</note>
                      </msItem>
                   </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>It is noted in the 1375 cat. that this volume consisted of 296
+                              leaves. Folio MS. 36 in Wood F. 26.</extent>
+                        </supportDesc>
+                     </objectDesc>
+                     <bindingDesc>
+                        <binding>
+                           <p>Bound with a volume from Merton College, and other fragments.</p>
+                        </binding>
+                     </bindingDesc>
+                  </physDesc>
                   <history>
-                     <origin>
-                        <origDate when-custom="13XX" notBefore="1300" notAfter="1399"
-                           calendar="#gregorian">s. xiv</origDate>
-                     </origin>
-                     <provenance type="#e" source="4374"><orgName role="fmo" key="org_435"
-                           >Oxford, Oxfordshire. Merton College</orgName><p>'Liber domus beate Marie
-                           in Oxon.' (fol. 79r, top; ? s. xv).</p></provenance>
-                     <provenance type="MLGB3_laterOwners">T. Allen 'A.37' '71'.</provenance>
-                     <provenance type="#e" source="4401"><orgName role="fmo" key="org_438"
-                           >Oxford, Oxfordshire. Oriel College (Domus beate Marie seu Collegium
-                           regale Oxon')</orgName><note type="MLGB3_medievalCatalogueNotes">Cat., p.
-                           68</note></provenance>
+                     <origin> <origDate when-custom="13XX" notBefore="1300" notAfter="1399"
+                        calendar="#gregorian">s. xiv</origDate> </origin>
+                     <provenance type="#e" source="4401"><orgName role="fmo" key="org_438">Oxford,
+                        Oxfordshire. Oriel College (Domus beate Marie seu Collegium regale
+                        Oxon')</orgName><p><q>Liber domus beate Marie in Oxon.</q> (fol. 79r, top; ?
+                        s. xv). = Cat. of 1375 p. 68. 2o folio '29' agrees (MS. 191, fol.
+                        80r).</p><p>Digby 191, fols. 79-167 and <ref
+                        target="https://mlgb.bodleian.ox.ac.uk/catalog/book_4400">Digby 190</ref>,
+                        fols. 128-210 formed one volume.</p><note
+                        type="MLGB3_medievalCatalogueNotes">Cat., p. 68</note></provenance>
                   </history>
-                  <additional>
-                     <listBibl type="WRAPPER">
-                        <listBibl type="INTERNET">
-                           <head>Online resources:</head>
-                           <bibl><ref
-                                 target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_4311"
-                                 >Medieval Manuscripts in Oxford Libraries</ref></bibl>
-                        </listBibl>
-                     </listBibl>
-                  </additional>
                </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-03">Adapted the existing joint record for MSS Digby 190 and 191 into
+            a dedicated record for MS 191. Transferred relevant data into record 4400 for MS Digby
+            190.</change>
          <change when="2025-09-18">Record 4373 merged into this record.</change>
          <change when="2025-09-18">Record 4401 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>

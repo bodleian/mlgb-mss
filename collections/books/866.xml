@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record merge</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record merge</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,41 +42,94 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Cotton MS Faustina B.i fols. 2-11</idno>
+                  <idno type="shelfmark">Cotton MS Faustina B.i</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">866</idno>
                   </altIdentifier>
+                  <altIdentifier type="system">
+                     <idno type="MLGB3">2866</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Epp. Alexandri III pape, etc.</title>
-                     <note type="MLGB3_generalNotes">Cotton Faustina B.1 fols. 2–11 formed part of
-                        Royal 8 F.xv.</note>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199" calendar="#gregorian">s. xii ex</origDate>
-                  </origin>
-                  <provenance><orgName role="fmo" key="org_89">Byland, Yorkshire. Cistercian
-                        abbey of St Mary the Virgin</orgName><p>Cotton Faustina B.1 fols. 2–11
-                        formed part of Royal 8 F.xv, which has the provenance
-                     inscription.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Henry Savile of Banke
-                     (1568–1617).</provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 2-11</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Epp. Alexandri III pape, etc.</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199"
+                           calendar="#gregorian">s. xii ex</origDate>
+                     </origin>
+                     <provenance><orgName role="fmo" key="org_89">Byland, Yorkshire. Cistercian
+                           abbey of St Mary the Virgin</orgName><p>Cotton MS Faustina B.1 fols. 2–11
+                           formed part of Royal MS 8 F.xv, which has the provenance
+                        inscription.</p></provenance>
+                     <provenance type="MLGB3_laterOwners"><persName role="fmo">Henry Savile of
+                           Banke</persName> (1568–1617).</provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 192-205</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>"Itinerarium trium monachorum [ad hierusalem]"</title>
+                        <note type="MLGB3_generalNotes">Fragment of a larger manuscript.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout>In 28 long lines.</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when-custom="118X/119X" notBefore="1180" notAfter="1199"
+                           calendar="#gregorian">s. xii ex.</origDate>
+                     </origin>
+                     <provenance type="#c"><orgName role="fmo" key="org_219">Fountains, Yorkshire.
+                           Cistercian abbey of St Mary the Virgin</orgName><p>Fol. 205v: "Anno
+                           domini Mo CCCCo Vo IIIo idus april' Obiit ffrater Robertus Ayrtowne
+                           monachus de ffontibus ...", followed by notices of the entry of novices
+                           at Fountains in 1472 and other years, "in festivitate sancti
+                        yvonis".</p></provenance>
+                     <provenance type="MLGB3_laterOwners">In <persName role="fmo">Henry Savile of
+                           Banke</persName> cat. no. 213.</provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-07-09">Record 2866 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected attribution</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -46,22 +50,55 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Missale ad usum Eboracense</title>
-                     <note type="MLGB3_generalNotes">See under Beverley minster.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="1100/1500" notBefore="1100" notAfter="1500" calendar="#gregorian">s. xii, xiii, xv</origDate>
+                     <origDate when-custom="1100/1500" notBefore="1100" notAfter="1500"
+                        calendar="#gregorian">s. xii, xiii, xv</origDate>
                   </origin>
-                  <provenance cert="low"><orgName role="fmo" key="org_468">Roche, Yorkshire. Cistercian
-                        abbey of St Mary the Virgin</orgName></provenance>
-                  <provenance type="MLGB3_laterOwners">Dr John Gott, bp. of Truro
-                     (1830–1906).</provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_50">Beverley, Yorkshire,
+                        Minster (collegiate church) of St John the Evangelist</orgName>
+                     <p>This attribution was accepted (albeit with a query) in the second edition of
+                        Medieval Libraries of Great Britain (1964). However, the attribution was
+                        later rejected in the Supplement (1987). The corresponding Medieval
+                        Libraries of Great Britain index card recorded the following information,
+                        which was later was deemed unsatisfactory for an attribution (and crossed
+                        through):</p>Consists of part of a s. xii mass-book with the kalendar,
+                     temporale (in part), and canon of the mass; part of a s. xiii mass-book not of
+                     York use, but corrected and partly adapted for it, containing a further portion
+                     of the temporale; and a s. xv addition with the rest of the temporale, masses
+                     for the dedication of a church and part of the sanctorale, all of York use.
+                     Traditionally said to have belonged first to Beverley and then to Roche abbey.
+                     Information from <title>English Church History Exhibition</title> (St Albans,
+                     1905), p. 9 - loan from Bishop of Truro (John Gott). Compare W. H. Frere in
+                        <title>York Minster Historical Tracts</title>: <q>The earliest MS. [missal]
+                        has passed from the library of Dr Gott and has not been traced.</q> See also
+                        <title>York Manual</title>, Surtees Society 59 (1874), i. vii-x; W. H. Frere
+                        <title>Bibliotheca musico-liturgica</title>, no. 659. <p/></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_468">Roche, Yorkshire,
+                        Cistercian abbey of St Mary the Virgin</orgName>
+                     <p>This attribution was accepted (albeit with a query) in the second edition of
+                        Medieval Libraries of Great Britain (1964). However, the attribution was
+                        later rejected in the Supplement (1987). The corresponding Medieval
+                        Libraries of Great Britain index card served only to redirect the reader to
+                        the entry for Beverley.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Dr John Gott, bishop of Truro (1830–1906).
+                     Library sold: Sotheran, <title>Bibliotheca Pretiosa</title> 1907 and Sotheby,
+                     26 February and 20 March 1908, 21 July 1910.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -69,6 +106,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-09-17">Record updated (Sian Witherden, 2026) to change Roche provenance
+            to rejected, in keeping with a change introduced by the Supplement (1987). Record edited
+            to add rejected provenance for Beverley.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

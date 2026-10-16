@@ -11,25 +11,23 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected provenance</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <pubPlace>
-               <address>
-                  <addrLine>Department of Special Collections</addrLine>
-                  <addrLine>Bodleian Library</addrLine>
-                  <street>Broad Street</street>
-                  <settlement>Oxford</settlement>
-                  <postCode>OX1 3BG</postCode>
-                  <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
-                        Library</ref>
-                  </addrLine>
-                  <addrLine>
-                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
-                  </addrLine>
-               </address>
-            </pubPlace>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
@@ -45,28 +43,41 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Iohannes Monachus, Repertorium super lib. Sententiarum</title>
-                     <note type="MLGB3_generalNotes">After the colophon in the scribe's hand is:
-                        'Istud repertorium fuit datum per dominum Thomam Chylynden uenerabilem
-                        doctorem in decretis monachis ecclesie christi Cantuarie a. d. 1384 ii d.
-                        ...'. For three other MSS. with the same subscriptio see ALCD, p.
-                        512.</note>
+                     <author key="person_1792">Iohannes Monachus</author>
+                     <title>Repertorium super lib. Sententiarum</title>
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origDate when-custom="140X/141X" notBefore="1400" notAfter="1419" calendar="#gregorian">s. xv in.</origDate>
-                  </origin>
+                  <origin> <origDate when-custom="140X/141X" notBefore="1400" notAfter="1419"
+                     calendar="#gregorian">s. xv in.</origDate> </origin>
                   <provenance type="#e"><orgName role="fmo" key="org_458">Reading, Berkshire.
-                        Benedictine abbey of Saint Mary the Virgin</orgName><p>'Hic est liber
-                        sancte Marie Radyng' ex adquisicione fratris Thome chilmark deus sibi [sic]
-                        propicietur. amen dicant omnes.' (fol. 195r).</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Westm. invent. of 1542.</provenance>
+                     Benedictine abbey of Saint Mary the Virgin</orgName><p><q>Hic est liber sancte
+                     Marie Radyng' ex adquisicione fratris Thome chilmark deus sibi [sic]
+                     propicietur. amen dicant omnes.</q> (fol. 195r).</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_4">Canterbury, Kent,
+                     Benedictine cathedral priory of Holy Trinity or Christ Church</orgName><p>This
+                     attribution was rejected in the second edition of Medieval Libraries of Great
+                     Britain (1964), which did not change in the Supplement (1987). The
+                     corresponding Medieval Libraries of Great Britain index card records the
+                     following information, which was deemed unsatisfactory for an attribution:
+                     <q>Istud repertorium fuit datum per dominum Thomam Chylynden uenerabilem
+                     doctorem in decretis monachis ecclesie christi Cantuarie a. d. 1384 ii d.
+                     ...</q>. <title>ALCD</title>, p. 512. [For comparison, MLGB3 (2010-2015) noted
+                     that <title>ALCD</title>, p. 512 shows three other MSS with the same
+                     subscriptio].</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Westminster inventory of 1542.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                           target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval
+                           Libraries of Great Britain: A List of Surviving Books</title></ref>,
+                           Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref
+                           target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>;
+                           <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                           ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -74,6 +85,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+
+         <change when="2026-10-08">Record edited (Sian Witherden) to incorporate rejected
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

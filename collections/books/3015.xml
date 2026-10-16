@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Record improvement</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -36,7 +41,8 @@
                <msIdentifier>
                   <settlement>Untraced</settlement>
                   <repository>Untraced</repository>
-                  <idno type="shelfmark">Shelfmark not recorded</idno>
+                  <idno type="shelfmark">Shelfmark not recorded (pr. bk.) (last known location:
+                     London, Robin Halwas, bookseller, c.2025)</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">3015</idno>
                   </altIdentifier>
@@ -44,22 +50,52 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>Petrus Lombardus</title>
-                     <note type="MLGB3_generalNotes">Lt-Col. W. E. Moss sale (Sotheby, 8 March
-                        1937), lot 1134 to Maggs.</note>
+                     <author key="person_2587">Petrus Lombardus</author>
+                     <title key="work_5959">Sententiae</title>
+                     <note>2 volumes in 1. Photograph in the abbey museum, presented by Lt.-Col.
+                        William E. Moss, and photographs in Bodleian.</note>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <typeDesc>
+                     <typeNote><p>Printed.</p></typeNote>
+                  </typeDesc>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <p>Panel binding stamped I. N.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate when-custom="1527" when="1527" calendar="#gregorian">1527, Lyon</origDate>
+                     <origPlace>Lyon: Jean Morlin</origPlace>
+                     <origDate when-custom="1527" when="1527" calendar="#gregorian">1527 </origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="org_238">Hailes,
-                        Gloucestershire. Cistercian abbey of St Mary the Virgin</orgName></provenance>
+                  <provenance type="#i"><orgName role="fmo" key="org_238">Hailes, Gloucestershire.
+                        Cistercian abbey of St Mary the Virgin</orgName><p><q>Liber dompni <persName
+                              role="fmo">Stephani</persName> abbatis de Heyles</q> (facing title).
+                           <q>Heyles</q> at foot of first leaf.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Lt-Col. William E.
+                        Moss</persName> sale (Sotheby, 8 March 1937), lot 1134 8 March 1937 to Maggs
+                     (£16.10). This was the last known provenance according to all three of the
+                     printed handlists for Medieval Libraries of Great Britain (1941, 1964,
+                     1987).</provenance>
+                  <provenance type="MLGB3_laterOwners">Sold by Robin Halwas c.2025 (see <ref
+                        target="https://www.robinhalwas.com/016042-textus-magistri-sententiarum-in-quatuor-sectus-libros-partiales"
+                        >bookseller's website</ref> for a description and photographs).</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -67,6 +103,10 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-06-19">Additional information transcribed from corresponding Medieval
+            Libraries of Great Britain index card. Reference to sale by Robin Halwas added. Record
+            edited to clarify data history (location reported in different iterations of Medieval
+            Libraries of Great Britain).</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
