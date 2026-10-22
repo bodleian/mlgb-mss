@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Sian Witherden</resp>
+               <persName>Record merge; addition of rejected provenance</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -59,7 +63,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>Cologne</origPlace>
+                     <origPlace>Cologne: Franz Birckmann</origPlace>
                      <origDate when-custom="1529" when="1529" calendar="#gregorian">1529</origDate>
                   </origin>
                   <provenance type="#i"><orgName role="fmo" key="org_485">Salisbury, Wiltshire.
@@ -69,6 +73,15 @@
                   <provenance type="#i"><orgName role="fmo" key="org_311">Lewes, Sussex. Franciscan
                         convent</orgName><p>Compare provenance evidence for Salisbury Franciscan
                         convent above.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_579">Westminster,
+                        Middlesex, Benedictine abbey of St Peter:</orgName><p>This attribution was
+                        first rejected in the Medieval Libraries of Great Britain Supplement (1987).
+                        The corresponding Medieval Libraries of Great Britain index card (in Neil
+                        Ker's handwriting) provides the following context for the rejection: <q>At
+                           end: <q><persName>Thomas Cooke</persName> monachus Westmonasterii</q>.
+                           Thomas Cooke not in Pearce, <title>Monks of Wesminster</title> (? if
+                           Marian).</q>
+                     </p></provenance>
                </history>
                <additional>
                   <adminInfo>
@@ -84,11 +97,22 @@
                            James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                              target="https://essex.primo.exlibrisgroup.com/permalink/44UOES_INST/75dika/alma991005823409707346"
+                              >University of Essex Library Catalogue</ref></bibl>
+                     </listBibl>
+                  </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-10-21">Record edited (Sian Witherden) to incorporate rejected
+            provenance, add reference to University of Essex Library Catalogue, and add printer's
+            name.</change>
          <change when="2026-05-27">Record 5141 merged into this record.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
