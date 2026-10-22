@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9756">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record creation</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Stockholm</settlement>
+                  <repository>Kungliga biblioteket</repository>
+                  <idno type="shelfmark">A.140</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="lat">Latin</textLang>
+                  <msItem>
+                     <author key="person_1938">Irenaeus</author>
+                     <title key="work_4784">Adversus haereses</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" notBefore="1380" notAfter="1399">s. xiv
+                        ex</origDate>
+                  </origin>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_422">Oxford,
+                        Oxfordshire, Carmelite convent</orgName><p>This attribution was first listed
+                        (with a query) in the Medieval Libraries of Great Britain Supplement (1987),
+                        with the following footnote: <q>Copied <q>iussu Burelli Oxonii</q> from the
+                           MS. now Leyden, Voss. lat. F.33, which was brought <q>ex anglia</q> by
+                              <persName>Lawrence Burrell</persName>, provincial of Narbonne, and
+                           given by him to the Carmelites of Paris in 1494. The Stockholm MS. may be
+                           the copy which Leland saw in Oxford (<title>Collectanea</title>, iv
+                           (1774), 59).</q> This footnote paraphrases the details that were
+                        originally recorded on the corresponding Medieval Libraries of Great Britain
+                        index card (in Neil Ker's handwriting). However, this index card also
+                        includes a later note, <q>Rejected 1989; see card in rejected sequence</q>.
+                        No such index card was found in the rejected books section during data
+                        reconciliation work undertaken in 2026.</p></provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description compiled (Sian Witherden, 2026) from the following sources:<listBibl>
+                              <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’, card
+                                 index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).</bibl>
+                              <bibl>Neil R. Ker, ed., <title><ref
+                                       target="https://hdl.handle.net/2027/uva.x000937945">Medieval
+                                       Libraries of Great Britain: A List of Surviving
+                                    Books</ref></title>, Royal Historical Society Guides and
+                                 Handbooks, 3 (London, 2nd edn, 1964)</bibl>
+                              <bibl>Neil R. Ker, ed., <title><ref
+                                       target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                       >Medieval Libraries of Great Britain: A List of Surviving
+                                       Books</ref></title>, Royal Historical Society Guides and
+                                 Handbooks, 15 (London, supplement, ed. Andrew G. Watson,
+                                 1987).</bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2026-10-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
