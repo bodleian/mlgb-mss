@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected provenance</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -50,15 +54,49 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299" calendar="#gregorian">s. xii/xiii</origDate>
+                     <origDate when-custom="11XX/12XX" notBefore="1100" notAfter="1299"
+                        calendar="#gregorian">s. xii/xiii</origDate>
                   </origin>
                   <provenance type="#e"><orgName role="fmo" key="org_2">Peterborough,
-                        Northamptonshire. Benedictine abbey of St Peter, St Paul, and St Andrew</orgName></provenance>
+                        Northamptonshire. Benedictine abbey of St Peter, St Paul, and St
+                        Andrew</orgName><p>The corresponding Medieval Libraries of Great Britain
+                        index card records the following evidence:</p><p>At end, erased: <q>Liber
+                           fratris Rogerus <note type="editorial">(sic)</note> Birdie monachi</q>.
+                        Contemporary inscription: <q>Epistole Pauli <persName role="fmo">Roberti de
+                              Nouelle</persName></q>. For <persName role="fmo">Bird</persName>,
+                        compare British Library Add MS 39758 and the printed book at Dulwich.
+                        Belonged in s. xvi to <persName role="fmo">Geoffrey Parrysche</persName>,
+                        vicar of Lilford, Northants (monk of Peterborough in 1539; cf. W T Mellows,
+                           <title>Last days of Peterborough monastery</title>, p. xcvi); instituted
+                        to Lilford in 1544 and 63 years of age in 1576 (H. I. Longden,
+                           <title>Northamptonshire and Rutland Clergy</title> x (1941), 171).
+                        Christopher de Hamel identifies <q>Roberti de Nouelle</q> as the Robertus de
+                        Nouelle who witnessed Peterborough charters in the time of Abbot Benedict;
+                        cf. <title>Northamptonshire Record Society</title> xx
+                     169-70.</p></provenance>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_404">Norwich, Norfolk,
+                        Benedictine cathedral priory of Holy Trinity</orgName><p>This attribution
+                        was rejected in the second edition of Medieval Libraries of Great Britain
+                        (1964), and there were no relevant changes in the Supplement (1987). The
+                        corresponding index card records inscriptions that in fact connect the book
+                        with Peterborough (details above).</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Given to Peter Mancroft by <persName
+                        role="dnr">William</persName> and <persName role="dnr">Alice
+                        Gargrave</persName> before 1682; cf. <title>Norfolk Antiquarian
+                        Miscellany</title>, ii (1883), 362.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -66,6 +104,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-10-21">Record edited (Sian Witherden) to incorporate rejected Norwich
+            attribution and transcribe card for Peterborough provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

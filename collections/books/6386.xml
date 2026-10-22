@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Addition of rejected provenance</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -37,39 +41,97 @@
                   <country>England</country>
                   <settlement>London</settlement>
                   <repository>British Library</repository>
-                  <idno type="shelfmark">Cotton MS Vespasian A.vi, fols 61-89</idno>
+                  <idno type="shelfmark">Cotton MS Vespasian A.vi</idno>
                   <altIdentifier type="system">
                      <idno type="MLGB3">6386</idno>
                   </altIdentifier>
                </msIdentifier>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <msItem>
-                     <title>Chronicon Dunelmensis Ecclesiae, etc.</title>
-                     <note type="MLGB3_generalNotes">Chr. Watson's hand occurs.</note>
-                     <note type="MLGB3_generalNotes">Art. 4–6 in catal.</note>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate when-custom="13XX" notBefore="1300" notAfter="1399" calendar="#gregorian">s. xiv</origDate>
-                  </origin>
-                  <provenance type="#c" cert="low"><orgName role="fmo" key="org_189">Durham. Benedictine
-                        cathedral priory of St Cuthbert</orgName></provenance>
-                  <provenance type="MLGB3_laterOwners">"Liber Christophori Watson Ætas 27" (fol.
-                     63r).</provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref target="https://searcharchives.bl.uk/catalog/041-001103162"
+                              >British Library Archives and Manuscripts Catalogue</ref></bibl>
+                     </listBibl>
+                  </listBibl>
                </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Fols. 61-89</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem>
+                        <title>Chronicon Dunelmensis Ecclesiae, etc.</title>
+                        <note type="MLGB3_generalNotes">Chr. Watson's hand occurs.</note>
+                        <note type="MLGB3_generalNotes">Art. 4–6 in catal.</note>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate when-custom="13XX" notBefore="1300" notAfter="1399"
+                           calendar="#gregorian">s. xiv</origDate>
+                     </origin>
+                     <provenance type="#c" cert="low"><orgName role="fmo" key="org_189">Durham.
+                           Benedictine cathedral priory of St Cuthbert</orgName></provenance>
+                     <provenance type="MLGB3_laterOwners"><q>Liber Christophori Watson Ætas 27</q>
+                        (fol. 63r).</provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Art. 10 [Fols. 162r–183r]</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <textLang mainLang="la">Latin</textLang>
+                        <title>Miracles of Simon de Montfort</title>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" notBefore="1375" notAfter="1424">s. xiv 3/4
+                           or s. xv 1/4</origDate>
+                     </origin>
+                     <provenance type="#rejected"><orgName role="fmo" key="org_199">Evesham,
+                           Worcestershire, Benedictine abbey of St Mary the Virgin and St
+                           Egwin</orgName><p>This attribution was originally included with a query
+                           in the first edition of Medieval Libraries of Great Britain (1941), with
+                           the contents indicated as the source of provenance evidence. However, the
+                           attribution did not appear in either the second edition (1964) or the
+                           Supplement (1987). There is a corresponding Medieval Libaries of Great
+                           Britain index card written in Neil Ker's handwriting, citing Halliwell,
+                              <title>Chronicle of William de Rishanger</title> (Camden Society).
+                           There is also a later note on the card: <q>Rejected MLGB3</q> [i.e.
+                           during 2010-2015].</p></provenance>
+                  </history>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-10-21">Record edited (Sian Witherden) to accomodate multipart manuscript
+            structure and to add rejected Evesham provenance for art. 10. Manuscript date for art.
+            10 of s. xiii ex (which has query on original Medieval Libraries of Great Britain index
+            card) changed to reflect British Library Archives and Manuscript catalogue. Folio
+            references for art. 10 supplied from the same source.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
