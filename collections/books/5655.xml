@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Addition of missing attribution for St Albans.</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -46,27 +51,55 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <title>Flores historiarum</title>
-                     <note type="MLGB3_generalNotes">Partly written at St Alban's.</note>
-                     <note type="MLGB3_generalNotes">Facs. by Hardy, Cat. of Materials, RS 3, pl.
-                        18.</note>
-                     <note type="MLGB3_generalNotes">Rebound.</note>
+                     <note type="MLGB3_generalNotes">Facsimile by Hardy, Cat. of Materials, RS 3,
+                        pl. 18.</note>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>Rebound.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate when-custom="12XX/13XX" notBefore="1200" notAfter="1399" calendar="#gregorian">s. xiii--xiv</origDate>
+                     <origDate when-custom="12XX/13XX" notBefore="1200" notAfter="1399"
+                        calendar="#gregorian">s. xiii-xiv</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="org_579">Westminster,
-                        Middlesex. Benedictine abbey of St Peter</orgName><p>Contains names of R.
-                        Teddington and T. Gardener, monks of Westminster in s. xv.</p><p>Marginal
-                        notes relating to Westminster.</p><p>'Liber ecclesie beati Petri
-                        Westmonasteriensi' or 'Liber Westmonasteriensi' is frequently written on the
-                        margins (RS ed. 1. xv) at beginning and end and in the middle.</p><p> </p></provenance>
+                  <provenance type="#e"><orgName role="fmo" key="org_579">Westminster, Middlesex.
+                        Benedictine abbey of St Peter</orgName><p>Contains names of R. Teddington
+                        and T. Gardener, monks of Westminster in s. xv. Marginal notes relating to
+                        Westminster. <q>Liber ecclesie beati Petri Westmonasteriensi</q> or <q>Liber
+                           Westmonasteriensi</q> is frequently written on the margins (RS ed. 1. xv)
+                        at beginning and end and in the middle.</p><p>Compare the following footnote
+                        in the second edition of Medieval Libraries of Great Britain (1964), p. 167
+                        n. 3: <q>Chetham 6712 belonged to Westminster abbey by s. xiii
+                     ex.</q></p></provenance>
+                  <provenance><orgName role="fmo" key="org_474">St Albans, Hertfordshire,
+                        Benedictine abbey of St Alban</orgName><p>This attribution was included in
+                        the second edition of Medieval Libraries of Great Britain (1964), and there
+                        were no relevant changes in the Supplement (1987). However, the attribution
+                        appears to have been overlooked during MLGB3 (2010-2015). No corresponding
+                        Medieval Libraries of Great Britain index card was found during data
+                        reconciliation work undertaken in 2026. There is a relevant footnote in the
+                        second edition (1964), p. 167, n. 9:</p>
+                     <p><q>These manuscripts contain writing in the hand of Matthew Paris: see R.
+                           Vaughan, 'The Handwriting of Matthew Paris', <title>Trans. Cambr. Bibl.
+                              Soc.</title>, i (1953), 390-92.</q></p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -74,6 +107,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-10-16">Record edited (Sian Witherden) to incorporate St Alban's
+            provenance.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

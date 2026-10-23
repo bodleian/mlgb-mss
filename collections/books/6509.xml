@@ -11,6 +11,10 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">New attribution for Lewes</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -45,24 +49,46 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <title>N. de Aquavilla, etc.</title>
+                     <author>N. de Aquavilla, etc.</author>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="1417" when="1417" calendar="#gregorian">1417 A.D.</origDate>
+                     <origDate when-custom="1417" when="1417" calendar="#gregorian">1417</origDate>
                   </origin>
-                  <provenance type="#i"><orgName role="fmo" key="org_622">Grimsby, Lincolnshire.
-                        Austin Friars</orgName><p>'Liber sermonum ex dono Reverendi in Christo
-                        dompni Joh. Danyell prioris tali cpndicione ut ex eo usum habeat quamdiu
-                        vixerit' (fol. 7r). According to an annotation in the LPL copy of MRJ, in
-                        Jan. 2001 Jmaes Carley identified Danyell as prior of the Austin friars at
-                        Grimsby.</p></provenance>
+                  <provenance type="#i" cert="low"><orgName role="fmo" key="org_622">Grimsby,
+                        Lincolnshire. Austin Friars</orgName><p>This attribution was first added
+                        during MLGB3 (2010-2015). A query was added to the attribution in 2026 when
+                        Andrew G. Watson's Lewes attribution was incorporated into this record (see
+                        below). MLGB3 recorded the following information in connection with the
+                        Grimsby attribution:</p><p>
+                        <q>Liber sermonum ex dono Reverendi in Christo dompni Joh. Danyell prioris
+                           tali condicione ut ex eo usum habeat quamdiu vixerit</q> (fol. 7r).
+                        According to an annotation in the Lambeth Palace Library copy of M. R.
+                        James, in January 2001 James Carley identified Danyell as prior of the
+                        Austin friars at Grimsby.</p></provenance>
+                  <provenance type="#e" cert="low"><orgName role="fmo" key="org_310">Lewes, Sussex,
+                        Cluniac priory of St Pancras</orgName><p>There is a Medieval Libraries of
+                        Great Britain index card for this attribution, written by Andrew G. Watson
+                        and crediting P. R. Robinson for the information. The card is dated 1993,
+                        and therefore postdates the Medieval Libraries of Great Britain Supplement
+                        (1987). The attribution appears to have been overlooked during MLGB3
+                        (2010-2015). The card cites the same inscription as above (under Grimsby),
+                        but instead identifies Danyell as prior of Lewes 1445-64, citing Emden,
+                           <title>BRUC</title> 177.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -70,6 +96,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-10-16">Record edited (Sian Witherden) to add Lewes attribution. The
+            certainty level for both attributions in this record has been changed to low.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>

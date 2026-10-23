@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9749">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record creation</resp>
+               <persName>Sian Witherden</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>England</country>
+                  <settlement>Alnwick</settlement>
+                  <repository>Alnwick Castle</repository>
+                  <idno type="shelfmark">Duke of Northumberland 449</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="enm">English</textLang>
+                  <msItem>
+                     <title key="work_5959">New Testament</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin> <origDate calendar="#gregorian" notAfter="9999">[date not
+                     specified]</origDate> </origin>
+                  <provenance type="#i" cert="low"><orgName role="fmo" key="">Thetford, Norfolk.
+                     Priory of St George, of Benedictine nuns</orgName><p>This attribution was
+                     included (with a query) in the second edition of Medieval Libraries of Great
+                     Britain (1964). There were no relevant changes in the Supplement (1987).
+                     However, the attribution appears to have been accidentally omitted from MLGB3
+                     (2010-2015). The corresponding Medieval Libraries of Great Britain index card
+                     (written by Ker) provides the following information: <q><q><persName role="fmo"
+                     >Katherina Methwold</persName> monaca</q>. See <title>HMC</title> III, p. 112.
+                     A nun of this name was at Thetford in 1492 and 1514 - see <title>Vis. Dioc.
+                     Norw.</title> ed. Jessopp (1888), pp. 33, 91.</q></p><p>Compare, more recently,
+                     Anne Clark Bartlett, <title>Male Authors, Female Readers Representation and
+                     Subjectivity in Middle English Devotional Literature</title> (Ithaca, 1995), p.
+                     170, where this manuscript is listed in an appendix entitled 'A descriptive
+                     list of extant books owned by medieval English nuns and convents'.
+                     </p></provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description compiled (Sian Witherden, 2026) from the following sources:<listBibl>
+                           <bibl>Anne Clark Bartlett, <title>Male Authors, Female Readers
+                              Representation and Subjectivity in Middle English Devotional
+                              Literature</title> (Ithaca, 1995).</bibl>
+                           <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’, card
+                              index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).</bibl>
+                           <bibl>Neil R. Ker, ed., <title><ref
+                              target="https://hdl.handle.net/2027/uva.x000937945">Medieval Libraries
+                              of Great Britain: A List of Surviving Books</ref></title>, Royal
+                              Historical Society Guides and Handbooks, 3 (London, 2nd edn,
+                              1964)</bibl>
+                           <bibl>Neil R. Ker, ed., <title><ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">Medieval
+                              Libraries of Great Britain: A List of Surviving Books</ref></title>,
+                              Royal Historical Society Guides and Handbooks, 15 (London, supplement,
+                              ed. Andrew G. Watson, 1987).</bibl>
+                           </listBibl> </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2026-10-16">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
