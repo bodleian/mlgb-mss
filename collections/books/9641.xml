@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9641">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="SW">
+               <resp when="2026">Transcription and encoding</resp>
+               <persName>Sian Witherden</persName>
+               <note>Transcription and encoding of index card</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace> <address>
+               <addrLine>Department of Special Collections</addrLine>
+               <addrLine>Bodleian Library</addrLine>
+               <street>Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <addrLine> <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                  Library</ref> </addrLine>
+               <addrLine> <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> </addrLine>
+               </address> </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement>Cambridge (MA)</settlement>
+                  <repository>Harvard University, Houghton Library</repository>
+                  <idno type="shelfmark">MS Lat 394</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <title>Psalterium cum canticis, credo, litaniis sanctorum etc.</title>
+                     <note>Fragmentary.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin> <origDate calendar="#gregorian" notBefore="1200" notAfter="1399"
+                     >s.xiii-xiv</origDate> </origin>
+                  <provenance type="#rejected"><orgName role="fmo" key="org_584">Whitby, Yorkshire,
+                     Benedictine abbey of St Peter and St Hilda</orgName><p>Listed as an untraced
+                     book under Whitby in the second edition of Medieval Libraries of Great Britain
+                     (1964), and again in the Supplement (1987). The manuscript was untraced when
+                     the corresponding Medieval Libraries of Great Britain index card was originally
+                     written. As such, the index card could only relay provenance evidence as
+                     reported in previous sales catalogues (see details of sales below).
+                     Specifically, the index card noted an inscription in a later hand, <q>Abbatia
+                     de Whitby in com. Ebor</q>, and the presence of Hilda and other saints in the
+                     litany. However, since the fragmentary Psalter reappeared in 2006, the Whitby
+                     attribution has been refuted. See Peter Kidd, <ref
+                     target="https://mssprovenance.blogspot.com/2022/03/the-whitby-psalter.html">The
+                     "Whitby" Psalter</ref>, mssprovenance blog, post dated 26 March 2022. Kidd
+                     cites Nigel Morgan, <title>English Monastic Litanies of the Saints after
+                     1100</title> (London, 2013), pp. 28-29: <q>The litany on ff. 25r-28r on
+                     examination has turned out to be a secular text of the use of York and in no
+                     way connected with Whitby</q>. In light of the aforementioned research, the
+                     Whitby attribution was changed from accepted to rejected during Medieval
+                     Libraries of Great Britain data reconciliation work in 2026.</p></provenance>
+                  <provenance type="MLGB3_laterOwners">Sold from library unstated at Sotheby's 14
+                     December 1911 (lot 394).</provenance>
+                  <provenance type="MLGB3_laterOwners">J. J. Leighton, Catalogue of Manuscripts
+                     (1912), no. 259.</provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">K. B. Starkie</persName>
+                     on binding.</provenance>
+                  <provenance type="MLGB3_laterOwners">Sotheby 8 March 1937 lot 1172 (<persName
+                     role="fmo">Lt. Col. W. E. Moss</persName> sale) to Dulau for £25. This was the
+                     location reported in the second edition of Medieval Libraries of Great Britain
+                     (1964). Compare a note on the index card in Ker's hand: <q>Wrote [i.e. to
+                     Dulau] 15.7.40, but whereabouts not known by D.</q> The following update was
+                     provided in the Medieval Libraries of Great Britain Supplement (1987):
+                     <q>Lt.-Col. Moss's psalter has been split up. One bifolium is owned by Prof. T
+                     Takamiya, Tokyo, and four leaves by Mr S. J. Keynes, London.</q></provenance>
+                  <provenance type="MLGB3_laterOwners">33 leaves purchased by Harvard University in
+                     2006 (further acquisition details in <ref
+                     target="https://id.lib.harvard.edu/alma/990098903280203941/catalog">Hollis
+                     catalogue entry</ref>). For other known fragments, see Peter Kidd, <ref
+                     target="https://mssprovenance.blogspot.com/p/the-whitby-psalter.html">Notes and
+                     Observations</ref>, mssprovenance blog (no date).</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description compiled (Sian Witherden, 2026) from the following sources:<listBibl>
+                           <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great Britain’, card
+                              index, Oxford, 1937–2025 (held at Oxford, Bodleian Library).</bibl>
+                           <bibl>Neil R. Ker, ed., <title><ref
+                              target="https://hdl.handle.net/2027/uva.x000937945">Medieval Libraries
+                              of Great Britain: A List of Surviving Books</ref></title>, Royal
+                              Historical Society Guides and Handbooks, 3 (London, 2nd edn,
+                              1964)</bibl>
+                           <bibl>Neil R. Ker, ed., <title><ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">Medieval
+                              Libraries of Great Britain: A List of Surviving Books</ref></title>,
+                              Royal Historical Society Guides and Handbooks, 15 (London, supplement,
+                              ed. Andrew G. Watson, 1987).</bibl>
+                           <bibl>Peter Kidd, <ref
+                              target="https://mssprovenance.blogspot.com/2022/03/the-whitby-psalter.html"
+                              >The "Whitby" Psalter</ref>, mssprovenance blog, posted dated 26 March
+                              2022; see also the associated <ref
+                              target="https://mssprovenance.blogspot.com/p/the-whitby-psalter.html"
+                              >Notes and Observations</ref> (no date).</bibl>
+                           </listBibl> </source>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates> <bibl subtype="full" type="digital-facsimile"><ref
+                     target="https://nrs.lib.harvard.edu/URN-3:FHCL.HOUGH:10198922:VIEW?n=7">Harvard
+                     University<title/></ref> <note>(full digital facsimile)</note></bibl> </surrogates>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="INTERNET">
+                        <head>Online resources:</head>
+                        <bibl><ref
+                           target="https://id.lib.harvard.edu/alma/990098903280203941/catalog"
+                           >HOLLIS Catalogue entry</ref></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+         <!-- Index card images (box 10): Test 3_0461.jpg, Test 3_0461.jpg -->
+      </fileDesc>
+      <revisionDesc>
+         <change when="2026-10-21">Record created.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

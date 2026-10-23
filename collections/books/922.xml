@@ -11,6 +11,11 @@
                <persName>Alex Hitchman</persName>
                <note>Conversion from database to TEI</note>
             </respStmt>
+            <respStmt xml:id="SW">
+               <resp when="2026">Record improvement</resp>
+               <persName>Sian Witherden</persName>
+               <note>Addition of missing attribution</note>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -50,25 +55,41 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate when-custom="138X/139X" notBefore="1380" notAfter="1399" calendar="#gregorian">s. xiv ex</origDate>
+                     <origDate when-custom="138X/139X" notBefore="1380" notAfter="1399"
+                        calendar="#gregorian">s. xiv ex</origDate>
                   </origin>
-                  <provenance type="#e"><orgName role="fmo" key="org_95">Cambridge,
-                        Cambridgeshire. Dominican convent</orgName><p>'Iste liber est fratris
-                        Willelmi Picwurth ordinis predicatorum quem propria manu scripsit quando
-                        erat studens in conuentu Londoniarum et vol. quod incatinetur in communi
-                        libraria Cantebrig'' (fol. av, s. xiv/xv). 'Frater Willelmus Pykworth
-                        prouincialis Anglie'; 'Frater Simon Lacy est bonus puer'
+                  <provenance type="#e"><orgName role="fmo" key="org_95">Cambridge, Cambridgeshire.
+                        Dominican convent</orgName><p><q>Iste liber est fratris Willelmi Picwurth
+                           ordinis predicatorum quem propria manu scripsit quando erat studens in
+                           conuentu Londoniarum et vol. quod incatinetur in communi libraria
+                           Cantebrig'</q> (fol. av, s. xiv/xv). <q>Frater Willelmus Pykworth
+                           prouincialis Anglie</q>; <q>Frater Simon Lacy est bonus puer</q>
                         (ibid.).</p><p>William Pykworth was prior-provincial 1397 x
                      1402.</p></provenance>
-                  <provenance type="MLGB3_laterOwners">Marcello Cervini (1501–1555), cardinal, his
-                     nos. 141 and 464. </provenance>
-                  <provenance type="MLGB3_laterOwners">Gugliemo Sirleto (1514–1585), cardinal and
-                     scholar, his no. philos. 30.</provenance>
+                  <provenance type="#i"><orgName role="fmo" key="org_333">London. Dominican
+                        convent</orgName><p>This attribution was listeed in the second edition of
+                        Medieval Libraries of Great Britain (1964), and there were no relevant
+                        changes in the Supplement (1987). However, it appears to have been
+                        accidentally omitted from MLGB3 (2010-2015). For the supporting evidence,
+                        compare the attribution for Cambridge Dominicans above.</p></provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Marcello
+                        Cervini</persName> (1501–1555), cardinal, his nos. 141 and 464. </provenance>
+                  <provenance type="MLGB3_laterOwners"><persName role="fmo">Gugliemo
+                        Sirleto</persName> (1514–1585), cardinal and scholar, his no. philos.
+                     30.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Neil R. Ker, ed., <ref target="https://hdl.handle.net/2027/uiug.30112113075359"><title>Medieval Libraries of Great Britain: A List of Surviving Books</title></ref>, Royal Historical Society Guides and Handbooks, 3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945">2nd edn, 1964</ref>; <ref target="https://hdl.handle.net/2027/mdp.39015021966216">supplement, ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and James M. W. Willoughby, 2010–15).</source>
+                        <source>Neil R. Ker, ed., <ref
+                              target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                 ><title>Medieval Libraries of Great Britain: A List of Surviving
+                                 Books</title></ref>, Royal Historical Society Guides and Handbooks,
+                           3 (London, 1941; <ref target="https://hdl.handle.net/2027/uva.x000937945"
+                              >2nd edn, 1964</ref>; <ref
+                              target="https://hdl.handle.net/2027/mdp.39015021966216">supplement,
+                              ed. Andrew G. Watson, 1987</ref>; digital edn, ed. Richard Sharpe and
+                           James M. W. Willoughby, 2010–15).</source>
                      </recordHist>
                   </adminInfo>
                </additional>
@@ -76,6 +97,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-10-16">Record edited (Sian Witherden) to add missing London Dominican
+            convent attribution.</change>
          <change when="2025-05-21">Record created.</change>
       </revisionDesc>
    </teiHeader>
