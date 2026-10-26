@@ -22,6 +22,13 @@ declare variable $allinstances :=
         let $roles := if ($instance/self::tei:author) then ('aut') else tokenize($instance/@role/data(), ' ')
         let $datesoforigin := distinct-values($roottei//tei:origin//tei:origDate/normalize-space())
         let $placesoforigin := distinct-values($roottei//tei:origin//tei:origPlace/normalize-space())
+        let $repository := normalize-space($roottei/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:repository[1]/text())
+        let $settlement := normalize-space($roottei/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:settlement[1]/text())
+        let $parts := (
+            if (normalize-space($settlement)) then $settlement else (),
+            if (normalize-space($repository)) then $repository else ()
+            ),
+            $currentLocation := string-join($parts, ', ')        
 
          (: booklist title :)
         let $titlestmt := $instance/ancestor::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt
@@ -57,7 +64,11 @@ declare variable $allinstances :=
                 <booklink>{ concat(
                         '/catalog/', 
                         $roottei/@xml:id/data(), 
-                        '|', 
+                        '|', '', '|', 
+                        if ($currentLocation) then 
+                            concat($currentLocation, ', ') 
+                        else    
+                            '',                    
                         ($shelfmark, $copycode)[1],
                         if ($roottei//tei:sourceDesc//tei:surrogates/tei:bibl[@type=('digital-fascimile','digital-facsimile') and @subtype='full']) then
                             ' (Digital facsimile online)'
