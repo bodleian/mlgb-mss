@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_9759">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <funder>British Academy, Neil Ker Memorial Fund NK25\250032</funder>
+                <respStmt xml:id="SW">
+                    <resp when="2026">Record creation</resp>
+                    <persName>Sian Witherden</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                                >Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>Jesus College</repository>
+                        <idno type="shelfmark">MS 48</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                        <msItem>
+                            <author key="person_505">Boethius</author>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin><origDate calendar="#Gregorian" notBefore="1200" notAfter="1499">s.
+                                xiii and xv</origDate></origin>
+                        <provenance><orgName role="fmo" key="org_189">Durham, Benedictine
+                                cathedral priory of St Cuthbert</orgName>
+                            <p>This attribution was rejected in the first edition of Medieval
+                                Libraries of Great Britain (1941). However, the attribution was
+                                later accepted in the second edition (1964). There were no relevant
+                                changes to this attribution in the Supplement (1987), at which point
+                                Durham was entirely revisited by A. J. Piper. The attribution
+                                appears to have been inadvertently omitted from MLGB3 (2010-2015).
+                                The corresponding Medieval Libraries of Great Britain index card is
+                                outdated, and corresponds to the original rejection. The card shows
+                                that there were initially doubts about whether the pressmark, O/ii,
+                                was connected with Durham. For comparison, MS 48 was listed
+                                positively with this Durham pressmark in both the second edition
+                                (1964) and the Supplement (1987).</p>
+                            <q type="pressmark">O/ii</q></provenance>
+                        <provenance type="MLGB3_laterOwners">Given to Jesus College by <persName
+                                role="fmo">Man</persName>.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description compiled (Sian Witherden, 2026) from the
+                                    following sources:<listBibl>
+                                        <bibl>Neil R. Ker, et al., ‘Medieval Libraries of Great
+                                            Britain’, card index, Oxford, 1937–2025 (held at Oxford,
+                                            Bodleian Library).</bibl>
+                                        <bibl>Neil R. Ker, ed., <ref
+                                                target="https://hdl.handle.net/2027/uiug.30112113075359"
+                                                  ><title>Medieval Libraries of Great Britain: A
+                                                  List of Surviving Books</title></ref>, Royal
+                                            Historical Society Guides and Handbooks, 3 (London,
+                                            1941; <ref
+                                                target="https://hdl.handle.net/2027/uva.x000937945"
+                                                >2nd edn, 1964</ref>; <ref
+                                                target="https://hdl.handle.net/2027/mdp.39015021966216"
+                                                >supplement, ed. Andrew G. Watson, 1987</ref>;
+                                            digital edn, ed. Richard Sharpe and James M. W.
+                                            Willoughby, 2010–15).</bibl>
+                                    </listBibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-10-29">Record created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
